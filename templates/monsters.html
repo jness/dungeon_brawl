@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/monsters.css') }}">
+{% endblock %}
+
+{% block content %}
+<body>
+
+  <div class="container">
+
+    <table id="monsters" class="table table-hover" style="width:100%">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Type</th>
+          <th scope="col">Challenge</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        {% for monster in monsters %}
+          <tr>
+            <td><a href='/monster/{{ monster.name }}'>{{ monster.name }}</a></td>
+            <td>{{ monster.type }}</td>
+            <td>{{ monster.challenge_rating }}</td>
+          </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+{% endblock %}

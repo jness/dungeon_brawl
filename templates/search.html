@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}">
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+  <form class="form-search" action="/search" method="POST">
+
+    <h1 class="h3 mb-3 font-weight-normal">Find a Monster</h1>
+    <label for="inputName" class="sr-only">Name</label>
+    <input id="inputName" class="form-control" type="text" name="name" placeholder="Name" required autofocus>
+
+    <br>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+    <p class="mt-5 mb-3 text-muted">Dungeon Brawl</p>
+
+  </form>
+</body>
+{% endblock %}

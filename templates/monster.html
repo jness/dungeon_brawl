@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/monster.css') }}">
+{% endblock %}
+
+{% block content %}
+<body>
+  <div class="container" style="padding-top: 0px ; padding-left: 100px;">
+
+    <h1><strong>{{ monster.name }}</strong></h1>
+    <h6>{{ monster.size|title }} {{ monster.type|title }}
+      {% if monster.subtype %}
+        ({{ monster.subtype|title }})
+      {% endif %}
+
+      , {{ monster.alignment|title }}
+    </h6>
+
+    <hr>
+
+    <h6>
+      <p><strong>Armor Class</strong> <small>{{ monster.armor_class }}</small></p>
+      <p><strong>Hit Points</strong> <small>{{ monster.hit_points }} ({{ monster.hit_dice }})</small></p>
+      <p><strong>Speed</strong> <small>{{ monster.speed }}</small></p>
+    </h6>
+
+    <hr>
+
+    <h6>
+      <table width=50%>
+        <thead>
+          <tr>
+            <th><strong>STR</strong></th>
+            <th><strong>DEX</strong></th>
+            <th><strong>CON</strong></th>
+            <th><strong>INT</strong></th>
+            <th><strong>WIS</strong></th>
+            <th><strong>CHA</strong></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><small>{{ monster.strength }}</small></td>
+            <td><small>{{ monster.dexterity }}</small></td>
+            <td><small>{{ monster.constitution }}</small></td>
+            <td><small>{{ monster.intelligence }}</small></td>
+            <td><small>{{ monster.wisdom }}</small></td>
+            <td><small>{{ monster.charisma }}</small></td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </h6>
+
+    <hr>
+
+    <h6>
+      <p><strong>Saving Throws</strong>
+        <small>
+
+          {% if monster.strength_save %}
+            Str +{{ monster.strength_save }},
+          {% endif %}
+
+          {% if monster.dexterity_save %}
+            Dex +{{ monster.dexterity_save }},
+          {% endif %}
+
+          {% if monster.constitution_save %}
+            Con +{{ monster.constitution_save }},
+          {% endif %}
+
+          {% if monster.intelligence_save %}
+            Int +{{ monster.intelligence_save }},
+          {% endif %}
+
+          {% if monster.wisdom_save %}
+            Wis +{{ monster.wisdom_save }},
+          {% endif %}
+
+          {% if monster.charisma_save %}
+            Cha +{{ monster.charisma_save }}
+          {% endif %}
+
+        </small>
+      </p>
+
+      <p>
+        <strong>Skills</strong>
+          <small>TODO</small>
+      </p>
+
+      <h6>
+        <p><strong>Senses</strong> <small>{{ monster.senses }}</small></p>
+        <p><strong>Languages</strong> <small>{{ monster.languages }}</small></p>
+        <p><strong>Challenge</strong> <small>{{ monster.challenge_rating }} ({{ monster.experience_points}} XP)</small></p>
+      </h6>
+
+    </h6>
+
+    <hr>
+
+    {% for ability in monster.special_abilities %}
+      <p>
+        <strong>{{ ability.name }}</strong>: {{ ability.desc }}
+      </p>
+    {% endfor %}
+
+    <hr>
+
+    <h4><strong>Actions</strong></h4>
+    <br>
+
+    {% for action in monster.actions %}
+      <p>
+        <strong>{{ action.name }}</strong>: {{ action.desc }}
+      </p>
+    {% endfor %}
+
+    <h4><strong>Legendary Actions</strong></h4>
+    <br>
+
+    {% for action in monster.legendary_actions %}
+      <p>
+        <strong>{{ action.name }}</strong>: {{ action.desc }}
+      </p>
+    {% endfor %}
+
+  </div>
+</body>
+{% endblock %}
