@@ -4,6 +4,10 @@ A simple [Flask](http://flask.pocoo.org/) + [MongoDB](https://www.mongodb.com/)
 application for reading [Dungons and Dragons](http://dnd.wizards.com/) monster
 stats.
 
+![alt text](https://i.imgur.com/ypveomF.png")
+
+![alt text](https://i.imgur.com/0I50nq1.png")
+
 ## Requirements
 
  * Docker
