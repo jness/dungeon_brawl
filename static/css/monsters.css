@@ -1,14 +1,5 @@
 
-.sorting_asc::before,
-.sorting_desc::before {
-   content:"" !important;
-}
-
-.sorting_asc::after,
-.sorting_desc::after {
-   content:"" !important;
-}
-
-.sorting::after {
-   content:"" !important;
+body {
+  padding-top: 85px;
+  background-color: #f5f5f5;
 }

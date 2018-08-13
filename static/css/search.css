@@ -26,6 +26,17 @@ body {
   padding: 10px;
   font-size: 16px;
 }
+
+.form-search .form-select {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .form-search .form-control:focus {
   z-index: 2;
 }

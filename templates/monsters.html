@@ -5,33 +5,31 @@
 {% endblock %}
 
 {% block content %}
-<body>
 
-  <div class="container">
+<div class="container">
 
-    <table id="monsters" class="table table-hover" style="width:100%">
-      <thead>
+  <table id="table" class="table table-striped" style="width:100%">
+
+      <tr>
+        <th><a href='?sort=name{{ params }}'>Name</a></th>
+        <th><a href='?sort=type{{ params }}'>Type</a></th>
+        <th><a href='?sort=size{{ params }}'>Size</a></th>
+        <th><a href='?sort=alignment{{ params }}'>Alignment</a></th>
+        <th><a href='?sort=challenge_rating_numeric{{ params }}'>Challenge</a></th>
+      </tr>
+
+      {% for monster in monsters %}
         <tr>
-          <th scope="col">Name</th>
-          <th scope="col">Type</th>
-          <th scope="col">Challenge</th>
+          <td><a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a></td>
+          <td>{{ monster.type|title }}</td>
+          <td>{{ monster.size|title }}</td>
+          <td>{{ monster.alignment|title }}</td>
+          <td>{{ monster.challenge_rating }}</td>
         </tr>
-      </thead>
+      {% endfor %}
 
-      <tbody>
+  </table>
 
-        {% for monster in monsters %}
-          <tr>
-            <td><a href='/monster/{{ monster.name }}'>{{ monster.name }}</a></td>
-            <td>{{ monster.type }}</td>
-            <td>{{ monster.challenge_rating }}</td>
-          </tr>
-        {% endfor %}
+</div>
 
-      </tbody>
-    </table>
-
-  </div>
-
-</body>
 {% endblock %}

@@ -7,7 +7,31 @@
 
 </head>
 
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/search">Search</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
 {% block content %}{% endblock %}
+</body>
 
 <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
