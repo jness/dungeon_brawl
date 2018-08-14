@@ -1,0 +1,116 @@
+{
+  "name": "Yuan-ti Mind Whisperer",
+  "slug_name": "yuan-ti-mind-whisperer",
+  "tags": [
+    "medium",
+    "monstrosity",
+    "cr4",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "monstrosity",
+  "subtype": "shapechanger, yuan-ti",
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "71",
+  "hit_dice": "13d8+13",
+  "speed": "30 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": "Wis +4, Cha +5",
+  "skills": "Deception +5, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft. (penetrates magical darkness)",
+  "languages": "Abyssal, Common, Draconic",
+  "challenge_rating": "4",
+  "challenge_rating_decimal": 4.0,
+  "experience": "1,100 XP",
+  "special_abilities": [
+    {
+      "name": "Shapechanger.",
+      "descriptions": [
+        "The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. If it dies, it stays in its current form."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Yuan-ti Form Only).",
+      "descriptions": [
+        "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
+        "At will: animal friendship (snakes only)",
+        "3/day: suggestion"
+      ]
+    },
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The yuan-ti has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Mind Fangs (2/Day).",
+      "descriptions": [
+        "The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) psychic damage to the target."
+      ]
+    },
+    {
+      "name": "Spellcasting (Yuan-ti Form Only).",
+      "descriptions": [
+        "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+        "Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll),friends, message, minor illusion, poison spray, prestidigitation",
+        "1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script"
+      ]
+    },
+    {
+      "name": "Sseth's Blessing.",
+      "descriptions": [
+        "When the yuan-ti reduces an enemy to 0 hit points, the yuan-ti gains 9 temporary hit points."
+      ]
+    },
+    {
+      "name": "Variant: Chameleon Skin.",
+      "descriptions": [
+        "The yuan-ti has advantage on Dexterity (Stealth) checks made to hide."
+      ]
+    },
+    {
+      "name": "Variant: Shed Skin (1/Day).",
+      "descriptions": [
+        "The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack (Yuan-ti Form Only).",
+      "descriptions": [
+        "The yuan-ti makes one bite attack and one scimitar attack."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) poison damage."
+      ]
+    },
+    {
+      "name": "Scimitar (Yuan-ti Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage."
+      ]
+    }
+  ]
+}

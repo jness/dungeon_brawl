@@ -1,0 +1,64 @@
+{
+  "name": "Jackal",
+  "slug_name": "jackal",
+  "tags": [
+    "small",
+    "beast",
+    "cr0",
+    "monster-manual"
+  ],
+  "size": "Small",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "3",
+  "hit_dice": "1d6",
+  "speed": "40 ft.",
+  "strength": "8",
+  "strength_modifier": "-1",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "3",
+  "intelligence_modifier": "-4",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "6",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell.",
+      "descriptions": [
+        "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics.",
+      "descriptions": [
+        "The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage."
+      ]
+    }
+  ]
+}

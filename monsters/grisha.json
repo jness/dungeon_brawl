@@ -1,0 +1,68 @@
+{
+  "name": "Grisha",
+  "slug_name": "grisha",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "out-of-the-abyss"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "damaran human",
+  "aligntment": "chaotic evil",
+  "armor_class": "18",
+  "armor_class_type": "chain mail, shield",
+  "hit_points": "33",
+  "hit_dice": "6d8+6",
+  "speed": "30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": "Wis +4, Cha +5",
+  "skills": "Persuasion +5, Religion +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Undercommon",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:",
+        "Cantrips (at will): guidance, light, sacred flame, thaumaturgy",
+        "1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith",
+        "2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon",
+        "3rd level (3 slots): bestow curse, dispel magic, spirit guardian"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Grisha makes two attacks with his +1 flail."
+      ]
+    },
+    {
+      "name": "+1 Flail.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage"
+      ]
+    }
+  ]
+}

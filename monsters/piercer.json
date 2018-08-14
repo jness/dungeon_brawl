@@ -1,0 +1,64 @@
+{
+  "name": "Piercer",
+  "slug_name": "piercer",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr1/2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "22",
+  "hit_dice": "3d8+9",
+  "speed": "5 ft., climb 5 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "1",
+  "intelligence_modifier": "-5",
+  "wisdom": "7",
+  "wisdom_modifier": "-2",
+  "charisma": "3",
+  "charisma_modifier": "-4",
+  "saving_throws": null,
+  "skills": "Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 30 ft., darkvision 60 ft.",
+  "languages": null,
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "False Appearance.",
+      "descriptions": [
+        "While the piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite."
+      ]
+    },
+    {
+      "name": "Spider Climb.",
+      "descriptions": [
+        "The piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Drop.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, one creature directly underneath the piercer. Hit: 3 (1d6) piercing damage per 10 feet fallen, up to 21 (6d6). Miss: The piercer takes half the normal falling damage for the distance fallen."
+      ]
+    }
+  ]
+}

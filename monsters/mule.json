@@ -1,0 +1,64 @@
+{
+  "name": "Mule",
+  "slug_name": "mule",
+  "tags": [
+    "medium",
+    "beast",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "10",
+  "armor_class_type": null,
+  "hit_points": "11",
+  "hit_dice": "2d8+2",
+  "speed": "40 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Beast of Burden.",
+      "descriptions": [
+        "The mule is considered to be a Large animal for the purpose of determining its carrying capacity."
+      ]
+    },
+    {
+      "name": "Sure-Footed.",
+      "descriptions": [
+        "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hooves.",
+      "descriptions": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+      ]
+    }
+  ]
+}

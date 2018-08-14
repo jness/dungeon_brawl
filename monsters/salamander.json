@@ -1,0 +1,76 @@
+{
+  "name": "Salamander",
+  "slug_name": "salamander",
+  "tags": [
+    "large",
+    "elemental",
+    "cr5",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "elemental",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "90",
+  "hit_dice": "12d10+24",
+  "speed": "30 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": "cold",
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Ignan",
+  "challenge_rating": "5",
+  "challenge_rating_decimal": 5.0,
+  "experience": "1,800 XP",
+  "special_abilities": [
+    {
+      "name": "Heated Body.",
+      "descriptions": [
+        "A creature that touches the salamander or hits it with a melee attack while within 5 ft. of it takes 7 (2d6) fire damage."
+      ]
+    },
+    {
+      "name": "Heated Weapons.",
+      "descriptions": [
+        "Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack)."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The salamander makes two attacks: one with its spear and one with its tail."
+      ]
+    },
+    {
+      "name": "Spear.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
+      ]
+    },
+    {
+      "name": "Tail.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets."
+      ]
+    }
+  ]
+}

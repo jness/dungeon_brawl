@@ -1,0 +1,77 @@
+{
+  "name": "Wight",
+  "slug_name": "wight",
+  "tags": [
+    "medium",
+    "undead",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "undead",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "studded leather",
+  "hit_points": "45",
+  "hit_dice": "6d8+18",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Perception +3, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": "necrotic, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "special_abilities": [
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+      ]
+    },
+    {
+      "name": "Life Drain.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+        "A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time."
+      ]
+    },
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+      ]
+    },
+    {
+      "name": "Longbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      ]
+    }
+  ]
+}

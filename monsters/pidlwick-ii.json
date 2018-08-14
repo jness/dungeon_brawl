@@ -1,0 +1,64 @@
+{
+  "name": "Pidlwick II",
+  "slug_name": "pidlwick-ii",
+  "tags": [
+    "small",
+    "construct",
+    "cr1/4",
+    "curse-of-strahd"
+  ],
+  "size": "Small",
+  "type": "construct",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "10",
+  "hit_dice": "3d6",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "8",
+  "intelligence_modifier": "-1",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Performance +3",
+  "damage_resistances": null,
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "paralyzed, petrified, poisoned",
+  "senses": null,
+  "languages": "understands Common but doesn't speak and can't read or write",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Ambusher.",
+      "descriptions": [
+        "During the first round of combat, Pidlwick II has advantage on attack rolls against any creature that hasn't had a turn yet."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Club.",
+      "descriptions": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Dart.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+      ]
+    }
+  ]
+}

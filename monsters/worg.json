@@ -1,0 +1,58 @@
+{
+  "name": "Worg",
+  "slug_name": "worg",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr1/2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "13",
+  "armor_class_type": "natural armor",
+  "hit_points": "26",
+  "hit_dice": "4d10+4",
+  "speed": "50 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "7",
+  "intelligence_modifier": "-2",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Perception +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Goblin, Worg",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell.",
+      "descriptions": [
+        "The worg has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ]
+    }
+  ]
+}

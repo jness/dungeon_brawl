@@ -17,22 +17,20 @@ stats.
  * Docker
  * docker-compose
 
-## Populate database
+## Database
 
-The Mongo database is populated with the `monsters.json` file
-and the `mongoimport` command.
+The Mongo database is populated with new json documents
+from the `monsters/` directory on each run.
 
-Run the following command within the repository directory:
-
-> $ docker-compose run web mongoimport -h mongo -u root -p password -d dungeon_brawl -c monsters --file monsters.json --authenticationDatabase admin --jsonArray
-
-Then make sure all docker containers are stopped:
+If you need to purge this database merely stop the containers:
 
 > $ docker-compose down
 
+Then delete the the `mongo_data/` directory.
+
 ## Running server
 
-Once the database has been populated merely run `docker-compose up`
+To start the application:
 
 > $ docker-compose up
 

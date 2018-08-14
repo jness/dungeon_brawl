@@ -1,0 +1,73 @@
+{
+  "name": "Markham Southwell",
+  "slug_name": "markham-southwell",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr0",
+    "storm-kings-thunder"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "turami human",
+  "aligntment": "lawful good",
+  "armor_class": "17",
+  "armor_class_type": "splint",
+  "hit_points": "58",
+  "hit_dice": "9d8+18",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "16",
+  "wisdom_modifier": "+3",
+  "charisma": "14",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Perception +5, Survival +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Roleplaying Information.",
+      "descriptions": [
+        "Sheriff Markham of Bryn Shander is a brawny, likable man of few words. Nothing is more important to him than protecting Icewind Dale. He judges others by their actions, not their words.",
+        "Ideal: \"All people deserve to be treated with dignity.\"",
+        "Bond: \"Duvessa is a natural leader, but she needs help. That's my job.\"",
+        "Flaw: \"I bury my emotions and have no interest in small talk.\""
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Markham makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage, or 7 (1d10+2) slashing damage if used with two hands."
+      ]
+    },
+    {
+      "name": "Heavy Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10+1) piercing damage. Markham carries twenty crossbow bolts."
+      ]
+    }
+  ]
+}

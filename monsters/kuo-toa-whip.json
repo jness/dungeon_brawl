@@ -1,0 +1,96 @@
+{
+  "name": "Kuo-Toa Whip",
+  "slug_name": "kuo-toa-whip",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "kuo-toa",
+  "aligntment": "neutral evil",
+  "armor_class": "11",
+  "armor_class_type": "natural armor",
+  "hit_points": "65",
+  "hit_dice": "10d8+20",
+  "speed": "32 ft., swim 30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +6, Religion +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Undercommon",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The kuo-toa can breathe air and water."
+      ]
+    },
+    {
+      "name": "Otherwordly Perception.",
+      "descriptions": [
+        "The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+      ]
+    },
+    {
+      "name": "Slippery.",
+      "descriptions": [
+        "The kuo-toa has advantage on ability checks and saving throws made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: ",
+        "* Cantrips (at will): sacred flame, thaumaturgy",
+        "* 1st level (3 slots): bane, shield of faith"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The kuo-toa makes two attacks: one with its bite and one with its pincer staff."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Pincer Staff.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Derro",
+  "slug_name": "derro",
+  "tags": [
+    "small",
+    "humanoid",
+    "cr1/4",
+    "out-of-the-abyss"
+  ],
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "derro",
+  "aligntment": "chaotic evil",
+  "armor_class": "13",
+  "armor_class_type": "leather armor",
+  "hit_points": "13",
+  "hit_dice": "3d6+3",
+  "speed": "30 ft.",
+  "strength": "9",
+  "strength_modifier": "-1",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "5",
+  "wisdom_modifier": "-3",
+  "charisma": "9",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Dwarvish, Undercommon",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Insanity.",
+      "descriptions": [
+        "The derro has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The derro has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hooked Shortspear.",
+      "descriptions": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone."
+      ]
+    },
+    {
+      "name": "Light Repeating Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage."
+      ]
+    }
+  ]
+}

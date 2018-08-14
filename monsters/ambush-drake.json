@@ -1,0 +1,64 @@
+{
+  "name": "Ambush Drake",
+  "slug_name": "ambush-drake",
+  "tags": [
+    "medium",
+    "dragon",
+    "cr1/2",
+    "tyranny-of-dragons"
+  ],
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "13",
+  "armor_class_type": "natural armor",
+  "hit_points": "22",
+  "hit_dice": "4d6+8",
+  "speed": "30 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "4",
+  "intelligence_modifier": "-3",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "6",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +4",
+  "damage_resistances": "poison",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Draconic but can't speak it",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Pack Tactics.",
+      "descriptions": [
+        "The drake has advantage on an attack roll against a creature if at least one of the drake's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Surprise Attack.",
+      "descriptions": [
+        "If the drake surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+      ]
+    }
+  ]
+}

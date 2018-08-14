@@ -1,0 +1,64 @@
+{
+  "name": "Giant Boar",
+  "slug_name": "giant-boar",
+  "tags": [
+    "large",
+    "beast",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "12",
+  "armor_class_type": "natural armor",
+  "hit_points": "42",
+  "hit_dice": "5d10+5",
+  "speed": "40 ft.",
+  "strength": "17",
+  "strength_modifier": "+3",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "7",
+  "wisdom_modifier": "-2",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Charge.",
+      "descriptions": [
+        "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tusk.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+      ]
+    }
+  ]
+}

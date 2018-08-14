@@ -1,0 +1,69 @@
+{
+  "name": "Sildar Hallwinter",
+  "slug_name": "sildar-hallwinter",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1",
+    "lost-mine-of-phandelver"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral good",
+  "armor_class": "16",
+  "armor_class_type": "chain mail",
+  "hit_points": "27",
+  "hit_dice": "5d8+5",
+  "speed": "30 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": "Str +3, Con +3",
+  "skills": "Perception +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Sildar makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+      ]
+    },
+    {
+      "name": "Heavy Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +2 to hit, range 100 ft./400 ft., one target. Hit: 5 (1d10) piercing damage.",
+        "**Reactions**"
+      ]
+    },
+    {
+      "name": "Parry.",
+      "descriptions": [
+        "When an attacker hits Sildar with a melee attack and Sildar can see the attacker, he can roll 1d6 and add the number rolled to his AC against the triggering attack, provided that he's wielding a melee weapon."
+      ]
+    }
+  ]
+}

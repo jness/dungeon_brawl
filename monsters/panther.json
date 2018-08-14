@@ -1,0 +1,70 @@
+{
+  "name": "Panther",
+  "slug_name": "panther",
+  "tags": [
+    "medium",
+    "beast",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "13",
+  "hit_dice": "3d8",
+  "speed": "50 ft., climb 40 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "3",
+  "intelligence_modifier": "-4",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +6",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Smell.",
+      "descriptions": [
+        "The panther has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Pounce.",
+      "descriptions": [
+        "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Weretiger",
+  "slug_name": "weretiger",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "aligntment": "neutral",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "120",
+  "hit_dice": "16d8+48",
+  "speed": "30 ft. (40 ft. in tiger form)",
+  "strength": "17",
+  "strength_modifier": "+3",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +5, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Common (can't speak in tiger form)",
+  "challenge_rating": "4",
+  "challenge_rating_decimal": 4.0,
+  "experience": "1,100 XP",
+  "special_abilities": [
+    {
+      "name": "Shapechanger.",
+      "descriptions": [
+        "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell.",
+      "descriptions": [
+        "The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    },
+    {
+      "name": "Pounce (Tiger or Hybrid Form Only).",
+      "descriptions": [
+        "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only).",
+      "descriptions": [
+        "In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite (Tiger or Hybrid Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy."
+      ]
+    },
+    {
+      "name": "Claw (Tiger or Hybrid Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+      ]
+    },
+    {
+      "name": "Scimitar (Humanoid or Hybrid Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      ]
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only).",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      ]
+    }
+  ]
+}

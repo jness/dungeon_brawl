@@ -1,0 +1,94 @@
+{
+  "name": "Kuo-Toa Monitor",
+  "slug_name": "kuo-toa-monitor",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "kuo-toa",
+  "aligntment": "neutral evil",
+  "armor_class": "13",
+  "armor_class_type": "natural armor, unarmored defense",
+  "hit_points": "65",
+  "hit_dice": "10d8+20",
+  "speed": "33 ft., swim 30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +6, Religion +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Undercommon",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The kuo-toa can breathe air and water."
+      ]
+    },
+    {
+      "name": "Otherwordly Perception.",
+      "descriptions": [
+        "The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+      ]
+    },
+    {
+      "name": "Slippery.",
+      "descriptions": [
+        "The kuo-toa has advantage on ability checks and saving throws made to escape a grapple."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Unarmored Defense.",
+      "descriptions": [
+        "The kuo-toa adds its Wisdom modifier to its armor class."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The kuo-toa makes one bite attack and two unarmed strikes."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Unarmed Strike.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn."
+      ]
+    }
+  ]
+}

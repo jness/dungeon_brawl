@@ -1,0 +1,103 @@
+{
+  "name": "Thri-kreen (Psionic)",
+  "slug_name": "thri-kreen-psionic",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "thri-kreen",
+  "aligntment": "chaotic neutral",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "33",
+  "hit_dice": "6d8+6",
+  "speed": "40 ft.",
+  "strength": "12",
+  "strength_modifier": "+1",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "8",
+  "intelligence_modifier": "-1",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +3, Stealth +4, Survival +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Thri-kreen, telepathy 60 ft.",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Chameleon Carapace.",
+      "descriptions": [
+        "The thri-kreen can change the color of its carapace to match the color and texture of its surroundings. As a result, it has advantage on Dexterity (Stealth) checks made to hide."
+      ]
+    },
+    {
+      "name": "Standing Leap.",
+      "descriptions": [
+        "The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting (Psionics).",
+      "descriptions": [
+        "The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components: ",
+        "At will: mage hand (the hand is invisible)",
+        "2/day each: blur, magic weapon",
+        "1/day: invisibility (self only)"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The thri-kreen makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is also paralyzed while poisoned in this way. The poisoned target can repeat the saving throw on each of its turns, ending the effect on itself on a success."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage."
+      ]
+    },
+    {
+      "name": "Variant: Weapons Multiattack.",
+      "descriptions": [
+        "The thri-kreen makes two gythka attacks or two chatkcha attacks."
+      ]
+    },
+    {
+      "name": "Variant: Gythka.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+      ]
+    },
+    {
+      "name": "Variant: Chatkcha.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+      ]
+    }
+  ]
+}

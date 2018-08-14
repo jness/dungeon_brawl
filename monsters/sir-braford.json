@@ -1,0 +1,83 @@
+{
+  "name": "Sir Braford",
+  "slug_name": "sir-braford",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/2",
+    "tales-from-the-yawning-portal"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral evil",
+  "armor_class": "18",
+  "armor_class_type": "chain mail, shield",
+  "hit_points": "19",
+  "hit_dice": "3d8+6",
+  "speed": "30 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "9",
+  "dexterity_modifier": "-1",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "14",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Athletics +S, Perception +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Source.",
+      "descriptions": [
+        "tales from the yawning portal,  page 243"
+      ]
+    },
+    {
+      "name": "Barkskin.",
+      "descriptions": [
+        "Sir Braford's AC can't be lower than 16."
+      ]
+    },
+    {
+      "name": "Special Equipment.",
+      "descriptions": [
+        "Sir Braford wields Shatterspike, a magic longsword that grants a + 1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties."
+      ]
+    },
+    {
+      "name": "Tree Thrall.",
+      "descriptions": [
+        "If the Gulthias Tree dies, Sir Braford dies 24 hours later."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1dlO + 4) slashing damage if used with two hands.",
+        "**Reactions**"
+      ]
+    },
+    {
+      "name": "Protection.",
+      "descriptions": [
+        "When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Merrow",
+  "slug_name": "merrow",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "13",
+  "armor_class_type": "natural armor",
+  "hit_points": "45",
+  "hit_dice": "6d10+12",
+  "speed": "10 ft., swim 40 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "8",
+  "intelligence_modifier": "-1",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "9",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Abyssal, Aquan",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The merrow can breathe air and water."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The merrow makes two attacks: one with its bite and one with its claws or harpoon."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage."
+      ]
+    },
+    {
+      "name": "Harpoon.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow."
+      ]
+    }
+  ]
+}

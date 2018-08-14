@@ -1,0 +1,58 @@
+{
+  "name": "Brass Dragon Wyrmling",
+  "slug_name": "brass-dragon-wyrmling",
+  "tags": [
+    "medium",
+    "dragon",
+    "cr1",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "chaotic good",
+  "armor_class": "16",
+  "armor_class_type": "natural armor",
+  "hit_points": "16",
+  "hit_dice": "3d8+3",
+  "speed": "30 ft., burrow 15 ft., fly 60 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "13",
+  "charisma_modifier": "+1",
+  "saving_throws": "Dex +2, Con +3, Wis +2, Cha +3",
+  "skills": "Perception +4, Stealth +2",
+  "damage_resistances": null,
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6).",
+      "descriptions": [
+        "The dragon uses one of the following breath weapons.",
+        "Fire Breath. The dragon exhales fire in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.",
+        "Sleep Breath. The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+      ]
+    }
+  ]
+}

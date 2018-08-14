@@ -1,0 +1,70 @@
+{
+  "name": "Young Copper Dragon",
+  "slug_name": "young-copper-dragon",
+  "tags": [
+    "large",
+    "dragon",
+    "cr7",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "chaotic good",
+  "armor_class": "17",
+  "armor_class_type": "natural armor",
+  "hit_points": "119",
+  "hit_dice": "14d10+42",
+  "speed": "40 ft., climb 40 ft., fly 80 ft.",
+  "strength": "19",
+  "strength_modifier": "+4",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "17",
+  "constitution_modifier": "+3",
+  "intelligence": "16",
+  "intelligence_modifier": "+3",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": "Dex +4, Con +6, Wis +4, Cha +5",
+  "skills": "Deception +5, Perception +7, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": "acid",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "languages": "Common, Draconic",
+  "challenge_rating": "7",
+  "challenge_rating_decimal": 7.0,
+  "experience": "2,900 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The dragon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+      ]
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6).",
+      "descriptions": [
+        "The dragon uses one of the following breath weapons.",
+        "Acid Breath. The dragon exhales acid in an 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one.",
+        "Slowing Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Githzerai Monk",
+  "slug_name": "githzerai-monk",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gith",
+  "aligntment": "lawful neutral",
+  "armor_class": "14",
+  "armor_class_type": null,
+  "hit_points": "38",
+  "hit_dice": "7d8+7",
+  "speed": "30 ft.",
+  "strength": "12",
+  "strength_modifier": "+1",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "13",
+  "intelligence_modifier": "+1",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": "Str +3, Dex +4, Int +3, Wis +4",
+  "skills": "Insight +4, Perception +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Gith",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting (Psionics).",
+      "descriptions": [
+        "The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: ",
+        "At will: mage hand (the hand is invisible)",
+        "3/day each: feather fall, jump, see invisibility, shield"
+      ]
+    },
+    {
+      "name": "Psychic Defense.",
+      "descriptions": [
+        "While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The githzerai makes two unarmed strikes."
+      ]
+    },
+    {
+      "name": "Unarmed Strike.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack."
+      ]
+    }
+  ]
+}

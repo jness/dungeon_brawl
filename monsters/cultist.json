@@ -1,0 +1,58 @@
+{
+  "name": "Cultist",
+  "slug_name": "cultist",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any non-good alignment",
+  "armor_class": "12",
+  "armor_class_type": "leather armor",
+  "hit_points": "9",
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "strength": "11",
+  "strength_modifier": "+0",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Deception +2, Religion +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Dark Devotion.",
+      "descriptions": [
+        "The cultist has advantage on saving throws against being charmed or frightened."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Scimitar.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage."
+      ]
+    }
+  ]
+}

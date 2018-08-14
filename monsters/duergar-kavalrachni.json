@@ -1,0 +1,100 @@
+{
+  "name": "Duergar Kavalrachni",
+  "slug_name": "duergar-kavalrachni",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "out-of-the-abyss"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "aligntment": "lawful evil",
+  "armor_class": "16",
+  "armor_class_type": "scale mail, shield",
+  "hit_points": "26",
+  "hit_dice": "4d8+4",
+  "speed": "25 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "9",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "poison",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Dwarvish, Undercommon",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Mounted.",
+      "descriptions": [
+        "The vicious kavalrachni are the duergar cavalry of Gracklstugh, riding giant tarantualas known as steeders (see the female steeder stat block)"
+      ]
+    },
+    {
+      "name": "Cavalry Training.",
+      "descriptions": [
+        "When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make a melee attack agains the same target as a reaction."
+      ]
+    },
+    {
+      "name": "Duergar Resilience.",
+      "descriptions": [
+        "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Enlarge (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+      ]
+    },
+    {
+      "name": "War Pick.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+      ]
+    },
+    {
+      "name": "Javelin.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
+      ]
+    },
+    {
+      "name": "Heavy Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
+      ]
+    },
+    {
+      "name": "Invisibility (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it ."
+      ]
+    }
+  ]
+}

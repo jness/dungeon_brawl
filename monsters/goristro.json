@@ -1,0 +1,94 @@
+{
+  "name": "Goristro",
+  "slug_name": "goristro",
+  "tags": [
+    "huge",
+    "fiend",
+    "cr17",
+    "monster-manual"
+  ],
+  "size": "Huge",
+  "type": "fiend",
+  "subtype": "demon",
+  "aligntment": "chaotic evil",
+  "armor_class": "19",
+  "armor_class_type": "natural armor",
+  "hit_points": "310",
+  "hit_dice": "23d12+161",
+  "speed": "40 ft.",
+  "strength": "25",
+  "strength_modifier": "+7",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "25",
+  "constitution_modifier": "+7",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "14",
+  "charisma_modifier": "+2",
+  "saving_throws": "Str +13, Dex +6, Con +13, Wis +7",
+  "skills": "Perception +7",
+  "damage_resistances": "cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft.",
+  "languages": "Abyssal",
+  "challenge_rating": "17",
+  "challenge_rating_decimal": 17.0,
+  "experience": "18,000 XP",
+  "special_abilities": [
+    {
+      "name": "Charge.",
+      "descriptions": [
+        "If the goristro moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (7d10) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away and knocked prone."
+      ]
+    },
+    {
+      "name": "Labyrinthine Recall.",
+      "descriptions": [
+        "The goristro can perfectly recall any path it has traveled."
+      ]
+    },
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The goristro has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Siege Monster.",
+      "descriptions": [
+        "The goristro deals double damage to objects and structures."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The goristro makes three attacks: two with its fists and one with its hoof."
+      ]
+    },
+    {
+      "name": "Fist.",
+      "descriptions": [
+        "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Hoof.",
+      "descriptions": [
+        "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone."
+      ]
+    },
+    {
+      "name": "Gore.",
+      "descriptions": [
+        "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 45 (7d10 + 7) piercing damage."
+      ]
+    }
+  ]
+}

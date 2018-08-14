@@ -1,0 +1,82 @@
+{
+  "name": "Gnoll Pack Lord",
+  "slug_name": "gnoll-pack-lord",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "aligntment": "chaotic evil",
+  "armor_class": "15",
+  "armor_class_type": "chain shirt",
+  "hit_points": "49",
+  "hit_dice": "9d8+9",
+  "speed": "30 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "8",
+  "intelligence_modifier": "-1",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "9",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Gnoll",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Rampage.",
+      "descriptions": [
+        "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Glaive.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage."
+      ]
+    },
+    {
+      "name": "Longbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Incite Rampage (Recharge 5-6).",
+      "descriptions": [
+        "One creature the gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the gnoll and has the Rampage trait."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Commoner",
+  "slug_name": "commoner",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr0",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any alignment",
+  "armor_class": "10",
+  "armor_class_type": null,
+  "hit_points": "4",
+  "hit_dice": "1d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "actions": [
+    {
+      "name": "Club.",
+      "descriptions": [
+        "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+      ]
+    }
+  ]
+}

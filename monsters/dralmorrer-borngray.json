@@ -1,0 +1,91 @@
+{
+  "name": "Dralmorrer Borngray",
+  "slug_name": "dralmorrer-borngray",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr3",
+    "tyranny-of-dragons"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "high elf",
+  "aligntment": "neutral evil",
+  "armor_class": "16",
+  "armor_class_type": "studded leather, shield",
+  "hit_points": "52",
+  "hit_dice": "7d10+14",
+  "speed": "30 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "16",
+  "intelligence_modifier": "+3",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": "Str +6, Con +4",
+  "skills": "Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Common, Bullywug, Draconic, Elvish, Goblin, Sylvan",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry.",
+      "descriptions": [
+        "Dralmorrer has advantage on saving throws against being charmed, and magic can't put him to sleep."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list: ",
+        "* Cantrips (at will): fire bolt, prestidigitation, shocking grasp",
+        "* 1st level (4 slots): longstrider, magic missile, shield, thunderwave",
+        "* 2nd level (2 slots): magic weapon, misty step"
+      ]
+    },
+    {
+      "name": "War Magic.",
+      "descriptions": [
+        "When Dralmorrer uses his action to cast a cantrip, he can also take a bonus action to make one weapon attack."
+      ]
+    },
+    {
+      "name": "Weapon Bond.",
+      "descriptions": [
+        "Provided his longsword is on the same plane Dralmorrer can take a bonus action to teleport it to his hand."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Dralmorrer attacks twice, either with his longsword or dagger."
+      ]
+    },
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage."
+      ]
+    },
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+      ]
+    }
+  ]
+}

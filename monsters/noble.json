@@ -1,0 +1,57 @@
+{
+  "name": "Noble",
+  "slug_name": "noble",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any alignment",
+  "armor_class": "15",
+  "armor_class_type": "breastplate",
+  "hit_points": "9",
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "strength": "11",
+  "strength_modifier": "+0",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": null,
+  "skills": "Deception +5, Insight +4, Persuasion +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any two languages",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "actions": [
+    {
+      "name": "Rapier.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "**Reactions**"
+      ]
+    },
+    {
+      "name": "Parry.",
+      "descriptions": [
+        "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+      ]
+    }
+  ]
+}

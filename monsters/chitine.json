@@ -1,0 +1,82 @@
+{
+  "name": "Chitine",
+  "slug_name": "chitine",
+  "tags": [
+    "small",
+    "monstrosity",
+    "cr1/2",
+    "volos-guide"
+  ],
+  "size": "Small",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "14",
+  "armor_class_type": "hide armor",
+  "hit_points": "18",
+  "hit_dice": "4d6+4",
+  "speed": "30 ft., climb 30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Athletics +4, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Undercommon",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry.",
+      "descriptions": [
+        "The chitine has advantage on saving throws against being charmed, and magic can't put the chitine to sleep."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the chitine has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Web Sense.",
+      "descriptions": [
+        "While in contact with a web, the chitine knows the exact location of any other creature in contact with the same web."
+      ]
+    },
+    {
+      "name": "Web Walker.",
+      "descriptions": [
+        "The chitine ignores movement restrictions caused by webbing."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The chitine makes three attacks with its daggers."
+      ]
+    },
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage."
+      ]
+    }
+  ]
+}

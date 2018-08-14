@@ -1,0 +1,81 @@
+{
+  "name": "Fathomer",
+  "slug_name": "fathomer",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "elemental-evil"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral evil",
+  "armor_class": "10",
+  "armor_class_type": "13 with mage armor",
+  "hit_points": "52",
+  "hit_dice": "8d8+16",
+  "speed": "30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Arcana +2, Perception +4, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Aquan, Common",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Shapechanger (2/day).",
+      "descriptions": [
+        "The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathomer is knocked unconscious or dies, it also reverts to its true form.",
+        "While in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical weapons. It also has immunity to the following conditions: exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing."
+      ]
+    },
+    {
+      "name": "Olhydra's Armor (Human Form Only).",
+      "descriptions": [
+        "The fathomer can cast mage armor at will, without expending material components."
+      ]
+    },
+    {
+      "name": "Spellcasting (Human Form Only).",
+      "descriptions": [
+        "The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells: ",
+        "* Cantrips (at will): chill touch, eldritch blast, mage hand",
+        "* 1st level: armor of Agathys, expeditious retreat, hex",
+        "* 2nd level: invisibility",
+        "* 3rd level: Vampiric touch"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Constrict (Serpent Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the fathomer can't constrict another target."
+      ]
+    },
+    {
+      "name": "Dagger (Human Form Only).",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    }
+  ]
+}

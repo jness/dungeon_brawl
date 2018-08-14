@@ -1,0 +1,74 @@
+{
+  "name": "Chimera",
+  "slug_name": "chimera",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr6",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "114",
+  "hit_dice": "12d10+48",
+  "speed": "30 ft., fly 60 ft.",
+  "strength": "19",
+  "strength_modifier": "+4",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "19",
+  "constitution_modifier": "+4",
+  "intelligence": "3",
+  "intelligence_modifier": "-4",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +8",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Draconic but can't speak",
+  "challenge_rating": "6",
+  "challenge_rating_decimal": 6.0,
+  "experience": "2,300 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+      ]
+    },
+    {
+      "name": "Horns.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+      ]
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6).",
+      "descriptions": [
+        "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Cult Fanatic",
+  "slug_name": "cult-fanatic",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any non-good alignment",
+  "armor_class": "13",
+  "armor_class_type": "leather armor",
+  "hit_points": "33",
+  "hit_dice": "6d8+6",
+  "speed": "30 ft.",
+  "strength": "11",
+  "strength_modifier": "+0",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "14",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Deception +4, Persuasion +4, Religion +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Dark Devotion.",
+      "descriptions": [
+        "The fanatic has advantage on saving throws against being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: ",
+        "Cantrips (at will): light, sacred flame, thaumaturgy",
+        "* 1st level (4 slots): command, inflict wounds, shield of faith",
+        "* 2nd level (3 slots): hold person, spiritual weapon"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The fanatic makes two melee attacks."
+      ]
+    },
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    }
+  ]
+}

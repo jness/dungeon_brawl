@@ -1,0 +1,63 @@
+{
+  "name": "Grell",
+  "slug_name": "grell",
+  "tags": [
+    "medium",
+    "aberration",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "55",
+  "hit_dice": "10d8+10",
+  "speed": "10 ft., fly 30 ft. (hover)",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "9",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +6",
+  "damage_resistances": null,
+  "damage_immunities": "lightning",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "blinded, prone",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "languages": "Grell",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The grell makes two attacks: one with its tentacles and one with its beak."
+      ]
+    },
+    {
+      "name": "Tentacles.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The poisoned target is paralyzed, and it can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+        "The target is also grappled (escape DC 15). If the target is Medium or smaller, it is also restrained until this grapple ends. While grappling the target, the grell has advantage on attack rolls against it and can 't use this attack against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it."
+      ]
+    },
+    {
+      "name": "Beak.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) piercing damage."
+      ]
+    }
+  ]
+}

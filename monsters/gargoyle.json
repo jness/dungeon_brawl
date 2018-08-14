@@ -1,0 +1,70 @@
+{
+  "name": "Gargoyle",
+  "slug_name": "gargoyle",
+  "tags": [
+    "medium",
+    "elemental",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "elemental",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "52",
+  "hit_dice": "7d8+21",
+  "speed": "30 ft., fly 60 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "Terran",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "False Appearance.",
+      "descriptions": [
+        "While the gargoyle remains motion less, it is indistinguishable from an inanimate statue."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The gargoyle makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+      ]
+    }
+  ]
+}

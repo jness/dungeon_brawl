@@ -1,0 +1,70 @@
+{
+  "name": "Helmed Horror",
+  "slug_name": "helmed-horror",
+  "tags": [
+    "medium",
+    "construct",
+    "cr4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "construct",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "20",
+  "armor_class_type": "plate, shield",
+  "hit_points": "60",
+  "hit_dice": "8d8+24",
+  "speed": "30 ft., fly 30 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +4",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+  "damage_immunities": "force, necrotic, poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned",
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "4",
+  "challenge_rating_decimal": 4.0,
+  "experience": "1,100 XP",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The helmed horror has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Spell Immunity.",
+      "descriptions": [
+        "The helmed horror is immune to three spells chosen by its creator. Typical immunities include fireball, heat metal, and lightning bolt."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The helmed horror makes two longsword attacks."
+      ]
+    },
+    {
+      "name": "Longsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+      ]
+    }
+  ]
+}

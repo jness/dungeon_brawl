@@ -1,0 +1,50 @@
+{
+  "name": "Draft Horse",
+  "slug_name": "draft-horse",
+  "tags": [
+    "large",
+    "beast",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "10",
+  "armor_class_type": null,
+  "hit_points": "19",
+  "hit_dice": "3d10+3",
+  "speed": "40 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "actions": [
+    {
+      "name": "Hooves.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage."
+      ]
+    }
+  ]
+}

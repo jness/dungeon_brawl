@@ -1,0 +1,88 @@
+{
+  "name": "Young Red Shadow Dragon",
+  "slug_name": "young-red-shadow-dragon",
+  "tags": [
+    "large",
+    "dragon",
+    "cr13",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "18",
+  "armor_class_type": "natural armor",
+  "hit_points": "178",
+  "hit_dice": "17d10+85",
+  "speed": "40 ft., climb 40 ft., fly 80 ft.",
+  "strength": "23",
+  "strength_modifier": "+6",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "21",
+  "constitution_modifier": "+5",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "19",
+  "charisma_modifier": "+4",
+  "saving_throws": "Dex +4, Con +9, Wis +4, Cha +8",
+  "skills": "Perception +8, Stealth +8",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "languages": "Common, Draconic",
+  "challenge_rating": "13",
+  "challenge_rating_decimal": 13.0,
+  "experience": "10,000 XP",
+  "special_abilities": [
+    {
+      "name": "Living Shadow.",
+      "descriptions": [
+        "While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant."
+      ]
+    },
+    {
+      "name": "Shadow Stealth.",
+      "descriptions": [
+        "While in dim light or darkness, the dragon can take the Hide action as a bonus action."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The dragon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) necrotic damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+      ]
+    },
+    {
+      "name": "Shadow Breath (Recharge 5-6).",
+      "descriptions": [
+        "The dragon exhales shadowy fire in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 56 (16d6) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control."
+      ]
+    }
+  ]
+}

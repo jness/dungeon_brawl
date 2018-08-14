@@ -1,0 +1,79 @@
+{
+  "name": "Oren Yogilvy",
+  "slug_name": "oren-yogilvy",
+  "tags": [
+    "small",
+    "humanoid",
+    "cr0",
+    "storm-kings-thunder"
+  ],
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "strongheart halfling",
+  "aligntment": "chaotic good",
+  "armor_class": "11",
+  "armor_class_type": null,
+  "hit_points": "9",
+  "hit_dice": "2d6+2",
+  "speed": "25 ft.",
+  "strength": "8",
+  "strength_modifier": "-1",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": null,
+  "skills": "Perception +2, Performance +7, Persuasion +5",
+  "damage_resistances": "poison",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Halfling",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Halfling Nimbleness.",
+      "descriptions": [
+        "Oren can move through the space of any creature that is of a size large than his."
+      ]
+    },
+    {
+      "name": "Lucky.",
+      "descriptions": [
+        "When Oren rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+      ]
+    },
+    {
+      "name": "Stout Resilience.",
+      "descriptions": [
+        "Oren has advantage on saving throws against poison"
+      ]
+    },
+    {
+      "name": "Roleplaying Information.",
+      "descriptions": [
+        "Oren came to Nurthfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wanders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't  have a mean bone in his body.",
+        "Ideal: \"Music is food for the soul.\"",
+        "Bond: \"You had me at \"Can I buy you a drink.\"",
+        "Flaw: \"I have a knack for putting myself in harm's way. Good thing I'm lucky!\""
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 3 (1d4+1) piercing damage. Duvessa carries only one dagger."
+      ]
+    }
+  ]
+}

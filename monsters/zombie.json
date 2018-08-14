@@ -1,0 +1,58 @@
+{
+  "name": "Zombie",
+  "slug_name": "zombie",
+  "tags": [
+    "medium",
+    "undead",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "undead",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "8",
+  "armor_class_type": null,
+  "hit_points": "22",
+  "hit_dice": "3d8+9",
+  "speed": "20 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "6",
+  "dexterity_modifier": "-2",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "3",
+  "intelligence_modifier": "-4",
+  "wisdom": "6",
+  "wisdom_modifier": "-2",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": "Wis +0",
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands all languages it spoke in life but can't speak",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Undead Fortitude.",
+      "descriptions": [
+        "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Slam.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+      ]
+    }
+  ]
+}

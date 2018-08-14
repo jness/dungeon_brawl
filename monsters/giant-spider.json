@@ -1,0 +1,76 @@
+{
+  "name": "Giant Spider",
+  "slug_name": "giant-spider",
+  "tags": [
+    "large",
+    "beast",
+    "cr1",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "26",
+  "hit_dice": "4d10+4",
+  "speed": "30 ft., climb 30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "4",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": "Stealth +7",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "languages": null,
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Spider Climb.",
+      "descriptions": [
+        "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Web Sense.",
+      "descriptions": [
+        "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+      ]
+    },
+    {
+      "name": "Web Walker.",
+      "descriptions": [
+        "The spider ignores movement restrictions caused by webbing."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+      ]
+    },
+    {
+      "name": "Web (Recharge 5-6).",
+      "descriptions": [
+        "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+      ]
+    }
+  ]
+}

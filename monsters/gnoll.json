@@ -1,0 +1,70 @@
+{
+  "name": "Gnoll",
+  "slug_name": "gnoll",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gnoll",
+  "aligntment": "chaotic evil",
+  "armor_class": "15",
+  "armor_class_type": "hide armor, shield",
+  "hit_points": "22",
+  "hit_dice": "5d8",
+  "speed": "30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Gnoll",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Rampage.",
+      "descriptions": [
+        "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Spear.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ]
+    },
+    {
+      "name": "Longbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Narth Tezrin",
+  "slug_name": "narth-tezrin",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr0",
+    "storm-kings-thunder"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "tethyrian human",
+  "aligntment": "chaotic good",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "18",
+  "hit_dice": "4d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": null,
+  "skills": "Insight +4, Investigation +3, Perception +6, Persuasion +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Dwarvish",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Cunning Action.",
+      "descriptions": [
+        "On each of his turns, Narth can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Roleplaying Information.",
+      "descriptions": [
+        "Narth sells gear to adventurers, and he also has an adventurous spirit. The Lionshield Coster pays him well, but he longs to make a name for himself. At the same time, he runsa a business with his partner Alaestra and knows she wouldn't forgive him if he ran off and never returned.",
+        "Ideal: \"The bigger the risk, the greater the reward.\"",
+        "Bond: \"I adore my colleague Alestra, and I'd like to do something to impress her.\"",
+        "Flaw: \"I'll risk life and limb to become a legend.-\""
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      ]
+    },
+    {
+      "name": "Hand Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Narth carries twenty crossbow bolts."
+      ]
+    }
+  ]
+}

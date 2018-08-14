@@ -1,0 +1,70 @@
+{
+  "name": "Kobold",
+  "slug_name": "kobold",
+  "tags": [
+    "small",
+    "humanoid",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "kobold",
+  "aligntment": "lawful evil",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "5",
+  "hit_dice": "2d6-2",
+  "speed": "30 ft.",
+  "strength": "7",
+  "strength_modifier": "-2",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "9",
+  "constitution_modifier": "-1",
+  "intelligence": "8",
+  "intelligence_modifier": "-1",
+  "wisdom": "7",
+  "wisdom_modifier": "-2",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Common, Draconic",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Pack Tactics.",
+      "descriptions": [
+        "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Sling.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Guard",
+  "slug_name": "guard",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any alignment",
+  "armor_class": "16",
+  "armor_class_type": "chain shirt, shield",
+  "hit_points": "11",
+  "hit_dice": "2d8+2",
+  "speed": "30 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "12",
+  "dexterity_modifier": "+1",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "actions": [
+    {
+      "name": "Spear.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+      ]
+    }
+  ]
+}

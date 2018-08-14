@@ -1,0 +1,73 @@
+{
+  "name": "Darz Helgar",
+  "slug_name": "darz-helgar",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr0",
+    "storm-kings-thunder"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "illuskan human",
+  "aligntment": "neutral",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "27",
+  "hit_dice": "5d8+5",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Intimidation +2, Sleight of Hand +4, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Sneak Attack (1/turn).",
+      "descriptions": [
+        "Darz deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Darz that isn't incapacitated and Darz doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Roleplaying Information.",
+      "descriptions": [
+        "In his youth, Darz was a member of the Xanathar Thieves' Guild in Waterdeep. After serving ten years in prison for his crimes, he cut all ties to the city and moved north to be a campground caretaker.",
+        "Ideal: \"You csan run from your past, but you can't hide from it.\"",
+        "Bond: \"I've made a new life in Triboar. I'm not gonna run away this time. \"",
+        "Flaw: \"I have no regrets. I do whatever it takes to survive.\""
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+      ]
+    },
+    {
+      "name": "Sling.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) piercing damage. Darz carries twenty sling stones."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Bone Naga (Guardian)",
+  "slug_name": "bone-naga-guardian",
+  "tags": [
+    "large",
+    "undead",
+    "cr4",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "undead",
+  "subtype": null,
+  "aligntment": "lawful evil",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "58",
+  "hit_dice": "9d10+9",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "15",
+  "intelligence_modifier": "+2",
+  "wisdom": "15",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "charmed, exhaustion, paralyzed, poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common plus one other language",
+  "challenge_rating": "4",
+  "challenge_rating_decimal": 4.0,
+  "experience": "1,100 XP",
+  "special_abilities": [
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared: ",
+        "* Cantrips (at will): mending, sacred flame, thaumaturgy",
+        "* 1st level (4 slots): command, shield of faith",
+        "* 2nd level (3 slots): calm emotions, hold person",
+        "* 3rd level (2 slots): bestow curse"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage."
+      ]
+    }
+  ]
+}

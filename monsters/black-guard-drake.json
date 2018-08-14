@@ -1,0 +1,70 @@
+{
+  "name": "Black Guard Drake",
+  "slug_name": "black-guard-drake",
+  "tags": [
+    "medium",
+    "dragon",
+    "cr2",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "52",
+  "hit_dice": "7d8+21",
+  "speed": "30 ft., swim 30 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "4",
+  "intelligence_modifier": "-3",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +2",
+  "damage_resistances": "acid",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Draconic but can't speak it",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The guard drake can breathe air and water."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The drake attacks twice, once with its bite and once with its tail."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage."
+      ]
+    },
+    {
+      "name": "Tail.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage."
+      ]
+    }
+  ]
+}

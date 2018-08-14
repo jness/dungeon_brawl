@@ -1,0 +1,58 @@
+{
+  "name": "Awakened Shrub",
+  "slug_name": "awakened-shrub",
+  "tags": [
+    "small",
+    "plant",
+    "cr0",
+    "monster-manual"
+  ],
+  "size": "Small",
+  "type": "plant",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "9",
+  "armor_class_type": null,
+  "hit_points": "10",
+  "hit_dice": "3d6",
+  "speed": "20 ft.",
+  "strength": "3",
+  "strength_modifier": "-4",
+  "dexterity": "8",
+  "dexterity_modifier": "-1",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "6",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "piercing",
+  "damage_immunities": null,
+  "damage_vulnerabilities": "fire",
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "one language known by its creator",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "False Appearance.",
+      "descriptions": [
+        "While the shrub remains motionless, it is indistinguishable from a normal shrub."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Rake.",
+      "descriptions": [
+        "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage."
+      ]
+    }
+  ]
+}

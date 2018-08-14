@@ -1,0 +1,70 @@
+{
+  "name": "Cave Bear",
+  "slug_name": "cave-bear",
+  "tags": [
+    "large",
+    "beast",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "12",
+  "armor_class_type": "natural armor",
+  "hit_points": "42",
+  "hit_dice": "5d10+15",
+  "speed": "40 ft., swim 30 ft.",
+  "strength": "20",
+  "strength_modifier": "+5",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "13",
+  "wisdom_modifier": "+1",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Perception +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": null,
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Smell.",
+      "descriptions": [
+        "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The bear makes two attacks: one with its bite and one with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+      ]
+    }
+  ]
+}

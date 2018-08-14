@@ -1,0 +1,70 @@
+{
+  "name": "Swarm of Quippers",
+  "slug_name": "swarm-of-quippers",
+  "tags": [
+    "medium",
+    "swarm",
+    "cr1",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "swarm",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "13",
+  "armor_class_type": null,
+  "hit_points": "28",
+  "hit_dice": "8d8-8",
+  "speed": "0 ft., swim 40 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "9",
+  "constitution_modifier": "-1",
+  "intelligence": "1",
+  "intelligence_modifier": "-5",
+  "wisdom": "7",
+  "wisdom_modifier": "-2",
+  "charisma": "2",
+  "charisma_modifier": "-4",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 60 ft.",
+  "languages": null,
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Blood Frenzy.",
+      "descriptions": [
+        "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      ]
+    },
+    {
+      "name": "Swarm.",
+      "descriptions": [
+        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points."
+      ]
+    },
+    {
+      "name": "Water Breathing.",
+      "descriptions": [
+        "The swarm can breathe only underwater."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer."
+      ]
+    }
+  ]
+}

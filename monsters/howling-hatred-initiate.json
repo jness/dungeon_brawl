@@ -1,0 +1,64 @@
+{
+  "name": "Howling Hatred Initiate",
+  "slug_name": "howling-hatred-initiate",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/8",
+    "elemental-evil"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral evil",
+  "armor_class": "13",
+  "armor_class_type": "leather",
+  "hit_points": "9",
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "9",
+  "wisdom_modifier": "-1",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Deception +2, Religion +2, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Guiding Wind (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "As a bonus action, the initiate gains advantage on the next ranged attack roll it makes before the end of its next turn."
+      ]
+    },
+    {
+      "name": "Hold Breath.",
+      "descriptions": [
+        "The initiate can hold its breath for 30 minutes."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Sea Lion",
+  "slug_name": "sea-lion",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr5",
+    "tales-from-the-yawning-portal"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "90",
+  "hit_dice": "12d10+24",
+  "speed": "10 ft., swim 40 ft.",
+  "strength": "17",
+  "strength_modifier": "+3",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "3",
+  "intelligence_modifier": "-4",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "5",
+  "challenge_rating_decimal": 5.0,
+  "experience": "1,800 XP",
+  "special_abilities": [
+    {
+      "name": "Source.",
+      "descriptions": [
+        "tales from the yawning portal,  page 242"
+      ]
+    },
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The sea lion can breathe air and water."
+      ]
+    },
+    {
+      "name": "Keen Smell.",
+      "descriptions": [
+        "The sea lion has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Pack Tactics.",
+      "descriptions": [
+        "The sea lion has advantage on an attack roll against a creature if at least one of the sea lion's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    },
+    {
+      "name": "Swimming Leap.",
+      "descriptions": [
+        "With a 10-foot swimming start, the sea lion can long jump out of or across the water up to 25 feet."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The sea lion makes three attacks: one bite attack and two claw attacks."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage"
+      ]
+    }
+  ]
+}

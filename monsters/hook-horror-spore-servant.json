@@ -1,0 +1,56 @@
+{
+  "name": "Hook Horror Spore Servant",
+  "slug_name": "hook-horror-spore-servant",
+  "tags": [
+    "medium",
+    "plant",
+    "cr3",
+    "out-of-the-abyss"
+  ],
+  "size": "Medium",
+  "type": "plant",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "75",
+  "hit_dice": "10d10+10",
+  "speed": "20 ft., climb 20 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "6",
+  "wisdom_modifier": "-2",
+  "charisma": "1",
+  "charisma_modifier": "-5",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": "poison",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": "blinded, charmed, frightened, paralyzed",
+  "senses": "blindsight 30 ft. (blind beyond this radius)",
+  "languages": "-",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The spore servant makes two hyook attacks."
+      ]
+    },
+    {
+      "name": "Hook.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+      ]
+    }
+  ]
+}

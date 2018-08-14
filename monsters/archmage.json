@@ -1,0 +1,75 @@
+{
+  "name": "Archmage",
+  "slug_name": "archmage",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr12",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any alignment",
+  "armor_class": "12",
+  "armor_class_type": "15 with mage armor",
+  "hit_points": "99",
+  "hit_dice": "18d8+18",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "20",
+  "intelligence_modifier": "+5",
+  "wisdom": "15",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": "Int +9, Wis +6",
+  "skills": "Arcana +13, History +13",
+  "damage_resistances": "damage from spells; non magical bludgeoning, piercing, and slashing (from stoneskin)",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any six languages",
+  "challenge_rating": "12",
+  "challenge_rating_decimal": 12.0,
+  "experience": "8,400 XP",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The archmage has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared: ",
+        "* Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp",
+        "* 1st level (4 slots): detect magic, identify, mage armor*, magic missile",
+        "* 2nd level (3 slots): detect thoughts, mirror image, misty step",
+        "* 3rd level (3 slots): counterspell,fly, lightning bolt",
+        "* 4th level (3 slots): banishment, fire shield, stoneskin*",
+        "* 5th level (3 slots): cone of cold, scrying, wall of force",
+        "* 6th level (1 slot): globe of invulnerability",
+        "* 7th level (1 slot): teleport",
+        "* 8th level (1 slot): mind blank*",
+        "* 9th level (1 slot): time stop",
+        "* The archmage casts these spells on itself before combat."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Giant Crocodile",
+  "slug_name": "giant-crocodile",
+  "tags": [
+    "huge",
+    "beast",
+    "cr5",
+    "monster-manual"
+  ],
+  "size": "Huge",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "85",
+  "hit_dice": "9d12+27",
+  "speed": "30 ft., swim 50 ft.",
+  "strength": "21",
+  "strength_modifier": "+5",
+  "dexterity": "9",
+  "dexterity_modifier": "-1",
+  "constitution": "17",
+  "constitution_modifier": "+3",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "7",
+  "charisma_modifier": "-2",
+  "saving_throws": null,
+  "skills": "Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "5",
+  "challenge_rating_decimal": 5.0,
+  "experience": "1,800 XP",
+  "special_abilities": [
+    {
+      "name": "Hold Breath.",
+      "descriptions": [
+        "The crocodile can hold its breath for 30 minutes."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The crocodile makes two attacks: one with its bite and one with its tail."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target."
+      ]
+    },
+    {
+      "name": "Tail.",
+      "descriptions": [
+        "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+      ]
+    }
+  ]
+}

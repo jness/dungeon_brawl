@@ -1,0 +1,58 @@
+{
+  "name": "Crocodile",
+  "slug_name": "crocodile",
+  "tags": [
+    "large",
+    "beast",
+    "cr1/2",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "12",
+  "armor_class_type": "natural armor",
+  "hit_points": "19",
+  "hit_dice": "3d10+3",
+  "speed": "20 ft., swim 20 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": "Stealth +2",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Hold Breath.",
+      "descriptions": [
+        "The crocodile can hold its breath for 15 minutes."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
+      ]
+    }
+  ]
+}

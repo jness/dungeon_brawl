@@ -1,0 +1,66 @@
+{
+  "name": "Gold Dragon Wyrmling",
+  "slug_name": "gold-dragon-wyrmling",
+  "tags": [
+    "medium",
+    "dragon",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "lawful good",
+  "armor_class": "17",
+  "armor_class_type": "natural armor",
+  "hit_points": "60",
+  "hit_dice": "8d8+24",
+  "speed": "30 ft., fly 60 ft., swim 30 ft.",
+  "strength": "19",
+  "strength_modifier": "+4",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "17",
+  "constitution_modifier": "+3",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": "Dex +4, Con +5, Wis +2, Cha +5",
+  "skills": "Perception +4, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 10 ft., darkvision 60 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "special_abilities": [
+    {
+      "name": "Amphibious.",
+      "descriptions": [
+        "The dragon can breathe air and water."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
+      ]
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6).",
+      "descriptions": [
+        "The dragon uses one of the following breath weapons.",
+        "Fire Breath. The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.",
+        "Weakening Breath. The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ]
+    }
+  ]
+}

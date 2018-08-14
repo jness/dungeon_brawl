@@ -1,0 +1,78 @@
+{
+  "name": "Jamna Gleamsilver",
+  "slug_name": "jamna-gleamsilver",
+  "tags": [
+    "small",
+    "humanoid",
+    "cr1",
+    "tyranny-of-dragons"
+  ],
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "gnome",
+  "aligntment": "neutral",
+  "armor_class": "15",
+  "armor_class_type": "leather armor",
+  "hit_points": "22",
+  "hit_dice": "4d6+8",
+  "speed": "25 ft.",
+  "strength": "8",
+  "strength_modifier": "-1",
+  "dexterity": "17",
+  "dexterity_modifier": "+3",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "15",
+  "intelligence_modifier": "+2",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": "Dex +5, Int +4",
+  "skills": "Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Common, Gnomish, Goblin, Sylvan",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Cunning Action.",
+      "descriptions": [
+        "Jamna can take a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Gnome Cunning.",
+      "descriptions": [
+        "Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.",
+        "* Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost",
+        "* 1st level (3 slots): charm person, color spray, disguise self, longstrider"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Jamna attacks twice with her shortswords."
+      ]
+    },
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger."
+      ]
+    }
+  ]
+}

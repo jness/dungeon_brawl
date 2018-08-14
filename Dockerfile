@@ -9,4 +9,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-CMD python app.py
+CMD python populate.py && python app.py

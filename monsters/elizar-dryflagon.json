@@ -1,0 +1,69 @@
+{
+  "name": "Elizar Dryflagon",
+  "slug_name": "elizar-dryflagon",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr5",
+    "elemental-evil"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "hide",
+  "hit_points": "71",
+  "hit_dice": "11d8+22",
+  "speed": "30 ft.",
+  "strength": "13",
+  "strength_modifier": "+1",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "18",
+  "wisdom_modifier": "+4",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Arcana +3, Deception +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Druidic",
+  "challenge_rating": "5",
+  "challenge_rating_decimal": 5.0,
+  "experience": "1,800 XP",
+  "special_abilities": [
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared: ",
+        "* Cantrips (at will): druidcraft, guidance, poison spray, produce flame",
+        "* 1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave",
+        "* 2nd level (3 slots): flame blade, spike growth",
+        "* 3rd level (3 slots): dispel magic, stinking cloud",
+        "* 4th level (2 slots): blight, wall of fire"
+      ]
+    },
+    {
+      "name": "Summon Mephits (Recharges after a Long Rest).",
+      "descriptions": [
+        "By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger +1.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+      ]
+    }
+  ]
+}

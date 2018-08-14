@@ -1,0 +1,66 @@
+{
+  "name": "Pixie",
+  "slug_name": "pixie",
+  "tags": [
+    "tiny",
+    "fey",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Tiny",
+  "type": "fey",
+  "subtype": null,
+  "aligntment": "neutral good",
+  "armor_class": "15",
+  "armor_class_type": null,
+  "hit_points": "1",
+  "hit_dice": "1d4-1",
+  "speed": "10 ft., fly 30 ft.",
+  "strength": "2",
+  "strength_modifier": "-4",
+  "dexterity": "20",
+  "dexterity_modifier": "+5",
+  "constitution": "8",
+  "constitution_modifier": "-1",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +7",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Sylvan",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The pixie has advantage on saving throws against spells and other magical effects."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting.",
+      "descriptions": [
+        "The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component: ",
+        "At will: druidcraft",
+        "1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Superior Invisibility.",
+      "descriptions": [
+        "The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it."
+      ]
+    }
+  ]
+}

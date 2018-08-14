@@ -1,0 +1,81 @@
+{
+  "name": "Blagothkus",
+  "slug_name": "blagothkus",
+  "tags": [
+    "huge",
+    "giant",
+    "cr9",
+    "tyranny-of-dragons"
+  ],
+  "size": "Huge",
+  "type": "giant",
+  "subtype": "cloud giant",
+  "aligntment": "neutral evil",
+  "armor_class": "17",
+  "armor_class_type": "splint",
+  "hit_points": "138",
+  "hit_dice": "12d12+60",
+  "speed": "40 ft.",
+  "strength": "26",
+  "strength_modifier": "+8",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "20",
+  "constitution_modifier": "+5",
+  "intelligence": "16",
+  "intelligence_modifier": "+3",
+  "wisdom": "15",
+  "wisdom_modifier": "+2",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": "Con +9, Wis +6, Cha +6",
+  "skills": "Arcana +7, Insight +6, Intimidation +6, Perception +6",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Draconic, Giant",
+  "challenge_rating": "9",
+  "challenge_rating_decimal": 9.0,
+  "experience": "5,000 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Smell.",
+      "descriptions": [
+        "Blagothkus has advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting.",
+      "descriptions": [
+        "Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components: ",
+        "* 3/day each: fog cloud, levitate"
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list: ",
+        "* Cantrips (at will): light, mage hand, prestidigitation",
+        "* 1st level (4 slots): detect magic, identify, magic missile, shield",
+        "* 2nd level (3 slots): gust of wind, misty step, shatter",
+        "* 3rd level (2 slots): fly, lightning bolt"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "Blagothkus attacks twice with his morningstar."
+      ]
+    },
+    {
+      "name": "Morningstar.",
+      "descriptions": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage."
+      ]
+    }
+  ]
+}

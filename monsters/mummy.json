@@ -1,0 +1,62 @@
+{
+  "name": "Mummy",
+  "slug_name": "mummy",
+  "tags": [
+    "medium",
+    "undead",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "undead",
+  "subtype": null,
+  "aligntment": "lawful evil",
+  "armor_class": "11",
+  "armor_class_type": "natural armor",
+  "hit_points": "58",
+  "hit_dice": "9d8+18",
+  "speed": "20 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "8",
+  "dexterity_modifier": "-1",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": "Wis +2",
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_vulnerabilities": "fire",
+  "condition_immunities": "necrotic, poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The mummy can use its Dreadful Glare and makes one attack with its rotting fist."
+      ]
+    },
+    {
+      "name": "Rotting Fist.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic."
+      ]
+    },
+    {
+      "name": "Dreadful Glare.",
+      "descriptions": [
+        "The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours."
+      ]
+    }
+  ]
+}

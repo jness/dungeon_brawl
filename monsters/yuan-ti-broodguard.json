@@ -1,0 +1,88 @@
+{
+  "name": "Yuan-ti Broodguard",
+  "slug_name": "yuan-ti-broodguard",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "yuan-ti",
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "natural armor",
+  "hit_points": "45",
+  "hit_dice": "7d8+14",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "4",
+  "charisma_modifier": "-3",
+  "saving_throws": "Str +4, Dex +4, Wis +2",
+  "skills": "Perception +2",
+  "damage_resistances": null,
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft.",
+  "languages": "Abyssal, Common, Draconic",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Mental Resistance.",
+      "descriptions": [
+        "The broodguard has advantage on saving throws against being charmed, and magic can't paralyze it."
+      ]
+    },
+    {
+      "name": "Reckless.",
+      "descriptions": [
+        "At the start of its turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Variant: Chameleon Skin.",
+      "descriptions": [
+        "The yuan-ti has advantage on Dexterity (Stealth) checks made to hide."
+      ]
+    },
+    {
+      "name": "Variant: Shed Skin (1/Day).",
+      "descriptions": [
+        "The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The broodguard makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage."
+      ]
+    }
+  ]
+}

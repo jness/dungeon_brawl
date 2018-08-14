@@ -1,0 +1,60 @@
+{
+  "name": "Apprentice Wizard",
+  "slug_name": "apprentice-wizard",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/4",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "any race",
+  "aligntment": "any alignment",
+  "armor_class": "10",
+  "armor_class_type": null,
+  "hit_points": "9",
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Arcana +4, History +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+        "Cantrips (at will): fire bolt, mending, prestidigitation",
+        "1st level (2 slots): burning hands, disguise self, shield"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft, one target. Hit: 2 (1d4) piercing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Nothic",
+  "slug_name": "nothic",
+  "tags": [
+    "medium",
+    "aberration",
+    "cr2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "45",
+  "hit_dice": "6d8+18",
+  "speed": "30 ft.",
+  "strength": "14",
+  "strength_modifier": "+2",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "16",
+  "constitution_modifier": "+3",
+  "intelligence": "13",
+  "intelligence_modifier": "+1",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Arcana +3, Insight +4, Perception +2, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "truesight 120 ft.",
+  "languages": "Undercommon",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Keen Sight.",
+      "descriptions": [
+        "The nothic has advantage on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The nothic makes two claw attacks."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      ]
+    },
+    {
+      "name": "Rotting Gaze.",
+      "descriptions": [
+        "The nothic targets one creature it can see within 30 ft. of it. The target must succeed on a DC 12 Constitution saving throw against this magic or take 10 (3d6) necrotic damage."
+      ]
+    },
+    {
+      "name": "Weird Insight.",
+      "descriptions": [
+        "The nothic targets one creature it can see within 30 ft. of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed."
+      ]
+    }
+  ]
+}

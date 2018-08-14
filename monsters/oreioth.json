@@ -1,0 +1,74 @@
+{
+  "name": "Oreioth",
+  "slug_name": "oreioth",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "elemental-evil"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "chaotic evil",
+  "armor_class": "11",
+  "armor_class_type": "14 with mage armor",
+  "hit_points": "39",
+  "hit_dice": "6d8+12",
+  "speed": "30 ft.",
+  "strength": "8",
+  "strength_modifier": "-1",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "16",
+  "intelligence_modifier": "+3",
+  "wisdom": "9",
+  "wisdom_modifier": "-1",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": "Wis +1",
+  "skills": "Arcana +5, Investigation +5, Medicine +1",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Abyssal, Common",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Grim Harvest.",
+      "descriptions": [
+        "Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell's level."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared: ",
+        "* Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp",
+        "* 1st level (4 slots): false life, mage armor, magic missile, ray of sickness",
+        "* 2nd level (3 slots): crown of madness, misty step",
+        "* 3rd level (3 slots): animate dead, vampiric touch"
+      ]
+    },
+    {
+      "name": "Swift Animation (Recharges after a Long Rest).",
+      "descriptions": [
+        "When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+      ]
+    }
+  ]
+}

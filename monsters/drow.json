@@ -1,0 +1,78 @@
+{
+  "name": "Drow",
+  "slug_name": "drow",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "elf",
+  "aligntment": "neutral evil",
+  "armor_class": "15",
+  "armor_class_type": "chain shirt",
+  "hit_points": "13",
+  "hit_dice": "3d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": null,
+  "skills": "Perception +2, Stealth +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Elvish, Undercommon",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry.",
+      "descriptions": [
+        "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+      ]
+    },
+    {
+      "name": "Innate Spellcasting.",
+      "descriptions": [
+        "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components: ",
+        "At will: dancing lights",
+        "1/day each: darkness, faerie fire"
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ]
+    },
+    {
+      "name": "Hand Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+      ]
+    }
+  ]
+}

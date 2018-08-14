@@ -1,0 +1,70 @@
+{
+  "name": "Monodrone",
+  "slug_name": "monodrone",
+  "tags": [
+    "medium",
+    "construct",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "construct",
+  "subtype": null,
+  "aligntment": "construct",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "5",
+  "hit_dice": "1d8+1",
+  "speed": "30 ft., fly 30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "4",
+  "intelligence_modifier": "-3",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "truesight 120 ft.",
+  "languages": "Modron",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Axiomatic Mind.",
+      "descriptions": [
+        "The monodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+      ]
+    },
+    {
+      "name": "Disintegration.",
+      "descriptions": [
+        "If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+      ]
+    },
+    {
+      "name": "Javelin.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6) piercing damage."
+      ]
+    }
+  ]
+}

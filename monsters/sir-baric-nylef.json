@@ -1,0 +1,73 @@
+{
+  "name": "Sir Baric Nylef",
+  "slug_name": "sir-baric-nylef",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr0",
+    "storm-kings-thunder"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "illuskan human",
+  "aligntment": "lawful good",
+  "armor_class": "18",
+  "armor_class_type": "plate",
+  "hit_points": "52",
+  "hit_dice": "8d8+16",
+  "speed": "30 ft.",
+  "strength": "18",
+  "strength_modifier": "+4",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "15",
+  "wisdom_modifier": "+2",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Insight +4, Investigation +2, Medicine +4, Survival +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common",
+  "challenge_rating": "0",
+  "challenge_rating_decimal": 0.0,
+  "experience": "10 XP",
+  "special_abilities": [
+    {
+      "name": "Brave.",
+      "descriptions": [
+        "Baric has advantage on saving throws against being frightened."
+      ]
+    },
+    {
+      "name": "Roleplaying Information.",
+      "descriptions": [
+        "As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil \"the Weezil\" Forkbeard, who is rumored to be hiding in Iceland Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.",
+        "Ideal: \"Evil must not be allowed to thrive in this world.\"",
+        "Bond: \"Tyr is my lord; the order, my family. Through my actions, I shall honor both.\"",
+        "Flaw: \"I'm not afraid to die. When Tyr finally calls me, I'll go to him happily.\""
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Maul.",
+      "descriptions": [
+        "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Heavy Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Baric carries twenty crossbow bolts."
+      ]
+    }
+  ]
+}

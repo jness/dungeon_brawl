@@ -1,0 +1,70 @@
+{
+  "name": "Kenku",
+  "slug_name": "kenku",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "kenku",
+  "aligntment": "chaotic neutral",
+  "armor_class": "13",
+  "armor_class_type": null,
+  "hit_points": "13",
+  "hit_dice": "3d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Deception +4, Perception +2, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "understands Auran and Common but speaks only through the use of its Mimicry trait",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Ambusher.",
+      "descriptions": [
+        "In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised"
+      ]
+    },
+    {
+      "name": "Mimicry.",
+      "descriptions": [
+        "The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Shortbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ]
+    }
+  ]
+}

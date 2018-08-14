@@ -1,0 +1,77 @@
+{
+  "name": "Bodak",
+  "slug_name": "bodak",
+  "tags": [
+    "medium",
+    "undead",
+    "cr6",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "undead",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "58",
+  "hit_dice": "9d8+18",
+  "speed": "30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "7",
+  "intelligence_modifier": "-2",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": null,
+  "skills": "Perception +4, Stealth +6",
+  "damage_resistances": "cold, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "lightning, poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "charmed, frightened, poisoned",
+  "senses": "darkvision 120 ft.",
+  "languages": "Abyssal, the languages it knew in life",
+  "challenge_rating": "6",
+  "challenge_rating_decimal": 6.0,
+  "experience": "2,300 XP",
+  "special_abilities": [
+    {
+      "name": "Aura of Annihilation.",
+      "descriptions": [
+        "The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect."
+      ]
+    },
+    {
+      "name": "Death Gaze.",
+      "descriptions": [
+        "When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.",
+        ">Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so. it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw."
+      ]
+    },
+    {
+      "name": "Sunlight Hypersensitivity.",
+      "descriptions": [
+        "The bodak takes 5 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Fist.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage plus 9 (2d8) necrotic damage."
+      ]
+    },
+    {
+      "name": "Withering Gaze.",
+      "descriptions": [
+        "One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one."
+      ]
+    }
+  ]
+}

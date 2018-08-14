@@ -1,0 +1,76 @@
+{
+  "name": "Dragonclaw",
+  "slug_name": "dragonclaw",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1",
+    "tyranny-of-dragons"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "aligntment": "neutral evil",
+  "armor_class": "14",
+  "armor_class_type": "leather armor",
+  "hit_points": "16",
+  "hit_dice": "3d8+3",
+  "speed": "30 ft.",
+  "strength": "9",
+  "strength_modifier": "-1",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "13",
+  "constitution_modifier": "+1",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "12",
+  "charisma_modifier": "+1",
+  "saving_throws": "Wis +2",
+  "skills": "Deception +3, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Draconic",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Dragon Fanatic.",
+      "descriptions": [
+        "The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened."
+      ]
+    },
+    {
+      "name": "Fanatic Advantage.",
+      "descriptions": [
+        "Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage."
+      ]
+    },
+    {
+      "name": "Pack Tactics.",
+      "descriptions": [
+        "The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The dragonclaw attacks twice with its scimitar."
+      ]
+    },
+    {
+      "name": "Scimitar.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Flumph",
+  "slug_name": "flumph",
+  "tags": [
+    "small",
+    "aberration",
+    "cr1/8",
+    "monster-manual"
+  ],
+  "size": "Small",
+  "type": "aberration",
+  "subtype": null,
+  "aligntment": "lawful good",
+  "armor_class": "12",
+  "armor_class_type": null,
+  "hit_points": "7",
+  "hit_dice": "2d6",
+  "speed": "5 ft., fly 30 ft.",
+  "strength": "6",
+  "strength_modifier": "-2",
+  "dexterity": "15",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "11",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Arcana +4, History +4, Religion +4",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": "psychic",
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Undercommon but can't speak, telepathy 60 ft.",
+  "challenge_rating": "1/8",
+  "challenge_rating_decimal": 0.125,
+  "experience": "25 XP",
+  "special_abilities": [
+    {
+      "name": "Advanced Telepathy.",
+      "descriptions": [
+        "The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy."
+      ]
+    },
+    {
+      "name": "Prone Deficiency.",
+      "descriptions": [
+        "If the flumph is knocked prone, roll a die. On an odd result, the flumph lands upside-down and is incapacitated. At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds."
+      ]
+    },
+    {
+      "name": "Telepathic Shroud.",
+      "descriptions": [
+        "The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tendrils.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage."
+      ]
+    },
+    {
+      "name": "Stench Spray (1/Day).",
+      "descriptions": [
+        "Each creature in a 15-foot cone originating from the flumph must succeed on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar."
+      ]
+    }
+  ]
+}

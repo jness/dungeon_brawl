@@ -1,0 +1,97 @@
+{
+  "name": "Choldrith",
+  "slug_name": "choldrith",
+  "tags": [
+    "medium",
+    "monstrosity",
+    "cr3",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "15",
+  "armor_class_type": "studded leather armor",
+  "hit_points": "15",
+  "hit_dice": "12d8+12",
+  "speed": "30 ft., climb 30 ft.",
+  "strength": "12",
+  "strength_modifier": "+1",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "11",
+  "intelligence_modifier": "+0",
+  "wisdom": "14",
+  "wisdom_modifier": "+2",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Athletics +5, Religion +2, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Undercommon",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry.",
+      "descriptions": [
+        "The choldrith has advantage on saving throws against being charmed, and magic can't put the choldrith to sleep."
+      ]
+    },
+    {
+      "name": "Spellcasting.",
+      "descriptions": [
+        "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:",
+        "* Cantrips (at will): guidance, mending, resistance, thaumaturgy",
+        "* 1st level (4 slots): bane, healing word, sanctuary, shield of faith",
+        "* 2nd level (3 slots): hold person, spiritual weapon (dagger)"
+      ]
+    },
+    {
+      "name": "Spider Climb.",
+      "descriptions": [
+        "The choldrith can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the choldrith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    },
+    {
+      "name": "Web Sense.",
+      "descriptions": [
+        "While in contact with a web, the choldrith knows the exact location of any other creature in contact with the same web."
+      ]
+    },
+    {
+      "name": "Web Walker.",
+      "descriptions": [
+        "The choldrith ignores movement restrictions caused by webbing."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage plus 10 (3d6) poison damage."
+      ]
+    },
+    {
+      "name": "Web (Recharge 5-6).",
+      "descriptions": [
+        "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+      ]
+    }
+  ]
+}

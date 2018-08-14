@@ -1,0 +1,90 @@
+{
+  "name": "Nalfeshnee",
+  "slug_name": "nalfeshnee",
+  "tags": [
+    "large",
+    "fiend",
+    "cr13",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "fiend",
+  "subtype": "demon",
+  "aligntment": "chaotic evil",
+  "armor_class": "18",
+  "armor_class_type": "natural armor",
+  "hit_points": "184",
+  "hit_dice": "16d10+96",
+  "speed": "20 ft., fly 30 ft.",
+  "strength": "21",
+  "strength_modifier": "+5",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "22",
+  "constitution_modifier": "+6",
+  "intelligence": "19",
+  "intelligence_modifier": "+4",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": "Con +11, Int +9, Wis +6, Cha +7",
+  "skills": null,
+  "damage_resistances": "cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "poison",
+  "damage_vulnerabilities": null,
+  "condition_immunities": "poisoned",
+  "senses": "truesight 120 ft.",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "challenge_rating": "13",
+  "challenge_rating_decimal": 13.0,
+  "experience": "10,000 XP",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The nalfeshnee has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The nalfeshnee uses Horror Nimbus if it can.  It then makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 32 (5d10 + 5) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) slashing damage."
+      ]
+    },
+    {
+      "name": "Horror Nimbus (Recharge 5-6).",
+      "descriptions": [
+        "The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours."
+      ]
+    },
+    {
+      "name": "Teleport.",
+      "descriptions": [
+        "The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+      ]
+    },
+    {
+      "name": "Variant: Summon Demon (1/Day).",
+      "descriptions": [
+        "The demon chooses what to summon and attempts a magical summoning.",
+        "A nalfeshnee has a 50 percent chance of summoning 1d4 vrocks, 1d3 hezrous, 1d2 glabrezus, or one nalfeshnee.",
+        "A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+      ]
+    }
+  ]
+}

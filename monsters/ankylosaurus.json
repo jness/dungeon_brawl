@@ -1,0 +1,50 @@
+{
+  "name": "Ankylosaurus",
+  "slug_name": "ankylosaurus",
+  "tags": [
+    "huge",
+    "beast",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Huge",
+  "type": "beast",
+  "subtype": null,
+  "aligntment": "unaligned",
+  "armor_class": "15",
+  "armor_class_type": "natural armor",
+  "hit_points": "68",
+  "hit_dice": "8d12+16",
+  "speed": "30 ft.",
+  "strength": "19",
+  "strength_modifier": "+4",
+  "dexterity": "11",
+  "dexterity_modifier": "+0",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "2",
+  "intelligence_modifier": "-4",
+  "wisdom": "12",
+  "wisdom_modifier": "+1",
+  "charisma": "5",
+  "charisma_modifier": "-3",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": null,
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "actions": [
+    {
+      "name": "Tail.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+      ]
+    }
+  ]
+}

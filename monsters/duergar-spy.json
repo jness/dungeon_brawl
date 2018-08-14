@@ -1,0 +1,106 @@
+{
+  "name": "Duergar Spy",
+  "slug_name": "duergar-spy",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr2",
+    "tales-from-the-yawning-portal"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "dwarf",
+  "aligntment": "lawful evil",
+  "armor_class": "15",
+  "armor_class_type": "studded leather",
+  "hit_points": "33",
+  "hit_dice": "6d8+6",
+  "speed": "25 ft.",
+  "strength": "10",
+  "strength_modifier": "+0",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "12",
+  "constitution_modifier": "+1",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "13",
+  "charisma_modifier": "+1",
+  "saving_throws": null,
+  "skills": "Deception +5, Insight +2, Investigation +5, Perception +4, Persuasion +3, Sleight of Hand +5, Stealth +7",
+  "damage_resistances": "poison",
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "Dwarvish, Undercommon",
+  "challenge_rating": "2",
+  "challenge_rating_decimal": 2.0,
+  "experience": "450 XP",
+  "special_abilities": [
+    {
+      "name": "Source.",
+      "descriptions": [
+        "tales from the yawning portal,  page 234"
+      ]
+    },
+    {
+      "name": "Cunning Action.",
+      "descriptions": [
+        "On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action."
+      ]
+    },
+    {
+      "name": "Duergar Resilience.",
+      "descriptions": [
+        "The spy has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+      ]
+    },
+    {
+      "name": "Sneak Attack.",
+      "descriptions": [
+        "Once per turn, the spy can deal an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll."
+      ]
+    },
+    {
+      "name": "Sunlight Sensitivity.",
+      "descriptions": [
+        "While in sunlight, the spy has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The spy makes two shortsword attacks."
+      ]
+    },
+    {
+      "name": "Eniarge (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available."
+      ]
+    },
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 10 (2d6 + 3) piercing damage while enlarged."
+      ]
+    },
+    {
+      "name": "Hand Crossbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +5 to hit, range 30/120 ft ., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Invisibility (Recharges after a Short or Long Rest).",
+      "descriptions": [
+        "The spy magically turns invisible until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is invisible with it."
+      ]
+    }
+  ]
+}

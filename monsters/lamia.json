@@ -1,0 +1,76 @@
+{
+  "name": "Lamia",
+  "slug_name": "lamia",
+  "tags": [
+    "large",
+    "monstrosity",
+    "cr4",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "monstrosity",
+  "subtype": null,
+  "aligntment": "chaotic evil",
+  "armor_class": "13",
+  "armor_class_type": "natural armor",
+  "hit_points": "97",
+  "hit_dice": "13d10+26",
+  "speed": "30 ft.",
+  "strength": "16",
+  "strength_modifier": "+3",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "14",
+  "intelligence_modifier": "+2",
+  "wisdom": "15",
+  "wisdom_modifier": "+2",
+  "charisma": "16",
+  "charisma_modifier": "+3",
+  "saving_throws": null,
+  "skills": "Deception +7, Insight +4, Stealth +3",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Abyssal, Common",
+  "challenge_rating": "4",
+  "challenge_rating_decimal": 4.0,
+  "experience": "1,100 XP",
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting.",
+      "descriptions": [
+        "The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components. At will: disguise self (any humanoid form), major image 3/day each: charm person, mirror image, scrying, suggestion 1/day: geas"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch."
+      ]
+    },
+    {
+      "name": "Claws.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage."
+      ]
+    },
+    {
+      "name": "Dagger.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Intoxicating Touch.",
+      "descriptions": [
+        "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks."
+      ]
+    }
+  ]
+}

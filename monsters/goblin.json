@@ -1,0 +1,64 @@
+{
+  "name": "Goblin",
+  "slug_name": "goblin",
+  "tags": [
+    "small",
+    "humanoid",
+    "cr1/4",
+    "monster-manual"
+  ],
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "goblinoid",
+  "aligntment": "neutral evil",
+  "armor_class": "15",
+  "armor_class_type": "leather armor, shield",
+  "hit_points": "7",
+  "hit_dice": "2d6",
+  "speed": "30 ft.",
+  "strength": "8",
+  "strength_modifier": "-1",
+  "dexterity": "14",
+  "dexterity_modifier": "+2",
+  "constitution": "10",
+  "constitution_modifier": "+0",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "8",
+  "wisdom_modifier": "-1",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": "Stealth +6",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 60 ft.",
+  "languages": "Common, Goblin",
+  "challenge_rating": "1/4",
+  "challenge_rating_decimal": 0.25,
+  "experience": "50 XP",
+  "special_abilities": [
+    {
+      "name": "Nimble Escape.",
+      "descriptions": [
+        "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Scimitar.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+      ]
+    },
+    {
+      "name": "Shortbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      ]
+    }
+  ]
+}

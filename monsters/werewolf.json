@@ -1,0 +1,82 @@
+{
+  "name": "Werewolf",
+  "slug_name": "werewolf",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr3",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human, shapechanger",
+  "aligntment": "chaotic evil",
+  "armor_class": "11",
+  "armor_class_type": "in humanoid form, 12 in wolf or hybrid form",
+  "hit_points": "58",
+  "hit_dice": "9d8+18",
+  "speed": "30 ft. (40 ft. in wolf form)",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "13",
+  "dexterity_modifier": "+1",
+  "constitution": "14",
+  "constitution_modifier": "+2",
+  "intelligence": "10",
+  "intelligence_modifier": "+0",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "10",
+  "charisma_modifier": "+0",
+  "saving_throws": null,
+  "skills": "Perception +4",
+  "damage_resistances": null,
+  "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common (can't speak in wolf form)",
+  "challenge_rating": "3",
+  "challenge_rating_decimal": 3.0,
+  "experience": "700 XP",
+  "special_abilities": [
+    {
+      "name": "Shapechanger.",
+      "descriptions": [
+        "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      ]
+    },
+    {
+      "name": "Keen Hearing and Smell.",
+      "descriptions": [
+        "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only).",
+      "descriptions": [
+        "The werewolf makes two attacks: one with its bite and one with its claws or spear."
+      ]
+    },
+    {
+      "name": "Bite (Wolf or Hybrid Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
+      ]
+    },
+    {
+      "name": "Claws (Hybrid Form Only).",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) slashing damage."
+      ]
+    },
+    {
+      "name": "Spear (Humanoid Form Only).",
+      "descriptions": [
+        "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Sea Spawn",
+  "slug_name": "sea-spawn",
+  "tags": [
+    "medium",
+    "humanoid",
+    "cr1",
+    "volos-guide"
+  ],
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": null,
+  "aligntment": "neutral evil",
+  "armor_class": "11",
+  "armor_class_type": "natural armor",
+  "hit_points": "32",
+  "hit_dice": "5d8+10",
+  "speed": "20 ft., swim 30 ft.",
+  "strength": "15",
+  "strength_modifier": "+2",
+  "dexterity": "8",
+  "dexterity_modifier": "-1",
+  "constitution": "15",
+  "constitution_modifier": "+2",
+  "intelligence": "6",
+  "intelligence_modifier": "-2",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "8",
+  "charisma_modifier": "-1",
+  "saving_throws": null,
+  "skills": null,
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "darkvision 120 ft.",
+  "languages": "understands Aquan and Common but can't speak",
+  "challenge_rating": "1",
+  "challenge_rating_decimal": 1.0,
+  "experience": "200 XP",
+  "special_abilities": [
+    {
+      "name": "Limited Amphibiousness.",
+      "descriptions": [
+        "The sea spawn can breathe air and water, but needs to be submerged in the sea at least once a day for 1 minute to avoid suffocating."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The sea spawn makes three attacks: two unarmed strikes and one with its Piscine Anatomy."
+      ]
+    },
+    {
+      "name": "Unarmed Strike.",
+      "descriptions": [
+        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Piscine Anatomy.",
+      "descriptions": [
+        "The sea spawn has one or more of the following attack options, provided it has the appropriate anatomy:",
+        "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.",
+        "Poison Quills. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "Tentacle. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d6+2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target."
+      ]
+    }
+  ]
+}

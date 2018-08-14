@@ -1,0 +1,76 @@
+{
+  "name": "Satyr",
+  "slug_name": "satyr",
+  "tags": [
+    "medium",
+    "fey",
+    "cr1/2",
+    "monster-manual"
+  ],
+  "size": "Medium",
+  "type": "fey",
+  "subtype": null,
+  "aligntment": "chaotic neutral",
+  "armor_class": "14",
+  "armor_class_type": "leather armor",
+  "hit_points": "31",
+  "hit_dice": "7d8",
+  "speed": "40 ft.",
+  "strength": "12",
+  "strength_modifier": "+1",
+  "dexterity": "16",
+  "dexterity_modifier": "+3",
+  "constitution": "11",
+  "constitution_modifier": "+0",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "10",
+  "wisdom_modifier": "+0",
+  "charisma": "14",
+  "charisma_modifier": "+2",
+  "saving_throws": null,
+  "skills": "Perception +2, Performance +6, Stealth +5",
+  "damage_resistances": null,
+  "damage_immunities": null,
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": null,
+  "languages": "Common, Elvish, Sylvan",
+  "challenge_rating": "1/2",
+  "challenge_rating_decimal": 0.5,
+  "experience": "100 XP",
+  "special_abilities": [
+    {
+      "name": "Magic Resistance.",
+      "descriptions": [
+        "The satyr has advantage on saving throws against spells and other magical effects."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ram.",
+      "descriptions": [
+        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage."
+      ]
+    },
+    {
+      "name": "Shortsword.",
+      "descriptions": [
+        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Shortbow.",
+      "descriptions": [
+        "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+      ]
+    },
+    {
+      "name": "Variant: Panpipes.",
+      "descriptions": [
+        "Gentle Lullaby. The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake."
+      ]
+    }
+  ]
+}

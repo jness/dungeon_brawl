@@ -1,0 +1,70 @@
+{
+  "name": "Young Brass Dragon",
+  "slug_name": "young-brass-dragon",
+  "tags": [
+    "large",
+    "dragon",
+    "cr6",
+    "monster-manual"
+  ],
+  "size": "Large",
+  "type": "dragon",
+  "subtype": null,
+  "aligntment": "chaotic good",
+  "armor_class": "17",
+  "armor_class_type": "natural armor",
+  "hit_points": "110",
+  "hit_dice": "13d10+39",
+  "speed": "40 ft., burrow 20 ft., fly 80 ft.",
+  "strength": "19",
+  "strength_modifier": "+4",
+  "dexterity": "10",
+  "dexterity_modifier": "+0",
+  "constitution": "17",
+  "constitution_modifier": "+3",
+  "intelligence": "12",
+  "intelligence_modifier": "+1",
+  "wisdom": "11",
+  "wisdom_modifier": "+0",
+  "charisma": "15",
+  "charisma_modifier": "+2",
+  "saving_throws": "Dex +3, Con +6, Wis +3, Cha +5",
+  "skills": "Perception +6, Persuasion +5, Stealth +3",
+  "damage_resistances": null,
+  "damage_immunities": "fire",
+  "damage_vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "blindsight 30 ft., darkvision 120 ft.",
+  "languages": "Common, Draconic",
+  "challenge_rating": "6",
+  "challenge_rating_decimal": 6.0,
+  "experience": "2,300 XP",
+  "actions": [
+    {
+      "name": "Multiattack.",
+      "descriptions": [
+        "The dragon makes three attacks: one with its bite and two with its claws."
+      ]
+    },
+    {
+      "name": "Bite.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+      ]
+    },
+    {
+      "name": "Claw.",
+      "descriptions": [
+        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+      ]
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6).",
+      "descriptions": [
+        "The dragon uses one of the following breath weapons.",
+        "Fire Breath. The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.",
+        "Sleep Breath. The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+      ]
+    }
+  ]
+}
