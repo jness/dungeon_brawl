@@ -112,7 +112,8 @@ def brawl_add():
                     name = monster['name'],
                     slug_name = monster['slug_name'],
                     hit_points = monster['hit_points'],
-                    dexterity_modifier = monster['dexterity_modifier']
+                    dexterity_modifier = monster['dexterity_modifier'],
+                    character = False
                 )
             )
 
@@ -144,7 +145,8 @@ def brawl_add_character():
             unique_id = '%s_%s' % (name, len(monsters) + 1),
             name = name,
             hit_points = hit_points,
-            dexterity_modifier = initiative_modifier
+            dexterity_modifier = initiative_modifier,
+            character = True
         )
     )
 
@@ -155,7 +157,24 @@ def brawl_add_character():
 
 
 @app.route('/brawl_clear', methods=['GET'])
-def brawl_clear():
+def brawl_clear_only_monsters():
+    """
+    Clear brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    monsters = [m for m in monsters if m['character'] == True]
+
+    # redirect to brawl page and set monster to cookie
+    response = redirect('/brawl')
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+@app.route('/brawl_clear_all', methods=['GET'])
+def brawl_clear_all():
     """
     Clear brawl
     """
