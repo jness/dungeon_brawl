@@ -89,12 +89,6 @@
   "legendary_action_description": "The mummy lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The mummy lord regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Dreadful Glare.",
-      "descriptions": [
-        "The mummy lord targets one creature it can see within 60 feet of it. If the target can see the mummy lord, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours."
-      ]
-    },
-    {
       "name": "Attack.",
       "descriptions": [
         "The mummy lord makes one attack with its rotting fist or uses its Dreadful Glare."

@@ -82,12 +82,6 @@
   "legendary_action_description": "The gynosphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The gynosphinx regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Claw.",
-      "descriptions": [
-        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
-      ]
-    },
-    {
       "name": "Claw Attack.",
       "descriptions": [
         "The sphinx makes one claw attack."

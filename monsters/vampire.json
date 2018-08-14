@@ -120,12 +120,6 @@
   "legendary_action_description": "The vampire can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The vampire regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Children of the Night (1/Day).",
-      "descriptions": [
-        "The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
-      ]
-    },
-    {
       "name": "Move.",
       "descriptions": [
         "The vampire moves up to its speed without provoking opportunity attacks."

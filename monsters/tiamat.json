@@ -112,12 +112,6 @@
   "legendary_action_description": "The tiamat can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The tiamat regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Frightful Presence.",
-      "descriptions": [
-        "Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours."
-      ]
-    },
-    {
       "name": "Bite.",
       "descriptions": [
         "Tiamat can take 5 legendary actions, choosing from the options listed. Only one legendary action option can be used at a time and only at the end of another creature's turn. Tiamat regains spent legendary actions at the start of her turn.",

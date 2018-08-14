@@ -106,12 +106,6 @@
   "legendary_action_description": "The ki-rin can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The ki-rin regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Horn.",
-      "descriptions": [
-        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) piercing damage."
-      ]
-    },
-    {
       "name": "Detect.",
       "descriptions": [
         "The ki-rin makes a Wisdom (Perception) check or a Wisdom (Insight) check."

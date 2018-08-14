@@ -114,12 +114,6 @@
   "legendary_action_description": "The imix can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The imix regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Summon Elementals (1/Day).",
-      "descriptions": [
-        "Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points."
-      ]
-    },
-    {
       "name": "Heat Wave.",
       "descriptions": [
         "Imix creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 (2d8) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a DC 21 Constitution saving throw or gain one level of exhaustion."

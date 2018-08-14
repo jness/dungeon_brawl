@@ -101,12 +101,6 @@
   "legendary_action_description": "The ogremoch can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The ogremoch regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Summon Elementals (1/Day).",
-      "descriptions": [
-        "Ogremoch summons up to three earth elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Ogremoch, and disappear if Ogremoch is reduced to 0 hit points."
-      ]
-    },
-    {
       "name": "Illuminating Crystals.",
       "descriptions": [
         "Ogremoch's crystalline protrusions flare. Each creature within 30 feet of Ogremoch becomes outlined in orange light, shedding dim light in a 10-foot radius. Any attack roll against an affected creature has advantage if the attacker can see it, and the affected creature can't benefit from being invisible."

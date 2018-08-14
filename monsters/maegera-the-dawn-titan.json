@@ -94,12 +94,6 @@
   "legendary_action_description": "The maegera the dawn titan can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The maegera the dawn titan regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Slam.",
-      "descriptions": [
-        "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage"
-      ]
-    },
-    {
       "name": "Quench Magic.",
       "descriptions": [
         "Maegera targets one creature that it can see within 60 feet of it. Any resistence or immunity to fire damage that the target gains from a spell or magic item is suppressed.  The effect lasts until the end of Maegera's next turn."

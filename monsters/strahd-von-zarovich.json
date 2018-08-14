@@ -132,12 +132,6 @@
   "legendary_action_description": "Strahd can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. Strahd regains spent legendary actions at the start of his turn.",
   "legendary_actions": [
     {
-      "name": "Children of the Night (1/day).",
-      "descriptions": [
-        "Strahd magically calls 2d4 swarms of bats or swarms rats, provided that the sun isn't up. While outdoors, Strahd can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of Strahd and obeying his spoken commands. The beasts remain for 1 hour, until Strahd dies, or until he dismisses them as a bonus action."
-      ]
-    },
-    {
       "name": "Move.",
       "descriptions": [
         "Strahd moves up to his speed without provoking opportunity attacks."

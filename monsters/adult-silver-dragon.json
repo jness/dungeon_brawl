@@ -90,14 +90,6 @@
   "legendary_action_description": "The adult silver dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult silver dragon regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Breath Weapons (Recharge 5-6).",
-      "descriptions": [
-        "The dragon uses one of the following breath weapons.",
-        "Cold Breath. The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.",
-        "Paralyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-      ]
-    },
-    {
       "name": "Detect.",
       "descriptions": [
         "The dragon makes a Wisdom (Perception) check."

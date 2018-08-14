@@ -96,13 +96,6 @@
   "legendary_action_description": "The iymrith, ancient blue dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The iymrith, ancient blue dragon regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Change Shape.",
-      "descriptions": [
-        "Iymrith magically polymorphs into a female storm giant or back into her true form. She reverts to her true form if she dies. Any equipment she is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
-        "In storm giant form, Iymrith retains her alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Her statistics are otherwise replaced by those of the new form."
-      ]
-    },
-    {
       "name": "Detect.",
       "descriptions": [
         "The dragon makes a Wisdom (Perception) check."

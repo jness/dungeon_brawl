@@ -100,12 +100,6 @@
   "legendary_action_description": "The rezmir can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The rezmir regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Acid Breath (Recharge 5-6).",
-      "descriptions": [
-        "Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one."
-      ]
-    },
-    {
       "name": "Darkness (Costs 2 Actions).",
       "descriptions": [
         "If she is wearing the Black Dragon Mask, Rezmir can take up to two legendary actions between each of her turns, taking the actions all at once or spreading them over the round. A legendary action can be taken only at the start or end of a turn.",

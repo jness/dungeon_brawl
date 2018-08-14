@@ -70,12 +70,6 @@
   "legendary_action_description": "The giant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The giant regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Windjavelin.",
-      "descriptions": [
-        "The giant coalesces wind into a javeIin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6+9) piercing damage to the target, striking unerringly. The javelin disappears after it hits."
-      ]
-    },
-    {
       "name": "Gust.",
       "descriptions": [
         "The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses."

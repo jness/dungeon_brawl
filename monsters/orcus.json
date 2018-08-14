@@ -106,12 +106,6 @@
     {
       "name": "Tail.",
       "descriptions": [
-        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage plus 18 (4d8) poison damage."
-      ]
-    },
-    {
-      "name": "Tail.",
-      "descriptions": [
         "Orcus makes one tail attack."
       ]
     },
