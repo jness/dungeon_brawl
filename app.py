@@ -254,6 +254,28 @@ def brawl_update():
     return response
 
 
+@app.route('/brawl_delete', methods=['GET'])
+def brawl_delete():
+    """
+    Roll init for brawl
+    """
+
+    unique_id = request.args['unique_id']
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    new_monsters = []
+
+    for monster in monsters:
+        if monster['unique_id'] != unique_id:
+            new_monsters.append(monster)
+
+    response = redirect('/brawl')
+    response.set_cookie('monsters', json.dumps(new_monsters))
+    return response
+
+
 @app.route('/brawl', methods=['GET'])
 def brawl():
     """
