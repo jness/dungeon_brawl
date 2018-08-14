@@ -8,10 +8,6 @@ Brawl
 <link rel="stylesheet" href="{{ url_for('static', filename='css/brawl.css') }}">
 {% endblock %}
 
-{% block javascript %}
-<script src="{{ url_for('static', filename='js/brawl.js') }}"></script>
-{% endblock %}
-
 {% block content %}
 <div class="container">
 
@@ -38,6 +34,8 @@ Brawl
           <th>Initiative</th>
           <th>Name</th>
           <th>Hit Points</th>
+          <th>Notes</th>
+          <th></th>
         </tr>
 
         {% for monster in monsters %}
@@ -51,16 +49,55 @@ Brawl
             <td>{% if monster.slug_name %}<a target='_blank' href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a>{% else %}{{ monster.name }}{% endif %}</td>
 
             <td>
-              <button type="button" onclick="subtract('{{ monster.unique_id }}_hit_points');" class="btn btn-secondary btn-sm">-</button>
               <span id='{{ monster.unique_id }}_hit_points'>{{ monster.hit_points }}</span>
-              <button type="button" onclick="add('{{ monster.unique_id }}_hit_points');" class="btn btn-secondary btn-sm">+</button>
+            </td>
+
+            <td>{{ monster.notes }}</td>
+
+            <td>
+            <button type="button" data-toggle="modal" data-target="#{{ monster.unique_id }}_edit" class="btn btn-info btn-sm">Edit</button>
             </td>
 
           </tr>
+
         {% endfor %}
 
     </table>
   </form>
+
+{% for monster in monsters %}
+<div class="modal fade" id="{{ monster.unique_id }}_edit" tabindex="-1" role="dialog" aria-labelledby="{{ monster.unique_id }}_edit" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{ monster.name }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <form action='/brawl_update' method='POST'>
+      <div class="modal-body">
+          <p>Initiative</p>
+          <p><input id="name" type="number" value="{{ monster.initiative }}" name="initiative" required></p>
+
+          <p>Hit Points</p>
+          <p><input id="hp" type="text" name="hit_points" value="{{ monster.hit_points }}" required></p>
+
+          <p>Notes</p>
+          <p><input id="hp" type="text" name="notes" value="{{ monster.notes }}"></p>
+
+          <input type="hidden" name="unique_id" value="{{ monster.unique_id }}">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save changes</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endfor %}
 
 
 </div>

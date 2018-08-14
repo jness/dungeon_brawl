@@ -4,6 +4,7 @@ import re
 import json
 import random
 
+from slugify import slugify
 from pymongo import MongoClient
 from flask import Flask, render_template, request, abort, redirect, make_response
 
@@ -108,12 +109,13 @@ def brawl_add():
             # add monster to monster json list
             monsters.append(
                 dict(
-                    unique_id = '%s_%s' % (monster['name'], len(monsters) + 1),
+                    unique_id = '%s_%s' % (monster['slug_name'], len(monsters) + 1),
                     name = monster['name'],
                     slug_name = monster['slug_name'],
                     hit_points = monster['hit_points'],
                     dexterity_modifier = monster['dexterity_modifier'],
-                    character = False
+                    character = False,
+                    notes = ''
                 )
             )
 
@@ -142,11 +144,12 @@ def brawl_add_character():
     # add monster to monster json list
     monsters.append(
         dict(
-            unique_id = '%s_%s' % (name, len(monsters) + 1),
+            unique_id = '%s_%s' % (slugify(name), len(monsters) + 1),
             name = name,
             hit_points = hit_points,
             dexterity_modifier = initiative_modifier,
-            character = True
+            character = True,
+            notes = ''
         )
     )
 
@@ -194,13 +197,61 @@ def brawl_roll():
     monsters = json.loads(_monsters)
 
     for monster in monsters:
-        roll = random.randint(1, 20)
-        roll_result = eval('%s%s' % (roll, monster['dexterity_modifier']))
-        monster['initiative'] = roll_result
 
-    return render_template(
-        'brawl.html', monsters=sorted(
-            monsters, key=lambda x:x['initiative'], reverse=True))
+        if 'initiative' not in monster:
+            roll = random.randint(1, 20)
+            roll_result = eval('%s%s' % (roll, monster['dexterity_modifier']))
+            monster['initiative'] = roll_result
+
+    # sort monsters
+    monsters = sorted(monsters, key=lambda x:x['initiative'], reverse=True)
+
+    response = redirect('/brawl')
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+
+@app.route('/brawl_update', methods=['POST'])
+def brawl_update():
+    """
+    Roll init for brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    unique_id = request.form['unique_id']
+    initiative = request.form['initiative']
+    hit_points = request.form['hit_points']
+    notes = request.form.get('notes') or ''
+
+    for monster in monsters:
+
+        if monster['unique_id'] == unique_id:
+
+            # perform math on hit points
+            if '+' in str(hit_points):
+                hit_points = int(monster['hit_points']) + int(hit_points)
+            elif '-' in str(hit_points):
+                hit_points = int(monster['hit_points']) + int(hit_points)
+            else:
+                hit_points = int(hit_points)
+
+            # cant go below 0
+            if hit_points < 0:
+                hit_points = 0
+
+            monster['initiative'] = int(initiative)
+            monster['hit_points'] = int(hit_points)
+            monster['notes'] = notes
+
+    # sort monsters
+    monsters = sorted(monsters, key=lambda x:x['initiative'], reverse=True)
+
+    response = redirect('/brawl')
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
 
 
 @app.route('/brawl', methods=['GET'])
