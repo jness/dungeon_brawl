@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "orc",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "9",
   "armor_class_type": null,
   "hit_points": "30",

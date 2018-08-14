@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any alignment",
+  "alignment": "any alignment",
   "armor_class": "11",
   "armor_class_type": "16 with barkskin",
   "hit_points": "27",

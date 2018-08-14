@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "half-dragon",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "17",
   "armor_class_type": "splint",
   "hit_points": "57",

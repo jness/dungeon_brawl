@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %}
+Monsters
+{% endblock %}
+
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/monsters.css') }}">
 {% endblock %}
@@ -16,12 +20,12 @@
         <th><a href='?sort=type{{ params }}'>Type</a></th>
         <th><a href='?sort=size{{ params }}'>Size</a></th>
         <th><a href='?sort=alignment{{ params }}'>Alignment</a></th>
-        <th><a href='?sort=challenge_rating_numeric{{ params }}'>Challenge</a></th>
+        <th><a href='?sort=challenge_rating_decimal{{ params }}'>Challenge</a></th>
       </tr>
 
       {% for monster in monsters %}
         <tr>
-          <td><center><a href='brawl_add?slug_name={{ monster.slug_name}}'><img width=35 src='{{ url_for('static', filename='images/brawl.png') }}'></a></center></td>
+          <td><center><a href='/brawl_add?slug_name={{ monster.slug_name}}'><img width=35 src='{{ url_for('static', filename='images/brawl.png') }}'></a></center></td>
           <td><a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a></td>
           <td>{{ monster.type|title }}</td>
           <td>{{ monster.size|title }}</td>

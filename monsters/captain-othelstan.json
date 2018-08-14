@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "19",
   "armor_class_type": "splint, shield",
   "hit_points": "93",

@@ -10,7 +10,7 @@
   "size": "Huge",
   "type": "celestial",
   "subtype": "titan",
-  "aligntment": "chaotic good (75%) or neutral evil (25%)",
+  "alignment": "chaotic good (75%) or neutral evil (25%)",
   "armor_class": "22",
   "armor_class_type": "natural armor",
   "hit_points": "313",

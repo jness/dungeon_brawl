@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "dwarf",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "16",
   "armor_class_type": "scale mail, shield",
   "hit_points": "26",

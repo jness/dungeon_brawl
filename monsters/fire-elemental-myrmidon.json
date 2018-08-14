@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "elemental",
   "subtype": null,
-  "aligntment": "neutral",
+  "alignment": "neutral",
   "armor_class": "18",
   "armor_class_type": "plate",
   "hit_points": "117",

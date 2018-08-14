@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "fiend",
   "subtype": "devil",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "7",
   "armor_class_type": null,
   "hit_points": "13",

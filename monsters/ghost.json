@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "undead",
   "subtype": null,
-  "aligntment": "any alignment",
+  "alignment": "any alignment",
   "armor_class": "11",
   "armor_class_type": null,
   "hit_points": "45",

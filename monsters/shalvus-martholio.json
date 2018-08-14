@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "turami human",
-  "aligntment": "neutral",
+  "alignment": "neutral",
   "armor_class": "13",
   "armor_class_type": "leather",
   "hit_points": "27",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "elf",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "18",
   "armor_class_type": "studded leather",
   "hit_points": "135",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "chaotic good",
+  "alignment": "chaotic good",
   "armor_class": "17",
   "armor_class_type": "studded leather armor +1",
   "hit_points": "82",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human, shapechanger",
-  "aligntment": "neutral good",
+  "alignment": "neutral good",
   "armor_class": "10",
   "armor_class_type": "in humanoid form, 11 in bear and hybrid forms ",
   "hit_points": "135",

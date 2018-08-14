@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "high elf",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "16",
   "armor_class_type": "studded leather, shield",
   "hit_points": "52",

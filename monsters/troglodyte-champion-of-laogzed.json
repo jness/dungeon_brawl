@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "troglodyte",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "14",
   "armor_class_type": "natural armor",
   "hit_points": "59",

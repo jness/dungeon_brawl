@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "undead",
   "subtype": null,
-  "aligntment": "any evil alignment",
+  "alignment": "any evil alignment",
   "armor_class": "17",
   "armor_class_type": "natural armor",
   "hit_points": "135",

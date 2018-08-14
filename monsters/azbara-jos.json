@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "13",
   "armor_class_type": "16 with mage armor",
   "hit_points": "39",

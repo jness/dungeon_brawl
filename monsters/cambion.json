@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "fiend",
   "subtype": null,
-  "aligntment": "any evil alignment",
+  "alignment": "any evil alignment",
   "armor_class": "19",
   "armor_class_type": "scale mail",
   "hit_points": "82",

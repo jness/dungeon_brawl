@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "grung",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "12",
   "armor_class_type": null,
   "hit_points": "11",

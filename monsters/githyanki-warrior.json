@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "gith",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "17",
   "armor_class_type": "half plate",
   "hit_points": "49",

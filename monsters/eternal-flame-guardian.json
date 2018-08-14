@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "17",
   "armor_class_type": "breastplate, shield; 15 while using a crossbow",
   "hit_points": "45",

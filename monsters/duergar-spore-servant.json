@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "plant",
   "subtype": null,
-  "aligntment": "unaligned",
+  "alignment": "unaligned",
   "armor_class": "16",
   "armor_class_type": "scale armor, shield",
   "hit_points": "26",

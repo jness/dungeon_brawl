@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any chaotic alignment",
+  "alignment": "any chaotic alignment",
   "armor_class": "13",
   "armor_class_type": "hide armor",
   "hit_points": "67",

@@ -10,7 +10,7 @@
   "size": "Gargantuan",
   "type": "dragon",
   "subtype": null,
-  "aligntment": "chaotic good",
+  "alignment": "chaotic good",
   "armor_class": "20",
   "armor_class_type": "natural armor",
   "hit_points": "297",

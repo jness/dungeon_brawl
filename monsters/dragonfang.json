@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "15",
   "armor_class_type": "studded leather",
   "hit_points": "78",

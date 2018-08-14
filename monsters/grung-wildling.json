@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "grung",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "13",
   "armor_class_type": "16 with barkskin",
   "hit_points": "27",

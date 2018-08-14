@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any non-good alignment",
+  "alignment": "any non-good alignment",
   "armor_class": "15",
   "armor_class_type": "studded leather",
   "hit_points": "78",

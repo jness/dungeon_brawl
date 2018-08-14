@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any evil alignment",
+  "alignment": "any evil alignment",
   "armor_class": "10",
   "armor_class_type": null,
   "hit_points": "75",

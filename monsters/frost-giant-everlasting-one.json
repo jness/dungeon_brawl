@@ -10,7 +10,7 @@
   "size": "Huge",
   "type": "giant",
   "subtype": "frost giant",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "15",
   "armor_class_type": "patchwork armor",
   "hit_points": "189",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "lizardfolk",
-  "aligntment": "neutral",
+  "alignment": "neutral",
   "armor_class": "15",
   "armor_class_type": "natural armor, shield",
   "hit_points": "22",

@@ -2,7 +2,6 @@
 
 import re
 import json
-import time
 import random
 
 from pymongo import MongoClient
@@ -109,11 +108,11 @@ def brawl_add():
             # add monster to monster json list
             monsters.append(
                 dict(
-                    unique_id = '%s_%s' % (monster['name'], time.time()),
+                    unique_id = '%s_%s' % (monster['name'], len(monsters) + 1),
                     name = monster['name'],
                     slug_name = monster['slug_name'],
                     hit_points = monster['hit_points'],
-                    dexterity_mod = monster['dexterity_mod']
+                    dexterity_modifier = monster['dexterity_modifier']
                 )
             )
 
@@ -136,16 +135,16 @@ def brawl_add_character():
     monsters = json.loads(_monsters)
 
     name = request.form['name']
-    initiative_mod = request.form['initiative_mod']
+    initiative_modifier = request.form['initiative_modifier']
     hit_points = request.form['hit_points']
 
     # add monster to monster json list
     monsters.append(
         dict(
-            unique_id = '%s_%s' % (name, time.time()),
+            unique_id = '%s_%s' % (name, len(monsters) + 1),
             name = name,
             hit_points = hit_points,
-            dexterity_mod = initiative_mod
+            dexterity_modifier = initiative_modifier
         )
     )
 
@@ -177,7 +176,7 @@ def brawl_roll():
 
     for monster in monsters:
         roll = random.randint(1, 20)
-        roll_result = eval('%s%s' % (roll, monster['dexterity_mod']))
+        roll_result = eval('%s%s' % (roll, monster['dexterity_modifier']))
         monster['initiative'] = roll_result
 
     return render_template(

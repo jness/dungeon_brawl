@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "16",
   "armor_class_type": "scale",
   "hit_points": "33",

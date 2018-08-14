@@ -10,7 +10,7 @@
   "size": "Tiny",
   "type": "undead",
   "subtype": null,
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "20",
   "armor_class_type": "natural armor",
   "hit_points": "80",

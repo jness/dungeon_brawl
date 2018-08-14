@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any non-lawful alignment",
+  "alignment": "any non-lawful alignment",
   "armor_class": "12",
   "armor_class_type": "leather armor",
   "hit_points": "11",

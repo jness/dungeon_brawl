@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "mongrelfolk",
-  "aligntment": "any alignment",
+  "alignment": "any alignment",
   "armor_class": "11",
   "armor_class_type": "natural armor",
   "hit_points": "26",

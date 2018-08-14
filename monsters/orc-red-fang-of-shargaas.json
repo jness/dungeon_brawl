@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "orc",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "15",
   "armor_class_type": "studded leather armor",
   "hit_points": "52",

@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "derro",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "13",
   "armor_class_type": "leather armor",
   "hit_points": "13",

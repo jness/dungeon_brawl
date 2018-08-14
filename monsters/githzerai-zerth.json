@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "gith",
-  "aligntment": "lawful neutral",
+  "alignment": "lawful neutral",
   "armor_class": "17",
   "armor_class_type": null,
   "hit_points": "84",

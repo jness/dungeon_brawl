@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human, shapechanger",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "11",
   "armor_class_type": "in humanoid form, 12 in wolf or hybrid form",
   "hit_points": "58",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "monstrosity",
   "subtype": "shapechanger",
-  "aligntment": "neutral",
+  "alignment": "neutral",
   "armor_class": "12",
   "armor_class_type": "natural armor",
   "hit_points": "58",

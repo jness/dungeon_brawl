@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "water genasi",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "10",
   "armor_class_type": "13 with mage armor",
   "hit_points": "60",

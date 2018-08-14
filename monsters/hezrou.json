@@ -10,7 +10,7 @@
   "size": "Large",
   "type": "fiend",
   "subtype": "demon",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "16",
   "armor_class_type": "natural armor",
   "hit_points": "136",

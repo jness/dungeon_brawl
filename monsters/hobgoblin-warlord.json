@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "goblinoid",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "20",
   "armor_class_type": "plate, shield",
   "hit_points": "97",

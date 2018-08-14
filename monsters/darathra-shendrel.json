@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "illuskan humanoid",
-  "aligntment": "lawful good",
+  "alignment": "lawful good",
   "armor_class": "14",
   "armor_class_type": "breastplate",
   "hit_points": "52",

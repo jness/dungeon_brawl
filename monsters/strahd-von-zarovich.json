@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "undead",
   "subtype": "shapechanger",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "16",
   "armor_class_type": "natural armor",
   "hit_points": "144",

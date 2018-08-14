@@ -10,7 +10,7 @@
   "size": "Large",
   "type": "undead",
   "subtype": null,
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "8",
   "armor_class_type": null,
   "hit_points": "85",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "tethyrian human",
-  "aligntment": "chaotic good",
+  "alignment": "chaotic good",
   "armor_class": "12",
   "armor_class_type": null,
   "hit_points": "18",

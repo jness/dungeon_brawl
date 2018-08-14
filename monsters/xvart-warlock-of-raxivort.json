@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "xvart",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "12",
   "armor_class_type": "15 with mage armor",
   "hit_points": "22",

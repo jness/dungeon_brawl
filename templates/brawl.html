@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %}
+Brawl
+{% endblock %}
+
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/brawl.css') }}">
 {% endblock %}
@@ -18,7 +22,7 @@
 
     <form action='/brawl_add_character' method='POST'>
       <input id="name" type="text" name="name" placeholder=" Name" required>
-      <input id="name" type="text" name="initiative_mod" placeholder=" Initiative Modifier" required>
+      <input id="name" type="text" name="initiative_modifier" placeholder=" Initiative Modifier" required>
       <input id="name" type="number" name="hit_points" placeholder=" Hit Points" required>
       <button class="btn btn-success btn-sm" type="submit">Add Character</button>
     </form>

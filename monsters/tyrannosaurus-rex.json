@@ -10,7 +10,7 @@
   "size": "Huge",
   "type": "beast",
   "subtype": null,
-  "aligntment": "unaligned",
+  "alignment": "unaligned",
   "armor_class": "13",
   "armor_class_type": "natural armor",
   "hit_points": "136",

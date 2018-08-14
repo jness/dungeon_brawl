@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "elf",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "15",
   "armor_class_type": "chain shirt",
   "hit_points": "13",

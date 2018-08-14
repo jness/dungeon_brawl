@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "damaran human",
-  "aligntment": "neutral good",
+  "alignment": "neutral good",
   "armor_class": "10",
   "armor_class_type": null,
   "hit_points": "22",

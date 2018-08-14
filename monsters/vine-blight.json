@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "plant",
   "subtype": null,
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "12",
   "armor_class_type": "natural armor",
   "hit_points": "26",

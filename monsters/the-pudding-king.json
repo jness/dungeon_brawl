@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "gnome, shapechanger",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "13",
   "armor_class_type": "16 with mage armor",
   "hit_points": "49",

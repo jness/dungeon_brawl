@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "neutral good",
+  "alignment": "neutral good",
   "armor_class": "16",
   "armor_class_type": "chain mail",
   "hit_points": "27",

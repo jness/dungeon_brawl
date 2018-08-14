@@ -10,7 +10,7 @@
   "size": "Large",
   "type": "elemental",
   "subtype": null,
-  "aligntment": "unaligned",
+  "alignment": "unaligned",
   "armor_class": "16",
   "armor_class_type": "natural armor",
   "hit_points": "52",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any alignment",
+  "alignment": "any alignment",
   "armor_class": "11",
   "armor_class_type": "14 with mage armor",
   "hit_points": "49",

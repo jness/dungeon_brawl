@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "turami human",
-  "aligntment": "lawful good",
+  "alignment": "lawful good",
   "armor_class": "17",
   "armor_class_type": "splint",
   "hit_points": "58",

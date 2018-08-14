@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "elf",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "13",
   "armor_class_type": "16 with mage armor",
   "hit_points": "66",

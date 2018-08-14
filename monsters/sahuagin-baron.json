@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "sahuagin",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "16",
   "armor_class_type": "breastplate",
   "hit_points": "76",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human",
-  "aligntment": "any non-good alignment",
+  "alignment": "any non-good alignment",
   "armor_class": "16",
   "armor_class_type": "chain shirt, shield",
   "hit_points": "52",

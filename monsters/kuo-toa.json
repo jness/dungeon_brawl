@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "kuo-toa",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "13",
   "armor_class_type": "natural armor, shield",
   "hit_points": "18",

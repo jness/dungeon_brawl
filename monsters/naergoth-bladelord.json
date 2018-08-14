@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "undead",
   "subtype": null,
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "18",
   "armor_class_type": "plate",
   "hit_points": "135",

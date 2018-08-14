@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %}
+{{ monster.name }}
+{% endblock %}
+
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/monster.css') }}">
 {% endblock %}
@@ -8,129 +12,98 @@
 
 <div class="container" style="padding-top: 0px ; padding-left: 100px;">
 
-  <h1><strong>{{ monster.name }}</strong></h1>
-  <h6>{{ monster.size|title }} {{ monster.type|title }}
-    {% if monster.subtype %}
-      ({{ monster.subtype|title }})
-    {% endif %}
+  <h1><a href='/brawl_add?slug_name={{ monster.slug_name}}'><img width=50 src='{{ url_for('static', filename='images/brawl.png') }}'></a> <strong>{{ monster.name }}</strong></h1>
 
-    , {{ monster.alignment|title }}
-  </h6>
-
-  <hr>
-
-  <h6>
-    <p><strong>Armor Class</strong> <small>{{ monster.armor_class }}</small></p>
-    <p><strong>Hit Points</strong> <small>{{ monster.hit_points }} ({{ monster.hit_dice }})</small></p>
-    <p><strong>Speed</strong> <small>{{ monster.speed }}</small></p>
-  </h6>
+  {{ monster.size|title }} {{ monster.type|title }}
+  {% if monster.subtype %}
+    ({{ monster.subtype|title }})
+  {% endif %}
+  , {{ monster.alignment|title }}
 
   <hr>
 
-  <h6>
-    <table width=50%>
-      <thead>
-        <tr>
-          <th><strong>STR</strong></th>
-          <th><strong>DEX</strong></th>
-          <th><strong>CON</strong></th>
-          <th><strong>INT</strong></th>
-          <th><strong>WIS</strong></th>
-          <th><strong>CHA</strong></th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td><small>{{ monster.strength }} ({{ monster.strength_mod }})</small></td>
-          <td><small>{{ monster.dexterity }} ({{ monster.dexterity_mod }})</small></td>
-          <td><small>{{ monster.constitution }} ({{ monster.constitution_mod }})</small></td>
-          <td><small>{{ monster.intelligence }} ({{ monster.intelligence_mod }})</small></td>
-          <td><small>{{ monster.wisdom }} ({{ monster.wisdom_mod }})</small></td>
-          <td><small>{{ monster.charisma }} ({{ monster.charisma_mod }})</small></td>
-        </tr>
-
-      </tbody>
-
-    </table>
-
-  </h6>
+  <p><strong>Armor Class</strong> {{ monster.armor_class }}</p>
+  <p><strong>Hit Points</strong> {{ monster.hit_points }} ({{ monster.hit_dice }})</p>
+  <p><strong>Speed</strong> {{ monster.speed }}</p>
 
   <hr>
 
-  <h6>
+  <table width=50%>
+    <thead>
+      <tr>
+        <th><strong>STR</strong></th>
+        <th><strong>DEX</strong></th>
+        <th><strong>CON</strong></th>
+        <th><strong>INT</strong></th>
+        <th><strong>WIS</strong></th>
+        <th><strong>CHA</strong></th>
+      </tr>
+    </thead>
 
-    {% if monster.strength_save or monster.dexterity_save or monster.constitution_save or monster.intelligence_save or monster.wisdom_save or monster.charisma_save %}
-      <p><strong>Saving Throws</strong>
-        <small>
+    <tbody>
+      <tr>
+        <td>{{ monster.strength }} ({{ monster.strength_modifier }})</td>
+        <td>{{ monster.dexterity }} ({{ monster.dexterity_modifier }})</td>
+        <td>{{ monster.constitution }} ({{ monster.constitution_modifier }})</td>
+        <td>{{ monster.intelligence }} ({{ monster.intelligence_modifier }})</td>
+        <td>{{ monster.wisdom }} ({{ monster.wisdom_modifier }})</td>
+        <td>{{ monster.charisma }} ({{ monster.charisma_modifier }})</td>
+      </tr>
 
-          {% if monster.strength_save %}
-            Str +{{ monster.strength_save }},
-          {% endif %}
+    </tbody>
 
-          {% if monster.dexterity_save %}
-            Dex +{{ monster.dexterity_save }},
-          {% endif %}
+  </table>
 
-          {% if monster.constitution_save %}
-            Con +{{ monster.constitution_save }},
-          {% endif %}
+  <hr>
 
-          {% if monster.intelligence_save %}
-            Int +{{ monster.intelligence_save }},
-          {% endif %}
-
-          {% if monster.wisdom_save %}
-            Wis +{{ monster.wisdom_save }},
-          {% endif %}
-
-          {% if monster.charisma_save %}
-            Cha +{{ monster.charisma_save }}
-          {% endif %}
-
-        </small>
-      </p>
-    {% endif %}
-
-    {% if monster.skills %}
-    <p>
-      <strong>Skills</strong>
-
-        {% for skill in monster.skills %}
-          <small>{{ skill.name }} +{{ skill.bonus}}, </small>
-        {% endfor %}
+  {% if monster.saving_throws %}
+    <p><strong>Saving Throws</strong>
+      {{ monster.saving_throws }}
     </p>
-    {% endif %}
+  {% endif %}
 
-    <h6>
+  {% if monster.skills %}
+  <p><strong>Skills</strong>
+    {{ monster.skills }}
+  </p>
+  {% endif %}
 
-      {% if monster.damage_resistances %}
-        <p><strong>Resistances</strong> <small>{{ monster.damage_resistances }}</small></p>
-      {% endif %}
+  {% if monster.damage_resistances %}
+    <p><strong>Resistances</strong>
+      {{ monster.damage_resistances }}
+    </p>
+  {% endif %}
 
-      {% if monster.damage_vulnerabilities %}
-        <p><strong>Vulnerabilities</strong> <small>{{ monster.damage_vulnerabilities }}</small></p>
-      {% endif %}
+  {% if monster.damage_vulnerabilities %}
+    <p><strong>Vulnerabilities</strong>
+      {{ monster.damage_vulnerabilities }}
+    </p>
+  {% endif %}
 
-      {% if monster.senses %}
-        <p><strong>Senses</strong> <small>{{ monster.senses }}</small></p>
-      {% endif %}
+  {% if monster.senses %}
+    <p>
+      <strong>Senses</strong>
+      {{ monster.senses }}
+    </p>
+  {% endif %}
 
-      {% if monster.languages %}
-        <p><strong>Languages</strong> <small>{{ monster.languages }}</small></p>
-      {% endif %}
+  {% if monster.languages %}
+    <p><strong>Languages</strong>
+      {{ monster.languages }}
+    </p>
+  {% endif %}
 
-      <p><strong>Challenge</strong> <small>{{ monster.challenge_rating }} ({{ monster.experience_points}} XP)</small></p>
-    </h6>
-
-  </h6>
+  <p><strong>Challenge</strong>
+    {{ monster.challenge_rating }} ({{ monster.experience }})
+  </p>
 
   <hr>
 
   {% for ability in monster.special_abilities %}
-    <p>
-      <strong>{{ ability.name }}</strong>: {{ ability.desc }}
-    </p>
+    <p><strong>• {{ ability.name }}</strong></p>
+    {% for description in ability.descriptions %}
+      <p class="indent">{{ description }}</p>
+    {% endfor %}
   {% endfor %}
 
   <hr>
@@ -139,19 +112,21 @@
   <br>
 
   {% for action in monster.actions %}
-    <p>
-      <strong>{{ action.name }}</strong>: {{ action.desc }}
-    </p>
+    <p><strong>• {{ action.name }}</strong></p>
+    {% for description in action.descriptions %}
+      <p class="indent">{{ description }}</p>
+    {% endfor %}
   {% endfor %}
 
   {% if monster.legendary_actions %}
     <h4><strong>Legendary Actions</strong></h4>
     <br>
 
-    {% for action in monster.legendary_actions %}
-      <p>
-        <strong>{{ action.name }}</strong>: {{ action.desc }}
-      </p>
+    {% for legendary_action in monster.legendary_actions %}
+      <p><strong>• {{ legendary_action.name }}</strong></p>
+      {% for description in legendary_action.descriptions %}
+        <p class="indent">{{ description }}</p>
+      {% endfor %}
     {% endfor %}
   {% endif %}
 

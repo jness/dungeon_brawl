@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "shapechanger",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "11",
   "armor_class_type": null,
   "hit_points": "67",

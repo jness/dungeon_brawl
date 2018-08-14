@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "orc",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "18",
   "armor_class_type": "chain mail, shield",
   "hit_points": "60",

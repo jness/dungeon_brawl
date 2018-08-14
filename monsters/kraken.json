@@ -10,7 +10,7 @@
   "size": "Gargantuan",
   "type": "monstrosity",
   "subtype": "titan",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "18",
   "armor_class_type": "natural armor",
   "hit_points": "472",

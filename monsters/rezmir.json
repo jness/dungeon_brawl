@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "half-black dragon",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "13",
   "armor_class_type": "15 with the Black Dragon Mask",
   "hit_points": "90",

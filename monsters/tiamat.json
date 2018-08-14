@@ -10,7 +10,7 @@
   "size": "Gargantuan",
   "type": "fiend",
   "subtype": null,
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "25",
   "armor_class_type": "natural armor",
   "hit_points": "615",

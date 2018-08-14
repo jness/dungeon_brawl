@@ -10,7 +10,7 @@
   "size": "Large",
   "type": "humanoid",
   "subtype": "sahuagin",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "15",
   "armor_class_type": "natural armor",
   "hit_points": "102",

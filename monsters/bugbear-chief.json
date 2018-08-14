@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "goblinoid",
-  "aligntment": "chaotic evil",
+  "alignment": "chaotic evil",
   "armor_class": "17",
   "armor_class_type": "chain shirt, shield",
   "hit_points": "65",

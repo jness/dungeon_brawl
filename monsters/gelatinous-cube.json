@@ -10,7 +10,7 @@
   "size": "Large",
   "type": "ooze",
   "subtype": null,
-  "aligntment": "unaligned",
+  "alignment": "unaligned",
   "armor_class": "6",
   "armor_class_type": null,
   "hit_points": "84",

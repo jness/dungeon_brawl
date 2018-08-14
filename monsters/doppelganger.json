@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "monstrosity",
   "subtype": "shapechanger",
-  "aligntment": "unaligned",
+  "alignment": "unaligned",
   "armor_class": "14",
   "armor_class_type": null,
   "hit_points": "52",

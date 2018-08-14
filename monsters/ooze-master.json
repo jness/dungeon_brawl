@@ -10,7 +10,7 @@
   "size": "Huge",
   "type": "undead",
   "subtype": null,
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "9",
   "armor_class_type": "natural armor",
   "hit_points": "138",

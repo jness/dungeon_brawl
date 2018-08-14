@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "goblinoid",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "15",
   "armor_class_type": "leather armor, shield",
   "hit_points": "7",

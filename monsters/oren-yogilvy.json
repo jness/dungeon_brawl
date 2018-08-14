@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "strongheart halfling",
-  "aligntment": "chaotic good",
+  "alignment": "chaotic good",
   "armor_class": "11",
   "armor_class_type": null,
   "hit_points": "9",

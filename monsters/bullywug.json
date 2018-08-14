@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "bullywug",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "15",
   "armor_class_type": "hide armor, shield",
   "hit_points": "11",

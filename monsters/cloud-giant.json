@@ -10,7 +10,7 @@
   "size": "Huge",
   "type": "giant",
   "subtype": null,
-  "aligntment": "neutral good (50%) or neutral evil (50%)",
+  "alignment": "neutral good (50%) or neutral evil (50%)",
   "armor_class": "14",
   "armor_class_type": "natural armor",
   "hit_points": "200",

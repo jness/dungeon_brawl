@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "kobold",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "12",
   "armor_class_type": "15 with mage armor",
   "hit_points": "16",

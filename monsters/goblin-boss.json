@@ -10,7 +10,7 @@
   "size": "Small",
   "type": "humanoid",
   "subtype": "goblinoid",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "17",
   "armor_class_type": "chain shirt, shield",
   "hit_points": "21",

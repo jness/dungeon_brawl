@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "yuan-ti",
-  "aligntment": "neutral evil",
+  "alignment": "neutral evil",
   "armor_class": "14",
   "armor_class_type": "natural armor",
   "hit_points": "45",

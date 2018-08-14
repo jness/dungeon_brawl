@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "aarakocra",
-  "aligntment": "neutral good",
+  "alignment": "neutral good",
   "armor_class": "12",
   "armor_class_type": null,
   "hit_points": "13",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "fey",
   "subtype": null,
-  "aligntment": "neutral",
+  "alignment": "neutral",
   "armor_class": "11",
   "armor_class_type": "16 with barkskin",
   "hit_points": "22",

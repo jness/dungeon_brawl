@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "construct",
   "subtype": null,
-  "aligntment": "construct",
+  "alignment": "construct",
   "armor_class": "15",
   "armor_class_type": "natural armor",
   "hit_points": "5",

@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "any race",
-  "aligntment": "any alignment",
+  "alignment": "any alignment",
   "armor_class": "16",
   "armor_class_type": null,
   "hit_points": "60",

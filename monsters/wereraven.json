@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "human, shapechanger",
-  "aligntment": "lawful good",
+  "alignment": "lawful good",
   "armor_class": "12",
   "armor_class_type": null,
   "hit_points": "31",

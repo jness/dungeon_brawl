@@ -10,7 +10,7 @@
   "size": "Medium",
   "type": "humanoid",
   "subtype": "dwarf",
-  "aligntment": "lawful evil",
+  "alignment": "lawful evil",
   "armor_class": "14",
   "armor_class_type": "leather armor",
   "hit_points": "18",
