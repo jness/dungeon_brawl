@@ -11,6 +11,7 @@
   <table id="table" class="table table-striped" style="width:100%">
 
       <tr>
+        <th>Add to Brawl</th>
         <th><a href='?sort=name{{ params }}'>Name</a></th>
         <th><a href='?sort=type{{ params }}'>Type</a></th>
         <th><a href='?sort=size{{ params }}'>Size</a></th>
@@ -20,6 +21,7 @@
 
       {% for monster in monsters %}
         <tr>
+          <td><center><a href='brawl_add?slug_name={{ monster.slug_name}}'><img width=35 src='{{ url_for('static', filename='images/brawl.png') }}'></a></center></td>
           <td><a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a></td>
           <td>{{ monster.type|title }}</td>
           <td>{{ monster.size|title }}</td>

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/brawl.css') }}">
+{% endblock %}
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/brawl.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <button type="button" class="btn btn-danger" onclick="window.location='/brawl_clear';">Clear</button>
+    <button type="button" class="btn btn-primary" onclick="window.location='/brawl_roll';">Roll Initiative</button>
+
+    <hr>
+
+    <form action='/brawl_add_character' method='POST'>
+      <input id="name" type="text" name="name" placeholder=" Name" required>
+      <input id="name" type="text" name="initiative_mod" placeholder=" Initiative Modifier" required>
+      <input id="name" type="number" name="hit_points" placeholder=" Hit Points" required>
+      <button class="btn btn-success btn-sm" type="submit">Add Character</button>
+    </form>
+
+    <hr>
+
+    <form>
+    <table id="table" class="table table-striped" style="width:100%">
+
+        <tr>
+          <th></th>
+          <th>Initiative</th>
+          <th>Name</th>
+          <th>Hit Points</th>
+        </tr>
+
+        {% for monster in monsters %}
+          <tr>
+            <td><input name="turn" type="radio"></td>
+
+            <td>
+              {{ monster.initiative }}
+            </td>
+
+            <td>{% if monster.slug_name %}<a target='_blank' href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a>{% else %}{{ monster.name }}{% endif %}</td>
+
+            <td>
+              <button type="button" onclick="subtract('{{ monster.unique_id }}_hit_points');" class="btn btn-secondary btn-sm">-</button>
+              <span id='{{ monster.unique_id }}_hit_points'>{{ monster.hit_points }}</span>
+              <button type="button" onclick="add('{{ monster.unique_id }}_hit_points');" class="btn btn-secondary btn-sm">+</button>
+            </td>
+
+          </tr>
+        {% endfor %}
+
+    </table>
+  </form>
+
+
+</div>
+{% endblock %}

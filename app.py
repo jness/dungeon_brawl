@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
 import re
+import json
+import time
+import random
 
 from pymongo import MongoClient
-from flask import Flask, render_template, request, abort, redirect
+from flask import Flask, render_template, request, abort, redirect, make_response
 
 # create our Flask application
 app = Flask(__name__)
@@ -85,6 +88,113 @@ def monster(slug_name):
         return render_template('monster.html', monster=results)
 
     abort(404)
+
+
+@app.route('/brawl_add', methods=['GET'])
+def brawl_add():
+    """
+    Add monster to brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    if 'slug_name' in request.args:
+        slug_name = request.args['slug_name']
+
+        # make sure the slug_name is in database
+        monster = collection.find_one({'slug_name': slug_name})
+        if monster:
+
+            # add monster to monster json list
+            monsters.append(
+                dict(
+                    unique_id = '%s_%s' % (monster['name'], time.time()),
+                    name = monster['name'],
+                    slug_name = monster['slug_name'],
+                    hit_points = monster['hit_points'],
+                    dexterity_mod = monster['dexterity_mod']
+                )
+            )
+
+            # redirect to brawl page and set monster to cookie
+            response = redirect('/brawl')
+            response.set_cookie('monsters', json.dumps(monsters))
+            return response
+
+    # if we didn't pass slug_name, or monster didn't exist
+    abort(400)
+
+
+@app.route('/brawl_add_character', methods=['POST'])
+def brawl_add_character():
+    """
+    Add character to brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    name = request.form['name']
+    initiative_mod = request.form['initiative_mod']
+    hit_points = request.form['hit_points']
+
+    # add monster to monster json list
+    monsters.append(
+        dict(
+            unique_id = '%s_%s' % (name, time.time()),
+            name = name,
+            hit_points = hit_points,
+            dexterity_mod = initiative_mod
+        )
+    )
+
+    # redirect to brawl page and set monster to cookie
+    response = redirect('/brawl')
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+@app.route('/brawl_clear', methods=['GET'])
+def brawl_clear():
+    """
+    Clear brawl
+    """
+
+    response = redirect('/brawl')
+    response.set_cookie('monsters', expires=0)
+    return response
+
+
+@app.route('/brawl_roll', methods=['GET'])
+def brawl_roll():
+    """
+    Roll init for brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    for monster in monsters:
+        roll = random.randint(1, 20)
+        roll_result = eval('%s%s' % (roll, monster['dexterity_mod']))
+        monster['initiative'] = roll_result
+
+    return render_template(
+        'brawl.html', monsters=sorted(
+            monsters, key=lambda x:x['initiative'], reverse=True))
+
+
+@app.route('/brawl', methods=['GET'])
+def brawl():
+    """
+    Show brawl
+    """
+
+    _monsters = request.cookies.get('monsters') or '[]'
+    monsters = json.loads(_monsters)
+
+    return render_template('brawl.html', monsters=monsters)
 
 
 if __name__ == "__main__":
