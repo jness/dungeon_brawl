@@ -92,6 +92,45 @@ def monsters():
     return render_template('search.html')
 
 
+@app.route('/spell_search', methods=['GET'])
+def spell_search():
+    """
+    Return search results
+    """
+
+    # if we have expected url params perform search
+    if 'search_text' and 'search_field' in request.args:
+        search_text = request.args['search_text']
+        search_field = request.args['search_field']
+
+        # only certian fields are allowed
+        allowed_fields = [
+            'name', 'school', 'level'
+        ]
+
+        # if type is not an allowed fields return failure
+        if search_field not in allowed_fields:
+            abort(400)
+
+        # perform search
+        regex = re.compile(search_text, re.IGNORECASE)
+        results = spell_collection.find({search_field: regex})
+
+        # perform column sort
+        if 'sort' in request.args:
+            results = results.sort(request.args['sort'])
+
+        # build extra url params
+        params = '&search_text=%s&search_field=%s' % (search_text, search_field)
+
+        # render our template with results
+        return render_template('spells.html', params=params, spells=results)
+
+    # if we didn't have expected url params we render search template
+    return render_template('spell_search.html')
+
+
+
 @app.route('/monster/<slug_name>', methods=['GET'])
 def monster(slug_name):
     """

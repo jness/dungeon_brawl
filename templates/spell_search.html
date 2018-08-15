@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Search Monsters
+{% endblock %}
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <form class="form-search" action="/spell_search" method="GET">
+
+    <h1 class="h3 mb-3 font-weight-normal">Find a Spell</h1>
+
+    <div class="form-group">
+      <select id="selectField" class="form-control form-select" name="search_field">
+        <option value="name" selected="selected">Name</option>
+        <option value="school">School</option>
+        <option value="level">Level</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="inputName" class="sr-only">Search Text</label>
+      <input id="inputName" class="form-control" type="text" name="search_text" placeholder="Search..." required autofocus>
+    </div>
+
+    <br>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+    <p class="mt-5 mb-3 text-muted">Dungeon Brawl</p>
+
+  </form>
+</div>
+{% endblock %}
