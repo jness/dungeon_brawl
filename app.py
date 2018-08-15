@@ -139,7 +139,13 @@ def brawl_add_character():
 
     name = request.form['name']
     initiative_modifier = request.form['initiative_modifier']
-    hit_points = request.form['hit_points']
+    hit_points = int(request.form['hit_points'])
+
+    if hit_points < 0:
+        abort(400)
+
+    if not re.search('^[\-|\+]', initiative_modifier):
+        abort(400)
 
     # add monster to monster json list
     monsters.append(
@@ -204,7 +210,7 @@ def brawl_roll():
             monster['initiative'] = roll_result
 
     # sort monsters
-    monsters = sorted(monsters, key=lambda x:x['initiative'], reverse=True)
+    monsters = sorted(monsters, key=lambda x:x.get('initiative', 0), reverse=True)
 
     response = redirect('/brawl')
     response.set_cookie('monsters', json.dumps(monsters))
@@ -247,7 +253,7 @@ def brawl_update():
             monster['notes'] = notes
 
     # sort monsters
-    monsters = sorted(monsters, key=lambda x:x['initiative'], reverse=True)
+    monsters = sorted(monsters, key=lambda x:x.get('initiative', 0), reverse=True)
 
     response = redirect('/brawl')
     response.set_cookie('monsters', json.dumps(monsters))
