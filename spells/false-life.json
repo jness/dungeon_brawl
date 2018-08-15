@@ -1,0 +1,27 @@
+{
+  "name": "False Life",
+  "slug_name": "false-life",
+  "sources": [
+    "PHB.239",
+    "SRD.142"
+  ],
+  "tags": [
+    "cleric (death)",
+    "cleric (grave)",
+    "sorcerer",
+    "warlock (undying)",
+    "wizard",
+    "level1",
+    "necromancy"
+  ],
+  "level": "1st-level",
+  "school": "Necromancy",
+  "casting_time": "1 action",
+  "range": "Self",
+  "components": "V, S, M (a small amount of alcohol or distilled spirits)",
+  "duration": "1 hour",
+  "descriptions": [
+    "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.",
+    "**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
+  ]
+}

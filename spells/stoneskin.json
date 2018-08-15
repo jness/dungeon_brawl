@@ -1,0 +1,30 @@
+{
+  "name": "Stoneskin",
+  "slug_name": "stoneskin",
+  "sources": [
+    "PHB.278",
+    "SRD.183"
+  ],
+  "tags": [
+    "cleric (war)",
+    "druid",
+    "monk (four elements)",
+    "paladin (ancients)",
+    "paladin (conquest)",
+    "paladin (redemption)",
+    "sorcerer",
+    "ranger",
+    "wizard",
+    "level4",
+    "abjuration"
+  ],
+  "level": "4th-level",
+  "school": "Abjuration",
+  "casting_time": "1 action",
+  "range": "Touch",
+  "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
+  "duration": "Concentration, up to 1 hour",
+  "descriptions": [
+    "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+  ]
+}

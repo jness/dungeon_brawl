@@ -1,0 +1,27 @@
+{
+  "name": "Detect Poison and Disease",
+  "slug_name": "detect-poison-and-disease",
+  "sources": [
+    "PHB.231",
+    "SRD.134"
+  ],
+  "tags": [
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "level1",
+    "ritual",
+    "divination"
+  ],
+  "level": "1st-level",
+  "school": "Divination (Ritual)",
+  "casting_time": "1 action",
+  "range": "Self",
+  "components": "V, S, M (a yew leaf)",
+  "duration": "Concentration, up to 10 minutes",
+  "descriptions": [
+    "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
+    "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+  ]
+}

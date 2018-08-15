@@ -1,0 +1,24 @@
+{
+  "name": "Blade Ward",
+  "slug_name": "blade-ward",
+  "sources": [
+    "PHB.218"
+  ],
+  "tags": [
+    "bard",
+    "sorcerer",
+    "warlock",
+    "wizard",
+    "cantrip",
+    "abjuration"
+  ],
+  "level": "Cantrip",
+  "school": "Abjuration",
+  "casting_time": "1 action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "1 round",
+  "descriptions": [
+    "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+  ]
+}
