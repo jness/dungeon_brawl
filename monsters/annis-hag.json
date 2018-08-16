@@ -99,36 +99,90 @@
       "name": "Variant: Death Coven.",
       "descriptions": [
         "For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:",
-        "1st level (4 slots): false life, inflict wounds",
-        "2nd level (3 slots): gentle repose, ray of enfeeblement",
-        "3rd level (3 slots): animate dead, revivify, speak with dead",
-        "4th level (3 slots): blight, death ward",
-        "5th level (2 slots): contagion, raise dead",
-        "6th level (1 slot): circle of death"
+        {
+          "raw": "1st level (4 slots): false life, inflict wounds",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/false-life\">false life</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): gentle repose, ray of enfeeblement",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/gentle-repose\">gentle repose</a>, <a target=\"_blank\" href=\"/spell/ray-of-enfeeblement\">ray of enfeeblement</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): animate dead, revivify, speak with dead",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead</a>, <a target=\"_blank\" href=\"/spell/revivify\">revivify</a>, <a target=\"_blank\" href=\"/spell/speak-with-dead\">speak with dead</a>"
+        },
+        {
+          "raw": "4th level (3 slots): blight, death ward",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight</a>, <a target=\"_blank\" href=\"/spell/death-ward\">death ward</a>"
+        },
+        {
+          "raw": "5th level (2 slots): contagion, raise dead",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/contagion\">contagion</a>, <a target=\"_blank\" href=\"/spell/raise-dead\">raise dead</a>"
+        },
+        {
+          "raw": "6th level (1 slot): circle of death",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/circle-of-death\">circle of death</a>"
+        }
       ]
     },
     {
       "name": "Variant: Nature Coven.",
       "descriptions": [
         "For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:",
-        "1st level (4 slots): entangle, speak with animals",
-        "2nd level (3 slots): flaming sphere, moonbeam, spike growth",
-        "3rd level (3 slots): call lightning, plant growth",
-        "4th level (3 slots): dominate beast, grasping vine",
-        "5th level (2 slots): insect plague, tree stride",
-        "6th level (1 slot): wall of thorns"
+        {
+          "raw": "1st level (4 slots): entangle, speak with animals",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/speak-with-animals\">speak with animals</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): flaming sphere, moonbeam, spike growth",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/flaming-sphere\">flaming sphere</a>, <a target=\"_blank\" href=\"/spell/moonbeam\">moonbeam</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): call lightning, plant growth",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/call-lightning\">call lightning</a>, <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>"
+        },
+        {
+          "raw": "4th level (3 slots): dominate beast, grasping vine",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast</a>, <a target=\"_blank\" href=\"/spell/grasping-vine\">grasping vine</a>"
+        },
+        {
+          "raw": "5th level (2 slots): insect plague, tree stride",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/insect-plague\">insect plague</a>, <a target=\"_blank\" href=\"/spell/tree-stride\">tree stride</a>"
+        },
+        {
+          "raw": "6th level (1 slot): wall of thorns",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/wall-of-thorns\">wall of thorns</a>"
+        }
       ]
     },
     {
       "name": "Variant: Prophecy Coven.",
       "descriptions": [
         "For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:",
-        "1st level (4 slots): bane, bless",
-        "2nd level (3 slots): augury, detect thoughts",
-        "3rd level (3 slots): calirvoyance, dispel magic, nondetection",
-        "4th level (3 slots): arcane eye, locate creature",
-        "5th level (2 slots): geas, legend lore",
-        "6th level (1 slot): true seeing"
+        {
+          "raw": "1st level (4 slots): bane, bless",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/bless\">bless</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): augury, detect thoughts",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/augury\">augury</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): calirvoyance, dispel magic, nondetection",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/calirvoyance\">calirvoyance</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/nondetection\">nondetection</a>"
+        },
+        {
+          "raw": "4th level (3 slots): arcane eye, locate creature",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/arcane-eye\">arcane eye</a>, <a target=\"_blank\" href=\"/spell/locate-creature\">locate creature</a>"
+        },
+        {
+          "raw": "5th level (2 slots): geas, legend lore",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/geas\">geas</a>, <a target=\"_blank\" href=\"/spell/legend-lore\">legend lore</a>"
+        },
+        {
+          "raw": "6th level (1 slot): true seeing",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing</a>"
+        }
       ]
     }
   ],
