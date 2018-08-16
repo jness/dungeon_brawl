@@ -38,7 +38,7 @@ def monsters():
     return render_template('monsters.html', monsters=results)
 
 
-@app.route('/monster_search/', methods=['GET'])
+@app.route('/monster_search', methods=['GET'])
 def monster_search():
     """
     List filtered monsters
@@ -73,7 +73,7 @@ def monster_search():
     )
 
 
-@app.route('/monster/<slug_name>/', methods=['GET'])
+@app.route('/monster/<slug_name>', methods=['GET'])
 def monster(slug_name):
     """
     Return a monster by name
@@ -91,7 +91,7 @@ def monster(slug_name):
         message='Monster %s not found' % slug_name), 404
 
 
-@app.route('/spells/', methods=['GET'])
+@app.route('/spells', methods=['GET'])
 def spells():
     """
     Main spell page
@@ -108,7 +108,7 @@ def spells():
 
 
 
-@app.route('/spell_search/', methods=['GET'])
+@app.route('/spell_search', methods=['GET'])
 def spell_search():
     """
     List filtered monsters
@@ -135,7 +135,7 @@ def spell_search():
     )
 
 
-@app.route('/spell/<slug_name>/', methods=['GET'])
+@app.route('/spell/<slug_name>', methods=['GET'])
 def spell(slug_name):
     """
     Return a spell by name
@@ -200,7 +200,7 @@ def brawl_clear_all():
     return response
 
 
-@app.route('/brawl_add_monster/', methods=['GET'])
+@app.route('/brawl_add_monster', methods=['GET'])
 def brawl_add_monster():
     """
     Add monster to brawl
@@ -246,7 +246,7 @@ def brawl_add_monster():
         message='Monster %s not found' % slug_name), 404
 
 
-@app.route('/brawl_add_character/', methods=['POST'])
+@app.route('/brawl_add_character', methods=['POST'])
 def brawl_add_character():
     """
     Add character to brawl
@@ -288,7 +288,7 @@ def brawl_add_character():
     return response
 
 
-@app.route('/brawl_roll_initiative/', methods=['GET'])
+@app.route('/brawl_roll_initiative', methods=['GET'])
 def brawl_roll_initiative():
     """
     Roll initiative for brawl
@@ -325,7 +325,7 @@ def brawl_roll_initiative():
 
 
 
-@app.route('/brawl_update_monster/', methods=['POST'])
+@app.route('/brawl_update_monster', methods=['POST'])
 def brawl_update_monster():
     """
     Update a monsters stats

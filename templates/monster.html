@@ -93,26 +93,29 @@
     </p>
   {% endif %}
 
-  <p><strong>Challenge</strong>
+  <p>
+    <strong>Challenge</strong>
     {{ monster.challenge_rating }} ({{ monster.experience }})
   </p>
 
   <hr>
 
-  {% for ability in monster.special_abilities %}
-    <p><strong>• {{ ability.name }}</strong></p>
-    {% for description in ability.descriptions %}
+  {% if monster.special_abilities %}
+    {% for ability in monster.special_abilities %}
+      <p><strong>• {{ ability.name }}</strong></p>
+      {% for description in ability.descriptions %}
 
-      {% if description is mapping %}
-        <p class="indent">{{ description.hyperlinked|safe }}</p>
-      {% else %}
-        <p class="indent">{{ description }}</p>
-      {% endif %}
+        {% if description is mapping %}
+          <p class="indent">{{ description.hyperlinked|safe }}</p>
+        {% else %}
+          <p class="indent">{{ description }}</p>
+        {% endif %}
 
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
 
   <hr>
+  {% endif %}
 
   <h4><strong>Actions</strong></h4>
   <br>
