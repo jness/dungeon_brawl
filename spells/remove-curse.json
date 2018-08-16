@@ -1,25 +1,25 @@
 {
-  "name": "Remove Curse",
-  "slug_name": "remove-curse",
-  "sources": [
-    "PHB.271",
-    "SRD.174"
-  ],
+  "school": "Abjuration", 
+  "name": "Remove Curse", 
+  "level": "3rd-level", 
   "tags": [
-    "cleric",
-    "paladin",
-    "warlock",
-    "wizard",
-    "level3",
+    "cleric", 
+    "paladin", 
+    "warlock", 
+    "wizard", 
+    "level3", 
     "abjuration"
-  ],
-  "level": "3rd-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.271", 
+    "SRD.174"
+  ], 
+  "range": "Touch", 
+  "slug_name": "remove-curse", 
   "descriptions": [
     "At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

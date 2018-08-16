@@ -1,27 +1,27 @@
 {
-  "name": "Freedom of Movement",
-  "slug_name": "freedom-of-movement",
-  "sources": [
-    "PHB.244",
-    "SRD.147"
-  ],
+  "school": "Abjuration", 
+  "name": "Freedom of Movement", 
+  "level": "4th-level", 
   "tags": [
-    "bard",
-    "cleric",
-    "druid",
-    "paladin (devotion)",
-    "ranger",
-    "level4",
+    "bard", 
+    "cleric", 
+    "druid", 
+    "paladin (devotion)", 
+    "ranger", 
+    "level4", 
     "abjuration"
-  ],
-  "level": "4th-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
-  "duration": "1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.244", 
+    "SRD.147"
+  ], 
+  "range": "Touch", 
+  "slug_name": "freedom-of-movement", 
   "descriptions": [
-    "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.",
+    "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.", 
     "The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks."
-  ]
+  ], 
+  "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)", 
+  "duration": "1 hour"
 }

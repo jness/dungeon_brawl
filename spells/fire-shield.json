@@ -1,25 +1,25 @@
 {
-  "name": "Fire Shield",
-  "slug_name": "fire-shield",
-  "sources": [
-    "PHB.241",
-    "SRD.144"
-  ],
+  "school": "Evocation", 
+  "name": "Fire Shield", 
+  "level": "4th-level", 
   "tags": [
-    "warlock (fiend)",
-    "wizard",
-    "level4",
+    "warlock (fiend)", 
+    "wizard", 
+    "level4", 
     "evocation"
-  ],
-  "level": "4th-level",
-  "school": "Evocation",
-  "casting_time": "1 action",
-  "range": "Self",
-  "components": "V, S, M (a bit of phosphorous or a firefly)",
-  "duration": "10 minutes",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.241", 
+    "SRD.144"
+  ], 
+  "range": "Self", 
+  "slug_name": "fire-shield", 
   "descriptions": [
-    "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.",
-    "The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.",
+    "Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.", 
+    "The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.", 
     "In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield."
-  ]
+  ], 
+  "components": "V, S, M (a bit of phosphorous or a firefly)", 
+  "duration": "10 minutes"
 }

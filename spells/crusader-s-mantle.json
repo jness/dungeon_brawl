@@ -1,22 +1,22 @@
 {
-  "name": "Crusader's Mantle",
-  "slug_name": "crusader-s-mantle",
+  "school": "Evocation", 
+  "name": "Crusader's Mantle", 
+  "level": "3rd-level", 
+  "tags": [
+    "cleric (war)", 
+    "paladin", 
+    "level3", 
+    "evocation"
+  ], 
+  "casting_time": "1 action", 
   "sources": [
     "PHB.230"
-  ],
-  "tags": [
-    "cleric (war)",
-    "paladin",
-    "level3",
-    "evocation"
-  ],
-  "level": "3rd-level",
-  "school": "Evocation",
-  "casting_time": "1 action",
-  "range": "Self",
-  "components": "V ",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "range": "Self", 
+  "slug_name": "crusader-s-mantle", 
   "descriptions": [
     "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack."
-  ]
+  ], 
+  "components": "V ", 
+  "duration": "Concentration, up to 1 minute"
 }

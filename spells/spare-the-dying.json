@@ -1,22 +1,22 @@
 {
-  "name": "Spare the Dying",
-  "slug_name": "spare-the-dying",
-  "sources": [
-    "PHB.277",
-    "SRD.181"
-  ],
+  "school": "Necromancy", 
+  "name": "Spare the Dying", 
+  "level": "Cantrip", 
   "tags": [
-    "cleric",
-    "cantrip",
+    "cleric", 
+    "cantrip", 
     "necromancy"
-  ],
-  "level": "Cantrip",
-  "school": "Necromancy",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.277", 
+    "SRD.181"
+  ], 
+  "range": "Touch", 
+  "slug_name": "spare-the-dying", 
   "descriptions": [
     "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

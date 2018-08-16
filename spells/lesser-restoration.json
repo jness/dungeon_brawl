@@ -1,26 +1,26 @@
 {
-  "name": "Lesser Restoration",
-  "slug_name": "lesser-restoration",
-  "sources": [
-    "PHB.255",
-    "SRD.158"
-  ],
+  "school": "Abjuration", 
+  "name": "Lesser Restoration", 
+  "level": "2nd-level", 
   "tags": [
-    "bard",
-    "cleric",
-    "druid",
-    "paladin",
-    "ranger",
-    "level2",
+    "bard", 
+    "cleric", 
+    "druid", 
+    "paladin", 
+    "ranger", 
+    "level2", 
     "abjuration"
-  ],
-  "level": "2nd-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.255", 
+    "SRD.158"
+  ], 
+  "range": "Touch", 
+  "slug_name": "lesser-restoration", 
   "descriptions": [
     "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

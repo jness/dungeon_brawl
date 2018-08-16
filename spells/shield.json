@@ -1,23 +1,23 @@
 {
-  "name": "Shield",
-  "slug_name": "shield",
-  "sources": [
-    "PHB.275",
-    "SRD.179"
-  ],
+  "school": "Abjuration", 
+  "name": "Shield", 
+  "level": "1st-level", 
   "tags": [
-    "sorcerer",
-    "wizard",
-    "level1",
+    "sorcerer", 
+    "wizard", 
+    "level1", 
     "abjuration"
-  ],
-  "level": "1st-level",
-  "school": "Abjuration",
-  "casting_time": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell",
-  "range": "Self",
-  "components": "V, S",
-  "duration": "1 round",
+  ], 
+  "casting_time": "1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell", 
+  "sources": [
+    "PHB.275", 
+    "SRD.179"
+  ], 
+  "range": "Self", 
+  "slug_name": "shield", 
   "descriptions": [
     "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "1 round"
 }

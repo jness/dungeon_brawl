@@ -1,27 +1,27 @@
 {
-  "name": "Misty Step",
-  "slug_name": "misty-step",
-  "sources": [
-    "PHB.260",
-    "SRD.165"
-  ],
+  "school": "Conjuration", 
+  "name": "Misty Step", 
+  "level": "2nd-level", 
   "tags": [
-    "druid (coast)",
-    "paladin (ancients)",
-    "paladin (vengeance)",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level2",
+    "druid (coast)", 
+    "paladin (ancients)", 
+    "paladin (vengeance)", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level2", 
     "conjuration"
-  ],
-  "level": "2nd-level",
-  "school": "Conjuration",
-  "casting_time": "1 bonus action",
-  "range": "Self",
-  "components": "V",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 bonus action", 
+  "sources": [
+    "PHB.260", 
+    "SRD.165"
+  ], 
+  "range": "Self", 
+  "slug_name": "misty-step", 
   "descriptions": [
     "Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see."
-  ]
+  ], 
+  "components": "V", 
+  "duration": "Instantaneous"
 }

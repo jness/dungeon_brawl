@@ -1,27 +1,27 @@
 {
-  "name": "Hypnotic Pattern",
-  "slug_name": "hypnotic-pattern",
-  "sources": [
-    "PHB.252",
-    "SRD.155"
-  ],
+  "school": "Illusion", 
+  "name": "Hypnotic Pattern", 
+  "level": "3rd-level", 
   "tags": [
-    "bard",
-    "paladin (redemption)",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level3",
+    "bard", 
+    "paladin (redemption)", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level3", 
     "illusion"
-  ],
-  "level": "3rd-level",
-  "school": "Illusion",
-  "casting_time": "1 action",
-  "range": "120 feet",
-  "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.252", 
+    "SRD.155"
+  ], 
+  "range": "120 feet", 
+  "slug_name": "hypnotic-pattern", 
   "descriptions": [
-    "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.",
+    "You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0.", 
     "The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
-  ]
+  ], 
+  "components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)", 
+  "duration": "Concentration, up to 1 minute"
 }

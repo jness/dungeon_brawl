@@ -1,26 +1,26 @@
 {
-  "name": "Reverse Gravity",
-  "slug_name": "reverse-gravity",
-  "sources": [
-    "PHB.272",
-    "SRD.175"
-  ],
+  "school": "Transmutation", 
+  "name": "Reverse Gravity", 
+  "level": "7th-level", 
   "tags": [
-    "druid",
-    "sorcerer",
-    "wizard",
-    "level7",
+    "druid", 
+    "sorcerer", 
+    "wizard", 
+    "level7", 
     "transmutation"
-  ],
-  "level": "7th-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "100 feet",
-  "components": "V, S, M (a lodestone and iron filings)",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.272", 
+    "SRD.175"
+  ], 
+  "range": "100 feet", 
+  "slug_name": "reverse-gravity", 
   "descriptions": [
-    "This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.",
-    "If some solid object (such as a ceiling) is encountered in this fall, falling objects and creature strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.",
+    "This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.", 
+    "If some solid object (such as a ceiling) is encountered in this fall, falling objects and creature strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.", 
     "At the end of the duration, affected objects and creatures fall back down."
-  ]
+  ], 
+  "components": "V, S, M (a lodestone and iron filings)", 
+  "duration": "Concentration, up to 1 minute"
 }

@@ -1,26 +1,26 @@
 {
-  "name": "Greater Invisibility",
-  "slug_name": "greater-invisibility",
-  "sources": [
-    "PHB.246",
-    "SRD.150"
-  ],
+  "school": "Illusion", 
+  "name": "Greater Invisibility", 
+  "level": "4th-level", 
   "tags": [
-    "bard",
-    "druid (underdark)",
-    "sorcerer",
-    "warlock (fae)",
-    "wizard",
-    "level4",
+    "bard", 
+    "druid (underdark)", 
+    "sorcerer", 
+    "warlock (fae)", 
+    "wizard", 
+    "level4", 
     "illusion"
-  ],
-  "level": "4th-level",
-  "school": "Illusion",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.246", 
+    "SRD.150"
+  ], 
+  "range": "Touch", 
+  "slug_name": "greater-invisibility", 
   "descriptions": [
     "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Concentration, up to 1 minute"
 }

@@ -1,32 +1,32 @@
 {
-  "name": "Confusion",
-  "slug_name": "confusion",
-  "sources": [
-    "PHB.224",
-    "SRD.127"
-  ],
+  "school": "Enchantment", 
+  "7-8": "The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.", 
+  "2-6": "The creature doesn't move or take actions this turn.", 
+  "name": "Confusion", 
+  "level": "4th-level", 
   "tags": [
-    "bard",
-    "cleric (knowledge)",
-    "druid",
-    "paladin (oathbreaker)",
-    "sorcerer",
-    "wizard",
-    "level4",
+    "bard", 
+    "cleric (knowledge)", 
+    "druid", 
+    "paladin (oathbreaker)", 
+    "sorcerer", 
+    "wizard", 
+    "level4", 
     "enchantment"
-  ],
-  "level": "4th-level",
-  "school": "Enchantment",
-  "casting_time": "1 action",
-  "range": "90 feet",
-  "components": "V, S, M (three nut shells)",
-  "duration": "Concentration, up to 1 minute",
-  "1": "The creature uses up all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.",
-  "2-6": "The creature doesn't move or take actions this turn.",
-  "7-8": "The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.",
-  "9-10": "The creature can act and move normally.",
+  ], 
+  "casting_time": "1 action", 
+  "1": "The creature uses up all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn.", 
+  "sources": [
+    "PHB.224", 
+    "SRD.127"
+  ], 
+  "range": "90 feet", 
+  "slug_name": "confusion", 
   "descriptions": [
-    "At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target",
+    "At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target", 
     "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each spell slot above 4th."
-  ]
+  ], 
+  "components": "V, S, M (three nut shells)", 
+  "duration": "Concentration, up to 1 minute", 
+  "9-10": "The creature can act and move normally."
 }

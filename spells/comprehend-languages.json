@@ -1,27 +1,27 @@
 {
-  "name": "Comprehend Languages",
-  "slug_name": "comprehend-languages",
-  "sources": [
-    "PHB.224",
-    "SRD.126"
-  ],
+  "school": "Divination (Ritual)", 
+  "name": "Comprehend Languages", 
+  "level": "1st-level", 
   "tags": [
-    "bard",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level1",
-    "ritual",
+    "bard", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level1", 
+    "ritual", 
     "divination"
-  ],
-  "level": "1st-level",
-  "school": "Divination (Ritual)",
-  "casting_time": "1 action",
-  "range": "Self",
-  "components": "V, S, M (a pinch of soot and salt)",
-  "duration": "1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.224", 
+    "SRD.126"
+  ], 
+  "range": "Self", 
+  "slug_name": "comprehend-languages", 
   "descriptions": [
-    "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. ",
+    "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. ", 
     "This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language."
-  ]
+  ], 
+  "components": "V, S, M (a pinch of soot and salt)", 
+  "duration": "1 hour"
 }

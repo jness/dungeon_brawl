@@ -1,28 +1,28 @@
 {
-  "name": "Protection from Energy",
-  "slug_name": "protection-from-energy",
-  "sources": [
-    "PHB.270",
-    "SRD.173"
-  ],
+  "school": "Abjuration", 
+  "name": "Protection from Energy", 
+  "level": "3rd-level", 
   "tags": [
-    "cleric",
-    "druid",
-    "paladin (ancients)",
-    "paladin (vengeance)",
-    "ranger",
-    "sorcerer",
-    "wizard",
-    "level3",
+    "cleric", 
+    "druid", 
+    "paladin (ancients)", 
+    "paladin (vengeance)", 
+    "ranger", 
+    "sorcerer", 
+    "wizard", 
+    "level3", 
     "abjuration"
-  ],
-  "level": "3rd-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.270", 
+    "SRD.173"
+  ], 
+  "range": "Touch", 
+  "slug_name": "protection-from-energy", 
   "descriptions": [
     "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Concentration, up to 1 minute"
 }

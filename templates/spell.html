@@ -29,7 +29,13 @@
   <br>
 
   {% for description in spell.descriptions %}
+
+    {% if description is mapping %}
+      <p>{{ description.hyperlinked|safe }}</p>
+    {% else %}
       <p>{{ description }}</p>
+    {% endif %}
+
   {% endfor %}
 
 </div>

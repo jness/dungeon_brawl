@@ -1,23 +1,23 @@
 {
-  "name": "Word of Recall",
-  "slug_name": "word-of-recall",
-  "sources": [
-    "PHB.289",
-    "SRD.193"
-  ],
+  "school": "Conjuration", 
+  "name": "Word of Recall", 
+  "level": "6th-level", 
   "tags": [
-    "cleric",
-    "level6",
+    "cleric", 
+    "level6", 
     "conjuration"
-  ],
-  "level": "6th-level",
-  "school": "Conjuration",
-  "casting_time": "1 action",
-  "range": "5 feet",
-  "components": "V",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.289", 
+    "SRD.193"
+  ], 
+  "range": "5 feet", 
+  "slug_name": "word-of-recall", 
   "descriptions": [
-    "You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.",
+    "You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.", 
     "You must designate a sanctuary by casting this spell within a location, such as a temple, dedicated to or strongly linked to your deity. If you attempt to cast the spell in this manner in an area that isn't dedicated to your deity, the spell has no effect."
-  ]
+  ], 
+  "components": "V", 
+  "duration": "Instantaneous"
 }

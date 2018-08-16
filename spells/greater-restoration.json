@@ -1,28 +1,28 @@
 {
-  "name": "Greater Restoration",
-  "slug_name": "greater-restoration",
-  "sources": [
-    "PHB.246",
-    "SRD.150"
-  ],
+  "school": "Abjuration", 
+  "name": "Greater Restoration", 
+  "level": "5th-level", 
   "tags": [
-    "bard",
-    "cleric",
-    "druid",
-    "level5",
+    "bard", 
+    "cleric", 
+    "druid", 
+    "level5", 
     "abjuration"
-  ],
-  "level": "5th-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.246", 
+    "SRD.150"
+  ], 
+  "range": "Touch", 
+  "slug_name": "greater-restoration", 
   "descriptions": [
-    "You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:",
-    "* One effect that charmed or petrified the target",
-    "* One curse, including the target's attunement to a cursed magic item",
-    "* Any reduction to one of the target's ability scores",
+    "You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:", 
+    "* One effect that charmed or petrified the target", 
+    "* One curse, including the target's attunement to a cursed magic item", 
+    "* Any reduction to one of the target's ability scores", 
     "* One effect reducing the target's hit point maximum"
-  ]
+  ], 
+  "components": "V, S, M (diamond dust worth at least 100 gp, which the spell consumes)", 
+  "duration": "Instantaneous"
 }

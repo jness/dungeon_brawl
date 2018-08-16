@@ -1,32 +1,32 @@
 {
-  "name": "Guardian of Nature",
-  "slug_name": "guardian-of-nature",
+  "school": "Transmutation", 
+  "name": "Guardian of Nature", 
+  "level": "4th-level", 
+  "tags": [
+    "druid", 
+    "ranger", 
+    "level4", 
+    "transmutation"
+  ], 
+  "casting_time": "1 bonus action", 
   "sources": [
     "Xanathar.157"
-  ],
-  "tags": [
-    "druid",
-    "ranger",
-    "level4",
-    "transmutation"
-  ],
-  "level": "4th-level",
-  "school": "Transmutation",
-  "casting_time": "1 bonus action",
-  "range": "Self",
-  "components": "V",
-  "duration": "Concentration, up to a minute",
+  ], 
+  "range": "Self", 
+  "slug_name": "guardian-of-nature", 
   "descriptions": [
-    "A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.",
-    "Primal Beast. Bestial fur covers your body, your facial feature becomes feral, and you gain the following benefits.",
-    " * Your walking speed increases by 10 feet.",
-    " * You gain darkvision with a range of 120 feet.",
-    " * You make Strength-based attack rolls with advantage.",
-    " * Your melee weapon attacks deal an extra 1d6 force damage on a hit.",
-    "Great Tree. Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:",
-    " * You gain 10 temporary hit points.",
-    " * You make Constitution saving throws with advantage.",
-    " * You make Dexterity- and Wisdom-based attack rolls with advantage.",
+    "A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.", 
+    "Primal Beast. Bestial fur covers your body, your facial feature becomes feral, and you gain the following benefits.", 
+    " * Your walking speed increases by 10 feet.", 
+    " * You gain darkvision with a range of 120 feet.", 
+    " * You make Strength-based attack rolls with advantage.", 
+    " * Your melee weapon attacks deal an extra 1d6 force damage on a hit.", 
+    "Great Tree. Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:", 
+    " * You gain 10 temporary hit points.", 
+    " * You make Constitution saving throws with advantage.", 
+    " * You make Dexterity- and Wisdom-based attack rolls with advantage.", 
     " * While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies."
-  ]
+  ], 
+  "components": "V", 
+  "duration": "Concentration, up to a minute"
 }

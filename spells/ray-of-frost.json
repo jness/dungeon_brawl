@@ -1,24 +1,24 @@
 {
-  "name": "Ray of Frost",
-  "slug_name": "ray-of-frost",
-  "sources": [
-    "PHB.271",
-    "SRD.174"
-  ],
+  "school": "Evocation", 
+  "name": "Ray of Frost", 
+  "level": "Cantrip", 
   "tags": [
-    "sorcerer",
-    "wizard",
-    "cantrip",
+    "sorcerer", 
+    "wizard", 
+    "cantrip", 
     "evocation"
-  ],
-  "level": "Cantrip",
-  "school": "Evocation",
-  "casting_time": "1 action",
-  "range": "60 feet",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.271", 
+    "SRD.174"
+  ], 
+  "range": "60 feet", 
+  "slug_name": "ray-of-frost", 
   "descriptions": [
-    "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+    "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.", 
     "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

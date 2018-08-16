@@ -1,25 +1,28 @@
 {
-  "name": "Find Traps",
-  "slug_name": "find-traps",
-  "sources": [
-    "PHB.241",
-    "SRD.144"
-  ],
+  "school": "Divination", 
+  "name": "Find Traps", 
+  "level": "2nd-level", 
   "tags": [
-    "cleric",
-    "druid",
-    "ranger",
-    "level2",
+    "cleric", 
+    "druid", 
+    "ranger", 
+    "level2", 
     "divination"
-  ],
-  "level": "2nd-level",
-  "school": "Divination",
-  "casting_time": "1 action",
-  "range": "120 feet",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.241", 
+    "SRD.144"
+  ], 
+  "range": "120 feet", 
+  "slug_name": "find-traps", 
   "descriptions": [
-    "You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the *[Alarm](alarm)* spell, a *[Glyph of Warding](glyph-of-warding)*, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
+    {
+      "raw": "You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the *[Alarm](alarm)* spell, a *[Glyph of Warding](glyph-of-warding)*, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.", 
+      "hyperlinked": "You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the *[Alarm](alarm)* spell, a *<a href=\"/spell/glyph-of-warding\">Glyph of Warding</a>*, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole."
+    }, 
     "This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

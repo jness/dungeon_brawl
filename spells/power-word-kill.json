@@ -1,25 +1,25 @@
 {
-  "name": "Power Word Kill",
-  "slug_name": "power-word-kill",
-  "sources": [
-    "PHB.266",
-    "SRD.170"
-  ],
+  "school": "Enchantment", 
+  "name": "Power Word Kill", 
+  "level": "9th-level", 
   "tags": [
-    "bard",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level9",
+    "bard", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level9", 
     "enchantment"
-  ],
-  "level": "9th-level",
-  "school": "Enchantment",
-  "casting_time": "1 action",
-  "range": "60 feet",
-  "components": "V",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.266", 
+    "SRD.170"
+  ], 
+  "range": "60 feet", 
+  "slug_name": "power-word-kill", 
   "descriptions": [
     "You utter a word of power that can compel one creature you can see within range to die instantly.  If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect."
-  ]
+  ], 
+  "components": "V", 
+  "duration": "Instantaneous"
 }

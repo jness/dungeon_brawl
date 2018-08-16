@@ -1,26 +1,26 @@
 {
-  "name": "Poison Spray",
-  "slug_name": "poison-spray",
-  "sources": [
-    "PHB.266",
-    "SRD.169"
-  ],
+  "school": "Conjuration", 
+  "name": "Poison Spray", 
+  "level": "Cantrip", 
   "tags": [
-    "druid",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "cantrip",
+    "druid", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "cantrip", 
     "conjuration"
-  ],
-  "level": "Cantrip",
-  "school": "Conjuration",
-  "casting_time": "1 action",
-  "range": "10 feet",
-  "components": "V, S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.266", 
+    "SRD.169"
+  ], 
+  "range": "10 feet", 
+  "slug_name": "poison-spray", 
   "descriptions": [
-    "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.",
+    "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.", 
     "This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12)."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Instantaneous"
 }

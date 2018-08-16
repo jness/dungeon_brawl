@@ -1,24 +1,24 @@
 {
-  "name": "Passwall",
-  "slug_name": "passwall",
-  "sources": [
-    "PHB.264",
-    "SRD.167"
-  ],
+  "school": "Transmutation", 
+  "name": "Passwall", 
+  "level": "5th-level", 
   "tags": [
-    "druid (mountain)",
-    "wizard",
-    "level5",
+    "druid (mountain)", 
+    "wizard", 
+    "level5", 
     "transmutation"
-  ],
-  "level": "5th-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "30 feet",
-  "components": "V, S, M (a pinch of sesame seeds)",
-  "duration": "1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.264", 
+    "SRD.167"
+  ], 
+  "range": "30 feet", 
+  "slug_name": "passwall", 
   "descriptions": [
-    "A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.",
+    "A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.", 
     "When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."
-  ]
+  ], 
+  "components": "V, S, M (a pinch of sesame seeds)", 
+  "duration": "1 hour"
 }

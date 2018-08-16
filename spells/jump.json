@@ -1,25 +1,25 @@
 {
-  "name": "Jump",
-  "slug_name": "jump",
-  "sources": [
-    "PHB.254",
-    "SRD.158"
-  ],
+  "school": "Transmutation", 
+  "name": "Jump", 
+  "level": "1st-level", 
   "tags": [
-    "druid",
-    "ranger",
-    "sorcerer",
-    "wizard",
-    "level1",
+    "druid", 
+    "ranger", 
+    "sorcerer", 
+    "wizard", 
+    "level1", 
     "transmutation"
-  ],
-  "level": "1st-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S, M (a grasshopper's hind leg)",
-  "duration": "1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.254", 
+    "SRD.158"
+  ], 
+  "range": "Touch", 
+  "slug_name": "jump", 
   "descriptions": [
     "You touch a creature. The creature's jump distance is tripled until the spell ends."
-  ]
+  ], 
+  "components": "V, S, M (a grasshopper's hind leg)", 
+  "duration": "1 minute"
 }

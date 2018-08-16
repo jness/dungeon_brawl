@@ -1,27 +1,27 @@
 {
-  "name": "Spider Climb",
-  "slug_name": "spider-climb",
-  "sources": [
-    "PHB.277",
-    "SRD.182"
-  ],
+  "school": "Transmutation", 
+  "name": "Spider Climb", 
+  "level": "2nd-level", 
   "tags": [
-    "druid (forest)",
-    "druid (mountain)",
-    "druid (underdark)",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level2",
+    "druid (forest)", 
+    "druid (mountain)", 
+    "druid (underdark)", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level2", 
     "transmutation"
-  ],
-  "level": "2nd-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S, M (a drop of bitumen and a spider)",
-  "duration": "Concentration, up to 1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.277", 
+    "SRD.182"
+  ], 
+  "range": "Touch", 
+  "slug_name": "spider-climb", 
   "descriptions": [
     "Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed."
-  ]
+  ], 
+  "components": "V, S, M (a drop of bitumen and a spider)", 
+  "duration": "Concentration, up to 1 hour"
 }

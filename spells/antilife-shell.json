@@ -1,26 +1,26 @@
 {
-  "name": "Antilife Shell",
-  "slug_name": "antilife-shell",
-  "sources": [
-    "PHB.213",
-    "SRD.116"
-  ],
+  "school": "Abjuration", 
+  "name": "Antilife Shell", 
+  "level": "5th-level", 
   "tags": [
-    "cleric (death)",
-    "cleric (grave)",
-    "druid",
-    "level5",
+    "cleric (death)", 
+    "cleric (grave)", 
+    "druid", 
+    "level5", 
     "abjuration"
-  ],
-  "level": "5th-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Self (10-foot radius)",
-  "components": "V, S",
-  "duration": "Concentration, up to 1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.213", 
+    "SRD.116"
+  ], 
+  "range": "Self (10-foot radius)", 
+  "slug_name": "antilife-shell", 
   "descriptions": [
-    "A shimmering barrier extends out from you in a 10-foot-radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.",
-    "The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.",
+    "A shimmering barrier extends out from you in a 10-foot-radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.", 
+    "The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.", 
     "If you move so an affected creature is forced to pass through the barrier, the spell ends."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "Concentration, up to 1 hour"
 }

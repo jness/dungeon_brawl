@@ -1,25 +1,25 @@
 {
-  "name": "Earthbind",
-  "slug_name": "earthbind",
-  "sources": [
-    "EE.17",
-    "Xanathar.154"
-  ],
+  "school": "Transmutation", 
+  "name": "Earthbind", 
+  "level": "2nd-level", 
   "tags": [
-    "druid",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "level2",
+    "druid", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "level2", 
     "transmutation"
-  ],
-  "level": "2nd-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "300 feet",
-  "components": "V",
-  "duration": "Concentration, up to 1 minute",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "EE.17", 
+    "Xanathar.154"
+  ], 
+  "range": "300 feet", 
+  "slug_name": "earthbind", 
   "descriptions": [
     "Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends."
-  ]
+  ], 
+  "components": "V", 
+  "duration": "Concentration, up to 1 minute"
 }

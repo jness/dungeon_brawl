@@ -1,26 +1,26 @@
 {
-  "name": "Arcane Eye",
-  "slug_name": "arcane-eye",
-  "sources": [
-    "PHB.214",
-    "SRD.118"
-  ],
+  "school": "Divination", 
+  "name": "Arcane Eye", 
+  "level": "4th-level", 
   "tags": [
-    "cleric (knowledge)",
-    "cleric (arcana)",
-    "wizard",
-    "level4",
+    "cleric (knowledge)", 
+    "cleric (arcana)", 
+    "wizard", 
+    "level4", 
     "divination"
-  ],
-  "level": "4th-level",
-  "school": "Divination",
-  "casting_time": "1 action",
-  "range": "30 feet",
-  "components": "V, S, M (a bit of bat fur)",
-  "duration": "Concentration, up to 1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.214", 
+    "SRD.118"
+  ], 
+  "range": "30 feet", 
+  "slug_name": "arcane-eye", 
   "descriptions": [
-    "You create an invisible, magical eye within range that hovers in the for the duration.",
-    "You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.",
+    "You create an invisible, magical eye within range that hovers in the for the duration.", 
+    "You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.", 
     "As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter."
-  ]
+  ], 
+  "components": "V, S, M (a bit of bat fur)", 
+  "duration": "Concentration, up to 1 hour"
 }

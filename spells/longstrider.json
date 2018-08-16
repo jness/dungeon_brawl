@@ -1,26 +1,26 @@
 {
-  "name": "Longstrider",
-  "slug_name": "longstrider",
-  "sources": [
-    "PHB.256",
-    "SRD.160"
-  ],
+  "school": "Transmutation", 
+  "name": "Longstrider", 
+  "level": "1st-level", 
   "tags": [
-    "bard",
-    "druid",
-    "ranger",
-    "wizard",
-    "level1",
+    "bard", 
+    "druid", 
+    "ranger", 
+    "wizard", 
+    "level1", 
     "transmutation"
-  ],
-  "level": "1st-level",
-  "school": "Transmutation",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S, M (a pinch of dirt)",
-  "duration": "1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.256", 
+    "SRD.160"
+  ], 
+  "range": "Touch", 
+  "slug_name": "longstrider", 
   "descriptions": [
-    "You touch a creature. The target's speed increases by 10 feet until the spell ends.",
+    "You touch a creature. The target's speed increases by 10 feet until the spell ends.", 
     "At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st."
-  ]
+  ], 
+  "components": "V, S, M (a pinch of dirt)", 
+  "duration": "1 hour"
 }

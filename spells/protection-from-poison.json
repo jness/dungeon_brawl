@@ -1,25 +1,25 @@
 {
-  "name": "Protection from Poison",
-  "slug_name": "protection-from-poison",
-  "sources": [
-    "PHB.270",
-    "SRD.173"
-  ],
+  "school": "Abjuration", 
+  "name": "Protection from Poison", 
+  "level": "2nd-level", 
   "tags": [
-    "cleric",
-    "ranger",
-    "paladin",
-    "druid",
-    "level2",
+    "cleric", 
+    "ranger", 
+    "paladin", 
+    "druid", 
+    "level2", 
     "abjuration"
-  ],
-  "level": "2nd-level",
-  "school": "Abjuration",
-  "casting_time": "1 action",
-  "range": "Touch",
-  "components": "V, S",
-  "duration": "1 hour",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "PHB.270", 
+    "SRD.173"
+  ], 
+  "range": "Touch", 
+  "slug_name": "protection-from-poison", 
   "descriptions": [
     "You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random. For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage."
-  ]
+  ], 
+  "components": "V, S", 
+  "duration": "1 hour"
 }

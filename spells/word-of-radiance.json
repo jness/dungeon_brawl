@@ -1,22 +1,22 @@
 {
-  "name": "Word of Radiance",
-  "slug_name": "word-of-radiance",
+  "school": "Evocation", 
+  "name": "Word of Radiance", 
+  "level": "Cantrip", 
+  "tags": [
+    "cleric", 
+    "cantrip", 
+    "evocation"
+  ], 
+  "casting_time": "1 action", 
   "sources": [
     "Xanathar.171"
-  ],
-  "tags": [
-    "cleric",
-    "cantrip",
-    "evocation"
-  ],
-  "level": "Cantrip",
-  "school": "Evocation",
-  "casting_time": "1 action",
-  "range": "5 feet",
-  "components": "V, M (a holy symbol)",
-  "duration": "Instantaneous",
+  ], 
+  "range": "5 feet", 
+  "slug_name": "word-of-radiance", 
   "descriptions": [
-    "You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.",
+    "You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.", 
     "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
-  ]
+  ], 
+  "components": "V, M (a holy symbol)", 
+  "duration": "Instantaneous"
 }

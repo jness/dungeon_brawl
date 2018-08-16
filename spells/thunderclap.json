@@ -1,27 +1,27 @@
 {
-  "name": "Thunderclap",
-  "slug_name": "thunderclap",
-  "sources": [
-    "EE.22",
-    "Xanathar.168"
-  ],
+  "school": "Evocation", 
+  "name": "Thunderclap", 
+  "level": "Cantrip", 
   "tags": [
-    "bard",
-    "druid",
-    "sorcerer",
-    "warlock",
-    "wizard",
-    "cantrip",
+    "bard", 
+    "druid", 
+    "sorcerer", 
+    "warlock", 
+    "wizard", 
+    "cantrip", 
     "evocation"
-  ],
-  "level": "Cantrip",
-  "school": "Evocation",
-  "casting_time": "1 action",
-  "range": "5 feet",
-  "components": "S",
-  "duration": "Instantaneous",
+  ], 
+  "casting_time": "1 action", 
+  "sources": [
+    "EE.22", 
+    "Xanathar.168"
+  ], 
+  "range": "5 feet", 
+  "slug_name": "thunderclap", 
   "descriptions": [
-    "You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take 1d6 thunder damage.",
+    "You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take 1d6 thunder damage.", 
     "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
-  ]
+  ], 
+  "components": "S", 
+  "duration": "Instantaneous"
 }
