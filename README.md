@@ -4,17 +4,17 @@ A simple [Flask](http://flask.pocoo.org/) + [MongoDB](https://www.mongodb.com/)
 application for reading [Dungons and Dragons](http://dnd.wizards.com/) monster
 stats.
 
-![alt text](https://i.imgur.com/okOcJt2.png")
+![alt text](https://i.imgur.com/1e8zOe9.png")
 
-![alt text](https://i.imgur.com/zSuhuEH.png")
+![alt text](https://i.imgur.com/ctQiDbs.png")
 
-![alt text](https://i.imgur.com/FebQTeT.png")
+![alt text](https://i.imgur.com/ubFJBGI.png")
 
-![alt text](https://i.imgur.com/FqbUePF.png")
+![alt text](https://i.imgur.com/k79KLJW.png")
 
-![alt text](https://i.imgur.com/lr0VR14.png")
+![alt text](https://i.imgur.com/r6Pp8fy.png")
 
-![alt text](https://i.imgur.com/l0WW1Pc.png")
+![alt text](https://i.imgur.com/JC6gRsm.png")
 
 ## Requirements
 
