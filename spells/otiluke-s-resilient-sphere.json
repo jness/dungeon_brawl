@@ -20,7 +20,7 @@
     "The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.", 
     {
       "raw": "A *[Disintegrate](disintegrate)* spell targeting the globe destroys it without harming anything inside it.", 
-      "hyperlinked": "A *<a href=\"/spell/disintegrate\">Disintegrate</a>* spell targeting the globe destroys it without harming anything inside it."
+      "hyperlinked": "A <a href=\"/spell/disintegrate\">Disintegrate</a> spell targeting the globe destroys it without harming anything inside it."
     }
   ], 
   "components": "V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)", 

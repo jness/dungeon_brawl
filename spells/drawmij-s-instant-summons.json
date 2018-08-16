@@ -20,7 +20,7 @@
     "If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.", 
     {
       "raw": "*[Dispel Magic](dispel-magic)* or a similar effect successfully applied to the sapphire ends this spell's effect.", 
-      "hyperlinked": "*<a href=\"/spell/dispel-magic\">Dispel Magic</a>* or a similar effect successfully applied to the sapphire ends this spell's effect."
+      "hyperlinked": "<a href=\"/spell/dispel-magic\">Dispel Magic</a> or a similar effect successfully applied to the sapphire ends this spell's effect."
     }
   ], 
   "components": "V, S, M (sapphire worth 1000 gp)", 

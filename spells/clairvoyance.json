@@ -23,7 +23,7 @@
     "When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.", 
     {
       "raw": "A creature that can see the sensor (such as a creature benefiting from *[See Invisibility](see-invisibility)* or *[True Seeing](true-seeing)* sees a luminous, intangible orb about the size of your fist.", 
-      "hyperlinked": "A creature that can see the sensor (such as a creature benefiting from *[See Invisibility](see-invisibility)* or *<a href=\"/spell/true-seeing\">True Seeing</a>* sees a luminous, intangible orb about the size of your fist."
+      "hyperlinked": "A creature that can see the sensor (such as a creature benefiting from *[See Invisibility](see-invisibility)* or <a href=\"/spell/true-seeing\">True Seeing</a> sees a luminous, intangible orb about the size of your fist."
     }
   ], 
   "components": "V, S, M (a focus worth at least 100gp, either a jeweled horn for hearing or a glass eye for seeing)", 

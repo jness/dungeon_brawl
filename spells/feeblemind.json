@@ -23,7 +23,7 @@
     "At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.", 
     {
       "raw": "The spell can also be ended by *[Greater Restoration](greater-restoration)*, *[Heal](heal)*, or *[Wish](wish)*.", 
-      "hyperlinked": "The spell can also be ended by *[Greater Restoration](greater-restoration)*, *[Heal](heal)*, or *<a href=\"/spell/wish\">Wish</a>*."
+      "hyperlinked": "The spell can also be ended by *[Greater Restoration](greater-restoration)*, *[Heal](heal)*, or <a href=\"/spell/wish\">Wish</a>."
     }
   ], 
   "components": "V, S, M (a handful of clay, crystal, glass, or mineral spheres)", 
