@@ -5,7 +5,7 @@ Spells
 {% endblock %}
 
 {% block style %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/monsters.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/spells.css') }}">
 {% endblock %}
 
 
@@ -25,9 +25,9 @@ Spells
   <div class="col-3">
 
     <select id="selectField" class="form-control form-select" name="search_field">
-      <option value="name" selected="selected">Name</option>
-      <option value="school">School</option>
-      <option value="level">Level</option>
+      <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %} selected="selected">Name</option>
+      <option {% if search_field == 'school' %}selected="selected"{% endif %} value="school">School</option>
+      <option {% if search_field == 'level' %}selected="selected"{% endif %} value="level">Level</option>
     </select>
 
   </div>
@@ -50,9 +50,9 @@ Spells
   <table id="table" class="table table-striped" style="width:100%">
 
       <tr>
-        <th><a href='?sort=name{{ params }}'>Name</a></th>
-        <th><a href='?sort=school{{ params }}'>School</a></th>
-        <th><a href='?sort=level{{ params }}'>Level</a></th>
+        <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
+        <th><a href='?sort=school&search_text={{ search_text }}&search_field={{ search_field }}'>School</a></th>
+        <th><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
       </tr>
 
       {% for spell in spells %}

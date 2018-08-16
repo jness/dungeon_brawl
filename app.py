@@ -6,7 +6,9 @@ import random
 
 from slugify import slugify
 from pymongo import MongoClient
-from flask import Flask, render_template, request, abort, redirect, make_response
+from flask import (
+    Flask, render_template, request, abort, redirect, url_for, make_response)
+
 
 # create our Flask application
 app = Flask(__name__)
@@ -19,10 +21,11 @@ database = mongo.dungeon_brawl
 monster_collection = database.monsters
 spell_collection = database.spells
 
+
 @app.route('/', methods=['GET'])
-def main():
+def monsters():
     """
-    Main page
+    List all monsters
     """
 
     # get all monsters
@@ -35,7 +38,60 @@ def main():
     return render_template('monsters.html', monsters=results)
 
 
-@app.route('/spells', methods=['GET'])
+@app.route('/monster_search/', methods=['GET'])
+def monster_search():
+    """
+    List filtered monsters
+    """
+
+    # required url params for search
+    search_text = request.args.get('search_text', 'zombie')
+    search_field = request.args.get('search_field', 'name')
+
+    # certian fields should not be searched with regex
+    non_regex = ['challenge_rating']
+
+    # perform a non regex search
+    if search_field in non_regex:
+        results = monster_collection.find({search_field: search_text})
+
+    # perform a regex search
+    else:
+        regex = re.compile(search_text, re.IGNORECASE)
+        results = monster_collection.find({search_field: regex})
+
+    # sort if url param passed
+    if 'sort' in request.args:
+        results = results.sort(request.args['sort'])
+
+    # render our template with results
+    return render_template(
+        'monsters.html',
+        search_text=search_text,
+        search_field=search_field,
+        monsters=results
+    )
+
+
+@app.route('/monster/<slug_name>/', methods=['GET'])
+def monster(slug_name):
+    """
+    Return a monster by name
+    """
+
+    # find monsters by slug_name
+    results = monster_collection.find_one({'slug_name': slug_name})
+
+    # if we have a result render monster
+    if results:
+        return render_template('monster.html', monster=results)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Monster %s not found' % slug_name), 404
+
+
+@app.route('/spells/', methods=['GET'])
 def spells():
     """
     Main spell page
@@ -51,308 +107,50 @@ def spells():
     return render_template('spells.html', spells=results)
 
 
-@app.route('/search', methods=['GET'])
-def monsters():
-    """
-    Return search results
-    """
 
-    # if we have expected url params perform search
-    if 'search_text' and 'search_field' in request.args:
-        search_text = request.args['search_text']
-        search_field = request.args['search_field']
-
-        # only certian fields are allowed
-        allowed_fields = [
-            'name', 'type', 'size', 'alignment', 'challenge_rating'
-        ]
-
-        # if type is not an allowed fields return failure
-        if search_field not in allowed_fields:
-            abort(400)
-
-        # perform search
-        if search_field == 'challenge_rating':
-            results = monster_collection.find({search_field: search_text})
-        else:
-            regex = re.compile(search_text, re.IGNORECASE)
-            results = monster_collection.find({search_field: regex})
-
-        # perform column sort
-        if 'sort' in request.args:
-            results = results.sort(request.args['sort'])
-
-        # build extra url params
-        params = '&search_text=%s&search_field=%s' % (search_text, search_field)
-
-        # render our template with results
-        return render_template('monsters.html', params=params, search_text=search_text, monsters=results)
-
-    # if we didn't have expected url params we render search template
-    return render_template('search.html')
-
-
-@app.route('/spell_search', methods=['GET'])
+@app.route('/spell_search/', methods=['GET'])
 def spell_search():
     """
-    Return search results
+    List filtered monsters
     """
 
-    # if we have expected url params perform search
-    if 'search_text' and 'search_field' in request.args:
-        search_text = request.args['search_text']
-        search_field = request.args['search_field']
+    # required url params for search
+    search_text = request.args.get('search_text', 'cure')
+    search_field = request.args.get('search_field', 'name')
 
-        # only certian fields are allowed
-        allowed_fields = [
-            'name', 'school', 'level'
-        ]
+    # perform a regex search
+    regex = re.compile(search_text, re.IGNORECASE)
+    results = spell_collection.find({search_field: regex})
 
-        # if type is not an allowed fields return failure
-        if search_field not in allowed_fields:
-            abort(400)
+    # sort if url param passed
+    if 'sort' in request.args:
+        results = results.sort(request.args['sort'])
 
-        # perform search
-        regex = re.compile(search_text, re.IGNORECASE)
-        results = spell_collection.find({search_field: regex})
-
-        # perform column sort
-        if 'sort' in request.args:
-            results = results.sort(request.args['sort'])
-
-        # build extra url params
-        params = '&search_text=%s&search_field=%s' % (search_text, search_field)
-
-        # render our template with results
-        return render_template('spells.html', params=params, search_text=search_text, spells=results)
-
-    # if we didn't have expected url params we render search template
-    return render_template('spell_search.html')
+    # render our template with results
+    return render_template(
+        'spells.html',
+        search_text=search_text,
+        search_field=search_field,
+        spells=results
+    )
 
 
-
-@app.route('/monster/<slug_name>', methods=['GET'])
-def monster(slug_name):
-    """
-    Return a monster by name
-    """
-
-    # find monsters matching regex
-    results = monster_collection.find_one({'slug_name': slug_name})
-
-
-    if results:
-        return render_template(
-            'monster.html', monster=results, spells=spells)
-
-    abort(404)
-
-
-@app.route('/spell/<slug_name>', methods=['GET'])
+@app.route('/spell/<slug_name>/', methods=['GET'])
 def spell(slug_name):
     """
     Return a spell by name
     """
 
-    # find monsters matching regex
+    # find spell by slug_name
     results = spell_collection.find_one({'slug_name': slug_name})
 
+    # if we have a result render spell
     if results:
         return render_template('spell.html', spell=results)
 
-    abort(404)
-
-
-@app.route('/brawl_add', methods=['GET'])
-def brawl_add():
-    """
-    Add monster to brawl
-    """
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    if 'slug_name' in request.args:
-        slug_name = request.args['slug_name']
-
-        # make sure the slug_name is in database
-        monster = monster_collection.find_one({'slug_name': slug_name})
-        if monster:
-
-            # add monster to monster json list
-            monsters.append(
-                dict(
-                    unique_id = '%s_%s' % (monster['slug_name'], len(monsters) + 1),
-                    name = monster['name'],
-                    slug_name = monster['slug_name'],
-                    hit_points = monster['hit_points'],
-                    dexterity_modifier = monster['dexterity_modifier'],
-                    character = False,
-                    notes = ''
-                )
-            )
-
-            # redirect to brawl page and set monster to cookie
-            response = redirect('/brawl')
-            response.set_cookie('monsters', json.dumps(monsters))
-            return response
-
-    # if we didn't pass slug_name, or monster didn't exist
-    abort(400)
-
-
-@app.route('/brawl_add_character', methods=['POST'])
-def brawl_add_character():
-    """
-    Add character to brawl
-    """
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    name = request.form['name']
-    initiative_modifier = request.form['initiative_modifier']
-    hit_points = int(request.form['hit_points'])
-
-    if hit_points < 0:
-        abort(400)
-
-    if not re.search('^[\-|\+]', initiative_modifier):
-        abort(400)
-
-    # add monster to monster json list
-    monsters.append(
-        dict(
-            unique_id = '%s_%s' % (slugify(name), len(monsters) + 1),
-            name = name,
-            hit_points = hit_points,
-            dexterity_modifier = initiative_modifier,
-            character = True,
-            notes = ''
-        )
-    )
-
-    # redirect to brawl page and set monster to cookie
-    response = redirect('/brawl')
-    response.set_cookie('monsters', json.dumps(monsters))
-    return response
-
-
-@app.route('/brawl_clear', methods=['GET'])
-def brawl_clear_only_monsters():
-    """
-    Clear brawl
-    """
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    monsters = [m for m in monsters if m['character'] == True]
-
-    # redirect to brawl page and set monster to cookie
-    response = redirect('/brawl')
-    response.set_cookie('monsters', json.dumps(monsters))
-    return response
-
-
-@app.route('/brawl_clear_all', methods=['GET'])
-def brawl_clear_all():
-    """
-    Clear brawl
-    """
-
-    response = redirect('/brawl')
-    response.set_cookie('monsters', expires=0)
-    return response
-
-
-@app.route('/brawl_roll', methods=['GET'])
-def brawl_roll():
-    """
-    Roll init for brawl
-    """
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    for monster in monsters:
-
-        if 'initiative' not in monster:
-            roll = random.randint(1, 20)
-            roll_result = eval('%s%s' % (roll, monster['dexterity_modifier']))
-            monster['initiative'] = roll_result
-
-    # sort monsters
-    monsters = sorted(monsters, key=lambda x:x.get('initiative', 0), reverse=True)
-
-    response = redirect('/brawl')
-    response.set_cookie('monsters', json.dumps(monsters))
-    return response
-
-
-
-@app.route('/brawl_update', methods=['POST'])
-def brawl_update():
-    """
-    Roll init for brawl
-    """
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    unique_id = request.form['unique_id']
-    initiative = request.form['initiative']
-    hit_points = request.form['hit_points']
-    notes = request.form.get('notes') or ''
-
-    for monster in monsters:
-
-        if monster['unique_id'] == unique_id:
-
-            # perform math on hit points
-            if '+' in str(hit_points):
-                hit_points = int(monster['hit_points']) + int(hit_points)
-            elif '-' in str(hit_points):
-                hit_points = int(monster['hit_points']) + int(hit_points)
-            else:
-                hit_points = int(hit_points)
-
-            # cant go below 0
-            if hit_points < 0:
-                hit_points = 0
-
-            monster['initiative'] = int(initiative)
-            monster['hit_points'] = int(hit_points)
-            monster['notes'] = notes
-
-    # sort monsters
-    monsters = sorted(monsters, key=lambda x:x.get('initiative', 0), reverse=True)
-
-    response = redirect('/brawl')
-    response.set_cookie('monsters', json.dumps(monsters))
-    return response
-
-
-@app.route('/brawl_delete', methods=['GET'])
-def brawl_delete():
-    """
-    Roll init for brawl
-    """
-
-    unique_id = request.args['unique_id']
-
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
-
-    new_monsters = []
-
-    for monster in monsters:
-        if monster['unique_id'] != unique_id:
-            new_monsters.append(monster)
-
-    response = redirect('/brawl')
-    response.set_cookie('monsters', json.dumps(new_monsters))
-    return response
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Spell %s not found' % slug_name), 404
 
 
 @app.route('/brawl', methods=['GET'])
@@ -361,10 +159,254 @@ def brawl():
     Show brawl
     """
 
-    _monsters = request.cookies.get('monsters') or '[]'
-    monsters = json.loads(_monsters)
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
 
+    # render brawl
     return render_template('brawl.html', monsters=monsters)
+
+
+@app.route('/brawl_clear_monsters', methods=['GET'])
+def brawl_clear_monsters():
+    """
+    Clear monsters from brawl
+    """
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # fetch non monsters from cookie
+    monsters = [m for m in monsters if m['is_character'] == True]
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie to non monsters (characters only)
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+@app.route('/brawl_clear_all', methods=['GET'])
+def brawl_clear_all():
+    """
+    Clear all from brawl
+    """
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # expire the monsters cookie (deletes the cookie)
+    response.set_cookie('monsters', expires=0)
+    return response
+
+
+@app.route('/brawl_add_monster/', methods=['GET'])
+def brawl_add_monster():
+    """
+    Add monster to brawl
+    """
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # required url params for search
+    slug_name = request.args['slug_name']
+
+    # perform a search
+    monster = monster_collection.find_one({'slug_name': slug_name})
+
+    # if we have a result render monster
+    if monster:
+
+        # create a slim monster object to store in cookie
+        slim_monster = {
+            'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+            'name': monster['name'],
+            'slug_name': monster['slug_name'],
+            'hit_points': monster['hit_points'],
+            'dexterity_modifier': monster['dexterity_modifier'],
+            'is_character': False,
+            'notes': ''
+        }
+
+        # add slim_monster to monsters list
+        monsters.append(
+            slim_monster
+        )
+
+        # create redirect to brawl page
+        response = redirect(url_for('brawl'))
+
+        # set cookie for monsters
+        response.set_cookie('monsters', json.dumps(monsters))
+        return response
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Monster %s not found' % slug_name), 404
+
+
+@app.route('/brawl_add_character/', methods=['POST'])
+def brawl_add_character():
+    """
+    Add character to brawl
+    """
+
+    # grab required form elements from POST
+    name = request.form['name']
+    initiative_modifier = request.form['initiative_modifier']
+    hit_points = int(request.form['hit_points'])
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # if - or + operator not added to initiative, set it positive modifier
+    if not re.search('^[\-|\+]', initiative_modifier):
+        initiative_modifier = '+%s' % int(initiative_modifier)
+
+    # create a slim character object to store in cookie
+    slim_character = {
+        'unique_id': '%s_%s' % (slugify(name), len(monsters) + 1),
+        'name': name,
+        'slug_name': slugify(name),
+        'hit_points': hit_points,
+        'dexterity_modifier': initiative_modifier,
+        'is_character': True,
+        'notes': ''
+    }
+
+    # add slim_character to monsters list
+    monsters.append(
+        slim_character
+    )
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+@app.route('/brawl_roll_initiative/', methods=['GET'])
+def brawl_roll_initiative():
+    """
+    Roll initiative for brawl
+    """
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # iterate over all monsters
+    for monster in monsters:
+
+        # if monster doesn't already have a initative roll it now
+        if 'initiative' not in monster:
+
+            # roll a d20 and get results
+            roll = random.randint(1, 20)
+
+            # add d20 results to monsters modifier
+            roll_result = eval('%s%s' % (roll, monster['dexterity_modifier']))
+
+            # set initiative to modifiered d20 roll
+            monster['initiative'] = roll_result
+
+    # sort monsters in initative order
+    monsters = sorted(
+        monsters, key=lambda x:x.get('initiative', -99), reverse=True)
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+
+@app.route('/brawl_update_monster/', methods=['POST'])
+def brawl_update_monster():
+    """
+    Update a monsters stats
+    """
+
+    # grab required form elements from POST
+    unique_id = request.form['unique_id']
+    initiative = int(request.form['initiative'])
+    hit_points = request.form['hit_points']
+    notes = request.form.get('notes') or ''
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # iterate over all monsters
+    for monster in monsters:
+
+        # if our monster matches unique_id this is the monster
+        # we plan to update
+        if monster['unique_id'] == unique_id:
+
+            # if posted hit_points starts with a + operator
+            # we should increase current hits
+            if re.search('^\+', hit_points):
+                hit_points = int(monster['hit_points']) + int(hit_points)
+
+            # if posted hit_points starts with a - operator
+            # we should decrease current hits
+            elif re.search('^\-', hit_points):
+                hit_points = int(monster['hit_points']) + int(hit_points)
+
+            # else if hit points is a number we should set hits points
+            else:
+                hit_points = int(hit_points)
+
+            # set our initative, hit_points, and notes
+            monster['initiative'] = int(initiative)
+            monster['hit_points'] = int(hit_points)
+            monster['notes'] = notes
+
+    # sort monsters in initative order
+    monsters = sorted(
+        monsters, key=lambda x:x.get('initiative', -99), reverse=True)
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters
+    response.set_cookie('monsters', json.dumps(monsters))
+    return response
+
+
+@app.route('/brawl_remove_monster', methods=['GET'])
+def brawl_remove_monster():
+    """
+    Remove monster from brawl
+    """
+
+    # grab required form elements from POST
+    unique_id = request.args['unique_id']
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # create a new list to holder expected monsters
+    new_monsters = []
+
+    # iterate over all monsters
+    for monster in monsters:
+
+        # if monster's unique_id should not be deleted
+        # add it to new monster list
+        if monster['unique_id'] != unique_id:
+            new_monsters.append(monster)
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters to new monster list
+    response.set_cookie('monsters', json.dumps(new_monsters))
+    return response
 
 
 if __name__ == "__main__":

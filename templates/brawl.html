@@ -11,15 +11,15 @@ Brawl
 {% block content %}
 <div class="container">
 
-    <button type="button" class="btn btn-warning" onclick="window.location='/brawl_clear';">Clear Monsters</button>
+    <button type="button" class="btn btn-warning" onclick="window.location='/brawl_clear_monsters';">Clear Monsters</button>
     <button type="button" class="btn btn-danger" onclick="window.location='/brawl_clear_all';">Clear All</button>
-    <button type="button" class="btn btn-primary" onclick="window.location='/brawl_roll';">Roll Initiative</button>
+    <button type="button" class="btn btn-primary" onclick="window.location='/brawl_roll_initiative';">Roll Initiative</button>
 
     <hr>
 
     <form action='/brawl_add_character' method='POST'>
-      <input id="name" type="text" name="name" placeholder=" Name" required>
-      <input id="name" type="text" name="initiative_modifier" placeholder=" Initiative Modifier" required>
+      <input id="name" type="text" name="name" placeholder=" Character Name" required>
+      <input id="name" type="text" name="initiative_modifier" placeholder=" Initiative Modifier (+2)" required>
       <input id="name" type="number" name="hit_points" placeholder=" Hit Points" required>
       <button class="btn btn-success btn-sm" type="submit">Add Character</button>
     </form>
@@ -76,7 +76,7 @@ Brawl
         </button>
       </div>
 
-      <form action='/brawl_update' method='POST'>
+      <form action='/brawl_update_monster' method='POST'>
       <div class="modal-body">
           <p>Initiative</p>
           <p><input id="name" type="number" value="{{ monster.initiative }}" name="initiative" required></p>
@@ -91,7 +91,7 @@ Brawl
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a class="btn btn-danger" href="/brawl_delete?unique_id={{ monster.unique_id }}">Delete</a>
+        <a class="btn btn-danger" href="/brawl_remove_monster?unique_id={{ monster.unique_id }}">Remove</a>
         <button type="submit" class="btn btn-primary">Save changes</button>
       </div>
       </form>

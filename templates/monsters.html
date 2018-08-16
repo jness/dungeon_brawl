@@ -12,7 +12,7 @@ Monsters
 
 <div class="container">
 
-<form action="/search" method="GET">
+<form action="/monster_search/" method="GET">
 
 <div class="form-row">
 
@@ -24,11 +24,11 @@ Monsters
   <div class="col-3">
 
     <select id="selectField" class="form-control form-select" name="search_field">
-      <option value="alignment">Alignment</option>
-      <option value="challenge_rating">Challenge</option>
-      <option value="name" selected="selected">Name</option>
-      <option value="size">Size</option>
-      <option value="type">Type</option>
+      <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %}>Name</option>
+      <option value="alignment" {% if search_field == 'alignment' %}selected="selected"{% endif %}>Alignment</option>
+      <option value="challenge_rating" {% if search_field == 'challenge_rating' %}selected="selected"{% endif %}>Challenge</option>
+      <option value="size" {% if search_field == 'size' %}selected="selected"{% endif %}>Size</option>
+      <option value="type" {% if search_field == 'type' %}selected="selected"{% endif %}>Type</option>
     </select>
 
   </div>
@@ -50,16 +50,16 @@ Monsters
 
       <tr>
         <th>Add</th>
-        <th><a href='?sort=name{{ params }}'>Name</a></th>
-        <th><a href='?sort=type{{ params }}'>Type</a></th>
-        <th><a href='?sort=size{{ params }}'>Size</a></th>
-        <th><a href='?sort=alignment{{ params }}'>Alignment</a></th>
-        <th><a href='?sort=challenge_rating_decimal{{ params }}'>Challenge</a></th>
+        <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
+        <th><a href='?sort=type&search_text={{ search_text }}&search_field={{ search_field }}'>Type</a></th>
+        <th><a href='?sort=size&search_text={{ search_text }}&search_field={{ search_field }}'>Size</a></th>
+        <th><a href='?sort=alignment&search_text={{ search_text }}&search_field={{ search_field }}'>Alignment</a></th>
+        <th><a href='?sort=challenge_rating_decimal&search_text={{ search_text }}&search_field={{ search_field }}'>Challenge</a></th>
       </tr>
 
       {% for monster in monsters %}
         <tr>
-          <td><center><a href='/brawl_add?slug_name={{ monster.slug_name}}'><img width=35 src='{{ url_for('static', filename='images/brawl.png') }}'></a></center></td>
+          <td><center><a href='/brawl_add_monster?slug_name={{ monster.slug_name}}'><img width=35 src='{{ url_for('static', filename='images/brawl.png') }}'></a></center></td>
           <td><a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a></td>
           <td>{{ monster.type|title }}</td>
           <td>{{ monster.size|title }}</td>
