@@ -9,40 +9,39 @@ Brawl
 {% endblock %}
 
 {% block content %}
+
 <div class="container">
+<form action='/brawl_add_character' method='POST'>
+  <div class="form-row">
 
-    <div class="container">
-
-    <form action='/brawl_add_character' method='POST'>
-      <div class="form-row">
-
-        <div class="col-4">
-          <input type="text" name="name" class="form-control" placeholder="Name" required>
-        </div>
-
-        <div class="col-2">
-          <input type="text" name="initiative_modifier" class="form-control" placeholder="Initiative Modifier" required>
-        </div>
-
-        <div class="col-2">
-          <input type="number" name="armor_class" class="form-control" placeholder="Armor Class" required>
-        </div>
-
-        <div class="col-2">
-          <input type="number" name="hit_points" class="form-control" placeholder="Hit Points" required>
-        </div>
-
-        <div class="col-2">
-          <button type="submit" class="btn btn-block btn-outline-info">Add Character</button>
-        </div>
-
-      </div>
-
-    </form>
-
+    <div class="col-4">
+      <input type="text" name="name" class="form-control" placeholder="Name" required>
     </div>
 
-    <hr>
+    <div class="col-2">
+      <input type="text" name="initiative_modifier" class="form-control" placeholder="Initiative Modifier" required>
+    </div>
+
+    <div class="col-2">
+      <input type="number" name="armor_class" class="form-control" placeholder="Armor Class" required>
+    </div>
+
+    <div class="col-2">
+      <input type="number" name="hit_points" class="form-control" placeholder="Hit Points" required>
+    </div>
+
+    <div class="col-2">
+      <button type="submit" class="btn btn-block btn-outline-info">Add Character</button>
+    </div>
+
+  </div>
+
+</form>
+</div>
+
+<hr>
+
+<div class="container">
 
     <div class="container">
       <div class="form-row">
@@ -75,7 +74,7 @@ Brawl
           <th>Armor Class</th>
           <th>Hit Points</th>
           <th>Notes</th>
-          <th></th>
+          <th><center>Edit</center></th>
         </tr>
 
         {% for monster in monsters %}
@@ -101,7 +100,7 @@ Brawl
             <td>{{ monster.notes }}</td>
 
             <td>
-            <button type="button" data-toggle="modal" data-target="#{{ monster.unique_id }}_edit" class="btn btn-outline-success btn-sm">Edit</button>
+            <center><a data-toggle="modal" data-target="#{{ monster.unique_id }}_edit" href='/brawl_add_monster?slug_name={{ monster.slug_name}}'><img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'></a></center>
             </td>
 
           </tr>
