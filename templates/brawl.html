@@ -17,12 +17,36 @@ Brawl
 
     <hr>
 
+    <div class="container">
+
     <form action='/brawl_add_character' method='POST'>
-      <input id="name" type="text" name="name" placeholder=" Character Name" required>
-      <input id="name" type="text" name="initiative_modifier" placeholder=" Initiative Modifier (+2)" required>
-      <input id="name" type="number" name="hit_points" placeholder=" Hit Points" required>
-      <button class="btn btn-success btn-sm" type="submit">Add Character</button>
+      <div class="form-row">
+
+        <div class="col-auto">
+          <input type="text" name="name" class="form-control" placeholder="Name" required>
+        </div>
+
+        <div class="col-auto">
+          <input type="text" name="initiative_modifier" class="form-control" placeholder="Initiative Modifier" required>
+        </div>
+
+        <div class="col-auto">
+          <input type="number" name="armor_class" class="form-control" placeholder="Armor Class" required>
+        </div>
+
+        <div class="col-auto">
+          <input type="number" name="hit_points" class="form-control" placeholder="Hit Points" required>
+        </div>
+
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Add Character</button>
+        </div>
+
+      </div>
+
     </form>
+
+    </div>
 
     <hr>
 
@@ -33,6 +57,8 @@ Brawl
           <th></th>
           <th>Initiative</th>
           <th>Name</th>
+          <th>Init Modifier</th>
+          <th>Armor Class</th>
           <th>Hit Points</th>
           <th>Notes</th>
           <th></th>
@@ -42,15 +68,21 @@ Brawl
           <tr>
             <td><input name="turn" type="radio"></td>
 
-            <td>
-              {{ monster.initiative }}
-            </td>
-
-            <td>{% if monster.slug_name %}<a target='_blank' href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a>{% else %}{{ monster.name }}{% endif %}</td>
+            <td>{{ monster.initiative }}</td>
 
             <td>
-              <span id='{{ monster.unique_id }}_hit_points'>{{ monster.hit_points }}</span>
+              {% if monster.is_character %}
+                {{ monster.name }}
+              {% else %}
+                <a target='_blank' href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a>
+              {% endif %}
             </td>
+
+            <td>{{ monster.dexterity_modifier }}</td>
+
+            <td>{{ monster.armor_class }}</td>
+
+            <td>{{ monster.hit_points }}</td>
 
             <td>{{ monster.notes }}</td>
 
@@ -70,7 +102,7 @@ Brawl
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">{{ monster.name }}</h5>
+        <h3 class="modal-title" id="{{ monster.unique_id }}_label">{{ monster.name }}</h3>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -79,13 +111,16 @@ Brawl
       <form action='/brawl_update_monster' method='POST'>
       <div class="modal-body">
           <p>Initiative</p>
-          <p><input id="name" type="number" value="{{ monster.initiative }}" name="initiative" required></p>
+          <p><input id="name" class="form-control" type="number" value="{{ monster.initiative }}" name="initiative" required></p>
+
+          <p>Armor Class</p>
+          <p><input id="ac" class="form-control" type="text" name="armor_class" value="{{ monster.armor_class }}" required></p>
 
           <p>Hit Points</p>
-          <p><input id="hp" type="text" name="hit_points" value="{{ monster.hit_points }}" required></p>
+          <p><input id="hp" class="form-control" type="text" name="hit_points" value="{{ monster.hit_points }}" required></p>
 
           <p>Notes</p>
-          <p><input id="hp" type="text" name="notes" value="{{ monster.notes }}"></p>
+          <p><input id="notes" class="form-control" type="text" name="notes" value="{{ monster.notes }}"></p>
 
           <input type="hidden" name="unique_id" value="{{ monster.unique_id }}">
       </div>

@@ -223,6 +223,7 @@ def brawl_add_monster():
             'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
             'name': monster['name'],
             'slug_name': monster['slug_name'],
+            'armor_class': monster['armor_class'],
             'hit_points': monster['hit_points'],
             'dexterity_modifier': monster['dexterity_modifier'],
             'is_character': False,
@@ -255,6 +256,7 @@ def brawl_add_character():
     # grab required form elements from POST
     name = request.form['name']
     initiative_modifier = request.form['initiative_modifier']
+    armor_class = int(request.form['armor_class'])
     hit_points = int(request.form['hit_points'])
 
     # load monsters from cookie
@@ -269,6 +271,7 @@ def brawl_add_character():
         'unique_id': '%s_%s' % (slugify(name), len(monsters) + 1),
         'name': name,
         'slug_name': slugify(name),
+        'armor_class': armor_class,
         'hit_points': hit_points,
         'dexterity_modifier': initiative_modifier,
         'is_character': True,
@@ -334,6 +337,7 @@ def brawl_update_monster():
     # grab required form elements from POST
     unique_id = request.form['unique_id']
     initiative = int(request.form['initiative'])
+    armor_class = int(request.form['armor_class'])
     hit_points = request.form['hit_points']
     notes = request.form.get('notes') or ''
 
@@ -363,6 +367,7 @@ def brawl_update_monster():
 
             # set our initative, hit_points, and notes
             monster['initiative'] = int(initiative)
+            monster['armor_class'] = int(armor_class)
             monster['hit_points'] = int(hit_points)
             monster['notes'] = notes
 
