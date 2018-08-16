@@ -1,12 +1,47 @@
 {% extends 'base.html' %}
 
 {% block title %}
-Monsters
+Spells
 {% endblock %}
 
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/monsters.css') }}">
 {% endblock %}
+
+
+{% block searchbox %}
+
+<div class="container">
+
+<form action="/spell_search" method="GET">
+
+<div class="form-row">
+
+  <div class="col-7">
+    <label for="inputName" class="sr-only">Search Text</label>
+    <input id="inputName" class="form-control" type="text" name="search_text" value="{{ search_text }}" placeholder="Search Spell..." required autofocus>
+  </div>
+
+  <div class="col-3">
+
+    <select id="selectField" class="form-control form-select" name="search_field">
+      <option value="name" selected="selected">Name</option>
+      <option value="school">School</option>
+      <option value="level">Level</option>
+    </select>
+
+  </div>
+
+  <div class="col-2">
+    <button class="btn btn-outline-primary" type="submit">Search</button>
+  </div>
+
+</div>
+</div>
+</form>
+<hr>
+{% endblock %}
+
 
 {% block content %}
 

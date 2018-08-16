@@ -46,7 +46,7 @@
         "The babau's innate spellcasting ability is Wisdom (spell save DC 11). The babau can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: darkness, dispel magic, fear, heat metal, levitate",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/heat-metal\">heat metal</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a>"
+          "hyperlinked": "At will: <a href=\"/spell/darkness\">darkness</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/heat-metal\">heat metal</a>, <a href=\"/spell/levitate\">levitate</a>"
         }
       ]
     }

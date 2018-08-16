@@ -46,11 +46,11 @@
         "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
         {
           "raw": "At will: detect magic, jump, levitate, mage armor (self only), speak with dead",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/jump\">jump</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a> (self only), <a target=\"_blank\" href=\"/spell/speak-with-dead\">speak with dead</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/jump\">jump</a>, <a href=\"/spell/levitate\">levitate</a>, <a href=\"/spell/mage-armor\">mage armor</a> (self only), <a href=\"/spell/speak-with-dead\">speak with dead</a>"
         },
         {
           "raw": "1/day each: arcane gate, true seeing",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/arcane-gate\">arcane gate</a>, <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/arcane-gate\">arcane gate</a>, <a href=\"/spell/true-seeing\">true seeing</a>"
         }
       ]
     },
@@ -60,11 +60,11 @@
         "The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
         {
           "raw": "Cantrips (at will): chill touch, eldritch blast, guidance, mage hand, minor illusion, prestidigitation, shocking grasp",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a>, <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/eldritch-blast\">eldritch blast</a>, <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
           "raw": "1st-5th level (3 5th-level slots): armor of Agathys, arms of Hadar, crown of madness, clairvoyance, contact other plane, detect thoughts, dimension door, dissonant whispers, dominate beast, telekinesis, vampiric touch",
-          "hyperlinked": "1st-5th level (3 5th-level slots): <a target=\"_blank\" href=\"/spell/armor-of-agathys\">armor of Agathys</a>, <a target=\"_blank\" href=\"/spell/arms-of-hadar\">arms of Hadar</a>, <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>, <a target=\"_blank\" href=\"/spell/contact-other-plane\">contact other plane</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/dissonant-whispers\">dissonant whispers</a>, <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast</a>, <a target=\"_blank\" href=\"/spell/telekinesis\">telekinesis</a>, <a target=\"_blank\" href=\"/spell/vampiric-touch\">vampiric touch</a>"
+          "hyperlinked": "1st-5th level (3 5th-level slots): <a href=\"/spell/armor-of-agathys\">armor of Agathys</a>, <a href=\"/spell/arms-of-hadar\">arms of Hadar</a>, <a href=\"/spell/crown-of-madness\">crown of madness</a>, <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/dimension-door\">dimension door</a>, <a href=\"/spell/dissonant-whispers\">dissonant whispers</a>, <a href=\"/spell/dominate-beast\">dominate beast</a>, <a href=\"/spell/telekinesis\">telekinesis</a>, <a href=\"/spell/vampiric-touch\">vampiric touch</a>"
         }
       ]
     },

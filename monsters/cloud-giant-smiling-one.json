@@ -46,15 +46,15 @@
         "The giant's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: detect magic, fog cloud, light",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/fog-cloud\">fog cloud</a>, <a href=\"/spell/light\">light</a>"
         },
         {
           "raw": "3/day each: featherfall, fly, misty step, telekinesis",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/featherfall\">featherfall</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/telekinesis\">telekinesis</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/featherfall\">featherfall</a>, <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/telekinesis\">telekinesis</a>"
         },
         {
           "raw": "1/day each: control weather, gaseous form",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/control-weather\">control weather</a>, <a target=\"_blank\" href=\"/spell/gaseous-form\">gaseous form</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/control-weather\">control weather</a>, <a href=\"/spell/gaseous-form\">gaseous form</a>"
         }
       ]
     },
@@ -64,19 +64,19 @@
         "The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:",
         {
           "raw": "Cantrips (at will): minor illusion, prestidigitation, vicious mockery",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/vicious-mockery\">vicious mockery</a>"
         },
         {
           "raw": "1st level (4 slots): cure wounds, disguise self, silent image, Tasha's hideous laughter",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/silent-image\">silent image</a>, <a target=\"_blank\" href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/silent-image\">silent image</a>, <a href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>"
         },
         {
           "raw": "2nd level (3 slots): invisibility, suggestion",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
           "raw": "3rd level (2 slots): major image, tongues",
-          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/major-image\">major image</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/major-image\">major image</a>, <a href=\"/spell/tongues\">tongues</a>"
         }
       ]
     },

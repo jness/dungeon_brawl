@@ -46,39 +46,39 @@
         "The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): fire bolt, light, mage hand, message, true strike",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/true-strike\">true strike</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/true-strike\">true strike</a>"
         },
         {
           "raw": "1st level (4 slots): detect magic*, feather fall, mage armor",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic*</a>, <a target=\"_blank\" href=\"/spell/feather-fall\">feather fall</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic*</a>, <a href=\"/spell/feather-fall\">feather fall</a>, <a href=\"/spell/mage-armor\">mage armor</a>"
         },
         {
           "raw": "2nd level (3 slots): detect thoughts*, locate object*, scorching ray",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts*</a>, <a target=\"_blank\" href=\"/spell/locate-object\">locate object*</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts*</a>, <a href=\"/spell/locate-object\">locate object*</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         },
         {
           "raw": "3rd level (3 slots): clairvoyance*, fly, fireball",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance*</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance*</a>, <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/fireball\">fireball</a>"
         },
         {
           "raw": "4th level (3 slots): arcane eye*, ice storm, stoneskin",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/arcane-eye\">arcane eye*</a>, <a target=\"_blank\" href=\"/spell/ice-storm\">ice storm</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/arcane-eye\">arcane eye*</a>, <a href=\"/spell/ice-storm\">ice storm</a>, <a href=\"/spell/stoneskin\">stoneskin</a>"
         },
         {
           "raw": "5th level (2 slots): Rary's telepathic bond*, seeming*",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/rary-s-telepathic-bond\">Rary's telepathic bond*</a>, <a target=\"_blank\" href=\"/spell/seeming\">seeming*</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/rary-s-telepathic-bond\">Rary's telepathic bond*</a>, <a href=\"/spell/seeming\">seeming*</a>"
         },
         {
           "raw": "6th level (1 slot): mass suggestion, true seeing*",
-          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/mass-suggestion\">mass suggestion</a>, <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing*</a>"
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/mass-suggestion\">mass suggestion</a>, <a href=\"/spell/true-seeing\">true seeing*</a>"
         },
         {
           "raw": "7th level (1 slot): delayed blast fireball, teleport",
-          "hyperlinked": "7th level (1 slot): <a target=\"_blank\" href=\"/spell/delayed-blast-fireball\">delayed blast fireball</a>, <a target=\"_blank\" href=\"/spell/teleport\">teleport</a>"
+          "hyperlinked": "7th level (1 slot): <a href=\"/spell/delayed-blast-fireball\">delayed blast fireball</a>, <a href=\"/spell/teleport\">teleport</a>"
         },
         {
           "raw": "8th level (1 slot): maze",
-          "hyperlinked": "8th level (1 slot): <a target=\"_blank\" href=\"/spell/maze\">maze</a>"
+          "hyperlinked": "8th level (1 slot): <a href=\"/spell/maze\">maze</a>"
         },
         "* Divination spell of 1st level or higher"
       ]

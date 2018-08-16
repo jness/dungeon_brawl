@@ -46,11 +46,11 @@
         "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): fire bolt, mending, prestidigitation",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
           "raw": "1st level (2 slots): burning hands, disguise self, shield",
-          "hyperlinked": "1st level (2 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "1st level (2 slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/shield\">shield</a>"
         }
       ]
     }

@@ -64,19 +64,19 @@
         "The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared: ",
         {
           "raw": "* Cantrips (at will): mage hand",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>"
         },
         {
           "raw": "* 1st level (3 slots): magic missile, shield",
-          "hyperlinked": "* 1st level (3 slots): <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "* 1st level (3 slots): <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "* 2nd level (2 slots): blur, flaming sphere",
-          "hyperlinked": "* 2nd level (2 slots): <a target=\"_blank\" href=\"/spell/blur\">blur</a>, <a target=\"_blank\" href=\"/spell/flaming-sphere\">flaming sphere</a>"
+          "hyperlinked": "* 2nd level (2 slots): <a href=\"/spell/blur\">blur</a>, <a href=\"/spell/flaming-sphere\">flaming sphere</a>"
         },
         {
           "raw": "* 3rd level (1 slot): fireball",
-          "hyperlinked": "* 3rd level (1 slot): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+          "hyperlinked": "* 3rd level (1 slot): <a href=\"/spell/fireball\">fireball</a>"
         }
       ]
     }

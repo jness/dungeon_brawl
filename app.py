@@ -86,7 +86,7 @@ def monsters():
         params = '&search_text=%s&search_field=%s' % (search_text, search_field)
 
         # render our template with results
-        return render_template('monsters.html', params=params, monsters=results)
+        return render_template('monsters.html', params=params, search_text=search_text, monsters=results)
 
     # if we didn't have expected url params we render search template
     return render_template('search.html')
@@ -124,7 +124,7 @@ def spell_search():
         params = '&search_text=%s&search_field=%s' % (search_text, search_field)
 
         # render our template with results
-        return render_template('spells.html', params=params, spells=results)
+        return render_template('spells.html', params=params, search_text=search_text, spells=results)
 
     # if we didn't have expected url params we render search template
     return render_template('spell_search.html')

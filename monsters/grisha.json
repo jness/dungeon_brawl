@@ -46,19 +46,19 @@
         "Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:",
         {
           "raw": "Cantrips (at will): guidance, light, sacred flame, thaumaturgy",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/divine-favor\">divine favor</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>, <a target=\"_blank\" href=\"/spell/protection-from-good\">protection from good</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/divine-favor\">divine favor</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/protection-from-good\">protection from good</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
         },
         {
           "raw": "2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/continual-flame\">continual flame</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/magic-weapon\">magic weapon</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/continual-flame\">continual flame</a>, <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/magic-weapon\">magic weapon</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         },
         {
           "raw": "3rd level (3 slots): bestow curse, dispel magic, spirit guardian",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/spirit-guardian\">spirit guardian</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/spirit-guardian\">spirit guardian</a>"
         }
       ]
     }

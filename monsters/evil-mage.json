@@ -46,15 +46,15 @@
         "The mage is a 4th-level spellcaster that uses Intelligence as its spellcasting ability (spell save DC 13; +5 to hit with spell attacks). The mage knows the following spells from the wizard's spell list: ",
         {
           "raw": "* Cantrips (at will): light, mage hand, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
           "raw": "* 1st Level (4 slots): charm person, magic missile",
-          "hyperlinked": "* 1st Level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+          "hyperlinked": "* 1st Level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/magic-missile\">magic missile</a>"
         },
         {
           "raw": "* 2nd Level (3 slots): hold person, misty step",
-          "hyperlinked": "* 2nd Level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>"
+          "hyperlinked": "* 2nd Level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/misty-step\">misty step</a>"
         }
       ]
     }

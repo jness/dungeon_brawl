@@ -89,27 +89,27 @@
         "The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The vampire has the following wizard spells prepared: ",
         {
           "raw": "* Cantrips (at will): mage hand, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
           "raw": "* 1st level (4 slots): comprehend languages, fog cloud, sleep",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/comprehend-languages\">comprehend languages</a>, <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/comprehend-languages\">comprehend languages</a>, <a href=\"/spell/fog-cloud\">fog cloud</a>, <a href=\"/spell/sleep\">sleep</a>"
         },
         {
           "raw": "* 2nd level (3 slots): detect thoughts, gust of wind, mirror image",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/gust-of-wind\">gust of wind</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/mirror-image\">mirror image</a>"
         },
         {
           "raw": "* 3rd level (3 slots): animate dead, bestow curse, nondetection",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead</a>, <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/nondetection\">nondetection</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/animate-dead\">animate dead</a>, <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/nondetection\">nondetection</a>"
         },
         {
           "raw": "* 4th level (3 slots): blight, greater invisibility",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight</a>, <a target=\"_blank\" href=\"/spell/greater-invisibility\">greater invisibility</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>"
         },
         {
           "raw": "* 5th level (1 slot): dominate person",
-          "hyperlinked": "* 5th level (1 slot): <a target=\"_blank\" href=\"/spell/dominate-person\">dominate person</a>"
+          "hyperlinked": "* 5th level (1 slot): <a href=\"/spell/dominate-person\">dominate person</a>"
         }
       ]
     }

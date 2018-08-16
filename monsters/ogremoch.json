@@ -52,7 +52,7 @@
         "Ogremoch's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: ",
         {
           "raw": "* At will: meld into stone, move earth, wall of stone",
-          "hyperlinked": "* At will: <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>, <a target=\"_blank\" href=\"/spell/move-earth\">move earth</a>, <a target=\"_blank\" href=\"/spell/wall-of-stone\">wall of stone</a>"
+          "hyperlinked": "* At will: <a href=\"/spell/meld-into-stone\">meld into stone</a>, <a href=\"/spell/move-earth\">move earth</a>, <a href=\"/spell/wall-of-stone\">wall of stone</a>"
         }
       ]
     },

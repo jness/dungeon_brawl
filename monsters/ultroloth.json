@@ -46,15 +46,15 @@
         "The ultroloth's innate spellcasting ability is Charisma (spell save DC 17). The ultroloth can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: alter self, clairvoyance, darkness, detect magic, detect thoughts, dispel magic, invisibility (self only), suggestion",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/alter-self\">alter self</a>, <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>, <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a> (self only), <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+          "hyperlinked": "At will: <a href=\"/spell/alter-self\">alter self</a>, <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/darkness\">darkness</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/invisibility\">invisibility</a> (self only), <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
           "raw": "3/day each: dimension door, fear, wall of fire",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/wall-of-fire\">wall of fire</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/dimension-door\">dimension door</a>, <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
         },
         {
           "raw": "1/day each: fire storm, mass suggestion",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/fire-storm\">fire storm</a>, <a target=\"_blank\" href=\"/spell/mass-suggestion\">mass suggestion</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/fire-storm\">fire storm</a>, <a href=\"/spell/mass-suggestion\">mass suggestion</a>"
         }
       ]
     },

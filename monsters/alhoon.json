@@ -52,11 +52,11 @@
         "The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
         {
           "raw": "At will: detect thoughts, levitate",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/levitate\">levitate</a>"
         },
         {
           "raw": "1/day each: dominate monster, plane shift (self only)",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/dominate-monster\">dominate monster</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a> (self only)"
+          "hyperlinked": "1/day each: <a href=\"/spell/dominate-monster\">dominate monster</a>, <a href=\"/spell/plane-shift\">plane shift</a> (self only)"
         }
       ]
     },
@@ -66,31 +66,31 @@
         "The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): chill touch, dancing lights, mage hand, prestidigitation, shocking grasp",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
           "raw": "1st level (4 slots): detect magic, disguise self, magic missile, shield",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "2nd level (3 slots): invisibility, mirror image, scorching ray",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/mirror-image\">mirror image</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         },
         {
           "raw": "3rd level (3 slots): counterspell, fly, lightning bolt",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
           "raw": "4th level (3 slots): confusion, Evard's black tentacles, phantasmal killer",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>, <a target=\"_blank\" href=\"/spell/phantasmal-killer\">phantasmal killer</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>, <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>"
         },
         {
           "raw": "5th level (2 slots): modify memory, wall of force",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/modify-memory\">modify memory</a>, <a target=\"_blank\" href=\"/spell/wall-of-force\">wall of force</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/modify-memory\">modify memory</a>, <a href=\"/spell/wall-of-force\">wall of force</a>"
         },
         {
           "raw": "6th level (1 slot): disintegrate, globe of invulnerability",
-          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/disintegrate\">disintegrate</a>, <a target=\"_blank\" href=\"/spell/globe-of-invulnerability\">globe of invulnerability</a>"
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/disintegrate\">disintegrate</a>, <a href=\"/spell/globe-of-invulnerability\">globe of invulnerability</a>"
         }
       ]
     },

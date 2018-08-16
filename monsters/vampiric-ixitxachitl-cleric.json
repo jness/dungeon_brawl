@@ -46,19 +46,19 @@
         "The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:",
         {
           "raw": "Cantrips (at will): guidance, thaumaturgy",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "1st level (4 slots): charm person, create or destroy water",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/create-or-destroy-water\">create or destroy water</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/create-or-destroy-water\">create or destroy water</a>"
         },
         {
           "raw": "2nd level (3 slots): hold person, silence",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/silence\">silence</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/silence\">silence</a>"
         },
         {
           "raw": "3rd level (2 slots): dispel magic, tongues",
-          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/tongues\">tongues</a>"
         }
       ]
     }

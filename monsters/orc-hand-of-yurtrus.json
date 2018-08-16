@@ -59,11 +59,11 @@
         "Cantrips (at-will): guidance, mending, resistance, thaumaturgy",
         {
           "raw": "1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>, <a target=\"_blank\" href=\"/spell/protection-from-evil-and-good\">protection from evil and good</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/protection-from-evil-and-good\">protection from evil and good</a>"
         },
         {
           "raw": "2nd level (3 slots): blindness/deafness, silence",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/blindness-deafness\">blindness/deafness</a>, <a target=\"_blank\" href=\"/spell/silence\">silence</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/blindness-deafness\">blindness/deafness</a>, <a href=\"/spell/silence\">silence</a>"
         }
       ]
     }

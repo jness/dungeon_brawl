@@ -52,23 +52,23 @@
         "The Stonemelder is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: ",
         {
           "raw": "* Cantrips (at will): acid splash, blade ward, light, mending, mold earth",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/blade-ward\">blade ward</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/mold-earth\">mold earth</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/acid-splash\">acid splash</a>, <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/mold-earth\">mold earth</a>"
         },
         {
           "raw": "* 1st level (4 slots): expeditious retreat, false life, shield",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/false-life\">false life</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a href=\"/spell/false-life\">false life</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "* 2nd level (3 slots): Maximilian's earthen grasp, shatter",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/maximilian-s-earthen-grasp\">Maximilian's earthen grasp</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/maximilian-s-earthen-grasp\">Maximilian's earthen grasp</a>, <a href=\"/spell/shatter\">shatter</a>"
         },
         {
           "raw": "* 3rd level (3 slots): erupting earth, meld into stone",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/erupting-earth\">erupting earth</a>, <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/erupting-earth\">erupting earth</a>, <a href=\"/spell/meld-into-stone\">meld into stone</a>"
         },
         {
           "raw": "* 4th level (1 slot): stoneskin",
-          "hyperlinked": "* 4th level (1 slot): <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+          "hyperlinked": "* 4th level (1 slot): <a href=\"/spell/stoneskin\">stoneskin</a>"
         }
       ]
     }

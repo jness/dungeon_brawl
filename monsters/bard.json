@@ -46,15 +46,15 @@
         "The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
         {
           "raw": "Cantrips (at will): friends, mage hand, vicious mockery",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/vicious-mockery\">vicious mockery</a>"
         },
         {
           "raw": "1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/healing-word\">healing word</a>, <a target=\"_blank\" href=\"/spell/heroism\">heroism</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/heroism\">heroism</a>, <a href=\"/spell/sleep\">sleep</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
         },
         {
           "raw": "2nd level (3 slots): invisibility, shatter",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/shatter\">shatter</a>"
         }
       ]
     },

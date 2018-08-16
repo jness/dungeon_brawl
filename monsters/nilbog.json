@@ -46,7 +46,7 @@
         "The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: mage hand, Tasha's hideous laughter, vicious mockery 1/day: confusion",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery-1-day\">vicious mockery 1/day</a>: confusion"
+          "hyperlinked": "At will: <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>, <a href=\"/spell/vicious-mockery-1-day\">vicious mockery 1/day</a>: confusion"
         }
       ]
     },

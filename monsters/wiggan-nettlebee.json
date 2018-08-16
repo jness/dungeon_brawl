@@ -52,15 +52,15 @@
         "Wiggan is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared: ",
         {
           "raw": "* Cantrips (at will): guidance, light, mending, shillelagh, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/shillelagh\">shillelagh</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/shillelagh\">shillelagh</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "* 1st Level (4 slots): animal friendship, cure wounds, healing word, inflict wounds, speak with animals",
-          "hyperlinked": "* 1st Level (4 slots): <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/healing-word\">healing word</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>, <a target=\"_blank\" href=\"/spell/speak-with-animals\">speak with animals</a>"
+          "hyperlinked": "* 1st Level (4 slots): <a href=\"/spell/animal-friendship\">animal friendship</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/speak-with-animals\">speak with animals</a>"
         },
         {
           "raw": "* 2nd Level (3 slots): barkskin, spike growth, spiritual weapon",
-          "hyperlinked": "* 2nd Level (3 slots): <a target=\"_blank\" href=\"/spell/barkskin\">barkskin</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "hyperlinked": "* 2nd Level (3 slots): <a href=\"/spell/barkskin\">barkskin</a>, <a href=\"/spell/spike-growth\">spike growth</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         }
       ]
     }

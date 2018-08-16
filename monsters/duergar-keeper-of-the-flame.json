@@ -46,11 +46,11 @@
         "The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:",
         {
           "raw": "At will: friends, message",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>"
+          "hyperlinked": "At will: <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/message\">message</a>"
         },
         {
           "raw": "1/day: command",
-          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/command\">command</a>"
+          "hyperlinked": "1/day: <a href=\"/spell/command\">command</a>"
         }
       ]
     },
@@ -60,15 +60,15 @@
         "The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:",
         {
           "raw": "Cantrips (at will): guidance, mending, sacred flame",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>"
         },
         {
           "raw": "1st level (4 slots): bane, inflict wounds, shield of faith",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
         },
         {
           "raw": "2nd level (2 slots): enhance ability, spiritual weapon",
-          "hyperlinked": "2nd level (2 slots): <a target=\"_blank\" href=\"/spell/enhance-ability\">enhance ability</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "hyperlinked": "2nd level (2 slots): <a href=\"/spell/enhance-ability\">enhance ability</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         }
       ]
     },

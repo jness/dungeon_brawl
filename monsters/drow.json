@@ -52,11 +52,11 @@
         "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: dancing lights",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>"
+          "hyperlinked": "At will: <a href=\"/spell/dancing-lights\">dancing lights</a>"
         },
         {
           "raw": "1/day each: darkness, faerie fire",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/faerie-fire\">faerie fire</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/darkness\">darkness</a>, <a href=\"/spell/faerie-fire\">faerie fire</a>"
         }
       ]
     },

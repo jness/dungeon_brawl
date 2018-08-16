@@ -58,15 +58,15 @@
         "The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: detect evil and good, detect magic, stone shape",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/stone-shape\">stone shape</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/stone-shape\">stone shape</a>"
         },
         {
           "raw": "3/day each: passwall, move earth, tongues",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/passwall\">passwall</a>, <a target=\"_blank\" href=\"/spell/move-earth\">move earth</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/passwall\">passwall</a>, <a href=\"/spell/move-earth\">move earth</a>, <a href=\"/spell/tongues\">tongues</a>"
         },
         {
           "raw": "1/day each: conjure elemental (earth elemental only), gaseous form, invisibility, phantasmal killer, plane shift, wall of stone",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/conjure-elemental\">conjure elemental</a> (earth elemental only), <a target=\"_blank\" href=\"/spell/gaseous-form\">gaseous form</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a>, <a target=\"_blank\" href=\"/spell/wall-of-stone\">wall of stone</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/conjure-elemental\">conjure elemental</a> (earth elemental only), <a href=\"/spell/gaseous-form\">gaseous form</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a href=\"/spell/plane-shift\">plane shift</a>, <a href=\"/spell/wall-of-stone\">wall of stone</a>"
         }
       ]
     },

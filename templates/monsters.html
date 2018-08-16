@@ -8,14 +8,48 @@ Monsters
 <link rel="stylesheet" href="{{ url_for('static', filename='css/monsters.css') }}">
 {% endblock %}
 
-{% block content %}
+{% block searchbox %}
 
+<div class="container">
+
+<form action="/search" method="GET">
+
+<div class="form-row">
+
+  <div class="col-7">
+    <label for="inputName" class="sr-only">Search Text</label>
+    <input id="inputName" class="form-control" type="text" name="search_text" value="{{ search_text }}" placeholder="Search Monster..." required autofocus>
+  </div>
+
+  <div class="col-3">
+
+    <select id="selectField" class="form-control form-select" name="search_field">
+      <option value="alignment">Alignment</option>
+      <option value="challenge_rating">Challenge</option>
+      <option value="name" selected="selected">Name</option>
+      <option value="size">Size</option>
+      <option value="type">Type</option>
+    </select>
+
+  </div>
+
+  <div class="col-2">
+    <button class="btn btn-outline-primary" type="submit">Search</button>
+  </div>
+
+</div>
+</div>
+</form>
+<hr>
+{% endblock %}
+
+{% block content %}
 <div class="container">
 
   <table id="table" class="table table-striped" style="width:100%">
 
       <tr>
-        <th>Add to Brawl</th>
+        <th>Add</th>
         <th><a href='?sort=name{{ params }}'>Name</a></th>
         <th><a href='?sort=type{{ params }}'>Type</a></th>
         <th><a href='?sort=size{{ params }}'>Size</a></th>

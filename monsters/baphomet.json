@@ -52,15 +52,15 @@
         "Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: detect magic",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-magic\">detect magic</a>"
         },
         {
           "raw": "3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast</a>, <a target=\"_blank\" href=\"/spell/hunter-s-mark\">hunter's mark</a>, <a target=\"_blank\" href=\"/spell/maze\">maze</a>, <a target=\"_blank\" href=\"/spell/wall-of-stone\">wall of stone</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/dominate-beast\">dominate beast</a>, <a href=\"/spell/hunter-s-mark\">hunter's mark</a>, <a href=\"/spell/maze\">maze</a>, <a href=\"/spell/wall-of-stone\">wall of stone</a>"
         },
         {
           "raw": "1/day each: teleport",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/teleport\">teleport</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/teleport\">teleport</a>"
         }
       ]
     },

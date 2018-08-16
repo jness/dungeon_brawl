@@ -47,7 +47,7 @@
         "* At Will: dancing lights, message, mage hand, thaumaturgy",
         {
           "raw": "* 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians",
-          "hyperlinked": "* 1/day: <a target=\"_blank\" href=\"/spell/augury\">augury</a>, <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/cordon-of-arrows\">cordon of arrows</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/hex\">hex</a>, <a target=\"_blank\" href=\"/spell/prayer-of-healing\">prayer of healing</a>, <a target=\"_blank\" href=\"/spell/speak-with-dead\">speak with dead</a>, <a target=\"_blank\" href=\"/spell/spirit-guardians\">spirit guardians</a>"
+          "hyperlinked": "* 1/day: <a href=\"/spell/augury\">augury</a>, <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/cordon-of-arrows\">cordon of arrows</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/hex\">hex</a>, <a href=\"/spell/prayer-of-healing\">prayer of healing</a>, <a href=\"/spell/speak-with-dead\">speak with dead</a>, <a href=\"/spell/spirit-guardians\">spirit guardians</a>"
         }
       ]
     }

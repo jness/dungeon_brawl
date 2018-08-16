@@ -58,15 +58,15 @@
         "The marid's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: create or destroy water, detect evil and good, detect magic, fog cloud, purify food and drink",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/create-or-destroy-water\">create or destroy water</a>, <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>, <a target=\"_blank\" href=\"/spell/purify-food-and-drink\">purify food and drink</a>"
+          "hyperlinked": "At will: <a href=\"/spell/create-or-destroy-water\">create or destroy water</a>, <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/fog-cloud\">fog cloud</a>, <a href=\"/spell/purify-food-and-drink\">purify food and drink</a>"
         },
         {
           "raw": "3/day each: tongues, water breathing, water walk",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>, <a target=\"_blank\" href=\"/spell/water-breathing\">water breathing</a>, <a target=\"_blank\" href=\"/spell/water-walk\">water walk</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/tongues\">tongues</a>, <a href=\"/spell/water-breathing\">water breathing</a>, <a href=\"/spell/water-walk\">water walk</a>"
         },
         {
           "raw": "1/day each: conjure elemental (water elemental only), control water, gaseous form, invisibility, plane shift",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/conjure-elemental\">conjure elemental</a> (water elemental only), <a target=\"_blank\" href=\"/spell/control-water\">control water</a>, <a target=\"_blank\" href=\"/spell/gaseous-form\">gaseous form</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/conjure-elemental\">conjure elemental</a> (water elemental only), <a href=\"/spell/control-water\">control water</a>, <a href=\"/spell/gaseous-form\">gaseous form</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/plane-shift\">plane shift</a>"
         }
       ]
     },

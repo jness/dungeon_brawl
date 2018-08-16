@@ -46,27 +46,27 @@
         "The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): friends, mage hand, mending, message",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/message\">message</a>"
         },
         {
           "raw": "1st level (4 slots): charm person*, mage armor, magic missile",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/charm-person\">charm person*</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>"
         },
         {
           "raw": "2nd level (3 slots): hold person*, invisibility, suggestion*",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person*</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion*</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person*</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/suggestion\">suggestion*</a>"
         },
         {
           "raw": "3rd level (3 slots): fireball, haste, tongues",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/haste\">haste</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/haste\">haste</a>, <a href=\"/spell/tongues\">tongues</a>"
         },
         {
           "raw": "4th level (3 slots): dominate beast*, stoneskin",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast*</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/dominate-beast\">dominate beast*</a>, <a href=\"/spell/stoneskin\">stoneskin</a>"
         },
         {
           "raw": "5th level (2 slots): hold monster*",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/hold-monster\">hold monster*</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/hold-monster\">hold monster*</a>"
         },
         "*Enchantment spell of 1st level or higher"
       ]
@@ -84,7 +84,7 @@
       "name": "Instinctive Charm (Recharges after the Enchanter Casts an Enchantment Spell of 1st level or Higher).",
       "descriptions": [
         "The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.",
-        ">The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
+        "The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target."
       ]
     }
   ]

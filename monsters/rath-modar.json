@@ -52,31 +52,31 @@
         "Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list: ",
         {
           "raw": "* Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
           "raw": "* 1st level (4 slots): chromatic orb, color spray, mage armor, magic missile",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/color-spray\">color spray</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/chromatic-orb\">chromatic orb</a>, <a href=\"/spell/color-spray\">color spray</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>"
         },
         {
           "raw": "* 2nd level (3 slots): detect thoughts, mirror image, phantasmal force",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/mirror-image\">mirror image</a>, <a href=\"/spell/phantasmal-force\">phantasmal force</a>"
         },
         {
           "raw": "* 3rd level (3 slots): counterspell, fireball, major image",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/major-image\">major image</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/major-image\">major image</a>"
         },
         {
           "raw": "* 4th level (3 slots): confusion, greater invisibility",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/greater-invisibility\">greater invisibility</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>"
         },
         {
           "raw": "* 5th level (2 slots): mislead, seeming",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/mislead\">mislead</a>, <a target=\"_blank\" href=\"/spell/seeming\">seeming</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/mislead\">mislead</a>, <a href=\"/spell/seeming\">seeming</a>"
         },
         {
           "raw": "* 6th level (1 slot): globe of invulnerability",
-          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/globe-of-invulnerability\">globe of invulnerability</a>"
+          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/globe-of-invulnerability\">globe of invulnerability</a>"
         }
       ]
     }

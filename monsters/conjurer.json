@@ -46,27 +46,27 @@
         "The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): acid splash, mage hand, poison spray, prestidigitation",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/acid-splash\">acid splash</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
           "raw": "1st level (4 slots): mage armor, magic missile, unseen servant*",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/unseen-servant\">unseen servant*</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/unseen-servant\">unseen servant*</a>"
         },
         {
           "raw": "2nd level (3 slots): cloud of daggers*, misty step*, web*",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/cloud-of-daggers\">cloud of daggers*</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step*</a>, <a target=\"_blank\" href=\"/spell/web\">web*</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/cloud-of-daggers\">cloud of daggers*</a>, <a href=\"/spell/misty-step\">misty step*</a>, <a href=\"/spell/web\">web*</a>"
         },
         {
           "raw": "3rd level (3 slots): fireball, stinking cloud*",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/stinking-cloud\">stinking cloud*</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/stinking-cloud\">stinking cloud*</a>"
         },
         {
           "raw": "4th level (3 slots): Evard's black tentacles*, stoneskin",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles*</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles*</a>, <a href=\"/spell/stoneskin\">stoneskin</a>"
         },
         {
           "raw": "5th level (2 slots): cloudkill*, conjure elemental*",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill*</a>, <a target=\"_blank\" href=\"/spell/conjure-elemental\">conjure elemental*</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/cloudkill\">cloudkill*</a>, <a href=\"/spell/conjure-elemental\">conjure elemental*</a>"
         },
         "*Conjuration spell of 1st level or higher"
       ]

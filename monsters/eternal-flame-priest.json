@@ -46,19 +46,19 @@
         "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: ",
         {
           "raw": "* Cantrips (at will): control flames, create bonfire, fire bolt, light, minor illusion",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/control-flames\">control flames</a>, <a target=\"_blank\" href=\"/spell/create-bonfire\">create bonfire</a>, <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/control-flames\">control flames</a>, <a href=\"/spell/create-bonfire\">create bonfire</a>, <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>"
         },
         {
           "raw": "* 1st level (4 slots): burning hands, expeditious retreat, mage armor",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a href=\"/spell/mage-armor\">mage armor</a>"
         },
         {
           "raw": "* 2nd level (3 slots): blur, scorching ray",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/blur\">blur</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/blur\">blur</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         },
         {
           "raw": "* 3rd level (2 slots): fireball",
-          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+          "hyperlinked": "* 3rd level (2 slots): <a href=\"/spell/fireball\">fireball</a>"
         }
       ]
     }

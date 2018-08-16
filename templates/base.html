@@ -11,36 +11,32 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
 
-            <li class="nav-item">
-              <a class="nav-link" href="/">Monsters</a>
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Monsters</a>
+        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/search">Monster Search</a>
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/spells">Spells</a>
+        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/spells">Spells</a>
-            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/brawl">Brawl</a>
+        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/spell_search">Spell Search</a>
-            </li>
+      </ul>
+    </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/brawl">Brawl</a>
-            </li>
+  </nav>
 
-          </ul>
-        </div>
-      </nav>
+{% block searchbox %}
+{% endblock %}
 
 {% block content %}{% endblock %}
 </body>

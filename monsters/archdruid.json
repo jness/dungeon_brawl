@@ -46,43 +46,43 @@
         "The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
         {
           "raw": "Cantrips (at will): druidcraft, mending, poison spray, produce flame",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/produce-flame\">produce flame</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/produce-flame\">produce flame</a>"
         },
         {
           "raw": "1st level (4 slots): cure wounds, entangle, faerie fire, speak with animals",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/faerie-fire\">faerie fire</a>, <a target=\"_blank\" href=\"/spell/speak-with-animals\">speak with animals</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/entangle\">entangle</a>, <a href=\"/spell/faerie-fire\">faerie fire</a>, <a href=\"/spell/speak-with-animals\">speak with animals</a>"
         },
         {
           "raw": "2nd level (3 slots): animal messenger, beast sense, hold person",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/animal-messenger\">animal messenger</a>, <a target=\"_blank\" href=\"/spell/beast-sense\">beast sense</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/animal-messenger\">animal messenger</a>, <a href=\"/spell/beast-sense\">beast sense</a>, <a href=\"/spell/hold-person\">hold person</a>"
         },
         {
           "raw": "3rd level (3 slots): conjure animals, meld into stone, water breathing",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/conjure-animals\">conjure animals</a>, <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>, <a target=\"_blank\" href=\"/spell/water-breathing\">water breathing</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/conjure-animals\">conjure animals</a>, <a href=\"/spell/meld-into-stone\">meld into stone</a>, <a href=\"/spell/water-breathing\">water breathing</a>"
         },
         {
           "raw": "4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast</a>, <a target=\"_blank\" href=\"/spell/locate-creature\">locate creature</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>, <a target=\"_blank\" href=\"/spell/wall-of-fire\">wall of fire</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/dominate-beast\">dominate beast</a>, <a href=\"/spell/locate-creature\">locate creature</a>, <a href=\"/spell/stoneskin\">stoneskin</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
         },
         {
           "raw": "5th level (3 slots): commune with nature, mass cure wounds, tree stride",
-          "hyperlinked": "5th level (3 slots): <a target=\"_blank\" href=\"/spell/commune-with-nature\">commune with nature</a>, <a target=\"_blank\" href=\"/spell/mass-cure-wounds\">mass cure wounds</a>, <a target=\"_blank\" href=\"/spell/tree-stride\">tree stride</a>"
+          "hyperlinked": "5th level (3 slots): <a href=\"/spell/commune-with-nature\">commune with nature</a>, <a href=\"/spell/mass-cure-wounds\">mass cure wounds</a>, <a href=\"/spell/tree-stride\">tree stride</a>"
         },
         {
           "raw": "6th level (1 slot): heal, heroes' feast, sunbeam",
-          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/heal\">heal</a>, <a target=\"_blank\" href=\"/spell/heroes-feast\">heroes' feast</a>, <a target=\"_blank\" href=\"/spell/sunbeam\">sunbeam</a>"
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/heal\">heal</a>, <a href=\"/spell/heroes-feast\">heroes' feast</a>, <a href=\"/spell/sunbeam\">sunbeam</a>"
         },
         {
           "raw": "7th level (1 slot): fire storm",
-          "hyperlinked": "7th level (1 slot): <a target=\"_blank\" href=\"/spell/fire-storm\">fire storm</a>"
+          "hyperlinked": "7th level (1 slot): <a href=\"/spell/fire-storm\">fire storm</a>"
         },
         {
           "raw": "8th level (1 slot): animal shapes",
-          "hyperlinked": "8th level (1 slot): <a target=\"_blank\" href=\"/spell/animal-shapes\">animal shapes</a>"
+          "hyperlinked": "8th level (1 slot): <a href=\"/spell/animal-shapes\">animal shapes</a>"
         },
         {
           "raw": "9th level (1 slot): foresight",
-          "hyperlinked": "9th level (1 slot): <a target=\"_blank\" href=\"/spell/foresight\">foresight</a>"
+          "hyperlinked": "9th level (1 slot): <a href=\"/spell/foresight\">foresight</a>"
         }
       ]
     }
@@ -98,8 +98,8 @@
       "name": "Change Shape (2/Day).",
       "descriptions": [
         "The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.",
-        ">While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.",
-        ">The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+        "While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.",
+        "The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
       ]
     }
   ]

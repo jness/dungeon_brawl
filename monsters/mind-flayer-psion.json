@@ -52,27 +52,27 @@
         "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components: ",
         {
           "raw": "At will: guidance, mage hand, vicious mockery, true strike",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>, <a target=\"_blank\" href=\"/spell/true-strike\">true strike</a>"
+          "hyperlinked": "At will: <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/vicious-mockery\">vicious mockery</a>, <a href=\"/spell/true-strike\">true strike</a>"
         },
         {
           "raw": "1st-level (4 slots): charm person, command, comprehend languages, sanctuary",
-          "hyperlinked": "1st-level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/comprehend-languages\">comprehend languages</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>"
+          "hyperlinked": "1st-level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/command\">command</a>, <a href=\"/spell/comprehend-languages\">comprehend languages</a>, <a href=\"/spell/sanctuary\">sanctuary</a>"
         },
         {
           "raw": "2nd level (3 slots): crown of madness, phantasmal force, see invisibility",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>, <a target=\"_blank\" href=\"/spell/see-invisibility\">see invisibility</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/crown-of-madness\">crown of madness</a>, <a href=\"/spell/phantasmal-force\">phantasmal force</a>, <a href=\"/spell/see-invisibility\">see invisibility</a>"
         },
         {
           "raw": "3rd level (3 slots): clairvoyance, fear, meld into stone",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/meld-into-stone\">meld into stone</a>"
         },
         {
           "raw": "4th level (3 slots): confusion, stone shape",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/stone-shape\">stone shape</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/stone-shape\">stone shape</a>"
         },
         {
           "raw": "5th level (2 slots): scrying, telekinesis",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>, <a target=\"_blank\" href=\"/spell/telekinesis\">telekinesis</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/scrying\">scrying</a>, <a href=\"/spell/telekinesis\">telekinesis</a>"
         }
       ]
     }

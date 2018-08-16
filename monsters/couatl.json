@@ -46,15 +46,15 @@
         "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: ",
         {
           "raw": "At will: detect evil and good, detect magic, detect thoughts",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/detect-thoughts\">detect thoughts</a>"
         },
         {
           "raw": "3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/bless\">bless</a>, <a target=\"_blank\" href=\"/spell/create-food-and-water\">create food and water</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/lesser-restoration\">lesser restoration</a>, <a target=\"_blank\" href=\"/spell/protection-from-poison\">protection from poison</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/bless\">bless</a>, <a href=\"/spell/create-food-and-water\">create food and water</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/protection-from-poison\">protection from poison</a>, <a href=\"/spell/sanctuary\">sanctuary</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "1/day each: dream, greater restoration, scrying",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/dream\">dream</a>, <a target=\"_blank\" href=\"/spell/greater-restoration\">greater restoration</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/dream\">dream</a>, <a href=\"/spell/greater-restoration\">greater restoration</a>, <a href=\"/spell/scrying\">scrying</a>"
         }
       ]
     },

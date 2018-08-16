@@ -64,11 +64,11 @@
         "The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: detect thoughts, web",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/web\">web</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/web\">web</a>"
         },
         {
           "raw": "1/day: dominate person",
-          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/dominate-person\">dominate person</a>"
+          "hyperlinked": "1/day: <a href=\"/spell/dominate-person\">dominate person</a>"
         }
       ]
     },

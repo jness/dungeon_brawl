@@ -52,11 +52,11 @@
         "The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components: ",
         {
           "raw": "At will: detect evil and good, druidcraft, pass without trace",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>, <a target=\"_blank\" href=\"/spell/pass-without-trace\">pass without trace</a>"
+          "hyperlinked": "At will: <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/pass-without-trace\">pass without trace</a>"
         },
         {
           "raw": "1/day each: calm emotions, dispel evil and good, entangle",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/calm-emotions\">calm emotions</a>, <a target=\"_blank\" href=\"/spell/dispel-evil-and-good\">dispel evil and good</a>, <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/calm-emotions\">calm emotions</a>, <a href=\"/spell/dispel-evil-and-good\">dispel evil and good</a>, <a href=\"/spell/entangle\">entangle</a>"
         }
       ]
     },

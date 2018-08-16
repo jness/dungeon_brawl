@@ -58,15 +58,15 @@
         "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells: ",
         {
           "raw": "1st level (4 slots): cure wounds, jump",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/jump\">jump</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/jump\">jump</a>"
         },
         {
           "raw": "2nd level (3 slots): barkskin, spike growth",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/barkskin\">barkskin</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/barkskin\">barkskin</a>, <a href=\"/spell/spike-growth\">spike growth</a>"
         },
         {
           "raw": "3rd level (2 slots): plant growth",
-          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>"
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/plant-growth\">plant growth</a>"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "name": "Variant: Grung Poison.",
       "descriptions": [
         "Grung poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.",
-        ">A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.",
+        "A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.",
         "Red. The poisoned creature must use its action to eat if food is within reach."
       ]
     }

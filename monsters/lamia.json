@@ -46,15 +46,15 @@
         "The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.",
         {
           "raw": "At will: disguise self (any humanoid form), major image",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a> (any humanoid form), <a target=\"_blank\" href=\"/spell/major-image\">major image</a>"
+          "hyperlinked": "At will: <a href=\"/spell/disguise-self\">disguise self</a> (any humanoid form), <a href=\"/spell/major-image\">major image</a>"
         },
         {
           "raw": "3/day each: charm person, mirror image, scrying, suggestion",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/mirror-image\">mirror image</a>, <a href=\"/spell/scrying\">scrying</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
           "raw": "1/day: geas",
-          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/geas\">geas</a>"
+          "hyperlinked": "1/day: <a href=\"/spell/geas\">geas</a>"
         }
       ]
     }

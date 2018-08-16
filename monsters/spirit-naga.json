@@ -52,27 +52,27 @@
         "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared: ",
         {
           "raw": "* Cantrips (at will): mage hand, minor illusion, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
           "raw": "* 1st level (4 slots): charm person, detect magic, sleep",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/sleep\">sleep</a>"
         },
         {
           "raw": "* 2nd level (3 slots): detect thoughts, hold person",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/hold-person\">hold person</a>"
         },
         {
           "raw": "* 3rd level (3 slots): lightning bolt, water breathing",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>, <a target=\"_blank\" href=\"/spell/water-breathing\">water breathing</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/lightning-bolt\">lightning bolt</a>, <a href=\"/spell/water-breathing\">water breathing</a>"
         },
         {
           "raw": "* 4th level (3 slots): blight, dimension door",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/dimension-door\">dimension door</a>"
         },
         {
           "raw": "* 5th level (2 slots): dominate person",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/dominate-person\">dominate person</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/dominate-person\">dominate person</a>"
         }
       ]
     }

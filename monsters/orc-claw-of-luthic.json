@@ -58,19 +58,19 @@
         "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:",
         {
           "raw": "Cantrips (at will): guidance, mending, resistance, thaumaturgy",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/resistance\">resistance</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "1st level (4 slots): bane, cure wounds, guiding bolt",
-          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/guiding-bolt\">guiding bolt</a>"
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/guiding-bolt\">guiding bolt</a>"
         },
         {
           "raw": "2nd level (3 slots): augury, warding bond",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/augury\">augury</a>, <a target=\"_blank\" href=\"/spell/warding-bond\">warding bond</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/augury\">augury</a>, <a href=\"/spell/warding-bond\">warding bond</a>"
         },
         {
           "raw": "3rd level (2 slots): bestow curse, create food and water",
-          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/create-food-and-water\">create food and water</a>"
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/create-food-and-water\">create food and water</a>"
         }
       ]
     }

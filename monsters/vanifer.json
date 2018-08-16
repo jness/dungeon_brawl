@@ -58,27 +58,27 @@
         "Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells: ",
         {
           "raw": "* Cantrips (at will): chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/produce-flame\">produce flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/produce-flame\">produce flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "* 1st level (4 slots): burning hands, chromatic orb, hellish rebuke, shield",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/hellish-rebuke\">hellish rebuke</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/chromatic-orb\">chromatic orb</a>, <a href=\"/spell/hellish-rebuke\">hellish rebuke</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "* 2nd level (3 slots): darkness, detect thoughts, misty step, scorching ray",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/darkness\">darkness</a>, <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         },
         {
           "raw": "* 3rd level (3 slots): counterspell, fireball, hypnotic pattern",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>"
         },
         {
           "raw": "* 4th level (3 slots): wall of fire",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/wall-of-fire\">wall of fire</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/wall-of-fire\">wall of fire</a>"
         },
         {
           "raw": "* 5th level (2 slots): dominate person",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/dominate-person\">dominate person</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/dominate-person\">dominate person</a>"
         }
       ]
     }

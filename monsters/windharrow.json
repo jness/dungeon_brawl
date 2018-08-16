@@ -52,23 +52,23 @@
         "Windharrow is an 8th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). Windharrow knows the following bard spells: ",
         {
           "raw": "* Cantrips (at will): friends, prestidigitation, vicious mockery",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/vicious-mockery\">vicious mockery</a>"
         },
         {
           "raw": "* 1st level (4 slots): disguise self, dissonant whispers, thunderwave",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/dissonant-whispers\">dissonant whispers</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/dissonant-whispers\">dissonant whispers</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
         },
         {
           "raw": "* 2nd level (3 slots): invisibility, shatter, silence",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter</a>, <a target=\"_blank\" href=\"/spell/silence\">silence</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/shatter\">shatter</a>, <a href=\"/spell/silence\">silence</a>"
         },
         {
           "raw": "* 3rd level (3 slots): nondetection, sending, tongues",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/nondetection\">nondetection</a>, <a target=\"_blank\" href=\"/spell/sending\">sending</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/nondetection\">nondetection</a>, <a href=\"/spell/sending\">sending</a>, <a href=\"/spell/tongues\">tongues</a>"
         },
         {
           "raw": "* 4th level (2 slots): confusion, dimension door",
-          "hyperlinked": "* 4th level (2 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>"
+          "hyperlinked": "* 4th level (2 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/dimension-door\">dimension door</a>"
         }
       ]
     }

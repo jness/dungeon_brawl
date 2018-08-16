@@ -46,31 +46,31 @@
         "The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:",
         {
           "raw": "Cantrips (at will): chill touch, dancing lights, mage hand, mending",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/mending\">mending</a>"
         },
         {
           "raw": "1st level (4 slots):false life*, mage armor, ray of sickness*",
-          "hyperlinked": "1st level (4 slots):<a target=\"_blank\" href=\"/spell/false-life\">false life*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness*</a>"
+          "hyperlinked": "1st level (4 slots):<a href=\"/spell/false-life\">false life*</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness*</a>"
         },
         {
           "raw": "2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web",
-          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/blindness-deafness\">blindness/deafness*</a>, <a target=\"_blank\" href=\"/spell/ray-of-enfeeblement\">ray of enfeeblement*</a>, <a target=\"_blank\" href=\"/spell/web\">web</a>"
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/blindness-deafness\">blindness/deafness*</a>, <a href=\"/spell/ray-of-enfeeblement\">ray of enfeeblement*</a>, <a href=\"/spell/web\">web</a>"
         },
         {
           "raw": "3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*",
-          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead*</a>, <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse*</a>, <a target=\"_blank\" href=\"/spell/vampiric-touch\">vampiric touch*</a>"
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/animate-dead\">animate dead*</a>, <a href=\"/spell/bestow-curse\">bestow curse*</a>, <a href=\"/spell/vampiric-touch\">vampiric touch*</a>"
         },
         {
           "raw": "4th level (3 slots): blight*, dimension door, stoneskin",
-          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight*</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/blight\">blight*</a>, <a href=\"/spell/dimension-door\">dimension door</a>, <a href=\"/spell/stoneskin\">stoneskin</a>"
         },
         {
           "raw": "5th level (2 slots): Bigby's hand, cloudkill",
-          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/bigby-s-hand\">Bigby's hand</a>, <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill</a>"
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/bigby-s-hand\">Bigby's hand</a>, <a href=\"/spell/cloudkill\">cloudkill</a>"
         },
         {
           "raw": "6th level (1 slot): circle of death*",
-          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/circle-of-death\">circle of death*</a>"
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/circle-of-death\">circle of death*</a>"
         },
         "*Necromancy spell of 1st level or higher"
       ]

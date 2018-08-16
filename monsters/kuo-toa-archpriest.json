@@ -70,27 +70,27 @@
         "The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: ",
         {
           "raw": "* Cantrips (at will): guidance, sacred flame, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "* 1st level (4 slots): detect magic, sanctuary, shield of faith",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/sanctuary\">sanctuary</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
         },
         {
           "raw": "* 2nd level (3 slots): hold person, spiritual weapon",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         },
         {
           "raw": "* 3rd level (3 slots): spirit guardians, tongues",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/spirit-guardians\">spirit guardians</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/spirit-guardians\">spirit guardians</a>, <a href=\"/spell/tongues\">tongues</a>"
         },
         {
           "raw": "* 4th level (3 slots): control water, divination",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/control-water\">control water</a>, <a target=\"_blank\" href=\"/spell/divination\">divination</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/control-water\">control water</a>, <a href=\"/spell/divination\">divination</a>"
         },
         {
           "raw": "* 5th level (2 slots): mass cure wounds, scrying",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/mass-cure-wounds\">mass cure wounds</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/mass-cure-wounds\">mass cure wounds</a>, <a href=\"/spell/scrying\">scrying</a>"
         }
       ]
     }

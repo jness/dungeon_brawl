@@ -58,31 +58,31 @@
         "The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared: ",
         {
           "raw": "* Cantrips (at will): sacred flame, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
           "raw": "* 1st level (4 slots): command, guiding bolt, shield of faith",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/guiding-bolt\">guiding bolt</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/command\">command</a>, <a href=\"/spell/guiding-bolt\">guiding bolt</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
         },
         {
           "raw": "* 2nd level (3 slots): hold person, silence, spiritual weapon",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/silence\">silence</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/silence\">silence</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         },
         {
           "raw": "* 3rd level (3 slots): animate dead, dispel magic",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/animate-dead\">animate dead</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>"
         },
         {
           "raw": "* 4th level (3 slots): divination, guardian of faith",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/divination\">divination</a>, <a target=\"_blank\" href=\"/spell/guardian-of-faith\">guardian of faith</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/divination\">divination</a>, <a href=\"/spell/guardian-of-faith\">guardian of faith</a>"
         },
         {
           "raw": "* 5th level (2 slots): contagion, insect plague",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/contagion\">contagion</a>, <a target=\"_blank\" href=\"/spell/insect-plague\">insect plague</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/contagion\">contagion</a>, <a href=\"/spell/insect-plague\">insect plague</a>"
         },
         {
           "raw": "* 6th level (1 slot): harm",
-          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/harm\">harm</a>"
+          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/harm\">harm</a>"
         }
       ]
     }

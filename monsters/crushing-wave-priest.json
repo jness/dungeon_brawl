@@ -46,19 +46,19 @@
         "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: ",
         {
           "raw": "* Cantrips (at will): chill touch, mage hand, minor illusion, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
           "raw": "* 1st level (4 slots): expeditious retreat, ice knife, magic missile, shield",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/ice-knife\">ice knife</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a href=\"/spell/ice-knife\">ice knife</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
           "raw": "* 2nd level (3 slots): blur, hold person",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/blur\">blur</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/blur\">blur</a>, <a href=\"/spell/hold-person\">hold person</a>"
         },
         {
           "raw": "* 3rd level (2 slots): sleet storm",
-          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/sleet-storm\">sleet storm</a>"
+          "hyperlinked": "* 3rd level (2 slots): <a href=\"/spell/sleet-storm\">sleet storm</a>"
         }
       ]
     }

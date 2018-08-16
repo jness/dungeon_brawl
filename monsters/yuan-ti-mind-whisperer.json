@@ -52,11 +52,11 @@
         "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: animal friendship (snakes only)",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a> (snakes only)"
+          "hyperlinked": "At will: <a href=\"/spell/animal-friendship\">animal friendship</a> (snakes only)"
         },
         {
           "raw": "3/day: suggestion",
-          "hyperlinked": "3/day: <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+          "hyperlinked": "3/day: <a href=\"/spell/suggestion\">suggestion</a>"
         }
       ]
     },
@@ -78,11 +78,11 @@
         "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
         {
           "raw": "Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll),friends, message, minor illusion, poison spray, prestidigitation",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a> (range 300 ft., <a target=\"_blank\" href=\"/spell/3-bonus-to-each-damage-roll-friends\">+3 bonus to each damage roll),friends</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/eldritch-blast\">eldritch blast</a> (range 300 ft., <a href=\"/spell/3-bonus-to-each-damage-roll-friends\">+3 bonus to each damage roll),friends</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
           "raw": "1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script",
-          "hyperlinked": "1st-3rd level (2 3rd-level slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>, <a target=\"_blank\" href=\"/spell/illusory-script\">illusory script</a>"
+          "hyperlinked": "1st-3rd level (2 3rd-level slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/crown-of-madness\">crown of madness</a>, <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>, <a href=\"/spell/illusory-script\">illusory script</a>"
         }
       ]
     },

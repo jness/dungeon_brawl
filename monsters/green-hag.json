@@ -52,7 +52,7 @@
         "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components: ",
         {
           "raw": "At will: dancing lights, minor illusion, vicious mockery",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+          "hyperlinked": "At will: <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/vicious-mockery\">vicious mockery</a>"
         }
       ]
     },
@@ -75,27 +75,27 @@
         "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: ",
         {
           "raw": "* 1st level (4 slots): identify, ray of sickness",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/identify\">identify</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
         },
         {
           "raw": "* 2nd level (3 slots): hold person, locate object",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/locate-object\">locate object</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/locate-object\">locate object</a>"
         },
         {
           "raw": "* 3rd level (3 slots): bestow curse, counterspell, lightning bolt",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
           "raw": "* 4th level (3 slots): phantasmal killer, polymorph",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a target=\"_blank\" href=\"/spell/polymorph\">polymorph</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a href=\"/spell/polymorph\">polymorph</a>"
         },
         {
           "raw": "* 5th level (2 slots): contact other plane, scrying",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/contact-other-plane\">contact other plane</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/scrying\">scrying</a>"
         },
         {
           "raw": "* 6th level (1 slot): eye bite",
-          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/eye-bite\">eye bite</a>"
+          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/eye-bite\">eye bite</a>"
         },
         "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
       ]

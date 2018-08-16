@@ -58,15 +58,15 @@
         "The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: hold person,* ray of frost",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/hold-person-ray-of-frost\">hold person,* ray of frost</a>"
+          "hyperlinked": "At will: <a href=\"/spell/hold-person-ray-of-frost\">hold person,* ray of frost</a>"
         },
         {
           "raw": "3/day each: cone of cold,* ice storm*, wall of ice*",
-          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/cone-of-cold-ice-storm\">cone of cold,* ice storm*</a>, <a target=\"_blank\" href=\"/spell/wall-of-ice\">wall of ice*</a>"
+          "hyperlinked": "3/day each: <a href=\"/spell/cone-of-cold-ice-storm\">cone of cold,* ice storm*</a>, <a href=\"/spell/wall-of-ice\">wall of ice*</a>"
         },
         {
           "raw": "1/day each: control weather",
-          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/control-weather\">control weather</a>"
+          "hyperlinked": "1/day each: <a href=\"/spell/control-weather\">control weather</a>"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "name": "Hag Coven.",
       "descriptions": [
         "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
-        ">A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+        "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
       ]
     },
     {
@@ -83,36 +83,36 @@
         "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: ",
         {
           "raw": "* 1st level (4 slots): identify, ray of sickness",
-          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/identify\">identify</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
         },
         {
           "raw": "* 2nd level (3 slots): hold person, locate object",
-          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/locate-object\">locate object</a>"
+          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/locate-object\">locate object</a>"
         },
         {
           "raw": "* 3rd level (3 slots): bestow curse, counterspell, lightning bolt",
-          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
           "raw": "* 4th level (3 slots): phantasmal killer, polymorph",
-          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a target=\"_blank\" href=\"/spell/polymorph\">polymorph</a>"
+          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a href=\"/spell/polymorph\">polymorph</a>"
         },
         {
           "raw": "* 5th level (2 slots): contact other plane, scrying",
-          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/contact-other-plane\">contact other plane</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/scrying\">scrying</a>"
         },
         {
           "raw": "* 6th level (1 slot): eyebite",
-          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/eyebite\">eyebite</a>"
+          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/eyebite\">eyebite</a>"
         },
-        ">For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
+        "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
       ]
     },
     {
       "name": "Hag Eye (Coven Only).",
       "descriptions": [
         "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.",
-        ">A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+        "A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
       ]
     },
     {

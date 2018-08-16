@@ -46,7 +46,7 @@
         "The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:",
         {
           "raw": "At will: detect magic, mage armor (self only)",
-          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a> (self only)"
+          "hyperlinked": "At will: <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/mage-armor\">mage armor</a> (self only)"
         }
       ]
     },
@@ -56,11 +56,11 @@
         "The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC ll, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
         {
           "raw": "Cantrips (at will): eldritch blast, mage hand, minor illusion, poison spray, prestidigitation",
-          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/eldritch-blast\">eldritch blast</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
           "raw": "1st-2nd level (2 2nd-level slots): burning hands, expeditious retreat, invisibility, scorching ray",
-          "hyperlinked": "1st-2nd level (2 2nd-level slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+          "hyperlinked": "1st-2nd level (2 2nd-level slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         }
       ]
     },
