@@ -62,10 +62,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared: ",
-        "* Cantrips (at will): mage hand",
-        "* 1st level (3 slots): magic missile, shield",
-        "* 2nd level (2 slots): blur, flaming sphere",
-        "* 3rd level (1 slot): fireball"
+        {
+          "raw": "* Cantrips (at will): mage hand",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>"
+        },
+        {
+          "raw": "* 1st level (3 slots): magic missile, shield",
+          "hyperlinked": "* 1st level (3 slots): <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+        },
+        {
+          "raw": "* 2nd level (2 slots): blur, flaming sphere",
+          "hyperlinked": "* 2nd level (2 slots): <a target=\"_blank\" href=\"/spell/blur\">blur</a>, <a target=\"_blank\" href=\"/spell/flaming-sphere\">flaming sphere</a>"
+        },
+        {
+          "raw": "* 3rd level (1 slot): fireball",
+          "hyperlinked": "* 3rd level (1 slot): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+        }
       ]
     }
   ],

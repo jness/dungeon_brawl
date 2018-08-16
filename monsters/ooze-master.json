@@ -69,12 +69,30 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The Ooze Master is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:",
-        "Cantrips (at will): acid splash, friends, mage hand, poison spray",
-        "1st level (4 slots): charm person, detect magic, magic missile, ray of sickness",
-        "2nd level (3 slots): detect thoughts, Melf's acid arrow, suggestion",
-        "3rd level (3 slots):fear, slow, stinking cloud",
-        "4th level (3 slots): confusion, Evard's evard's black tentacles",
-        "5th level (1 slot): cloudkill."
+        {
+          "raw": "Cantrips (at will): acid splash, friends, mage hand, poison spray",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>"
+        },
+        {
+          "raw": "1st level (4 slots): charm person, detect magic, magic missile, ray of sickness",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): detect thoughts, Melf's acid arrow, suggestion",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/melf-s-acid-arrow\">Melf's acid arrow</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "3rd level (3 slots):fear, slow, stinking cloud",
+          "hyperlinked": "3rd level (3 slots):<a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/slow\">slow</a>, <a target=\"_blank\" href=\"/spell/stinking-cloud\">stinking cloud</a>"
+        },
+        {
+          "raw": "4th level (3 slots): confusion, Evard's evard's black tentacles",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/evard-s-evard-s-black-tentacles\">Evard's evard's black tentacles</a>"
+        },
+        {
+          "raw": "5th level (1 slot): cloudkill.",
+          "hyperlinked": "5th level (1 slot): <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill.</a>"
+        }
       ]
     },
     {

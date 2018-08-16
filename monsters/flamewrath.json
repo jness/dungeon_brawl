@@ -44,11 +44,26 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells: ",
-        "* Cantrips (at will): control flames, fire bolt, friends, light, minor illusion",
-        "* 1st level (4 slots): burning hands, color spray, mage armor",
-        "* 2nd level (3 slots): scorching ray, suggestion",
-        "* 3rd level (3 slots): fireball, hypnotic pattern",
-        "* 4th level (1 slot): fire shield (see Wreathed in Flame)"
+        {
+          "raw": "* Cantrips (at will): control flames, fire bolt, friends, light, minor illusion",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/control-flames\">control flames</a>, <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): burning hands, color spray, mage armor",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/color-spray\">color spray</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): scorching ray, suggestion",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): fireball, hypnotic pattern",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>"
+        },
+        {
+          "raw": "* 4th level (1 slot): fire shield (see Wreathed in Flame)",
+          "hyperlinked": "* 4th level (1 slot): <a target=\"_blank\" href=\"/spell/fire-shield\">fire shield</a> (see Wreathed in Flame)"
+        }
       ]
     },
     {

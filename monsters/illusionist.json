@@ -44,11 +44,26 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
-        "Cantrips (at will): dancing lights, mage hand, minor illusion, poison spray",
-        "1st level (4 slots): color spray*, disguise self*, mage armor, magic missile",
-        "2nd level (3 slots): invisibility*, mirror image*, phantasmal force",
-        "3rd level (3 slots): major image*, phantom steed*",
-        "4th level (1 slot): phantasmal killer*",
+        {
+          "raw": "Cantrips (at will): dancing lights, mage hand, minor illusion, poison spray",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>"
+        },
+        {
+          "raw": "1st level (4 slots): color spray*, disguise self*, mage armor, magic missile",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/color-spray\">color spray*</a>, <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): invisibility*, mirror image*, phantasmal force",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility*</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image*</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): major image*, phantom steed*",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/major-image\">major image*</a>, <a target=\"_blank\" href=\"/spell/phantom-steed\">phantom steed*</a>"
+        },
+        {
+          "raw": "4th level (1 slot): phantasmal killer*",
+          "hyperlinked": "4th level (1 slot): <a target=\"_blank\" href=\"/spell/phantasmal-killer\">phantasmal killer*</a>"
+        },
         "*Illusion spell of 1st level or higher"
       ]
     },

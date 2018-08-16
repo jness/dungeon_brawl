@@ -56,9 +56,18 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells: ",
-        "1st level (4 slots): cure wounds, jump",
-        "2nd level (3 slots): barkskin, spike growth",
-        "3rd level (2 slots): plant growth"
+        {
+          "raw": "1st level (4 slots): cure wounds, jump",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/jump\">jump</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): barkskin, spike growth",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/barkskin\">barkskin</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>"
+        },
+        {
+          "raw": "3rd level (2 slots): plant growth",
+          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>"
+        }
       ]
     },
     {

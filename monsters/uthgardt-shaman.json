@@ -45,7 +45,10 @@
       "descriptions": [
         "The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). ",
         "* At Will: dancing lights, message, mage hand, thaumaturgy",
-        "* 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians"
+        {
+          "raw": "* 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians",
+          "hyperlinked": "* 1/day: <a target=\"_blank\" href=\"/spell/augury\">augury</a>, <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/cordon-of-arrows\">cordon of arrows</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/hex\">hex</a>, <a target=\"_blank\" href=\"/spell/prayer-of-healing\">prayer of healing</a>, <a target=\"_blank\" href=\"/spell/speak-with-dead\">speak with dead</a>, <a target=\"_blank\" href=\"/spell/spirit-guardians\">spirit guardians</a>"
+        }
       ]
     }
   ],

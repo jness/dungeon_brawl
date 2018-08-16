@@ -50,13 +50,34 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
-        "Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp",
-        "1st level (4 slots): detect magic, identify, shield, witch bolt",
-        "2nd level (3 slots): darkness, detect thoughts, shatter",
-        "3rd level (3 slots): dispel magic, lightning bolt, sending",
-        "4th level (3 slots): dimension door, Evard's black tentacles",
-        "5th level (3 slots): geas, scrying",
-        "6th level (1 slot): chain lightning"
+        {
+          "raw": "Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "1st level (4 slots): detect magic, identify, shield, witch bolt",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/identify\">identify</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/witch-bolt\">witch bolt</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): darkness, detect thoughts, shatter",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): dispel magic, lightning bolt, sending",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>, <a target=\"_blank\" href=\"/spell/sending\">sending</a>"
+        },
+        {
+          "raw": "4th level (3 slots): dimension door, Evard's black tentacles",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>"
+        },
+        {
+          "raw": "5th level (3 slots): geas, scrying",
+          "hyperlinked": "5th level (3 slots): <a target=\"_blank\" href=\"/spell/geas\">geas</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+        },
+        {
+          "raw": "6th level (1 slot): chain lightning",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/chain-lightning\">chain lightning</a>"
+        }
       ]
     }
   ],

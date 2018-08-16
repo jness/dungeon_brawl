@@ -44,7 +44,10 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The nycaloth's innate spellcasting ability is Charisma. The nycaloth can innately cast the following spells, requiring no material components: ",
-        "At will: darkness, detect magic, dispel magic, invisibility (self only), mirror image"
+        {
+          "raw": "At will: darkness, detect magic, dispel magic, invisibility (self only), mirror image",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a> (self only), <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>"
+        }
       ]
     },
     {

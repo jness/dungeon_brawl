@@ -50,20 +50,44 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components: ",
-        "* 1/day: pass without trace"
+        {
+          "raw": "* 1/day: pass without trace",
+          "hyperlinked": "* 1/day: <a target=\"_blank\" href=\"/spell/pass-without-trace\">pass without trace</a>"
+        }
       ]
     },
     {
       "name": "Spellcasting.",
       "descriptions": [
         "Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells: ",
-        "* Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth",
-        "* 1st level (4 slots): chromatic orb, mage armor, magic missile",
-        "* 2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion",
-        "* 3rd level (3 slots): counterspell, erupting earth",
-        "* 4th level (3 slots): polymorph, stoneskin",
-        "* 5th level (2 slots): wall of stone",
-        "* 6th level (1 slot): move earth"
+        {
+          "raw": "* Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/blade-ward\">blade ward</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/mold-earth\">mold earth</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): chromatic orb, mage armor, magic missile",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/maximilian-s-earthen-grasp\">Maximilian's earthen grasp</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): counterspell, erupting earth",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/erupting-earth\">erupting earth</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): polymorph, stoneskin",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/polymorph\">polymorph</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): wall of stone",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/wall-of-stone\">wall of stone</a>"
+        },
+        {
+          "raw": "* 6th level (1 slot): move earth",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/move-earth\">move earth</a>"
+        }
       ]
     }
   ],

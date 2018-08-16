@@ -50,13 +50,34 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared: ",
-        "* Cantrips (at will): mending, sacred flame, thaumaturgy",
-        "* 1st level (4 slots): command, cure wounds, shield of faith",
-        "* 2nd level (3 slots): calm emotions, hold person",
-        "* 3rd level (3 slots): bestow curse, clairvoyance",
-        "* 4th level (3 slots): banishment, freedom of movement",
-        "* 5th level (2 slots): flame strike, geas",
-        "* 6th level (1 slot): true seeing"
+        {
+          "raw": "* Cantrips (at will): mending, sacred flame, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): command, cure wounds, shield of faith",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): calm emotions, hold person",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/calm-emotions\">calm emotions</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): bestow curse, clairvoyance",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>, <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): banishment, freedom of movement",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/banishment\">banishment</a>, <a target=\"_blank\" href=\"/spell/freedom-of-movement\">freedom of movement</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): flame strike, geas",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/flame-strike\">flame strike</a>, <a target=\"_blank\" href=\"/spell/geas\">geas</a>"
+        },
+        {
+          "raw": "* 6th level (1 slot): true seeing",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing</a>"
+        }
       ]
     }
   ],

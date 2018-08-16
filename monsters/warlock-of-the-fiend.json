@@ -44,16 +44,28 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
-        "At will: alter self, false life, levitate (self only), mage armor (self only), silent image",
-        "1/day each: feeblemind, finger of death, plane shift"
+        {
+          "raw": "At will: alter self, false life, levitate (self only), mage armor (self only), silent image",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/alter-self\">alter self</a>, <a target=\"_blank\" href=\"/spell/false-life\">false life</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a> (self only), <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a> (self only), <a target=\"_blank\" href=\"/spell/silent-image\">silent image</a>"
+        },
+        {
+          "raw": "1/day each: feeblemind, finger of death, plane shift",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/feeblemind\">feeblemind</a>, <a target=\"_blank\" href=\"/spell/finger-of-death\">finger of death</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a>"
+        }
       ]
     },
     {
       "name": "Spellcasting.",
       "descriptions": [
         "The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-        "Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
-        "1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire"
+        {
+          "raw": "Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a>, <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire",
+          "hyperlinked": "1st-5th level (4 5th-level slots): <a target=\"_blank\" href=\"/spell/banishment\">banishment</a>, <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/flame-strike\">flame strike</a>, <a target=\"_blank\" href=\"/spell/hellish-rebuke\">hellish rebuke</a>, <a target=\"_blank\" href=\"/spell/magic-circle\">magic circle</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>, <a target=\"_blank\" href=\"/spell/stinking-cloud\">stinking cloud</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>, <a target=\"_blank\" href=\"/spell/wall-of-fire\">wall of fire</a>"
+        }
       ]
     },
     {

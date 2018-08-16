@@ -44,10 +44,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list: ",
-        "* Cantrips (at will): light, sacred flame, thaumaturgy",
-        "* 1st level (4 slots): command, cure wounds, healing word, sanctuary",
-        "* 2nd level (3 slots): calm emotions, hold person, spiritual weapon",
-        "* 3rd level (2 slots): mass healing word, spirit guardians"
+        {
+          "raw": "* Cantrips (at will): light, sacred flame, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): command, cure wounds, healing word, sanctuary",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/healing-word\">healing word</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): calm emotions, hold person, spiritual weapon",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/calm-emotions\">calm emotions</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+        },
+        {
+          "raw": "* 3rd level (2 slots): mass healing word, spirit guardians",
+          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/mass-healing-word\">mass healing word</a>, <a target=\"_blank\" href=\"/spell/spirit-guardians\">spirit guardians</a>"
+        }
       ]
     }
   ],

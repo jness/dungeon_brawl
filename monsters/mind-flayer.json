@@ -50,8 +50,14 @@
       "name": "Innate Spellcasting (Psionics).",
       "descriptions": [
         "The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components: ",
-        "At will: detect thoughts, levitate",
-        "1/day each: dominate monster, plane shift (self only)"
+        {
+          "raw": "At will: detect thoughts, levitate",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a>"
+        },
+        {
+          "raw": "1/day each: dominate monster, plane shift (self only)",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/dominate-monster\">dominate monster</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a> (self only)"
+        }
       ]
     }
   ],

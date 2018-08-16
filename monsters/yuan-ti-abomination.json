@@ -50,9 +50,18 @@
       "name": "Innate Spellcasting (Abomination Form Only).",
       "descriptions": [
         "The yuan_ti's innate spellcasting ability is Charisma (spell save DC 15). The yuan_ti can innately cast the following spells, requiring no material components: ",
-        "At will: animal friendship (snakes only)",
-        "3/day: suggestion",
-        "1/day: fear"
+        {
+          "raw": "At will: animal friendship (snakes only)",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a> (snakes only)"
+        },
+        {
+          "raw": "3/day: suggestion",
+          "hyperlinked": "3/day: <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "1/day: fear",
+          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/fear\">fear</a>"
+        }
       ]
     },
     {

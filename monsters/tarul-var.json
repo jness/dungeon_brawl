@@ -74,13 +74,34 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:",
-        "Cantrips (at will):.fire bolt, mage hand, minor illusion, prestidigitation, ray of frost",
-        "1st level (4 slots): detect magic, magic missile, shield, unseen servant*",
-        "2nd level (3 slots): detect thoughts, flaming sphere,* mirror image, scorching ray",
-        "3rd level (3 slots): counterspell, dispel magic, fireball",
-        "4th level (3 slots): dimension door,* Evard's black tentacles*",
-        "5th level (3 slots): cloudkill,* scrying",
-        "6th level (1 slot): circle of death",
+        {
+          "raw": "Cantrips (at will):.fire bolt, mage hand, minor illusion, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will):<a target=\"_blank\" href=\"/spell/fire-bolt\">.fire bolt</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "1st level (4 slots): detect magic, magic missile, shield, unseen servant*",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/unseen-servant\">unseen servant*</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): detect thoughts, flaming sphere,* mirror image, scorching ray",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/flaming-sphere-mirror-image\">flaming sphere,* mirror image</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): counterspell, dispel magic, fireball",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+        },
+        {
+          "raw": "4th level (3 slots): dimension door,* Evard's black tentacles*",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dimension-door-evard-s-black-tentacles\">dimension door,* Evard's black tentacles*</a>"
+        },
+        {
+          "raw": "5th level (3 slots): cloudkill,* scrying",
+          "hyperlinked": "5th level (3 slots): <a target=\"_blank\" href=\"/spell/cloudkill-scrying\">cloudkill,* scrying</a>"
+        },
+        {
+          "raw": "6th level (1 slot): circle of death",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/circle-of-death\">circle of death</a>"
+        },
         "*Conjuration spell of 1st level or higher."
       ]
     },

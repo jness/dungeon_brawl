@@ -44,8 +44,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: ",
-        "At will: darkness, detect magic, dispel magic",
-        "1/day each: confusion, fly, power word stun"
+        {
+          "raw": "At will: darkness, detect magic, dispel magic",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>"
+        },
+        {
+          "raw": "1/day each: confusion, fly, power word stun",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/power-word-stun\">power word stun</a>"
+        }
       ]
     },
     {

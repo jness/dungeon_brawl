@@ -50,10 +50,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells: ",
-        "* Cantrips (at will): blade ward, gust, light, prestidigitation, shocking grasp",
-        "* 1st level (4 slots): featherfall, shield, witch bolt",
-        "* 2nd level (3 slots): dust devil, gust of wind",
-        "* 3rd level (2 slots): gaseous form"
+        {
+          "raw": "* Cantrips (at will): blade ward, gust, light, prestidigitation, shocking grasp",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/blade-ward\">blade ward</a>, <a target=\"_blank\" href=\"/spell/gust\">gust</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): featherfall, shield, witch bolt",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/featherfall\">featherfall</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/witch-bolt\">witch bolt</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): dust devil, gust of wind",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/dust-devil\">dust devil</a>, <a target=\"_blank\" href=\"/spell/gust-of-wind\">gust of wind</a>"
+        },
+        {
+          "raw": "* 3rd level (2 slots): gaseous form",
+          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/gaseous-form\">gaseous form</a>"
+        }
       ]
     }
   ],

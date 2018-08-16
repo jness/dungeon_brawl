@@ -44,17 +44,32 @@
       "name": "Innate Spellcasting (Psionics).",
       "descriptions": [
         "The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:",
-        "At will: friends, message",
-        "1/day: command"
+        {
+          "raw": "At will: friends, message",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>"
+        },
+        {
+          "raw": "1/day: command",
+          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/command\">command</a>"
+        }
       ]
     },
     {
       "name": "Spellcasting.",
       "descriptions": [
         "The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:",
-        "Cantrips (at will): guidance, mending, sacred flame",
-        "1st level (4 slots): bane, inflict wounds, shield of faith",
-        "2nd level (2 slots): enhance ability, spiritual weapon"
+        {
+          "raw": "Cantrips (at will): guidance, mending, sacred flame",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>"
+        },
+        {
+          "raw": "1st level (4 slots): bane, inflict wounds, shield of faith",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/inflict-wounds\">inflict wounds</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+        },
+        {
+          "raw": "2nd level (2 slots): enhance ability, spiritual weapon",
+          "hyperlinked": "2nd level (2 slots): <a target=\"_blank\" href=\"/spell/enhance-ability\">enhance ability</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+        }
       ]
     },
     {

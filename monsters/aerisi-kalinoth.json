@@ -62,13 +62,34 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared: ",
-        "* Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp",
-        "* 1st level (4 slots): charm person, feather fall, mage armor, thunderwave",
-        "* 2nd level (3 slots): dust devil, gust of wind, invisibility",
-        "* 3rd level (3 slots): fly, gaseous form, lightning bolt",
-        "* 4th level (3 slots): ice storm, storm sphere",
-        "* 5th level (2 slots): cloudkill, seeming (cast each day)",
-        "* 6th level (1 slot): chain lightning"
+        {
+          "raw": "* Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/gust\">gust</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): charm person, feather fall, mage armor, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/feather-fall\">feather fall</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): dust devil, gust of wind, invisibility",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/dust-devil\">dust devil</a>, <a target=\"_blank\" href=\"/spell/gust-of-wind\">gust of wind</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): fly, gaseous form, lightning bolt",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/gaseous-form\">gaseous form</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): ice storm, storm sphere",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/ice-storm\">ice storm</a>, <a target=\"_blank\" href=\"/spell/storm-sphere\">storm sphere</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): cloudkill, seeming (cast each day)",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill</a>, <a target=\"_blank\" href=\"/spell/seeming\">seeming</a> (cast each day)"
+        },
+        {
+          "raw": "* 6th level (1 slot): chain lightning",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/chain-lightning\">chain lightning</a>"
+        }
       ]
     }
   ],

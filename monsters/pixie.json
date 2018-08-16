@@ -50,8 +50,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component: ",
-        "At will: druidcraft",
-        "1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep"
+        {
+          "raw": "At will: druidcraft",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>"
+        },
+        {
+          "raw": "1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>, <a target=\"_blank\" href=\"/spell/polymorph\">polymorph</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>"
+        }
       ]
     }
   ],

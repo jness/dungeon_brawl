@@ -50,12 +50,30 @@
       "name": "Innate Spellcasting (Psionics).",
       "descriptions": [
         "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components: ",
-        "At will: guidance, mage hand, vicious mockery, true strike",
-        "1st-level (4 slots): charm person, command, comprehend languages, sanctuary",
-        "2nd level (3 slots): crown of madness, phantasmal force, see invisibility",
-        "3rd level (3 slots): clairvoyance, fear, meld into stone",
-        "4th level (3 slots): confusion, stone shape",
-        "5th level (2 slots): scrying, telekinesis"
+        {
+          "raw": "At will: guidance, mage hand, vicious mockery, true strike",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>, <a target=\"_blank\" href=\"/spell/true-strike\">true strike</a>"
+        },
+        {
+          "raw": "1st-level (4 slots): charm person, command, comprehend languages, sanctuary",
+          "hyperlinked": "1st-level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/comprehend-languages\">comprehend languages</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): crown of madness, phantasmal force, see invisibility",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>, <a target=\"_blank\" href=\"/spell/see-invisibility\">see invisibility</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): clairvoyance, fear, meld into stone",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>"
+        },
+        {
+          "raw": "4th level (3 slots): confusion, stone shape",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/confusion\">confusion</a>, <a target=\"_blank\" href=\"/spell/stone-shape\">stone shape</a>"
+        },
+        {
+          "raw": "5th level (2 slots): scrying, telekinesis",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>, <a target=\"_blank\" href=\"/spell/telekinesis\">telekinesis</a>"
+        }
       ]
     }
   ],

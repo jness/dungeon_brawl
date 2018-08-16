@@ -56,7 +56,10 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:>>>",
-        "Cantrips (at will): eldritch blast, friends, poison spray",
+        {
+          "raw": "Cantrips (at will): eldritch blast, friends, poison spray",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>"
+        },
         "1st level: armor of Agathys, charm person, hex",
         "2nd level: hold person, ray of enfeeblement, spider climb"
       ]

@@ -44,8 +44,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components: ",
-        "At will: animal friendship (snakes only)",
-        "3/day each: poison spray, suggestion"
+        {
+          "raw": "At will: animal friendship (snakes only)",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a> (snakes only)"
+        },
+        {
+          "raw": "3/day each: poison spray, suggestion",
+          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        }
       ]
     },
     {

@@ -56,8 +56,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: ",
-        "* At will: gust of wind, invisibility, lightning bolt",
-        "* 2/day each: chain lightning, cloudkill, haste"
+        {
+          "raw": "* At will: gust of wind, invisibility, lightning bolt",
+          "hyperlinked": "* At will: <a target=\"_blank\" href=\"/spell/gust-of-wind\">gust of wind</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+        },
+        {
+          "raw": "* 2/day each: chain lightning, cloudkill, haste",
+          "hyperlinked": "* 2/day each: <a target=\"_blank\" href=\"/spell/chain-lightning\">chain lightning</a>, <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill</a>, <a target=\"_blank\" href=\"/spell/haste\">haste</a>"
+        }
       ]
     },
     {

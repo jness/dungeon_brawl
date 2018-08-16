@@ -44,8 +44,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components: ",
-        "1/day each: entangle, phantasmal force",
-        "2/day each: disguise self, invisibility (self only)"
+        {
+          "raw": "1/day each: entangle, phantasmal force",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>"
+        },
+        {
+          "raw": "2/day each: disguise self, invisibility (self only)",
+          "hyperlinked": "2/day each: <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a> (self only)"
+        }
       ]
     },
     {

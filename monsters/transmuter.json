@@ -44,12 +44,30 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:",
-        "Cantrips (at will): light, mending, prestidigitation, ray of frost",
-        "1st level (4 slots): chromatic orb, expeditious retreat*, mage armor",
-        "2nd level (3 slots): alter self*, hold person, knock*",
-        "3rd level (3 slots): blink*, fireball, slow*",
-        "4th level (3 slots): polymorph*, stoneskin",
-        "5th level (1 slot): telekinesis*",
+        {
+          "raw": "Cantrips (at will): light, mending, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "1st level (4 slots): chromatic orb, expeditious retreat*, mage armor",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): alter self*, hold person, knock*",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/alter-self\">alter self*</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/knock\">knock*</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): blink*, fireball, slow*",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/blink\">blink*</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/slow\">slow*</a>"
+        },
+        {
+          "raw": "4th level (3 slots): polymorph*, stoneskin",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/polymorph\">polymorph*</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+        },
+        {
+          "raw": "5th level (1 slot): telekinesis*",
+          "hyperlinked": "5th level (1 slot): <a target=\"_blank\" href=\"/spell/telekinesis\">telekinesis*</a>"
+        },
         "*Transmutation spell of 1st level or higher"
       ]
     },

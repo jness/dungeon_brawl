@@ -62,8 +62,14 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:",
-        "Cantrips (at will): light, prestidigitation, ray of frost",
-        "1st level (2 slots): color spray, magic missile, shield, sleep."
+        {
+          "raw": "Cantrips (at will): light, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "1st level (2 slots): color spray, magic missile, shield, sleep.",
+          "hyperlinked": "1st level (2 slots): <a target=\"_blank\" href=\"/spell/color-spray\">color spray</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep.</a>"
+        }
       ]
     },
     {

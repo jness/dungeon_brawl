@@ -50,8 +50,14 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-        "Cantrips (at will): eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery",
-        "1st-4th level (2 4th-level slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant"
+        {
+          "raw": "Cantrips (at will): eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a> (range 300 ft., <a target=\"_blank\" href=\"/spell/4-bonus-to-each-damage-roll\">+4 bonus to each damage roll)</a>, <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+        },
+        {
+          "raw": "1st-4th level (2 4th-level slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant",
+          "hyperlinked": "1st-4th level (2 4th-level slots): <a target=\"_blank\" href=\"/spell/arms-of-hadar\">arms of Hadar</a>, <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/hunger-of-hadar\">hunger of Hadar</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/unseen-servant\">unseen servant</a>"
+        }
       ]
     },
     {

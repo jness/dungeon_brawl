@@ -102,7 +102,13 @@
   {% for ability in monster.special_abilities %}
     <p><strong>• {{ ability.name }}</strong></p>
     {% for description in ability.descriptions %}
-      <p class="indent">{{ description }}</p>
+
+      {% if description is mapping %}
+        <p class="indent">{{ description.hyperlinked|safe }}</p>
+      {% else %}
+        <p class="indent">{{ description }}</p>
+      {% endif %}
+
     {% endfor %}
   {% endfor %}
 

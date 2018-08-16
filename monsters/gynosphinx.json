@@ -56,12 +56,30 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared: ",
-        "* Cantrips (at will): mage hand, minor illusion, prestidigitation",
-        "* 1st level (4 slots): detect magic, identify, shield",
-        "* 2nd level (3 slots): darkness, locate object, suggestion",
-        "* 3rd level (3 slots): dispel magic, remove curse, tongues",
-        "* 4th level (3 slots): banishment, greater invisibility",
-        "* 5th level (1 slot): legend lore"
+        {
+          "raw": "* Cantrips (at will): mage hand, minor illusion, prestidigitation",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): detect magic, identify, shield",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/identify\">identify</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): darkness, locate object, suggestion",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/locate-object\">locate object</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): dispel magic, remove curse, tongues",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/remove-curse\">remove curse</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): banishment, greater invisibility",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/banishment\">banishment</a>, <a target=\"_blank\" href=\"/spell/greater-invisibility\">greater invisibility</a>"
+        },
+        {
+          "raw": "* 5th level (1 slot): legend lore",
+          "hyperlinked": "* 5th level (1 slot): <a target=\"_blank\" href=\"/spell/legend-lore\">legend lore</a>"
+        }
       ]
     }
   ],

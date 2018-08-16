@@ -44,9 +44,18 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells: ",
-        "* Cantrips (at will): blade ward, gust, light, prestidigitation",
-        "* 1st level (4 slots): feather fall, jump, thunderwave",
-        "* 2nd level (2 slots): gust of wind"
+        {
+          "raw": "* Cantrips (at will): blade ward, gust, light, prestidigitation",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/blade-ward\">blade ward</a>, <a target=\"_blank\" href=\"/spell/gust\">gust</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): feather fall, jump, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/feather-fall\">feather fall</a>, <a target=\"_blank\" href=\"/spell/jump\">jump</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (2 slots): gust of wind",
+          "hyperlinked": "* 2nd level (2 slots): <a target=\"_blank\" href=\"/spell/gust-of-wind\">gust of wind</a>"
+        }
       ]
     },
     {

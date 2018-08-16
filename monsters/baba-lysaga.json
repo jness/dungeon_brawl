@@ -56,15 +56,42 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga has the following wizard spells prepared:",
-        "* Cantrips (at will): acid splash, fire bolt, light, mage hand, prestidigitation",
-        "* 1st level (4 slots): detect magic, magic missile, sleep, witch bolt",
-        "* 2nd level (3 slots): crown of madness, enlarge/reduce, misty step",
-        "* 3rd level (3 slots): dispel magic, fireball, lightning bolt",
-        "* 4th level (3 slots): blight, Everard's black tentacles, polymorph",
-        "* 5th level (2 slots): cloudkill, geas, scrying",
-        "* 6th level (1 slot): programmed illusion, true seeing",
-        "* 7th level (1 slot): finger of death, mirage arcane",
-        "* 8th level (1 slot): power word stun"
+        {
+          "raw": "* Cantrips (at will): acid splash, fire bolt, light, mage hand, prestidigitation",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): detect magic, magic missile, sleep, witch bolt",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>, <a target=\"_blank\" href=\"/spell/witch-bolt\">witch bolt</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): crown of madness, enlarge/reduce, misty step",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/enlarge-reduce\">enlarge/reduce</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): dispel magic, fireball, lightning bolt",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): blight, Everard's black tentacles, polymorph",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight</a>, <a target=\"_blank\" href=\"/spell/everard-s-black-tentacles\">Everard's black tentacles</a>, <a target=\"_blank\" href=\"/spell/polymorph\">polymorph</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): cloudkill, geas, scrying",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill</a>, <a target=\"_blank\" href=\"/spell/geas\">geas</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+        },
+        {
+          "raw": "* 6th level (1 slot): programmed illusion, true seeing",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/programmed-illusion\">programmed illusion</a>, <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing</a>"
+        },
+        {
+          "raw": "* 7th level (1 slot): finger of death, mirage arcane",
+          "hyperlinked": "* 7th level (1 slot): <a target=\"_blank\" href=\"/spell/finger-of-death\">finger of death</a>, <a target=\"_blank\" href=\"/spell/mirage-arcane\">mirage arcane</a>"
+        },
+        {
+          "raw": "* 8th level (1 slot): power word stun",
+          "hyperlinked": "* 8th level (1 slot): <a target=\"_blank\" href=\"/spell/power-word-stun\">power word stun</a>"
+        }
       ]
     }
   ],

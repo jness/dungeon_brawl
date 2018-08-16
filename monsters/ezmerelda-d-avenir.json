@@ -50,11 +50,26 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Ezmerelda is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Ezmerelda has the following wizard spells prepared:",
-        "* Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
-        "* 1st level (4 slots): protection from good and evil, magic missile, shield",
-        "* 2nd level (3 slots): darkvision, knock, mirror image",
-        "* 3rd level (3 slots): clairvoyance, lightning bolt, magic circle",
-        "* 4th level (1 slot): greater invisibility"
+        {
+          "raw": "* Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): protection from good and evil, magic missile, shield",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/protection-from-good-and-evil\">protection from good and evil</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): darkvision, knock, mirror image",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/darkvision\">darkvision</a>, <a target=\"_blank\" href=\"/spell/knock\">knock</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): clairvoyance, lightning bolt, magic circle",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/clairvoyance\">clairvoyance</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>, <a target=\"_blank\" href=\"/spell/magic-circle\">magic circle</a>"
+        },
+        {
+          "raw": "* 4th level (1 slot): greater invisibility",
+          "hyperlinked": "* 4th level (1 slot): <a target=\"_blank\" href=\"/spell/greater-invisibility\">greater invisibility</a>"
+        }
       ]
     }
   ],

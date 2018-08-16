@@ -56,7 +56,10 @@
       "name": "Innate Spellcasting (Yuan-ti Form Only).",
       "descriptions": [
         "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:",
-        "At will: animal friendship (snakes only) 3/day: suggestion"
+        {
+          "raw": "At will: animal friendship (snakes only) 3/day: suggestion",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a> (snakes only) 3/day: suggestion"
+        }
       ]
     },
     {
@@ -69,8 +72,14 @@
       "name": "Spellcasting (Yuan-ti Form Only).",
       "descriptions": [
         "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-        "Cantrip (at will): chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation",
-        "1st-3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt"
+        {
+          "raw": "Cantrip (at will): chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation",
+          "hyperlinked": "Cantrip (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a> (range 300 ft., <a target=\"_blank\" href=\"/spell/3-bonus-to-each-damage-roll\">+3 bonus to each damage roll)</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "1st-3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt",
+          "hyperlinked": "1st-3rd level (2 3rd-level slots): <a target=\"_blank\" href=\"/spell/arms-of-hadar\">arms of Hadar</a>, <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/hex\">hex</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/hunger-of-hadar\">hunger of Hadar</a>, <a target=\"_blank\" href=\"/spell/witch-bolt\">witch bolt</a>"
+        }
       ]
     },
     {

@@ -68,8 +68,14 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: ",
-        "* Cantrips (at will): sacred flame, thaumaturgy",
-        "* 1st level (3 slots): bane, shield of faith"
+        {
+          "raw": "* Cantrips (at will): sacred flame, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (3 slots): bane, shield of faith",
+          "hyperlinked": "* 1st level (3 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+        }
       ]
     }
   ],

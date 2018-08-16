@@ -44,9 +44,18 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components: ",
-        "At will: druidcraft",
-        "3/day each: entangle, goodberry",
-        "1/day each: barkskin, pass without trace, shillelagh"
+        {
+          "raw": "At will: druidcraft",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>"
+        },
+        {
+          "raw": "3/day each: entangle, goodberry",
+          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/goodberry\">goodberry</a>"
+        },
+        {
+          "raw": "1/day each: barkskin, pass without trace, shillelagh",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/barkskin\">barkskin</a>, <a target=\"_blank\" href=\"/spell/pass-without-trace\">pass without trace</a>, <a target=\"_blank\" href=\"/spell/shillelagh\">shillelagh</a>"
+        }
       ]
     },
     {

@@ -50,9 +50,18 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:",
-        "* Cantrips (at will): guidance, mending, resistance, thaumaturgy",
-        "* 1st level (4 slots): bane, healing word, sanctuary, shield of faith",
-        "* 2nd level (3 slots): hold person, spiritual weapon (dagger)"
+        {
+          "raw": "* Cantrips (at will): guidance, mending, resistance, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/resistance\">resistance</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): bane, healing word, sanctuary, shield of faith",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/healing-word\">healing word</a>, <a target=\"_blank\" href=\"/spell/sanctuary\">sanctuary</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): hold person, spiritual weapon (dagger)",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a> (dagger)"
+        }
       ]
     },
     {

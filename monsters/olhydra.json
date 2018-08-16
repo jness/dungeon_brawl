@@ -50,9 +50,18 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components: ",
-        "* At will: wall of ice",
-        "* 3/day: ice storm",
-        "* 1/day: storm of vengeance"
+        {
+          "raw": "* At will: wall of ice",
+          "hyperlinked": "* At will: <a target=\"_blank\" href=\"/spell/wall-of-ice\">wall of ice</a>"
+        },
+        {
+          "raw": "* 3/day: ice storm",
+          "hyperlinked": "* 3/day: <a target=\"_blank\" href=\"/spell/ice-storm\">ice storm</a>"
+        },
+        {
+          "raw": "* 1/day: storm of vengeance",
+          "hyperlinked": "* 1/day: <a target=\"_blank\" href=\"/spell/storm-of-vengeance\">storm of vengeance</a>"
+        }
       ]
     },
     {

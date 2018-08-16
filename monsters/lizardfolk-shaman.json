@@ -50,10 +50,22 @@
       "name": "Spellcasting (Lizardfolk Form Only).",
       "descriptions": [
         "The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared: ",
-        "* Cantrips (at will): druidcraft, produce flame, thorn whip",
-        "* 1st Level (4 slots): entangle, fog cloud",
-        "* 2nd Level (3 slots): heat metal, spike growth",
-        "* 3rd Level (2 slots): conjure animals (reptiles only), plant growth"
+        {
+          "raw": "* Cantrips (at will): druidcraft, produce flame, thorn whip",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>, <a target=\"_blank\" href=\"/spell/produce-flame\">produce flame</a>, <a target=\"_blank\" href=\"/spell/thorn-whip\">thorn whip</a>"
+        },
+        {
+          "raw": "* 1st Level (4 slots): entangle, fog cloud",
+          "hyperlinked": "* 1st Level (4 slots): <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>"
+        },
+        {
+          "raw": "* 2nd Level (3 slots): heat metal, spike growth",
+          "hyperlinked": "* 2nd Level (3 slots): <a target=\"_blank\" href=\"/spell/heat-metal\">heat metal</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>"
+        },
+        {
+          "raw": "* 3rd Level (2 slots): conjure animals (reptiles only), plant growth",
+          "hyperlinked": "* 3rd Level (2 slots): <a target=\"_blank\" href=\"/spell/conjure-animals\">conjure animals</a> (reptiles only), <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>"
+        }
       ]
     }
   ],

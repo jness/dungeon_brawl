@@ -50,9 +50,18 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list: ",
-        "* Cantrips (at will): fire bolt, prestidigitation, shocking grasp",
-        "* 1st level (4 slots): longstrider, magic missile, shield, thunderwave",
-        "* 2nd level (2 slots): magic weapon, misty step"
+        {
+          "raw": "* Cantrips (at will): fire bolt, prestidigitation, shocking grasp",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): longstrider, magic missile, shield, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/longstrider\">longstrider</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (2 slots): magic weapon, misty step",
+          "hyperlinked": "* 2nd level (2 slots): <a target=\"_blank\" href=\"/spell/magic-weapon\">magic weapon</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>"
+        }
       ]
     },
     {

@@ -44,9 +44,18 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:",
-        "Cantrips (at will): fire bolt, mage hand, mending, poison spray",
-        "1st level (4 slots): charm person, chromatic orb, expeditious retreat",
-        "2nd level (2 slots): scorching ray"
+        {
+          "raw": "Cantrips (at will): fire bolt, mage hand, mending, poison spray",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>"
+        },
+        {
+          "raw": "1st level (4 slots): charm person, chromatic orb, expeditious retreat",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>"
+        },
+        {
+          "raw": "2nd level (2 slots): scorching ray",
+          "hyperlinked": "2nd level (2 slots): <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+        }
       ]
     },
     {

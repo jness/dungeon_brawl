@@ -62,10 +62,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:",
-        "Cantrips (at will): acid splash, light, mage hand, message, ray of frost",
-        "1st level (4 slots): burning hands, chromatic orb, sleep",
-        "2nd level (3 slots): invisibility, spider climb",
-        "3rd level (2 slots): blink, lightning bolt"
+        {
+          "raw": "Cantrips (at will): acid splash, light, mage hand, message, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/acid-splash\">acid splash</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "1st level (4 slots): burning hands, chromatic orb, sleep",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/chromatic-orb\">chromatic orb</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): invisibility, spider climb",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/spider-climb\">spider climb</a>"
+        },
+        {
+          "raw": "3rd level (2 slots): blink, lightning bolt",
+          "hyperlinked": "3rd level (2 slots): <a target=\"_blank\" href=\"/spell/blink\">blink</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+        }
       ]
     }
   ],

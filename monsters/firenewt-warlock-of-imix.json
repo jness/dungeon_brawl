@@ -56,8 +56,14 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-        "Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation",
-        "1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray"
+        {
+          "raw": "Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray",
+          "hyperlinked": "1st-2nd level (2 2nd-level slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands</a>, <a target=\"_blank\" href=\"/spell/flaming-sphere\">flaming sphere</a>, <a target=\"_blank\" href=\"/spell/hellish-rebuke\">hellish rebuke</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+        }
       ]
     },
     {

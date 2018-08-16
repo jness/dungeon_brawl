@@ -44,10 +44,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared: ",
-        "* Cantrips (at will): mending, sacred flame, thaumaturgy",
-        "* 1st level (4 slots): command, shield of faith",
-        "* 2nd level (3 slots): calm emotions, hold person",
-        "* 3rd level (2 slots): bestow curse"
+        {
+          "raw": "* Cantrips (at will): mending, sacred flame, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): command, shield of faith",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/shield-of-faith\">shield of faith</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): calm emotions, hold person",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/calm-emotions\">calm emotions</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>"
+        },
+        {
+          "raw": "* 3rd level (2 slots): bestow curse",
+          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/bestow-curse\">bestow curse</a>"
+        }
       ]
     }
   ],

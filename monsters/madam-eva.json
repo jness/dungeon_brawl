@@ -44,15 +44,42 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Madam Eva is a 16th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). Madam Eva has the following cleric spells prepared:",
-        "* Cantrips (at will): light, mending, sacred flame, thaumaturgy",
-        "* 1st level (4 slots): bane, command, detect evil and good, protection from evil and good",
-        "* 2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon",
-        "* 3rd level (3 slots): create food and water, speak with dead, spirit guardians",
-        "* 4th level (3 slots): divination, freedom of movement, guardians of faith",
-        "* 5th level (2 slots): greater restoration, raise dead",
-        "* 6th level (1 slot): find the path, harm, true seeing",
-        "* 7th level (1 slot): fire storm, regenerate",
-        "* 8th level (1 slot): earthquake"
+        {
+          "raw": "* Cantrips (at will): light, mending, sacred flame, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/sacred-flame\">sacred flame</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): bane, command, detect evil and good, protection from evil and good",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/bane\">bane</a>, <a target=\"_blank\" href=\"/spell/command\">command</a>, <a target=\"_blank\" href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a target=\"_blank\" href=\"/spell/protection-from-evil-and-good\">protection from evil and good</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/lesser-restoration\">lesser restoration</a>, <a target=\"_blank\" href=\"/spell/protection-from-poison\">protection from poison</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): create food and water, speak with dead, spirit guardians",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/create-food-and-water\">create food and water</a>, <a target=\"_blank\" href=\"/spell/speak-with-dead\">speak with dead</a>, <a target=\"_blank\" href=\"/spell/spirit-guardians\">spirit guardians</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): divination, freedom of movement, guardians of faith",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/divination\">divination</a>, <a target=\"_blank\" href=\"/spell/freedom-of-movement\">freedom of movement</a>, <a target=\"_blank\" href=\"/spell/guardians-of-faith\">guardians of faith</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): greater restoration, raise dead",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/greater-restoration\">greater restoration</a>, <a target=\"_blank\" href=\"/spell/raise-dead\">raise dead</a>"
+        },
+        {
+          "raw": "* 6th level (1 slot): find the path, harm, true seeing",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/find-the-path\">find the path</a>, <a target=\"_blank\" href=\"/spell/harm\">harm</a>, <a target=\"_blank\" href=\"/spell/true-seeing\">true seeing</a>"
+        },
+        {
+          "raw": "* 7th level (1 slot): fire storm, regenerate",
+          "hyperlinked": "* 7th level (1 slot): <a target=\"_blank\" href=\"/spell/fire-storm\">fire storm</a>, <a target=\"_blank\" href=\"/spell/regenerate\">regenerate</a>"
+        },
+        {
+          "raw": "* 8th level (1 slot): earthquake",
+          "hyperlinked": "* 8th level (1 slot): <a target=\"_blank\" href=\"/spell/earthquake\">earthquake</a>"
+        }
       ]
     }
   ],

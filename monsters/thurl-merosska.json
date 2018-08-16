@@ -44,10 +44,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells: ",
-        "* Cantrips (at will): friends, gust, light, message, ray of frost",
-        "* 1st level (4 slots): expeditious retreat, feather fall, jump",
-        "* 2nd level (3 slots): levitate, misty step",
-        "* 3rd level (2 slots): haste"
+        {
+          "raw": "* Cantrips (at will): friends, gust, light, message, ray of frost",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/gust\">gust</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): expeditious retreat, feather fall, jump",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/expeditious-retreat\">expeditious retreat</a>, <a target=\"_blank\" href=\"/spell/feather-fall\">feather fall</a>, <a target=\"_blank\" href=\"/spell/jump\">jump</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): levitate, misty step",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/levitate\">levitate</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>"
+        },
+        {
+          "raw": "* 3rd level (2 slots): haste",
+          "hyperlinked": "* 3rd level (2 slots): <a target=\"_blank\" href=\"/spell/haste\">haste</a>"
+        }
       ]
     }
   ],

@@ -62,10 +62,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared: ",
-        "* Cantrips (at will): guidance, thaumaturgy",
-        "* 1st level (4 slots): bless, detect magic, guiding bolt",
-        "* 2nd level (3 slots): hold person, spiritual weapon (trident)",
-        "* 3rd level (3 slots): mass healing word, tongues"
+        {
+          "raw": "* Cantrips (at will): guidance, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): bless, detect magic, guiding bolt",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/bless\">bless</a>, <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/guiding-bolt\">guiding bolt</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): hold person, spiritual weapon (trident)",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/spiritual-weapon\">spiritual weapon</a> (trident)"
+        },
+        {
+          "raw": "* 3rd level (3 slots): mass healing word, tongues",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/mass-healing-word\">mass healing word</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+        }
       ]
     }
   ],

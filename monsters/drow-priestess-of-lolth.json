@@ -50,20 +50,44 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The drow's spellcasting ability is Charisma (spell save DC 15. She can innately cast the following spells, requiring no material components: ",
-        "At will: dancing lights",
-        "1/day each: darkness, faerie fire, levitate (self only)"
+        {
+          "raw": "At will: dancing lights",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>"
+        },
+        {
+          "raw": "1/day each: darkness, faerie fire, levitate (self only)",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/darkness\">darkness</a>, <a target=\"_blank\" href=\"/spell/faerie-fire\">faerie fire</a>, <a target=\"_blank\" href=\"/spell/levitate\">levitate</a> (self only)"
+        }
       ]
     },
     {
       "name": "Spellcasting.",
       "descriptions": [
         "The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared: ",
-        "* Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy",
-        "* 1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness",
-        "* 2nd level (3 slots): lesser restoration, protection from poison, web",
-        "* 3rd level (3 slots): conjure animals (2 giant spiders), dispel magic",
-        "* 4th level (3 slots): divination, freedom of movement",
-        "* 5th level (2 slots): insect plague, mass cure wounds"
+        {
+          "raw": "* Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>, <a target=\"_blank\" href=\"/spell/resistance\">resistance</a>, <a target=\"_blank\" href=\"/spell/spare-the-dying\">spare the dying</a>, <a target=\"_blank\" href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/animal-friendship\">animal friendship</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/detect-poison-and-disease\">detect poison and disease</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): lesser restoration, protection from poison, web",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/lesser-restoration\">lesser restoration</a>, <a target=\"_blank\" href=\"/spell/protection-from-poison\">protection from poison</a>, <a target=\"_blank\" href=\"/spell/web\">web</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): conjure animals (2 giant spiders), dispel magic",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/conjure-animals\">conjure animals</a> (2 giant spiders), <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): divination, freedom of movement",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/divination\">divination</a>, <a target=\"_blank\" href=\"/spell/freedom-of-movement\">freedom of movement</a>"
+        },
+        {
+          "raw": "* 5th level (2 slots): insect plague, mass cure wounds",
+          "hyperlinked": "* 5th level (2 slots): <a target=\"_blank\" href=\"/spell/insect-plague\">insect plague</a>, <a target=\"_blank\" href=\"/spell/mass-cure-wounds\">mass cure wounds</a>"
+        }
       ]
     },
     {

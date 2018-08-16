@@ -44,9 +44,18 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:",
-        "At will: detect magic, locate animals or plants, ray of sickness",
-        "3/day each: dispel magic, ensnaring strike, entangle, plant growth",
-        "1/day: etherealness, teleport"
+        {
+          "raw": "At will: detect magic, locate animals or plants, ray of sickness",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/locate-animals-or-plants\">locate animals or plants</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+        },
+        {
+          "raw": "3/day each: dispel magic, ensnaring strike, entangle, plant growth",
+          "hyperlinked": "3/day each: <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/ensnaring-strike\">ensnaring strike</a>, <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>"
+        },
+        {
+          "raw": "1/day: etherealness, teleport",
+          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/etherealness\">etherealness</a>, <a target=\"_blank\" href=\"/spell/teleport\">teleport</a>"
+        }
       ]
     },
     {

@@ -44,12 +44,30 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
-        "Cantrips (at will): friends, mage hand, mending, message",
-        "1st level (4 slots): charm person*, mage armor, magic missile",
-        "2nd level (3 slots): hold person*, invisibility, suggestion*",
-        "3rd level (3 slots): fireball, haste, tongues",
-        "4th level (3 slots): dominate beast*, stoneskin",
-        "5th level (2 slots): hold monster*",
+        {
+          "raw": "Cantrips (at will): friends, mage hand, mending, message",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/message\">message</a>"
+        },
+        {
+          "raw": "1st level (4 slots): charm person*, mage armor, magic missile",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/charm-person\">charm person*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): hold person*, invisibility, suggestion*",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/hold-person\">hold person*</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion*</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): fireball, haste, tongues",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>, <a target=\"_blank\" href=\"/spell/haste\">haste</a>, <a target=\"_blank\" href=\"/spell/tongues\">tongues</a>"
+        },
+        {
+          "raw": "4th level (3 slots): dominate beast*, stoneskin",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast*</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+        },
+        {
+          "raw": "5th level (2 slots): hold monster*",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/hold-monster\">hold monster*</a>"
+        },
         "*Enchantment spell of 1st level or higher"
       ]
     }

@@ -56,12 +56,30 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared: ",
-        "* Cantrips (at will): mending, resistance, shape water",
-        "* 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave",
-        "* 2nd level (3 slots): darkvision, hold person, protection from poison",
-        "* 3rd level (3 slots): call lightning, sleet storm, tidal wave",
-        "* 4th level (3 slots): control water, ice storm",
-        "* 5th level (1 slot): scrying"
+        {
+          "raw": "* Cantrips (at will): mending, resistance, shape water",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mending\">mending</a>, <a target=\"_blank\" href=\"/spell/resistance\">resistance</a>, <a target=\"_blank\" href=\"/spell/shape-water\">shape water</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/create-or-destroy-water\">create or destroy water</a>, <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): darkvision, hold person, protection from poison",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/darkvision\">darkvision</a>, <a target=\"_blank\" href=\"/spell/hold-person\">hold person</a>, <a target=\"_blank\" href=\"/spell/protection-from-poison\">protection from poison</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): call lightning, sleet storm, tidal wave",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/call-lightning\">call lightning</a>, <a target=\"_blank\" href=\"/spell/sleet-storm\">sleet storm</a>, <a target=\"_blank\" href=\"/spell/tidal-wave\">tidal wave</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): control water, ice storm",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/control-water\">control water</a>, <a target=\"_blank\" href=\"/spell/ice-storm\">ice storm</a>"
+        },
+        {
+          "raw": "* 5th level (1 slot): scrying",
+          "hyperlinked": "* 5th level (1 slot): <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+        }
       ]
     },
     {

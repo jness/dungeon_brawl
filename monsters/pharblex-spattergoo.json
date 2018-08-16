@@ -56,10 +56,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list: ",
-        "* Cantrips (at will): druidcraft, guidance, poison spray",
-        "* 1st level (4 slots): cure wounds, entangle, healing word, thunderwave",
-        "* 2nd level (3 slots): barkskin, beast sense, spike growth",
-        "* 3rd level (3 slots): plant growth, water walk"
+        {
+          "raw": "* Cantrips (at will): druidcraft, guidance, poison spray",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/druidcraft\">druidcraft</a>, <a target=\"_blank\" href=\"/spell/guidance\">guidance</a>, <a target=\"_blank\" href=\"/spell/poison-spray\">poison spray</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): cure wounds, entangle, healing word, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/cure-wounds\">cure wounds</a>, <a target=\"_blank\" href=\"/spell/entangle\">entangle</a>, <a target=\"_blank\" href=\"/spell/healing-word\">healing word</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): barkskin, beast sense, spike growth",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/barkskin\">barkskin</a>, <a target=\"_blank\" href=\"/spell/beast-sense\">beast sense</a>, <a target=\"_blank\" href=\"/spell/spike-growth\">spike growth</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): plant growth, water walk",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/plant-growth\">plant growth</a>, <a target=\"_blank\" href=\"/spell/water-walk\">water walk</a>"
+        }
       ]
     },
     {

@@ -50,10 +50,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared: ",
-        "* Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp",
-        "* 1st level (4 slots): false life, mage armor, magic missile, ray of sickness",
-        "* 2nd level (3 slots): crown of madness, misty step",
-        "* 3rd level (3 slots): animate dead, vampiric touch"
+        {
+          "raw": "* Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/chill-touch\">chill touch</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): false life, mage armor, magic missile, ray of sickness",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/false-life\">false life</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): crown of madness, misty step",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/crown-of-madness\">crown of madness</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): animate dead, vampiric touch",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead</a>, <a target=\"_blank\" href=\"/spell/vampiric-touch\">vampiric touch</a>"
+        }
       ]
     },
     {

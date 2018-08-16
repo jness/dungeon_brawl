@@ -51,8 +51,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
-        "At will: commune with nature, meld into stone, stone shape",
-        "1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance"
+        {
+          "raw": "At will: commune with nature, meld into stone, stone shape",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/commune-with-nature\">commune with nature</a>, <a target=\"_blank\" href=\"/spell/meld-into-stone\">meld into stone</a>, <a target=\"_blank\" href=\"/spell/stone-shape\">stone shape</a>"
+        },
+        {
+          "raw": "1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance",
+          "hyperlinked": "1/day each: <a target=\"_blank\" href=\"/spell/conjure-elemental\">conjure elemental</a> (as 6th-level spell; galeb duhr, <a target=\"_blank\" href=\"/spell/gargoyle\">gargoyle</a>, <a target=\"_blank\" href=\"/spell/earth-elemental\">earth elemental</a>, <a target=\"_blank\" href=\"/spell/or-xorn-only\">or xorn only)</a>, <a target=\"_blank\" href=\"/spell/otto-s-irresistible-dance\">Otto's irresistible dance</a>"
+        }
       ]
     },
     {

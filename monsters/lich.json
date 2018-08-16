@@ -56,16 +56,46 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: ",
-        "* Cantrips (at will): mage hand, prestidigitation, ray of frost",
-        "* 1st level (4 slots): detect magic, magic missile, shield, thunderwave",
-        "* 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
-        "* 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball",
-        "* 4th level (3 slots): blight, dimension door",
-        "* 5th level (3 slots): cloudkill, scrying",
-        "* 6th level (1 slot): disintegrate, globe of invulnerability",
-        "* 7th level (1 slot): finger of death, plane shift",
-        "* 8th level (1 slot): dominate monster, power word stun",
-        "* 9th level (1 slot): power word kill"
+        {
+          "raw": "* Cantrips (at will): mage hand, prestidigitation, ray of frost",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): detect magic, magic missile, shield, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/detect-magic\">detect magic</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/detect-thoughts\">detect thoughts</a>, <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/melf-s-acid-arrow\">Melf's acid arrow</a>, <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/animate-dead\">animate dead</a>, <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+        },
+        {
+          "raw": "* 4th level (3 slots): blight, dimension door",
+          "hyperlinked": "* 4th level (3 slots): <a target=\"_blank\" href=\"/spell/blight\">blight</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>"
+        },
+        {
+          "raw": "* 5th level (3 slots): cloudkill, scrying",
+          "hyperlinked": "* 5th level (3 slots): <a target=\"_blank\" href=\"/spell/cloudkill\">cloudkill</a>, <a target=\"_blank\" href=\"/spell/scrying\">scrying</a>"
+        },
+        {
+          "raw": "* 6th level (1 slot): disintegrate, globe of invulnerability",
+          "hyperlinked": "* 6th level (1 slot): <a target=\"_blank\" href=\"/spell/disintegrate\">disintegrate</a>, <a target=\"_blank\" href=\"/spell/globe-of-invulnerability\">globe of invulnerability</a>"
+        },
+        {
+          "raw": "* 7th level (1 slot): finger of death, plane shift",
+          "hyperlinked": "* 7th level (1 slot): <a target=\"_blank\" href=\"/spell/finger-of-death\">finger of death</a>, <a target=\"_blank\" href=\"/spell/plane-shift\">plane shift</a>"
+        },
+        {
+          "raw": "* 8th level (1 slot): dominate monster, power word stun",
+          "hyperlinked": "* 8th level (1 slot): <a target=\"_blank\" href=\"/spell/dominate-monster\">dominate monster</a>, <a target=\"_blank\" href=\"/spell/power-word-stun\">power word stun</a>"
+        },
+        {
+          "raw": "* 9th level (1 slot): power word kill",
+          "hyperlinked": "* 9th level (1 slot): <a target=\"_blank\" href=\"/spell/power-word-kill\">power word kill</a>"
+        }
       ]
     },
     {

@@ -56,8 +56,14 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "Rahadin's innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:",
-        "3/day: misty step, phantom steed",
-        "1/day: magic weapon, nondetection"
+        {
+          "raw": "3/day: misty step, phantom steed",
+          "hyperlinked": "3/day: <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/phantom-steed\">phantom steed</a>"
+        },
+        {
+          "raw": "1/day: magic weapon, nondetection",
+          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/magic-weapon\">magic weapon</a>, <a target=\"_blank\" href=\"/spell/nondetection\">nondetection</a>"
+        }
       ]
     },
     {

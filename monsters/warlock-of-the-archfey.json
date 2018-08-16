@@ -44,16 +44,28 @@
       "name": "Innate Spellcasting.",
       "descriptions": [
         "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:",
-        "At will: disguise self, mage armor (self only), silent image, speak with animals",
-        "1/day: conjure fey"
+        {
+          "raw": "At will: disguise self, mage armor (self only), silent image, speak with animals",
+          "hyperlinked": "At will: <a target=\"_blank\" href=\"/spell/disguise-self\">disguise self</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a> (self only), <a target=\"_blank\" href=\"/spell/silent-image\">silent image</a>, <a target=\"_blank\" href=\"/spell/speak-with-animals\">speak with animals</a>"
+        },
+        {
+          "raw": "1/day: conjure fey",
+          "hyperlinked": "1/day: <a target=\"_blank\" href=\"/spell/conjure-fey\">conjure fey</a>"
+        }
       ]
     },
     {
       "name": "Spellcasting.",
       "descriptions": [
         "The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
-        "Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery",
-        "1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
+        {
+          "raw": "Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/dancing-lights\">dancing lights</a>, <a target=\"_blank\" href=\"/spell/eldritch-blast\">eldritch blast</a>, <a target=\"_blank\" href=\"/spell/friends\">friends</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/minor-illusion\">minor illusion</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/vicious-mockery\">vicious mockery</a>"
+        },
+        {
+          "raw": "1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep",
+          "hyperlinked": "1st-5th level (3 5th-level slots): <a target=\"_blank\" href=\"/spell/blink\">blink</a>, <a target=\"_blank\" href=\"/spell/charm-person\">charm person</a>, <a target=\"_blank\" href=\"/spell/dimension-door\">dimension door</a>, <a target=\"_blank\" href=\"/spell/dominate-beast\">dominate beast</a>, <a target=\"_blank\" href=\"/spell/faerie-fire\">faerie fire</a>, <a target=\"_blank\" href=\"/spell/fear\">fear</a>, <a target=\"_blank\" href=\"/spell/hold-monster\">hold monster</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/phantasmal-force\">phantasmal force</a>, <a target=\"_blank\" href=\"/spell/seeming\">seeming</a>, <a target=\"_blank\" href=\"/spell/sleep\">sleep</a>"
+        }
       ]
     }
   ],

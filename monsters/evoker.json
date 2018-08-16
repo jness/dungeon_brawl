@@ -44,13 +44,34 @@
       "name": "Spellcasting.",
       "descriptions": [
         "The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
-        "Cantrips (at will): fire bolt*, light*, prestidigitation, ray of frost*",
-        "1st level (4 slots): burning hands*, mage armor, magic missile*",
-        "2nd level (3 slots): mirror image, misty step, shatter*",
-        "3rd level (3 slots): counterspell, fireball*, lightning bolt*",
-        "4th level (3 slots): ice storm*, stoneskin",
-        "5th level (2 slots): Bigby's hand*, cone of cold*",
-        "6th level (1 slot): chain lightning*, wall of ice*",
+        {
+          "raw": "Cantrips (at will): fire bolt*, light*, prestidigitation, ray of frost*",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt*</a>, <a target=\"_blank\" href=\"/spell/light\">light*</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost*</a>"
+        },
+        {
+          "raw": "1st level (4 slots): burning hands*, mage armor, magic missile*",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/burning-hands\">burning hands*</a>, <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile*</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): mirror image, misty step, shatter*",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/mirror-image\">mirror image</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/shatter\">shatter*</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): counterspell, fireball*, lightning bolt*",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball*</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt*</a>"
+        },
+        {
+          "raw": "4th level (3 slots): ice storm*, stoneskin",
+          "hyperlinked": "4th level (3 slots): <a target=\"_blank\" href=\"/spell/ice-storm\">ice storm*</a>, <a target=\"_blank\" href=\"/spell/stoneskin\">stoneskin</a>"
+        },
+        {
+          "raw": "5th level (2 slots): Bigby's hand*, cone of cold*",
+          "hyperlinked": "5th level (2 slots): <a target=\"_blank\" href=\"/spell/bigby-s-hand\">Bigby's hand*</a>, <a target=\"_blank\" href=\"/spell/cone-of-cold\">cone of cold*</a>"
+        },
+        {
+          "raw": "6th level (1 slot): chain lightning*, wall of ice*",
+          "hyperlinked": "6th level (1 slot): <a target=\"_blank\" href=\"/spell/chain-lightning\">chain lightning*</a>, <a target=\"_blank\" href=\"/spell/wall-of-ice\">wall of ice*</a>"
+        },
         "*Evocation spell"
       ]
     },

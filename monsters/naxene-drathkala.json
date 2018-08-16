@@ -44,10 +44,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Naxene is a 6th level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13; +5 to hit with spell attacks). She has the following wizard spells prepared:",
-        "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
-        "1st level (4 slots): mage armor, magic missile, shield",
-        "2nd level (3 slots): misty step, suggestion",
-        "3rd level (3 slots): fly, lightning bolt"
+        {
+          "raw": "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a target=\"_blank\" href=\"/spell/fire-bolt\">fire bolt</a>, <a target=\"_blank\" href=\"/spell/light\">light</a>, <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>"
+        },
+        {
+          "raw": "1st level (4 slots): mage armor, magic missile, shield",
+          "hyperlinked": "1st level (4 slots): <a target=\"_blank\" href=\"/spell/mage-armor\">mage armor</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>"
+        },
+        {
+          "raw": "2nd level (3 slots): misty step, suggestion",
+          "hyperlinked": "2nd level (3 slots): <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/suggestion\">suggestion</a>"
+        },
+        {
+          "raw": "3rd level (3 slots): fly, lightning bolt",
+          "hyperlinked": "3rd level (3 slots): <a target=\"_blank\" href=\"/spell/fly\">fly</a>, <a target=\"_blank\" href=\"/spell/lightning-bolt\">lightning bolt</a>"
+        }
       ]
     },
     {

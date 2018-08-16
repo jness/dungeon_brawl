@@ -62,10 +62,22 @@
       "name": "Spellcasting.",
       "descriptions": [
         "Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list: ",
-        "* Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp",
-        "* 1st level (4 slots): fog cloud, magic missile, shield, thunderwave",
-        "* 2nd level (3 slots): invisibility, misty step, scorching ray",
-        "* 3rd level (3 slots): counterspell, dispel magic, fireball"
+        {
+          "raw": "* Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp",
+          "hyperlinked": "* Cantrips (at will): <a target=\"_blank\" href=\"/spell/mage-hand\">mage hand</a>, <a target=\"_blank\" href=\"/spell/prestidigitation\">prestidigitation</a>, <a target=\"_blank\" href=\"/spell/ray-of-frost\">ray of frost</a>, <a target=\"_blank\" href=\"/spell/shocking-grasp\">shocking grasp</a>"
+        },
+        {
+          "raw": "* 1st level (4 slots): fog cloud, magic missile, shield, thunderwave",
+          "hyperlinked": "* 1st level (4 slots): <a target=\"_blank\" href=\"/spell/fog-cloud\">fog cloud</a>, <a target=\"_blank\" href=\"/spell/magic-missile\">magic missile</a>, <a target=\"_blank\" href=\"/spell/shield\">shield</a>, <a target=\"_blank\" href=\"/spell/thunderwave\">thunderwave</a>"
+        },
+        {
+          "raw": "* 2nd level (3 slots): invisibility, misty step, scorching ray",
+          "hyperlinked": "* 2nd level (3 slots): <a target=\"_blank\" href=\"/spell/invisibility\">invisibility</a>, <a target=\"_blank\" href=\"/spell/misty-step\">misty step</a>, <a target=\"_blank\" href=\"/spell/scorching-ray\">scorching ray</a>"
+        },
+        {
+          "raw": "* 3rd level (3 slots): counterspell, dispel magic, fireball",
+          "hyperlinked": "* 3rd level (3 slots): <a target=\"_blank\" href=\"/spell/counterspell\">counterspell</a>, <a target=\"_blank\" href=\"/spell/dispel-magic\">dispel magic</a>, <a target=\"_blank\" href=\"/spell/fireball\">fireball</a>"
+        }
       ]
     }
   ],
