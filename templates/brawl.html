@@ -13,7 +13,7 @@ Brawl
 
 <script>
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="popover"]').popover({html:true});
 });
 
 $(document).on('click', function (e) {
@@ -92,7 +92,7 @@ $('input[type=radio]').on('change', function() {
 
         <tr>
           <th></th>
-          <th>Roll</th>
+          <th>Initiative</th>
           <th>Name</th>
           <th>Armor</th>
           <th>Hit Points</th>
@@ -125,7 +125,7 @@ $('input[type=radio]').on('change', function() {
 
             <td><p>{{ monster.notes }}</p></td>
 
-            <td><center>{% if monster.conditions %}<img data-toggle="popover" title="Conditions" data-content="{% for condition in monster.conditions %}{{ condition|title }}{% if not loop.last %}, {% endif %}{% endfor %}" width=35 src='{{ url_for('static', filename='images/eye.png') }}'>{% endif %}</center></td>
+            <td><center>{% if monster.conditions %}<img data-toggle="popover" title="Conditions" data-content="{% for condition in monster.conditions %}<a target='_blank' href='https://roll20.net/compendium/dnd5e/Conditions#h-{{ condition|title }}'>{{ condition|title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}" width=35 src='{{ url_for('static', filename='images/eye.png') }}'>{% endif %}</center></td>
 
             <td>
             <center><a data-toggle="modal" data-target="#{{ monster.unique_id }}_edit"><img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'></a></center>
