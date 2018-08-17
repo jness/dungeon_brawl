@@ -227,7 +227,8 @@ def brawl_add_monster():
             'hit_points': monster['hit_points'],
             'dexterity_modifier': monster['dexterity_modifier'],
             'is_character': False,
-            'notes': ''
+            'notes': '',
+            'conditions': []
         }
 
         # add slim_monster to monsters list
@@ -275,7 +276,8 @@ def brawl_add_character():
         'hit_points': hit_points,
         'dexterity_modifier': initiative_modifier,
         'is_character': True,
-        'notes': ''
+        'notes': '',
+        'conditions': []
     }
 
     # add slim_character to monsters list
@@ -341,6 +343,26 @@ def brawl_update_monster():
     hit_points = request.form['hit_points']
     notes = request.form.get('notes') or ''
 
+    # create list of all conditions
+    conditions = [
+        'blinded',
+        'charmed',
+        'deafened',
+        'fatigued',
+        'frightened',
+        'grappled',
+        'incapacitated',
+        'invisible',
+        'paralyzed',
+        'petrified',
+        'poisoned',
+        'prone',
+        'restrained',
+        'stunned',
+        'unconscious',
+        'exhaustion'
+    ]
+
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
@@ -370,6 +392,12 @@ def brawl_update_monster():
             monster['armor_class'] = int(armor_class)
             monster['hit_points'] = int(hit_points)
             monster['notes'] = notes
+
+            # add conditions
+            monster['conditions'] = []
+            for condition in conditions:
+                if condition in request.form:
+                    monster['conditions'].append(condition)
 
     # sort monsters in initative order
     monsters = sorted(
@@ -411,6 +439,36 @@ def brawl_remove_monster():
 
     # set cookie for monsters to new monster list
     response.set_cookie('monsters', json.dumps(new_monsters))
+    return response
+
+
+@app.route('/brawl_set_turn', methods=['POST'])
+def brawl_set_turn():
+    """
+    Set monsters turn
+    """
+
+    # grab required form elements from POST
+    unique_id = request.form['unique_id']
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # iterate over all monsters
+    for monster in monsters:
+
+        # if monster's unique_id matches set to his turn,
+        # else not it's turn
+        if monster['unique_id'] == unique_id:
+            monster['my_turn'] = True
+        else:
+            monster['my_turn'] = False
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters to new monster list
+    response.set_cookie('monsters', json.dumps(monsters))
     return response
 
 

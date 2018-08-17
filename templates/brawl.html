@@ -8,6 +8,31 @@ Brawl
 <link rel="stylesheet" href="{{ url_for('static', filename='css/brawl.css') }}">
 {% endblock %}
 
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+
+$(document).on('click', function (e) {
+    $('[data-toggle="popover"],[data-original-title]').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false  // fix for BS 3.3.6
+        }
+
+    });
+});
+
+$('input[type=radio]').on('change', function() {
+    $(this).closest("form").submit();
+});
+</script>
+{% endblock %}
+
 {% block content %}
 
 <div class="container">
@@ -63,23 +88,26 @@ Brawl
 
     <hr>
 
-    <form>
     <table id="table" class="table table-striped" style="width:100%">
 
         <tr>
           <th></th>
-          <th>Initiative</th>
+          <th>Roll</th>
           <th>Name</th>
-          <th>Init Modifier</th>
-          <th>Armor Class</th>
-          <th>Hit Points</th>
+          <th>AC</th>
+          <th>HP</th>
           <th>Notes</th>
+          <th><center>Conditions</center></th>
           <th><center>Edit</center></th>
         </tr>
 
         {% for monster in monsters %}
           <tr>
-            <td><input name="turn" type="radio"></td>
+            <td>
+              <form action="/brawl_set_turn" method="POST">
+                <input name="unique_id" value="{{ monster.unique_id }}" type="radio" {% if monster.my_turn == true %}checked="checked"{% endif %}>
+              </form>
+            </td>
 
             <td>{{ monster.initiative }}</td>
 
@@ -91,16 +119,16 @@ Brawl
               {% endif %}
             </td>
 
-            <td>{{ monster.dexterity_modifier }}</td>
-
             <td>{{ monster.armor_class }}</td>
 
             <td>{{ monster.hit_points }}</td>
 
-            <td>{{ monster.notes }}</td>
+            <td><p>{{ monster.notes }}</p></td>
+
+            <td><center>{% if monster.conditions %}<img data-toggle="popover" title="Conditions" data-content="{% for condition in monster.conditions %}{{ condition|title }}{% if not loop.last %}, {% endif %}{% endfor %}" width=35 src='{{ url_for('static', filename='images/eye.png') }}'>{% endif %}</center></td>
 
             <td>
-            <center><a data-toggle="modal" data-target="#{{ monster.unique_id }}_edit" href='/brawl_add_monster?slug_name={{ monster.slug_name}}'><img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'></a></center>
+            <center><a data-toggle="modal" data-target="#{{ monster.unique_id }}_edit"><img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'></a></center>
             </td>
 
           </tr>
@@ -108,9 +136,9 @@ Brawl
         {% endfor %}
 
     </table>
-  </form>
 
 {% for monster in monsters %}
+
 <div class="modal fade" id="{{ monster.unique_id }}_edit" tabindex="-1" role="dialog" aria-labelledby="{{ monster.unique_id }}_edit" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -135,7 +163,76 @@ Brawl
           <p>Notes</p>
           <p><input id="notes" class="form-control" type="text" name="notes" value="{{ monster.notes }}"></p>
 
+          <p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="blinded" name="blinded" {% if 'blinded' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Blinded</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="charmed" name="charmed" {% if 'charmed' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Charmed</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="deafened" name="deafened" {% if 'deafened' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Deafened</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="fatigued" name="fatigued" {% if 'fatigued' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Fatigued</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="frightened" name="frightened" {% if 'frightened' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Frightened</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="grappled" name="grappled" {% if 'grappled' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Grappled</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="incapacitated" name="incapacitated" {% if 'incapacitated' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Incapacitated</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="invisible" name="invisible" {% if 'invisible' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Invisible</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="paralyzed" name="paralyzed" {% if 'paralyzed' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Paralyzed</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="petrified" name="petrified" {% if 'petrified' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Petrified</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="poisoned" name="poisoned" {% if 'poisoned' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Poisoned</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="prone" name="prone" {% if 'prone' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Prone</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="restrained" name="restrained" {% if 'restrained' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Restrained</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="stunned" name="stunned" {% if 'stunned' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Stunned</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="unconscious" name="unconscious" {% if 'unconscious' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Unconscious</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" value="exhaustion" name="exhaustion" {% if 'exhaustion' in monster.conditions %}checked{% endif %}>
+              <label class="form-check-label">Exhaustion</label>
+            </div>
+          </p>
+
           <input type="hidden" name="unique_id" value="{{ monster.unique_id }}">
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
