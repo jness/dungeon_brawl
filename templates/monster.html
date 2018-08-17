@@ -68,6 +68,13 @@
   </p>
   {% endif %}
 
+  {% if monster.condition_immunities %}
+    <p><strong>Condition Immunities</strong>
+      {{ monster.condition_immunities }}
+    </p>
+  {% endif %}
+
+
   {% if monster.damage_resistances %}
     <p><strong>Resistances</strong>
       {{ monster.damage_resistances }}
