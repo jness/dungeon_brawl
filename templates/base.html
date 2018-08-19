@@ -2,7 +2,11 @@
 
 <head>
 <title>{% block title %}{% endblock %}</title>
+
+<!-- stylesheets -->
 <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootswatch.theme.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 {% block style %}{% endblock %}
 
 </head>
@@ -11,11 +15,13 @@
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#navbar"
+      aria-controls="navbar" aria-expanded="false" aria-label="Toggle">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav mr-auto">
 
         <li class="nav-item">
@@ -35,12 +41,11 @@
 
   </nav>
 
-{% block searchbox %}
-{% endblock %}
-
 {% block content %}{% endblock %}
+
 </body>
 
+<!-- scripts -->
 <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 {% block javascript %}{% endblock %}
 <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>

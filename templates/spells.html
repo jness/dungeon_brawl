@@ -1,50 +1,61 @@
 {% extends 'base.html' %}
 
+
 {% block title %}
 Spells
 {% endblock %}
+
 
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/spells.css') }}">
 {% endblock %}
 
 
-{% block searchbox %}
-
-<div class="container">
-
-<form action="/spell_search" method="GET">
-
-<div class="form-row">
-
-  <div class="col-7">
-    <label for="inputName" class="sr-only">Search Text</label>
-    <input id="inputName" class="form-control" type="text" name="search_text" value="{{ search_text }}" placeholder="Search Spell..." required autofocus>
-  </div>
-
-  <div class="col-3">
-
-    <select id="selectField" class="form-control form-select" name="search_field">
-      <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %} selected="selected">Name</option>
-      <option {% if search_field == 'school' %}selected="selected"{% endif %} value="school">School</option>
-      <option {% if search_field == 'level' %}selected="selected"{% endif %} value="level">Level</option>
-    </select>
-
-  </div>
-
-  <div class="col-2">
-    <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
-  </div>
-
-</div>
-</div>
-</form>
-<hr>
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/spells.js') }}"></script>
 {% endblock %}
 
 
 {% block content %}
 
+<!-- Begin spell search form -->
+<div class="container">
+
+  <form action="/spell_search" method="GET">
+
+  <div class="form-row">
+
+    <!-- Search input -->
+    <div class="col-7">
+      <label for="inputName" class="sr-only">Search Text</label>
+      <input id="inputName" class="form-control" type="text" name="search_text"
+        value="{{ search_text }}" placeholder="Search Spell..." required autofocus>
+    </div>
+
+    <!-- Search types -->
+    <div class="col-3">
+      <select id="selectField" class="form-control form-select" name="search_field">
+        <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %} selected="selected">Name</option>
+        <option {% if search_field == 'school' %}selected="selected"{% endif %} value="school">School</option>
+        <option {% if search_field == 'level' %}selected="selected"{% endif %} value="level">Level</option>
+      </select>
+    </div>
+
+    <!-- Search button -->
+    <div class="col-2">
+      <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
+    </div>
+
+  </form>
+
+  </div>
+
+</div>
+<hr>
+<!-- End spell search form -->
+
+
+<!-- Begin spell list -->
 <div class="container">
 
   <table id="table" class="table table-striped" style="width:100%">
@@ -56,15 +67,16 @@ Spells
       </tr>
 
       {% for spell in spells %}
-        <tr>
-          <td><a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a></td>
-          <td>{{ spell.school }}</td>
-          <td>{{ spell.level }}</td>
-        </tr>
+      <tr>
+        <td><a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a></td>
+        <td>{{ spell.school }}</td>
+        <td>{{ spell.level }}</td>
+      </tr>
       {% endfor %}
 
   </table>
 
 </div>
+<!-- End spell list -->
 
 {% endblock %}

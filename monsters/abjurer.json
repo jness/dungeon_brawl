@@ -45,8 +45,8 @@
       "descriptions": [
         "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:",
         {
-          "raw": "Cantrips (at will): blade ward. dancing lights, mending, message, ray of frost",
-          "hyperlinked": "Cantrips (at will): <a href=\"/spell/blade-ward-dancing-lights\">blade ward. dancing lights</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): blade ward, dancing lights, mending, message, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/dancing-lights\">dancing-lights</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
           "raw": "1st level (4 slots): alarm*, mage armor, magic missile, shield*",
@@ -73,8 +73,8 @@
           "hyperlinked": "6th level (1 slot): <a href=\"/spell/flesh-to-stone\">flesh to stone</a>, <a href=\"/spell/globe-of-invulnerability\">globe of invulnerability*</a>"
         },
         {
-          "raw": "7th level (1 slot): symbol* teleport",
-          "hyperlinked": "7th level (1 slot): <a href=\"/spell/symbol-teleport\">symbol* teleport</a>"
+          "raw": "7th level (1 slot): symbol*, teleport",
+          "hyperlinked": "7th level (1 slot): <a href=\"/spell/symbol\">symbol*</a>, <a href=\"/spell/teleport\">teleport</a>"
         },
         "*Abjuration spell of 1st level or higher"
       ]

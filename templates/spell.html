@@ -1,43 +1,47 @@
 {% extends 'base.html' %}
 
+
 {% block title %}
 {{ spell.name }}
 {% endblock %}
+
 
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/spell.css') }}">
 {% endblock %}
 
-{% block content %}
 
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/spell.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
 <div class="container" style="padding-top: 0px ; padding-left: 100px;">
 
+  <!-- Spell heading -->
   <h1><strong>{{ spell.name }}</strong></h1>
-
   {{ spell.level }}, {{ spell.school }}
-
   <hr>
 
+  <!-- Expected spell attributes -->
   <p><strong>Casting Time</strong> {{ spell.casting_time }}</p>
   <p><strong>Range</strong> {{ spell.range }}</p>
   <p><strong>Components</strong> {{ spell.components }}</p>
   <p><strong>Duration</strong> {{ spell.duration }}</p>
-
   <hr>
 
-  <h4><strong>Description</strong></h4>
-  <br>
-
-  {% for description in spell.descriptions %}
-
-    {% if description is mapping %}
-      <p>{{ description.hyperlinked|safe }}</p>
-    {% else %}
-      <p>{{ description }}</p>
-    {% endif %}
-
-  {% endfor %}
+  <!-- Textual spell description -->
+  <h4><strong>Description</strong></h4><br>
+  <div id="description">
+    {% for description in spell.descriptions %}
+      {% if description is mapping %}
+        <p>{{ description.hyperlinked|safe }}</p>
+      {% else %}
+        <p>{{ description }}</p>
+      {% endif %}
+    {% endfor %}
+  </div>
 
 </div>
-
 {% endblock %}

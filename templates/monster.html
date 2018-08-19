@@ -1,34 +1,56 @@
 {% extends 'base.html' %}
 
+
 {% block title %}
 {{ monster.name }}
 {% endblock %}
+
 
 {% block style %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/monster.css') }}">
 {% endblock %}
 
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/monster.js') }}"></script>
+{% endblock %}
+
+
 {% block content %}
 
-<div class="container" style="padding-top: 0px ; padding-left: 100px;">
+<div class="container">
 
-  <h1><a href='/brawl_add_monster?slug_name={{ monster.slug_name}}'><img width=50 src='{{ url_for('static', filename='images/brawl.png') }}'></a> <strong>{{ monster.name }}</strong></h1>
+  <h1>
 
+    <!-- Begin add monster to brawl -->
+    <a href='/brawl_add_monster?slug_name={{ monster.slug_name}}'>
+      <img width=50 src='{{ url_for('static', filename='images/brawl.png') }}'>
+    </a>
+    <!-- End add monster to brawl -->
+
+    <strong>{{ monster.name }}</strong>
+
+  </h1>
+
+  <!-- Begin monster type -->
   {{ monster.size|title }} {{ monster.type|title }}
   {% if monster.subtype %}
     ({{ monster.subtype|title }})
   {% endif %}
   , {{ monster.alignment|title }}
-
   <hr>
+  <!-- End monster type -->
 
+  <!-- Begin monster ac, hp, and speed -->
   <p><strong>Armor Class</strong> {{ monster.armor_class }}</p>
   <p><strong>Hit Points</strong> {{ monster.hit_points }} ({{ monster.hit_dice }})</p>
   <p><strong>Speed</strong> {{ monster.speed }}</p>
-
   <hr>
+  <!-- End monster ac, hp, and speed -->
 
+  <!-- Begin monster attributes -->
   <table width=50%>
+
     <thead>
       <tr>
         <th><strong>STR</strong></th>
@@ -53,9 +75,10 @@
     </tbody>
 
   </table>
-
   <hr>
+  <!-- End monster attributes -->
 
+  <!-- Start monster details -->
   {% if monster.saving_throws %}
     <p><strong>Saving Throws</strong>
       {{ monster.saving_throws }}
@@ -73,7 +96,6 @@
       {{ monster.condition_immunities }}
     </p>
   {% endif %}
-
 
   {% if monster.damage_resistances %}
     <p><strong>Resistances</strong>
@@ -106,7 +128,9 @@
   </p>
 
   <hr>
+  <!-- End monster details -->
 
+  <!-- Start monster special abilities -->
   {% if monster.special_abilities %}
     {% for ability in monster.special_abilities %}
       <p><strong>• {{ ability.name }}</strong></p>
@@ -123,7 +147,9 @@
 
   <hr>
   {% endif %}
+  <!-- End monster special abilities -->
 
+  <!-- Start monster actions -->
   <h4><strong>Actions</strong></h4>
   <br>
 
@@ -133,18 +159,22 @@
       <p class="indent">{{ description }}</p>
     {% endfor %}
   {% endfor %}
+  <!-- End monster actions -->
 
+  <!-- Start monster legendary actions -->
   {% if monster.legendary_actions %}
-    <h4><strong>Legendary Actions</strong></h4>
-    <br>
+    <h4><strong>Legendary Actions</strong></h4><br>
 
+    <div id='legendary_actions'>
     {% for legendary_action in monster.legendary_actions %}
       <p><strong>• {{ legendary_action.name }}</strong></p>
       {% for description in legendary_action.descriptions %}
         <p class="indent">{{ description }}</p>
       {% endfor %}
     {% endfor %}
+    </div>
   {% endif %}
+  <!-- End monster legendary actions -->
 
 </div>
 
