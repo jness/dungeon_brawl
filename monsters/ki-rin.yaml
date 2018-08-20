@@ -104,8 +104,6 @@ spell_casting:
         - name: " create food and water"
           slug_name: "create-food-and-water"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

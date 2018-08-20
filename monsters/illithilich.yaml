@@ -198,8 +198,6 @@ spell_casting:
         - name: " power word kill"
           slug_name: "power-word-kill"
 
-      
-
   - title: "Innate Spellcasting (Psionics)"
 
     top_description: |

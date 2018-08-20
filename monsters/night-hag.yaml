@@ -108,8 +108,6 @@ spell_casting:
         - name: "sleep"
           slug_name: "sleep"
 
-      
-
   - title: "Shared Spellcasting (Coven Only)"
 
     top_description: |

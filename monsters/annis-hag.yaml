@@ -85,8 +85,6 @@ spell_casting:
         - name: "fog cloud"
           slug_name: "fog-cloud"
 
-      
-
   - title: "Shared Spellcasting (Coven Only)"
 
     top_description: |
@@ -143,8 +141,6 @@ spell_casting:
         - name: " eyebite"
           slug_name: "eyebite"
 
-      
-
   - title: "Variant: Death Coven"
 
     top_description: |
@@ -199,8 +195,6 @@ spell_casting:
         - name: " circle of death"
           slug_name: "circle-of-death"
 
-      
-
   - title: "Variant: Nature Coven"
 
     top_description: |
@@ -254,8 +248,6 @@ spell_casting:
       - "6th level (1 slot)":
         - name: " wall of thorns"
           slug_name: "wall-of-thorns"
-
-      
 
   - title: "Variant: Prophecy Coven"
 

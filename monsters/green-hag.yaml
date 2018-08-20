@@ -94,8 +94,6 @@ spell_casting:
         - name: "vicious mockery"
           slug_name: "vicious-mockery"
 
-      
-
   - title: "Shared Spellcasting (Coven Only)"
 
     top_description: |

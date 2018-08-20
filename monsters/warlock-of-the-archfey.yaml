@@ -77,8 +77,6 @@ spell_casting:
         - name: " conjure fey"
           slug_name: "conjure-fey"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

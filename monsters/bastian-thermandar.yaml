@@ -62,8 +62,6 @@ spell_casting:
         - name: " burning hands"
           slug_name: "burning-hands"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

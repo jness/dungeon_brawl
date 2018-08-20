@@ -86,8 +86,6 @@ spell_casting:
         - name: " command"
           slug_name: "command"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

@@ -73,8 +73,6 @@ spell_casting:
         - name: "mage armor (self only)"
           slug_name: "mage-armor"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

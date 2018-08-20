@@ -82,8 +82,6 @@ spell_casting:
         - name: "true seeing"
           slug_name: "true-seeing"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

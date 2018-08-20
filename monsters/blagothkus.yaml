@@ -69,8 +69,6 @@ spell_casting:
         - name: "levitate"
           slug_name: "levitate"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

@@ -94,8 +94,6 @@ spell_casting:
         - name: "faerie fire"
           slug_name: "faerie-fire"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

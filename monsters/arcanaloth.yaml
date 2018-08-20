@@ -90,8 +90,6 @@ spell_casting:
         - name: "magic missile"
           slug_name: "magic-missile"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

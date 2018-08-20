@@ -62,8 +62,6 @@ spell_casting:
         - name: " pass without trace"
           slug_name: "pass-without-trace"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

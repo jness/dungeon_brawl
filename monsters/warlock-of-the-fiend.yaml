@@ -85,8 +85,6 @@ spell_casting:
         - name: "plane shift"
           slug_name: "plane-shift"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

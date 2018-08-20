@@ -78,8 +78,6 @@ spell_casting:
         - name: "faerie fire (save DC 12)"
           slug_name: "faerie-fire"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

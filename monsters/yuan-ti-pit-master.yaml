@@ -86,8 +86,6 @@ spell_casting:
         - name: " animal friendship (snakes only) 3/day"
           slug_name: "animal-friendship"
 
-      
-
   - title: "Spellcasting (Yuan-ti Farm Only)"
 
     top_description: |

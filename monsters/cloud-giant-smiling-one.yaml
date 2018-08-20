@@ -102,8 +102,6 @@ spell_casting:
         - name: "gaseous form"
           slug_name: "gaseous-form"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

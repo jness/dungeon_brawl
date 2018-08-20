@@ -95,8 +95,6 @@ spell_casting:
         - name: " suggestion"
           slug_name: "suggestion"
 
-      
-
   - title: "Spellcasting (Yuan-ti Form Only)"
 
     top_description: |

@@ -67,8 +67,6 @@ spell_casting:
         - name: " create or destroy water"
           slug_name: "create-or-destroy-water"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |

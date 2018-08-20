@@ -81,8 +81,6 @@ spell_casting:
         - name: "levitate (self only)"
           slug_name: "levitate"
 
-      
-
   - title: "Spellcasting"
 
     top_description: |
