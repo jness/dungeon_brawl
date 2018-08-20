@@ -63,32 +63,32 @@
       "descriptions": [
         "Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared: ",
         {
-          "raw": "* Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/gust\">gust</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "raw": "Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/gust\">gust</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
-          "raw": "* 1st level (4 slots): charm person, feather fall, mage armor, thunderwave",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/feather-fall\">feather fall</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
+          "raw": "1st level (4 slots): charm person, feather fall, mage armor, thunderwave",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/feather-fall\">feather fall</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): dust devil, gust of wind, invisibility",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/dust-devil\">dust devil</a>, <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/invisibility\">invisibility</a>"
+          "raw": "2nd level (3 slots): dust devil, gust of wind, invisibility",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/dust-devil\">dust devil</a>, <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/invisibility\">invisibility</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): fly, gaseous form, lightning bolt",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/gaseous-form\">gaseous form</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "raw": "3rd level (3 slots): fly, gaseous form, lightning bolt",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/gaseous-form\">gaseous form</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
-          "raw": "* 4th level (3 slots): ice storm, storm sphere",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/ice-storm\">ice storm</a>, <a href=\"/spell/storm-sphere\">storm sphere</a>"
+          "raw": "4th level (3 slots): ice storm, storm sphere",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/ice-storm\">ice storm</a>, <a href=\"/spell/storm-sphere\">storm sphere</a>"
         },
         {
-          "raw": "* 5th level (2 slots): cloudkill, seeming (cast each day)",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/cloudkill\">cloudkill</a>, <a href=\"/spell/seeming\">seeming</a> (cast each day)"
+          "raw": "5th level (2 slots): cloudkill, seeming (cast each day)",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/cloudkill\">cloudkill</a>, <a href=\"/spell/seeming\">seeming</a> (cast each day)"
         },
         {
-          "raw": "* 6th level (1 slot): chain lightning",
-          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/chain-lightning\">chain lightning</a>"
+          "raw": "6th level (1 slot): chain lightning",
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/chain-lightning\">chain lightning</a>"
         }
       ]
     }

@@ -45,24 +45,24 @@
       "descriptions": [
         "Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared: ",
         {
-          "raw": "* Cantrips (at will): druidcraft, guidance, poison spray, produce flame",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/produce-flame\">produce flame</a>"
+          "raw": "Cantrips (at will): druidcraft, guidance, poison spray, produce flame",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/produce-flame\">produce flame</a>"
         },
         {
-          "raw": "* 1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/animal-friendship\">animal friendship</a>, <a href=\"/spell/faerie-fire\">faerie fire</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/jump\">jump</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
+          "raw": "1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/animal-friendship\">animal friendship</a>, <a href=\"/spell/faerie-fire\">faerie fire</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/jump\">jump</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): flame blade, spike growth",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/flame-blade\">flame blade</a>, <a href=\"/spell/spike-growth\">spike growth</a>"
+          "raw": "2nd level (3 slots): flame blade, spike growth",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/flame-blade\">flame blade</a>, <a href=\"/spell/spike-growth\">spike growth</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): dispel magic, stinking cloud",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/stinking-cloud\">stinking cloud</a>"
+          "raw": "3rd level (3 slots): dispel magic, stinking cloud",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/stinking-cloud\">stinking cloud</a>"
         },
         {
-          "raw": "* 4th level (2 slots): blight, wall of fire",
-          "hyperlinked": "* 4th level (2 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
+          "raw": "4th level (2 slots): blight, wall of fire",
+          "hyperlinked": "4th level (2 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
         }
       ]
     },

@@ -45,28 +45,28 @@
       "descriptions": [
         "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: ",
         {
-          "raw": "* Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "raw": "Cantrips (at will): fire bolt, light, mage hand, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
-          "raw": "* 1st level (4 slots): detect magic, mage armor, magic missile, shield",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
+          "raw": "1st level (4 slots): detect magic, mage armor, magic missile, shield",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): misty step, suggestion",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/suggestion\">suggestion</a>"
+          "raw": "2nd level (3 slots): misty step, suggestion",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): counterspell, fireball, fly",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/fly\">fly</a>"
+          "raw": "3rd level (3 slots): counterspell, fireball, fly",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/fly\">fly</a>"
         },
         {
-          "raw": "* 4th level (3 slots): greater invisibility, ice storm",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/greater-invisibility\">greater invisibility</a>, <a href=\"/spell/ice-storm\">ice storm</a>"
+          "raw": "4th level (3 slots): greater invisibility, ice storm",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/greater-invisibility\">greater invisibility</a>, <a href=\"/spell/ice-storm\">ice storm</a>"
         },
         {
-          "raw": "* 5th level (1 slot): cone of cold",
-          "hyperlinked": "* 5th level (1 slot): <a href=\"/spell/cone-of-cold\">cone of cold</a>"
+          "raw": "5th level (1 slot): cone of cold",
+          "hyperlinked": "5th level (1 slot): <a href=\"/spell/cone-of-cold\">cone of cold</a>"
         }
       ]
     }

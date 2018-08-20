@@ -49,8 +49,8 @@
           "hyperlinked": "Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/mending\">mending</a>"
         },
         {
-          "raw": "1st level (4 slots):false life*, mage armor, ray of sickness*",
-          "hyperlinked": "1st level (4 slots):<a href=\"/spell/false-life\">false life*</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness*</a>"
+          "raw": "1st level (4 slots): false life*, mage armor, ray of sickness*",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/false-life\">false life*</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness*</a>"
         },
         {
           "raw": "2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web",

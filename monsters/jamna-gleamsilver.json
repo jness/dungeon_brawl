@@ -57,12 +57,12 @@
       "descriptions": [
         "Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.",
         {
-          "raw": "* Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
-          "raw": "* 1st level (3 slots): charm person, color spray, disguise self, longstrider",
-          "hyperlinked": "* 1st level (3 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/color-spray\">color spray</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/longstrider\">longstrider</a>"
+          "raw": "1st level (3 slots): charm person, color spray, disguise self, longstrider",
+          "hyperlinked": "1st level (3 slots): <a href=\"/spell/charm-person\">charm person</a>, <a href=\"/spell/color-spray\">color spray</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/longstrider\">longstrider</a>"
         }
       ]
     }

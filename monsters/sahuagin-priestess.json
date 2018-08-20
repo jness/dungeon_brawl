@@ -63,20 +63,20 @@
       "descriptions": [
         "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared: ",
         {
-          "raw": "* Cantrips (at will): guidance, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): guidance, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): bless, detect magic, guiding bolt",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/bless\">bless</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/guiding-bolt\">guiding bolt</a>"
+          "raw": "1st level (4 slots): bless, detect magic, guiding bolt",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bless\">bless</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/guiding-bolt\">guiding bolt</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): hold person, spiritual weapon (trident)",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (trident)"
+          "raw": "2nd level (3 slots): hold person, spiritual weapon (trident)",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (trident)"
         },
         {
-          "raw": "* 3rd level (3 slots): mass healing word, tongues",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/mass-healing-word\">mass healing word</a>, <a href=\"/spell/tongues\">tongues</a>"
+          "raw": "3rd level (3 slots): mass healing word, tongues",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/mass-healing-word\">mass healing word</a>, <a href=\"/spell/tongues\">tongues</a>"
         }
       ]
     }

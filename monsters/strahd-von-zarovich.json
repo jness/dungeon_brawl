@@ -72,28 +72,28 @@
       "descriptions": [
         "Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). Strahd has the following wizard spells prepared:",
         {
-          "raw": "* Cantrips (at will): mage hand, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): mage hand, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
-          "raw": "* 1st level (4 slots): comprehend languages, fog cloud, sleep",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/comprehend-languages\">comprehend languages</a>, <a href=\"/spell/fog-cloud\">fog cloud</a>, <a href=\"/spell/sleep\">sleep</a>"
+          "raw": "1st level (4 slots): comprehend languages, fog cloud, sleep",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/comprehend-languages\">comprehend languages</a>, <a href=\"/spell/fog-cloud\">fog cloud</a>, <a href=\"/spell/sleep\">sleep</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): detect thoughts, gust of wind, mirror image",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/mirror-image\">mirror image</a>"
+          "raw": "2nd level (3 slots): detect thoughts, gust of wind, mirror image",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/mirror-image\">mirror image</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): animate dead, fireball, nondetection",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/animate-dead\">animate dead</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/nondetection\">nondetection</a>"
+          "raw": "3rd level (3 slots): animate dead, fireball, nondetection",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/animate-dead\">animate dead</a>, <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/nondetection\">nondetection</a>"
         },
         {
-          "raw": "* 4th level (3 slots): blight, greater invisibility, polymorph",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>, <a href=\"/spell/polymorph\">polymorph</a>"
+          "raw": "4th level (3 slots): blight, greater invisibility, polymorph",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/blight\">blight</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>, <a href=\"/spell/polymorph\">polymorph</a>"
         },
         {
-          "raw": "* 5th level (1 slot): animate objects, scrying",
-          "hyperlinked": "* 5th level (1 slot): <a href=\"/spell/animate-objects\">animate objects</a>, <a href=\"/spell/scrying\">scrying</a>"
+          "raw": "5th level (1 slot): animate objects, scrying",
+          "hyperlinked": "5th level (1 slot): <a href=\"/spell/animate-objects\">animate objects</a>, <a href=\"/spell/scrying\">scrying</a>"
         }
       ]
     },

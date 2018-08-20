@@ -67,40 +67,40 @@
       "descriptions": [
         "The arcanaloth is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth has the following wizard spells prepared: ",
         {
-          "raw": "* Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "raw": "Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
-          "raw": "* 1st level (4 slots): detect magic, identify, shield, Tenser's floating disk",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/tenser-s-floating-disk\">Tenser's floating disk</a>"
+          "raw": "1st level (4 slots): detect magic, identify, shield, Tenser's floating disk",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/tenser-s-floating-disk\">Tenser's floating disk</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): detect thoughts, mirror image, phantasmal force, suggestion",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/mirror-image\">mirror image</a>, <a href=\"/spell/phantasmal-force\">phantasmal force</a>, <a href=\"/spell/suggestion\">suggestion</a>"
+          "raw": "2nd level (3 slots): detect thoughts, mirror image, phantasmal force, suggestion",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/mirror-image\">mirror image</a>, <a href=\"/spell/phantasmal-force\">phantasmal force</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): counterspell, fear, fireball",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/fireball\">fireball</a>"
+          "raw": "3rd level (3 slots): counterspell, fear, fireball",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/fireball\">fireball</a>"
         },
         {
-          "raw": "* 4th level (3 slots): banishment, dimension door",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/banishment\">banishment</a>, <a href=\"/spell/dimension-door\">dimension door</a>"
+          "raw": "4th level (3 slots): banishment, dimension door",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/banishment\">banishment</a>, <a href=\"/spell/dimension-door\">dimension door</a>"
         },
         {
-          "raw": "* 5th level (2 slots): contact other plane, hold monster",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/hold-monster\">hold monster</a>"
+          "raw": "5th level (2 slots): contact other plane, hold monster",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/hold-monster\">hold monster</a>"
         },
         {
-          "raw": "* 6th level (1 slot): chain lightning",
-          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/chain-lightning\">chain lightning</a>"
+          "raw": "6th level (1 slot): chain lightning",
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/chain-lightning\">chain lightning</a>"
         },
         {
-          "raw": "* 7th level (1 slot): finger of death",
-          "hyperlinked": "* 7th level (1 slot): <a href=\"/spell/finger-of-death\">finger of death</a>"
+          "raw": "7th level (1 slot): finger of death",
+          "hyperlinked": "7th level (1 slot): <a href=\"/spell/finger-of-death\">finger of death</a>"
         },
         {
-          "raw": "* 8th level (1 slot): mind blank",
-          "hyperlinked": "* 8th level (1 slot): <a href=\"/spell/mind-blank\">mind blank</a>"
+          "raw": "8th level (1 slot): mind blank",
+          "hyperlinked": "8th level (1 slot): <a href=\"/spell/mind-blank\">mind blank</a>"
         }
       ]
     }

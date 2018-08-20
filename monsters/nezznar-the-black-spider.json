@@ -77,8 +77,8 @@
       "descriptions": [
         "Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the following spells prepared from the wizard's spell list: ",
         {
-          "raw": "* Cantrips (at will): mage hand, ray of frost, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "raw": "Cantrips (at will): mage hand, ray of frost, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
           "raw": "* 1st Level (4 slots): mage armor, magic missile, shield",

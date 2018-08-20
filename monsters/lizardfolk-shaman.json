@@ -51,8 +51,8 @@
       "descriptions": [
         "The lizardfolk is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared: ",
         {
-          "raw": "* Cantrips (at will): druidcraft, produce flame, thorn whip",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/produce-flame\">produce flame</a>, <a href=\"/spell/thorn-whip\">thorn whip</a>"
+          "raw": "Cantrips (at will): druidcraft, produce flame, thorn whip",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/druidcraft\">druidcraft</a>, <a href=\"/spell/produce-flame\">produce flame</a>, <a href=\"/spell/thorn-whip\">thorn whip</a>"
         },
         {
           "raw": "* 1st Level (4 slots): entangle, fog cloud",

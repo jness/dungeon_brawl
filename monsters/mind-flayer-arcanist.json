@@ -65,28 +65,28 @@
       "descriptions": [
         "The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared: ",
         {
-          "raw": "* Cantrips (at will): blade ward, dancing lights, mage hand, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "raw": "Cantrips (at will): blade ward, dancing lights, mage hand, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/dancing-lights\">dancing lights</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
-          "raw": "* 1st level (4 slots): detect magic, disguise self, shield, sleep",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/sleep\">sleep</a>"
+          "raw": "1st level (4 slots): detect magic, disguise self, shield, sleep",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/sleep\">sleep</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): blur, invisibility, ray of enfeeblement",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/blur\">blur</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/ray-of-enfeeblement\">ray of enfeeblement</a>"
+          "raw": "2nd level (3 slots): blur, invisibility, ray of enfeeblement",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/blur\">blur</a>, <a href=\"/spell/invisibility\">invisibility</a>, <a href=\"/spell/ray-of-enfeeblement\">ray of enfeeblement</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): clairvoyance, lightning bolt, sending",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>, <a href=\"/spell/sending\">sending</a>"
+          "raw": "3rd level (3 slots): clairvoyance, lightning bolt, sending",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>, <a href=\"/spell/sending\">sending</a>"
         },
         {
-          "raw": "* 4th level (3 slots): confusion, hallucinatory terrain",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/hallucinatory-terrain\">hallucinatory terrain</a>"
+          "raw": "4th level (3 slots): confusion, hallucinatory terrain",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/hallucinatory-terrain\">hallucinatory terrain</a>"
         },
         {
-          "raw": "* 5th level (2 slots): telekinesis, wall of force",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/telekinesis\">telekinesis</a>, <a href=\"/spell/wall-of-force\">wall of force</a>"
+          "raw": "5th level (2 slots): telekinesis, wall of force",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/telekinesis\">telekinesis</a>, <a href=\"/spell/wall-of-force\">wall of force</a>"
         }
       ]
     }

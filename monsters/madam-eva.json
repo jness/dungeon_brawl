@@ -45,40 +45,40 @@
       "descriptions": [
         "Madam Eva is a 16th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). Madam Eva has the following cleric spells prepared:",
         {
-          "raw": "* Cantrips (at will): light, mending, sacred flame, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): light, mending, sacred flame, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/mending\">mending</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): bane, command, detect evil and good, protection from evil and good",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/command\">command</a>, <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/protection-from-evil-and-good\">protection from evil and good</a>"
+          "raw": "1st level (4 slots): bane, command, detect evil and good, protection from evil and good",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/command\">command</a>, <a href=\"/spell/detect-evil-and-good\">detect evil and good</a>, <a href=\"/spell/protection-from-evil-and-good\">protection from evil and good</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/protection-from-poison\">protection from poison</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "raw": "2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/protection-from-poison\">protection from poison</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): create food and water, speak with dead, spirit guardians",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/create-food-and-water\">create food and water</a>, <a href=\"/spell/speak-with-dead\">speak with dead</a>, <a href=\"/spell/spirit-guardians\">spirit guardians</a>"
+          "raw": "3rd level (3 slots): create food and water, speak with dead, spirit guardians",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/create-food-and-water\">create food and water</a>, <a href=\"/spell/speak-with-dead\">speak with dead</a>, <a href=\"/spell/spirit-guardians\">spirit guardians</a>"
         },
         {
-          "raw": "* 4th level (3 slots): divination, freedom of movement, guardians of faith",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/divination\">divination</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>, <a href=\"/spell/guardians-of-faith\">guardians of faith</a>"
+          "raw": "4th level (3 slots): divination, freedom of movement, guardians of faith",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/divination\">divination</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>, <a href=\"/spell/guardians-of-faith\">guardians of faith</a>"
         },
         {
-          "raw": "* 5th level (2 slots): greater restoration, raise dead",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/greater-restoration\">greater restoration</a>, <a href=\"/spell/raise-dead\">raise dead</a>"
+          "raw": "5th level (2 slots): greater restoration, raise dead",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/greater-restoration\">greater restoration</a>, <a href=\"/spell/raise-dead\">raise dead</a>"
         },
         {
-          "raw": "* 6th level (1 slot): find the path, harm, true seeing",
-          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/find-the-path\">find the path</a>, <a href=\"/spell/harm\">harm</a>, <a href=\"/spell/true-seeing\">true seeing</a>"
+          "raw": "6th level (1 slot): find the path, harm, true seeing",
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/find-the-path\">find the path</a>, <a href=\"/spell/harm\">harm</a>, <a href=\"/spell/true-seeing\">true seeing</a>"
         },
         {
-          "raw": "* 7th level (1 slot): fire storm, regenerate",
-          "hyperlinked": "* 7th level (1 slot): <a href=\"/spell/fire-storm\">fire storm</a>, <a href=\"/spell/regenerate\">regenerate</a>"
+          "raw": "7th level (1 slot): fire storm, regenerate",
+          "hyperlinked": "7th level (1 slot): <a href=\"/spell/fire-storm\">fire storm</a>, <a href=\"/spell/regenerate\">regenerate</a>"
         },
         {
-          "raw": "* 8th level (1 slot): earthquake",
-          "hyperlinked": "* 8th level (1 slot): <a href=\"/spell/earthquake\">earthquake</a>"
+          "raw": "8th level (1 slot): earthquake",
+          "hyperlinked": "8th level (1 slot): <a href=\"/spell/earthquake\">earthquake</a>"
         }
       ]
     }

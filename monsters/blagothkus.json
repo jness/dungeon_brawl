@@ -61,20 +61,20 @@
       "descriptions": [
         "Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list: ",
         {
-          "raw": "* Cantrips (at will): light, mage hand, prestidigitation",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "raw": "Cantrips (at will): light, mage hand, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
-          "raw": "* 1st level (4 slots): detect magic, identify, magic missile, shield",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
+          "raw": "1st level (4 slots): detect magic, identify, magic missile, shield",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): gust of wind, misty step, shatter",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/shatter\">shatter</a>"
+          "raw": "2nd level (3 slots): gust of wind, misty step, shatter",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/gust-of-wind\">gust of wind</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/shatter\">shatter</a>"
         },
         {
-          "raw": "* 3rd level (2 slots): fly, lightning bolt",
-          "hyperlinked": "* 3rd level (2 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "raw": "3rd level (2 slots): fly, lightning bolt",
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         }
       ]
     }

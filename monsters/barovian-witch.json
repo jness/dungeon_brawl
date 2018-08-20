@@ -45,16 +45,16 @@
       "descriptions": [
         "The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The witch has the following wizard spells prepared:",
         {
-          "raw": "* Cantrips (at will): mage hand, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): mage hand, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
-          "raw": "* 1st level (4 slots): ray of sickness, sleep, Tasha's hideous laughter",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/ray-of-sickness\">ray of sickness</a>, <a href=\"/spell/sleep\">sleep</a>, <a href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>"
+          "raw": "1st level (4 slots): ray of sickness, sleep, Tasha's hideous laughter",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/ray-of-sickness\">ray of sickness</a>, <a href=\"/spell/sleep\">sleep</a>, <a href=\"/spell/tasha-s-hideous-laughter\">Tasha's hideous laughter</a>"
         },
         {
-          "raw": "* 2nd level (2 slots): alter self, invisibility",
-          "hyperlinked": "* 2nd level (2 slots): <a href=\"/spell/alter-self\">alter self</a>, <a href=\"/spell/invisibility\">invisibility</a>"
+          "raw": "2nd level (2 slots): alter self, invisibility",
+          "hyperlinked": "2nd level (2 slots): <a href=\"/spell/alter-self\">alter self</a>, <a href=\"/spell/invisibility\">invisibility</a>"
         }
       ]
     }

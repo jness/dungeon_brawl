@@ -58,12 +58,12 @@
       "descriptions": [
         "The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells: ",
         {
-          "raw": "* Cantrips (at will): chill touch, eldritch blast, mage hand",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/eldritch-blast\">eldritch blast</a>, <a href=\"/spell/mage-hand\">mage hand</a>"
+          "raw": "Cantrips (at will): chill touch, eldritch blast, mage hand",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/eldritch-blast\">eldritch blast</a>, <a href=\"/spell/mage-hand\">mage hand</a>"
         },
-        "* 1st level: armor of Agathys, expeditious retreat, hex",
-        "* 2nd level: invisibility",
-        "* 3rd level: Vampiric touch"
+        "1st level: armor of Agathys, expeditious retreat, hex",
+        "2nd level: invisibility",
+        "3rd level: Vampiric touch"
       ]
     }
   ],

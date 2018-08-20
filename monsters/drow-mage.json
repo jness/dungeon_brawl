@@ -65,28 +65,28 @@
       "descriptions": [
         "The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared: ",
         {
-          "raw": "* Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
-          "raw": "* 1st level (4 slots): mage armor, magic missile, shield, witch bolt",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/witch-bolt\">witch bolt</a>"
+          "raw": "1st level (4 slots): mage armor, magic missile, shield, witch bolt",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>, <a href=\"/spell/witch-bolt\">witch bolt</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): alter self, misty step, web",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/alter-self\">alter self</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/web\">web</a>"
+          "raw": "2nd level (3 slots): alter self, misty step, web",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/alter-self\">alter self</a>, <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/web\">web</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): fly, lightning bolt",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "raw": "3rd level (3 slots): fly, lightning bolt",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fly\">fly</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
-          "raw": "* 4th level (3 slots): Evard's black tentacles, greater invisibility",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>"
+          "raw": "4th level (3 slots): Evard's black tentacles, greater invisibility",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>, <a href=\"/spell/greater-invisibility\">greater invisibility</a>"
         },
         {
-          "raw": "* 5th level (2 slots): cloudkill",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/cloudkill\">cloudkill</a>"
+          "raw": "5th level (2 slots): cloudkill",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/cloudkill\">cloudkill</a>"
         }
       ]
     },

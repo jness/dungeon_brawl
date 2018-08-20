@@ -74,28 +74,28 @@
       "descriptions": [
         "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: ",
         {
-          "raw": "* 1st level (4 slots): identify, ray of sickness",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+          "raw": "1st level (4 slots): identify, ray of sickness",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/identify\">identify</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): hold person, locate object",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/locate-object\">locate object</a>"
+          "raw": "2nd level (3 slots): hold person, locate object",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/locate-object\">locate object</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): bestow curse, counterspell, lightning bolt",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
+          "raw": "3rd level (3 slots): bestow curse, counterspell, lightning bolt",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/bestow-curse\">bestow curse</a>, <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/lightning-bolt\">lightning bolt</a>"
         },
         {
-          "raw": "* 4th level (3 slots): phantasmal killer, polymorph",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a href=\"/spell/polymorph\">polymorph</a>"
+          "raw": "4th level (3 slots): phantasmal killer, polymorph",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/phantasmal-killer\">phantasmal killer</a>, <a href=\"/spell/polymorph\">polymorph</a>"
         },
         {
-          "raw": "* 5th level (2 slots): contact other plane, scrying",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/scrying\">scrying</a>"
+          "raw": "5th level (2 slots): contact other plane, scrying",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/contact-other-plane\">contact other plane</a>, <a href=\"/spell/scrying\">scrying</a>"
         },
         {
-          "raw": "* 6th level (1 slot): eye bite",
-          "hyperlinked": "* 6th level (1 slot): <a href=\"/spell/eye-bite\">eye bite</a>"
+          "raw": "6th level (1 slot): eye bite",
+          "hyperlinked": "6th level (1 slot): <a href=\"/spell/eye-bite\">eye bite</a>"
         },
         "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
       ]

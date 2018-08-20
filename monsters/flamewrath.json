@@ -45,24 +45,24 @@
       "descriptions": [
         "The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells: ",
         {
-          "raw": "* Cantrips (at will): control flames, fire bolt, friends, light, minor illusion",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/control-flames\">control flames</a>, <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>"
+          "raw": "Cantrips (at will): control flames, fire bolt, friends, light, minor illusion",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/control-flames\">control flames</a>, <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/minor-illusion\">minor illusion</a>"
         },
         {
-          "raw": "* 1st level (4 slots): burning hands, color spray, mage armor",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/color-spray\">color spray</a>, <a href=\"/spell/mage-armor\">mage armor</a>"
+          "raw": "1st level (4 slots): burning hands, color spray, mage armor",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/burning-hands\">burning hands</a>, <a href=\"/spell/color-spray\">color spray</a>, <a href=\"/spell/mage-armor\">mage armor</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): scorching ray, suggestion",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/scorching-ray\">scorching ray</a>, <a href=\"/spell/suggestion\">suggestion</a>"
+          "raw": "2nd level (3 slots): scorching ray, suggestion",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/scorching-ray\">scorching ray</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): fireball, hypnotic pattern",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>"
+          "raw": "3rd level (3 slots): fireball, hypnotic pattern",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fireball\">fireball</a>, <a href=\"/spell/hypnotic-pattern\">hypnotic pattern</a>"
         },
         {
-          "raw": "* 4th level (1 slot): fire shield (see Wreathed in Flame)",
-          "hyperlinked": "* 4th level (1 slot): <a href=\"/spell/fire-shield\">fire shield</a> (see Wreathed in Flame)"
+          "raw": "4th level (1 slot): fire shield (see Wreathed in Flame)",
+          "hyperlinked": "4th level (1 slot): <a href=\"/spell/fire-shield\">fire shield</a> (see Wreathed in Flame)"
         }
       ]
     },

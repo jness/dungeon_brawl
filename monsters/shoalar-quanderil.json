@@ -65,20 +65,20 @@
       "descriptions": [
         "Shoalar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He knows the following sorcerer spells: ",
         {
-          "raw": "* Cantrips (at will): acid splash, chill touch, friends, prestidigitation, ray of frost",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/acid-splash\">acid splash</a>, <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
+          "raw": "Cantrips (at will): acid splash, chill touch, friends, prestidigitation, ray of frost",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/acid-splash\">acid splash</a>, <a href=\"/spell/chill-touch\">chill touch</a>, <a href=\"/spell/friends\">friends</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/ray-of-frost\">ray of frost</a>"
         },
         {
-          "raw": "* 1st level (4 slots): disguise self, mage armor, magic missile",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>"
+          "raw": "1st level (4 slots): disguise self, mage armor, magic missile",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/disguise-self\">disguise self</a>, <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): hold person, misty step",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/misty-step\">misty step</a>"
+          "raw": "2nd level (3 slots): hold person, misty step",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/misty-step\">misty step</a>"
         },
         {
-          "raw": "* 3rd level (2 slots): tidal wave",
-          "hyperlinked": "* 3rd level (2 slots): <a href=\"/spell/tidal-wave\">tidal wave</a>"
+          "raw": "3rd level (2 slots): tidal wave",
+          "hyperlinked": "3rd level (2 slots): <a href=\"/spell/tidal-wave\">tidal wave</a>"
         }
       ]
     }

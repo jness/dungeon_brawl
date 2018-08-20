@@ -83,24 +83,24 @@
       "descriptions": [
         "The drider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The drider has the following spells prepared from the cleric spell list: ",
         {
-          "raw": "* Cantrips (at will): poison spray, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): poison spray, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): bane, detect magic, sanctuary",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/sanctuary\">sanctuary</a>"
+          "raw": "1st level (4 slots): bane, detect magic, sanctuary",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bane\">bane</a>, <a href=\"/spell/detect-magic\">detect magic</a>, <a href=\"/spell/sanctuary\">sanctuary</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): hold person, silence",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/silence\">silence</a>"
+          "raw": "2nd level (3 slots): hold person, silence",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/silence\">silence</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): clairvoyance, dispel magic",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>"
+          "raw": "3rd level (3 slots): clairvoyance, dispel magic",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/clairvoyance\">clairvoyance</a>, <a href=\"/spell/dispel-magic\">dispel magic</a>"
         },
         {
-          "raw": "* 4th level (2 slots): divination,freedom of movement",
-          "hyperlinked": "* 4th level (2 slots): <a href=\"/spell/divination-freedom-of-movement\">divination,freedom of movement</a>"
+          "raw": "4th level (2 slots): divination,freedom of movement",
+          "hyperlinked": "4th level (2 slots): <a href=\"/spell/divination-freedom-of-movement\">divination,freedom of movement</a>"
         }
       ]
     }

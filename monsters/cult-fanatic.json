@@ -55,12 +55,12 @@
           "hyperlinked": "Cantrips (at will): <a href=\"/spell/light\">light</a>, <a href=\"/spell/sacred-flame\">sacred flame</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): command, inflict wounds, shield of faith",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/command\">command</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
+          "raw": "1st level (4 slots): command, inflict wounds, shield of faith",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/command\">command</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>, <a href=\"/spell/shield-of-faith\">shield of faith</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): hold person, spiritual weapon",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
+          "raw": "2nd level (3 slots): hold person, spiritual weapon",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/hold-person\">hold person</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a>"
         }
       ]
     }

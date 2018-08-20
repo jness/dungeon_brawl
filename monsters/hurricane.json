@@ -45,16 +45,16 @@
       "descriptions": [
         "The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells: ",
         {
-          "raw": "* Cantrips (at will): blade ward, gust, light, prestidigitation",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/gust\">gust</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
+          "raw": "Cantrips (at will): blade ward, gust, light, prestidigitation",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/blade-ward\">blade ward</a>, <a href=\"/spell/gust\">gust</a>, <a href=\"/spell/light\">light</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>"
         },
         {
-          "raw": "* 1st level (4 slots): feather fall, jump, thunderwave",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/feather-fall\">feather fall</a>, <a href=\"/spell/jump\">jump</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
+          "raw": "1st level (4 slots): feather fall, jump, thunderwave",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/feather-fall\">feather fall</a>, <a href=\"/spell/jump\">jump</a>, <a href=\"/spell/thunderwave\">thunderwave</a>"
         },
         {
-          "raw": "* 2nd level (2 slots): gust of wind",
-          "hyperlinked": "* 2nd level (2 slots): <a href=\"/spell/gust-of-wind\">gust of wind</a>"
+          "raw": "2nd level (2 slots): gust of wind",
+          "hyperlinked": "2nd level (2 slots): <a href=\"/spell/gust-of-wind\">gust of wind</a>"
         }
       ]
     },

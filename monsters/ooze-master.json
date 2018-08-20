@@ -82,12 +82,12 @@
           "hyperlinked": "2nd level (3 slots): <a href=\"/spell/detect-thoughts\">detect thoughts</a>, <a href=\"/spell/melf-s-acid-arrow\">Melf's acid arrow</a>, <a href=\"/spell/suggestion\">suggestion</a>"
         },
         {
-          "raw": "3rd level (3 slots):fear, slow, stinking cloud",
-          "hyperlinked": "3rd level (3 slots):<a href=\"/spell/fear\">fear</a>, <a href=\"/spell/slow\">slow</a>, <a href=\"/spell/stinking-cloud\">stinking cloud</a>"
+          "raw": "3rd level (3 slots): fear, slow, stinking cloud",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/fear\">fear</a>, <a href=\"/spell/slow\">slow</a>, <a href=\"/spell/stinking-cloud\">stinking cloud</a>"
         },
         {
-          "raw": "4th level (3 slots): confusion, Evard's evard's black tentacles",
-          "hyperlinked": "4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/evard-s-evard-s-black-tentacles\">Evard's evard's black tentacles</a>"
+          "raw": "4th level (3 slots): confusion, Evard's black tentacles",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/confusion\">confusion</a>, <a href=\"/spell/evard-s-black-tentacles\">Evard's black tentacles</a>"
         },
         {
           "raw": "5th level (1 slot): cloudkill.",

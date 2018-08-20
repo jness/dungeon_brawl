@@ -65,28 +65,28 @@
       "descriptions": [
         "The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared: ",
         {
-          "raw": "* Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/spare-the-dying\">spare the dying</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/poison-spray\">poison spray</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/spare-the-dying\">spare the dying</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/animal-friendship\">animal friendship</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/detect-poison-and-disease\">detect poison and disease</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
+          "raw": "1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/animal-friendship\">animal friendship</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/detect-poison-and-disease\">detect poison and disease</a>, <a href=\"/spell/ray-of-sickness\">ray of sickness</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): lesser restoration, protection from poison, web",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/protection-from-poison\">protection from poison</a>, <a href=\"/spell/web\">web</a>"
+          "raw": "2nd level (3 slots): lesser restoration, protection from poison, web",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/protection-from-poison\">protection from poison</a>, <a href=\"/spell/web\">web</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): conjure animals (2 giant spiders), dispel magic",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/conjure-animals\">conjure animals</a> (2 giant spiders), <a href=\"/spell/dispel-magic\">dispel magic</a>"
+          "raw": "3rd level (3 slots): conjure animals (2 giant spiders), dispel magic",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/conjure-animals\">conjure animals</a> (2 giant spiders), <a href=\"/spell/dispel-magic\">dispel magic</a>"
         },
         {
-          "raw": "* 4th level (3 slots): divination, freedom of movement",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/divination\">divination</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>"
+          "raw": "4th level (3 slots): divination, freedom of movement",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/divination\">divination</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>"
         },
         {
-          "raw": "* 5th level (2 slots): insect plague, mass cure wounds",
-          "hyperlinked": "* 5th level (2 slots): <a href=\"/spell/insect-plague\">insect plague</a>, <a href=\"/spell/mass-cure-wounds\">mass cure wounds</a>"
+          "raw": "5th level (2 slots): insect plague, mass cure wounds",
+          "hyperlinked": "5th level (2 slots): <a href=\"/spell/insect-plague\">insect plague</a>, <a href=\"/spell/mass-cure-wounds\">mass cure wounds</a>"
         }
       ]
     },

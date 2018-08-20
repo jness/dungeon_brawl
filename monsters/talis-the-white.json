@@ -57,28 +57,28 @@
       "descriptions": [
         "Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list: ",
         {
-          "raw": "* Cantrips (at will): guidance, resistance, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): guidance, resistance, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): command, cure wounds, healing word, inflict wounds",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/command\">command</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>"
+          "raw": "1st level (4 slots): command, cure wounds, healing word, inflict wounds",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/command\">command</a>, <a href=\"/spell/cure-wounds\">cure wounds</a>, <a href=\"/spell/healing-word\">healing word</a>, <a href=\"/spell/inflict-wounds\">inflict wounds</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear)",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/blindness-deafness\">blindness/deafness</a>, <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (spear)"
+          "raw": "2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear)",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/blindness-deafness\">blindness/deafness</a>, <a href=\"/spell/lesser-restoration\">lesser restoration</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (spear)"
         },
         {
-          "raw": "* 3rd level (3 slots): dispel magic, mass healing word, sending",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/mass-healing-word\">mass healing word</a>, <a href=\"/spell/sending\">sending</a>"
+          "raw": "3rd level (3 slots): dispel magic, mass healing word, sending",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/dispel-magic\">dispel magic</a>, <a href=\"/spell/mass-healing-word\">mass healing word</a>, <a href=\"/spell/sending\">sending</a>"
         },
         {
-          "raw": "* 4th level (3 slots): death ward, freedom of movement",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/death-ward\">death ward</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>"
+          "raw": "4th level (3 slots): death ward, freedom of movement",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/death-ward\">death ward</a>, <a href=\"/spell/freedom-of-movement\">freedom of movement</a>"
         },
         {
-          "raw": "* 5th level (1 slot): insect plague",
-          "hyperlinked": "* 5th level (1 slot): <a href=\"/spell/insect-plague\">insect plague</a>"
+          "raw": "5th level (1 slot): insect plague",
+          "hyperlinked": "5th level (1 slot): <a href=\"/spell/insect-plague\">insect plague</a>"
         }
       ]
     },

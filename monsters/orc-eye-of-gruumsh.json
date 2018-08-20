@@ -57,16 +57,16 @@
       "descriptions": [
         "The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared: ",
         {
-          "raw": "* Cantrips (at will): guidance, resistance, thaumaturgy",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
+          "raw": "Cantrips (at will): guidance, resistance, thaumaturgy",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/guidance\">guidance</a>, <a href=\"/spell/resistance\">resistance</a>, <a href=\"/spell/thaumaturgy\">thaumaturgy</a>"
         },
         {
-          "raw": "* 1st level (4 slots): bless, command",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/bless\">bless</a>, <a href=\"/spell/command\">command</a>"
+          "raw": "1st level (4 slots): bless, command",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/bless\">bless</a>, <a href=\"/spell/command\">command</a>"
         },
         {
-          "raw": "* 2nd level (2 slots): augury, spiritual weapon (spear)",
-          "hyperlinked": "* 2nd level (2 slots): <a href=\"/spell/augury\">augury</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (spear)"
+          "raw": "2nd level (2 slots): augury, spiritual weapon (spear)",
+          "hyperlinked": "2nd level (2 slots): <a href=\"/spell/augury\">augury</a>, <a href=\"/spell/spiritual-weapon\">spiritual weapon</a> (spear)"
         }
       ]
     }

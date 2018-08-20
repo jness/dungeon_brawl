@@ -59,28 +59,28 @@
       "descriptions": [
         "Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells: ",
         {
-          "raw": "* Cantrips (at will): fire bolt, mage hand, message, prestidigitation, shocking grasp",
-          "hyperlinked": "* Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
+          "raw": "Cantrips (at will): fire bolt, mage hand, message, prestidigitation, shocking grasp",
+          "hyperlinked": "Cantrips (at will): <a href=\"/spell/fire-bolt\">fire bolt</a>, <a href=\"/spell/mage-hand\">mage hand</a>, <a href=\"/spell/message\">message</a>, <a href=\"/spell/prestidigitation\">prestidigitation</a>, <a href=\"/spell/shocking-grasp\">shocking grasp</a>"
         },
         {
-          "raw": "* 1st level (4 slots): mage armor, magic missile, shield",
-          "hyperlinked": "* 1st level (4 slots): <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
+          "raw": "1st level (4 slots): mage armor, magic missile, shield",
+          "hyperlinked": "1st level (4 slots): <a href=\"/spell/mage-armor\">mage armor</a>, <a href=\"/spell/magic-missile\">magic missile</a>, <a href=\"/spell/shield\">shield</a>"
         },
         {
-          "raw": "* 2nd level (3 slots): misty step, scorching ray",
-          "hyperlinked": "* 2nd level (3 slots): <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
+          "raw": "2nd level (3 slots): misty step, scorching ray",
+          "hyperlinked": "2nd level (3 slots): <a href=\"/spell/misty-step\">misty step</a>, <a href=\"/spell/scorching-ray\">scorching ray</a>"
         },
         {
-          "raw": "* 3rd level (3 slots): counterspell, fireball",
-          "hyperlinked": "* 3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>"
+          "raw": "3rd level (3 slots): counterspell, fireball",
+          "hyperlinked": "3rd level (3 slots): <a href=\"/spell/counterspell\">counterspell</a>, <a href=\"/spell/fireball\">fireball</a>"
         },
         {
-          "raw": "* 4th level (3 slots): dimension door, wall of fire",
-          "hyperlinked": "* 4th level (3 slots): <a href=\"/spell/dimension-door\">dimension door</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
+          "raw": "4th level (3 slots): dimension door, wall of fire",
+          "hyperlinked": "4th level (3 slots): <a href=\"/spell/dimension-door\">dimension door</a>, <a href=\"/spell/wall-of-fire\">wall of fire</a>"
         },
         {
-          "raw": "* 5th level (1 slot): hold monster",
-          "hyperlinked": "* 5th level (1 slot): <a href=\"/spell/hold-monster\">hold monster</a>"
+          "raw": "5th level (1 slot): hold monster",
+          "hyperlinked": "5th level (1 slot): <a href=\"/spell/hold-monster\">hold monster</a>"
         }
       ]
     }
