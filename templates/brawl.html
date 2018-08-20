@@ -134,11 +134,7 @@ Brawl
       <td>
         <center>
           {% if monster.conditions %}<img data-toggle="popover"
-            data-content="
-              {% for condition in monster.conditions %}
-                <a target='_blank' href='https://roll20.net/compendium/dnd5e/Conditions#h-{{ condition|title }}'>{{ condition|title }}</a>
-                {% if not loop.last %}, {% endif %}
-              {% endfor %}"
+            data-content="{% for condition in monster.conditions %}<a target='_blank' href='https://roll20.net/compendium/dnd5e/Conditions#h-{{ condition|title }}'>{{ condition|title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}"
             width=35 src='{{ url_for('static', filename='images/eye.png') }}'>
           {% endif %}
         </center>
