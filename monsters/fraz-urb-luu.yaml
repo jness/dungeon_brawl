@@ -1,0 +1,106 @@
+
+name: "Fraz-Urb'luu"
+slug_name: "fraz-urb-luu"
+
+challenge_rating: "23"
+challenge_rating_decimal: "23.0"
+experience: "50,000 XP"
+
+size: "Large"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "18"
+armor_class_type: "natural armor"
+hit_points: "350"
+hit_dice: "28d10+196"
+speed: "40 ft., fly 40 ft."
+
+strength: "29"
+strength_modifier: "+9"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "25"
+constitution_modifier: "+7"
+intelligence: "26"
+intelligence_modifier: "+8"
+wisdom: "24"
+wisdom_modifier: "+7"
+charisma: "26"
+charisma_modifier: "+8"
+
+saving_throws: "Dex +8, Con +15, Int +15, Wis +14"
+skills: "Deception +15, Perception +14, Stealth +8"
+senses: "truesight 120 ft."
+languages: "all, telepathy 120 ft."
+
+damage_resistances: "cold, fire, lightning"
+damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical"
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, frightened, poisoned"
+
+
+special_abilities:
+  - name: "Legendary Resistance (3/Day)"
+    description: |
+      If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead.
+
+  - name: "Magic Resistance"
+    description: |
+      Fraz-Urb'luu has advantage on saving throws against spell and other magic effects.
+
+  - name: "Magic Weapon"
+    description: |
+      Fraz-Urb'luu's weapon attacks are magical.
+
+  - name: "Undetectable"
+    description: |
+      Fraz-Urb'luu can't be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:
+
+      At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force
+      3/day each: confusion, dream, mislead, programmed illusion, seeming
+      1/day each: mirage arcane, modify memory, project image
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      Fraz-Urb'luu makes three attacks: one with his bite and two with his fists.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) piercing damage.
+
+  - name: "Fist"
+    description: |
+      Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage.
+
+  
+
+
+legendary_action_description: "Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn."
+
+
+
+legendary_actions:
+  - name: "Tail"
+    description: |
+      Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time.
+
+  - name: "Phantasmal Killer (Costs 2 Actions)"
+    description: |
+      Fraz-Urb'luu casts phantasmal killer, no concentration required.
+
+  

@@ -1,0 +1,78 @@
+
+name: "Young Bronze Dragon"
+slug_name: "young-bronze-dragon"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Large"
+type: "dragon"
+subtype: null
+alignment: "lawful good"
+
+armor_class: "18"
+armor_class_type: "natural armor"
+hit_points: "142"
+hit_dice: "15d10+60"
+speed: "40 ft., fly 80 ft., swim 40 ft."
+
+strength: "21"
+strength_modifier: "+5"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "19"
+constitution_modifier: "+4"
+intelligence: "14"
+intelligence_modifier: "+2"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "17"
+charisma_modifier: "+3"
+
+saving_throws: "Dex +3, Con +7, Wis +4, Cha +6"
+skills: "Insight +4, Perception +7, Stealth +3"
+senses: "blindsight 30 ft., darkvision 120 ft."
+languages: "Common, Draconic"
+
+damage_resistances: null
+damage_immunities: "lightning"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      The dragon can breathe air and water.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The dragon makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.
+
+  - name: "Breath Weapons (Recharge 5-6)"
+    description: |
+      The dragon uses one of the following breath weapons.
+
+      Lightning Breath. The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.
+
+      Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.
+
+  
+
+
+

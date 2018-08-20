@@ -1,0 +1,70 @@
+
+name: "Shadow Demon"
+slug_name: "shadow-demon"
+
+challenge_rating: "4"
+challenge_rating_decimal: "4.0"
+experience: "1,100 XP"
+
+size: "Medium"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "66"
+hit_dice: "12d8+12"
+speed: "30 ft., fly 30 ft."
+
+strength: "1"
+strength_modifier: "-5"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "14"
+intelligence_modifier: "+2"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "14"
+charisma_modifier: "+2"
+
+saving_throws: "Dex +5, Cha +4"
+skills: "Stealth +7"
+senses: "darkvision 120 ft."
+languages: "Abyssal, telepathy 120 ft."
+
+damage_resistances: "acid, fire, necrotic, thunder, bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: "cold, lightning, poison"
+damage_vulnerabilities: "radiant"
+condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained"
+
+
+special_abilities:
+  - name: "Incorporeal Movement"
+    description: |
+      The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+
+  - name: "Light Sensitivity"
+    description: |
+      While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  - name: "Shadow Stealth"
+    description: |
+      While in dim light or darkness, the demon can take the Hide action as a bonus action.
+
+  
+
+
+
+
+actions:
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.
+
+  
+
+
+

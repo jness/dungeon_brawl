@@ -1,0 +1,70 @@
+
+name: "Air Elemental Myrmidon"
+slug_name: "air-elemental-myrmidon"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Medium"
+type: "elemental"
+subtype: null
+alignment: "neutral"
+
+armor_class: "18"
+armor_class_type: "plate"
+hit_points: "117"
+hit_dice: "18d8+36"
+speed: "30 ft., fly 30 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "9"
+intelligence_modifier: "-1"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "Auran, one language of its creator's choice"
+
+damage_resistances: "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "paralyzed, petrified, poisoned, prone"
+
+
+special_abilities:
+  - name: "Magic Weapons"
+    description: |
+      The myrmidon's weapon attacks are magical.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The myrmidon makes three flail attacks.
+
+  - name: "Flail"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.
+
+  - name: "Lightning Strike (Recharge 6)"
+    description: |
+      The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.
+
+  
+
+
+

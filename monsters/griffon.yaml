@@ -1,0 +1,70 @@
+
+name: "Griffon"
+slug_name: "griffon"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Large"
+type: "monstrosity"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "59"
+hit_dice: "7d10+21"
+speed: "30 ft., fly 80 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Perception +5"
+senses: "darkvision 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Keen Sight"
+    description: |
+      The griffon has advantage on Wisdom (Perception) checks that rely on sight.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The griffon makes two attacks: one with its beak and one with its claws.
+
+  - name: "Beak"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.
+
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.
+
+  
+
+
+

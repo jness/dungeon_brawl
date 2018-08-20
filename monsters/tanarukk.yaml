@@ -1,0 +1,80 @@
+
+name: "Tanarukk"
+slug_name: "tanarukk"
+
+challenge_rating: "5"
+challenge_rating_decimal: "5.0"
+experience: "1,800 XP"
+
+size: "Medium"
+type: "fiend"
+subtype: "demon, orc"
+alignment: "chaotic evil"
+
+armor_class: "14"
+armor_class_type: "natural armor"
+hit_points: "95"
+hit_dice: "10d8+50"
+speed: "30 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "20"
+constitution_modifier: "+5"
+intelligence: "9"
+intelligence_modifier: "-1"
+wisdom: "9"
+wisdom_modifier: "-1"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Intimidation +2, Perception +2"
+senses: "darkvision 60 ft."
+languages: "Abyssal, Common, Orc"
+
+damage_resistances: "fire, poison"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Aggressive"
+    description: |
+      As a bonus action, the tanarukk can move up to its speed toward a hostile creature that it can see.
+
+  - name: "Magic Resistance"
+    description: |
+      The tanarukk has advantage on saving throws against spells and other magical effects.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The tanarukk makes two attacks: one with its bite and one with its greatsword.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.
+
+  - name: "Greatsword"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+
+      **Reactions**
+
+  - name: "Unbridled Fury"
+    description: |
+      In response to being hit by a melee attack, the tanarukk can make one melee weapon attack with advantage against the attacker.
+
+  
+
+
+

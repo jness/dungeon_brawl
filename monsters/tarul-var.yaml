@@ -1,0 +1,121 @@
+
+name: "Tarul Var"
+slug_name: "tarul-var"
+
+challenge_rating: "13"
+challenge_rating_decimal: "13.0"
+experience: "10,000 XP"
+
+size: "Medium"
+type: "undead"
+subtype: null
+alignment: "neutral evil"
+
+armor_class: "16"
+armor_class_type: "natural armor"
+hit_points: "105"
+hit_dice: "14d8+42"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "19"
+intelligence_modifier: "+4"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: "Con +8, Int +9, Wis +7"
+skills: "Arcana +9, History +9, Insight +7, Perception +7"
+senses: "darkvision 60 ft."
+languages: "Abyssal, Common, Infernal, Primordial, Thayan"
+
+damage_resistances: "cold, lightning, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
+
+
+special_abilities:
+  - name: "Source"
+    description: |
+      tales from the yawning portal,  page 244
+
+  - name: "Undead Nature"
+    description: |
+      A lich doesn't require air, food, drink, or sleep.
+
+  - name: "Focused Conjuration"
+    description: |
+      While Var is concentrating on a conjuration spell, his concentration can't be broken as a result of taking damage.
+
+  - name: "Legendary Resistance (3/Day)"
+    description: |
+      If Var fails a saving throw, he can choose to succeed instead .
+
+  - name: "Rejuvenation"
+    description: |
+      If Var is destroyed but his phylactery remains intact, Var gains a new body in ldlO days, regaining all his hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+
+  - name: "Turn Resistance"
+    description: |
+      Var has advantage on saving throws against any effect that turns undead .
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:
+
+      Cantrips (at will):.fire bolt, mage hand, minor illusion, prestidigitation, ray of frost
+      1st level (4 slots): detect magic, magic missile, shield, unseen servant*
+      2nd level (3 slots): detect thoughts, flaming sphere,* mirror image, scorching ray
+      3rd level (3 slots): counterspell, dispel magic, fireball
+      4th level (3 slots): dimension door,* Evard's black tentacles*
+      5th level (3 slots): cloudkill,* scrying
+      6th level (1 slot): circle of death
+
+      *Conjuration spell of 1st level or higher.
+
+
+  
+
+
+actions:
+  - name: "Paralyzing Touch"
+    description: |
+      Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+  - name: "Benign Transposition"
+    description: |
+      Var teleports up to 30 feet to an unoccupied space he can see. Alternatively, he can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, both creatures teleport, swapping places. Var can use this feature again only after he finishes a long rest or casts a conjuration spell of 1st level or higher.
+
+  
+
+
+legendary_action_description: "Var can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Var regains spent legendary actions at the start of his turn."
+
+
+
+legendary_actions:
+  - name: "Cantrip"
+    description: |
+      Var casts a cantrip.
+
+  - name: "Paralyzing Touch (Costs 2 Actions)"
+    description: |
+      Var uses Paralyzing Touch .
+
+  - name: "Frightening Gaze (Costs 2 Actions)"
+    description: |
+      Var fixes his gaze on one creature he can see within 10 feet of him . The target must succeed on a DC 17 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Var's gaze for the next 24 hours.
+
+  

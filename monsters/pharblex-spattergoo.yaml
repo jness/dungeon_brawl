@@ -1,0 +1,94 @@
+
+name: "Pharblex Spattergoo"
+slug_name: "pharblex-spattergoo"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "bullywug"
+alignment: "chaotic evil"
+
+armor_class: "15"
+armor_class_type: "studded leather armor, shield"
+hit_points: "59"
+hit_dice: "7d8+28"
+speed: "20 ft., swim 40 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "16"
+wisdom_modifier: "+3"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: "Str +4, Con +6"
+skills: "Perception +5, Religion +2, Stealth +3"
+senses: null
+languages: "Common, Bullywug"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      Pharblex can breathe air and water.
+
+  - name: "Poison Strike (3/Day)"
+    description: |
+      Once per turn, when Pharblex hits with a melee attack, he can expend a use of this trait to deal an extra 9 (2d8) poison damage.
+
+  - name: "Standing Leap"
+    description: |
+      As part of his movement and without a running start, Pharblex can long jump up to 20 feet and high jump up to 10 feet.
+
+  - name: "Swamp Camouflage"
+    description: |
+      Pharblex has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list: 
+
+      Cantrips (at will): druidcraft, guidance, poison spray
+      1st level (4 slots): cure wounds, entangle, healing word, thunderwave
+      2nd level (3 slots): barkskin, beast sense, spike growth
+      3rd level (3 slots): plant growth, water walk
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      Pharblex attacks twice. Once with his bite and once with his spear.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+  - name: "Spear"
+    description: |
+      Melee or Ranged Weapon Attack: +5 to hit. reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+  
+
+
+

@@ -1,0 +1,90 @@
+
+name: "Slithering Tracker"
+slug_name: "slithering-tracker"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "ooze"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "14"
+armor_class_type: null
+hit_points: "32"
+hit_dice: "5d8+10"
+speed: "30 ft., climb 30 ft., swim 30 ft."
+
+strength: "16"
+strength_modifier: "+3"
+dexterity: "19"
+dexterity_modifier: "+4"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Stealth +8"
+senses: "blindsight 120 ft."
+languages: "understands languages it knew in its previous form but can't speak"
+
+damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks"
+damage_immunities: null
+damage_vulnerabilities: "cold, fire"
+condition_immunities: "blinded, deafened, exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious"
+
+
+special_abilities:
+  - name: "Ambusher"
+    description: |
+      In the first round of a combat, the slithering tracker has advantage on attack rolls against any creature it surprised.
+
+  - name: "Damage Transfer"
+    description: |
+      While grappling a creature, the slithering tracker takes only haIf the damage dealt to it, and the creature it is grappling takes the other half.
+
+  - name: "False Appearance"
+    description: |
+      While the slithering tracker remains motionless, it is indistinguishable from a puddle, unless an observer succeeds on a DC 18 Intelligence (Investigation) check.
+
+  - name: "Keen Tracker"
+    description: |
+      The slithering tracker has advantage on Wisdom checks to track prey.
+
+  - name: "Liquid Form"
+    description: |
+      The slithering tracker can enter an enemy's space and stop there. It can also move through a space as narrow as 1 inch wide without squeezing.
+
+  - name: "Spider Climb"
+    description: |
+      The slithering tracker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+  - name: "Watery Stealth"
+    description: |
+      While underwater, the slithering tracker has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.
+
+  
+
+
+
+
+actions:
+  - name: "Slam"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) bludgeoning damage.
+
+  - name: "Life Leech"
+    description: |
+      One Large or smaller creature that the slithering tracker can see within 5 feet of it must succeed on a DC 13 Dexterity saving throw or be grappled (escape DC 13). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. In addition, the grappled target takes 16 (3d10) necrotic damage at the start of each of its turns. The slithering tracker can grapple only one target at a time.
+
+  
+
+
+

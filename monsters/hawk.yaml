@@ -1,0 +1,62 @@
+
+name: "Hawk"
+slug_name: "hawk"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "1"
+hit_dice: "1d4-1"
+speed: "10 ft., fly 60 ft."
+
+strength: "5"
+strength_modifier: "-3"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "8"
+constitution_modifier: "-1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "6"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Perception +4"
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Keen Sight"
+    description: |
+      The hawk has advantage on Wisdom (Perception) checks that rely on sight.
+
+  
+
+
+
+
+actions:
+  - name: "Talons"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.
+
+  
+
+
+

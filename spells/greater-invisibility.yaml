@@ -1,0 +1,25 @@
+
+name: Greater Invisibility
+slug_name: greater-invisibility
+
+classes:
+  - wizard
+  - bard
+  - warlock
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.246
+  - SRD.150
+  
+level: 4th-level
+school: Illusion
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 1 minute
+range: Touch
+
+description: |
+  You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.

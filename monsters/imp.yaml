@@ -1,0 +1,78 @@
+
+name: "Imp"
+slug_name: "imp"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Tiny"
+type: "fiend"
+subtype: "devil"
+alignment: "lawful evil"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "10"
+hit_dice: "3d4+3"
+speed: "20 ft., fly 40 ft."
+
+strength: "6"
+strength_modifier: "-2"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "14"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Deception +4, Insight +3, Persuasion +4, Stealth +5"
+senses: "darkvision 120 ft."
+languages: "Infernal, Common"
+
+damage_resistances: "cold; bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons"
+damage_immunities: "fire, poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Shapechanger"
+    description: |
+      The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+  - name: "Devil's Sight"
+    description: |
+      Magical darkness doesn't impede the imp's darkvision.
+
+  - name: "Magic Resistance"
+    description: |
+      The imp has advantage on saving throws against spells and other magical effects.
+
+  - name: "Variant: Familiar"
+    description: |
+      The imp can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the imp is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the imp can end its service as a familiar, ending the telepathic bond.
+
+  
+
+
+
+
+actions:
+  - name: "Sting (Bite in Beast Form)"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft ., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+
+  - name: "Invisibility"
+    description: |
+      The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.
+
+  
+
+
+

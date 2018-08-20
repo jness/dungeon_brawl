@@ -1,0 +1,25 @@
+
+name: Misty Step
+slug_name: misty-step
+
+classes:
+  - wizard
+  - paladin
+  - warlock
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.260
+  - SRD.165
+  
+level: 2nd-level
+school: Conjuration
+
+components: V
+casting_time: 1 bonus action
+duration: Instantaneous
+range: Self
+
+description: |
+  Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.

@@ -1,0 +1,26 @@
+
+name: Fly
+slug_name: fly
+
+classes:
+  - warlock
+  - wizard
+  - monk
+  - sorcerer
+  
+sources:
+  - PHB.243
+  - SRD.146
+  
+level: 3rd-level
+school: Transmutation
+
+components: V, S, M (a wing feather from any bird)
+casting_time: 1 action
+duration: Concentration, up to 10 minutes
+range: Touch
+
+description: |
+  You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.
+
+  At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.

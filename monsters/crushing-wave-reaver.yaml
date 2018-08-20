@@ -1,0 +1,59 @@
+
+name: "Crushing Wave Reaver"
+slug_name: "crushing-wave-reaver"
+
+challenge_rating: "1/2"
+challenge_rating_decimal: "0.5"
+experience: "100 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "14"
+armor_class_type: "shield"
+hit_points: "22"
+hit_dice: "4d8+4"
+speed: "30 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Athletics +4, Stealth +4"
+senses: null
+languages: "Common"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Sharktoothed Longsword"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands. Against a target is wearing no armor, the reaver deals an extra die of damage with this sword.
+
+  - name: "Javelin"
+    description: |
+      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+  
+
+
+

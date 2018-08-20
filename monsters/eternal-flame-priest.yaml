@@ -1,0 +1,67 @@
+
+name: "Eternal Flame Priest"
+slug_name: "eternal-flame-priest"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "12"
+armor_class_type: "15 with mage armor"
+hit_points: "52"
+hit_dice: "8d8+16"
+speed: "30 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: "Deception +5, Intimidation +5, Religion +2"
+senses: null
+languages: "Common, Ignan"
+
+damage_resistances: "fire"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: 
+
+      Cantrips (at will): control flames, create bonfire, fire bolt, light, minor illusion
+      1st level (4 slots): burning hands, expeditious retreat, mage armor
+      2nd level (3 slots): blur, scorching ray
+      3rd level (2 slots): fireball
+
+  
+
+
+actions:
+  - name: "Dagger"
+    description: |
+      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+  
+
+
+

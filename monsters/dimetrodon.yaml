@@ -1,0 +1,62 @@
+
+name: "Dimetrodon"
+slug_name: "dimetrodon"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "12"
+armor_class_type: "natural armor"
+hit_points: "19"
+hit_dice: "3d8+6"
+speed: "30 ft., swim 20 ft."
+
+strength: "14"
+strength_modifier: "+2"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: "Perception +2"
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Source"
+    description: |
+      Volo's Guide to Monsters, p. 139
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) piercing damage.
+
+  
+
+
+

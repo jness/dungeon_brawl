@@ -1,0 +1,65 @@
+
+name: "Acolyte"
+slug_name: "acolyte"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "10"
+armor_class_type: null
+hit_points: "9"
+hit_dice: "2d8"
+speed: "30 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "10"
+constitution_modifier: "+0"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Medicine +4, Religion +2"
+senses: null
+languages: "any one language (usually Common)"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: 
+
+      Cantrips (at will): light, sacred flame, thaumaturgy
+      1st level (3 slots): bless, cure wounds, sanctuary
+
+  
+
+
+actions:
+  - name: "Club"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
+
+  
+
+
+

@@ -1,0 +1,67 @@
+
+name: "Bone Naga (Spirit)"
+slug_name: "bone-naga-spirit"
+
+challenge_rating: "4"
+challenge_rating_decimal: "4.0"
+experience: "1,100 XP"
+
+size: "Large"
+type: "undead"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "58"
+hit_dice: "9d10+9"
+speed: "30 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "15"
+intelligence_modifier: "+2"
+wisdom: "15"
+wisdom_modifier: "+2"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "Common plus one other language"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, paralyzed, poisoned"
+
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Intelligence, and it has the following wizard spells prepared: 
+
+      Cantrips (at will): mage hand, minor illusion, ray of frost
+      1st level (4 slots): charm person, sleep
+      2nd level (3 slots): detect thoughts, hold person
+      3rd level (2 slots): lightning bolt
+
+  
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.
+
+  
+
+
+

@@ -1,0 +1,82 @@
+
+name: "Azbara Jos"
+slug_name: "azbara-jos"
+
+challenge_rating: "4"
+challenge_rating_decimal: "4.0"
+experience: "1,100 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "lawful evil"
+
+armor_class: "13"
+armor_class_type: "16 with mage armor"
+hit_points: "39"
+hit_dice: "6d8+12"
+speed: "30 ft."
+
+strength: "9"
+strength_modifier: "-1"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: "Int +5, Wis +3"
+skills: "Arcana +5, Deception +2, Insight +3, Stealth +5"
+senses: null
+languages: "Common, Draconic, Infernal, Primordial, Thayan"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Special Equipment"
+    description: |
+      Azbara has two scrolls of mage armor.
+
+  - name: "Potent Cantrips"
+    description: |
+      When Azbara casts an evocation Cantrips and misses, or the target succeeds on its saving throw, the target still takes half the cantrip's damage but suffers no other effect.
+
+  - name: "Sculpt Spells"
+    description: |
+      When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1+the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list: 
+
+      Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp
+      1st level (4 slots): fog cloud, magic missile, shield, thunderwave
+      2nd level (3 slots): invisibility, misty step, scorching ray
+      3rd level (3 slots): counterspell, dispel magic, fireball
+
+  
+
+
+actions:
+  - name: "Dagger"
+    description: |
+      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+  
+
+
+

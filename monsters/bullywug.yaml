@@ -1,0 +1,82 @@
+
+name: "Bullywug"
+slug_name: "bullywug"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "bullywug"
+alignment: "neutral evil"
+
+armor_class: "15"
+armor_class_type: "hide armor, shield"
+hit_points: "11"
+hit_dice: "2d8+2"
+speed: "20 ft., swim 40 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "7"
+intelligence_modifier: "-2"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Stealth +3"
+senses: null
+languages: "Bullywug"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      The bullywug can breathe air and water.
+
+  - name: "Speak with Frogs and Toads"
+    description: |
+      The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.
+
+  - name: "Swamp Camouflage"
+    description: |
+      The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
+
+  - name: "Standing Leap"
+    description: |
+      The bullywug's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The bullywug makes two melee attacks: one with its bite and one with its spear.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.
+
+  - name: "Spear"
+    description: |
+      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.
+
+  
+
+
+

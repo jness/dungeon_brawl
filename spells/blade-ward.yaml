@@ -1,0 +1,23 @@
+
+name: Blade Ward
+slug_name: blade-ward
+
+classes:
+  - warlock
+  - bard
+  - wizard
+  - sorcerer
+  
+sources:
+  - PHB.218
+  
+level: Cantrip
+school: Abjuration
+
+components: V, S
+casting_time: 1 action
+duration: 1 round
+range: Self
+
+description: |
+  You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.

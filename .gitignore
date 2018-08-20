@@ -1,5 +1,4 @@
 __pycache__
 mongo_data/
-parse_character_markdown.py
-parse_spell_markdown.py
+parse_*.py
 get_spells.py

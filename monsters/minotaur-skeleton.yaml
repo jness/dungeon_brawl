@@ -1,0 +1,66 @@
+
+name: "Minotaur Skeleton"
+slug_name: "minotaur-skeleton"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Large"
+type: "undead"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "12"
+armor_class_type: "natural armor"
+hit_points: "67"
+hit_dice: "9d10+18"
+speed: "40 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "6"
+intelligence_modifier: "-2"
+wisdom: "8"
+wisdom_modifier: "-1"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "understands Abyssal but can't speak"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: "bludgeoning"
+condition_immunities: "exhaustion, poisoned"
+
+
+special_abilities:
+  - name: "Charge"
+    description: |
+      If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+
+  
+
+
+
+
+actions:
+  - name: "Greataxe"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.
+
+  - name: "Gore"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.
+
+  
+
+
+

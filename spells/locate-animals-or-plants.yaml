@@ -1,0 +1,23 @@
+
+name: Locate Animals or Plants
+slug_name: locate-animals-or-plants
+
+classes:
+  - bard
+  - druid
+  - ranger
+  
+sources:
+  - PHB.256
+  - SRD.159
+  
+level: 2nd-level
+school: Divination (Ritual)
+
+components: V, S, M (a bit of fur from a bloodhound)
+casting_time: 1 action
+duration: Instantaneous
+range: Self
+
+description: |
+  Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.

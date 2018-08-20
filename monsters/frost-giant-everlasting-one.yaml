@@ -1,0 +1,84 @@
+
+name: "Frost Giant Everlasting One"
+slug_name: "frost-giant-everlasting-one"
+
+challenge_rating: "12"
+challenge_rating_decimal: "12.0"
+experience: "8,400 XP"
+
+size: "Huge"
+type: "giant"
+subtype: "frost giant"
+alignment: "chaotic evil"
+
+armor_class: "15"
+armor_class_type: "patchwork armor"
+hit_points: "189"
+hit_dice: "14d12+98"
+speed: "40 ft."
+
+strength: "25"
+strength_modifier: "+7"
+dexterity: "9"
+dexterity_modifier: "-1"
+constitution: "24"
+constitution_modifier: "+7"
+intelligence: "9"
+intelligence_modifier: "-1"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: "Str +11, Con +11, Wis +4"
+skills: "Athletics +11, Perception +4"
+senses: "darkvision 60 ft."
+languages: "Giant"
+
+damage_resistances: null
+damage_immunities: "cold"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Extra Heads"
+    description: |
+      The giant has a 25 percent chance of having more than one head. If it has more than one, it has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.
+
+  - name: "Regeneration"
+    description: |
+      The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn't function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn't regenerate.
+
+  - name: "Vaprak's Rage (Recharges on a Short or Long Rest)"
+    description: |
+      As a bonus action, the giant can enter a rage at the start of its turn. The rage lasts for 1 minute or until the giant is incapacitated. While raging, the giant gains the following benefits:
+
+      - The giant has advantage on Strength checks and Strength saving throws
+
+      - When it makes a melee weapon attack, the giant gains a +4 bonus to the damage roll.
+
+      - The giant has resistance to bludgeoning, piercing, and slashing damage.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The giant makes two attacks with its greataxe.
+
+  - name: "Greataxe"
+    description: |
+      Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12+7) slashing damage, or 30 (3d12+11) slashing damage while raging.
+
+  - name: "Rock"
+    description: |
+      Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10+7) bludgeoning damage.
+
+  
+
+
+

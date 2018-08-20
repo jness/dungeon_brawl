@@ -1,0 +1,66 @@
+
+name: "Owl"
+slug_name: "owl"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "11"
+armor_class_type: null
+hit_points: "1"
+hit_dice: "1d4-1"
+speed: "5 ft., fly 60 ft."
+
+strength: "3"
+strength_modifier: "-4"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "8"
+constitution_modifier: "-1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Perception +3, Stealth +3"
+senses: "darkvision 120 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Flyby"
+    description: |
+      The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+
+  - name: "Keen Hearing and Sight"
+    description: |
+      The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.
+
+  
+
+
+
+
+actions:
+  - name: "Talons"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.
+
+  
+
+
+

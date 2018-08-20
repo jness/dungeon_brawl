@@ -1,0 +1,23 @@
+
+name: Expeditious Retreat
+slug_name: expeditious-retreat
+
+classes:
+  - warlock
+  - wizard
+  - sorcerer
+  
+sources:
+  - PHB.238
+  - SRD.141
+  
+level: 1st-level
+school: Transmutation
+
+components: V, S
+casting_time: 1 bonus action
+duration: Concentration, up to 10 minutes
+range: Self
+
+description: |
+  This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.

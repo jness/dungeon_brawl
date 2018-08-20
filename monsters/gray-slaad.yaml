@@ -1,0 +1,107 @@
+
+name: "Gray Slaad"
+slug_name: "gray-slaad"
+
+challenge_rating: "9"
+challenge_rating_decimal: "9.0"
+experience: "5,000 XP"
+
+size: "Medium"
+type: "aberration"
+subtype: "shapechanger"
+alignment: "chaotic neutral"
+
+armor_class: "18"
+armor_class_type: "natural armor"
+hit_points: "127"
+hit_dice: "17d8+51"
+speed: "30 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "8"
+wisdom_modifier: "-1"
+charisma: "14"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Arcana +5, Perception +6"
+senses: "blindsight 60 ft., darkvision 60 ft."
+languages: "Slaad, telepathy 60 ft."
+
+damage_resistances: "acid, cold, fire, lightning, thunder"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Shapechanger"
+    description: |
+      The slaad can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+  - name: "Magic Resistance"
+    description: |
+      The slaad has advantage on saving throws against spells and other magical effects
+
+  - name: "Magic Weapons"
+    description: |
+      The slaad's weapon attacks are magical.
+
+  - name: "Regeneration"
+    description: |
+      The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
+
+  - name: "Variant: Control Gem"
+    description: |
+      Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being charmed while so controlled.
+
+      Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A wish spell, if cast in the slaad's presence, can be worded to acquire the gem.
+
+      A greater restoration spell cast on the slaad destroys the gem without harming the slaad.
+
+      Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The slaad's innate spellcasting ability is Charisma (spell save DC 14). The slaad can innately cast the following spells, requiring no material components: 
+
+      At will: detect magic, detect thoughts, invisibility (self only), mage hand, major image
+      2/day each: fear, fly, fireball, tongues
+      1/day: plane shift (self only)
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The slaad makes three attacks: one with its bite and two with its claws or greatsword.
+
+  - name: "Bite (Slaad Form Only)"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
+
+  - name: "Claws (Slaad Form Only)"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage.
+
+  - name: "Greatsword"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.
+
+  
+
+
+

@@ -1,0 +1,90 @@
+
+name: "Drow Elite Warrior"
+slug_name: "drow-elite-warrior"
+
+challenge_rating: "5"
+challenge_rating_decimal: "5.0"
+experience: "1,800 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "elf"
+alignment: "neutral evil"
+
+armor_class: "18"
+armor_class_type: "studded leather, shield"
+hit_points: "71"
+hit_dice: "11d8+22"
+speed: "30 ft."
+
+strength: "13"
+strength_modifier: "+1"
+dexterity: "18"
+dexterity_modifier: "+4"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: "Dex +7, Con +5, Wis +4"
+skills: "Perception +4, Stealth +10"
+senses: "darkvision 120 ft."
+languages: "Elvish, Undercommon"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Fey Ancestry"
+    description: |
+      The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
+
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components: 
+
+      At will: dancing lights
+      1/day each: darkness, faerie fire, levitate (self only)
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The drow makes two shortsword attacks.
+
+  - name: "Shortsword"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.
+
+  - name: "Hand Crossbow"
+    description: |
+      Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+
+      **Reactions**
+
+  - name: "Parry"
+    description: |
+      The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon.
+
+  
+
+
+

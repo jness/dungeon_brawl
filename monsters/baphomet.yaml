@@ -1,0 +1,124 @@
+
+name: "Baphomet"
+slug_name: "baphomet"
+
+challenge_rating: "23"
+challenge_rating_decimal: "23.0"
+experience: "50,000 XP"
+
+size: "Huge"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "22"
+armor_class_type: "natural armor"
+hit_points: "333"
+hit_dice: "23d12+184"
+speed: "40 ft."
+
+strength: "30"
+strength_modifier: "+10"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "26"
+constitution_modifier: "+8"
+intelligence: "18"
+intelligence_modifier: "+4"
+wisdom: "24"
+wisdom_modifier: "+7"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: "Dex +9, Con +15, Wis +14"
+skills: "Intimidation +17, Perception +14"
+senses: "truesight 120 ft."
+languages: "all, telepathy 120 ft."
+
+damage_resistances: "cold, fire, lightning"
+damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical"
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, frightened, poisoned"
+
+
+special_abilities:
+  - name: "Charge"
+    description: |
+      If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 (4d10) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+
+  - name: "Labyrinthine Recall"
+    description: |
+      Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell.
+
+  - name: "Legendary Resistance (3/Day)"
+    description: |
+      If Baphomet fails a saving throw, he can choose to succeed instead.
+
+  - name: "Magic Resistance"
+    description: |
+      Baphomet has advantage on saving throws against spell and other magic effects.
+
+  - name: "Magic Weapon"
+    description: |
+      Baphomet's weapon attacks are magical
+
+  - name: "Reckless"
+    description: |
+      At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:
+
+      At will: detect magic
+      3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone
+      1/day each: teleport
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      Baphomet makes three attacks: one with Heartcleaver, one with his bite, and one with his gore attack.
+
+  - name: "Heartcleaver"
+    description: |
+      Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 19 (2d8+10) piercing damage.
+
+  - name: "Gore"
+    description: |
+      Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piercing damage.
+
+  - name: "Frightful Presence"
+    description: |
+      Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.
+
+      If a creature succeeds on any of these saves or the effect ends on it, the creature is immune is Baphomet's Frightful Presence for the next 24 hours.
+
+  
+
+
+legendary_action_description: "Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Baphomet regains spent legendary actions at the start of his turn."
+
+
+
+legendary_actions:
+  - name: "Heartcleaver attack"
+    description: |
+      Baphomet makes a melee attack with Heartcleaver.
+
+  - name: "Charge (Costs 2 actions)"
+    description: |
+      Baphomet moves up to his speed, then makes a gore attack.
+
+  

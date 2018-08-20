@@ -1,0 +1,84 @@
+
+name: "Storm Giant"
+slug_name: "storm-giant"
+
+challenge_rating: "13"
+challenge_rating_decimal: "13.0"
+experience: "10,000 XP"
+
+size: "Huge"
+type: "giant"
+subtype: null
+alignment: "chaotic good"
+
+armor_class: "16"
+armor_class_type: "scale mail"
+hit_points: "230"
+hit_dice: "20d12+100"
+speed: "50 ft., swim 50 ft."
+
+strength: "29"
+strength_modifier: "+9"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "20"
+constitution_modifier: "+5"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "18"
+wisdom_modifier: "+4"
+charisma: "18"
+charisma_modifier: "+4"
+
+saving_throws: "Str +14, Con +10, Wis +9, Cha +9"
+skills: "Arcana +8, Athletics +14, History +8, Perception +9"
+senses: null
+languages: "Common, Giant"
+
+damage_resistances: "cold"
+damage_immunities: "lightning, thunder"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      The giant can breathe air and water.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components: 
+
+      At will: detect magic, feather fall, levitate, light
+      3/day each: control weather, water breathing
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The giant makes two greatsword attacks.
+
+  - name: "Greatsword"
+    description: |
+      Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage.
+
+  - name: "Rock"
+    description: |
+      Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage.
+
+  - name: "Lightning Strike (Recharge 5-6)"
+    description: |
+      The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

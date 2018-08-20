@@ -1,0 +1,76 @@
+
+name: "Spirit Naga"
+slug_name: "spirit-naga"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Large"
+type: "monstrosity"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "75"
+hit_dice: "10d10+20"
+speed: "40 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "15"
+wisdom_modifier: "+2"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: "Dex +6, Con +5, Wis +5, Cha +6"
+skills: null
+senses: "darkvision 60 ft."
+languages: "Abyssal, Common"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, poisoned"
+
+
+special_abilities:
+  - name: "Rejuvenation"
+    description: |
+      If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared: 
+
+      Cantrips (at will): mage hand, minor illusion, ray of frost
+      1st level (4 slots): charm person, detect magic, sleep
+      2nd level (3 slots): detect thoughts, hold person
+      3rd level (3 slots): lightning bolt, water breathing
+      4th level (3 slots): blight, dimension door
+      5th level (2 slots): dominate person
+
+  
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

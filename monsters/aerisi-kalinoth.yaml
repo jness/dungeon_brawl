@@ -1,0 +1,85 @@
+
+name: "Aerisi Kalinoth"
+slug_name: "aerisi-kalinoth"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "elf"
+alignment: "neutral evil"
+
+armor_class: "13"
+armor_class_type: "16 with mage armor"
+hit_points: "66"
+hit_dice: "12d8+12"
+speed: "30 ft."
+
+strength: "8"
+strength_modifier: "-1"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "17"
+intelligence_modifier: "+3"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: "Arcana +6, History +6, Perception +3"
+senses: "darkvision 60 ft."
+languages: "Auran, Common, Elvish"
+
+damage_resistances: "lightning"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Fey Ancestry"
+    description: |
+      Aerisi has advantage on saving throws against being charmed, and magic can't put her to sleep.
+
+  - name: "Howling Defeat"
+    description: |
+      When Aerisi drops to 0 hit points, her body disappears in a howling whirlwind that disperses quickly and harmlessly. Anything she is wearing or carrying is left behind.
+
+  - name: "Legendary Resistance (2/Day)"
+    description: |
+      If Aerisi fails a saving throw, she can choose to succeed instead.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared: 
+
+      Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp
+      1st level (4 slots): charm person, feather fall, mage armor, thunderwave
+      2nd level (3 slots): dust devil, gust of wind, invisibility
+      3rd level (3 slots): fly, gaseous form, lightning bolt
+      4th level (3 slots): ice storm, storm sphere
+      5th level (2 slots): cloudkill, seeming (cast each day)
+      6th level (1 slot): chain lightning
+
+  
+
+
+actions:
+  - name: "Windvane"
+    description: |
+      Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.
+
+  
+
+
+

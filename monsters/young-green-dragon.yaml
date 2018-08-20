@@ -1,0 +1,74 @@
+
+name: "Young Green Dragon"
+slug_name: "young-green-dragon"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Large"
+type: "dragon"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "18"
+armor_class_type: "natural armor"
+hit_points: "136"
+hit_dice: "16d10+48"
+speed: "40 ft., fly 80 ft., swim 40 ft."
+
+strength: "19"
+strength_modifier: "+4"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "17"
+constitution_modifier: "+3"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: "Dex +4, Con +6, Wis +4, Cha +5"
+skills: "Deception +5, Perception +7, Stealth +4"
+senses: "blindsight 30 ft., darkvision 120 ft."
+languages: "Common, Draconic"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      The dragon can breathe air and water.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The dragon makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.
+
+  - name: "Poison Breath (Recharge 5-6)"
+    description: |
+      The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

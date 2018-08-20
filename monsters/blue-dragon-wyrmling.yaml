@@ -1,0 +1,59 @@
+
+name: "Blue Dragon Wyrmling"
+slug_name: "blue-dragon-wyrmling"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "dragon"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "17"
+armor_class_type: "natural armor"
+hit_points: "52"
+hit_dice: "8d8+16"
+speed: "30 ft., burrow 15 ft., fly 60 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "12"
+intelligence_modifier: "+1"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: "Dex +2, Con +4, Wis +2, Cha +4"
+skills: "Perception +4, Stealth +2"
+senses: "blindsight 10 ft., darkvision 60 ft."
+languages: "Draconic"
+
+damage_resistances: null
+damage_immunities: "lightning"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) lightning damage.
+
+  - name: "Lightning Breath (Recharge 5-6)"
+    description: |
+      The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

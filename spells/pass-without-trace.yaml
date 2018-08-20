@@ -1,0 +1,24 @@
+
+name: Pass Without Trace
+slug_name: pass-without-trace
+
+classes:
+  - druid
+  - monk
+  - cleric
+  - ranger
+  
+sources:
+  - PHB.264
+  - SRD.167
+  
+level: 2nd-level
+school: Abjuration
+
+components: V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)
+casting_time: 1 action
+duration: Concentration, up to 1 hour
+range: Self
+
+description: |
+  A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.

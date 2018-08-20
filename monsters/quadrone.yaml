@@ -1,0 +1,74 @@
+
+name: "Quadrone"
+slug_name: "quadrone"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Medium"
+type: "construct"
+subtype: null
+alignment: "construct"
+
+armor_class: "16"
+armor_class_type: "natural armor"
+hit_points: "22"
+hit_dice: "4d8+4"
+speed: "30 ft., fly 30 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Perception +2"
+senses: "truesight 120 ft."
+languages: "Modron"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Axiomatic Mind"
+    description: |
+      The quadrone can't be compelled to act in a manner contrary to its nature or its instructions.
+
+  - name: "Disintegration"
+    description: |
+      If the quadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The quadrone makes two fist attacks or four shortbow attacks.
+
+  - name: "Fist"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.
+
+  - name: "Shortbow"
+    description: |
+      Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+  
+
+
+

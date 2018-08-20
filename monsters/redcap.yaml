@@ -1,0 +1,74 @@
+
+name: "Redcap"
+slug_name: "redcap"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Small"
+type: "fey"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "45"
+hit_dice: "6d6+24"
+speed: "25 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Athletics +6, Perception +3"
+senses: "darkvision 60 ft."
+languages: "Common, Sylvan"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Iron Boots"
+    description: |
+      While moving, the redcap has disadvantage on Dexterity (Stealth) checks.
+
+  - name: "Outsize Strength"
+    description: |
+      While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The redcap makes three attacks with its wicked sickle.
+
+  - name: "Wicked Sickle"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) slashing damage.
+
+  - name: "Ironbound Pursuit"
+    description: |
+      The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10+4) bludgeoning damage and be knocked prone.
+
+  
+
+
+

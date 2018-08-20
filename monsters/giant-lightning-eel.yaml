@@ -1,0 +1,74 @@
+
+name: "Giant Lightning Eel"
+slug_name: "giant-lightning-eel"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "42"
+hit_dice: "5d10+15"
+speed: "5 ft., swim 30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: null
+senses: "blindsight 60 ft."
+languages: null
+
+damage_resistances: "lightning"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Source"
+    description: |
+      tales from the yawning portal,  page 236
+
+  - name: "Water Breathing"
+    description: |
+      The eel can breathe only underwater.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The eel makes two bite attacks.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 4 (1d8) lightning damage.
+
+  - name: "Lightning jolt (Recharge 5-6)"
+    description: |
+      One creature the eel touches within 5 feet of it outside water, or each creature within l 5 feet ofit in a body of water, must make a DC 12 Constitution saving throw. On failed save, a target takes 13 (3d8) lightning damage. If the target takes any of this damage, the target is stunned until the end of the eel's next turn. On a successful save, a target takes half as much damage and isn't stunned.
+
+  
+
+
+

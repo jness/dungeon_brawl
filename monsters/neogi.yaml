@@ -1,0 +1,78 @@
+
+name: "Neogi"
+slug_name: "neogi"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Small"
+type: "aberration"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "33"
+hit_dice: "6d6+12"
+speed: "30 ft., climb 30 ft."
+
+strength: "6"
+strength_modifier: "-2"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Intimidation +4, Perception +3"
+senses: "darkvision 60 ft."
+languages: "Common, Deep Speech, Undercommon"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Mental Fortitude"
+    description: |
+      The neogi has advantage on saving throws against being charmed or frightened. and magic can't put the neogi to sleep.
+
+  - name: "Spider Climb"
+    description: |
+      The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The neogi makes two attacks: one with its bite and one with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) slashing damage.
+
+  - name: "Enslave (Recharges after a Short or Long Rest)"
+    description: |
+      The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
+
+  
+
+
+

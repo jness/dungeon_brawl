@@ -1,0 +1,55 @@
+
+name: "Scorpion"
+slug_name: "scorpion"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "11"
+armor_class_type: "natural armor"
+hit_points: "1"
+hit_dice: "1d4-1"
+speed: "10 ft."
+
+strength: "2"
+strength_modifier: "-4"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "8"
+constitution_modifier: "-1"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "8"
+wisdom_modifier: "-1"
+charisma: "2"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: null
+senses: "blindsight 10 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Sting"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

@@ -1,0 +1,66 @@
+
+name: "Giant Goat"
+slug_name: "giant-goat"
+
+challenge_rating: "1/2"
+challenge_rating_decimal: "0.5"
+experience: "100 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "11"
+armor_class_type: "natural armor"
+hit_points: "19"
+hit_dice: "3d10+3"
+speed: "40 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "3"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "6"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: null
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Charge"
+    description: |
+      If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+
+  - name: "Sure-Footed"
+    description: |
+      The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+
+  
+
+
+
+
+actions:
+  - name: "Ram"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.
+
+  
+
+
+

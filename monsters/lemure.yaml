@@ -1,0 +1,66 @@
+
+name: "Lemure"
+slug_name: "lemure"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Medium"
+type: "fiend"
+subtype: "devil"
+alignment: "lawful evil"
+
+armor_class: "7"
+armor_class_type: null
+hit_points: "13"
+hit_dice: "3d8"
+speed: "15 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "5"
+dexterity_modifier: "-3"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: null
+senses: "darkvision 120 ft."
+languages: "understands infernal but can't speak"
+
+damage_resistances: "cold"
+damage_immunities: "fire, poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, frightened, poisoned"
+
+
+special_abilities:
+  - name: "Devil's Sight"
+    description: |
+      Magical darkness doesn't impede the lemure's darkvision.
+
+  - name: "Hellish Rejuvenation"
+    description: |
+      A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.
+
+  
+
+
+
+
+actions:
+  - name: "Fist"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage
+
+  
+
+
+

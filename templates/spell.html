@@ -21,7 +21,10 @@
 
   <!-- Spell heading -->
   <h1><strong>{{ spell.name }}</strong></h1>
-  {{ spell.level }}, {{ spell.school }}
+  <p>
+    {{ spell.level }}, {{ spell.school }} -
+    ({% for class in spell.classes %}{{ class|title }}{% if not loop.last %}, {% endif %}{% endfor %})
+  </p>
   <hr>
 
   <!-- Expected spell attributes -->
@@ -33,15 +36,7 @@
 
   <!-- Textual spell description -->
   <h4><strong>Description</strong></h4><br>
-  <div id="description">
-    {% for description in spell.descriptions %}
-      {% if description is mapping %}
-        <p>{{ description.hyperlinked|safe }}</p>
-      {% else %}
-        <p>{{ description }}</p>
-      {% endif %}
-    {% endfor %}
-  </div>
+  <p class="description">{{ spell.description }}</p>
 
 </div>
 {% endblock %}

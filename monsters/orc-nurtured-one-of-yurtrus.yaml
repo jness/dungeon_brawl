@@ -1,0 +1,74 @@
+
+name: "Orc Nurtured One of Yurtrus"
+slug_name: "orc-nurtured-one-of-yurtrus"
+
+challenge_rating: "1/2"
+challenge_rating_decimal: "0.5"
+experience: "100 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "orc"
+alignment: "chaotic evil"
+
+armor_class: "9"
+armor_class_type: null
+hit_points: "30"
+hit_dice: "4d8+12"
+speed: "30 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "8"
+dexterity_modifier: "-1"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "7"
+intelligence_modifier: "-2"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "Common, Orc"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Aggressive"
+    description: |
+      As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+
+  - name: "Corrupted Carrier"
+    description: |
+      When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn't poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can't regain hit points.
+
+  - name: "Nurtured One of Yurtrus"
+    description: |
+      The orc has advantage on saving throws against poison and disease.
+
+  
+
+
+
+
+actions:
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage plus 2 (1d4) necrotic damage.
+
+  - name: "Corrupted Vengeance"
+    description: |
+      The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait.
+
+  
+
+
+

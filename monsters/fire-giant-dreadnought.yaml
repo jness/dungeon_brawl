@@ -1,0 +1,74 @@
+
+name: "Fire Giant Dreadnought"
+slug_name: "fire-giant-dreadnought"
+
+challenge_rating: "14"
+challenge_rating_decimal: "14.0"
+experience: "11,500 XP"
+
+size: "Huge"
+type: "giant"
+subtype: "fire giant"
+alignment: "lawful evil"
+
+armor_class: "21"
+armor_class_type: "plate, shields"
+hit_points: "187"
+hit_dice: "15d12+90"
+speed: "30 ft."
+
+strength: "27"
+strength_modifier: "+8"
+dexterity: "9"
+dexterity_modifier: "-1"
+constitution: "23"
+constitution_modifier: "+6"
+intelligence: "8"
+intelligence_modifier: "-1"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: "Dex +4, Con +11, Cha +5"
+skills: "Athletics +13, Perception +5"
+senses: null
+languages: "Giant"
+
+damage_resistances: null
+damage_immunities: "fire"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Dual Shields"
+    description: |
+      The giant carries two shields, each of which is accounted for in the giant's AC. The giant must stow or drop one of its shields to hurl rocks.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The giant makes two fireshield attacks.
+
+  - name: "Fireshield"
+    description: |
+      Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6) piercing damage.
+
+  - name: "Rock"
+    description: |
+      Ranged Weapon Attack: +13 to hit, range 60/240 ft, one target. Hit: 30 (4d10+8) bludgeoning damage.
+
+  - name: "Shield Charge"
+    description: |
+      The giant moves up to 30 feet in a straight line and can move through the space of any creature smaller than Huge. The first time it enters a creature's space during this move, it makes a fireshield attack against that creature. If the attack hits, the target must also succeed on a DC 21 Strength saving throw or be pushed ahead of the giant for the rest of this move. If a creature fails the save by 5 or more, it is also knocked prone and takes 18 (3d6+8) bludgeoning damage, or 29 (6d6+8) bludgeoning damage if it was already prone.
+
+  
+
+
+

@@ -1,0 +1,80 @@
+
+name: "Draegloth"
+slug_name: "draegloth"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Large"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "123"
+hit_dice: "13d10+52"
+speed: "30 ft."
+
+strength: "20"
+strength_modifier: "+5"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Perception +3, Stealth +5"
+senses: "darkvision 120 ft."
+languages: "Abyssal, Elvish, Undercommon"
+
+damage_resistances: "cold, fire, lightning"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Fey Ancestry"
+    description: |
+      The draegloth has advantage on saving throws against being charmed, and magic can't put it to sleep.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The draegloth's innate spellcasting ability is Charisma (spell save DC 11). The draegloth can innately cast the following spells, requiring no material components:
+
+      At will: darkness
+      1/day each: confusion, dancing lights, faerie fire
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The draegloth makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 16 (2d10+5) piercing damage.
+
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 16 (2d10+5) slashing damage.
+
+  
+
+
+

@@ -1,0 +1,91 @@
+
+name: "Drow Mage"
+slug_name: "drow-mage"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "elf"
+alignment: "neutral evil"
+
+armor_class: "12"
+armor_class_type: "15 with mage armor"
+hit_points: "45"
+hit_dice: "10d8"
+speed: "30 ft."
+
+strength: "9"
+strength_modifier: "-1"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "10"
+constitution_modifier: "+0"
+intelligence: "17"
+intelligence_modifier: "+3"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: null
+skills: "Arcana +6, Deception +5, Perception +4, Stealth +5"
+senses: "darkvision 120 ft."
+languages: "Elvish, Undercommon"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Fey Ancestry"
+    description: |
+      The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
+
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components: 
+
+      At will: dancing lights
+      1/day each: darkness, faerie fire, levitate (self only)
+
+  - name: "Spellcasting"
+    description: |
+      The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared: 
+
+      Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost
+      1st level (4 slots): mage armor, magic missile, shield, witch bolt
+      2nd level (3 slots): alter self, misty step, web
+      3rd level (3 slots): fly, lightning bolt
+      4th level (3 slots): Evard's black tentacles, greater invisibility
+      5th level (2 slots): cloudkill
+
+  
+
+
+actions:
+  - name: "Staff"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands, plus 3 (1d6) poison damage.
+
+  - name: "Summon Demon (1/Day)"
+    description: |
+      The drow magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+  
+
+
+

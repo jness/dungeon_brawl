@@ -1,0 +1,66 @@
+
+name: "Giant Shark"
+slug_name: "giant-shark"
+
+challenge_rating: "5"
+challenge_rating_decimal: "5.0"
+experience: "1,800 XP"
+
+size: "Huge"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "126"
+hit_dice: "11d12+55"
+speed: "swim 50 ft."
+
+strength: "23"
+strength_modifier: "+6"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "21"
+constitution_modifier: "+5"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: "Perception +3"
+senses: "blindsight 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Blood Frenzy"
+    description: |
+      The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+  - name: "Water Breathing"
+    description: |
+      The shark can breathe only underwater.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.
+
+  
+
+
+

@@ -1,0 +1,70 @@
+
+name: "Winged Kobold"
+slug_name: "winged-kobold"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Small"
+type: "humanoid"
+subtype: "kobold"
+alignment: "lawful evil"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "7"
+hit_dice: "3d6-3"
+speed: "30 ft., fly 30 ft."
+
+strength: "7"
+strength_modifier: "-2"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "9"
+constitution_modifier: "-1"
+intelligence: "8"
+intelligence_modifier: "-1"
+wisdom: "7"
+wisdom_modifier: "-2"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "Common, Draconic"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  - name: "Pack Tactics"
+    description: |
+      The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+  
+
+
+
+
+actions:
+  - name: "Dagger"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+  - name: "Dropped Rock"
+    description: |
+      Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.
+
+  
+
+
+

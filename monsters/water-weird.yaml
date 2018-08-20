@@ -1,0 +1,66 @@
+
+name: "Water Weird"
+slug_name: "water-weird"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Large"
+type: "elemental"
+subtype: null
+alignment: "neutral"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "58"
+hit_dice: "9d10+9"
+speed: "0 ft., swim 60 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: null
+senses: "blindsight 30 ft."
+languages: "understands Aquan but doesn't speak"
+
+damage_resistances: "fire; bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious"
+
+
+special_abilities:
+  - name: "Invisible in Water"
+    description: |
+      The water weird is invisible while fully immersed in water.
+
+  - name: "Water Bound"
+    description: |
+      The water weird dies if it leaves the water to which it is bound or if that water is destroyed.
+
+  
+
+
+
+
+actions:
+  - name: "Constrict"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target.
+
+  
+
+
+

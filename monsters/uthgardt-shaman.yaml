@@ -1,0 +1,70 @@
+
+name: "Uthgardt Shaman"
+slug_name: "uthgardt-shaman"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "38"
+hit_dice: "7d8+7"
+speed: "30 ft."
+
+strength: "14"
+strength_modifier: "+2"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "15"
+wisdom_modifier: "+2"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: null
+skills: "Medicine +4, Nature +4, Perception +4, Survival +6"
+senses: null
+languages: "Bothii, Common"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). 
+
+      * At Will: dancing lights, message, mage hand, thaumaturgy
+
+      * 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians
+
+  
+
+
+actions:
+  - name: "Spear"
+    description: |
+      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6+2) piercing damage, or 6 (1d8 + 2) piercing damage if wielded with two hands.
+
+  - name: "Shortbow"
+    description: |
+      Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.
+
+  
+
+
+

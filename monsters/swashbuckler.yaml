@@ -1,0 +1,74 @@
+
+name: "Swashbuckler"
+slug_name: "swashbuckler"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any non-lawful alignment"
+
+armor_class: "17"
+armor_class_type: "leather armor"
+hit_points: "66"
+hit_dice: "12d8+12"
+speed: "30 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "18"
+dexterity_modifier: "+4"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "14"
+intelligence_modifier: "+2"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Acrobatics +8, Athletics +5, Persuasion +6"
+senses: null
+languages: "any one language (usually Common)"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Lightfooted"
+    description: |
+      The swashbuckler can take the Dash or Disengage action as a bonus action on each of its turns.
+
+  - name: "Suave Defense"
+    description: |
+      While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The swashbuckler makes three attacks: one with a dagger and two with its rapier.
+
+  - name: "Dagger"
+    description: |
+      Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.
+
+  - name: "Rapier"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.
+
+  
+
+
+

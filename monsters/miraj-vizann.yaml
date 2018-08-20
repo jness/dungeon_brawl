@@ -1,0 +1,83 @@
+
+name: "Miraj Vizann"
+slug_name: "miraj-vizann"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "earth genasi"
+alignment: "neutral evil"
+
+armor_class: "10"
+armor_class_type: "13 with mage armor"
+hit_points: "82"
+hit_dice: "11d8+33"
+speed: "30 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "17"
+constitution_modifier: "+3"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "18"
+charisma_modifier: "+4"
+
+saving_throws: null
+skills: "Arcana +4, Deception +7"
+senses: null
+languages: "Common, Primordial"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Earth Walk"
+    description: |
+      Moving through difficult terrain made of earth or stone costs Miraj no extra movement.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components: 
+
+      * 1/day: pass without trace
+
+  - name: "Spellcasting"
+    description: |
+      Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells: 
+
+      Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth
+      1st level (4 slots): chromatic orb, mage armor, magic missile
+      2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion
+      3rd level (3 slots): counterspell, erupting earth
+      4th level (3 slots): polymorph, stoneskin
+      5th level (2 slots): wall of stone
+      6th level (1 slot): move earth
+
+  
+
+
+actions:
+  - name: "Staff"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.
+
+  
+
+
+

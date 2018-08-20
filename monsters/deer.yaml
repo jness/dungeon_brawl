@@ -1,0 +1,55 @@
+
+name: "Deer"
+slug_name: "deer"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Medium"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "4"
+hit_dice: "1d8"
+speed: "50 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: null
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.
+
+  
+
+
+

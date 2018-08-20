@@ -1,0 +1,80 @@
+
+name: "Yuan-ti Pureblood"
+slug_name: "yuan-ti-pureblood"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "yuan-ti"
+alignment: "neutral evil"
+
+armor_class: "11"
+armor_class_type: null
+hit_points: "40"
+hit_dice: "9d8"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "14"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Deception +6, Perception +3, Stealth +3"
+senses: "darkvision 60 ft."
+languages: "Abyssal, Common, Draconic"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Magic Resistance"
+    description: |
+      The yuan-ti has advantage on saving throws against spells and other magical effects.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The yuan-ti's spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components: 
+
+      At will: animal friendship (snakes only)
+      3/day each: poison spray, suggestion
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The yuan-ti makes two melee attacks.
+
+  - name: "Scimitar"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.
+
+  - name: "Shortbow"
+    description: |
+      Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.
+
+  
+
+
+

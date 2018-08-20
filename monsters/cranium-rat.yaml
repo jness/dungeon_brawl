@@ -1,0 +1,66 @@
+
+name: "Cranium Rat"
+slug_name: "cranium-rat"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "lawful evil"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "2"
+hit_dice: "1d4"
+speed: "30 ft."
+
+strength: "2"
+strength_modifier: "-4"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "10"
+constitution_modifier: "+0"
+intelligence: "4"
+intelligence_modifier: "-3"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: null
+senses: "darkvision 30 ft."
+languages: "telepathy 30 ft."
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Illumination"
+    description: |
+      As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.
+
+  - name: "Telepathic Shroud"
+    description: |
+      The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.
+
+  
+
+
+

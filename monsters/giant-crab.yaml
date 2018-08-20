@@ -1,0 +1,62 @@
+
+name: "Giant Crab"
+slug_name: "giant-crab"
+
+challenge_rating: "1/8"
+challenge_rating_decimal: "0.125"
+experience: "25 XP"
+
+size: "Medium"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "13"
+hit_dice: "3d8"
+speed: "30 ft., swim 30 ft."
+
+strength: "13"
+strength_modifier: "+1"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "9"
+wisdom_modifier: "-1"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: "Stealth +4"
+senses: "blindsight 30 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Amphibious"
+    description: |
+      The crab can breathe air and water.
+
+  
+
+
+
+
+actions:
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target.
+
+  
+
+
+

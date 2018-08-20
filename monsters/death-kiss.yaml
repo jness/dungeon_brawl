@@ -1,0 +1,70 @@
+
+name: "Death Kiss"
+slug_name: "death-kiss"
+
+challenge_rating: "10"
+challenge_rating_decimal: "10.0"
+experience: "5,900 XP"
+
+size: "Large"
+type: "aberration"
+subtype: null
+alignment: "neutral evil"
+
+armor_class: "16"
+armor_class_type: "natural armor"
+hit_points: "161"
+hit_dice: "17d10+68"
+speed: "0 ft., fly 30 ft. (hover)"
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: "Con +8, Wis +5"
+skills: "Perception +5"
+senses: "darkvision 120 ft."
+languages: "Deep Speech, Undercommon"
+
+damage_resistances: null
+damage_immunities: "lightning"
+damage_vulnerabilities: null
+condition_immunities: "prone"
+
+
+special_abilities:
+  - name: "Lightning Blood"
+    description: |
+      A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The death kiss makes three tentacle attacks. Up to three of these attacks can be replaced by Blood Drain, one replacement per tentacle grappling a creature
+
+  - name: "Tentacle"
+    description: |
+      Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 14 (3d6+4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles.
+
+  - name: "Blood Drain"
+    description: |
+      One creature grappled by a tentacle of the death kiss must make a DC 16 Constitution saving throw. On a failed save, the target takes 22 (4d10) lightning damage, and the death kiss regains half as many hit points.
+
+  
+
+
+

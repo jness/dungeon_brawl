@@ -1,0 +1,76 @@
+
+name: "Sacred Stone Monk"
+slug_name: "sacred-stone-monk"
+
+challenge_rating: "1/2"
+challenge_rating_decimal: "0.5"
+experience: "100 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "lawful evil"
+
+armor_class: "14"
+armor_class_type: null
+hit_points: "22"
+hit_dice: "4d8+4"
+speed: "40 ft."
+
+strength: "13"
+strength_modifier: "+1"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Acrobatics +4, Athletics +3, Perception +4"
+senses: "tremorsense 10 ft."
+languages: "Common"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Unarmored Defense"
+    description: |
+      While the monk is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+
+  - name: "Unarmored Movement"
+    description: |
+      While the monk is wearing no armor and wielding no shield, its walking speed increases by 10 feet (included in its speed).
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The monk makes two melee attacks.
+
+  - name: "Unarmed Strike"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.
+
+      **Reactions**
+
+  - name: "Parry"
+    description: |
+      The monk adds 2 to its AC against one melee or ranged weapon attack that would hit it. To do so, the monk must see the attacker.
+
+  
+
+
+

@@ -1,0 +1,89 @@
+
+name: "Planetar"
+slug_name: "planetar"
+
+challenge_rating: "16"
+challenge_rating_decimal: "16.0"
+experience: "15,000 XP"
+
+size: "Large"
+type: "celestial"
+subtype: null
+alignment: "lawful good"
+
+armor_class: "19"
+armor_class_type: "natural armor"
+hit_points: "200"
+hit_dice: "16d10+112"
+speed: "40 ft., fly 120 ft."
+
+strength: "24"
+strength_modifier: "+7"
+dexterity: "20"
+dexterity_modifier: "+5"
+constitution: "24"
+constitution_modifier: "+7"
+intelligence: "19"
+intelligence_modifier: "+4"
+wisdom: "22"
+wisdom_modifier: "+6"
+charisma: "25"
+charisma_modifier: "+7"
+
+saving_throws: "Con +12, Wis +11, Cha +12"
+skills: "Perception +11"
+senses: "truesight 120 ft."
+languages: "all, telepathy 120 ft."
+
+damage_resistances: "radiant, bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, frightened"
+
+
+special_abilities:
+  - name: "Angelic Weapons"
+    description: |
+      The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).
+
+  - name: "Divine Awareness"
+    description: |
+      The planetar knows if it hears a lie.
+
+  - name: "Magic Resistance"
+    description: |
+      The planetar has advantage on saving throws against spells and other magical effects.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components: 
+
+      At will: detect evil and good, invisibility (self only)
+      3/day each: blade barrier, dispel evil and good, flame strike, raise dead
+      1/day each: commune, control weather, insect plague
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The planetar makes two melee attacks.
+
+  - name: "Greatsword"
+    description: |
+      Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.
+
+  - name: "Healing Touch (4/Day)"
+    description: |
+      The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+
+  
+
+
+

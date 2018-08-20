@@ -1,0 +1,26 @@
+
+name: Antilife Shell
+slug_name: antilife-shell
+
+classes:
+  - druid
+  - cleric
+  
+sources:
+  - PHB.213
+  - SRD.116
+  
+level: 5th-level
+school: Abjuration
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 1 hour
+range: Self (10-foot radius)
+
+description: |
+  A shimmering barrier extends out from you in a 10-foot-radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.
+
+  The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.
+
+  If you move so an affected creature is forced to pass through the barrier, the spell ends.

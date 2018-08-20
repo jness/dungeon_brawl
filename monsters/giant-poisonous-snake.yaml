@@ -1,0 +1,55 @@
+
+name: "Giant Poisonous Snake"
+slug_name: "giant-poisonous-snake"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "14"
+armor_class_type: null
+hit_points: "11"
+hit_dice: "2d8+2"
+speed: "30 ft., swim 30 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "18"
+dexterity_modifier: "+4"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: "Perception +2"
+senses: "blindsight 10 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

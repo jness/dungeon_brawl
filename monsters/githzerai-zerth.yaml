@@ -1,0 +1,76 @@
+
+name: "Githzerai Zerth"
+slug_name: "githzerai-zerth"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "gith"
+alignment: "lawful neutral"
+
+armor_class: "17"
+armor_class_type: null
+hit_points: "84"
+hit_dice: "13d8+26"
+speed: "30 ft."
+
+strength: "13"
+strength_modifier: "+1"
+dexterity: "18"
+dexterity_modifier: "+4"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "17"
+wisdom_modifier: "+3"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: "Str +4, Dex +7, Int +6, Wis +6"
+skills: "Arcana +6, Insight +6, Perception +6"
+senses: null
+languages: "Gith"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Psychic Defense"
+    description: |
+      While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting (Psionics)"
+    description: |
+      The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: 
+
+      At will: mage hand (the hand is invisible)
+      3/day each: feather fall, jump, see invisibility, shield
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The githzerai makes two unarmed strikes.
+
+  - name: "Unarmed Strike"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 13 (3d8) psychic damage. This is a magic weapon attack.
+
+  
+
+
+

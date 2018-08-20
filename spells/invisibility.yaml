@@ -1,0 +1,27 @@
+
+name: Invisibility
+slug_name: invisibility
+
+classes:
+  - wizard
+  - bard
+  - warlock
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.254
+  - SRD.157
+  
+level: 2nd-level
+school: Illusion
+
+components: V, S, M (an eyelash encased in gum arabic)
+casting_time: 1 action
+duration: Concentration, up to 1 hour
+range: Touch
+
+description: |
+  A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.
+
+  At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.

@@ -1,0 +1,74 @@
+
+name: "Grick Alpha"
+slug_name: "grick-alpha"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Large"
+type: "monstrosity"
+subtype: null
+alignment: "neutral"
+
+armor_class: "18"
+armor_class_type: "natural armor"
+hit_points: "75"
+hit_dice: "10d10+20"
+speed: "30 ft., climb 30 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "4"
+intelligence_modifier: "-3"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: null
+
+damage_resistances: "bludgeoning, piercing, and slashing damage from nonmagical weapons"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Stone Camouflage"
+    description: |
+      The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The grick makes two attacks: one with its tail and one with its tentacles. If it hits with its tentacles, the grick can make one beak attack against the same target.
+
+  - name: "Tail"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.
+
+  - name: "Tentacles"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) slashing damage.
+
+  - name: "Beak"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage.
+
+  
+
+
+

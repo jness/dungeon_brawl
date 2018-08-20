@@ -1,0 +1,70 @@
+
+name: "Giant Wolf Spider"
+slug_name: "giant-wolf-spider"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "11"
+hit_dice: "2d8+2"
+speed: "40 ft., climb 40 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "3"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "4"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: "Perception +3, Stealth +7"
+senses: "blindsight 10 ft., darkvision 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Spider Climb"
+    description: |
+      The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+  - name: "Web Sense"
+    description: |
+      While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+
+  - name: "Web Walker"
+    description: |
+      The spider ignores movement restrictions caused by webbing.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+
+  
+
+
+

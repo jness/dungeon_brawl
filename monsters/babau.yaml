@@ -1,0 +1,76 @@
+
+name: "Babau"
+slug_name: "babau"
+
+challenge_rating: "4"
+challenge_rating_decimal: "4.0"
+experience: "1,100 XP"
+
+size: "Medium"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "16"
+armor_class_type: "natural armor"
+hit_points: "82"
+hit_dice: "11d8+33"
+speed: "40 ft."
+
+strength: "19"
+strength_modifier: "+4"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "13"
+charisma_modifier: "+1"
+
+saving_throws: null
+skills: "Perception +5, Stealth +5"
+senses: "darkvision 120 ft."
+languages: "Abyssal"
+
+damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The babau's innate spellcasting ability is Wisdom (spell save DC 11). The babau can innately cast the following spells, requiring no material components:
+
+      At will: darkness, dispel magic, fear, heat metal, levitate
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The babau makes two melee attacks. It can also use Weakening Gaze before or after making these attacks.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8+4) slashing damage.
+
+  - name: "Spear"
+    description: |
+      Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 7 (1d6+4) piercing damage, or 8 (1d8+4) piercing damage when used with two hands to make a melee attack.
+
+  - name: "Weakening Gaze"
+    description: |
+      The babau targets one creature that it can see within 20 feet of it. The target must make a DC 13 Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+  
+
+
+

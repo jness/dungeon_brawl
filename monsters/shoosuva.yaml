@@ -1,0 +1,70 @@
+
+name: "Shoosuva"
+slug_name: "shoosuva"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Large"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "14"
+armor_class_type: "natural armor"
+hit_points: "110"
+hit_dice: "13d10+39"
+speed: "40 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "17"
+constitution_modifier: "+3"
+intelligence: "7"
+intelligence_modifier: "-2"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: "Dex +4, Con +6, Wis +5"
+skills: null
+senses: "darkvision 60 ft."
+languages: "Abyssal, Gnoll, telepathy 120 ft."
+
+damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, frightened, poisoned"
+
+
+special_abilities:
+  - name: "Rampage"
+    description: |
+      When it reduces a creature to 0 hit points with a melee attack on its turn, the shoosuva can take a bonus action to move up to half its speed and make a bite attack.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The shoosuva makes two attacks: one with its bite and one with its tail stinger.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 26 (4d10+4) piercing damage.
+
+  - name: "Tail Stinger"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 15 ft, one creature. Hit: 13 (2d8+4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+  
+
+
+

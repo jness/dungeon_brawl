@@ -1,0 +1,62 @@
+
+name: "Plesiosaurus"
+slug_name: "plesiosaurus"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "68"
+hit_dice: "8d10+24"
+speed: "20 ft., swim 40 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: "Perception +3, Stealth +4"
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Hold Breath"
+    description: |
+      The plesiosaurus can hold its breath for 1 hour.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.
+
+  
+
+
+

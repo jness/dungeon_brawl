@@ -1,0 +1,67 @@
+
+name: "Crushing Wave Priest"
+slug_name: "crushing-wave-priest"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "13"
+armor_class_type: "chain shirt"
+hit_points: "52"
+hit_dice: "8d8+16"
+speed: "30 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: "Deception +5, Religion +2, Stealth +2"
+senses: null
+languages: "Aquan, Common"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: 
+
+      Cantrips (at will): chill touch, mage hand, minor illusion, prestidigitation, ray of frost
+      1st level (4 slots): expeditious retreat, ice knife, magic missile, shield
+      2nd level (3 slots): blur, hold person
+      3rd level (2 slots): sleet storm
+
+  
+
+
+actions:
+  - name: "Quarterstaff"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.
+
+  
+
+
+

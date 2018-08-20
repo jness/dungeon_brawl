@@ -1,0 +1,74 @@
+
+name: "Young White Dragon"
+slug_name: "young-white-dragon"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Large"
+type: "dragon"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "17"
+armor_class_type: "natural armor"
+hit_points: "133"
+hit_dice: "14d10+56"
+speed: "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "6"
+intelligence_modifier: "-2"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: "Dex +3, Con +7, Wis +3, Cha +4"
+skills: "Perception +6, Stealth +3"
+senses: "blindsight 30 ft., darkvision 120 ft."
+languages: "Common, Draconic"
+
+damage_resistances: null
+damage_immunities: "cold"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Ice Walk"
+    description: |
+      The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The dragon makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.
+
+  - name: "Cold Breath (Recharge 5-6)"
+    description: |
+      The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

@@ -1,0 +1,86 @@
+
+name: "Spined Devil"
+slug_name: "spined-devil"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Small"
+type: "fiend"
+subtype: "devil"
+alignment: "lawful evil"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "22"
+hit_dice: "5d6+5"
+speed: "20 ft., fly 40 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: null
+senses: "darkvision 120 ft."
+languages: "Infernal, telepathy 120 ft."
+
+damage_resistances: "cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+damage_immunities: "fire, poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Devil's Sight"
+    description: |
+      Magical darkness doesn't impede the devil's darkvision.
+
+  - name: "Flyby"
+    description: |
+      The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach.
+
+  - name: "Limited Spines"
+    description: |
+      The devil has twelve tail spines. Used spines regrow by the time the devil finishes a long rest.
+
+  - name: "Magic Resistance"
+    description: |
+      The devil has advantage on saving throws against spells and other magical effects.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.
+
+  - name: "Fork"
+    description: |
+      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.
+
+  - name: "Tail Spine"
+    description: |
+      Ranged Weapon Attack: +4 to hit, range 20/80 ft ., one target. Hit: 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage.
+
+  
+
+
+

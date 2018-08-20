@@ -1,0 +1,22 @@
+
+name: Guidance
+slug_name: guidance
+
+classes:
+  - druid
+  - cleric
+  
+sources:
+  - PHB.248
+  - SRD.151
+  
+level: Cantrip
+school: Divination
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 1 minute
+range: Touch
+
+description: |
+  You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.

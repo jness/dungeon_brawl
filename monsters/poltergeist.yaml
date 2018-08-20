@@ -1,0 +1,78 @@
+
+name: "Poltergeist"
+slug_name: "poltergeist"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "undead"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "22"
+hit_dice: "5d8"
+speed: "0 ft., fly 50 ft. (hover)"
+
+strength: "1"
+strength_modifier: "-5"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "11"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "understands all languages it knew in life but can't speak"
+
+damage_resistances: "acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: "necrotic, poison"
+damage_vulnerabilities: null
+condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+
+
+special_abilities:
+  - name: "Incorporeal Movement"
+    description: |
+      The poltergeist can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the poltergeist has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  - name: "Invisibility"
+    description: |
+      The poltergeist is invisible.
+
+  
+
+
+
+
+actions:
+  - name: "Forceful Slam"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft. one creature. Hit: 10 (3d6) force damage.
+
+  - name: "Telekinetic Thrust"
+    description: |
+      The poltergeist targets a creature or unattended object within 30 feet of it. A creature must be Medium or smaller to be affected by this magic, and an object can weigh up to 150 pounds.
+
+      If the target is a creature, the poltergeist makes a Charisma check contested by the target's Strength check. If the poltergeist wins the contest, the poltergeist hurls the target up to 30 feet in any direction, including upward. If the target then comes into contact with a hard surface or heavy object, the target takes 1d6 damage per 10 feet moved.
+
+      If the target is an object that isn't being worn or carried, the poltergeist hurls it up to 30 feet in any direction. The poltergeist can use the object as a ranged weapon, attacking one creature along the object's path (+4 to hit) and dealing 5 (2d4) bludgeoning damage on a hit.
+
+  
+
+
+

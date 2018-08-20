@@ -1,0 +1,55 @@
+
+name: "Riding Horse"
+slug_name: "riding-horse"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "10"
+armor_class_type: null
+hit_points: "13"
+hit_dice: "2d10+2"
+speed: "60 ft."
+
+strength: "16"
+strength_modifier: "+3"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: null
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Hooves"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.
+
+  
+
+
+

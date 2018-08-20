@@ -1,0 +1,55 @@
+
+name: "Poisonous Snake"
+slug_name: "poisonous-snake"
+
+challenge_rating: "1/8"
+challenge_rating_decimal: "0.125"
+experience: "25 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: null
+hit_points: "2"
+hit_dice: "1d4"
+speed: "30 ft., swim 30 ft."
+
+strength: "2"
+strength_modifier: "-4"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: null
+senses: "blindsight 10 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

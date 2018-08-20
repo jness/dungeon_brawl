@@ -1,0 +1,75 @@
+
+name: "Flamewrath"
+slug_name: "flamewrath"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "chaotic evil"
+
+armor_class: "12"
+armor_class_type: "15 with mage armor"
+hit_points: "105"
+hit_dice: "14d8+42"
+speed: "30 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: "Arcana +3, Religion +3"
+senses: null
+languages: "Common, Ignan"
+
+damage_resistances: null
+damage_immunities: "fire"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Wreathed in Flame"
+    description: |
+      For the flamewrath, the warm version of the fire shield spell has a duration of "until dispelled." The fire shield burns for 10 minutes after the flamewrath dies, consuming its body.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells: 
+
+      Cantrips (at will): control flames, fire bolt, friends, light, minor illusion
+      1st level (4 slots): burning hands, color spray, mage armor
+      2nd level (3 slots): scorching ray, suggestion
+      3rd level (3 slots): fireball, hypnotic pattern
+      4th level (1 slot): fire shield (see Wreathed in Flame)
+
+  
+
+
+actions:
+  - name: "Dagger"
+    description: |
+      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+  
+
+
+

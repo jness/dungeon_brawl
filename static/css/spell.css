@@ -4,6 +4,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.indent {
-    padding-left: 50px;
+.description {
+    white-space: pre-wrap;
 }

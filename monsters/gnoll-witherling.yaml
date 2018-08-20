@@ -1,0 +1,76 @@
+
+name: "Gnoll Witherling"
+slug_name: "gnoll-witherling"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "undead"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "12"
+armor_class_type: "natural armor"
+hit_points: "11"
+hit_dice: "2d8+2"
+speed: "30 ft."
+
+strength: "14"
+strength_modifier: "+2"
+dexterity: "8"
+dexterity_modifier: "-1"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "5"
+intelligence_modifier: "-3"
+wisdom: "5"
+wisdom_modifier: "-3"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: "understands Gnoll but can't speak"
+
+damage_resistances: null
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "exhaustion, poisoned"
+
+
+special_abilities:
+  - name: "Rampage"
+    description: |
+      When the witherling reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make a bite attack.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The witherling makes two attacks: one with its bite and one with its club, or two with its club.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.
+
+  - name: "Club"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.
+
+      **Reactions**
+
+  - name: "Vengeful Strike"
+    description: |
+      In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes a melee attack.
+
+  
+
+
+

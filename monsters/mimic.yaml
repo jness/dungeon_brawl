@@ -1,0 +1,78 @@
+
+name: "Mimic"
+slug_name: "mimic"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "monstrosity"
+subtype: "shapechanger"
+alignment: "neutral"
+
+armor_class: "12"
+armor_class_type: "natural armor"
+hit_points: "58"
+hit_dice: "9d8+18"
+speed: "15 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "5"
+intelligence_modifier: "-3"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Stealth +5"
+senses: "darkvision 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: "acid"
+damage_vulnerabilities: null
+condition_immunities: "prone"
+
+
+special_abilities:
+  - name: "Shapechanger"
+    description: |
+      The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.
+
+  - name: "Adhesive (Object Form Only)"
+    description: |
+      The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.
+
+  - name: "False Appearance (Object Form Only)"
+    description: |
+      While the mimic remains motionless, it is indistinguishable from an ordinary object.
+
+  - name: "Grappler"
+    description: |
+      The mimic has advantage on attack rolls against any creature grappled by it.
+
+  
+
+
+
+
+actions:
+  - name: "Pseudopod"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.
+
+  
+
+
+

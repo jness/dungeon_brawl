@@ -1,0 +1,77 @@
+
+name: "Black Earth Priest"
+slug_name: "black-earth-priest"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "17"
+armor_class_type: "splint"
+hit_points: "45"
+hit_dice: "7d8+14"
+speed: "30 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "12"
+intelligence_modifier: "+1"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: null
+skills: "Intimidation +5, Religion +3, Persuasion +5"
+senses: null
+languages: "Common, Terran"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: 
+
+      Cantrips (at will): acid splash, blade ward, light, mending, mold earth
+      1st level (4 slots): earth tremor, expeditious retreat, shield
+      2nd level (3 slots): shatter, spider climb
+      3rd level (2 slots): slow
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The priest makes two melee attacks.
+
+  - name: "Glaive"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) slashing damage.
+
+      **Reactions**
+
+  - name: "Unyielding"
+    description: |
+      When the priest is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.
+
+  
+
+
+

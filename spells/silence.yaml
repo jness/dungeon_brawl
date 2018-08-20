@@ -1,0 +1,26 @@
+
+name: Silence
+slug_name: silence
+
+classes:
+  - bard
+  - cleric
+  - ranger
+  - warlock
+  - druid
+  - monk
+  
+sources:
+  - PHB.275
+  - SRD.179
+  
+level: 2nd-level
+school: Illusion (Ritual)
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 10 minutes
+range: 120 feet
+
+description: |
+  For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it.

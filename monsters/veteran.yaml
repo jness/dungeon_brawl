@@ -1,0 +1,67 @@
+
+name: "Veteran"
+slug_name: "veteran"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "17"
+armor_class_type: "splint"
+hit_points: "58"
+hit_dice: "9d8+18"
+speed: "30 ft."
+
+strength: "16"
+strength_modifier: "+3"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Athletics +5, Perception +2"
+senses: null
+languages: "any one language (usually Common)"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.
+
+  - name: "Longsword"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+
+  - name: "Shortsword"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
+
+  - name: "Heavy Crossbow"
+    description: |
+      Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.
+
+  
+
+
+

@@ -1,0 +1,70 @@
+
+name: "Tiger"
+slug_name: "tiger"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "37"
+hit_dice: "5d10+10"
+speed: "40 ft."
+
+strength: "17"
+strength_modifier: "+3"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "3"
+intelligence_modifier: "-4"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Perception +3, Stealth +6"
+senses: "darkvision 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Keen Smell"
+    description: |
+      The tiger has advantage on Wisdom (Perception) checks that rely on smell.
+
+  - name: "Pounce"
+    description: |
+      If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
+
+  
+
+
+

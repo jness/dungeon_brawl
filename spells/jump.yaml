@@ -1,0 +1,24 @@
+
+name: Jump
+slug_name: jump
+
+classes:
+  - wizard
+  - sorcerer
+  - druid
+  - ranger
+  
+sources:
+  - PHB.254
+  - SRD.158
+  
+level: 1st-level
+school: Transmutation
+
+components: V, S, M (a grasshopper's hind leg)
+casting_time: 1 action
+duration: 1 minute
+range: Touch
+
+description: |
+  You touch a creature. The creature's jump distance is tripled until the spell ends.

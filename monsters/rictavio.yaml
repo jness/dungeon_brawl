@@ -1,0 +1,84 @@
+
+name: "Rictavio"
+slug_name: "rictavio"
+
+challenge_rating: "5"
+challenge_rating_decimal: "5.0"
+experience: "1,800 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "lawful good"
+
+armor_class: "12"
+armor_class_type: "leather armor"
+hit_points: "77"
+hit_dice: "14d8+14"
+speed: "30 ft."
+
+strength: "9"
+strength_modifier: "-1"
+dexterity: "12"
+dexterity_modifier: "+1"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "18"
+wisdom_modifier: "+4"
+charisma: "16"
+charisma_modifier: "+3"
+
+saving_throws: "Con +4, Wis +7"
+skills: "Arcana +9, Insight +7, Medicine +7, Perception +7, Religion +6, Sleight of Hand +4"
+senses: null
+languages: "Abyssal, Common, Elvish, Infernal"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Special Equipment"
+    description: |
+      In addition to his sword cane, Rictavio wears a hat of disguise and a ring of mind shielding, and he carries a spell scroll of raise dead.
+
+  - name: "Undead Slayer"
+    description: |
+      When Rictavio hits an undead with a weapon attack, the undead takes an extra 10 (3d6) damage of the weapon's type.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      Rictavio is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Rictavio has the following cleric spells prepared:
+
+      Cantrips (at will): guidance, light, mending, thaumaturgy
+      1st level (4 slots): cure wounds, detect evil and good, protection from evil and good, sanctuary
+      2nd level (3 slots): augury, lesser restoration, protection from poison
+      3rd level (3 slots): magic circle, remove curse, speak with dead
+      4th level (3 slots): death ward, freedom of movement
+      5th level (1 slot): dispel evil and good
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      Rictavio makes two attacks with his sword cane.
+
+  - name: "Sword Cane"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage (wooden cane) or piercing damage (silvered sword).
+
+  
+
+
+

@@ -1,0 +1,79 @@
+
+name: "Warlock of the Fiend"
+slug_name: "warlock-of-the-fiend"
+
+challenge_rating: "7"
+challenge_rating_decimal: "7.0"
+experience: "2,900 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "12"
+armor_class_type: "15 with mage armor"
+hit_points: "78"
+hit_dice: "12d8+24"
+speed: "30 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "12"
+intelligence_modifier: "+1"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "18"
+charisma_modifier: "+4"
+
+saving_throws: "Wis +4, Cha +7"
+skills: "Arcana +4, Deception +7, Persuasion +7, Religion +4"
+senses: "darkvision 60 ft."
+languages: "any two languages (usually Abyssal or Infernal)"
+
+damage_resistances: "slashing damage from nonmagical attacks not made with silvered weapons"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Dark One's Own Luck (Recharges after a Short or Long Rest)"
+    description: |
+      When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+      At will: alter self, false life, levitate (self only), mage armor (self only), silent image
+      1/day each: feeblemind, finger of death, plane shift
+
+  - name: "Spellcasting"
+    description: |
+      The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+      Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp
+      1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire
+
+  
+
+
+actions:
+  - name: "Mace"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.
+
+  
+
+
+

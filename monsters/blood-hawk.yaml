@@ -1,0 +1,66 @@
+
+name: "Blood Hawk"
+slug_name: "blood-hawk"
+
+challenge_rating: "1/8"
+challenge_rating_decimal: "0.125"
+experience: "25 XP"
+
+size: "Small"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "7"
+hit_dice: "2d6"
+speed: "10 ft., fly 60 ft."
+
+strength: "6"
+strength_modifier: "-2"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "10"
+constitution_modifier: "+0"
+intelligence: "3"
+intelligence_modifier: "-4"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "5"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: "Perception +4"
+senses: null
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Keen Sight"
+    description: |
+      The hawk has advantage on Wisdom (Perception) checks that rely on sight.
+
+  - name: "Pack Tactics"
+    description: |
+      The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+
+  
+
+
+
+
+actions:
+  - name: "Beak"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+  
+
+
+

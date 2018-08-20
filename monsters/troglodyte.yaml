@@ -1,0 +1,78 @@
+
+name: "Troglodyte"
+slug_name: "troglodyte"
+
+challenge_rating: "1/4"
+challenge_rating_decimal: "0.25"
+experience: "50 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "troglodyte"
+alignment: "chaotic evil"
+
+armor_class: "11"
+armor_class_type: "natural armor"
+hit_points: "13"
+hit_dice: "2d8+4"
+speed: "30 ft."
+
+strength: "14"
+strength_modifier: "+2"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "6"
+intelligence_modifier: "-2"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "6"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Stealth +2"
+senses: "darkvision 60 ft."
+languages: "Troglodyte"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Chameleon Skin"
+    description: |
+      The troglodyte has advantage on Dexterity (Stealth) checks made to hide.
+
+  - name: "Stench"
+    description: |
+      Any creature other than a troglodyte that starts its turn within 5 ft. of the troglodyte must succeed on a DC 12 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.
+
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The troglodyte makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.
+
+  
+
+
+

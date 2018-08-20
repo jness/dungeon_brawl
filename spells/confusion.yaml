@@ -1,0 +1,28 @@
+
+name: Confusion
+slug_name: confusion
+
+classes:
+  - wizard
+  - bard
+  - paladin
+  - cleric
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.224
+  - SRD.127
+  
+level: 4th-level
+school: Enchantment
+
+components: V, S, M (three nut shells)
+casting_time: 1 action
+duration: Concentration, up to 1 minute
+range: 90 feet
+
+description: |
+  At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target
+
+  At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each spell slot above 4th.

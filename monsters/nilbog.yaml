@@ -1,0 +1,85 @@
+
+name: "Nilbog"
+slug_name: "nilbog"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Small"
+type: "humanoid"
+subtype: "goblinoid"
+alignment: "chaotic evil"
+
+armor_class: "13"
+armor_class_type: "leather armor"
+hit_points: "7"
+hit_dice: "2d6"
+speed: "30 ft."
+
+strength: "8"
+strength_modifier: "-1"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "10"
+constitution_modifier: "+0"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "8"
+wisdom_modifier: "-1"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: "Stealth +6"
+senses: "darkvision 60 ft."
+languages: "Common, Goblin"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Nilbogism"
+    description: |
+      Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature's next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.
+
+  - name: "Nimble Escape"
+    description: |
+      The nilbog can take the Disengage or Hide action as a bonus action on each of its turns.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
+
+      At will: mage hand, Tasha's hideous laughter, vicious mockery 1/day: confusion
+
+  
+
+
+actions:
+  - name: "Fool's Scepter"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
+
+  - name: "Shortbow"
+    description: |
+      Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.
+
+      **Reactions**
+
+  - name: "Reversal of Fortune"
+    description: |
+      In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.
+
+  
+
+
+

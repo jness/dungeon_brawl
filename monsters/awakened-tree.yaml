@@ -1,0 +1,62 @@
+
+name: "Awakened Tree"
+slug_name: "awakened-tree"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Huge"
+type: "plant"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "59"
+hit_dice: "7d12+14"
+speed: "20 ft."
+
+strength: "19"
+strength_modifier: "+4"
+dexterity: "6"
+dexterity_modifier: "-2"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: null
+senses: null
+languages: "one language known by its creator"
+
+damage_resistances: "bludgeoning, piercing"
+damage_immunities: null
+damage_vulnerabilities: "fire"
+condition_immunities: null
+
+
+special_abilities:
+  - name: "False Appearance"
+    description: |
+      While the tree remains motionless, it is indistinguishable from a normal tree.
+
+  
+
+
+
+
+actions:
+  - name: "Slam"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.
+
+  
+
+
+

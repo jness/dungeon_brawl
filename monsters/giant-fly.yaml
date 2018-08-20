@@ -1,0 +1,51 @@
+
+name: "Giant Fly"
+slug_name: "giant-fly"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Large"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "11"
+armor_class_type: null
+hit_points: "19"
+hit_dice: "3d10+3"
+speed: "30 ft., fly 60 ft."
+
+strength: "14"
+strength_modifier: "+2"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: null
+senses: "darkvision 60 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  
+
+
+

@@ -1,0 +1,62 @@
+
+name: "Awakened Shrub"
+slug_name: "awakened-shrub"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Small"
+type: "plant"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "9"
+armor_class_type: null
+hit_points: "10"
+hit_dice: "3d6"
+speed: "20 ft."
+
+strength: "3"
+strength_modifier: "-4"
+dexterity: "8"
+dexterity_modifier: "-1"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "6"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: null
+senses: null
+languages: "one language known by its creator"
+
+damage_resistances: "piercing"
+damage_immunities: null
+damage_vulnerabilities: "fire"
+condition_immunities: null
+
+
+special_abilities:
+  - name: "False Appearance"
+    description: |
+      While the shrub remains motionless, it is indistinguishable from a normal shrub.
+
+  
+
+
+
+
+actions:
+  - name: "Rake"
+    description: |
+      Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage.
+
+  
+
+
+

@@ -1,0 +1,87 @@
+
+name: "Hurricane"
+slug_name: "hurricane"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "lawful evil"
+
+armor_class: "14"
+armor_class_type: null
+hit_points: "33"
+hit_dice: "6d8+6"
+speed: "45 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Acrobatics +5"
+senses: null
+languages: "Auran, Common"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Unarmored Defense"
+    description: |
+      While the hurricane is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+
+  - name: "Unarmored Movement"
+    description: |
+      While the hurricane is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed).
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells: 
+
+      Cantrips (at will): blade ward, gust, light, prestidigitation
+      1st level (4 slots): feather fall, jump, thunderwave
+      2nd level (2 slots): gust of wind
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The hurricane makes two melee attacks.
+
+  - name: "Unarmed Strike"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.
+
+      **Reactions**
+
+  - name: "Deflect Missiles"
+    description: |
+      When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.
+
+  
+
+
+

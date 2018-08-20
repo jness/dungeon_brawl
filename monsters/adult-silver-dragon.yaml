@@ -1,0 +1,103 @@
+
+name: "Adult Silver Dragon"
+slug_name: "adult-silver-dragon"
+
+challenge_rating: "16"
+challenge_rating_decimal: "16.0"
+experience: "15,000 XP"
+
+size: "Huge"
+type: "dragon"
+subtype: null
+alignment: "lawful good"
+
+armor_class: "19"
+armor_class_type: "natural armor"
+hit_points: "243"
+hit_dice: "18d12+126"
+speed: "40 ft., fly 80 ft."
+
+strength: "27"
+strength_modifier: "+8"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "25"
+constitution_modifier: "+7"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "21"
+charisma_modifier: "+5"
+
+saving_throws: "Dex +5, Con +12, Wis +6, Cha +10"
+skills: "Arcana +8, History +8, Perception +11, Stealth +5"
+senses: "blindsight 60 ft., darkvision 120 ft."
+languages: "Common, Draconic"
+
+damage_resistances: null
+damage_immunities: "cold"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Legendary Resistance (3/Day)"
+    description: |
+      If the dragon fails a saving throw, it can choose to succeed instead.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage.
+
+  - name: "Claw"
+    description: |
+      Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage.
+
+  - name: "Tail"
+    description: |
+      Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.
+
+  - name: "Frightful Presence"
+    description: |
+      Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
+
+  - name: "Breath Weapons (Recharge 5-6)"
+    description: |
+      The dragon uses one of the following breath weapons.
+
+      Cold Breath. The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.
+
+      Paralyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+  
+
+
+legendary_action_description: "The adult silver dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult silver dragon regains spent legendary actions at the start of its turn."
+
+
+
+legendary_actions:
+  - name: "Detect"
+    description: |
+      The dragon makes a Wisdom (Perception) check.
+
+  - name: "Tail Attack"
+    description: |
+      The dragon makes a tail attack.
+
+  - name: "Wing Attack (Costs 2 Actions)"
+    description: |
+      The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+
+  

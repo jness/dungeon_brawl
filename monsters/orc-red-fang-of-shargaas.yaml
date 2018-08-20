@@ -1,0 +1,86 @@
+
+name: "Orc Red Fang of Shargaas"
+slug_name: "orc-red-fang-of-shargaas"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "orc"
+alignment: "chaotic evil"
+
+armor_class: "15"
+armor_class_type: "studded leather armor"
+hit_points: "52"
+hit_dice: "8d8+16"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "9"
+intelligence_modifier: "-1"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Intimidation +1, Perception +2, Stealth +5"
+senses: "darkvision 60 ft."
+languages: "Common, Orc"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Cunning Action"
+    description: |
+      On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.
+
+  - name: "Hand of Shargaas"
+    description: |
+      The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).
+
+  - name: "Shargaas's Sight"
+    description: |
+      Magical darkness doesn't impede the orc's darkvision.
+
+  - name: "Slayer"
+    description: |
+      In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn't taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The orc makes two scimitar or dart attacks.
+
+  - name: "Scimitar"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage.
+
+  - name: "Dart"
+    description: |
+      Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.
+
+  - name: "Veil of Shargaas (Recharges after a Short or Long Rest)"
+    description: |
+      The orc casts darkness without any components. Wisdom is its spellcasting ability.
+
+  
+
+
+

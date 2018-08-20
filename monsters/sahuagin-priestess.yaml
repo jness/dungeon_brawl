@@ -1,0 +1,90 @@
+
+name: "Sahuagin Priestess"
+slug_name: "sahuagin-priestess"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "sahuagin"
+alignment: "lawful evil"
+
+armor_class: "12"
+armor_class_type: "natural armor"
+hit_points: "33"
+hit_dice: "6d8+6"
+speed: "30 ft., swim 40 ft."
+
+strength: "13"
+strength_modifier: "+1"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "12"
+intelligence_modifier: "+1"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "13"
+charisma_modifier: "+1"
+
+saving_throws: null
+skills: "Perception +6, Religion +3"
+senses: "darkvision 120 ft."
+languages: "Sahuagin"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Blood Frenzy"
+    description: |
+      The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+
+  - name: "Limited Amphibiousness"
+    description: |
+      The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.
+
+  - name: "Shark Telepathy"
+    description: |
+      The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared: 
+
+      Cantrips (at will): guidance, thaumaturgy
+      1st level (4 slots): bless, detect magic, guiding bolt
+      2nd level (3 slots): hold person, spiritual weapon (trident)
+      3rd level (3 slots): mass healing word, tongues
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The sahuagin makes two melee attacks: one with her bite and one with her claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
+
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.
+
+  
+
+
+

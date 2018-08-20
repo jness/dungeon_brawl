@@ -1,0 +1,78 @@
+
+name: "Wererat"
+slug_name: "wererat"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human, shapechanger"
+alignment: "lawful evil"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "33"
+hit_dice: "6d8+6"
+speed: "30 ft."
+
+strength: "10"
+strength_modifier: "+0"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "8"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Perception +2, Stealth +4"
+senses: "darkvision 60 ft. (rat form only)"
+languages: "Common (can't speak in rat form)"
+
+damage_resistances: null
+damage_immunities: "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Shapechanger"
+    description: |
+      The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+  - name: "Keen Smell"
+    description: |
+      The wererat has advantage on Wisdom (Perception) checks that rely on smell.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack (Humanoid or Hybrid Form Only)"
+    description: |
+      The wererat makes two attacks, only one of which can be a bite.
+
+  - name: "Bite (Rat or Hybrid Form Only)"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
+
+  - name: "Shortsword (Humanoid or Hybrid Form Only)"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+  - name: "Hand Crossbow (Humanoid or Hybrid Form Only)"
+    description: |
+      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+  
+
+
+

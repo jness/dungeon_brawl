@@ -1,0 +1,70 @@
+
+name: "Nightmare"
+slug_name: "nightmare"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Large"
+type: "fiend"
+subtype: null
+alignment: "neutral evil"
+
+armor_class: "13"
+armor_class_type: "natural armor"
+hit_points: "68"
+hit_dice: "8d10+24"
+speed: "60 ft., fly 90 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "15"
+dexterity_modifier: "+2"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "10"
+intelligence_modifier: "+0"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: null
+skills: null
+senses: null
+languages: "understands Abyssal, Common, and Infernal but can't speak"
+
+damage_resistances: null
+damage_immunities: "fire"
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Confer Fire Resistance"
+    description: |
+      The nightmare can grant resistance to fire damage to anyone riding it.
+
+  - name: "Illumination"
+    description: |
+      The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
+
+  
+
+
+
+
+actions:
+  - name: "Hooves"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage.
+
+  - name: "Ethereal Stride"
+    description: |
+      The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.
+
+  
+
+
+

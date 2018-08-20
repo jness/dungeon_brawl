@@ -1,0 +1,78 @@
+
+name: "Illusionist"
+slug_name: "illusionist"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "12"
+armor_class_type: "15 with mage armor"
+hit_points: "38"
+hit_dice: "7d8+7"
+speed: "30 ft."
+
+strength: "9"
+strength_modifier: "-1"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "13"
+constitution_modifier: "+1"
+intelligence: "16"
+intelligence_modifier: "+3"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: "Int +5, Wis +2"
+skills: "Arcana +5, History +5"
+senses: null
+languages: "any four languages"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Displacement (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher)"
+    description: |
+      As a bonus action, the illusionist projects an illusion that makes the illusionist appear to be standing in a place a few inches from its actual location, causing any creature to have disadvantage on attack rolls against the illusionist. The effect ends if the illusionist takes damage, it is incapacitated, or its speed becomes 0.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:
+
+      Cantrips (at will): dancing lights, mage hand, minor illusion, poison spray
+      1st level (4 slots): color spray*, disguise self*, mage armor, magic missile
+      2nd level (3 slots): invisibility*, mirror image*, phantasmal force
+      3rd level (3 slots): major image*, phantom steed*
+      4th level (1 slot): phantasmal killer*
+
+      *Illusion spell of 1st level or higher
+
+
+  
+
+
+actions:
+  - name: "Quarterstaff"
+    description: |
+      Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
+
+  
+
+
+

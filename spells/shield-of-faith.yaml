@@ -1,0 +1,22 @@
+
+name: Shield of Faith
+slug_name: shield-of-faith
+
+classes:
+  - paladin
+  - cleric
+  
+sources:
+  - PHB.275
+  - SRD.179
+  
+level: 1st-level
+school: Abjuration
+
+components: V, S, M (a small parchment with a bit of holy text written on it)
+casting_time: 1 bonus action
+duration: Concentration, up to 10 minutes
+range: 60 feet
+
+description: |
+  A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.

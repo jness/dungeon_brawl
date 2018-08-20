@@ -1,0 +1,82 @@
+
+name: "Hezrou"
+slug_name: "hezrou"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Large"
+type: "fiend"
+subtype: "demon"
+alignment: "chaotic evil"
+
+armor_class: "16"
+armor_class_type: "natural armor"
+hit_points: "136"
+hit_dice: "13d10+65"
+speed: "30 ft."
+
+strength: "19"
+strength_modifier: "+4"
+dexterity: "17"
+dexterity_modifier: "+3"
+constitution: "20"
+constitution_modifier: "+5"
+intelligence: "5"
+intelligence_modifier: "-3"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "13"
+charisma_modifier: "+1"
+
+saving_throws: "Str +7, Con +8, Wis +4"
+skills: null
+senses: "darkvision 120 ft."
+languages: "Abyssal, telepathy 120 ft."
+
+damage_resistances: "cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons"
+damage_immunities: "poison"
+damage_vulnerabilities: null
+condition_immunities: "poisoned"
+
+
+special_abilities:
+  - name: "Magic Resistance"
+    description: |
+      The hezrou has advantage on saving throws against spells and other magical effects.
+
+  - name: "Stench"
+    description: |
+      Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The hezrou makes three attacks: one with its bite and two with its claws.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage.
+
+  - name: "Claws"
+    description: |
+      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.
+
+  - name: "Variant: Summon Demon (1/Day)"
+    description: |
+      The demon chooses what to summon and attempts a magical summoning.
+
+      A hezrou has a 30 percent chance of summoning 2d6 dretches or one hezrou.
+
+      A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+  
+
+
+

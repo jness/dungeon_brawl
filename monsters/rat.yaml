@@ -1,0 +1,62 @@
+
+name: "Rat"
+slug_name: "rat"
+
+challenge_rating: "0"
+challenge_rating_decimal: "0.0"
+experience: "10 XP"
+
+size: "Tiny"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "10"
+armor_class_type: null
+hit_points: "1"
+hit_dice: "1d4-1"
+speed: "20 ft."
+
+strength: "2"
+strength_modifier: "-4"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "9"
+constitution_modifier: "-1"
+intelligence: "2"
+intelligence_modifier: "-4"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "4"
+charisma_modifier: "-3"
+
+saving_throws: null
+skills: null
+senses: "darkvision 30 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Keen Smell"
+    description: |
+      The rat has advantage on Wisdom (Perception) checks that rely on smell.
+
+  
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.
+
+  
+
+
+

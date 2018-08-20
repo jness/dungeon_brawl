@@ -1,0 +1,78 @@
+
+name: "Orc Hand of Yurtrus"
+slug_name: "orc-hand-of-yurtrus"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "orc"
+alignment: "chaotic evil"
+
+armor_class: "12"
+armor_class_type: "hide armor"
+hit_points: "30"
+hit_dice: "4d8+12"
+speed: "30 ft."
+
+strength: "12"
+strength_modifier: "+1"
+dexterity: "11"
+dexterity_modifier: "+0"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "14"
+wisdom_modifier: "+2"
+charisma: "9"
+charisma_modifier: "-1"
+
+saving_throws: null
+skills: "Arcana +2, Intimidation +1, Medicine +4, Religion +2"
+senses: "darkvision 60 ft."
+languages: "understands Common and Orc but can't speak"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Source"
+    description: |
+      Volo's Guide to Monsters, p. 184
+
+  - name: "Aggressive"
+    description: |
+      As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+
+  
+
+
+
+spell_casting:
+  - name: "Spellcasting"
+    description: |
+      The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:
+
+      Cantrips (at-will): guidance, mending, resistance, thaumaturgy
+
+      1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good
+      2nd level (3 slots): blindness/deafness, silence
+
+  
+
+
+actions:
+  - name: "Touch of the White Hand"
+    description: |
+      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage.
+
+  
+
+
+

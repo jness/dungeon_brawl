@@ -1,0 +1,78 @@
+
+name: "Dragonfang"
+slug_name: "dragonfang"
+
+challenge_rating: "5"
+challenge_rating_decimal: "5.0"
+experience: "1,800 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "human"
+alignment: "neutral evil"
+
+armor_class: "15"
+armor_class_type: "studded leather"
+hit_points: "78"
+hit_dice: "12d8+24"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "12"
+intelligence_modifier: "+1"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "14"
+charisma_modifier: "+2"
+
+saving_throws: "Wis +3"
+skills: "Deception +4, Stealth +5"
+senses: null
+languages: "Common, Draconic, Infernal"
+
+damage_resistances: "one of the following: acid, cold, fire, lightning or poison"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Dragon Fanatic"
+    description: |
+      The dragonfang has advantage on saving throws against being charmed or frightened. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being charmed or frightened.
+
+  - name: "Fanatic Advantage"
+    description: |
+      Once per turn, if the dragonfang makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage.
+
+  - name: "Limited Flight"
+    description: |
+      The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The Dragonfang attacks twice with its shortsword.
+
+  - name: "Shortsword"
+    description: |
+      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance.
+
+  - name: "Orb of Dragon's Breath (2/Day)"
+    description: |
+      Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.
+
+  
+
+
+

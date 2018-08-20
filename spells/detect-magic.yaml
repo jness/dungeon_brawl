@@ -1,0 +1,29 @@
+
+name: Detect Magic
+slug_name: detect-magic
+
+classes:
+  - wizard
+  - bard
+  - paladin
+  - cleric
+  - ranger
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.231
+  - SRD.134
+  
+level: 1st-level
+school: Divination (Ritual)
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 10 minutes
+range: Self
+
+description: |
+  For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
+
+  The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.

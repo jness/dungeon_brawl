@@ -1,0 +1,24 @@
+
+name: Remove Curse
+slug_name: remove-curse
+
+classes:
+  - warlock
+  - wizard
+  - paladin
+  - cleric
+  
+sources:
+  - PHB.271
+  - SRD.174
+  
+level: 3rd-level
+school: Abjuration
+
+components: V, S
+casting_time: 1 action
+duration: Instantaneous
+range: Touch
+
+description: |
+  At your touch, all curses affecting one creature or object end. If the object is a cursed magical item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.

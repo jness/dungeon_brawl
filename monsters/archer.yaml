@@ -1,0 +1,70 @@
+
+name: "Archer"
+slug_name: "archer"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "16"
+armor_class_type: "studded leather armor"
+hit_points: "75"
+hit_dice: "10d8+30"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "18"
+dexterity_modifier: "+4"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: null
+skills: "Acrobatics +6, Perception +5"
+senses: null
+languages: "any one language (usually Common)"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Archer's Eye"
+    description: |
+      As a bonus action, the archer can add 1d10 to its next attack or damage roll with a longbow or shortbow.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack "
+    description: |
+      The archer makes two attacks with its longbow.
+
+  - name: "Shortsword"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 7 (1d6+4) piercing damage.
+
+  - name: "Longbow"
+    description: |
+      Ranged Weapon Attack: +6 to hit, range 150/600 ft, one target. Hit: 8 (1d8+4) piercing damage.
+
+  
+
+
+

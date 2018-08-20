@@ -1,0 +1,66 @@
+
+name: "Death Dog"
+slug_name: "death-dog"
+
+challenge_rating: "1"
+challenge_rating_decimal: "1.0"
+experience: "200 XP"
+
+size: "Medium"
+type: "monstrosity"
+subtype: null
+alignment: "neutral evil"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "39"
+hit_dice: "6d8+12"
+speed: "40 ft."
+
+strength: "15"
+strength_modifier: "+2"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "3"
+intelligence_modifier: "-4"
+wisdom: "13"
+wisdom_modifier: "+1"
+charisma: "6"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Perception +5, Stealth +4"
+senses: "darkvision 120 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Two-Headed"
+    description: |
+      The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The dog makes two bite attacks.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.
+
+  
+
+
+

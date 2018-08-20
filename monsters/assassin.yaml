@@ -1,0 +1,78 @@
+
+name: "Assassin"
+slug_name: "assassin"
+
+challenge_rating: "8"
+challenge_rating_decimal: "8.0"
+experience: "3,900 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any non-good alignment"
+
+armor_class: "15"
+armor_class_type: "studded leather"
+hit_points: "78"
+hit_dice: "12d8+24"
+speed: "30 ft."
+
+strength: "11"
+strength_modifier: "+0"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "14"
+constitution_modifier: "+2"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "10"
+charisma_modifier: "+0"
+
+saving_throws: "Dex +6, Int +4"
+skills: "Acrobatics +6, Deception +3, Perception +3, Stealth +9"
+senses: null
+languages: "Thieves' cant plus any two languages"
+
+damage_resistances: "poison"
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Assassinate"
+    description: |
+      During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.
+
+  - name: "Evasion"
+    description: |
+      If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+  - name: "Sneak Attack (1/Turn)"
+    description: |
+      The assassin deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The assassin makes two shortsword attacks.
+
+  - name: "Shortsword"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
+
+  - name: "Light Crossbow"
+    description: |
+      Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
+
+  
+
+
+

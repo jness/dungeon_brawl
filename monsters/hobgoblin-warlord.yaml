@@ -1,0 +1,84 @@
+
+name: "Hobgoblin Warlord"
+slug_name: "hobgoblin-warlord"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "goblinoid"
+alignment: "lawful evil"
+
+armor_class: "20"
+armor_class_type: "plate, shield"
+hit_points: "97"
+hit_dice: "13d8+39"
+speed: "30 ft."
+
+strength: "16"
+strength_modifier: "+3"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "16"
+constitution_modifier: "+3"
+intelligence: "14"
+intelligence_modifier: "+2"
+wisdom: "11"
+wisdom_modifier: "+0"
+charisma: "15"
+charisma_modifier: "+2"
+
+saving_throws: "Int +5, Wis +3, Cha +5"
+skills: null
+senses: "darkvision 60 ft."
+languages: "Common, Goblin"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Martial Advantage"
+    description: |
+      Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The hobgoblin makes three melee attacks. Alternatively, it can make two ranged attacks with its javelins.
+
+  - name: "Longsword"
+    description: |
+      Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+
+  - name: "Shield Bash"
+    description: |
+      Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+
+  - name: "Javelin"
+    description: |
+      Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
+
+  - name: "Leadership (Recharges after a Short or Long Rest)"
+    description: |
+      For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is incapacitated.
+
+      **Reactions**
+
+  - name: "Parry"
+    description: |
+      The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.
+
+  
+
+
+

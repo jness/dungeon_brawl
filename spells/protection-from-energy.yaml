@@ -1,0 +1,26 @@
+
+name: Protection from Energy
+slug_name: protection-from-energy
+
+classes:
+  - wizard
+  - paladin
+  - cleric
+  - ranger
+  - druid
+  - sorcerer
+  
+sources:
+  - PHB.270
+  - SRD.173
+  
+level: 3rd-level
+school: Abjuration
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 1 minute
+range: Touch
+
+description: |
+  For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.

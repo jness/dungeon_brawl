@@ -1,0 +1,23 @@
+
+name: See Invisibility
+slug_name: see-invisibility
+
+classes:
+  - wizard
+  - bard
+  - sorcerer
+  
+sources:
+  - PHB.274
+  - SRD.177
+  
+level: 2nd-level
+school: Divination
+
+components: V, S, M (a pinch of tale and a small sprinkling of powdered silver)
+casting_time: 1 action
+duration: 1 hour
+range: Self
+
+description: |
+  For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.

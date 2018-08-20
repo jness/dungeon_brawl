@@ -1,0 +1,70 @@
+
+name: "Hook Horror"
+slug_name: "hook-horror"
+
+challenge_rating: "3"
+challenge_rating_decimal: "3.0"
+experience: "700 XP"
+
+size: "Large"
+type: "monstrosity"
+subtype: null
+alignment: "neutral"
+
+armor_class: "15"
+armor_class_type: "natural armor"
+hit_points: "75"
+hit_dice: "10d10+20"
+speed: "30 ft., climb 30 ft."
+
+strength: "18"
+strength_modifier: "+4"
+dexterity: "10"
+dexterity_modifier: "+0"
+constitution: "15"
+constitution_modifier: "+2"
+intelligence: "6"
+intelligence_modifier: "-2"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "7"
+charisma_modifier: "-2"
+
+saving_throws: null
+skills: "Perception +3"
+senses: "blindsight 60 ft., darkvision 10 ft."
+languages: "Hook Horror"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Echolocation"
+    description: |
+      The hook horror can't use its blindsight while deafened.
+
+  - name: "Keen Hearing"
+    description: |
+      The hook horror has advantage on Wisdom (Perception) checks that rely on hearing.
+
+  
+
+
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The hook horror makes two hook attacks.
+
+  - name: "Hook"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.
+
+  
+
+
+

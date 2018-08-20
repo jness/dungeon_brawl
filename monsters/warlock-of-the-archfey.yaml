@@ -1,0 +1,78 @@
+
+name: "Warlock of the Archfey"
+slug_name: "warlock-of-the-archfey"
+
+challenge_rating: "4"
+challenge_rating_decimal: "4.0"
+experience: "1,100 XP"
+
+size: "Medium"
+type: "humanoid"
+subtype: "any race"
+alignment: "any alignment"
+
+armor_class: "11"
+armor_class_type: "14 with mage armor"
+hit_points: "49"
+hit_dice: "11d8"
+speed: "30 ft."
+
+strength: "9"
+strength_modifier: "-1"
+dexterity: "13"
+dexterity_modifier: "+1"
+constitution: "11"
+constitution_modifier: "+0"
+intelligence: "11"
+intelligence_modifier: "+0"
+wisdom: "12"
+wisdom_modifier: "+1"
+charisma: "18"
+charisma_modifier: "+4"
+
+saving_throws: "Wis +3, Cha +6"
+skills: "Arcana +2, Deception +6, Nature +2, Persuasion +6"
+senses: null
+languages: "any two languages (usually Sylvan)"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: "charmed"
+
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+      At will: disguise self, mage armor (self only), silent image, speak with animals
+      1/day: conjure fey
+
+  - name: "Spellcasting"
+    description: |
+      The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+      Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery
+      1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep
+
+  
+
+
+actions:
+  - name: "Dagger"
+    description: |
+      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
+
+      **Reactions**
+
+  - name: "Misty Escape (Recharges after a Short or Long Rest)"
+    description: |
+      In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.
+
+  
+
+
+

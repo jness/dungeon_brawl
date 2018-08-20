@@ -2,6 +2,7 @@
 
 import glob
 import json
+import yaml
 
 from pymongo import MongoClient
 
@@ -14,11 +15,11 @@ monsters = database.monsters
 spells = database.spells
 
 # iterate over all monster files
-for file_path in sorted(glob.glob('monsters/*.json')):
+for file_path in sorted(glob.glob('monsters/*.yaml')):
     with open(file_path) as f:
 
         # load json file into python dictionary
-        document = json.loads(f.read())
+        document = yaml.load(f.read())
 
         # check if document exists in mongo
         slug_name = document['slug_name']
@@ -31,11 +32,11 @@ for file_path in sorted(glob.glob('monsters/*.json')):
         monsters.insert_one(document)
 
 # iterate over all spells files
-for file_path in sorted(glob.glob('spells/*.json')):
+for file_path in sorted(glob.glob('spells/*.yaml')):
     with open(file_path) as f:
 
         # load json file into python dictionary
-        document = json.loads(f.read())
+        document = yaml.load(f.read())
 
         # check if document exists in mongo
         slug_name = document['slug_name']

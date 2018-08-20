@@ -1,0 +1,106 @@
+
+name: "Drider Spellcaster"
+slug_name: "drider-spellcaster"
+
+challenge_rating: "6"
+challenge_rating_decimal: "6.0"
+experience: "2,300 XP"
+
+size: "Large"
+type: "monstrosity"
+subtype: null
+alignment: "chaotic evil"
+
+armor_class: "19"
+armor_class_type: "natural armor"
+hit_points: "123"
+hit_dice: "13d10+52"
+speed: "30 ft., climb 30 ft."
+
+strength: "16"
+strength_modifier: "+3"
+dexterity: "16"
+dexterity_modifier: "+3"
+constitution: "18"
+constitution_modifier: "+4"
+intelligence: "13"
+intelligence_modifier: "+1"
+wisdom: "16"
+wisdom_modifier: "+3"
+charisma: "12"
+charisma_modifier: "+1"
+
+saving_throws: null
+skills: "Perception +5, Stealth +9"
+senses: "darkvision 120 ft."
+languages: "Elvish, Undercommon"
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+special_abilities:
+  - name: "Fey Ancestry"
+    description: |
+      The drider has advantage on saving throws against being charmed, and magic can't put the drider to sleep.
+
+  - name: "Spider Climb"
+    description: |
+      The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+  - name: "Sunlight Sensitivity"
+    description: |
+      While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+
+  - name: "Web Walker"
+    description: |
+      The drider ignores movement restrictions caused by webbing.
+
+  
+
+
+
+spell_casting:
+  - name: "Innate Spellcasting"
+    description: |
+      The drider's innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components: 
+
+      At will: dancing lights
+      1/day each: darkness, faerie fire
+
+  - name: "Spellcasting"
+    description: |
+      The drider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The drider has the following spells prepared from the cleric spell list: 
+
+      Cantrips (at will): poison spray, thaumaturgy
+      1st level (4 slots): bane, detect magic, sanctuary
+      2nd level (3 slots): hold person, silence
+      3rd level (3 slots): clairvoyance, dispel magic
+      4th level (2 slots): divination,freedom of movement
+
+  
+
+
+actions:
+  - name: "Multiattack"
+    description: |
+      The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack.
+
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage plus 9 (2d8) poison damage.
+
+  - name: "Longsword"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+
+  - name: "Longbow"
+    description: |
+      Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.
+
+  
+
+
+

@@ -1,0 +1,23 @@
+
+name: Primordial Ward
+slug_name: primordial-ward
+
+classes:
+  - druid
+  
+sources:
+  - EE.21
+  - Xanathar.163
+  
+level: 6th-level
+school: Abjuration
+
+components: V, S
+casting_time: 1 action
+duration: Concentration, up to 1 minute
+range: Self
+
+description: |
+  You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.
+
+  When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.

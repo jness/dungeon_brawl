@@ -1,0 +1,59 @@
+
+name: "Giant Constrictor Snake"
+slug_name: "giant-constrictor-snake"
+
+challenge_rating: "2"
+challenge_rating_decimal: "2.0"
+experience: "450 XP"
+
+size: "Huge"
+type: "beast"
+subtype: null
+alignment: "unaligned"
+
+armor_class: "12"
+armor_class_type: null
+hit_points: "60"
+hit_dice: "8d12+8"
+speed: "30 ft., swim 30 ft."
+
+strength: "19"
+strength_modifier: "+4"
+dexterity: "14"
+dexterity_modifier: "+2"
+constitution: "12"
+constitution_modifier: "+1"
+intelligence: "1"
+intelligence_modifier: "-5"
+wisdom: "10"
+wisdom_modifier: "+0"
+charisma: "3"
+charisma_modifier: "-4"
+
+saving_throws: null
+skills: "Perception +2"
+senses: "blindsight 10 ft."
+languages: null
+
+damage_resistances: null
+damage_immunities: null
+damage_vulnerabilities: null
+condition_immunities: null
+
+
+
+
+
+actions:
+  - name: "Bite"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.
+
+  - name: "Constrict"
+    description: |
+      Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.
+
+  
+
+
+
