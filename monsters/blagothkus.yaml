@@ -44,22 +44,6 @@ special_abilities:
     description: |
       Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components: 
-
-      * 3/day each: fog cloud, levitate
-
-  - name: "Spellcasting"
-    description: |
-      Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list: 
-
-      Cantrips (at will): light, mage hand, prestidigitation
-      1st level (4 slots): detect magic, identify, magic missile, shield
-      2nd level (3 slots): gust of wind, misty step, shatter
-      3rd level (2 slots): fly, lightning bolt
-
 actions:
   - name: "Multiattack"
     description: |
@@ -68,3 +52,71 @@ actions:
   - name: "Morningstar"
     description: |
       Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components:
+
+    spells:
+
+      - "* 3/day each":
+        - name: " fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "identify"
+          slug_name: "identify"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "shatter"
+          slug_name: "shatter"
+
+
+      - "3rd level (2 slots)":
+        - name: " fly"
+          slug_name: "fly"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"

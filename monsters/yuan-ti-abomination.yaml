@@ -48,15 +48,6 @@ special_abilities:
     description: |
       The yuan-ti has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting (Abomination Form Only)"
-    description: |
-      The yuan_ti's innate spellcasting ability is Charisma (spell save DC 15). The yuan_ti can innately cast the following spells, requiring no material components: 
-
-      At will: animal friendship (snakes only)
-      3/day: suggestion
-      1/day: fear
-
 actions:
   - name: "Multiattack (Abomination Form Only)"
     description: |
@@ -77,3 +68,26 @@ actions:
   - name: "Longbow (Abomination Form Only)"
     description: |
       Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 10 (3d6) poison damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Abomination Form Only)"
+
+    top_description: |
+      The yuan_ti's innate spellcasting ability is Charisma (spell save DC 15). The yuan_ti can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " animal friendship (snakes only)"
+          slug_name: "animal-friendship"
+
+
+      - "3/day":
+        - name: " suggestion"
+          slug_name: "suggestion"
+
+
+      - "1/day":
+        - name: " fear"
+          slug_name: "fear"

@@ -52,17 +52,65 @@ special_abilities:
     description: |
       When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1+the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list: 
-
-      Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp
-      1st level (4 slots): fog cloud, magic missile, shield, thunderwave
-      2nd level (3 slots): invisibility, misty step, scorching ray
-      3rd level (3 slots): counterspell, dispel magic, fireball
-
 actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fireball"
+          slug_name: "fireball"

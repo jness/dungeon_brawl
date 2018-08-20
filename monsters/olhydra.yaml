@@ -56,15 +56,6 @@ special_abilities:
     description: |
       Olhydra can enter a hostile creature's space and stop there. She can move through a space as narrow as 1 inch wide without squeezing.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components: 
-
-      * At will: wall of ice
-      * 3/day: ice storm
-      * 1/day: storm of vengeance
-
 actions:
   - name: "Multiattack"
     description: |
@@ -96,3 +87,26 @@ legendary_actions":
   - name: "Water to Acid (Costs 3 Actions)"
     description: |
       Olhydra transforms her watery body into acid. This effect lasts until Olhydra's next turn. Any creature that comes into contact with Olhydra or hits her with a melee attack while standing within 5 feet of her takes 11 (2d10) acid damage. Any creature grappled by Olhydra takes 22 (4d10) acid damage at the start of its turn.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "* At will":
+        - name: " wall of ice"
+          slug_name: "wall-of-ice"
+
+
+      - "* 3/day":
+        - name: " ice storm"
+          slug_name: "ice-storm"
+
+
+      - "* 1/day":
+        - name: " storm of vengeance"
+          slug_name: "storm-of-vengeance"

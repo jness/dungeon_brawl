@@ -39,18 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:
-
-      Cantrips (at will): light, mending, sacred flame, spare the dying
-      1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith
-      2nd level (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon
-      3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water wall
-      4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin
-      5th level (1 slot): flame strike, mass cure wounds, hold monster
-
 actions:
   - name: "Multiattack"
     description: |
@@ -65,3 +53,101 @@ actions:
   - name: "Guided Strike (Recharges after a Short or Long Rest)"
     description: |
       The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "spare the dying"
+          slug_name: "spare-the-dying"
+
+
+      - "1st level (4 slots)":
+        - name: " divine favor"
+          slug_name: "divine-favor"
+
+        - name: "guiding bolt"
+          slug_name: "guiding-bolt"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "magic weapon"
+          slug_name: "magic-weapon"
+
+        - name: "prayer of healing"
+          slug_name: "prayer-of-healing"
+
+        - name: "silence"
+          slug_name: "silence"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " beacon of hope"
+          slug_name: "beacon-of-hope"
+
+        - name: "crusader's mantle"
+          slug_name: "crusader"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "revivify"
+          slug_name: "revivify"
+
+        - name: "spirit guardians"
+          slug_name: "spirit-guardians"
+
+        - name: "water wall"
+          slug_name: "water-wall"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "freedom of movement"
+          slug_name: "freedom-of-movement"
+
+        - name: "guardian of faith"
+          slug_name: "guardian-of-faith"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+
+      - "5th level (1 slot)":
+        - name: " flame strike"
+          slug_name: "flame-strike"
+
+        - name: "mass cure wounds"
+          slug_name: "mass-cure-wounds"
+
+        - name: "hold monster"
+          slug_name: "hold-monster"

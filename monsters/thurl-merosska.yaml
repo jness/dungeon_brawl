@@ -39,16 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells: 
-
-      Cantrips (at will): friends, gust, light, message, ray of frost
-      1st level (4 slots): expeditious retreat, feather fall, jump
-      2nd level (3 slots): levitate, misty step
-      3rd level (2 slots): haste
-
 actions:
   - name: "Multiattack"
     description: |
@@ -67,3 +57,52 @@ actions:
   - name: "Parry"
     description: |
       Thurl adds 2 to his AC against one melee attack that would hit him. To do so, Thurl must see the attacker and be wielding a melee weapon.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " friends"
+          slug_name: "friends"
+
+        - name: "gust"
+          slug_name: "gust"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "feather fall"
+          slug_name: "feather-fall"
+
+        - name: "jump"
+          slug_name: "jump"
+
+
+      - "2nd level (3 slots)":
+        - name: " levitate"
+          slug_name: "levitate"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+
+      - "3rd level (2 slots)":
+        - name: " haste"
+          slug_name: "haste"

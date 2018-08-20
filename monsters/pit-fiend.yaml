@@ -52,14 +52,6 @@ special_abilities:
     description: |
       The pit fiend's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, fireball
-      3/day each: hold monster, wall of fire
-
 actions:
   - name: "Multiattack"
     description: |
@@ -80,3 +72,27 @@ actions:
   - name: "Tail"
     description: |
       Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+
+      - "3/day each":
+        - name: " hold monster"
+          slug_name: "hold-monster"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"

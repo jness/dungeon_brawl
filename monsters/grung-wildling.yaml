@@ -60,15 +60,6 @@ special_abilities:
 
       Red. The poisoned creature must use its action to eat if food is within reach.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells: 
-
-      1st level (4 slots): cure wounds, jump
-      2nd level (3 slots): barkskin, spike growth
-      3rd level (2 slots): plant growth
-
 actions:
   - name: "Dagger"
     description: |
@@ -77,3 +68,32 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:
+
+    spells:
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "jump"
+          slug_name: "jump"
+
+
+      - "2nd level (3 slots)":
+        - name: " barkskin"
+          slug_name: "barkskin"
+
+        - name: "spike growth"
+          slug_name: "spike-growth"
+
+
+      - "3rd level (2 slots)":
+        - name: " plant growth"
+          slug_name: "plant-growth"

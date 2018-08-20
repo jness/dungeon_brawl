@@ -52,17 +52,6 @@ special_abilities:
     description: |
       Unless the death knight is incapacitated, it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The death knight is a 19th-level spell caster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following paladin spells prepared: 
-
-      1st level (4 slots): command, compelled duel, searing smite
-      2nd level (3 slots): hold person, magic weapon
-      3rd level (3 slots): dispel magic, elemental weapon
-      4th level (3 slots): banishment, staggering smite
-      5th level (2 slots): destructive wave (necrotic)
-
 actions:
   - name: "Multiattack"
     description: |
@@ -81,3 +70,51 @@ actions:
   - name: "Parry"
     description: |
       The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The death knight is a 19th-level spell caster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following paladin spells prepared:
+
+    spells:
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "compelled duel"
+          slug_name: "compelled-duel"
+
+        - name: "searing smite"
+          slug_name: "searing-smite"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "magic weapon"
+          slug_name: "magic-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "elemental weapon"
+          slug_name: "elemental-weapon"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "staggering smite"
+          slug_name: "staggering-smite"
+
+
+      - "5th level (2 slots)":
+        - name: " destructive wave (necrotic)"
+          slug_name: "destructive-wave"

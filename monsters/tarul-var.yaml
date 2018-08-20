@@ -64,21 +64,6 @@ special_abilities:
     description: |
       Var has advantage on saving throws against any effect that turns undead .
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:
-
-      Cantrips (at will):.fire bolt, mage hand, minor illusion, prestidigitation, ray of frost
-      1st level (4 slots): detect magic, magic missile, shield, unseen servant*
-      2nd level (3 slots): detect thoughts, flaming sphere,* mirror image, scorching ray
-      3rd level (3 slots): counterspell, dispel magic, fireball
-      4th level (3 slots): dimension door,* Evard's black tentacles*
-      5th level (3 slots): cloudkill,* scrying
-      6th level (1 slot): circle of death
-
-      *Conjuration spell of 1st level or higher.
-  
 actions:
   - name: "Paralyzing Touch"
     description: |
@@ -102,3 +87,81 @@ legendary_actions":
   - name: "Frightening Gaze (Costs 2 Actions)"
     description: |
       Var fixes his gaze on one creature he can see within 10 feet of him . The target must succeed on a DC 17 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Var's gaze for the next 24 hours.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:
+
+    bottom_description: |
+      *Conjuration spell of 1st level or higher.
+    spells:
+
+      - "Cantrips (at will)":
+        - name: ".fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "unseen servant*"
+          slug_name: "unseen-servant"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "flaming sphere,* mirror image"
+          slug_name: "flaming-sphere"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+
+      - "4th level (3 slots)":
+        - name: " dimension door,* Evard's black tentacles*"
+          slug_name: "dimension-door"
+
+
+      - "5th level (3 slots)":
+        - name: " cloudkill,* scrying"
+          slug_name: "cloudkill"
+
+
+      - "6th level (1 slot)":
+        - name: " circle of death"
+          slug_name: "circle-of-death"

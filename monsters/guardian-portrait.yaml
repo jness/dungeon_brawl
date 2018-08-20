@@ -54,11 +54,26 @@ special_abilities:
     description: |
       While the figure in the portrait remains motionless, it is indistinguishable from a normal painting.
 
+actions:
+
 spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
       The portrait's innate spellcasting ability os Intelligence (spell save DC 12). The portrait can innately cast the following spells, requiring no material components:
 
-      3/day each: counterspell, crown of madness, hypnotic pattern, telekinesis
+    spells:
 
-actions:
+      - "3/day each":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "hypnotic pattern"
+          slug_name: "hypnotic-pattern"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"

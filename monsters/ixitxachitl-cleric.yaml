@@ -39,16 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:
-
-      Cantrips (at will): guidance, thaumaturgy
-      1st level (4 slots): charm person, create or destroy water
-      2nd level (3 slots): hold person, silence
-      3rd level (2 slots): dispel magic, tongues
-
 actions:
   - name: "Bite"
     description: |
@@ -61,3 +51,43 @@ actions:
       When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.
 
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "create or destroy water"
+          slug_name: "create-or-destroy-water"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "silence"
+          slug_name: "silence"
+
+
+      - "3rd level (2 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "tongues"
+          slug_name: "tongues"

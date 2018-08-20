@@ -64,14 +64,6 @@ special_abilities:
     description: |
       Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:
-
-      At will: acid splash (17th level), detect magic
-      3/day each: blight, contagion, gaseous form
-
 actions:
   - name: "Multiattack"
     description: |
@@ -99,3 +91,30 @@ legendary_actions":
   - name: "Corrupting Touch (Costs 2 Actions)"
     description: |
       Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 21 (4d6+ 7) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while Within 10 of the target.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " acid splash (17th level)"
+          slug_name: "acid-splash"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+
+      - "3/day each":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "contagion"
+          slug_name: "contagion"
+
+        - name: "gaseous form"
+          slug_name: "gaseous-form"

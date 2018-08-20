@@ -50,16 +50,6 @@ special_abilities:
     description: |
       The fathomer can cast mage armor at will, without expending material components.
 
-spell_casting:
-  - name: "Spellcasting (Human Form Only)"
-    description: |
-      The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells: 
-
-      Cantrips (at will): chill touch, eldritch blast, mage hand
-      1st level: armor of Agathys, expeditious retreat, hex
-      2nd level: invisibility
-      3rd level: Vampiric touch
-  
 actions:
   - name: "Constrict (Serpent Form Only)"
     description: |
@@ -68,3 +58,43 @@ actions:
   - name: "Dagger (Human Form Only)"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting (Human Form Only)"
+
+    top_description: |
+      The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+
+      - "1st level":
+        - name: " armor of Agathys"
+          slug_name: "armor-of-agathys"
+
+        - name: "expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "hex"
+          slug_name: "hex"
+
+
+      - "2nd level":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+
+      - "3rd level":
+        - name: " Vampiric touch"
+          slug_name: "vampiric-touch"

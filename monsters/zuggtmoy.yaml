@@ -52,15 +52,6 @@ special_abilities:
     description: |
       Zuggtmoy's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:
-
-      At will: detect magic, locate animals or plants, ray of sickness
-      3/day each: dispel magic, ensnaring strike, entangle, plant growth
-      1/day: etherealness, teleport
-
 actions:
   - name: "Multiattack"
     description: |
@@ -88,3 +79,44 @@ legendary_actions":
   - name: "Exert Will"
     description: |
       One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "locate animals or plants"
+          slug_name: "locate-animals-or-plants"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "3/day each":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "ensnaring strike"
+          slug_name: "ensnaring-strike"
+
+        - name: "entangle"
+          slug_name: "entangle"
+
+        - name: "plant growth"
+          slug_name: "plant-growth"
+
+
+      - "1/day":
+        - name: " etherealness"
+          slug_name: "etherealness"
+
+        - name: "teleport"
+          slug_name: "teleport"

@@ -52,16 +52,6 @@ special_abilities:
     description: |
       The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared: 
-
-      Cantrips (at will): guidance, thaumaturgy
-      1st level (4 slots): bless, detect magic, guiding bolt
-      2nd level (3 slots): hold person, spiritual weapon (trident)
-      3rd level (3 slots): mass healing word, tongues
-
 actions:
   - name: "Multiattack"
     description: |
@@ -74,3 +64,46 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bless"
+          slug_name: "bless"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "guiding bolt"
+          slug_name: "guiding-bolt"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon (trident)"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " mass healing word"
+          slug_name: "mass-healing-word"
+
+        - name: "tongues"
+          slug_name: "tongues"

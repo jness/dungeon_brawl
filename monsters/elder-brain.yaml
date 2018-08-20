@@ -56,14 +56,6 @@ special_abilities:
     description: |
       The elder brain can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The elder brain can let those creatures telepathically hear each other while connected in this way.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The elder brain's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:
-
-      At will: detect thoughts, levitate
-      1/day each: dominate monster, plane shift (self only)
-
 actions:
   - name: "Tentacle"
     description: |
@@ -99,3 +91,27 @@ legendary_actions":
   - name: "Sever Psychic Link"
     description: |
       The elder brain targets a creature within 120 feet of it with which it has a psychic link. The elder brain ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The elder brain's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+
+      - "1/day each":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "plane shift (self only)"
+          slug_name: "plane-shift"

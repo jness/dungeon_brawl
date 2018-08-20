@@ -52,16 +52,6 @@ special_abilities:
     description: |
       While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:>>>
-
-      Cantrips (at will): eldritch blast, friends, poison spray
-      1st level: armor of Agathys, charm person, hex
-
-      2nd level: hold person, ray of enfeeblement, spider climb
-  
 actions:
   - name: "Armor of Shadows (Recharges after a Short or Long Rest)"
     description: |
@@ -76,3 +66,35 @@ actions:
   - name: "One with Shadows"
     description: |
       While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:>>>
+
+    bottom_description: |
+      2nd level: hold person, ray of enfeeblement, spider climb
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+
+      - "1st level":
+        - name: " armor of Agathys"
+          slug_name: "armor-of-agathys"
+
+        - name: "charm person"
+          slug_name: "charm-person"
+
+        - name: "hex"
+          slug_name: "hex"

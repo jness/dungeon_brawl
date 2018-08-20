@@ -62,15 +62,6 @@ special_abilities:
     description: |
       When Orcus casts animate dead or create undead, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
-
-      At will: chill touch (17th level), detect magic
-      3/day each: create undead, dispel magic
-      1/day: time stop
-
 actions:
   - name: "Multiattack"
     description: |
@@ -98,3 +89,32 @@ legendary_actions":
   - name: "Creeping Death (Costs 2 Actions)"
     description: |
       Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area are vulnerable to necrotic damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " chill touch (17th level)"
+          slug_name: "chill-touch"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+
+      - "3/day each":
+        - name: " create undead"
+          slug_name: "create-undead"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+
+      - "1/day":
+        - name: " time stop"
+          slug_name: "time-stop"

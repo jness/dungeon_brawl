@@ -48,25 +48,6 @@ special_abilities:
     description: |
       While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components: 
-
-      At will: dancing lights
-      1/day each: darkness, faerie fire, levitate (self only)
-
-  - name: "Spellcasting"
-    description: |
-      The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, minor illusion, poison spray, ray of frost
-      1st level (4 slots): mage armor, magic missile, shield, witch bolt
-      2nd level (3 slots): alter self, misty step, web
-      3rd level (3 slots): fly, lightning bolt
-      4th level (3 slots): Evard's black tentacles, greater invisibility
-      5th level (2 slots): cloudkill
-
 actions:
   - name: "Staff"
     description: |
@@ -75,3 +56,95 @@ actions:
   - name: "Summon Demon (1/Day)"
     description: |
       The drow magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " dancing lights"
+          slug_name: "dancing-lights"
+
+
+      - "1/day each":
+        - name: " darkness"
+          slug_name: "darkness"
+
+        - name: "faerie fire"
+          slug_name: "faerie-fire"
+
+        - name: "levitate (self only)"
+          slug_name: "levitate"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " mage armor"
+          slug_name: "mage-armor"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "witch bolt"
+          slug_name: "witch-bolt"
+
+
+      - "2nd level (3 slots)":
+        - name: " alter self"
+          slug_name: "alter-self"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "web"
+          slug_name: "web"
+
+
+      - "3rd level (3 slots)":
+        - name: " fly"
+          slug_name: "fly"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " Evard's black tentacles"
+          slug_name: "evard"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"
+
+
+      - "5th level (2 slots)":
+        - name: " cloudkill"
+          slug_name: "cloudkill"

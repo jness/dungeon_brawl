@@ -78,18 +78,6 @@ special_abilities:
 
       Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The vampire has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, prestidigitation, ray of frost
-      1st level (4 slots): comprehend languages, fog cloud, sleep
-      2nd level (3 slots): detect thoughts, gust of wind, mirror image
-      3rd level (3 slots): animate dead, bestow curse, nondetection
-      4th level (3 slots): blight, greater invisibility
-      5th level (1 slot): dominate person
-
 actions:
   - name: "Multiattack (Vampire Form Only)"
     description: |
@@ -112,3 +100,68 @@ actions:
   - name: "Children of the Night (1/Day)"
     description: |
       The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The vampire is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The vampire has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " comprehend languages"
+          slug_name: "comprehend-languages"
+
+        - name: "fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead"
+          slug_name: "animate-dead"
+
+        - name: "bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "nondetection"
+          slug_name: "nondetection"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"
+
+
+      - "5th level (1 slot)":
+        - name: " dominate person"
+          slug_name: "dominate-person"

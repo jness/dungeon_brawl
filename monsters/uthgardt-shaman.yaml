@@ -39,15 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). 
-
-      * At Will: dancing lights, message, mage hand, thaumaturgy
-
-      * 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians
-
 actions:
   - name: "Spear"
     description: |
@@ -56,3 +47,27 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The shaman can innately cast the following spells. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks).
+
+    bottom_description: |
+      * 1/day: augury, bestow curse, cordon of arrows, detect magic, hex, prayer of healing, speak with dead, spirit guardians
+    spells:
+
+      - "* At Will":
+        - name: " dancing lights"
+          slug_name: "dancing-lights"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"

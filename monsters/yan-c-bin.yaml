@@ -56,14 +56,6 @@ special_abilities:
     description: |
       Yan-C-Bin has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: 
-
-      * At will: gust of wind, invisibility, lightning bolt
-      * 2/day each: chain lightning, cloudkill, haste
-
 actions:
   - name: "Multiattack"
     description: |
@@ -99,3 +91,33 @@ legendary_actions":
   - name: "Suffocate (Costs 3 Actions)"
     description: |
       Yan-C-Bin steals the air of one breathing creature he can see within 60 feet of him. The target must make a DC 21 Constitution saving throw. On a failed save, the target drops to 0 hit points and is dying. On a successful save, the target can't breathe or speak until the start of its next turn.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "* At will":
+        - name: " gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "* 2/day each":
+        - name: " chain lightning"
+          slug_name: "chain-lightning"
+
+        - name: "cloudkill"
+          slug_name: "cloudkill"
+
+        - name: "haste"
+          slug_name: "haste"

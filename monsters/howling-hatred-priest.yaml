@@ -44,16 +44,6 @@ special_abilities:
     description: |
       The priest can hold its breath for 30 minutes.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells: 
-
-      Cantrips (at will): blade ward, gust, light, prestidigitation, shocking grasp
-      1st level (4 slots): featherfall, shield, witch bolt
-      2nd level (3 slots): dust devil, gust of wind
-      3rd level (2 slots): gaseous form
-
 actions:
   - name: "Multiattack"
     description: |
@@ -66,3 +56,52 @@ actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " blade ward"
+          slug_name: "blade-ward"
+
+        - name: "gust"
+          slug_name: "gust"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " featherfall"
+          slug_name: "featherfall"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "witch bolt"
+          slug_name: "witch-bolt"
+
+
+      - "2nd level (3 slots)":
+        - name: " dust devil"
+          slug_name: "dust-devil"
+
+        - name: "gust of wind"
+          slug_name: "gust-of-wind"
+
+
+      - "3rd level (2 slots)":
+        - name: " gaseous form"
+          slug_name: "gaseous-form"

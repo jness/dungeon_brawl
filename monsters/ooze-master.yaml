@@ -62,18 +62,6 @@ special_abilities:
     description: |
       The Ooze Master can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The Ooze Master is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:
-
-      Cantrips (at will): acid splash, friends, mage hand, poison spray
-      1st level (4 slots): charm person, detect magic, magic missile, ray of sickness
-      2nd level (3 slots): detect thoughts, Melf's acid arrow, suggestion
-      3rd level (3 slots): fear, slow, stinking cloud
-      4th level (3 slots): confusion, Evard's black tentacles
-      5th level (1 slot): cloudkill.
-
 actions:
   - name: "Pseudopod"
     description: |
@@ -84,3 +72,74 @@ actions:
   - name: "Instinctive Charm"
     description: |
       If a creature the Ooze Master can see makes an attack roll against it while within 30 feet of it, the Ooze Master can use a reaction to divert the attack if another creature is within the attack's range. The attacker must make a DC 15 Wisdom saving throw. On a failed save, the attacker targets the creature that is closest to it, not including itself or the Ooze Master. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, the attacker is immune to this Instinctive Charm for 24 hours. Creatures that can't be charmed are immune to this effect.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The Ooze Master is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "Melf's acid arrow"
+          slug_name: "melf"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " fear"
+          slug_name: "fear"
+
+        - name: "slow"
+          slug_name: "slow"
+
+        - name: "stinking cloud"
+          slug_name: "stinking-cloud"
+
+
+      - "4th level (3 slots)":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "Evard's black tentacles"
+          slug_name: "evard"
+
+
+      - "5th level (1 slot)":
+        - name: " cloudkill."
+          slug_name: "cloudkill"

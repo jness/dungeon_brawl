@@ -44,19 +44,6 @@ special_abilities:
     description: |
       Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list: 
-
-      Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp
-      1st level (4 slots): chromatic orb, color spray, mage armor, magic missile
-      2nd level (3 slots): detect thoughts, mirror image, phantasmal force
-      3rd level (3 slots): counterspell, fireball, major image
-      4th level (3 slots): confusion, greater invisibility
-      5th level (2 slots): mislead, seeming
-      6th level (1 slot): globe of invulnerability
-
 actions:
   - name: "Quarterstaff"
     description: |
@@ -67,3 +54,82 @@ actions:
   - name: "Illusory Self (Recharges on a Short or Long Rest)"
     description: |
       When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " chromatic orb"
+          slug_name: "chromatic-orb"
+
+        - name: "color spray"
+          slug_name: "color-spray"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+        - name: "phantasmal force"
+          slug_name: "phantasmal-force"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+
+      - "4th level (3 slots)":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"
+
+
+      - "5th level (2 slots)":
+        - name: " mislead"
+          slug_name: "mislead"
+
+        - name: "seeming"
+          slug_name: "seeming"
+
+
+      - "6th level (1 slot)":
+        - name: " globe of invulnerability"
+          slug_name: "globe-of-invulnerability"

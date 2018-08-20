@@ -44,17 +44,6 @@ special_abilities:
     description: |
       Windharrow has advantage on saving throws against being charmed, and magic can't put him to sleep.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Windharrow is an 8th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). Windharrow knows the following bard spells: 
-
-      Cantrips (at will): friends, prestidigitation, vicious mockery
-      1st level (4 slots): disguise self, dissonant whispers, thunderwave
-      2nd level (3 slots): invisibility, shatter, silence
-      3rd level (3 slots): nondetection, sending, tongues
-      4th level (2 slots): confusion, dimension door
-
 actions:
   - name: "Multiattack"
     description: |
@@ -63,3 +52,63 @@ actions:
   - name: "Rapier"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Windharrow is an 8th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). Windharrow knows the following bard spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " friends"
+          slug_name: "friends"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "vicious mockery"
+          slug_name: "vicious-mockery"
+
+
+      - "1st level (4 slots)":
+        - name: " disguise self"
+          slug_name: "disguise-self"
+
+        - name: "dissonant whispers"
+          slug_name: "dissonant-whispers"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "shatter"
+          slug_name: "shatter"
+
+        - name: "silence"
+          slug_name: "silence"
+
+
+      - "3rd level (3 slots)":
+        - name: " nondetection"
+          slug_name: "nondetection"
+
+        - name: "sending"
+          slug_name: "sending"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "4th level (2 slots)":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"

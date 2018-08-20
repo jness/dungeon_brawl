@@ -44,15 +44,6 @@ special_abilities:
     description: |
       The fanatic has advantage on saving throws against being charmed or frightened.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: 
-
-      Cantrips (at will): light, sacred flame, thaumaturgy
-      1st level (4 slots): command, inflict wounds, shield of faith
-      2nd level (3 slots): hold person, spiritual weapon
-
 actions:
   - name: "Multiattack"
     description: |
@@ -61,3 +52,41 @@ actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "inflict wounds"
+          slug_name: "inflict-wounds"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"

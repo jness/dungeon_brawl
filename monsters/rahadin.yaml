@@ -52,14 +52,6 @@ special_abilities:
     description: |
       Rahadin can attempt to hide even when he is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Rahadin's innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:
-
-      3/day: misty step, phantom steed
-      1/day: magic weapon, nondetection
-
 actions:
   - name: "Multiattack"
     description: |
@@ -72,3 +64,27 @@ actions:
   - name: "Poisoned Dart"
     description: |
       Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage plus 5 (2d4) poison damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Rahadin's innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "3/day":
+        - name: " misty step"
+          slug_name: "misty-step"
+
+        - name: "phantom steed"
+          slug_name: "phantom-steed"
+
+
+      - "1/day":
+        - name: " magic weapon"
+          slug_name: "magic-weapon"
+
+        - name: "nondetection"
+          slug_name: "nondetection"

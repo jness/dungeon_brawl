@@ -52,14 +52,6 @@ special_abilities:
     description: |
       The empyrean's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The empyrean's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components: 
-
-      At will: greater restoration, pass without trace, water breathing, water walk
-      1/day each: commune, dispel evil and good, earthquake, fire storm, plane shift (self only)
-
 actions:
   - name: "Maul"
     description: |
@@ -83,3 +75,42 @@ legendary_actions":
   - name: "Trembling Strike (Costs 2 Actions)"
     description: |
       The empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 feet of the empyrean must succeed on a DC 25 Strength saving throw or be knocked prone.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The empyrean's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " greater restoration"
+          slug_name: "greater-restoration"
+
+        - name: "pass without trace"
+          slug_name: "pass-without-trace"
+
+        - name: "water breathing"
+          slug_name: "water-breathing"
+
+        - name: "water walk"
+          slug_name: "water-walk"
+
+
+      - "1/day each":
+        - name: " commune"
+          slug_name: "commune"
+
+        - name: "dispel evil and good"
+          slug_name: "dispel-evil-and-good"
+
+        - name: "earthquake"
+          slug_name: "earthquake"
+
+        - name: "fire storm"
+          slug_name: "fire-storm"
+
+        - name: "plane shift (self only)"
+          slug_name: "plane-shift"

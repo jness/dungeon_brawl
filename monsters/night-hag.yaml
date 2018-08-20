@@ -64,27 +64,6 @@ special_abilities:
 
       A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, magic missile
-      2/day each: plane shift (self only), ray of enfeeblement, sleep
-
-  - name: "Shared Spellcasting (Coven Only)"
-    description: |
-      While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: 
-
-      1st level (4 slots): identify, ray of sickness
-      2nd level (3 slots): hold person, locate object
-      3rd level (3 slots): bestow curse, counterspell, lightning bolt
-      4th level (3 slots): phantasmal killer, polymorph
-      5th level (2 slots): contact other plane, scrying
-      6th level (1 slot): eye bite
-
-      For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
-  
 actions:
   - name: "Claws (Hag Form Only)"
     description: |
@@ -101,3 +80,88 @@ actions:
   - name: "Nightmare Haunting (1/Day)"
     description: |
       While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the greater restoration spell or similar magic.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+
+      - "2/day each":
+        - name: " plane shift (self only)"
+          slug_name: "plane-shift"
+
+        - name: "ray of enfeeblement"
+          slug_name: "ray-of-enfeeblement"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+      
+
+  - title: "Shared Spellcasting (Coven Only)"
+
+    top_description: |
+      While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:
+
+    bottom_description: |
+      For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
+    spells:
+
+      - "1st level (4 slots)":
+        - name: " identify"
+          slug_name: "identify"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "locate object"
+          slug_name: "locate-object"
+
+
+      - "3rd level (3 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "counterspell"
+          slug_name: "counterspell"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " phantasmal killer"
+          slug_name: "phantasmal-killer"
+
+        - name: "polymorph"
+          slug_name: "polymorph"
+
+
+      - "5th level (2 slots)":
+        - name: " contact other plane"
+          slug_name: "contact-other-plane"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+
+      - "6th level (1 slot)":
+        - name: " eye bite"
+          slug_name: "eye-bite"

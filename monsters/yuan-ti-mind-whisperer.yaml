@@ -64,21 +64,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-spell_casting:
-  - name: "Innate Spellcasting (Yuan-ti Form Only)"
-    description: |
-      The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
-
-      At will: animal friendship (snakes only)
-      3/day: suggestion
-
-  - name: "Spellcasting (Yuan-ti Form Only)"
-    description: |
-      The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll),friends, message, minor illusion, poison spray, prestidigitation
-      1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script
-
 actions:
   - name: "Multiattack (Yuan-ti Form Only)"
     description: |
@@ -91,3 +76,72 @@ actions:
   - name: "Scimitar (Yuan-ti Form Only)"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Yuan-ti Form Only)"
+
+    top_description: |
+      The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " animal friendship (snakes only)"
+          slug_name: "animal-friendship"
+
+
+      - "3/day":
+        - name: " suggestion"
+          slug_name: "suggestion"
+
+      
+
+  - title: "Spellcasting (Yuan-ti Form Only)"
+
+    top_description: |
+      The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " eldritch blast (range 300 ft."
+          slug_name: "eldritch-blast"
+
+        - name: "+3 bonus to each damage roll),friends"
+          slug_name: "bonus-to-each-damage-roll"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st-3rd level (2 3rd-level slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "hypnotic pattern"
+          slug_name: "hypnotic-pattern"
+
+        - name: "illusory script"
+          slug_name: "illusory-script"

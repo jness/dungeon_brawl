@@ -46,17 +46,6 @@ special_abilities:
 
       The possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The yakfolk is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The priest has the following cleric spells prepared: 
-
-      Cantrips (at will): light, mending, sacred flame, thaumaturgy
-      1st level (4 slots): bane, command, cure wounds, sanctuary
-      2nd level (3 slots): augury, hold person, spiritual weapon
-      3rd level (3 slots): bestow curse, protection from energy, sending
-      4th level (1 slots): banishment
-
 actions:
   - name: "Multiattack"
     description: |
@@ -69,3 +58,66 @@ actions:
   - name: "Summon Earth Elemental (1/day)"
     description: |
       The yakfolk summons an earth elemental. The elemental appears in an unoccupied space within 60 feet of its summoner and acts as an ally of the summoner. It remains for 10 minutes, until it dies, or until its summoner dismisses it as an action.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The yakfolk is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The priest has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "command"
+          slug_name: "command"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+
+      - "2nd level (3 slots)":
+        - name: " augury"
+          slug_name: "augury"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "protection from energy"
+          slug_name: "protection-from-energy"
+
+        - name: "sending"
+          slug_name: "sending"
+
+
+      - "4th level (1 slots)":
+        - name: " banishment"
+          slug_name: "banishment"

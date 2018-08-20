@@ -56,15 +56,6 @@ special_abilities:
     description: |
       Demogorgon has advantage on saving throws against being blinded, deafened, stunned, and knocked unconscious.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:
-
-      At will: detect magic, major image
-      3/day each: dispel magic, fear, telekinesis
-      1/day each: feeblemind, project image
-
 actions:
   - name: "Multiattack"
     description: |
@@ -96,3 +87,38 @@ legendary_actions":
   - name: "Maddening Gaze"
     description: |
       Demogorgon uses his Gaze action, and must choose either the Beguiling Gaze or the Insanity Gaze effect.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+
+      - "3/day each":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"
+
+
+      - "1/day each":
+        - name: " feeblemind"
+          slug_name: "feeblemind"
+
+        - name: "project image"
+          slug_name: "project-image"

@@ -56,15 +56,6 @@ special_abilities:
     description: |
       Graz'zt's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:
-
-      At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers
-      3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport
-      1/day each: dominate monster, greater invisibility
-
 actions:
   - name: "Multiattack"
     description: |
@@ -96,3 +87,56 @@ legendary_actions":
   - name: "Teleport"
     description: |
       Graz'zt uses his Teleport action.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "dissonant whispers"
+          slug_name: "dissonant-whispers"
+
+
+      - "3/day each":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "darkness"
+          slug_name: "darkness"
+
+        - name: "dominate person"
+          slug_name: "dominate-person"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"
+
+        - name: "teleport"
+          slug_name: "teleport"
+
+
+      - "1/day each":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"

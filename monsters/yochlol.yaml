@@ -56,14 +56,6 @@ special_abilities:
     description: |
       The yochlol ignores movement restrictions caused by webbing.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components: 
-
-      At will: detect thoughts, web
-      1/day: dominate person
-
 actions:
   - name: "Multiattack"
     description: |
@@ -88,3 +80,24 @@ actions:
       A yochlol has a 50 percent chance of summoning one yochlol.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "web"
+          slug_name: "web"
+
+
+      - "1/day":
+        - name: " dominate person"
+          slug_name: "dominate-person"

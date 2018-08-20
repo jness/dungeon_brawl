@@ -52,19 +52,75 @@ special_abilities:
     description: |
       Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list: 
-
-      Cantrips (at will): guidance, resistance, thaumaturgy
-      1st level (4 slots): command, cure wounds, healing word, inflict wounds
-      2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear)
-      3rd level (3 slots): dispel magic, mass healing word, sending
-      4th level (3 slots): death ward, freedom of movement
-      5th level (1 slot): insect plague
-
 actions:
   - name: "Spear"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "inflict wounds"
+          slug_name: "inflict-wounds"
+
+
+      - "2nd level (3 slots)":
+        - name: " blindness/deafness"
+          slug_name: "blindness"
+
+        - name: "lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "spiritual weapon (spear)"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "mass healing word"
+          slug_name: "mass-healing-word"
+
+        - name: "sending"
+          slug_name: "sending"
+
+
+      - "4th level (3 slots)":
+        - name: " death ward"
+          slug_name: "death-ward"
+
+        - name: "freedom of movement"
+          slug_name: "freedom-of-movement"
+
+
+      - "5th level (1 slot)":
+        - name: " insect plague"
+          slug_name: "insect-plague"

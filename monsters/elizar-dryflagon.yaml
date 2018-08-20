@@ -44,18 +44,70 @@ special_abilities:
     description: |
       By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared: 
-
-      Cantrips (at will): druidcraft, guidance, poison spray, produce flame
-      1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave
-      2nd level (3 slots): flame blade, spike growth
-      3rd level (3 slots): dispel magic, stinking cloud
-      4th level (2 slots): blight, wall of fire
-
 actions:
   - name: "Dagger +1"
     description: |
       Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " druidcraft"
+          slug_name: "druidcraft"
+
+        - name: "guidance"
+          slug_name: "guidance"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "produce flame"
+          slug_name: "produce-flame"
+
+
+      - "1st level (4 slots)":
+        - name: " animal friendship"
+          slug_name: "animal-friendship"
+
+        - name: "faerie fire"
+          slug_name: "faerie-fire"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "jump"
+          slug_name: "jump"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " flame blade"
+          slug_name: "flame-blade"
+
+        - name: "spike growth"
+          slug_name: "spike-growth"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "stinking cloud"
+          slug_name: "stinking-cloud"
+
+
+      - "4th level (2 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"

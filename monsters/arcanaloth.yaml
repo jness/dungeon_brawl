@@ -48,27 +48,6 @@ special_abilities:
     description: |
       The arcanaloth's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The arcanaloth's innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components: 
-
-      At will: alter self, darkness, heat metal, invisibility (self only), magic missile
-
-  - name: "Spellcasting"
-    description: |
-      The arcanaloth is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth has the following wizard spells prepared: 
-
-      Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation
-      1st level (4 slots): detect magic, identify, shield, Tenser's floating disk
-      2nd level (3 slots): detect thoughts, mirror image, phantasmal force, suggestion
-      3rd level (3 slots): counterspell, fear, fireball
-      4th level (3 slots): banishment, dimension door
-      5th level (2 slots): contact other plane, hold monster
-      6th level (1 slot): chain lightning
-      7th level (1 slot): finger of death
-      8th level (1 slot): mind blank
-
 actions:
   - name: "Claws"
     description: |
@@ -85,3 +64,120 @@ actions:
       An arcanaloth has a 40 percent chance of summoning one arcanaloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The arcanaloth's innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " alter self"
+          slug_name: "alter-self"
+
+        - name: "darkness"
+          slug_name: "darkness"
+
+        - name: "heat metal"
+          slug_name: "heat-metal"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The arcanaloth is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "identify"
+          slug_name: "identify"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "Tenser's floating disk"
+          slug_name: "tenser"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+        - name: "phantasmal force"
+          slug_name: "phantasmal-force"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+
+      - "5th level (2 slots)":
+        - name: " contact other plane"
+          slug_name: "contact-other-plane"
+
+        - name: "hold monster"
+          slug_name: "hold-monster"
+
+
+      - "6th level (1 slot)":
+        - name: " chain lightning"
+          slug_name: "chain-lightning"
+
+
+      - "7th level (1 slot)":
+        - name: " finger of death"
+          slug_name: "finger-of-death"
+
+
+      - "8th level (1 slot)":
+        - name: " mind blank"
+          slug_name: "mind-blank"

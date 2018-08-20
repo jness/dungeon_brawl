@@ -44,22 +44,88 @@ special_abilities:
     description: |
       When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:
-
-      Cantrips (at will): chill touch, dancing lights, mage hand, mending
-      1st level (4 slots): false life*, mage armor, ray of sickness*
-      2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web
-      3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*
-      4th level (3 slots): blight*, dimension door, stoneskin
-      5th level (2 slots): Bigby's hand, cloudkill
-      6th level (1 slot): circle of death*
-
-      *Necromancy spell of 1st level or higher
-  
 actions:
   - name: "Withering Touch"
     description: |
       Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:
+
+    bottom_description: |
+      *Necromancy spell of 1st level or higher
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "dancing lights"
+          slug_name: "dancing-lights"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "mending"
+          slug_name: "mending"
+
+
+      - "1st level (4 slots)":
+        - name: " false life*"
+          slug_name: "false-life"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "ray of sickness*"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " blindness/deafness*"
+          slug_name: "blindness"
+
+        - name: "ray of enfeeblement*"
+          slug_name: "ray-of-enfeeblement"
+
+        - name: "web"
+          slug_name: "web"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead*"
+          slug_name: "animate-dead"
+
+        - name: "bestow curse*"
+          slug_name: "bestow-curse"
+
+        - name: "vampiric touch*"
+          slug_name: "vampiric-touch"
+
+
+      - "4th level (3 slots)":
+        - name: " blight*"
+          slug_name: "blight"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+
+      - "5th level (2 slots)":
+        - name: " Bigby's hand"
+          slug_name: "bigby"
+
+        - name: "cloudkill"
+          slug_name: "cloudkill"
+
+
+      - "6th level (1 slot)":
+        - name: " circle of death*"
+          slug_name: "circle-of-death"

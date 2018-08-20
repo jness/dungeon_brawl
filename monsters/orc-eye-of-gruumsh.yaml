@@ -48,16 +48,42 @@ special_abilities:
     description: |
       The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared: 
-
-      Cantrips (at will): guidance, resistance, thaumaturgy
-      1st level (4 slots): bless, command
-      2nd level (2 slots): augury, spiritual weapon (spear)
-
 actions:
   - name: "Spear"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bless"
+          slug_name: "bless"
+
+        - name: "command"
+          slug_name: "command"
+
+
+      - "2nd level (2 slots)":
+        - name: " augury"
+          slug_name: "augury"
+
+        - name: "spiritual weapon (spear)"
+          slug_name: "spiritual-weapon"

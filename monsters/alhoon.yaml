@@ -48,26 +48,6 @@ special_abilities:
     description: |
       The alhoon has advantage on saving throws against any effect that turns undead.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:
-
-      At will: detect thoughts, levitate
-      1/day each: dominate monster, plane shift (self only)
-
-  - name: "Spellcasting"
-    description: |
-      The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:
-
-      Cantrips (at will): chill touch, dancing lights, mage hand, prestidigitation, shocking grasp
-      1st level (4 slots): detect magic, disguise self, magic missile, shield
-      2nd level (3 slots): invisibility, mirror image, scorching ray
-      3rd level (3 slots): counterspell, fly, lightning bolt
-      4th level (3 slots): confusion, Evard's black tentacles, phantasmal killer
-      5th level (2 slots): modify memory, wall of force
-      6th level (1 slot): disintegrate, globe of invulnerability
-
 actions:
   - name: "Chilling Grasp"
     description: |
@@ -76,3 +56,115 @@ actions:
   - name: "Mind Blast (Recharge 5-6)"
     description: |
       The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+
+      - "1/day each":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "plane shift (self only)"
+          slug_name: "plane-shift"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "dancing lights"
+          slug_name: "dancing-lights"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "Evard's black tentacles"
+          slug_name: "evard"
+
+        - name: "phantasmal killer"
+          slug_name: "phantasmal-killer"
+
+
+      - "5th level (2 slots)":
+        - name: " modify memory"
+          slug_name: "modify-memory"
+
+        - name: "wall of force"
+          slug_name: "wall-of-force"
+
+
+      - "6th level (1 slot)":
+        - name: " disintegrate"
+          slug_name: "disintegrate"
+
+        - name: "globe of invulnerability"
+          slug_name: "globe-of-invulnerability"

@@ -56,15 +56,40 @@ special_abilities:
     description: |
       If the Gulthias Tree dies, Sharwyn dies 24 hours later.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:
-
-      Cantrips (at will): light, prestidigitation, ray of frost
-      1st level (2 slots): color spray, magic missile, shield, sleep.
-
 actions:
   - name: "Dagger"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (2 slots)":
+        - name: " color spray"
+          slug_name: "color-spray"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "sleep."
+          slug_name: "sleep"

@@ -44,22 +44,106 @@ special_abilities:
     description: |
       When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-      At will: alter self, false life, levitate (self only), mage armor (self only), silent image
-      1/day each: feeblemind, finger of death, plane shift
-
-  - name: "Spellcasting"
-    description: |
-      The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp
-      1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire
-
 actions:
   - name: "Mace"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " alter self"
+          slug_name: "alter-self"
+
+        - name: "false life"
+          slug_name: "false-life"
+
+        - name: "levitate (self only)"
+          slug_name: "levitate"
+
+        - name: "mage armor (self only)"
+          slug_name: "mage-armor"
+
+        - name: "silent image"
+          slug_name: "silent-image"
+
+
+      - "1/day each":
+        - name: " feeblemind"
+          slug_name: "feeblemind"
+
+        - name: "finger of death"
+          slug_name: "finger-of-death"
+
+        - name: "plane shift"
+          slug_name: "plane-shift"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st-5th level (4 5th-level slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "burning hands"
+          slug_name: "burning-hands"
+
+        - name: "flame strike"
+          slug_name: "flame-strike"
+
+        - name: "hellish rebuke"
+          slug_name: "hellish-rebuke"
+
+        - name: "magic circle"
+          slug_name: "magic-circle"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+        - name: "stinking cloud"
+          slug_name: "stinking-cloud"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"

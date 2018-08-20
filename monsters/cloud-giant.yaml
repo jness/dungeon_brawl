@@ -44,15 +44,6 @@ special_abilities:
     description: |
       The giant has advantage on Wisdom (Perception) checks that rely on smell.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, fog cloud, light
-      3/day each: feather fall, fly, misty step, telekinesis
-      1/day each: control weather, gaseous form
-
 actions:
   - name: "Fling"
     description: |
@@ -73,3 +64,44 @@ actions:
   - name: "Rock"
     description: |
       Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "light"
+          slug_name: "light"
+
+
+      - "3/day each":
+        - name: " feather fall"
+          slug_name: "feather-fall"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"
+
+
+      - "1/day each":
+        - name: " control weather"
+          slug_name: "control-weather"
+
+        - name: "gaseous form"
+          slug_name: "gaseous-form"

@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The mezzoloth's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The mezzoloth's innate spellcasting ability is Charisma (spell save DC 11). The mezzoloth can innately cast the following spells, requiring no material components: 
-
-      2/day each: darkness, dispel magic
-      1/day: cloudkill
-
 actions:
   - name: "Multiattack"
     description: |
@@ -80,3 +72,24 @@ actions:
       A mezzoloth has a 30 percent chance of summoning one mezzoloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The mezzoloth's innate spellcasting ability is Charisma (spell save DC 11). The mezzoloth can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "2/day each":
+        - name: " darkness"
+          slug_name: "darkness"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+
+      - "1/day":
+        - name: " cloudkill"
+          slug_name: "cloudkill"

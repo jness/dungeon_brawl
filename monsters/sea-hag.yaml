@@ -62,20 +62,6 @@ special_abilities:
 
       A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
 
-spell_casting:
-  - name: "Shared Spellcasting (Coven Only)"
-    description: |
-      While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves: 
-
-      1st level (4 slots): identify, ray of sickness
-      2nd level (3 slots): hold person, locate object
-      3rd level (3 slots): bestow curse, counterspell, lightning bolt
-      4th level (3 slots): phantasmal killer, polymorph
-      5th level (2 slots): contact other plane, scrying
-      6th level (1 slot): eye bite
-
-      For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
-  
 actions:
   - name: "Claws"
     description: |
@@ -90,3 +76,61 @@ actions:
       The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.
 
       The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.
+
+spell_casting:
+
+  - title: "Shared Spellcasting (Coven Only)"
+
+    top_description: |
+      While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:
+
+    bottom_description: |
+      For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
+    spells:
+
+      - "1st level (4 slots)":
+        - name: " identify"
+          slug_name: "identify"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "locate object"
+          slug_name: "locate-object"
+
+
+      - "3rd level (3 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "counterspell"
+          slug_name: "counterspell"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " phantasmal killer"
+          slug_name: "phantasmal-killer"
+
+        - name: "polymorph"
+          slug_name: "polymorph"
+
+
+      - "5th level (2 slots)":
+        - name: " contact other plane"
+          slug_name: "contact-other-plane"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+
+      - "6th level (1 slot)":
+        - name: " eye bite"
+          slug_name: "eye-bite"

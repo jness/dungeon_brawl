@@ -56,14 +56,6 @@ special_abilities:
     description: |
       While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: 
-
-      Cantrips (at will): sacred flame, thaumaturgy
-      1st level (3 slots): bane, shield of faith
-
 actions:
   - name: "Multiattack"
     description: |
@@ -76,3 +68,27 @@ actions:
   - name: "Pincer Staff"
     description: |
       Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The kuo-toa is a 2nd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (3 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"

@@ -39,22 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:
-
-      Cantrips (at will): druidcraft, mending, poison spray, produce flame
-      1st level (4 slots): cure wounds, entangle, faerie fire, speak with animals
-      2nd level (3 slots): animal messenger, beast sense, hold person
-      3rd level (3 slots): conjure animals, meld into stone, water breathing
-      4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire
-      5th level (3 slots): commune with nature, mass cure wounds, tree stride
-      6th level (1 slot): heal, heroes' feast, sunbeam
-      7th level (1 slot): fire storm
-      8th level (1 slot): animal shapes
-      9th level (1 slot): foresight
-
 actions:
   - name: "Scimitar"
     description: |
@@ -67,3 +51,112 @@ actions:
       While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.
 
       The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " druidcraft"
+          slug_name: "druidcraft"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "produce flame"
+          slug_name: "produce-flame"
+
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "entangle"
+          slug_name: "entangle"
+
+        - name: "faerie fire"
+          slug_name: "faerie-fire"
+
+        - name: "speak with animals"
+          slug_name: "speak-with-animals"
+
+
+      - "2nd level (3 slots)":
+        - name: " animal messenger"
+          slug_name: "animal-messenger"
+
+        - name: "beast sense"
+          slug_name: "beast-sense"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+
+      - "3rd level (3 slots)":
+        - name: " conjure animals"
+          slug_name: "conjure-animals"
+
+        - name: "meld into stone"
+          slug_name: "meld-into-stone"
+
+        - name: "water breathing"
+          slug_name: "water-breathing"
+
+
+      - "4th level (3 slots)":
+        - name: " dominate beast"
+          slug_name: "dominate-beast"
+
+        - name: "locate creature"
+          slug_name: "locate-creature"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"
+
+
+      - "5th level (3 slots)":
+        - name: " commune with nature"
+          slug_name: "commune-with-nature"
+
+        - name: "mass cure wounds"
+          slug_name: "mass-cure-wounds"
+
+        - name: "tree stride"
+          slug_name: "tree-stride"
+
+
+      - "6th level (1 slot)":
+        - name: " heal"
+          slug_name: "heal"
+
+        - name: "heroes' feast"
+          slug_name: "heroes"
+
+        - name: "sunbeam"
+          slug_name: "sunbeam"
+
+
+      - "7th level (1 slot)":
+        - name: " fire storm"
+          slug_name: "fire-storm"
+
+
+      - "8th level (1 slot)":
+        - name: " animal shapes"
+          slug_name: "animal-shapes"
+
+
+      - "9th level (1 slot)":
+        - name: " foresight"
+          slug_name: "foresight"

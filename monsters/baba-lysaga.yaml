@@ -48,21 +48,6 @@ special_abilities:
     description: |
       Baba Lysaga is shielded against divination magic, as though protected by a nondetection spell.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga has the following wizard spells prepared:
-
-      Cantrips (at will): acid splash, fire bolt, light, mage hand, prestidigitation
-      1st level (4 slots): detect magic, magic missile, sleep, witch bolt
-      2nd level (3 slots): crown of madness, enlarge/reduce, misty step
-      3rd level (3 slots): dispel magic, fireball, lightning bolt
-      4th level (3 slots): blight, Everard's black tentacles, polymorph
-      5th level (2 slots): cloudkill, geas, scrying
-      6th level (1 slot): programmed illusion, true seeing
-      7th level (1 slot): finger of death, mirage arcane
-      8th level (1 slot): power word stun
-
 actions:
   - name: "Multiattack"
     description: |
@@ -75,3 +60,107 @@ actions:
   - name: "Summon Swarms of Insects (Recharges after a Short or Long Rest)"
     description: |
       Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally. It remains until it dies or until Baba Lysaga dismisses it as an action.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+        - name: "witch bolt"
+          slug_name: "witch-bolt"
+
+
+      - "2nd level (3 slots)":
+        - name: " crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "enlarge/reduce"
+          slug_name: "enlarge"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "Everard's black tentacles"
+          slug_name: "everard"
+
+        - name: "polymorph"
+          slug_name: "polymorph"
+
+
+      - "5th level (2 slots)":
+        - name: " cloudkill"
+          slug_name: "cloudkill"
+
+        - name: "geas"
+          slug_name: "geas"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+
+      - "6th level (1 slot)":
+        - name: " programmed illusion"
+          slug_name: "programmed-illusion"
+
+        - name: "true seeing"
+          slug_name: "true-seeing"
+
+
+      - "7th level (1 slot)":
+        - name: " finger of death"
+          slug_name: "finger-of-death"
+
+        - name: "mirage arcane"
+          slug_name: "mirage-arcane"
+
+
+      - "8th level (1 slot)":
+        - name: " power word stun"
+          slug_name: "power-word-stun"

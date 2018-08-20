@@ -56,15 +56,6 @@ special_abilities:
     description: |
       Fraz-Urb'luu can't be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:
-
-      At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force
-      3/day each: confusion, dream, mislead, programmed illusion, seeming
-      1/day each: mirage arcane, modify memory, project image
-
 actions:
   - name: "Multiattack"
     description: |
@@ -88,3 +79,53 @@ legendary_actions":
   - name: "Phantasmal Killer (Costs 2 Actions)"
     description: |
       Fraz-Urb'luu casts phantasmal killer, no concentration required.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " alter self (can become Medium-sized when changing his appearance)"
+          slug_name: "alter-self"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "phantasamal force"
+          slug_name: "phantasamal-force"
+
+
+      - "3/day each":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "dream"
+          slug_name: "dream"
+
+        - name: "mislead"
+          slug_name: "mislead"
+
+        - name: "programmed illusion"
+          slug_name: "programmed-illusion"
+
+        - name: "seeming"
+          slug_name: "seeming"
+
+
+      - "1/day each":
+        - name: " mirage arcane"
+          slug_name: "mirage-arcane"
+
+        - name: "modify memory"
+          slug_name: "modify-memory"
+
+        - name: "project image"
+          slug_name: "project-image"

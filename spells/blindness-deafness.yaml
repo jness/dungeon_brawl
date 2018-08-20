@@ -1,5 +1,5 @@
 
-name: Blindness/Deafness
+name: Blindness Deafness
 slug_name: blindness-deafness
 
 classes:
@@ -8,10 +8,10 @@ classes:
   - cleric
   - warlock
   - sorcerer
-  
+
 sources:
   - PHB.219
-  
+
 level: 2nd-level
 school: Necromancy
 

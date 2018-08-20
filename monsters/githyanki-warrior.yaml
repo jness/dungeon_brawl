@@ -39,14 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components: 
-
-      At will: mage hand (the hand is invisible)
-      3/day each: jump, misty step, nondetection (self only)
-
 actions:
   - name: "Multiattack"
     description: |
@@ -55,3 +47,27 @@ actions:
   - name: "Greatsword"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage plus 7 (2d6) psychic damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " mage hand (the hand is invisible)"
+          slug_name: "mage-hand"
+
+
+      - "3/day each":
+        - name: " jump"
+          slug_name: "jump"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "nondetection (self only)"
+          slug_name: "nondetection"

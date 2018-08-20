@@ -52,18 +52,67 @@ special_abilities:
     description: |
       When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:
-
-      Cantrips (at will): acid splash, fire bolt, ray of frost, shocking grasp
-      1st level (4 slots): fog cloud, magic missile, thunderwave
-      2nd level (3 slots): gust of wind, Melf's acid arrow, scorching ray
-      3rd level (3 slots): fireball, fly, lightning bolt
-      4th level (1 slot): ice storm
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with two hands.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "Melf's acid arrow"
+          slug_name: "melf"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"
+
+
+      - "3rd level (3 slots)":
+        - name: " fireball"
+          slug_name: "fireball"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (1 slot)":
+        - name: " ice storm"
+          slug_name: "ice-storm"

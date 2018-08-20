@@ -39,15 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:
-
-      1st level (4 slots): command, protection from evil and good, thunderous smite
-      2nd level (3 slots): branding smite, find steed
-      3rd level (2 slots): blinding smite, dispel magic
-
 actions:
   - name: "Multiattack"
     description: |
@@ -64,3 +55,38 @@ actions:
   - name: "Dreadful Aspect (Recharges after a Short or Long Rest)"
     description: |
       The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:
+
+    spells:
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "protection from evil and good"
+          slug_name: "protection-from-evil-and-good"
+
+        - name: "thunderous smite"
+          slug_name: "thunderous-smite"
+
+
+      - "2nd level (3 slots)":
+        - name: " branding smite"
+          slug_name: "branding-smite"
+
+        - name: "find steed"
+          slug_name: "find-steed"
+
+
+      - "3rd level (2 slots)":
+        - name: " blinding smite"
+          slug_name: "blinding-smite"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"

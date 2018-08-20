@@ -48,22 +48,6 @@ special_abilities:
     description: |
       While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:
-
-      At will: friends, message
-      1/day: command
-
-  - name: "Spellcasting"
-    description: |
-      The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:
-
-      Cantrips (at will): guidance, mending, sacred flame
-      1st level (4 slots): bane, inflict wounds, shield of faith
-      2nd level (2 slots): enhance ability, spiritual weapon
-
 actions:
   - name: "Enlarge (Recharges after a Short or Long Rest)"
     description: |
@@ -80,3 +64,62 @@ actions:
   - name: "Invisibility (Recharges after a Short or Long Rest)"
     description: |
       The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The Keeper of the Flame's innate spellcasting ability is Wisdom (spell save DC 12.) It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " friends"
+          slug_name: "friends"
+
+        - name: "message"
+          slug_name: "message"
+
+
+      - "1/day":
+        - name: " command"
+          slug_name: "command"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The Keeper of the Flame is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The Keeper of the Flame has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+
+      - "1st level (4 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "inflict wounds"
+          slug_name: "inflict-wounds"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (2 slots)":
+        - name: " enhance ability"
+          slug_name: "enhance-ability"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"

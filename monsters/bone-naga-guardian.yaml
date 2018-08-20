@@ -39,17 +39,47 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, paralyzed, poisoned"
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared: 
-
-      Cantrips (at will): mending, sacred flame, thaumaturgy
-      1st level (4 slots): command, shield of faith
-      2nd level (3 slots): calm emotions, hold person
-      3rd level (2 slots): bestow curse
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mending"
+          slug_name: "mending"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " calm emotions"
+          slug_name: "calm-emotions"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+
+      - "3rd level (2 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"

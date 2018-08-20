@@ -52,25 +52,6 @@ special_abilities:
     description: |
       The Pudding King has advantage on saving throws against being charmed or frightened.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:
-
-      At will: nondetection (self only)
-      1/day each: blindness/deafness, blur, disguise self
-
-  - name: "Spellcasting"
-    description: |
-      The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:
-
-      Cantrips (at will): acid splash, light, mage hand, poison spray, prestidigitation
-      1st level (4 slots): false life, mage armor, ray of sickness, shield
-      2nd level (3 slots): crown of madness, misty step
-      3rd level (3 slots): gaseous form, stinking cloud
-      4th level (3 slots): blight, confusion
-      5th level (1 slot): cloudkill
-
 actions:
   - name: "War Pick"
     description: |
@@ -83,3 +64,95 @@ actions:
   - name: "Create Green Slime (Recharges after a Long Rest)"
     description: |
       The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " nondetection (self only)"
+          slug_name: "nondetection"
+
+
+      - "1/day each":
+        - name: " blindness/deafness"
+          slug_name: "blindness"
+
+        - name: "blur"
+          slug_name: "blur"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " false life"
+          slug_name: "false-life"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+
+      - "3rd level (3 slots)":
+        - name: " gaseous form"
+          slug_name: "gaseous-form"
+
+        - name: "stinking cloud"
+          slug_name: "stinking-cloud"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "confusion"
+          slug_name: "confusion"
+
+
+      - "5th level (1 slot)":
+        - name: " cloudkill"
+          slug_name: "cloudkill"

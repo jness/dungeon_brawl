@@ -44,17 +44,53 @@ special_abilities:
     description: |
       As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: 
-
-      Cantrips (at will): light, sacred flame, thaumaturgy
-      1st level (4 slots): cure wounds, guiding bolt, sanctuary
-      2nd level (3 slots): lesser restoration, spiritual weapon
-      3rd level (2 slots): dispel magic, spirit guardians
-
 actions:
   - name: "Mace"
     description: |
       Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "guiding bolt"
+          slug_name: "guiding-bolt"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+
+      - "2nd level (3 slots)":
+        - name: " lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (2 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "spirit guardians"
+          slug_name: "spirit-guardians"

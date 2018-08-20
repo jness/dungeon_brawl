@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The deva has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components: 
-
-      At will: detect evil and good
-      1/day each: commune, raise dead
-
 actions:
   - name: "Multiattack"
     description: |
@@ -74,3 +66,24 @@ actions:
       The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).
 
       In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:
+
+    spells:
+
+      - "At will":
+        - name: " detect evil and good"
+          slug_name: "detect-evil-and-good"
+
+
+      - "1/day each":
+        - name: " commune"
+          slug_name: "commune"
+
+        - name: "raise dead"
+          slug_name: "raise-dead"

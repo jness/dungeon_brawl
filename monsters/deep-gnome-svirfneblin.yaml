@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components: 
-
-      At will: nondetection (self only)
-      1/day each: blindness/deafness, blur, disguise self
-
 actions:
   - name: "War Pick"
     description: |
@@ -64,3 +56,27 @@ actions:
   - name: "Poisoned Dart"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " nondetection (self only)"
+          slug_name: "nondetection"
+
+
+      - "1/day each":
+        - name: " blindness/deafness"
+          slug_name: "blindness"
+
+        - name: "blur"
+          slug_name: "blur"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"

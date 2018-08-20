@@ -39,16 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list: 
-
-      Cantrips (at will): light, sacred flame, thaumaturgy
-      1st level (4 slots): command, cure wounds, healing word, sanctuary
-      2nd level (3 slots): calm emotions, hold person, spiritual weapon
-      3rd level (2 slots): mass healing word, spirit guardians
-
 actions:
   - name: "Multiattack"
     description: |
@@ -57,3 +47,55 @@ actions:
   - name: "Halberd"
     description: |
       Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+
+      - "2nd level (3 slots)":
+        - name: " calm emotions"
+          slug_name: "calm-emotions"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (2 slots)":
+        - name: " mass healing word"
+          slug_name: "mass-healing-word"
+
+        - name: "spirit guardians"
+          slug_name: "spirit-guardians"

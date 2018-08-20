@@ -48,19 +48,6 @@ special_abilities:
     description: |
       The sphinx's weapon attacks are magical.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared: 
-
-      Cantrips (at will): sacred flame, spare the dying, thaumaturgy
-      1st level (4 slots): command, detect evil and good, detect magic
-      2nd level (3 slots): lesser restoration, zone of truth
-      3rd level (3 slots): dispel magic, tongues
-      4th level (3 slots): banishment, freedom of movement
-      5th level (2 slots): flame strike, greater restoration
-      6th level (1 slot): heroes' feast
-
 actions:
   - name: "Multiattack"
     description: |
@@ -94,3 +81,70 @@ legendary_actions":
   - name: "Cast a Spell (Costs 3 Actions)"
     description: |
       The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "spare the dying"
+          slug_name: "spare-the-dying"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "detect evil and good"
+          slug_name: "detect-evil-and-good"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+
+      - "2nd level (3 slots)":
+        - name: " lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "zone of truth"
+          slug_name: "zone-of-truth"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "freedom of movement"
+          slug_name: "freedom-of-movement"
+
+
+      - "5th level (2 slots)":
+        - name: " flame strike"
+          slug_name: "flame-strike"
+
+        - name: "greater restoration"
+          slug_name: "greater-restoration"
+
+
+      - "6th level (1 slot)":
+        - name: " heroes' feast"
+          slug_name: "heroes"

@@ -48,15 +48,6 @@ special_abilities:
     description: |
       The ultroloth's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The ultroloth's innate spellcasting ability is Charisma (spell save DC 17). The ultroloth can innately cast the following spells, requiring no material components: 
-
-      At will: alter self, clairvoyance, darkness, detect magic, detect thoughts, dispel magic, invisibility (self only), suggestion
-      3/day each: dimension door, fear, wall of fire
-      1/day each: fire storm, mass suggestion
-
 actions:
   - name: "Multiattack"
     description: |
@@ -81,3 +72,56 @@ actions:
       An ultroloth has a 50 percent chance of summoning 1d6 mezzoloths, 1d4 nycaloths, or one ultroloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The ultroloth's innate spellcasting ability is Charisma (spell save DC 17). The ultroloth can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " alter self"
+          slug_name: "alter-self"
+
+        - name: "clairvoyance"
+          slug_name: "clairvoyance"
+
+        - name: "darkness"
+          slug_name: "darkness"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3/day each":
+        - name: " dimension door"
+          slug_name: "dimension-door"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"
+
+
+      - "1/day each":
+        - name: " fire storm"
+          slug_name: "fire-storm"
+
+        - name: "mass suggestion"
+          slug_name: "mass-suggestion"

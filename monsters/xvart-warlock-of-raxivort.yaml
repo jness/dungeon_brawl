@@ -52,21 +52,62 @@ special_abilities:
     description: |
       The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:
-
-      At will: detect magic, mage armor (self only)
-
-  - name: "Spellcasting"
-    description: |
-      The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC ll, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): eldritch blast, mage hand, minor illusion, poison spray, prestidigitation
-      1st-2nd level (2 2nd-level slots): burning hands, expeditious retreat, invisibility, scorching ray
-
 actions:
   - name: "Scimitar"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "mage armor (self only)"
+          slug_name: "mage-armor"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC ll, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st-2nd level (2 2nd-level slots)":
+        - name: " burning hands"
+          slug_name: "burning-hands"
+
+        - name: "expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"

@@ -64,15 +64,6 @@ special_abilities:
     description: |
       At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:
-
-      At will: detect magic
-      3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone
-      1/day each: teleport
-
 actions:
   - name: "Multiattack"
     description: |
@@ -106,3 +97,38 @@ legendary_actions":
   - name: "Charge (Costs 2 actions)"
     description: |
       Baphomet moves up to his speed, then makes a gore attack.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+
+      - "3/day each":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "dominate beast"
+          slug_name: "dominate-beast"
+
+        - name: "hunter's mark"
+          slug_name: "hunter"
+
+        - name: "maze"
+          slug_name: "maze"
+
+        - name: "wall of stone"
+          slug_name: "wall-of-stone"
+
+
+      - "1/day each":
+        - name: " teleport"
+          slug_name: "teleport"

@@ -66,15 +66,6 @@ special_abilities:
 
       Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The slaad's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The slaad can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, detect thoughts, invisibility (self only), mage hand, major image
-      2/day each: fear, fireball, fly, tongues
-      1/day each: cloudkill, plane shift
-
 actions:
   - name: "Multiattack"
     description: |
@@ -91,3 +82,50 @@ actions:
   - name: "Greatsword"
     description: |
       Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 7 (2d6) necrotic damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The slaad's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The slaad can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+
+      - "2/day each":
+        - name: " fear"
+          slug_name: "fear"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "1/day each":
+        - name: " cloudkill"
+          slug_name: "cloudkill"
+
+        - name: "plane shift"
+          slug_name: "plane-shift"

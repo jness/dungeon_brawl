@@ -62,15 +62,6 @@ special_abilities:
 
       Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The slaad's innate spellcasting ability is Charisma (spell save DC 12). The slaad can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, detect thoughts, mage hand
-      2/day each: fear, invisibility (self only)
-      1/day: fireball
-
 actions:
   - name: "Multiattack"
     description: |
@@ -91,3 +82,35 @@ actions:
   - name: "Hurl Flame"
     description: |
       Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10 (3d6) fire damage. The fire ignites flammable objects that aren 't being worn or carried.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The slaad's innate spellcasting ability is Charisma (spell save DC 12). The slaad can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+
+      - "2/day each":
+        - name: " fear"
+          slug_name: "fear"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"
+
+
+      - "1/day":
+        - name: " fireball"
+          slug_name: "fireball"

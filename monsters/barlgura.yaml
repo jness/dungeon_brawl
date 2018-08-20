@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components: 
-
-      1/day each: entangle, phantasmal force
-      2/day each: disguise self, invisibility (self only)
-
 actions:
   - name: "Multiattack"
     description: |
@@ -76,3 +68,27 @@ actions:
       A barlgura has a 30 percent chance of summoning one barlgura.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "1/day each":
+        - name: " entangle"
+          slug_name: "entangle"
+
+        - name: "phantasmal force"
+          slug_name: "phantasmal-force"
+
+
+      - "2/day each":
+        - name: " disguise self"
+          slug_name: "disguise-self"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"

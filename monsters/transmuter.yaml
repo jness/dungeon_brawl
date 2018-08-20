@@ -54,21 +54,77 @@ special_abilities:
 
       If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:
-
-      Cantrips (at will): light, mending, prestidigitation, ray of frost
-      1st level (4 slots): chromatic orb, expeditious retreat*, mage armor
-      2nd level (3 slots): alter self*, hold person, knock*
-      3rd level (3 slots): blink*, fireball, slow*
-      4th level (3 slots): polymorph*, stoneskin
-      5th level (1 slot): telekinesis*
-
-      *Transmutation spell of 1st level or higher
-  
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:
+
+    bottom_description: |
+      *Transmutation spell of 1st level or higher
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " chromatic orb"
+          slug_name: "chromatic-orb"
+
+        - name: "expeditious retreat*"
+          slug_name: "expeditious-retreat"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+
+      - "2nd level (3 slots)":
+        - name: " alter self*"
+          slug_name: "alter-self"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "knock*"
+          slug_name: "knock"
+
+
+      - "3rd level (3 slots)":
+        - name: " blink*"
+          slug_name: "blink"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+        - name: "slow*"
+          slug_name: "slow"
+
+
+      - "4th level (3 slots)":
+        - name: " polymorph*"
+          slug_name: "polymorph"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+
+      - "5th level (1 slot)":
+        - name: " telekinesis*"
+          slug_name: "telekinesis"

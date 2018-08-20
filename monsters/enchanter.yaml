@@ -39,20 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:
-
-      Cantrips (at will): friends, mage hand, mending, message
-      1st level (4 slots): charm person*, mage armor, magic missile
-      2nd level (3 slots): hold person*, invisibility, suggestion*
-      3rd level (3 slots): fireball, haste, tongues
-      4th level (3 slots): dominate beast*, stoneskin
-      5th level (2 slots): hold monster*
-
-      *Enchantment spell of 1st level or higher
-  
 actions:
   - name: "Quarterstaff"
     description: |
@@ -65,3 +51,73 @@ actions:
       The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.
 
       The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:
+
+    bottom_description: |
+      *Enchantment spell of 1st level or higher
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " friends"
+          slug_name: "friends"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "message"
+          slug_name: "message"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person*"
+          slug_name: "charm-person"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person*"
+          slug_name: "hold-person"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "suggestion*"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " fireball"
+          slug_name: "fireball"
+
+        - name: "haste"
+          slug_name: "haste"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "4th level (3 slots)":
+        - name: " dominate beast*"
+          slug_name: "dominate-beast"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+
+      - "5th level (2 slots)":
+        - name: " hold monster*"
+          slug_name: "hold-monster"

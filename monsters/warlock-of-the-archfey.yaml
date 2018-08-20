@@ -39,21 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "charmed"
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-      At will: disguise self, mage armor (self only), silent image, speak with animals
-      1/day: conjure fey
-
-  - name: "Spellcasting"
-    description: |
-      The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery
-      1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep
-
 actions:
   - name: "Dagger"
     description: |
@@ -64,3 +49,96 @@ actions:
   - name: "Misty Escape (Recharges after a Short or Long Rest)"
     description: |
       In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " disguise self"
+          slug_name: "disguise-self"
+
+        - name: "mage armor (self only)"
+          slug_name: "mage-armor"
+
+        - name: "silent image"
+          slug_name: "silent-image"
+
+        - name: "speak with animals"
+          slug_name: "speak-with-animals"
+
+
+      - "1/day":
+        - name: " conjure fey"
+          slug_name: "conjure-fey"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " dancing lights"
+          slug_name: "dancing-lights"
+
+        - name: "eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "vicious mockery"
+          slug_name: "vicious-mockery"
+
+
+      - "1st-5th level (3 5th-level slots)":
+        - name: " blink"
+          slug_name: "blink"
+
+        - name: "charm person"
+          slug_name: "charm-person"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+        - name: "dominate beast"
+          slug_name: "dominate-beast"
+
+        - name: "faerie fire"
+          slug_name: "faerie-fire"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "hold monster"
+          slug_name: "hold-monster"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "phantasmal force"
+          slug_name: "phantasmal-force"
+
+        - name: "seeming"
+          slug_name: "seeming"
+
+        - name: "sleep"
+          slug_name: "sleep"

@@ -44,14 +44,6 @@ special_abilities:
     description: |
       The giant can breathe air and water.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic, feather fall, levitate, light
-      3/day each: control weather, water breathing
-
 actions:
   - name: "Multiattack"
     description: |
@@ -68,3 +60,33 @@ actions:
   - name: "Lightning Strike (Recharge 5-6)"
     description: |
       The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "feather fall"
+          slug_name: "feather-fall"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+        - name: "light"
+          slug_name: "light"
+
+
+      - "3/day each":
+        - name: " control weather"
+          slug_name: "control-weather"
+
+        - name: "water breathing"
+          slug_name: "water-breathing"

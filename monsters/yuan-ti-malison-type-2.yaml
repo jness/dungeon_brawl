@@ -58,14 +58,6 @@ special_abilities:
 
       Type 3: Human head and upper body with a serpentine lower body instead of legs
 
-spell_casting:
-  - name: "Innate Spellcasting (Yuan_ti Form Only)"
-    description: |
-      The yuan_ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan_ti can innately cast the following spells, requiring no material components: 
-
-      At will: animal friendship (snakes only)
-      3/day: suggestion
-
 actions:
   - name: "Multiattack (Yuan_ti Form Only)"
     description: |
@@ -74,3 +66,21 @@ actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Yuan_ti Form Only)"
+
+    top_description: |
+      The yuan_ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan_ti can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " animal friendship (snakes only)"
+          slug_name: "animal-friendship"
+
+
+      - "3/day":
+        - name: " suggestion"
+          slug_name: "suggestion"

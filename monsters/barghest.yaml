@@ -58,14 +58,6 @@ special_abilities:
 
       While a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components::
-
-      * At will: levitate, minor illusion, pass without trace
-      * 1/day each: charm person, dimension door, suggestion
-
 actions:
   - name: "Bite"
     description: |
@@ -74,3 +66,33 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components::
+
+    spells:
+
+      - "* At will":
+        - name: " levitate"
+          slug_name: "levitate"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "pass without trace"
+          slug_name: "pass-without-trace"
+
+
+      - "* 1/day each":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+        - name: "suggestion"
+          slug_name: "suggestion"

@@ -48,18 +48,6 @@ special_abilities:
     description: |
       The sphinx's weapon attacks are magical.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, minor illusion, prestidigitation
-      1st level (4 slots): detect magic, identify, shield
-      2nd level (3 slots): darkness, locate object, suggestion
-      3rd level (3 slots): dispel magic, remove curse, tongues
-      4th level (3 slots): banishment, greater invisibility
-      5th level (1 slot): legend lore
-
 actions:
   - name: "Multiattack"
     description: |
@@ -83,3 +71,68 @@ legendary_actions":
   - name: "Cast a Spell (Costs 3 Actions)"
     description: |
       The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "identify"
+          slug_name: "identify"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " darkness"
+          slug_name: "darkness"
+
+        - name: "locate object"
+          slug_name: "locate-object"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "remove curse"
+          slug_name: "remove-curse"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"
+
+
+      - "5th level (1 slot)":
+        - name: " legend lore"
+          slug_name: "legend-lore"

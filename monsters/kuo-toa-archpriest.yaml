@@ -56,18 +56,6 @@ special_abilities:
     description: |
       While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: 
-
-      Cantrips (at will): guidance, sacred flame, thaumaturgy
-      1st level (4 slots): detect magic, sanctuary, shield of faith
-      2nd level (3 slots): hold person, spiritual weapon
-      3rd level (3 slots): spirit guardians, tongues
-      4th level (3 slots): control water, divination
-      5th level (2 slots): mass cure wounds, scrying
-
 actions:
   - name: "Multiattack"
     description: |
@@ -80,3 +68,65 @@ actions:
   - name: "Unarmed Strike"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " spirit guardians"
+          slug_name: "spirit-guardians"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "4th level (3 slots)":
+        - name: " control water"
+          slug_name: "control-water"
+
+        - name: "divination"
+          slug_name: "divination"
+
+
+      - "5th level (2 slots)":
+        - name: " mass cure wounds"
+          slug_name: "mass-cure-wounds"
+
+        - name: "scrying"
+          slug_name: "scrying"

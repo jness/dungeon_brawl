@@ -44,16 +44,6 @@ special_abilities:
     description: |
       While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: 
-
-      Cantrips (at will): chill touch, mage hand
-      1st level (4 slots): fog cloud, mage armor, thunderwave
-      2nd level (3 slots): mirror image, misty step
-      3rd level (2 slots): fear
-
 actions:
   - name: "Dagger"
     description: |
@@ -62,3 +52,43 @@ actions:
   - name: "Eye of Frost"
     description: |
       The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+
+      - "1st level (4 slots)":
+        - name: " fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " mirror image"
+          slug_name: "mirror-image"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+
+      - "3rd level (2 slots)":
+        - name: " fear"
+          slug_name: "fear"

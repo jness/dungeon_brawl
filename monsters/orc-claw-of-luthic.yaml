@@ -48,16 +48,6 @@ special_abilities:
     description: |
       As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:
-
-      Cantrips (at will): guidance, mending, resistance, thaumaturgy
-      1st level (4 slots): bane, cure wounds, guiding bolt
-      2nd level (3 slots): augury, warding bond
-      3rd level (2 slots): bestow curse, create food and water
-
 actions:
   - name: "Multiattack"
     description: |
@@ -66,3 +56,52 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "guiding bolt"
+          slug_name: "guiding-bolt"
+
+
+      - "2nd level (3 slots)":
+        - name: " augury"
+          slug_name: "augury"
+
+        - name: "warding bond"
+          slug_name: "warding-bond"
+
+
+      - "3rd level (2 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "create food and water"
+          slug_name: "create-food-and-water"

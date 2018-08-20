@@ -56,16 +56,6 @@ special_abilities:
     description: |
       Pharblex has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list: 
-
-      Cantrips (at will): druidcraft, guidance, poison spray
-      1st level (4 slots): cure wounds, entangle, healing word, thunderwave
-      2nd level (3 slots): barkskin, beast sense, spike growth
-      3rd level (3 slots): plant growth, water walk
-
 actions:
   - name: "Multiattack"
     description: |
@@ -78,3 +68,55 @@ actions:
   - name: "Spear"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit. reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " druidcraft"
+          slug_name: "druidcraft"
+
+        - name: "guidance"
+          slug_name: "guidance"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "entangle"
+          slug_name: "entangle"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " barkskin"
+          slug_name: "barkskin"
+
+        - name: "beast sense"
+          slug_name: "beast-sense"
+
+        - name: "spike growth"
+          slug_name: "spike-growth"
+
+
+      - "3rd level (3 slots)":
+        - name: " plant growth"
+          slug_name: "plant-growth"
+
+        - name: "water walk"
+          slug_name: "water-walk"

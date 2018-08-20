@@ -48,14 +48,6 @@ special_abilities:
     description: |
       Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.
-
-      Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost
-      1st level (3 slots): charm person, color spray, disguise self, longstrider
-
 actions:
   - name: "Multiattack"
     description: |
@@ -64,3 +56,39 @@ actions:
   - name: "Shortsword"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (3 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "color spray"
+          slug_name: "color-spray"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"
+
+        - name: "longstrider"
+          slug_name: "longstrider"

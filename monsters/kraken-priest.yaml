@@ -44,15 +44,6 @@ special_abilities:
     description: |
       The priest can breathe air and water.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
-
-      At will: command, create or destroy water
-      3/day each: control water, darkness, water breathing, water walk
-      1/day each: call lightning, Evard's black tentacles
-
 actions:
   - name: "Thunderous Touch"
     description: |
@@ -61,3 +52,41 @@ actions:
   - name: "Voice of the Kraken (Recharges after a Short or Long Rest)"
     description: |
       A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest's choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "create or destroy water"
+          slug_name: "create-or-destroy-water"
+
+
+      - "3/day each":
+        - name: " control water"
+          slug_name: "control-water"
+
+        - name: "darkness"
+          slug_name: "darkness"
+
+        - name: "water breathing"
+          slug_name: "water-breathing"
+
+        - name: "water walk"
+          slug_name: "water-walk"
+
+
+      - "1/day each":
+        - name: " call lightning"
+          slug_name: "call-lightning"
+
+        - name: "Evard's black tentacles"
+          slug_name: "evard"

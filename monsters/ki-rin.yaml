@@ -52,29 +52,6 @@ special_abilities:
     description: |
       The ki-rin's weapon attacks are magical.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The ki-rin's innate spellcasting ability is Charisma (spell save DC 17). The ki-rin can innately cast the following spells, requiring no material components:
-
-      At will: gaseous form, major image (6th-level version), wind walk
-      1/day: create food and water
-
-  - name: "Spellcasting"
-    description: |
-      The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following cleric spells prepared:
-
-      Cantrips (at will): light, mending, sacred flame, spare the dying, thaumaturgy
-      1st level (4 slots): command, cure wounds, detect evil and good, protection from evil and good, sanctuary
-      2nd level (3 slots): calm emotions, lesser restoration, silence
-      3rd level (3 slots): dispel magic, remove curse, sending
-      4th level (3 slots): banishment, freedom of movement, guardian of faith
-      5th level (3 slots): greater restoration, mass cure wounds, scrying
-      6th level (1 slot): heroes' feast, true seeing
-      7th level (1 slot): etherealness, plane shift
-      8th level (1 slot): control weather
-      9th level (1 slot): true resurrection
-
 actions:
   - name: "Multiattack"
     description: |
@@ -102,3 +79,139 @@ legendary_actions":
   - name: "Move"
     description: |
       The ki-rin moves up to its half its speed without provoking opportunity attacks.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The ki-rin's innate spellcasting ability is Charisma (spell save DC 17). The ki-rin can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " gaseous form"
+          slug_name: "gaseous-form"
+
+        - name: "major image (6th-level version)"
+          slug_name: "major-image"
+
+        - name: "wind walk"
+          slug_name: "wind-walk"
+
+
+      - "1/day":
+        - name: " create food and water"
+          slug_name: "create-food-and-water"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "spare the dying"
+          slug_name: "spare-the-dying"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "detect evil and good"
+          slug_name: "detect-evil-and-good"
+
+        - name: "protection from evil and good"
+          slug_name: "protection-from-evil-and-good"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+
+      - "2nd level (3 slots)":
+        - name: " calm emotions"
+          slug_name: "calm-emotions"
+
+        - name: "lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "silence"
+          slug_name: "silence"
+
+
+      - "3rd level (3 slots)":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "remove curse"
+          slug_name: "remove-curse"
+
+        - name: "sending"
+          slug_name: "sending"
+
+
+      - "4th level (3 slots)":
+        - name: " banishment"
+          slug_name: "banishment"
+
+        - name: "freedom of movement"
+          slug_name: "freedom-of-movement"
+
+        - name: "guardian of faith"
+          slug_name: "guardian-of-faith"
+
+
+      - "5th level (3 slots)":
+        - name: " greater restoration"
+          slug_name: "greater-restoration"
+
+        - name: "mass cure wounds"
+          slug_name: "mass-cure-wounds"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+
+      - "6th level (1 slot)":
+        - name: " heroes' feast"
+          slug_name: "heroes"
+
+        - name: "true seeing"
+          slug_name: "true-seeing"
+
+
+      - "7th level (1 slot)":
+        - name: " etherealness"
+          slug_name: "etherealness"
+
+        - name: "plane shift"
+          slug_name: "plane-shift"
+
+
+      - "8th level (1 slot)":
+        - name: " control weather"
+          slug_name: "control-weather"
+
+
+      - "9th level (1 slot)":
+        - name: " true resurrection"
+          slug_name: "true-resurrection"

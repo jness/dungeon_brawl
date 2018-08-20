@@ -72,13 +72,6 @@ special_abilities:
     description: |
       The faerie dragon has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.
-
-      1/day each: color spray, dancing lights, hallucinatory terrain, mage hand, major image, minor illusion, mirror image, polymorph, suggestion
-
 actions:
   - name: "Bite"
     description: |
@@ -91,3 +84,40 @@ actions:
       1-4. The target takes no action or bonus action and uses all of its movement to move in a random direction.
 
       5-6. The target doesn't move, and the only thing it can do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The dragon's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast a number of spells, requiring no material components. As the dragon ages and changes color, it gains additional spells as shown below.
+
+    spells:
+
+      - "1/day each":
+        - name: " color spray"
+          slug_name: "color-spray"
+
+        - name: "dancing lights"
+          slug_name: "dancing-lights"
+
+        - name: "hallucinatory terrain"
+          slug_name: "hallucinatory-terrain"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+        - name: "polymorph"
+          slug_name: "polymorph"
+
+        - name: "suggestion"
+          slug_name: "suggestion"

@@ -56,15 +56,6 @@ special_abilities:
     description: |
       When Yeenoghu reduces a creature to 0 hit points with a melee attack on his turn, Yeenoghu can take a bonus action to move up to half his speed and make a bite attack.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
-
-      At will: detect magic, spiritual weapon (8th-level spell, 4d8 + 2 force damage on a hit, appears as a flail)
-      3/day each: dispel magic, fear, invisibility
-      1/day: teleport
-
 actions:
   - name: "Multiattack"
     description: |
@@ -98,3 +89,41 @@ legendary_actions":
   - name: "Savage (Costs 2 Actions)"
     description: |
       Yeenoghu makes a bite attack against each creature within 10 feet of him.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "spiritual weapon (8th-level spell"
+          slug_name: "spiritual-weapon"
+
+        - name: "4d8 + 2 force damage on a hit"
+          slug_name: "d"
+
+        - name: "appears as a flail)"
+          slug_name: "appears-as-a-flail"
+
+
+      - "3/day each":
+        - name: " dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+
+      - "1/day":
+        - name: " teleport"
+          slug_name: "teleport"

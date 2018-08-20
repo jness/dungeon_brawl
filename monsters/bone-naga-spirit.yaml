@@ -39,17 +39,47 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, paralyzed, poisoned"
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Intelligence, and it has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, minor illusion, ray of frost
-      1st level (4 slots): charm person, sleep
-      2nd level (3 slots): detect thoughts, hold person
-      3rd level (2 slots): lightning bolt
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Intelligence, and it has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+
+      - "3rd level (2 slots)":
+        - name: " lightning bolt"
+          slug_name: "lightning-bolt"

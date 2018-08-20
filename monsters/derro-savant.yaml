@@ -52,16 +52,6 @@ special_abilities:
     description: |
       While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:
-
-      Cantrips (at will): acid splash, light, mage hand, message, ray of frost
-      1st level (4 slots): burning hands, chromatic orb, sleep
-      2nd level (3 slots): invisibility, spider climb
-      3rd level (2 slots): blink, lightning bolt
-
 actions:
   - name: "Hooked Shortspear"
     description: |
@@ -70,3 +60,55 @@ actions:
   - name: "Light Repeating Crossbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " burning hands"
+          slug_name: "burning-hands"
+
+        - name: "chromatic orb"
+          slug_name: "chromatic-orb"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "spider climb"
+          slug_name: "spider-climb"
+
+
+      - "3rd level (2 slots)":
+        - name: " blink"
+          slug_name: "blink"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"

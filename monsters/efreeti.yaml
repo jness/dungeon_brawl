@@ -58,15 +58,6 @@ special_abilities:
 
       To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components: 
-
-      At will: detect magic
-      3/day: enlarge/reduce, tongues
-      1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,3 +70,44 @@ actions:
   - name: "Hurl Flame"
     description: |
       Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+
+      - "3/day":
+        - name: " enlarge/reduce"
+          slug_name: "enlarge"
+
+        - name: "tongues"
+          slug_name: "tongues"
+
+
+      - "1/day each":
+        - name: " conjure elemental (fire elemental only)"
+          slug_name: "conjure-elemental"
+
+        - name: "gaseous form"
+          slug_name: "gaseous-form"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+        - name: "plane shift"
+          slug_name: "plane-shift"
+
+        - name: "wall of fire"
+          slug_name: "wall-of-fire"

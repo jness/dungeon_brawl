@@ -56,18 +56,6 @@ special_abilities:
     description: |
       When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared: 
-
-      Cantrips (at will): mending, resistance, shape water
-      1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave
-      2nd level (3 slots): darkvision, hold person, protection from poison
-      3rd level (3 slots): call lightning, sleet storm, tidal wave
-      4th level (3 slots): control water, ice storm
-      5th level (1 slot): scrying
-
 actions:
   - name: "Multiattack"
     description: |
@@ -80,3 +68,71 @@ actions:
   - name: "Drown"
     description: |
       Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mending"
+          slug_name: "mending"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "shape water"
+          slug_name: "shape-water"
+
+
+      - "1st level (4 slots)":
+        - name: " create or destroy water"
+          slug_name: "create-or-destroy-water"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " darkvision"
+          slug_name: "darkvision"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "protection from poison"
+          slug_name: "protection-from-poison"
+
+
+      - "3rd level (3 slots)":
+        - name: " call lightning"
+          slug_name: "call-lightning"
+
+        - name: "sleet storm"
+          slug_name: "sleet-storm"
+
+        - name: "tidal wave"
+          slug_name: "tidal-wave"
+
+
+      - "4th level (3 slots)":
+        - name: " control water"
+          slug_name: "control-water"
+
+        - name: "ice storm"
+          slug_name: "ice-storm"
+
+
+      - "5th level (1 slot)":
+        - name: " scrying"
+          slug_name: "scrying"

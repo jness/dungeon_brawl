@@ -39,16 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:
-
-      Cantrips (at will): guidance, light, sacred flame, thaumaturgy
-      1st level (4 slots): cure wounds, divine favor, inflict wounds, protection from good, shield of faith
-      2nd level (3 slots): continual flame, hold person, magic weapon, spiritual weapon
-      3rd level (3 slots): bestow curse, dispel magic, spirit guardian
-
 actions:
   - name: "Multiattack"
     description: |
@@ -57,3 +47,67 @@ actions:
   - name: "+1 Flail"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "divine favor"
+          slug_name: "divine-favor"
+
+        - name: "inflict wounds"
+          slug_name: "inflict-wounds"
+
+        - name: "protection from good"
+          slug_name: "protection-from-good"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " continual flame"
+          slug_name: "continual-flame"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "magic weapon"
+          slug_name: "magic-weapon"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " bestow curse"
+          slug_name: "bestow-curse"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "spirit guardian"
+          slug_name: "spirit-guardian"

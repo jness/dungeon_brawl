@@ -54,14 +54,6 @@ special_abilities:
     description: |
       While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks).
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:
-
-      At will: commune with nature, meld into stone, stone shape
-      1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance
-
 actions:
   - name: "Multiattack"
     description: |
@@ -74,3 +66,39 @@ actions:
   - name: "Rock"
     description: |
       Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit: 15 (2d8+6) bludgeoning damage, or 24 (4d8+6) bludgeoning damage if the korred is on the ground.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " commune with nature"
+          slug_name: "commune-with-nature"
+
+        - name: "meld into stone"
+          slug_name: "meld-into-stone"
+
+        - name: "stone shape"
+          slug_name: "stone-shape"
+
+
+      - "1/day each":
+        - name: " conjure elemental (as 6th-level spell; galeb duhr"
+          slug_name: "conjure-elemental"
+
+        - name: "gargoyle"
+          slug_name: "gargoyle"
+
+        - name: "earth elemental"
+          slug_name: "earth-elemental"
+
+        - name: "or xorn only)"
+          slug_name: "or-xorn-only"
+
+        - name: "Otto's irresistible dance"
+          slug_name: "otto"

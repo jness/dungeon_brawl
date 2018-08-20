@@ -39,17 +39,59 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: 
-
-      Cantrips (at will): chill touch, mage hand, minor illusion, prestidigitation, ray of frost
-      1st level (4 slots): expeditious retreat, ice knife, magic missile, shield
-      2nd level (3 slots): blur, hold person
-      3rd level (2 slots): sleet storm
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "ice knife"
+          slug_name: "ice-knife"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " blur"
+          slug_name: "blur"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+
+      - "3rd level (2 slots)":
+        - name: " sleet storm"
+          slug_name: "sleet-storm"

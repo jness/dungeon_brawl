@@ -44,14 +44,6 @@ special_abilities:
     description: |
       The mind flayer has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components: 
-
-      At will: detect thoughts, levitate
-      1/day each: dominate monster, plane shift (self only)
-
 actions:
   - name: "Tentacles"
     description: |
@@ -64,3 +56,27 @@ actions:
   - name: "Mind Blast (Recharge 5-6)"
     description: |
       The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+
+      - "1/day each":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "plane shift (self only)"
+          slug_name: "plane-shift"

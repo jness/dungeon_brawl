@@ -39,16 +39,42 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The mage is a 4th-level spellcaster that uses Intelligence as its spellcasting ability (spell save DC 13; +5 to hit with spell attacks). The mage knows the following spells from the wizard's spell list: 
-
-      Cantrips (at will): light, mage hand, shocking grasp
-      * 1st Level (4 slots): charm person, magic missile
-      * 2nd Level (3 slots): hold person, misty step
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +1 to hit, reach 5 ft., one target.  Hit: 3 (1d8-1) bludgeoning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The mage is a 4th-level spellcaster that uses Intelligence as its spellcasting ability (spell save DC 13; +5 to hit with spell attacks). The mage knows the following spells from the wizard's spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "* 1st Level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+
+      - "* 2nd Level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "misty step"
+          slug_name: "misty-step"

@@ -48,19 +48,6 @@ special_abilities:
     description: |
       A destroyed mummy lord gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 feet of the mummy lord's heart.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared: 
-
-      Cantrips (at will): sacred flame, thaumaturgy
-      1st level (4 slots): command, guiding bolt, shield of faith
-      2nd level (3 slots): hold person, silence, spiritual weapon
-      3rd level (3 slots): animate dead, dispel magic
-      4th level (3 slots): divination, guardian of faith
-      5th level (2 slots): contagion, insect plague
-      6th level (1 slot): harm
-
 actions:
   - name: "Multiattack"
     description: |
@@ -96,3 +83,70 @@ legendary_actions":
   - name: "Whirlwind of Sand (Costs 2 Actions)"
     description: |
       The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " sacred flame"
+          slug_name: "sacred-flame"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "guiding bolt"
+          slug_name: "guiding-bolt"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "silence"
+          slug_name: "silence"
+
+        - name: "spiritual weapon"
+          slug_name: "spiritual-weapon"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead"
+          slug_name: "animate-dead"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+
+      - "4th level (3 slots)":
+        - name: " divination"
+          slug_name: "divination"
+
+        - name: "guardian of faith"
+          slug_name: "guardian-of-faith"
+
+
+      - "5th level (2 slots)":
+        - name: " contagion"
+          slug_name: "contagion"
+
+        - name: "insect plague"
+          slug_name: "insect-plague"
+
+
+      - "6th level (1 slot)":
+        - name: " harm"
+          slug_name: "harm"

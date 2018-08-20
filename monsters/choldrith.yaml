@@ -60,15 +60,6 @@ special_abilities:
     description: |
       The choldrith ignores movement restrictions caused by webbing.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:
-
-      Cantrips (at will): guidance, mending, resistance, thaumaturgy
-      1st level (4 slots): bane, healing word, sanctuary, shield of faith
-      2nd level (3 slots): hold person, spiritual weapon (dagger)
-
 actions:
   - name: "Dagger"
     description: |
@@ -77,3 +68,47 @@ actions:
   - name: "Web (Recharge 5-6)"
     description: |
       Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "sanctuary"
+          slug_name: "sanctuary"
+
+        - name: "shield of faith"
+          slug_name: "shield-of-faith"
+
+
+      - "2nd level (3 slots)":
+        - name: " hold person"
+          slug_name: "hold-person"
+
+        - name: "spiritual weapon (dagger)"
+          slug_name: "spiritual-weapon"

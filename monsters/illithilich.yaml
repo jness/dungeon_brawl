@@ -56,29 +56,6 @@ special_abilities:
     description: |
       The illithilich has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, prestidigitation, ray of frost
-      1st level (4 slots): detect magic, magic missile, shield, thunderwave
-      2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image
-      3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
-      4th level (3 slots): blight, dimension door
-      5th level (3 slots): cloudkill, scrying
-      6th level (1 slot): disintegrate, globe of invulnerability
-      7th level (1 slot): finger of death, plane shift
-      8th level (1 slot): dominate monster, power word stun
-      9th level (1 slot): power word kill
-
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The illithilich's innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components.
-
-      At will: detect thoughts, levitate
-      1/day each: dominate monster, plane shift (self only)
-
 actions:
   - name: "Paralyzing Touch"
     description: |
@@ -114,3 +91,133 @@ legendary_actions":
   - name: "Cast Spell (Costs 1-3 Actions)"
     description: |
       The illithilich uses a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that it has prepared. Doing so costs 1 legendary action per level of the spell.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "Melf's acid arrow"
+          slug_name: "melf"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead"
+          slug_name: "animate-dead"
+
+        - name: "counterspell"
+          slug_name: "counterspell"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+
+      - "5th level (3 slots)":
+        - name: " cloudkill"
+          slug_name: "cloudkill"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+
+      - "6th level (1 slot)":
+        - name: " disintegrate"
+          slug_name: "disintegrate"
+
+        - name: "globe of invulnerability"
+          slug_name: "globe-of-invulnerability"
+
+
+      - "7th level (1 slot)":
+        - name: " finger of death"
+          slug_name: "finger-of-death"
+
+        - name: "plane shift"
+          slug_name: "plane-shift"
+
+
+      - "8th level (1 slot)":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "power word stun"
+          slug_name: "power-word-stun"
+
+
+      - "9th level (1 slot)":
+        - name: " power word kill"
+          slug_name: "power-word-kill"
+
+      
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The illithilich's innate spellcasting ability is Intelligence (spell save DC 20). It can innately cast the following spells, requiring no components.
+
+    spells:
+
+      - "At will":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+
+      - "1/day each":
+        - name: " dominate monster"
+          slug_name: "dominate-monster"
+
+        - name: "plane shift (self only)"
+          slug_name: "plane-shift"

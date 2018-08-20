@@ -44,24 +44,6 @@ special_abilities:
     description: |
       The giant has advantage on Wisdom (Perception) checks that rely on smell.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The giant's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
-
-      At will: detect magic, fog cloud, light
-      3/day each: featherfall, fly, misty step, telekinesis
-      1/day each: control weather, gaseous form
-
-  - name: "Spellcasting"
-    description: |
-      The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:
-
-      Cantrips (at will): minor illusion, prestidigitation, vicious mockery
-      1st level (4 slots): cure wounds, disguise self, silent image, Tasha's hideous laughter
-      2nd level (3 slots): invisibility, suggestion
-      3rd level (2 slots): major image, tongues
-
 actions:
   - name: "Multiattack"
     description: |
@@ -78,3 +60,93 @@ actions:
   - name: "Change Shape"
     description: |
       The giant magically polymorphs into a beast or humanoid it has seen, or back into its true form. Any equipment the giant is wearing or carrying is absorbed by the new form. Its statistics, other than its size, are the same in each form. It reverts to its true form if it dies.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The giant's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "light"
+          slug_name: "light"
+
+
+      - "3/day each":
+        - name: " featherfall"
+          slug_name: "featherfall"
+
+        - name: "fly"
+          slug_name: "fly"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"
+
+
+      - "1/day each":
+        - name: " control weather"
+          slug_name: "control-weather"
+
+        - name: "gaseous form"
+          slug_name: "gaseous-form"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "vicious mockery"
+          slug_name: "vicious-mockery"
+
+
+      - "1st level (4 slots)":
+        - name: " cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"
+
+        - name: "silent image"
+          slug_name: "silent-image"
+
+        - name: "Tasha's hideous laughter"
+          slug_name: "tasha"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (2 slots)":
+        - name: " major image"
+          slug_name: "major-image"
+
+        - name: "tongues"
+          slug_name: "tongues"

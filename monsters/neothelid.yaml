@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The neothelid has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The neothelid's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:
-
-      At will: levitate
-      1/day each: confusion, feeblemind, telekinesis
-
 actions:
   - name: "Tentacles"
     description: |
@@ -66,3 +58,27 @@ actions:
   - name: "Acid Breath (Recharges 5-6)"
     description: |
       The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The neothelid's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " levitate"
+          slug_name: "levitate"
+
+
+      - "1/day each":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "feeblemind"
+          slug_name: "feeblemind"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"

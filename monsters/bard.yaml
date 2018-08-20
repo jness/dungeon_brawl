@@ -48,15 +48,6 @@ special_abilities:
     description: |
       The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:
-
-      Cantrips (at will): friends, mage hand, vicious mockery
-      1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave
-      2nd level (3 slots): invisibility, shatter
-
 actions:
   - name: "Shortsword"
     description: |
@@ -65,3 +56,47 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " friends"
+          slug_name: "friends"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "vicious mockery"
+          slug_name: "vicious-mockery"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "healing word"
+          slug_name: "healing-word"
+
+        - name: "heroism"
+          slug_name: "heroism"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " invisibility"
+          slug_name: "invisibility"
+
+        - name: "shatter"
+          slug_name: "shatter"

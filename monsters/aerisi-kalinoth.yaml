@@ -52,20 +52,92 @@ special_abilities:
     description: |
       If Aerisi fails a saving throw, she can choose to succeed instead.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared: 
-
-      Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp
-      1st level (4 slots): charm person, feather fall, mage armor, thunderwave
-      2nd level (3 slots): dust devil, gust of wind, invisibility
-      3rd level (3 slots): fly, gaseous form, lightning bolt
-      4th level (3 slots): ice storm, storm sphere
-      5th level (2 slots): cloudkill, seeming (cast each day)
-      6th level (1 slot): chain lightning
-
 actions:
   - name: "Windvane"
     description: |
       Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " gust"
+          slug_name: "gust"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "feather fall"
+          slug_name: "feather-fall"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " dust devil"
+          slug_name: "dust-devil"
+
+        - name: "gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+
+      - "3rd level (3 slots)":
+        - name: " fly"
+          slug_name: "fly"
+
+        - name: "gaseous form"
+          slug_name: "gaseous-form"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+
+      - "4th level (3 slots)":
+        - name: " ice storm"
+          slug_name: "ice-storm"
+
+        - name: "storm sphere"
+          slug_name: "storm-sphere"
+
+
+      - "5th level (2 slots)":
+        - name: " cloudkill"
+          slug_name: "cloudkill"
+
+        - name: "seeming (cast each day)"
+          slug_name: "seeming"
+
+
+      - "6th level (1 slot)":
+        - name: " chain lightning"
+          slug_name: "chain-lightning"

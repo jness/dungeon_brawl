@@ -44,19 +44,66 @@ special_abilities:
     description: |
       If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand, minor illusion, ray of frost
-      1st level (4 slots): charm person, detect magic, sleep
-      2nd level (3 slots): detect thoughts, hold person
-      3rd level (3 slots): lightning bolt, water breathing
-      4th level (3 slots): blight, dimension door
-      5th level (2 slots): dominate person
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+
+      - "3rd level (3 slots)":
+        - name: " lightning bolt"
+          slug_name: "lightning-bolt"
+
+        - name: "water breathing"
+          slug_name: "water-breathing"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+
+      - "5th level (2 slots)":
+        - name: " dominate person"
+          slug_name: "dominate-person"

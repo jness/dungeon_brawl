@@ -60,14 +60,6 @@ special_abilities:
     description: |
       While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Droki's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:
-
-      At will: minor illusion
-      1/day each: darkness, fear, shatter
-
 actions:
   - name: "Multiattack"
     description: |
@@ -82,3 +74,27 @@ actions:
   - name: "Parry"
     description: |
       Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Droki's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " minor illusion"
+          slug_name: "minor-illusion"
+
+
+      - "1/day each":
+        - name: " darkness"
+          slug_name: "darkness"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "shatter"
+          slug_name: "shatter"

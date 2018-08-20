@@ -39,15 +39,37 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:
-
-      Cantrips (at will): fire bolt, mending, prestidigitation
-      1st level (2 slots): burning hands, disguise self, shield
-
 actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft, one target. Hit: 2 (1d4) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (2 slots)":
+        - name: " burning hands"
+          slug_name: "burning-hands"
+
+        - name: "disguise self"
+          slug_name: "disguise-self"
+
+        - name: "shield"
+          slug_name: "shield"

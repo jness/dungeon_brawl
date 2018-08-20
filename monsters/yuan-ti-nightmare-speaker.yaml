@@ -60,20 +60,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-spell_casting:
-  - name: "Innate Spellcasting (Yuan-ti Form Only)"
-    description: |
-      The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
-
-      At will: animal friendship (snakes only) 3/day: suggestion
-
-  - name: "Spellcasting (Yuan-ti Form Only)"
-    description: |
-      The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrip (at will): chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation
-      1st-3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt
-
 actions:
   - name: "Multiattack (Yuan-ti Form Only)"
     description: |
@@ -90,3 +76,70 @@ actions:
   - name: "Invoke Nightmare (Recharges after a Short or Long Rest)"
     description: |
       The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Yuan-ti Form Only)"
+
+    top_description: |
+      The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " animal friendship (snakes only) 3/day"
+          slug_name: "animal-friendship"
+
+      
+
+  - title: "Spellcasting (Yuan-ti Form Only)"
+
+    top_description: |
+      The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrip (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "eldritch blast (range 300 ft."
+          slug_name: "eldritch-blast"
+
+        - name: "+3 bonus to each damage roll)"
+          slug_name: "bonus-to-each-damage-roll"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st-3rd level (2 3rd-level slots)":
+        - name: " arms of Hadar"
+          slug_name: "arms-of-hadar"
+
+        - name: "darkness"
+          slug_name: "darkness"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "hex"
+          slug_name: "hex"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "hunger of Hadar"
+          slug_name: "hunger-of-hadar"
+
+        - name: "witch bolt"
+          slug_name: "witch-bolt"

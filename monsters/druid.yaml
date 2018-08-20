@@ -39,16 +39,48 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: 
-
-      Cantrips (at will): druidcraft, produce flame, shillelagh
-      1st level (4 slots): entangle, longstrider, speak with animals, thunderwave
-      2nd level (3 slots): animal messenger, barkskin
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " druidcraft"
+          slug_name: "druidcraft"
+
+        - name: "produce flame"
+          slug_name: "produce-flame"
+
+        - name: "shillelagh"
+          slug_name: "shillelagh"
+
+
+      - "1st level (4 slots)":
+        - name: " entangle"
+          slug_name: "entangle"
+
+        - name: "longstrider"
+          slug_name: "longstrider"
+
+        - name: "speak with animals"
+          slug_name: "speak-with-animals"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (3 slots)":
+        - name: " animal messenger"
+          slug_name: "animal-messenger"
+
+        - name: "barkskin"
+          slug_name: "barkskin"

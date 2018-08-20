@@ -48,25 +48,6 @@ special_abilities:
     description: |
       While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The drow's spellcasting ability is Charisma (spell save DC 15. She can innately cast the following spells, requiring no material components: 
-
-      At will: dancing lights
-      1/day each: darkness, faerie fire, levitate (self only)
-
-  - name: "Spellcasting"
-    description: |
-      The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared: 
-
-      Cantrips (at will): guidance, poison spray, resistance, spare the dying, thaumaturgy
-      1st level (4 slots): animal friendship, cure wounds, detect poison and disease, ray of sickness
-      2nd level (3 slots): lesser restoration, protection from poison, web
-      3rd level (3 slots): conjure animals (2 giant spiders), dispel magic
-      4th level (3 slots): divination, freedom of movement
-      5th level (2 slots): insect plague, mass cure wounds
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,3 +60,101 @@ actions:
   - name: "Summon Demon (1/Day)"
     description: |
       The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The drow's spellcasting ability is Charisma (spell save DC 15. She can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " dancing lights"
+          slug_name: "dancing-lights"
+
+
+      - "1/day each":
+        - name: " darkness"
+          slug_name: "darkness"
+
+        - name: "faerie fire"
+          slug_name: "faerie-fire"
+
+        - name: "levitate (self only)"
+          slug_name: "levitate"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "poison spray"
+          slug_name: "poison-spray"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "spare the dying"
+          slug_name: "spare-the-dying"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " animal friendship"
+          slug_name: "animal-friendship"
+
+        - name: "cure wounds"
+          slug_name: "cure-wounds"
+
+        - name: "detect poison and disease"
+          slug_name: "detect-poison-and-disease"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " lesser restoration"
+          slug_name: "lesser-restoration"
+
+        - name: "protection from poison"
+          slug_name: "protection-from-poison"
+
+        - name: "web"
+          slug_name: "web"
+
+
+      - "3rd level (3 slots)":
+        - name: " conjure animals (2 giant spiders)"
+          slug_name: "conjure-animals"
+
+        - name: "dispel magic"
+          slug_name: "dispel-magic"
+
+
+      - "4th level (3 slots)":
+        - name: " divination"
+          slug_name: "divination"
+
+        - name: "freedom of movement"
+          slug_name: "freedom-of-movement"
+
+
+      - "5th level (2 slots)":
+        - name: " insect plague"
+          slug_name: "insect-plague"
+
+        - name: "mass cure wounds"
+          slug_name: "mass-cure-wounds"

@@ -48,14 +48,6 @@ special_abilities:
     description: |
       The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery
-      1st-4th level (2 4th-level slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant
-
 actions:
   - name: "Multiattack"
     description: |
@@ -72,3 +64,60 @@ actions:
   - name: "Enslave (Recharges after a Short or Long Rest)"
     description: |
       The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " eldritch blast (range 300 ft."
+          slug_name: "eldritch-blast"
+
+        - name: "+4 bonus to each damage roll)"
+          slug_name: "bonus-to-each-damage-roll"
+
+        - name: "guidance"
+          slug_name: "guidance"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "vicious mockery"
+          slug_name: "vicious-mockery"
+
+
+      - "1st-4th level (2 4th-level slots)":
+        - name: " arms of Hadar"
+          slug_name: "arms-of-hadar"
+
+        - name: "counterspell"
+          slug_name: "counterspell"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+        - name: "fear"
+          slug_name: "fear"
+
+        - name: "hold person"
+          slug_name: "hold-person"
+
+        - name: "hunger of Hadar"
+          slug_name: "hunger-of-hadar"
+
+        - name: "invisibility"
+          slug_name: "invisibility"
+
+        - name: "unseen servant"
+          slug_name: "unseen-servant"

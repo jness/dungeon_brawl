@@ -48,17 +48,59 @@ special_abilities:
     description: |
       When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared: 
-
-      Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp
-      1st level (4 slots): false life, mage armor, magic missile, ray of sickness
-      2nd level (3 slots): crown of madness, misty step
-      3rd level (3 slots): animate dead, vampiric touch
-
 actions:
   - name: "Dagger"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " false life"
+          slug_name: "false-life"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "ray of sickness"
+          slug_name: "ray-of-sickness"
+
+
+      - "2nd level (3 slots)":
+        - name: " crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "misty step"
+          slug_name: "misty-step"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead"
+          slug_name: "animate-dead"
+
+        - name: "vampiric touch"
+          slug_name: "vampiric-touch"

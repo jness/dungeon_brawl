@@ -52,15 +52,34 @@ special_abilities:
     description: |
       The swarm is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The swarm's innate spellcasting ability is Intelligence (spell save DC 13). As long as it has more than half of its hit points, it can innately cast the following spells, requiring no components::
-
-      * At will: command, comprehend languages, detect thoughts
-      * 1/day each: confusion, dominate monster
-
 actions:
   - name: "Bites"
     description: |
       Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The swarm's innate spellcasting ability is Intelligence (spell save DC 13). As long as it has more than half of its hit points, it can innately cast the following spells, requiring no components::
+
+    spells:
+
+      - "* At will":
+        - name: " command"
+          slug_name: "command"
+
+        - name: "comprehend languages"
+          slug_name: "comprehend-languages"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+
+      - "* 1/day each":
+        - name: " confusion"
+          slug_name: "confusion"
+
+        - name: "dominate monster"
+          slug_name: "dominate-monster"

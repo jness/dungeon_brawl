@@ -52,15 +52,46 @@ special_abilities:
     description: |
       When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation
-      1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray
-
 actions:
   - name: "Morningstar"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "guidance"
+          slug_name: "guidance"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st-2nd level (2 2nd-level slots)":
+        - name: " burning hands"
+          slug_name: "burning-hands"
+
+        - name: "flaming sphere"
+          slug_name: "flaming-sphere"
+
+        - name: "hellish rebuke"
+          slug_name: "hellish-rebuke"
+
+        - name: "scorching ray"
+          slug_name: "scorching-ray"

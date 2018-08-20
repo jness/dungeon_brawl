@@ -44,14 +44,6 @@ special_abilities:
     description: |
       While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: 
-
-      At will: mage hand (the hand is invisible)
-      3/day each: feather fall, jump, see invisibility, shield
-
 actions:
   - name: "Multiattack"
     description: |
@@ -60,3 +52,30 @@ actions:
   - name: "Unarmed Strike"
     description: |
       Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 13 (3d8) psychic damage. This is a magic weapon attack.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " mage hand (the hand is invisible)"
+          slug_name: "mage-hand"
+
+
+      - "3/day each":
+        - name: " feather fall"
+          slug_name: "feather-fall"
+
+        - name: "jump"
+          slug_name: "jump"
+
+        - name: "see invisibility"
+          slug_name: "see-invisibility"
+
+        - name: "shield"
+          slug_name: "shield"

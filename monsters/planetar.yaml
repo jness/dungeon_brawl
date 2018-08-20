@@ -52,15 +52,6 @@ special_abilities:
     description: |
       The planetar has advantage on saving throws against spells and other magical effects.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components: 
-
-      At will: detect evil and good, invisibility (self only)
-      3/day each: blade barrier, dispel evil and good, flame strike, raise dead
-      1/day each: commune, control weather, insect plague
-
 actions:
   - name: "Multiattack"
     description: |
@@ -73,3 +64,44 @@ actions:
   - name: "Healing Touch (4/Day)"
     description: |
       The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect evil and good"
+          slug_name: "detect-evil-and-good"
+
+        - name: "invisibility (self only)"
+          slug_name: "invisibility"
+
+
+      - "3/day each":
+        - name: " blade barrier"
+          slug_name: "blade-barrier"
+
+        - name: "dispel evil and good"
+          slug_name: "dispel-evil-and-good"
+
+        - name: "flame strike"
+          slug_name: "flame-strike"
+
+        - name: "raise dead"
+          slug_name: "raise-dead"
+
+
+      - "1/day each":
+        - name: " commune"
+          slug_name: "commune"
+
+        - name: "control weather"
+          slug_name: "control-weather"
+
+        - name: "insect plague"
+          slug_name: "insect-plague"

@@ -44,26 +44,96 @@ special_abilities:
     description: |
       Moving through difficult terrain made of earth or stone costs Miraj no extra movement.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components: 
-
-      * 1/day: pass without trace
-
-  - name: "Spellcasting"
-    description: |
-      Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells: 
-
-      Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth
-      1st level (4 slots): chromatic orb, mage armor, magic missile
-      2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion
-      3rd level (3 slots): counterspell, erupting earth
-      4th level (3 slots): polymorph, stoneskin
-      5th level (2 slots): wall of stone
-      6th level (1 slot): move earth
-
 actions:
   - name: "Staff"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components:
+
+    spells:
+
+      - "* 1/day":
+        - name: " pass without trace"
+          slug_name: "pass-without-trace"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " acid splash"
+          slug_name: "acid-splash"
+
+        - name: "blade ward"
+          slug_name: "blade-ward"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "mold earth"
+          slug_name: "mold-earth"
+
+
+      - "1st level (4 slots)":
+        - name: " chromatic orb"
+          slug_name: "chromatic-orb"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+
+      - "2nd level (3 slots)":
+        - name: " Maximilian's earthen grasp"
+          slug_name: "maximilian"
+
+        - name: "shatter"
+          slug_name: "shatter"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "erupting earth"
+          slug_name: "erupting-earth"
+
+
+      - "4th level (3 slots)":
+        - name: " polymorph"
+          slug_name: "polymorph"
+
+        - name: "stoneskin"
+          slug_name: "stoneskin"
+
+
+      - "5th level (2 slots)":
+        - name: " wall of stone"
+          slug_name: "wall-of-stone"
+
+
+      - "6th level (1 slot)":
+        - name: " move earth"
+          slug_name: "move-earth"

@@ -52,16 +52,6 @@ special_abilities:
     description: |
       If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared: 
-
-      Cantrips (at will): mage hand
-      1st level (3 slots): magic missile, shield
-      2nd level (2 slots): blur, flaming sphere
-      3rd level (1 slot): fireball
-
 actions:
   - name: "Multiattack"
     description: |
@@ -70,3 +60,37 @@ actions:
   - name: "Fire Ray"
     description: |
       Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6) fire damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+
+      - "1st level (3 slots)":
+        - name: " magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (2 slots)":
+        - name: " blur"
+          slug_name: "blur"
+
+        - name: "flaming sphere"
+          slug_name: "flaming-sphere"
+
+
+      - "3rd level (1 slot)":
+        - name: " fireball"
+          slug_name: "fireball"

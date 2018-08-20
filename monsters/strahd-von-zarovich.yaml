@@ -78,18 +78,6 @@ special_abilities:
 
       Sunlight Hypersensitivity: While in sunlight, Strahd takes 20 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). Strahd has the following wizard spells prepared:
-
-      Cantrips (at will): mage hand, prestidigitation, ray of frost
-      1st level (4 slots): comprehend languages, fog cloud, sleep
-      2nd level (3 slots): detect thoughts, gust of wind, mirror image
-      3rd level (3 slots): animate dead, fireball, nondetection
-      4th level (3 slots): blight, greater invisibility, polymorph
-      5th level (1 slot): animate objects, scrying
-
 actions:
   - name: "Multiattack (Vampire Form Only)"
     description: |
@@ -127,3 +115,74 @@ legendary_actions":
   - name: "Bite (Costs 2 Actions)"
     description: |
       Strahd makes one bite attack.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). Strahd has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (4 slots)":
+        - name: " comprehend languages"
+          slug_name: "comprehend-languages"
+
+        - name: "fog cloud"
+          slug_name: "fog-cloud"
+
+        - name: "sleep"
+          slug_name: "sleep"
+
+
+      - "2nd level (3 slots)":
+        - name: " detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "gust of wind"
+          slug_name: "gust-of-wind"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+
+      - "3rd level (3 slots)":
+        - name: " animate dead"
+          slug_name: "animate-dead"
+
+        - name: "fireball"
+          slug_name: "fireball"
+
+        - name: "nondetection"
+          slug_name: "nondetection"
+
+
+      - "4th level (3 slots)":
+        - name: " blight"
+          slug_name: "blight"
+
+        - name: "greater invisibility"
+          slug_name: "greater-invisibility"
+
+        - name: "polymorph"
+          slug_name: "polymorph"
+
+
+      - "5th level (1 slot)":
+        - name: " animate objects"
+          slug_name: "animate-objects"
+
+        - name: "scrying"
+          slug_name: "scrying"

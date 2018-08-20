@@ -52,15 +52,6 @@ special_abilities:
     description: |
       Provided his longsword is on the same plane Dralmorrer can take a bonus action to teleport it to his hand.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list: 
-
-      Cantrips (at will): fire bolt, prestidigitation, shocking grasp
-      1st level (4 slots): longstrider, magic missile, shield, thunderwave
-      2nd level (2 slots): magic weapon, misty step
-
 actions:
   - name: "Multiattack"
     description: |
@@ -73,3 +64,44 @@ actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st level (4 slots)":
+        - name: " longstrider"
+          slug_name: "longstrider"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+        - name: "thunderwave"
+          slug_name: "thunderwave"
+
+
+      - "2nd level (2 slots)":
+        - name: " magic weapon"
+          slug_name: "magic-weapon"
+
+        - name: "misty step"
+          slug_name: "misty-step"

@@ -48,17 +48,51 @@ special_abilities:
     description: |
       As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:
-
-      Cantrips (at-will): guidance, mending, resistance, thaumaturgy
-
-      1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good
-      2nd level (3 slots): blindness/deafness, silence
-
 actions:
   - name: "Touch of the White Hand"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:
+
+    spells:
+
+      - "Cantrips (at-will)":
+        - name: " guidance"
+          slug_name: "guidance"
+
+        - name: "mending"
+          slug_name: "mending"
+
+        - name: "resistance"
+          slug_name: "resistance"
+
+        - name: "thaumaturgy"
+          slug_name: "thaumaturgy"
+
+
+      - "1st level (4 slots)":
+        - name: " bane"
+          slug_name: "bane"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "inflict wounds"
+          slug_name: "inflict-wounds"
+
+        - name: "protection from evil and good"
+          slug_name: "protection-from-evil-and-good"
+
+
+      - "2nd level (3 slots)":
+        - name: " blindness deafness"
+          slug_name: "blindness-deafness"
+
+        - name: "silence"
+          slug_name: "silence"

@@ -44,22 +44,106 @@ special_abilities:
     description: |
       At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn't incapacitated.
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-      At will: detect magic, jump, levitate, mage armor (self only), speak with dead
-      1/day each: arcane gate, true seeing
-
-  - name: "Spellcasting"
-    description: |
-      The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-      Cantrips (at will): chill touch, eldritch blast, guidance, mage hand, minor illusion, prestidigitation, shocking grasp
-      1st-5th level (3 5th-level slots): armor of Agathys, arms of Hadar, crown of madness, clairvoyance, contact other plane, detect thoughts, dimension door, dissonant whispers, dominate beast, telekinesis, vampiric touch
-
 actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+    spells:
+
+      - "At will":
+        - name: " detect magic"
+          slug_name: "detect-magic"
+
+        - name: "jump"
+          slug_name: "jump"
+
+        - name: "levitate"
+          slug_name: "levitate"
+
+        - name: "mage armor (self only)"
+          slug_name: "mage-armor"
+
+        - name: "speak with dead"
+          slug_name: "speak-with-dead"
+
+
+      - "1/day each":
+        - name: " arcane gate"
+          slug_name: "arcane-gate"
+
+        - name: "true seeing"
+          slug_name: "true-seeing"
+
+      
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " chill touch"
+          slug_name: "chill-touch"
+
+        - name: "eldritch blast"
+          slug_name: "eldritch-blast"
+
+        - name: "guidance"
+          slug_name: "guidance"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+        - name: "shocking grasp"
+          slug_name: "shocking-grasp"
+
+
+      - "1st-5th level (3 5th-level slots)":
+        - name: " armor of Agathys"
+          slug_name: "armor-of-agathys"
+
+        - name: "arms of Hadar"
+          slug_name: "arms-of-hadar"
+
+        - name: "crown of madness"
+          slug_name: "crown-of-madness"
+
+        - name: "clairvoyance"
+          slug_name: "clairvoyance"
+
+        - name: "contact other plane"
+          slug_name: "contact-other-plane"
+
+        - name: "detect thoughts"
+          slug_name: "detect-thoughts"
+
+        - name: "dimension door"
+          slug_name: "dimension-door"
+
+        - name: "dissonant whispers"
+          slug_name: "dissonant-whispers"
+
+        - name: "dominate beast"
+          slug_name: "dominate-beast"
+
+        - name: "telekinesis"
+          slug_name: "telekinesis"
+
+        - name: "vampiric touch"
+          slug_name: "vampiric-touch"

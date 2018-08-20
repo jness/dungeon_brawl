@@ -39,13 +39,6 @@ damage_immunities: "lightning"
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      Iymrith's innate spellcasting ability is Charisma (spell save DC 20).  Iymrith's stone shape can create a living gargoyle instead of altering the stone as described in the spell description. She can innately cast the following spells, requiring no material components: 
-
-      1/day: counterspell, detect magic, ice storm, stone shape, teleport
-
 actions:
   - name: "Multiattack"
     description: |
@@ -91,3 +84,28 @@ legendary_actions":
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      Iymrith's innate spellcasting ability is Charisma (spell save DC 20).  Iymrith's stone shape can create a living gargoyle instead of altering the stone as described in the spell description. She can innately cast the following spells, requiring no material components:
+
+    spells:
+
+      - "1/day":
+        - name: " counterspell"
+          slug_name: "counterspell"
+
+        - name: "detect magic"
+          slug_name: "detect-magic"
+
+        - name: "ice storm"
+          slug_name: "ice-storm"
+
+        - name: "stone shape"
+          slug_name: "stone-shape"
+
+        - name: "teleport"
+          slug_name: "teleport"

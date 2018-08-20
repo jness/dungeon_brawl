@@ -48,15 +48,6 @@ special_abilities:
     description: |
       The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
 
-spell_casting:
-  - name: "Innate Spellcasting (Psionics)"
-    description: |
-      The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components: 
-
-      At will: mage hand (the hand is invisible)
-      2/day each: blur, magic weapon
-      1/day: invisibility (self only)
-
 actions:
   - name: "Multiattack"
     description: |
@@ -81,3 +72,29 @@ actions:
   - name: "Variant: Chatkcha"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
+
+spell_casting:
+
+  - title: "Innate Spellcasting (Psionics)"
+
+    top_description: |
+      The thri-kreen's innate spellcasting ability is Wisdom. The thri-kreen can innately cast the following spells, requiring no components:
+
+    spells:
+
+      - "At will":
+        - name: " mage hand (the hand is invisible)"
+          slug_name: "mage-hand"
+
+
+      - "2/day each":
+        - name: " blur"
+          slug_name: "blur"
+
+        - name: "magic weapon"
+          slug_name: "magic-weapon"
+
+
+      - "1/day":
+        - name: " invisibility (self only)"
+          slug_name: "invisibility"

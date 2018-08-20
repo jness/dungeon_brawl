@@ -39,15 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Innate Spellcasting"
-    description: |
-      The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.
-
-      At will: disguise self (any humanoid form), major image
-      3/day each: charm person, mirror image, scrying, suggestion
-      1/day: geas
-
 actions:
   - name: "Multiattack"
     description: |
@@ -64,3 +55,38 @@ actions:
   - name: "Intoxicating Touch"
     description: |
       Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
+
+spell_casting:
+
+  - title: "Innate Spellcasting"
+
+    top_description: |
+      The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.
+
+    spells:
+
+      - "At will":
+        - name: " disguise self (any humanoid form)"
+          slug_name: "disguise-self"
+
+        - name: "major image"
+          slug_name: "major-image"
+
+
+      - "3/day each":
+        - name: " charm person"
+          slug_name: "charm-person"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+        - name: "scrying"
+          slug_name: "scrying"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "1/day":
+        - name: " geas"
+          slug_name: "geas"

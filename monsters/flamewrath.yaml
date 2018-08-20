@@ -44,18 +44,64 @@ special_abilities:
     description: |
       For the flamewrath, the warm version of the fire shield spell has a duration of "until dispelled." The fire shield burns for 10 minutes after the flamewrath dies, consuming its body.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells: 
-
-      Cantrips (at will): control flames, fire bolt, friends, light, minor illusion
-      1st level (4 slots): burning hands, color spray, mage armor
-      2nd level (3 slots): scorching ray, suggestion
-      3rd level (3 slots): fireball, hypnotic pattern
-      4th level (1 slot): fire shield (see Wreathed in Flame)
-
 actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " control flames"
+          slug_name: "control-flames"
+
+        - name: "fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "friends"
+          slug_name: "friends"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "minor illusion"
+          slug_name: "minor-illusion"
+
+
+      - "1st level (4 slots)":
+        - name: " burning hands"
+          slug_name: "burning-hands"
+
+        - name: "color spray"
+          slug_name: "color-spray"
+
+        - name: "mage armor"
+          slug_name: "mage-armor"
+
+
+      - "2nd level (3 slots)":
+        - name: " scorching ray"
+          slug_name: "scorching-ray"
+
+        - name: "suggestion"
+          slug_name: "suggestion"
+
+
+      - "3rd level (3 slots)":
+        - name: " fireball"
+          slug_name: "fireball"
+
+        - name: "hypnotic pattern"
+          slug_name: "hypnotic-pattern"
+
+
+      - "4th level (1 slot)":
+        - name: " fire shield (see Wreathed in Flame)"
+          slug_name: "fire-shield"

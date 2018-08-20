@@ -39,14 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      The knight is a 1st-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spell: 
-
-      Cantrips (at will): gust, light, message, ray of frost
-      1st level (2 slots): expeditious retreat, feather fall
-
 actions:
   - name: "Multiattack"
     description: |
@@ -59,3 +51,33 @@ actions:
   - name: "Spear"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      The knight is a 1st-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spell:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " gust"
+          slug_name: "gust"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "message"
+          slug_name: "message"
+
+        - name: "ray of frost"
+          slug_name: "ray-of-frost"
+
+
+      - "1st level (2 slots)":
+        - name: " expeditious retreat"
+          slug_name: "expeditious-retreat"
+
+        - name: "feather fall"
+          slug_name: "feather-fall"

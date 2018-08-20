@@ -44,17 +44,6 @@ special_abilities:
     description: |
       In addition to her magic armor and weapons, Ezmerelda has two potions of greater healing, six vials of holy water, and three wooden stakes.
 
-spell_casting:
-  - name: "Spellcasting"
-    description: |
-      Ezmerelda is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Ezmerelda has the following wizard spells prepared:
-
-      Cantrips (at will): fire bolt, light, mage hand, prestidigitation
-      1st level (4 slots): protection from good and evil, magic missile, shield
-      2nd level (3 slots): darkvision, knock, mirror image
-      3rd level (3 slots): clairvoyance, lightning bolt, magic circle
-      4th level (1 slot): greater invisibility
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,3 +68,63 @@ actions:
   - name: "Evil Eye (Recharges after a Short or Long Rest)"
     description: |
       Ezmerelda targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 14), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Ezmerelda is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.
+
+spell_casting:
+
+  - title: "Spellcasting"
+
+    top_description: |
+      Ezmerelda is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Ezmerelda has the following wizard spells prepared:
+
+    spells:
+
+      - "Cantrips (at will)":
+        - name: " fire bolt"
+          slug_name: "fire-bolt"
+
+        - name: "light"
+          slug_name: "light"
+
+        - name: "mage hand"
+          slug_name: "mage-hand"
+
+        - name: "prestidigitation"
+          slug_name: "prestidigitation"
+
+
+      - "1st level (4 slots)":
+        - name: " protection from good and evil"
+          slug_name: "protection-from-good-and-evil"
+
+        - name: "magic missile"
+          slug_name: "magic-missile"
+
+        - name: "shield"
+          slug_name: "shield"
+
+
+      - "2nd level (3 slots)":
+        - name: " darkvision"
+          slug_name: "darkvision"
+
+        - name: "knock"
+          slug_name: "knock"
+
+        - name: "mirror image"
+          slug_name: "mirror-image"
+
+
+      - "3rd level (3 slots)":
+        - name: " clairvoyance"
+          slug_name: "clairvoyance"
+
+        - name: "lightning bolt"
+          slug_name: "lightning-bolt"
+
+        - name: "magic circle"
+          slug_name: "magic-circle"
+
+
+      - "4th level (1 slot)":
+        - name: " greater invisibility"
+          slug_name: "greater-invisibility"
