@@ -6,4 +6,7 @@ body {
 
 .description {
     white-space: pre-wrap;
+    padding: 25px;
+    margin: 25px;
+    background-color: #E8E8E8;
 }
