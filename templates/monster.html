@@ -40,14 +40,16 @@
   <!-- End monster type -->
 
   <!-- Begin monster ac, hp, and speed -->
-  <p><strong>Armor Class</strong>: {{ monster.armor_class }}</p>
-  <p><strong>Hit Points</strong>: {{ monster.hit_points }} ({{ monster.hit_dice }})</p>
-  <p><strong>Speed</strong>: {{ monster.speed }}</p>
+  <div class="padding">
+    <strong>• Armor Class</strong>: <span>{{ monster.armor_class }}</span><br>
+    <strong>• Hit Points</strong>: <span>{{ monster.hit_points }} ({{ monster.hit_dice }})</span><br>
+    <strong>• Speed</strong>: <span>{{ monster.speed }}</span><br>
+  </div>
   <hr>
   <!-- End monster ac, hp, and speed -->
 
   <!-- Begin monster attributes -->
-  <table width=50%>
+  <table width=65%>
 
     <thead>
       <tr>
@@ -62,12 +64,12 @@
 
     <tbody>
       <tr>
-        <td>{{ monster.strength }} ({{ monster.strength_modifier }})</td>
-        <td>{{ monster.dexterity }} ({{ monster.dexterity_modifier }})</td>
-        <td>{{ monster.constitution }} ({{ monster.constitution_modifier }})</td>
-        <td>{{ monster.intelligence }} ({{ monster.intelligence_modifier }})</td>
-        <td>{{ monster.wisdom }} ({{ monster.wisdom_modifier }})</td>
-        <td>{{ monster.charisma }} ({{ monster.charisma_modifier }})</td>
+        <td><span>{{ monster.strength }} ({{ monster.strength_modifier }})</span></td>
+        <td><span>{{ monster.dexterity }} ({{ monster.dexterity_modifier }})</span></td>
+        <td><span>{{ monster.constitution }} ({{ monster.constitution_modifier }})</span></td>
+        <td><span>{{ monster.intelligence }} ({{ monster.intelligence_modifier }})</span></td>
+        <td><span>{{ monster.wisdom }} ({{ monster.wisdom_modifier }})</span></td>
+        <td><span>{{ monster.charisma }} ({{ monster.charisma_modifier }})</span></td>
       </tr>
 
     </tbody>
@@ -77,61 +79,62 @@
   <!-- End monster attributes -->
 
   <!-- Start monster details -->
-  {% if monster.saving_throws %}
-    <p><strong>Saving Throws</strong>:
-      {{ monster.saving_throws }}
-    </p>
-  {% endif %}
+  <div class="padding">
 
-  {% if monster.skills %}
-  <p><strong>Skills</strong>:
-    {{ monster.skills }}
-  </p>
-  {% endif %}
+    {% if monster.saving_throws %}
+      <strong>• Saving Throws</strong>:
+      <span>{{ monster.saving_throws }}</span>
+      <br>
+    {% endif %}
 
-  {% if monster.condition_immunities %}
-    <p><strong>Condition Immunities</strong>:
-      {{ monster.condition_immunities }}
-    </p>
-  {% endif %}
+    {% if monster.skills %}
+      <strong>• Skills</strong>:
+      <span>{{ monster.skills }}</span>
+      <br>
+    {% endif %}
 
-  {% if monster.damage_resistances %}
-    <p><strong>Resistances</strong>:
-      {{ monster.damage_resistances }}
-    </p>
-  {% endif %}
+    {% if monster.condition_immunities %}
+      <strong>• Condition Immunities</strong>:
+      <span>{{ monster.condition_immunities }}</span>
+      <br>
+    {% endif %}
 
-  {% if monster.damage_vulnerabilities %}
-    <p><strong>Vulnerabilities</strong>:
-      {{ monster.damage_vulnerabilities }}
-    </p>
-  {% endif %}
+    {% if monster.damage_resistances %}
+      <strong>• Resistances</strong>:
+      <span>{{ monster.damage_resistances }}</span>
+      <br>
+    {% endif %}
 
-  {% if monster.senses %}
-    <p>
-      <strong>Senses</strong>:
-      {{ monster.senses }}
-    </p>
-  {% endif %}
+    {% if monster.damage_vulnerabilities %}
+      <strong>• Vulnerabilities</strong>:
+      <span>{{ monster.damage_vulnerabilities }}</span>
+      <br>
+    {% endif %}
 
-  {% if monster.languages %}
-    <p><strong>Languages</strong>:
-      {{ monster.languages }}
-    </p>
-  {% endif %}
+    {% if monster.senses %}
+      <strong>• Senses</strong>:
+      <span>{{ monster.senses }}</span>
+      <br>
+    {% endif %}
 
-  <p>
-    <strong>Challenge</strong>:
-    {{ monster.challenge_rating }} ({{ monster.experience }})
-  </p>
+    {% if monster.languages %}
+      <strong>• Languages</strong>:
+      <span>{{ monster.languages }}</span>
+      <br>
+    {% endif %}
 
+    <strong>• Challenge</strong>:
+    <span>{{ monster.challenge_rating }} ({{ monster.experience }})</span>
+
+  </div>
   <hr>
   <!-- End monster details -->
 
   <!-- Start monster special abilities -->
   {% if monster.special_abilities %}
     {% for ability in monster.special_abilities %}
-      <p class="description"><strong>• {{ ability.name }}</strong>: {{ ability.description }}</p>
+      <strong>• {{ ability.name }}</strong>: <span class="whitespace">{{ ability.description }}</span>
+      {% if not loop.last %}<br>{% endif %}
     {% endfor %}
 
   <hr>
@@ -143,22 +146,21 @@
     {% for spell_casting in monster.spell_casting %}
       <h4><strong>{{ spell_casting.title }}</strong></h4><br>
 
-      <p class="description">{{ spell_casting.top_description }}</p>
+      <p class="whitespace">{{ spell_casting.top_description }}</p>
 
       {% for _spells in spell_casting.spells %}
       {% for spell_level, spells in _spells.items() %}
       <p>
-        • {{ spell_level }}:
+          &nbsp;&nbsp;&nbsp;• {{ spell_level }}:
         {% for spell in spells %}
-          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>
-          {% if not loop.last %}, {% endif %}
+          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name|title }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
       </p>
       {% endfor %}
       {% endfor %}
 
       {% if spell_casting.bottom_description %}
-        <p class="description">{{ spell_casting.bottom_description }}</p>
+        <p class="whitespace">{{ spell_casting.bottom_description }}</p>
       {% endif %}
     {% endfor %}
 
@@ -167,11 +169,11 @@
   <!-- End monster spells -->
 
   <!-- Start monster actions -->
-  <h4><strong>Actions</strong></h4>
-  <br>
+  <h4><strong>Actions</strong></h4><br>
 
   {% for action in monster.actions %}
-    <p class="description"><strong>• {{ action.name }}</strong>: {{ action.description }}</p>
+    <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
+    <br>
   {% endfor %}
   <!-- End monster actions -->
 
@@ -179,10 +181,12 @@
   {% if monster.legendary_actions %}
     <h4><strong>Legendary Actions</strong></h4><br>
 
-    <p class="description">{{ monster.legendary_action_description}}</p>
+    <span class="whitespace">{{ monster.legendary_action_description}}</span>
+    <br>
 
     {% for legendary_action in monster.legendary_actions %}
-      <p class="description"><strong>• {{ legendary_action.name }}</strong>: {{ legendary_action.description }}</p>
+      <strong>• {{ legendary_action.name }}</strong>: <span class="whitespace">{{ legendary_action.description }}</span>
+      <br>
     {% endfor %}
 
   {% endif %}

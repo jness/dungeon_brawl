@@ -181,19 +181,19 @@ Brawl
         <div class="row">
 
           <div class="col-4">
-            <p><strong>Initiative</strong></p>
+            <strong>Initiative</strong>
             <input id="name" class="form-control" type="number"
               value="{{ monster.initiative }}" name="initiative" required>
           </div>
 
           <div class="col-4">
-            <p><strong>Armor Class</strong></p>
+            <strong>Armor Class</strong>
             <input id="ac" class="form-control" type="text" name="armor_class"
               value="{{ monster.armor_class }}"required>
           </div>
 
           <div class="col-4">
-            <p><strong>Hit Points</strong></p>
+            <strong>Hit Points</strong>
             <input id="hp" class="form-control" type="text" name="hit_points"
               value="{{ monster.hit_points }}" required>
           </div>
@@ -201,13 +201,14 @@ Brawl
         </div>
         <br>
 
-        <p><strong>Notes</strong></p>
-        <p><textarea id="notes" class="form-control" rows="3" name="notes">{{ monster.notes }}</textarea></p>
+        <strong>Notes</strong>
+        <textarea id="notes" class="form-control" rows="3" name="notes">{{ monster.notes }}</textarea>
+        <br>
 
         <!-- Begin conditions -->
-        <p><strong>Conditions</strong></p>
+        <strong>Conditions</strong>
         <center>
-        <p>
+
           <div class="form-check form-check-inline col-4">
             <input class="form-check-input" type="checkbox" value="blinded"
               name="blinded" {% if 'blinded' in monster.conditions %}checked{% endif %}>
@@ -303,7 +304,7 @@ Brawl
               name="exhaustion" {% if 'exhaustion' in monster.conditions %}checked{% endif %}>
             <label class="form-check-label">Exhaustion</label>
           </div>
-        </p>
+
         </center>
         <!-- End conditions -->
 

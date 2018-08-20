@@ -21,22 +21,23 @@
 
   <!-- Spell heading -->
   <h1><strong>{{ spell.name }}</strong></h1>
-  <p>
-    {{ spell.level }}, {{ spell.school }} -
-    ({% for class in spell.classes %}{{ class|title }}{% if not loop.last %}, {% endif %}{% endfor %})
-  </p>
+
+  {{ spell.level }}, {{ spell.school }} -
+  ({% for class in spell.classes %}{{ class|title }}{% if not loop.last %}, {% endif %}{% endfor %})
   <hr>
 
   <!-- Expected spell attributes -->
-  <p><strong>Casting Time</strong> {{ spell.casting_time }}</p>
-  <p><strong>Range</strong> {{ spell.range }}</p>
-  <p><strong>Components</strong> {{ spell.components }}</p>
-  <p><strong>Duration</strong> {{ spell.duration }}</p>
+
+  <strong>Range</strong>: <span>{{ spell.range }}</span><br>
+  <strong>Duration</strong>: <span>{{ spell.duration }}</span><br>
+  <strong>Casting Time</strong>: <span>{{ spell.casting_time }}</span><br>
+  <strong>Components</strong>: <span>{{ spell.components }}</span><br>
+
   <hr>
 
   <!-- Textual spell description -->
-  <h4><strong>Description</strong></h4><br>
-  <p class="description">{{ spell.description }}</p>
+  <h4><strong>Description</strong></h4>
+  <p class="whitespace textbox monospace">{{ spell.description }}</p>
 
 </div>
 {% endblock %}
