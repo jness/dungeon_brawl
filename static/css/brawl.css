@@ -7,3 +7,7 @@ body {
 .col-auto {
   padding-bottom: 5px;
 }
+
+.popover {
+    white-space: pre-wrap;
+}
