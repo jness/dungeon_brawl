@@ -4,7 +4,7 @@ A simple [Flask](http://flask.pocoo.org/) + [MongoDB](https://www.mongodb.com/)
 application for reading [Dungons and Dragons](http://dnd.wizards.com/) monster
 stats.
 
---> [YouTube Demo](https://www.youtube.com/watch?v=qo70m7hlmwg)
+--> [YouTube Demo](https://www.youtube.com/watch?v=Dt1mFPOkvcE)
 
 ![alt text](https://i.imgur.com/GaFVBLn.png")
 
