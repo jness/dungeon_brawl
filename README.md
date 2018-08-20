@@ -26,10 +26,10 @@ stats.
 
 ## Database
 
-The Mongo database is populated with new json documents
-from the `monsters/` directory on each run.
+The MongoDB collections are **ONLY** populated during container startup,
+and **ONLY** if the collection does not already exist.
 
-If you need to purge this database merely stop the containers:
+If you need to purge the database merely stop the containers:
 
 > $ docker-compose down
 
@@ -37,7 +37,7 @@ Then delete the the `mongo_data/` directory.
 
 ## Running server
 
-To start the application:
+Use `docker-compose` to start the containers:
 
 > $ docker-compose up
 

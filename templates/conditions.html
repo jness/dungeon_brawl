@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Conditions
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/conditions.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/conditions.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- Begin condition search form -->
+<div class="container">
+
+  <form action="/condition_search" method="GET">
+
+  <div class="form-row">
+
+    <!-- Search input -->
+    <div class="col-10">
+      <label for="inputName" class="sr-only">Search Text</label>
+      <input id="inputName" class="form-control" type="text" name="search_text"
+        value="{{ search_text }}" placeholder="Search Condition..." required autofocus>
+    </div>
+
+    <!-- Search button -->
+    <div class="col-2">
+      <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
+    </div>
+
+  </form>
+
+  </div>
+
+</div>
+<hr>
+<!-- End condition search form -->
+
+
+<!-- Begin condition list -->
+<div class="container">
+
+  <table id="table" class="table table-striped" style="width:100%">
+
+      <tr>
+        <th>Name</th>
+      </tr>
+
+      {% for condition in conditions %}
+      <tr>
+        <td><a href='/condition/{{ condition.slug_name }}'>{{ condition.name }}</a></td>
+      </tr>
+      {% endfor %}
+
+  </table>
+
+</div>
+<!-- End condition list -->
+
+{% endblock %}

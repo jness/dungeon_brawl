@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{ condition.name }}
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/condition.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/condition.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+
+  <!-- Condition heading -->
+  <h1><strong>{{ condition.name }}</strong></h1>
+  <hr>
+
+  <!-- Textual condition description -->
+  <p class="description">{{ condition.description }}</p>
+
+</div>
+{% endblock %}

@@ -20,6 +20,7 @@ mongo = MongoClient('mongo', username='root', password='password')
 database = mongo.dungeon_brawl
 monster_collection = database.monsters
 spell_collection = database.spells
+condition_collection = database.conditions
 
 
 @app.route('/', methods=['GET'])
@@ -151,6 +152,57 @@ def spell(slug_name):
     # if we do not have a result render error
     return render_template('error.html',
         message='Spell %s not found' % slug_name), 404
+
+
+@app.route('/conditions', methods=['GET'])
+def conditions():
+    """
+    List all conditions
+    """
+
+    # get all monsters
+    results = condition_collection.find({})
+
+    return render_template('conditions.html', conditions=results)
+
+
+@app.route('/condition_search', methods=['GET'])
+def condition_search():
+    """
+    List filtered conditions
+    """
+
+    # required url params for search
+    search_text = request.args.get('search_text', 'blind')
+
+    # perform a regex search
+    regex = re.compile(search_text, re.IGNORECASE)
+    results = condition_collection.find({'name': regex})
+
+    # render our template with results
+    return render_template(
+        'conditions.html',
+        search_text=search_text,
+        conditions=results
+    )
+
+
+@app.route('/condition/<slug_name>', methods=['GET'])
+def condition(slug_name):
+    """
+    Return a condition by name
+    """
+
+    # find monsters by slug_name
+    results = condition_collection.find_one({'slug_name': slug_name})
+
+    # if we have a result render monster
+    if results:
+        return render_template('condition.html', condition=results)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Condition %s not found' % slug_name), 404
 
 
 @app.route('/brawl', methods=['GET'])
