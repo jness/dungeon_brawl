@@ -4,11 +4,11 @@ slug_name: reincarnate
 
 classes:
   - druid
-  
+
 sources:
   - PHB.271
   - SRD.174
-  
+
 level: 5th-level
 school: Transmutation
 
@@ -22,7 +22,7 @@ description: |
 
   The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.
 
-  |  d100  | Race                |
+  | d100   | Race                |
   |--------|---------------------|
   | 01-04  | Dragonborn          |
   | 05-13  | Dwarf, hill         |
