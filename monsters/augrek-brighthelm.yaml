@@ -1,4 +1,3 @@
-
 name: "Augrek Brighthelm"
 slug_name: "augrek-brighthelm"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dwarven Resilience"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
 
       Flaw: "I'm head over heels in love with Sheriff Southwell. One day I hope to marry him."
 
-  
-
-
-
-
 actions:
   - name: "Warhammer"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Augrek carries ten crossbow bolts.
-
-  
-
-
-

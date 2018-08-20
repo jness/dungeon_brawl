@@ -1,4 +1,3 @@
-
 name: "Miros Xelbrin"
 slug_name: "miros-xelbrin"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -51,11 +49,6 @@ special_abilities:
       Bond: "Make fun of me all you like, but don't speak ill of my inn or my employees."
 
       Flaw: "When something upsets me, I have a tendency to fly into a rage."
-
-  
-
-
-
 
 actions:
   - name: "Bear Hug"
@@ -69,8 +62,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Miros carries ten crossbow bolts.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Adult Brass Dragon"
 slug_name: "adult-brass-dragon"
 
@@ -40,16 +39,10 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -79,8 +72,3 @@ actions:
       Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.
 
       Sleep Breath. The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
-
-  
-
-
-

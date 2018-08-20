@@ -1,4 +1,3 @@
-
 name: "Hyena"
 slug_name: "hyena"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Pack Tactics"
     description: |
       The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.
-
-  
-
-
-

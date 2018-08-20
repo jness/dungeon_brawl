@@ -1,4 +1,3 @@
-
 name: "Darz Helgar"
 slug_name: "darz-helgar"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Sneak Attack (1/turn)"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
 
       Flaw: "I have no regrets. I do whatever it takes to survive."
 
-  
-
-
-
-
 actions:
   - name: "Shortsword"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Sling"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) piercing damage. Darz carries twenty sling stones.
-
-  
-
-
-

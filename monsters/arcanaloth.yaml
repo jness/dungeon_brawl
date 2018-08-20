@@ -1,4 +1,3 @@
-
 name: "Arcanaloth"
 slug_name: "arcanaloth"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Magic Weapons"
     description: |
       The arcanaloth's weapon attacks are magical.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -75,9 +69,6 @@ spell_casting:
       7th level (1 slot): finger of death
       8th level (1 slot): mind blank
 
-  
-
-
 actions:
   - name: "Claws"
     description: |
@@ -94,8 +85,3 @@ actions:
       An arcanaloth has a 40 percent chance of summoning one arcanaloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
-
-  
-
-
-

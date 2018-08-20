@@ -1,4 +1,3 @@
-
 name: "Marlos Urnrayle"
 slug_name: "marlos-urnrayle"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Earthen Defeat"
     description: |
@@ -62,11 +60,6 @@ special_abilities:
 
       If Marlos sees himself reflected on a polished surface within 30 feet of him and in an area of bright light, Marlos is, due to his curse, affected by his own gaze.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,8 +72,3 @@ actions:
   - name: "Ironfang"
     description: |
       Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) thunder damage.
-
-  
-
-
-

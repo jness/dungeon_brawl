@@ -1,4 +1,3 @@
-
 name: "Warlock of the Fiend"
 slug_name: "warlock-of-the-fiend"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dark One's Own Luck (Recharges after a Short or Long Rest)"
     description: |
       When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -65,15 +59,7 @@ spell_casting:
       Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp
       1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire
 
-  
-
-
 actions:
   - name: "Mace"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.
-
-  
-
-
-

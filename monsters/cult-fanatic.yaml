@@ -1,4 +1,3 @@
-
 name: "Cult Fanatic"
 slug_name: "cult-fanatic"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dark Devotion"
     description: |
       The fanatic has advantage on saving throws against being charmed or frightened.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -59,9 +53,6 @@ spell_casting:
       1st level (4 slots): command, inflict wounds, shield of faith
       2nd level (3 slots): hold person, spiritual weapon
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -70,8 +61,3 @@ actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.
-
-  
-
-
-

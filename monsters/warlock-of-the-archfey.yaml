@@ -1,4 +1,3 @@
-
 name: "Warlock of the Archfey"
 slug_name: "warlock-of-the-archfey"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "charmed"
 
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -58,9 +54,6 @@ spell_casting:
       Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery
       1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Misty Escape (Recharges after a Short or Long Rest)"
     description: |
       In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.
-
-  
-
-
-

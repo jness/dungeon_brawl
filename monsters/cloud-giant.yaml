@@ -1,4 +1,3 @@
-
 name: "Cloud Giant"
 slug_name: "cloud-giant"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Smell"
     description: |
       The giant has advantage on Wisdom (Perception) checks that rely on smell.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -58,9 +52,6 @@ spell_casting:
       At will: detect magic, fog cloud, light
       3/day each: feather fall, fly, misty step, telekinesis
       1/day each: control weather, gaseous form
-
-  
-
 
 actions:
   - name: "Fling"
@@ -82,8 +73,3 @@ actions:
   - name: "Rock"
     description: |
       Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.
-
-  
-
-
-

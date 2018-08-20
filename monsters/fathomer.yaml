@@ -1,4 +1,3 @@
-
 name: "Fathomer"
 slug_name: "fathomer"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger (2/day)"
     description: |
@@ -51,10 +49,6 @@ special_abilities:
   - name: "Olhydra's Armor (Human Form Only)"
     description: |
       The fathomer can cast mage armor at will, without expending material components.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting (Human Form Only)"
@@ -67,11 +61,7 @@ spell_casting:
       2nd level: invisibility
 
       3rd level: Vampiric touch
-
-
   
-
-
 actions:
   - name: "Constrict (Serpent Form Only)"
     description: |
@@ -80,8 +70,3 @@ actions:
   - name: "Dagger (Human Form Only)"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
-  
-
-
-

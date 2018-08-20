@@ -1,4 +1,3 @@
-
 name: "Black Earth Priest"
 slug_name: "black-earth-priest"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -52,9 +48,6 @@ spell_casting:
       1st level (4 slots): earth tremor, expeditious retreat, shield
       2nd level (3 slots): shatter, spider climb
       3rd level (2 slots): slow
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -70,8 +63,3 @@ actions:
   - name: "Unyielding"
     description: |
       When the priest is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.
-
-  
-
-
-

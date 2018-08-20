@@ -1,4 +1,3 @@
-
 name: "Displacer Beast"
 slug_name: "displacer-beast"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Avoidance"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is incapacitated or has a speed of 0.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Tentacle"
     description: |
       Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.
-
-  
-
-
-

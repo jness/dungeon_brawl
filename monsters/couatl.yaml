@@ -1,4 +1,3 @@
-
 name: "Couatl"
 slug_name: "couatl"
 
@@ -40,7 +39,6 @@ damage_immunities: "psychic; bludgeoning, piercing, and slashing from nonmagical
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Magic Weapons"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -62,9 +56,6 @@ spell_casting:
       At will: detect evil and good, detect magic, detect thoughts
       3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield
       1/day each: dream, greater restoration, scrying
-
-  
-
 
 actions:
   - name: "Bite"
@@ -80,8 +71,3 @@ actions:
       The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).
 
       In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.
-
-  
-
-
-

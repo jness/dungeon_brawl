@@ -1,4 +1,3 @@
-
 name: "Gnoll Flesh Gnawer"
 slug_name: "gnoll-flesh-gnawer"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Rampage"
     description: |
       When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Sudden Rush"
     description: |
       Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn't provoke opportunity attacks.
-
-  
-
-
-

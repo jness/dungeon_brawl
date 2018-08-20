@@ -1,4 +1,3 @@
-
 name: "Goblin Boss"
 slug_name: "goblin-boss"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Nimble Escape"
     description: |
       The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -69,8 +62,3 @@ actions:
   - name: "Redirect Attack"
     description: |
       When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
-
-  
-
-
-

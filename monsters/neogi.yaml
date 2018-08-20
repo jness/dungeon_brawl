@@ -1,4 +1,3 @@
-
 name: "Neogi"
 slug_name: "neogi"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Mental Fortitude"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Spider Climb"
     description: |
       The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Enslave (Recharges after a Short or Long Rest)"
     description: |
       The neogi targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically  charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
-
-  
-
-
-

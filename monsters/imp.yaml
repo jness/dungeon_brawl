@@ -1,4 +1,3 @@
-
 name: "Imp"
 slug_name: "imp"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       The imp can serve another creature as a familiar, forming a telepathic bond with its willing master. While the two are bonded, the master can sense what the quasit senses as long as they are within 1 mile of each other. While the imp is within 10 feet of its master, the master shares the quasit's Magic Resistance trait. At any time and for any reason, the imp can end its service as a familiar, ending the telepathic bond.
 
-  
-
-
-
-
 actions:
   - name: "Sting (Bite in Beast Form)"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Invisibility"
     description: |
       The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.
-
-  
-
-
-

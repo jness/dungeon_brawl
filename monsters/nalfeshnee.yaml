@@ -1,4 +1,3 @@
-
 name: "Nalfeshnee"
 slug_name: "nalfeshnee"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
       The nalfeshnee has advantage on saving throws against spells and other magical effects.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -79,8 +72,3 @@ actions:
       A nalfeshnee has a 50 percent chance of summoning 1d4 vrocks, 1d3 hezrous, 1d2 glabrezus, or one nalfeshnee.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

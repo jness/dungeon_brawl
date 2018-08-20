@@ -1,4 +1,3 @@
-
 name: "Peryton"
 slug_name: "peryton"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dive Attack"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The peryton has advantage on Wisdom (Perception) checks that rely on sight or smell.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Talons"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.
-
-  
-
-
-

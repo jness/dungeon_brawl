@@ -1,4 +1,3 @@
-
 name: "Vulture"
 slug_name: "vulture"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Sight and Smell"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 
-  
-
-
-
-
 actions:
   - name: "Beak"
     description: |
       Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.
-
-  
-
-
-

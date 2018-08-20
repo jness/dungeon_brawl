@@ -1,4 +1,3 @@
-
 name: "Revenant"
 slug_name: "revenant"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned, stunned"
 
-
 special_abilities:
   - name: "Regeneration"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       The revenant knows the distance to and direction of any creature against which it seeks revenge, even if the creature and the revenant are on different planes of existence. If the creature being tracked by the revenant dies, the revenant knows.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -75,8 +68,3 @@ actions:
   - name: "Vengeful Glare"
     description: |
       The revenant targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a DC 15 Wisdom saving throw. On a failure, the target is paralyzed until the revenant deals damage to it, or until the end of the revenant's next turn. When the paralysis ends, the target is frightened of the revenant for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the revenant, ending the frightened condition on itself on a success.
-
-  
-
-
-

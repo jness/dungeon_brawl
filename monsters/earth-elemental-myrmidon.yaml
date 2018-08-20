@@ -1,4 +1,3 @@
-
 name: "Earth Elemental Myrmidon"
 slug_name: "earth-elemental-myrmidon"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "paralyzed, petrified, poisoned, prone"
 
-
 special_abilities:
   - name: "Magic Weapons"
     description: |
       The myrmidon's weapon attacks are magical.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Thunderous Strike (Recharge 6)"
     description: |
       The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.
-
-  
-
-
-

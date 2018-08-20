@@ -1,4 +1,3 @@
-
 name: "Green Slaad"
 slug_name: "green-slaad"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -64,10 +62,6 @@ special_abilities:
 
       Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -76,9 +70,6 @@ spell_casting:
       At will: detect magic, detect thoughts, mage hand
       2/day each: fear, invisibility (self only)
       1/day: fireball
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -100,8 +91,3 @@ actions:
   - name: "Hurl Flame"
     description: |
       Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10 (3d6) fire damage. The fire ignites flammable objects that aren 't being worn or carried.
-
-  
-
-
-

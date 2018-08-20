@@ -1,4 +1,3 @@
-
 name: "Centaur Mummy"
 slug_name: "centaur-mummy"
 
@@ -40,7 +39,6 @@ damage_immunities: "necrotic, poison"
 damage_vulnerabilities: "fire"
 condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
 
-
 special_abilities:
   - name: "Source"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Charge"
     description: |
       If the centaur mummy moves at least 20 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
   - name: "Dreadful Glare"
     description: |
       The centaur mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target must succeed on a DC 12 wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for tne next 24 hours.
-
-  
-
-
-

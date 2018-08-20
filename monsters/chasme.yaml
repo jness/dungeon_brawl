@@ -1,4 +1,3 @@
-
 name: "Chasme"
 slug_name: "chasme"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Drone"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-  
-
-
-
-
 actions:
   - name: "Proboscis"
     description: |
@@ -71,8 +64,3 @@ actions:
       A chasme has a 30 percent chance of summoning one chasme.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

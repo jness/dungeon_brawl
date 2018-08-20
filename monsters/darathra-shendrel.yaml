@@ -1,4 +1,3 @@
-
 name: "Darathra Shendrel"
 slug_name: "darathra-shendrel"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Brave"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
 
       Flaw: "I refuse to back down. Push me, and I'll push back."
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -73,8 +66,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Darathra carries twenty crossbow bolts.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Specter"
 slug_name: "specter"
 
@@ -40,7 +39,6 @@ damage_immunities: "necrotic, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
 
-
 special_abilities:
   - name: "Incorporeal Movement"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-  
-
-
-
-
 actions:
   - name: "Life Drain"
     description: |
       Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
-
-  
-
-
-

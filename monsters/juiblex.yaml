@@ -1,4 +1,3 @@
-
 name: "Juiblex"
 slug_name: "juiblex"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagic
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious"
 
-
 special_abilities:
   - name: "Foul"
     description: |
@@ -66,10 +64,6 @@ special_abilities:
     description: |
       Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -77,9 +71,6 @@ spell_casting:
 
       At will: acid splash (17th level), detect magic
       3/day each: blight, contagion, gaseous form
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -94,14 +85,9 @@ actions:
     description: |
       Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed.
 
-  
-
-
 legendary_action_description: "Juiblex can take 3 legendary actions, choosing from the options below, Only one legendary action option can be used at a time and only at the end of another creature's turn. Juiblex regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Acid Splash"
     description: |
       Juiblex casts acid splash.
@@ -113,5 +99,3 @@ legendary_actions:
   - name: "Corrupting Touch (Costs 2 Actions)"
     description: |
       Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 21 (4d6+ 7) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while Within 10 of the target.
-
-  

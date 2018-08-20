@@ -1,4 +1,3 @@
-
 name: "Aboleth"
 slug_name: "aboleth"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Probing Telepathy"
     description: |
       If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -78,14 +71,9 @@ actions:
 
       Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
 
-  
-
-
 legendary_action_description: "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The aboleth makes a Wisdom (Perception) check.
@@ -97,5 +85,3 @@ legendary_actions:
   - name: "Psychic Drain (Costs 2 Actions)"
     description: |
       One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.
-
-  

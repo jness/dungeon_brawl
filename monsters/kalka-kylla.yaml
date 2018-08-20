@@ -1,4 +1,3 @@
-
 name: "Kalka-Kylla"
 slug_name: "kalka-kylla"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Source"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       Kalka-Kylla can use a bonus action to retract into or emerge from its shell. While retracted, Kalka-Kylla gains a +4 bonus to AC, and it has a speed of 0 and can't benefit from bonuses to speed.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and if the target is a Medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained. Kalka-Kylla has two claws, each of which can grapple only one target.
-
-  
-
-
-

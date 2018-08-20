@@ -1,4 +1,3 @@
-
 name: "Yusdrayl"
 slug_name: "yusdrayl"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Source"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       Yusdrayl has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't incapacitated.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -66,15 +60,7 @@ spell_casting:
       Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp
       1st level (4 slots): burning hands, chromatic orb, mage armor
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
-  
-
-
-

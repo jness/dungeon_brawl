@@ -1,4 +1,3 @@
-
 name: "Death Kiss"
 slug_name: "death-kiss"
 
@@ -40,16 +39,10 @@ damage_immunities: "lightning"
 damage_vulnerabilities: null
 condition_immunities: "prone"
 
-
 special_abilities:
   - name: "Lightning Blood"
     description: |
       A creature within 5 feet of the death kiss takes 5 (1d10) lightning damage whenever it hits the death kiss with a melee attack that deals piercing or slashing damage.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Blood Drain"
     description: |
       One creature grappled by a tentacle of the death kiss must make a DC 16 Constitution saving throw. On a failed save, the target takes 22 (4d10) lightning damage, and the death kiss regains half as many hit points.
-
-  
-
-
-

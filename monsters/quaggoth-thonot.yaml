@@ -1,4 +1,3 @@
-
 name: "Quaggoth Thonot"
 slug_name: "quaggoth-thonot"
 
@@ -40,15 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Wounded Fury"
     description: |
       While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting (Psionics)"
@@ -58,9 +52,6 @@ spell_casting:
       At will: feather fall, mage hand (the hand is invisible)
       1/day each: cure wounds, enlarge/reduce, heat metal, mirror image
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -69,8 +60,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  
-
-
-

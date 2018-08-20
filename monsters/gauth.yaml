@@ -1,4 +1,3 @@
-
 name: "Gauth"
 slug_name: "gauth"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "prone"
 
-
 special_abilities:
   - name: "Stunning Gaze"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Death Throes"
     description: |
       When the gauth dies, the magical energy within it explodes, and each creature within 10 feet of it must make a DC 14 Dexterity saving throw, taking 13 (3d8) force damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -75,8 +68,3 @@ actions:
       5. Paralyzing Ray: The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
       6. Sleep Ray: The targeted creature must succeed on a DC 14 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.
-
-  
-
-
-

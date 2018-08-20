@@ -1,4 +1,3 @@
-
 name: "Yuan-ti Anathema"
 slug_name: "yuan-ti-anathema"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -70,10 +68,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Anathema Form Only)"
     description: |
@@ -82,9 +76,6 @@ spell_casting:
       At will: animal friendship (snakes only)
       3/day each: darkness, entangle, fear, haste, suggestion, polymorph
       1/day: divine word
-
-  
-
 
 actions:
   - name: "Multiattack (Anathema Form Only)"
@@ -102,8 +93,3 @@ actions:
   - name: "Flurry of Bites"
     description: |
       Melee Weapon Attack: +10 to hit, reach 10 ft., one creature. Hit: 27 (6d6+6) piercing damage plus 14 (4d6) poison damage.
-
-  
-
-
-

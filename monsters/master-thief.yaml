@@ -1,4 +1,3 @@
-
 name: "Master Thief"
 slug_name: "master-thief"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Cunning Action"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Sneak Attack (1/Turn)"
     description: |
       The thief deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the thief that isn't incapacitated and the thief doesn't have disadvantage on the attack roll.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -77,8 +70,3 @@ actions:
   - name: "Uncanny Dodge"
     description: |
       The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker.
-
-  
-
-
-

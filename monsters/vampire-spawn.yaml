@@ -1,4 +1,3 @@
-
 name: "Vampire Spawn"
 slug_name: "vampire-spawn"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Regeneration"
     description: |
@@ -62,11 +60,6 @@ special_abilities:
 
       Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,8 +72,3 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).
-
-  
-
-
-

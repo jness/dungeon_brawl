@@ -1,4 +1,3 @@
-
 name: "Knight"
 slug_name: "knight"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Brave"
     description: |
       The knight has advantage on saving throws against being frightened.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -73,8 +66,3 @@ actions:
   - name: "Parry"
     description: |
       The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

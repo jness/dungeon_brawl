@@ -1,4 +1,3 @@
-
 name: "Crag Cat"
 slug_name: "crag-cat"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Nondetection"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead tagets the caster.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -67,8 +60,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.
-
-  
-
-
-

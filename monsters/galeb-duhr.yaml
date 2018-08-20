@@ -1,4 +1,3 @@
-
 name: "Galeb Duhr"
 slug_name: "galeb-duhr"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "exhaustion, paralyzed, poisoned, petrified"
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.
 
-  
-
-
-
-
 actions:
   - name: "Slam"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Animate Boulders (1/Day)"
     description: |
       The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell) .
-
-  
-
-
-

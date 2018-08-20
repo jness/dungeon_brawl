@@ -1,4 +1,3 @@
-
 name: "Rezmir"
 slug_name: "rezmir"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened"
 
-
 special_abilities:
   - name: "Special Equipment"
     description: |
@@ -66,11 +64,6 @@ special_abilities:
     description: |
       If Rezmir fails a saving throw while wearing the Black Dragon Mask, she can choose to succeed instead.
 
-  
-
-
-
-
 actions:
   - name: "Greatsword (Hazirawn)"
     description: |
@@ -84,14 +77,9 @@ actions:
     description: |
       Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.
 
-  
-
-
 legendary_action_description: "The rezmir can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The rezmir regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Darkness (Costs 2 Actions)"
     description: |
       If she is wearing the Black Dragon Mask, Rezmir can take up to two legendary actions between each of her turns, taking the actions all at once or spreading them over the round. A legendary action can be taken only at the start or end of a turn.
@@ -105,5 +93,3 @@ legendary_actions:
   - name: "Hide"
     description: |
       Rezmir takes the Hide action.
-
-  

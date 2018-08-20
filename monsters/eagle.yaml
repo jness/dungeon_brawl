@@ -1,4 +1,3 @@
-
 name: "Eagle"
 slug_name: "eagle"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Sight"
     description: |
       The eagle has advantage on Wisdom (Perception) checks that rely on sight.
 
-  
-
-
-
-
 actions:
   - name: "Talons"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.
-
-  
-
-
-

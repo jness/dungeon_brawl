@@ -1,4 +1,3 @@
-
 name: "Adult Gold Dragon"
 slug_name: "adult-gold-dragon"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -84,14 +77,9 @@ actions:
 
       Weakening Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 21 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-  
-
-
 legendary_action_description: "The adult gold dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult gold dragon regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The dragon makes a Wisdom (Perception) check.
@@ -103,5 +91,3 @@ legendary_actions:
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-
-  

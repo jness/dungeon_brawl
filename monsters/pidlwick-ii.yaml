@@ -1,4 +1,3 @@
-
 name: "Pidlwick II"
 slug_name: "pidlwick-ii"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "paralyzed, petrified, poisoned"
 
-
 special_abilities:
   - name: "Ambusher"
     description: |
       During the first round of combat, Pidlwick II has advantage on attack rolls against any creature that hasn't had a turn yet.
-
-  
-
-
-
 
 actions:
   - name: "Club"
@@ -59,8 +52,3 @@ actions:
   - name: "Dart"
     description: |
       Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
-  
-
-
-

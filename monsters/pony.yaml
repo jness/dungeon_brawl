@@ -1,4 +1,3 @@
-
 name: "Pony"
 slug_name: "pony"
 
@@ -39,17 +38,7 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Hooves"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.
-
-  
-
-
-

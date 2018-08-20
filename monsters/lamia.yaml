@@ -1,4 +1,3 @@
-
 name: "Lamia"
 slug_name: "lamia"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -51,9 +47,6 @@ spell_casting:
       At will: disguise self (any humanoid form), major image
       3/day each: charm person, mirror image, scrying, suggestion
       1/day: geas
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Intoxicating Touch"
     description: |
       Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
-
-  
-
-
-

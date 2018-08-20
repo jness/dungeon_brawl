@@ -1,4 +1,3 @@
-
 name: "Drow Priestess of Lolth"
 slug_name: "drow-priestess-of-lolth"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fey Ancestry"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -73,9 +67,6 @@ spell_casting:
       4th level (3 slots): divination, freedom of movement
       5th level (2 slots): insect plague, mass cure wounds
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -88,8 +79,3 @@ actions:
   - name: "Summon Demon (1/Day)"
     description: |
       The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

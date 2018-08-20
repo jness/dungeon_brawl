@@ -1,4 +1,3 @@
-
 name: "Hellenrae"
 slug_name: "hellenrae"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "blinded, poisoned"
 
-
 special_abilities:
   - name: "Evasion"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       While Hellenrae is wearing no armor and wielding no shield, her speed increases by 20 feet (included in her speed).
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -77,8 +70,3 @@ actions:
   - name: "Parry and Counter"
     description: |
       Hellenrae adds 3 to her AC against one melee or ranged weapon attack that would hit her. To do so, she must be able to sense the attacker with her blindsight. If the attack misses, Hellenrae can make one melee attack against the attacker if it is within her reach.
-
-  
-
-
-

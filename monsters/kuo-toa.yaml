@@ -1,4 +1,3 @@
-
 name: "Kuo-Toa"
 slug_name: "kuo-toa"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -57,11 +55,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -81,8 +74,3 @@ actions:
   - name: "Sticky Shield"
     description: |
       When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Awakened Zurkhwood"
 slug_name: "awakened-zurkhwood"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: "fire"
 condition_immunities: null
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       If the awakened zurkhwood was created by a myconid sovereign, it can't speak.
 
-  
-
-
-
-
 actions:
   - name: "Slam"
     description: |
       Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.
-
-  
-
-
-

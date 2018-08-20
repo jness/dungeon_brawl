@@ -1,4 +1,3 @@
-
 name: "Sea Horse"
 slug_name: "sea-horse"
 
@@ -40,19 +39,9 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Water Breathing"
     description: |
       The sea horse can breathe only underwater.
 
-  
-
-
-
-
 actions:
-  
-
-
-

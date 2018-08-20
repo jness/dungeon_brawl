@@ -1,4 +1,3 @@
-
 name: "Bearded Devil"
 slug_name: "bearded-devil"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Devil's Sight"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The devil can't be frightened while it can see an allied creature within 30 feet of it.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Glaive"
     description: |
       Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
-
-  
-
-
-

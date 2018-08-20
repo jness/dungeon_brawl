@@ -1,4 +1,3 @@
-
 name: "Duvessa Shane"
 slug_name: "duvessa-shane"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -52,11 +50,6 @@ special_abilities:
 
       Flaw: "I don't give an inch in any argument of conflict."
 
-  
-
-
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -67,8 +60,3 @@ actions:
   - name: "Parry"
     description: |
       Duvessa adds 2 to her AC against on melee attack that would hit him. To do so, Duvessa must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

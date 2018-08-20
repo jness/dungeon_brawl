@@ -1,4 +1,3 @@
-
 name: "Owlbear"
 slug_name: "owlbear"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Sight and Smell"
     description: |
       The owlbear has advantage on Wisdom (Perception) checks that rely on sight or smell.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
-
-  
-
-
-

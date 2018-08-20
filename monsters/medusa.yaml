@@ -1,4 +1,3 @@
-
 name: "Medusa"
 slug_name: "medusa"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Petrifying Gaze"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
       Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
 
       If the medusa sees itself reflected on a polished surface within 30 ft. of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Longbow"
     description: |
       Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.
-
-  
-
-
-

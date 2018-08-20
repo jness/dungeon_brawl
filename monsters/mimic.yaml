@@ -1,4 +1,3 @@
-
 name: "Mimic"
 slug_name: "mimic"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid"
 damage_vulnerabilities: null
 condition_immunities: "prone"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       The mimic has advantage on attack rolls against any creature grappled by it.
 
-  
-
-
-
-
 actions:
   - name: "Pseudopod"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.
-
-  
-
-
-

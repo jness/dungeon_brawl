@@ -1,4 +1,3 @@
-
 name: "Flail Snail"
 slug_name: "flail-snail"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Antimagic Shell"
     description: |
@@ -55,11 +53,6 @@ special_abilities:
   - name: "Flail Tentacles"
     description: |
       The flail snail has five flail tentacles. Whenever the snail takes 10 damage or more on a single turn, one of its tentacles dies. If even one tentacle remains, the snail regrows all dead ones within 1d4 days. If all its tentacles die, the snail retracts into its shell, gaining total cover, and it begins wailing, a sound that can be heard for 600 feet, stopping only when it dies 5d6 minutes later. Healing magic that restores limbs, such as the regenerate spell, can halt this dying process.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -77,8 +70,3 @@ actions:
   - name: "Shell Defense"
     description: |
       The flail snail withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from its shell as a bonus action on its turn.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Naxene Drathkala"
 slug_name: "naxene-drathkala"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -52,10 +50,6 @@ special_abilities:
 
       Flaw: "I'm too smart to be wrong about anything."
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -66,15 +60,7 @@ spell_casting:
       2nd level (3 slots): misty step, suggestion
       3rd level (3 slots): fly, lightning bolt
 
-  
-
-
 actions:
   - name: "Staff"
     description: |
       Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
-  
-
-
-

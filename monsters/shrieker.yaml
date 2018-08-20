@@ -1,4 +1,3 @@
-
 name: "Shrieker"
 slug_name: "shrieker"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, deafened, frightened"
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
       While the shrieker remains motionless, it is indistinguishable from an ordinary fungus.
 
-  
-
-
-
-
 actions:
   - name: "Shriek"
     description: |
       When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward
-
-  
-
-
-

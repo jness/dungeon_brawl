@@ -1,4 +1,3 @@
-
 name: "Chain Devil"
 slug_name: "chain-devil"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Devil's Sight"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Magic Resistance"
     description: |
       The devil has advantage on saving throws against spells and other magical effects.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
   - name: "Unnerving Mask"
     description: |
       When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn.
-
-  
-
-
-

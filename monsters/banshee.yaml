@@ -1,4 +1,3 @@
-
 name: "Banshee"
 slug_name: "banshee"
 
@@ -40,7 +39,6 @@ damage_immunities: "cold, necrotic, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
 
-
 special_abilities:
   - name: "Detect Life"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Incorporeal Movement"
     description: |
       The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.
-
-  
-
-
-
 
 actions:
   - name: "Corrupting Touch"
@@ -67,8 +60,3 @@ actions:
   - name: "Wail (1/Day)"
     description: |
       The banshee releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 ft. of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage.The woeful banshee is a spiteful creature formed from the spirit of a female elf. Its face is wreathed in a wild tangle of hair, its body clad in wispy rags that flutter and stream around it.
-
-  
-
-
-

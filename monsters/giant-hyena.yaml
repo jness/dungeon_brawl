@@ -1,4 +1,3 @@
-
 name: "Giant Hyena"
 slug_name: "giant-hyena"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Rampage"
     description: |
       When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.
-
-  
-
-
-

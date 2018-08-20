@@ -1,4 +1,3 @@
-
 name: "Black Dragon Wyrmling"
 slug_name: "black-dragon-wyrmling"
 
@@ -40,16 +39,10 @@ damage_immunities: "acid"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
       The dragon can breathe air and water.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -59,8 +52,3 @@ actions:
   - name: "Acid Breath (Recharge 5-6)"
     description: |
       The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (Sd8) acid damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Wight"
 slug_name: "wight"
 
@@ -40,16 +39,10 @@ damage_immunities: "necrotic, bludgeoning, piercing, and slashing from nonmagica
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -69,8 +62,3 @@ actions:
   - name: "Longbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
-
-  
-
-
-

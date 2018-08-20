@@ -1,4 +1,3 @@
-
 name: "Beldora"
 slug_name: "beldora"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -51,11 +49,6 @@ special_abilities:
       Bond: "I'll risk my life to protect the powerless."
 
       Flaw: "I like lying to people. Makes life more interesting, no?"
-
-  
-
-
-
 
 actions:
   - name: "Shortsword"
@@ -71,8 +64,3 @@ actions:
   - name: "Duck and Cover"
     description: |
       Beldora adds 2 to her AC against on melee attack that would hit her. To do so, Duvessa must see the attacker and can't be grappled or restrained.
-
-  
-
-
-

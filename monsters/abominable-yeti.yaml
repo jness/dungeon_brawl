@@ -1,4 +1,3 @@
-
 name: "Abominable Yeti"
 slug_name: "abominable-yeti"
 
@@ -40,7 +39,6 @@ damage_immunities: "cold"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fear of Fire"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Snow Camouflage"
     description: |
       The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
   - name: "Cold Breath (Recharge 6)"
     description: |
       The yeti exhales a 30-foot cone of frigid air. Each creature in that area must make a DC 18 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Xorn"
 slug_name: "xorn"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Earth Glide"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The xorn can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 ft. of it.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  
-
-
-

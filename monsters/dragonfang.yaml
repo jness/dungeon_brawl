@@ -1,4 +1,3 @@
-
 name: "Dragonfang"
 slug_name: "dragonfang"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dragon Fanatic"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Orb of Dragon's Breath (2/Day)"
     description: |
       Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.
-
-  
-
-
-

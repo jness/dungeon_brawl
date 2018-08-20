@@ -1,4 +1,3 @@
-
 name: "Xvart Speaker"
 slug_name: "xvart-speaker"
 
@@ -39,13 +38,4 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
-  
-
-
-

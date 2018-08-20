@@ -1,4 +1,3 @@
-
 name: "Sahuagin Priestess"
 slug_name: "sahuagin-priestess"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Blood Frenzy"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -67,9 +61,6 @@ spell_casting:
       1st level (4 slots): bless, detect magic, guiding bolt
       2nd level (3 slots): hold person, spiritual weapon (trident)
       3rd level (3 slots): mass healing word, tongues
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -83,8 +74,3 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.
-
-  
-
-
-

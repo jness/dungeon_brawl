@@ -1,4 +1,3 @@
-
 name: "Shalvus Martholio"
 slug_name: "shalvus-martholio"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Sneak Attack (1/turn)"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
 
       Flaw: "I can't resist taking risks to feed my ambitions."
 
-  
-
-
-
-
 actions:
   - name: "Quarterstaff"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Hand Crossbow"
     description: |
       Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Shalvus carries ten crossbow bolts.
-
-  
-
-
-

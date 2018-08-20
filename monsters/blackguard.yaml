@@ -1,4 +1,3 @@
-
 name: "Blackguard"
 slug_name: "blackguard"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -51,9 +47,6 @@ spell_casting:
       1st level (4 slots): command, protection from evil and good, thunderous smite
       2nd level (3 slots): branding smite, find steed
       3rd level (2 slots): blinding smite, dispel magic
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Dreadful Aspect (Recharges after a Short or Long Rest)"
     description: |
       The blackguard exudes magical menace. Each enemy within 30 feet of the blackguard must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If a frightened target ends its turn more than 30 feet away from the blackguard, the target can repeat the saving throw, ending the effect on itself on a success.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Empyrean"
 slug_name: "empyrean"
 
@@ -40,7 +39,6 @@ damage_immunities: "bludgeoning, piercing, and slashing from nonmagical weapons"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       The empyrean's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -65,9 +59,6 @@ spell_casting:
 
       At will: greater restoration, pass without trace, water breathing, water walk
       1/day each: commune, dispel evil and good, earthquake, fire storm, plane shift (self only)
-
-  
-
 
 actions:
   - name: "Maul"
@@ -78,14 +69,9 @@ actions:
     description: |
       Ranged Spell Attack: +15 to hit, range 600 ft., one target. Hit: 24 (7d6) damage of one of the following types (empyrean's choice): acid, cold, fire, force, lightning, radiant, or thunder.
 
-  
-
-
 legendary_action_description: "The empyrean can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The empyrean regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Attack"
     description: |
       The empyrean makes one attack.
@@ -97,5 +83,3 @@ legendary_actions:
   - name: "Trembling Strike (Costs 2 Actions)"
     description: |
       The empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 feet of the empyrean must succeed on a DC 25 Strength saving throw or be knocked prone.
-
-  

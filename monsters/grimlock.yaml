@@ -1,4 +1,3 @@
-
 name: "Grimlock"
 slug_name: "grimlock"
 
@@ -40,7 +39,6 @@ damage_immunities: "blinded"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Blind Senses"
     description: |
@@ -54,17 +52,7 @@ special_abilities:
     description: |
       The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
 
-  
-
-
-
-
 actions:
   - name: "Spiked Bone Club"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.
-
-  
-
-
-

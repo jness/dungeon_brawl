@@ -1,4 +1,3 @@
-
 name: "Meenlock"
 slug_name: "meenlock"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "frightened"
 
-
 special_abilities:
   - name: "Fear Aura"
     description: |
@@ -54,17 +52,7 @@ special_abilities:
     description: |
       As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight.
 
-  
-
-
-
-
 actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

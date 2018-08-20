@@ -1,4 +1,3 @@
-
 name: "Water Weird"
 slug_name: "water-weird"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious"
 
-
 special_abilities:
   - name: "Invisible in Water"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The water weird dies if it leaves the water to which it is bound or if that water is destroyed.
 
-  
-
-
-
-
 actions:
   - name: "Constrict"
     description: |
       Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target.
-
-  
-
-
-

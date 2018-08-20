@@ -1,4 +1,3 @@
-
 name: "Priest"
 slug_name: "priest"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Divine Eminence"
     description: |
       As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -60,15 +54,7 @@ spell_casting:
       2nd level (3 slots): lesser restoration, spiritual weapon
       3rd level (2 slots): dispel magic, spirit guardians
 
-  
-
-
 actions:
   - name: "Mace"
     description: |
       Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.
-
-  
-
-
-

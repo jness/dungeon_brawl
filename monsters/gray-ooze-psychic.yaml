@@ -1,4 +1,3 @@
-
 name: "Gray Ooze (Psychic)"
 slug_name: "gray-ooze-psychic"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone"
 
-
 special_abilities:
   - name: "Amorphous"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
     description: |
       While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.
 
-  
-
-
-
-
 actions:
   - name: "Pseudopod"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Psychic Crush (Recharge 5-6)"
     description: |
       The ooze targets one creature that it can sense within 60 feet of it. The target must make a DC 10 Intelligence saving throw, taking 10 (3d6) psychic damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-

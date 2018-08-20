@@ -1,4 +1,3 @@
-
 name: "Yuan-ti Nightmare Speaker"
 slug_name: "yuan-ti-nightmare-speaker"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -62,10 +60,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Yuan-ti Form Only)"
     description: |
@@ -79,9 +73,6 @@ spell_casting:
 
       Cantrip (at will): chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation
       1st-3rd level (2 3rd-level slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt
-
-  
-
 
 actions:
   - name: "Multiattack (Yuan-ti Form Only)"
@@ -99,8 +90,3 @@ actions:
   - name: "Invoke Nightmare (Recharges after a Short or Long Rest)"
     description: |
       The yuan-ti taps into the nightmares of a creature it can see within 60 feet of it and creates an illusory, immobile manifestation of the creature's deepest fears, visible only to that creature. The target must make a DC 13 Intelligence saving throw. On a failed save, the target takes 11 (2d10) psychic damage and is frightened of the manifestation, believing it to be real. The yuan-ti must concentrate to maintain the illusion (as if concentrating on a spell), which lasts for up to 1 minute and can't be harmed. The target can repeat the saving throw at the end of each of its turns, ending the illusion on a success, or taking 11 (2d10) psychic damage on a failure.
-
-  
-
-
-

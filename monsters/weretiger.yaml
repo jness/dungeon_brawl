@@ -1,4 +1,3 @@
-
 name: "Weretiger"
 slug_name: "weretiger"
 
@@ -40,7 +39,6 @@ damage_immunities: "bludgeoning, piercing, and slashing damage from nonmagical w
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Pounce (Tiger or Hybrid Form Only)"
     description: |
       If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack (Humanoid or Hybrid Form Only)"
@@ -79,8 +72,3 @@ actions:
   - name: "Longbow (Humanoid or Hybrid Form Only)"
     description: |
       Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
-
-  
-
-
-

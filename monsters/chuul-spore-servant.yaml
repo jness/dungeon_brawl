@@ -1,4 +1,3 @@
-
 name: "Chuul Spore Servant"
 slug_name: "chuul-spore-servant"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, frightened, paralyzed, poisoned"
-
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -52,8 +46,3 @@ actions:
   - name: "Pincer"
     description: |
       Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Jackalwere"
 slug_name: "jackalwere"
 
@@ -40,7 +39,6 @@ damage_immunities: "bludgeoning, piercing, and slashing damage from nonmagical w
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The jackalwere has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 
-  
-
-
-
-
 actions:
   - name: "Bite (Jackal or Hybrid Form Only)"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Sleep Gaze"
     description: |
       The jackalwere gazes at one creature it can see within 30 feet of it. The target must make a DC 10 Wisdom saving throw. On a failed save, the target succumbs to a magical slumber, falling unconscious for 10 minutes or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being charmed aren't affected by it.
-
-  
-
-
-

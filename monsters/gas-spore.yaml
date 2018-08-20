@@ -1,4 +1,3 @@
-
 name: "Gas Spore"
 slug_name: "gas-spore"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "blinded, deafened, frightened, paralyzed, poisoned, prone"
 
-
 special_abilities:
   - name: "Death Burst"
     description: |
@@ -52,17 +50,7 @@ special_abilities:
     description: |
       The gas spore resembles a beholder. A creature that can see the gas spore can discern its true nature with a successful DC 15 Intelligence (Nature) check.
 
-  
-
-
-
-
 actions:
   - name: "Touch"
     description: |
       Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 poison damage, and the creature must succeed on a DC 10 Constitution saving throw or become infected with the disease described in the Death Burst trait.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Pit Fiend"
 slug_name: "pit-fiend"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Fear Aura"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       The pit fiend's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -65,9 +59,6 @@ spell_casting:
 
       At will: detect magic, fireball
       3/day each: hold monster, wall of fire
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -89,8 +80,3 @@ actions:
   - name: "Tail"
     description: |
       Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage.
-
-  
-
-
-

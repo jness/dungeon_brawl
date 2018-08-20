@@ -1,4 +1,3 @@
-
 name: "Deep Rothe"
 slug_name: "deep-rothe"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Charge"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The deep rothe's spellcasting ability is Charisma. It can innately cast dancing lights at will, requiring no components.
 
-  
-
-
-
-
 actions:
   - name: "Gore"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.
-
-  
-
-
-

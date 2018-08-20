@@ -1,4 +1,3 @@
-
 name: "Grung Elite Warrior"
 slug_name: "grung-elite-warrior"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -64,11 +62,6 @@ special_abilities:
 
       Gold. The poisoned creature is charmed and can speak Grung.
 
-  
-
-
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -81,8 +74,3 @@ actions:
   - name: "Mesmerizing Chirr (Recharge 6)"
     description: |
       The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end of the grung's next turn.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Water Elemental Myrmidon"
 slug_name: "water-elemental-myrmidon"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "paralyzed, petrified, poisoned, prone"
 
-
 special_abilities:
   - name: "Magic Weapons"
     description: |
       The myrmidon's weapon attacks are magical.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Freezing Strikes (Recharge 6)"
     description: |
       The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Drider Spellcaster"
 slug_name: "drider-spellcaster"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fey Ancestry"
     description: |
@@ -57,10 +55,6 @@ special_abilities:
   - name: "Web Walker"
     description: |
       The drider ignores movement restrictions caused by webbing.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -80,9 +74,6 @@ spell_casting:
       3rd level (3 slots): clairvoyance, dispel magic
       4th level (2 slots): divination,freedom of movement
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -99,8 +90,3 @@ actions:
   - name: "Longbow"
     description: |
       Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.
-
-  
-
-
-

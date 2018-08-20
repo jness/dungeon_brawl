@@ -1,4 +1,3 @@
-
 name: "Hobgoblin Iron Shadow"
 slug_name: "hobgoblin-iron-shadow"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Unarmored Defense"
     description: |
       While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -57,9 +51,6 @@ spell_casting:
 
       Cantrips (at will): minor illusion, prestidigitation, true strike
       1st level (3 slots): charm person, disguise self, expeditious retreat, silent image
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -77,8 +68,3 @@ actions:
   - name: "Shadow Jaunt"
     description: |
       The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness.
-
-  
-
-
-

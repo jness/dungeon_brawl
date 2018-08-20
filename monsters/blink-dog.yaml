@@ -1,4 +1,3 @@
-
 name: "Blink Dog"
 slug_name: "blink-dog"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Hearing and Smell"
     description: |
       The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -59,8 +52,3 @@ actions:
   - name: "Teleport (Recharge 4-6)"
     description: |
       The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.
-
-  
-
-
-

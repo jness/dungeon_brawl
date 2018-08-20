@@ -1,4 +1,3 @@
-
 name: "Quetzalcoatlus"
 slug_name: "quetzalcoatlus"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dive Attack"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.
-
-  
-
-
-

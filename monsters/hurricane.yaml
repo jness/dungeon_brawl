@@ -1,4 +1,3 @@
-
 name: "Hurricane"
 slug_name: "hurricane"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Unarmored Defense"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       While the hurricane is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed).
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -62,9 +56,6 @@ spell_casting:
       Cantrips (at will): blade ward, gust, light, prestidigitation
       1st level (4 slots): feather fall, jump, thunderwave
       2nd level (2 slots): gust of wind
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -80,8 +71,3 @@ actions:
   - name: "Deflect Missiles"
     description: |
       When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.
-
-  
-
-
-

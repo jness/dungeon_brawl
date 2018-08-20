@@ -1,4 +1,3 @@
-
 name: "Dark Tide Knight"
 slug_name: "dark-tide-knight"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Bonded Mount"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Sneak Attack"
     description: |
       The knight deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the knight that isn't incapacitated and the knight doesn't have disadvantage on the attack roll.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -73,8 +66,3 @@ actions:
   - name: "Uncanny Dodge"
     description: |
       When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.
-
-  
-
-
-

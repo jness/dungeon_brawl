@@ -1,4 +1,3 @@
-
 name: "Demogorgon"
 slug_name: "demogorgon"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagic
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, poisoned"
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
@@ -58,10 +56,6 @@ special_abilities:
     description: |
       Demogorgon has advantage on saving throws against being blinded, deafened, stunned, and knocked unconscious.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -70,9 +64,6 @@ spell_casting:
       At will: detect magic, major image
       3/day each: dispel magic, fear, telekinesis
       1/day each: feeblemind, project image
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -95,14 +86,9 @@ actions:
 
       3. Insanity Gaze. The target suffers the effect of the confusion spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell.
 
-  
-
-
 legendary_action_description: "Demogorgon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Demogorgon regains spent legendary actions at the start of his turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Tail"
     description: |
       Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage plus 22 (4d10) necrotic damage.
@@ -110,5 +96,3 @@ legendary_actions:
   - name: "Maddening Gaze"
     description: |
       Demogorgon uses his Gaze action, and must choose either the Beguiling Gaze or the Insanity Gaze effect.
-
-  

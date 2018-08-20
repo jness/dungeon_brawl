@@ -1,4 +1,3 @@
-
 name: "Green Hag"
 slug_name: "green-hag"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -62,10 +60,6 @@ special_abilities:
 
       A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -85,11 +79,7 @@ spell_casting:
       6th level (1 slot): eye bite
 
       For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
-
-
   
-
-
 actions:
   - name: "Claws"
     description: |
@@ -104,8 +94,3 @@ actions:
   - name: "Invisible Passage"
     description: |
       The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.
-
-  
-
-
-

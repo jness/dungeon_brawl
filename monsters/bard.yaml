@@ -1,4 +1,3 @@
-
 name: "Bard"
 slug_name: "bard"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Song of Rest"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Taunt (2/day)"
     description: |
       The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -63,9 +57,6 @@ spell_casting:
       1st level (4 slots): charm person, healing word, heroism, sleep, thunderwave
       2nd level (3 slots): invisibility, shatter
 
-  
-
-
 actions:
   - name: "Shortsword"
     description: |
@@ -74,8 +65,3 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.
-
-  
-
-
-

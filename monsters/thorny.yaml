@@ -1,4 +1,3 @@
-
 name: "Thorny"
 slug_name: "thorny"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Plant Camouflage "
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the thorny's next turn. The thorny dies only if it starts its turn with 0 hit points and doesn't regenerate.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6+1) piercing damage.
-
-  
-
-
-

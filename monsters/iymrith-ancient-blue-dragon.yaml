@@ -1,4 +1,3 @@
-
 name: "Iymrith, Ancient Blue Dragon"
 slug_name: "iymrith-ancient-blue-dragon"
 
@@ -40,18 +39,12 @@ damage_immunities: "lightning"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
       Iymrith's innate spellcasting ability is Charisma (spell save DC 20).  Iymrith's stone shape can create a living gargoyle instead of altering the stone as described in the spell description. She can innately cast the following spells, requiring no material components: 
 
       1/day: counterspell, detect magic, ice storm, stone shape, teleport
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -84,14 +77,9 @@ actions:
 
       In storm giant form, Iymrith retains her alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Her statistics are otherwise replaced by those of the new form.
 
-  
-
-
 legendary_action_description: "The iymrith, ancient blue dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The iymrith, ancient blue dragon regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The dragon makes a Wisdom (Perception) check.
@@ -103,5 +91,3 @@ legendary_actions:
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-
-  

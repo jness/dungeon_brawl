@@ -1,4 +1,3 @@
-
 name: "Miraj Vizann"
 slug_name: "miraj-vizann"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Earth Walk"
     description: |
       Moving through difficult terrain made of earth or stone costs Miraj no extra movement.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -69,15 +63,7 @@ spell_casting:
       5th level (2 slots): wall of stone
       6th level (1 slot): move earth
 
-  
-
-
 actions:
   - name: "Staff"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.
-
-  
-
-
-

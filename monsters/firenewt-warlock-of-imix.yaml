@@ -1,4 +1,3 @@
-
 name: "Firenewt Warlock of Imix"
 slug_name: "firenewt-warlock-of-imix"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       When the firenewt reduces an enemy to 0 hit points, the firenewt gains 5 temporary hit points.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -66,15 +60,7 @@ spell_casting:
       Cantrips (at will): fire bolt, guidance, light, mage hand, prestidigitation
       1st-2nd level (2 2nd-level slots): burning hands, flaming sphere, hellish rebuke, scorching ray
 
-  
-
-
 actions:
   - name: "Morningstar"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) piercing damage.
-
-  
-
-
-

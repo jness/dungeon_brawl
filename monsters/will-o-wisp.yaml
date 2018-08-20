@@ -1,4 +1,3 @@
-
 name: "Will-o'-Wisp"
 slug_name: "will-o-wisp"
 
@@ -40,7 +39,6 @@ damage_immunities: "lightning, poison"
 damage_vulnerabilities: null
 condition_immunities: "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious"
 
-
 special_abilities:
   - name: "Consume Life"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       The will-o'-wisp sheds bright light in a 5- to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The will-o'-wisp can alter the radius as a bonus action.
 
-  
-
-
-
-
 actions:
   - name: "Shock"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Invisibility"
     description: |
       The will-o'-wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell).
-
-  
-
-
-

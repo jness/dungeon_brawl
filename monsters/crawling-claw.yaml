@@ -1,4 +1,3 @@
-
 name: "Crawling Claw"
 slug_name: "crawling-claw"
 
@@ -40,23 +39,12 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Turn Immunity"
     description: |
       The claw is immune to effects that turn undead.
 
-  
-
-
-
-
 actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw's choice) .
-
-  
-
-
-

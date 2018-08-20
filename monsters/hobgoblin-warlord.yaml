@@ -1,4 +1,3 @@
-
 name: "Hobgoblin Warlord"
 slug_name: "hobgoblin-warlord"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Martial Advantage"
     description: |
       Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -77,8 +70,3 @@ actions:
   - name: "Parry"
     description: |
       The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

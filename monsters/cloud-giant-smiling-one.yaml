@@ -1,4 +1,3 @@
-
 name: "Cloud Giant Smiling One"
 slug_name: "cloud-giant-smiling-one"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Smell"
     description: |
       The giant has advantage on Wisdom (Perception) checks that rely on smell.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -68,9 +62,6 @@ spell_casting:
       2nd level (3 slots): invisibility, suggestion
       3rd level (2 slots): major image, tongues
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -87,8 +78,3 @@ actions:
   - name: "Change Shape"
     description: |
       The giant magically polymorphs into a beast or humanoid it has seen, or back into its true form. Any equipment the giant is wearing or carrying is absorbed by the new form. Its statistics, other than its size, are the same in each form. It reverts to its true form if it dies.
-
-  
-
-
-

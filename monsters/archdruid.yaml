@@ -1,4 +1,3 @@
-
 name: "Archdruid"
 slug_name: "archdruid"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -59,9 +55,6 @@ spell_casting:
       8th level (1 slot): animal shapes
       9th level (1 slot): foresight
 
-  
-
-
 actions:
   - name: "Scimitar"
     description: |
@@ -74,8 +67,3 @@ actions:
       While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.
 
       The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.
-
-  
-
-
-

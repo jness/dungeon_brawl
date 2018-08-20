@@ -1,4 +1,3 @@
-
 name: "Yuan-ti Mind Whisperer"
 slug_name: "yuan-ti-mind-whisperer"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -66,10 +64,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Yuan-ti Form Only)"
     description: |
@@ -85,9 +79,6 @@ spell_casting:
       Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll),friends, message, minor illusion, poison spray, prestidigitation
       1st-3rd level (2 3rd-level slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script
 
-  
-
-
 actions:
   - name: "Multiattack (Yuan-ti Form Only)"
     description: |
@@ -100,8 +91,3 @@ actions:
   - name: "Scimitar (Yuan-ti Form Only)"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.
-
-  
-
-
-

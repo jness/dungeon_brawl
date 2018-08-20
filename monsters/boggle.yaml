@@ -1,4 +1,3 @@
-
 name: "Boggle"
 slug_name: "boggle"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Boggle Oil"
     description: |
@@ -58,11 +56,6 @@ special_abilities:
     description: |
       The boggle has advantage on Wisdom (Perception) checks that rely on smell.
 
-  
-
-
-
-
 actions:
   - name: "Pummel"
     description: |
@@ -75,8 +68,3 @@ actions:
       If the oil is slippery, any creature that enters the puddle's area or starts its turn there must succeed on a DC 11 Dexterity saving throw or fall prone.
 
       If the oil is sticky, any creature that enters the puddle's area or starts its turn there must succeed on a DC 11 Strength saving throw or be restrained. On its turn. a creature can use an action to try to extricate itself from the sticky puddle, ending the effect and moving into the nearest safe unoccupied space with a successful DC 11 Strength check.
-
-  
-
-
-

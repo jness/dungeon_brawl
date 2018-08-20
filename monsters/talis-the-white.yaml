@@ -1,4 +1,3 @@
-
 name: "Talis the White"
 slug_name: "talis-the-white"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Special Equipment"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -70,15 +64,7 @@ spell_casting:
       4th level (3 slots): death ward, freedom of movement
       5th level (1 slot): insect plague
 
-  
-
-
 actions:
   - name: "Spear"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.
-
-  
-
-
-

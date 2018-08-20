@@ -1,4 +1,3 @@
-
 name: "Orc War Chief"
 slug_name: "orc-war-chief"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Aggressive"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Gruumsh's Fury"
     description: |
       The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Battle Cry (1/Day)"
     description: |
       Each creature of the war chief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of the war chief's next turn. The war chief can then make one attack as a bonus action.
-
-  
-
-
-

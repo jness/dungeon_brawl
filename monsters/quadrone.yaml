@@ -1,4 +1,3 @@
-
 name: "Quadrone"
 slug_name: "quadrone"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Axiomatic Mind"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Disintegration"
     description: |
       If the quadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  
-
-
-

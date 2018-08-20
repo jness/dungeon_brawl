@@ -1,4 +1,3 @@
-
 name: "Blagothkus"
 slug_name: "blagothkus"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Smell"
     description: |
       Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -66,9 +60,6 @@ spell_casting:
       2nd level (3 slots): gust of wind, misty step, shatter
       3rd level (2 slots): fly, lightning bolt
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -77,8 +68,3 @@ actions:
   - name: "Morningstar"
     description: |
       Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.
-
-  
-
-
-

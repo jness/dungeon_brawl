@@ -1,4 +1,3 @@
-
 name: "Crushing Wave Reaver"
 slug_name: "crushing-wave-reaver"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Sharktoothed Longsword"
     description: |
@@ -52,8 +46,3 @@ actions:
   - name: "Javelin"
     description: |
       Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  
-
-
-

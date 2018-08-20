@@ -1,4 +1,3 @@
-
 name: "Nothic"
 slug_name: "nothic"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Sight"
     description: |
       The nothic has advantage on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Weird Insight"
     description: |
       The nothic targets one creature it can see within 30 ft. of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed.
-
-  
-
-
-

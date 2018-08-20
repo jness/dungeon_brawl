@@ -1,4 +1,3 @@
-
 name: "Beholder"
 slug_name: "beholder"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "prone"
 
-
 special_abilities:
   - name: "Antimagic Cone"
     description: |
       The beholder's central eye creates an area of antimagic, as in the antimagic field spell, in a 150-foot cone. At the start of each of its turns, the beholder decides which way the cone faces and whether the cone is active. The area works against the beholder's own eye rays.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -84,16 +77,9 @@ actions:
 
       10. Death Ray. The targeted creature must succeed on a DC 16 Dexterity saving throw or take 55 (10d10) necrotic damage. The target dies if the ray reduces it to 0 hit points.
 
-  
-
-
 legendary_action_description: "The beholder can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The beholder regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Eye Ray"
     description: |
       The beholder uses one random eye ray.
-
-  

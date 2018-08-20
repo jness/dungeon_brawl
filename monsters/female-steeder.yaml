@@ -1,4 +1,3 @@
-
 name: "Female Steeder"
 slug_name: "female-steeder"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Spider Climb"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The steeder can expend all its movement on its turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck ot the steeder's leg and grappled until it escapes (escape DC 12)
-
-  
-
-
-

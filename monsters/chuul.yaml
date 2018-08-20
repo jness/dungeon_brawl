@@ -1,4 +1,3 @@
-
 name: "Chuul"
 slug_name: "chuul"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Sense Magic"
     description: |
       The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Tentacles"
     description: |
       One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

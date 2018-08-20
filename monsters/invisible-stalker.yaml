@@ -1,4 +1,3 @@
-
 name: "Invisible Stalker"
 slug_name: "invisible-stalker"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
 
-
 special_abilities:
   - name: "Invisibility"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Slam"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.
-
-  
-
-
-

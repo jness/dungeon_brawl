@@ -1,4 +1,3 @@
-
 name: "Dryad"
 slug_name: "dryad"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       Once on her turn, the dryad can use 10 ft. of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 ft. of the first tree, appearing in an unoccupied space within 5 ft. of the second tree. Both trees must be large or bigger.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -66,9 +60,6 @@ spell_casting:
       At will: druidcraft
       3/day each: entangle, goodberry
       1/day each: barkskin, pass without trace, shillelagh
-
-  
-
 
 actions:
   - name: "Club"
@@ -82,8 +73,3 @@ actions:
       Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.
 
       The dryad can have no more than one humanoid and up to three beasts charmed at a time.
-
-  
-
-
-

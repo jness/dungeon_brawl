@@ -1,4 +1,3 @@
-
 name: "Maw Demon"
 slug_name: "maw-demon"
 
@@ -40,23 +39,12 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, poisoned"
 
-
 special_abilities:
   - name: "Rampage"
     description: |
       When it reduces a creature to 0 hit points with a melee attack on its turn, the maw demon can take a bonus action to move up to half its speed and make a bite attack.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8+2) piercing damage.
-
-  
-
-
-

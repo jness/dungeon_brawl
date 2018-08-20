@@ -1,4 +1,3 @@
-
 name: "Burrowshark"
 slug_name: "burrowshark"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Bond of the Black Earth"
     description: |
       The burrowshark is magically bound to a bulette trained to serve as its mount. While mounted on its bulette, the burrowshark shares the bulette's senses and can ride the bulette while it burrows. The bonded bulette obeys the burrowshark's commands. If its mount dies, the burrowshark can train a new bulette to serve as its bonded mount, a process requiring a month.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -65,8 +58,3 @@ actions:
   - name: "Unyielding"
     description: |
       When the burrowshark is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.
-
-  
-
-
-

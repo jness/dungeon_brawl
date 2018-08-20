@@ -1,4 +1,3 @@
-
 name: "Giant Fire Beetle"
 slug_name: "giant-fire-beetle"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Illumination"
     description: |
       The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft..
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.
-
-  
-
-
-

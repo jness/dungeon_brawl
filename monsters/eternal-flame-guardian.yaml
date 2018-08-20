@@ -1,4 +1,3 @@
-
 name: "Eternal Flame Guardian"
 slug_name: "eternal-flame-guardian"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Flaming Weapon (Recharges after a Short or Long Rest)"
     description: |
       As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard's next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.
-
-  
-
-
-

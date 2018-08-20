@@ -1,4 +1,3 @@
-
 name: "Ultroloth"
 slug_name: "ultroloth"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       The ultroloth's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -62,9 +56,6 @@ spell_casting:
       At will: alter self, clairvoyance, darkness, detect magic, detect thoughts, dispel magic, invisibility (self only), suggestion
       3/day each: dimension door, fear, wall of fire
       1/day each: fire storm, mass suggestion
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -90,8 +81,3 @@ actions:
       An ultroloth has a 50 percent chance of summoning 1d6 mezzoloths, 1d4 nycaloths, or one ultroloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
-
-  
-
-
-

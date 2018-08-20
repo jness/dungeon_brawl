@@ -1,4 +1,3 @@
-
 name: "Ancient Silver Dragon"
 slug_name: "ancient-silver-dragon"
 
@@ -40,16 +39,10 @@ damage_immunities: "cold"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -86,14 +79,9 @@ actions:
 
       In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.
 
-  
-
-
 legendary_action_description: "The ancient silver dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The ancient silver dragon regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The dragon makes a Wisdom (Perception) check.
@@ -105,5 +93,3 @@ legendary_actions:
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-
-  

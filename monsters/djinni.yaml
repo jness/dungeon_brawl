@@ -1,4 +1,3 @@
-
 name: "Djinni"
 slug_name: "djinni"
 
@@ -40,7 +39,6 @@ damage_immunities: "lightning, thunder"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Elemental Demise"
     description: |
@@ -60,10 +58,6 @@ special_abilities:
 
       To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -72,9 +66,6 @@ spell_casting:
       At will: detect evil and good, detect magic, thunderwave
       3/day each: create food and water (can create wine instead of water), tongues, wind walk
       1/day each: conjure elemental (air elemental only), creation, gaseous form, invisibility, major image, plane shift
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -90,8 +81,3 @@ actions:
       A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a DC 18 Strength saving throw or be restrained by it. The djinni can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.
 
       A creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.
-
-  
-
-
-

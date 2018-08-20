@@ -1,4 +1,3 @@
-
 name: "Graz'zt"
 slug_name: "graz-zt"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagic
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -58,10 +56,6 @@ special_abilities:
     description: |
       Graz'zt's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -70,9 +64,6 @@ spell_casting:
       At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers
       3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport
       1/day each: dominate monster, greater invisibility
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -87,14 +78,9 @@ actions:
     description: |
       Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.
 
-  
-
-
 legendary_action_description: "Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Attack"
     description: |
       Graz'zt attacks once with the Wave of Sorrow.
@@ -110,5 +96,3 @@ legendary_actions:
   - name: "Teleport"
     description: |
       Graz'zt uses his Teleport action.
-
-  

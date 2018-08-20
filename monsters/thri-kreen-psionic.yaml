@@ -1,4 +1,3 @@
-
 name: "Thri-kreen (Psionic)"
 slug_name: "thri-kreen-psionic"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Chameleon Carapace"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Psionics)"
     description: |
@@ -62,9 +56,6 @@ spell_casting:
       At will: mage hand (the hand is invisible)
       2/day each: blur, magic weapon
       1/day: invisibility (self only)
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -90,8 +81,3 @@ actions:
   - name: "Variant: Chatkcha"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
-
-  
-
-
-

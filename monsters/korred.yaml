@@ -1,4 +1,3 @@
-
 name: "Korred"
 slug_name: "korred"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Command Hair"
     description: |
@@ -56,10 +54,6 @@ special_abilities:
     description: |
       While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks).
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -67,9 +61,6 @@ spell_casting:
 
       At will: commune with nature, meld into stone, stone shape
       1/day each: conjure elemental (as 6th-level spell; galeb duhr, gargoyle, earth elemental, or xorn only), Otto's irresistible dance
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -83,8 +74,3 @@ actions:
   - name: "Rock"
     description: |
       Ranged Weapon Attack: +9 to hit, range 60/120 ft., one target. Hit: 15 (2d8+6) bludgeoning damage, or 24 (4d8+6) bludgeoning damage if the korred is on the ground.
-
-  
-
-
-

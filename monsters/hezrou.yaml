@@ -1,4 +1,3 @@
-
 name: "Hezrou"
 slug_name: "hezrou"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Stench"
     description: |
       Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
       A hezrou has a 30 percent chance of summoning 2d6 dretches or one hezrou.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

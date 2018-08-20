@@ -1,4 +1,3 @@
-
 name: "Vine Blight"
 slug_name: "vine-blight"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, deafened"
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
       While the blight remains motionless, it is indistinguishable from a tangle of vines.
-
-  
-
-
-
 
 actions:
   - name: "Constrict"
@@ -59,8 +52,3 @@ actions:
   - name: "Entangling Plants (Recharge 5-6)"
     description: |
       Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a DC 12 Strength saving throw or become restrained. A creature can use its action to make a DC 12 Strength check, freeing it self or another entangled creature within reach on a success.
-
-  
-
-
-

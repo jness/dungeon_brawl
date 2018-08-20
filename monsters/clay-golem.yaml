@@ -1,4 +1,3 @@
-
 name: "Clay Golem"
 slug_name: "clay-golem"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid, poison, psychic, bludgeoning, piercing, and slashing f
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
 
-
 special_abilities:
   - name: "Acid Absorption"
     description: |
@@ -62,11 +60,6 @@ special_abilities:
     description: |
       The golem's weapon attacks are magical.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,8 +72,3 @@ actions:
   - name: "Haste (Recharge 5-6)"
     description: |
       Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.
-
-  
-
-
-

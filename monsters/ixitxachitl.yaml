@@ -1,4 +1,3 @@
-
 name: "Ixitxachitl"
 slug_name: "ixitxachitl"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -56,8 +50,3 @@ actions:
       When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.
 
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
-
-  
-
-
-

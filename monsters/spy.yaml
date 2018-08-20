@@ -1,4 +1,3 @@
-
 name: "Spy"
 slug_name: "spy"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Cunning Action"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Sneak Attack (1/Turn)"
     description: |
       The spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Hand Crossbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  
-
-
-

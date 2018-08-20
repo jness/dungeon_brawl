@@ -1,4 +1,3 @@
-
 name: "Babau"
 slug_name: "babau"
 
@@ -40,18 +39,12 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
       The babau's innate spellcasting ability is Wisdom (spell save DC 11). The babau can innately cast the following spells, requiring no material components:
 
       At will: darkness, dispel magic, fear, heat metal, levitate
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -69,8 +62,3 @@ actions:
   - name: "Weakening Gaze"
     description: |
       The babau targets one creature that it can see within 20 feet of it. The target must make a DC 13 Constitution saving throw. On a failed save, the target deals only half damage with weapon attacks that use Strength for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

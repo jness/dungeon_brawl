@@ -1,4 +1,3 @@
-
 name: "Tree Blight"
 slug_name: "tree-blight"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, deafened"
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Siege Monster"
     description: |
       The blight deals double damage to objects and structures.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Grasping Root"
     description: |
       Melee Weapon Attack: +9 to hit, reach 15 ft., one creature not grappled by the blight. Hit: the target is grappled (escape DC 15). Until the grapple ends, the target takes 9 (1d6+6) bludgeoning damage at the start of each of its turns. The root has AC 15 and can be severed by dealing 6 slashing damage or more to it at once. Cutting the root doesn't hurt the blight but ends the grapple.
-
-  
-
-
-

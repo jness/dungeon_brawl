@@ -1,4 +1,3 @@
-
 name: "Flameskull"
 slug_name: "flameskull"
 
@@ -40,7 +39,6 @@ damage_immunities: "cold, fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, paralyzed, poisoned, prone"
 
-
 special_abilities:
   - name: "Illumination"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -68,9 +62,6 @@ spell_casting:
       2nd level (2 slots): blur, flaming sphere
       3rd level (1 slot): fireball
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,8 +70,3 @@ actions:
   - name: "Fire Ray"
     description: |
       Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6) fire damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Yuan-ti Pit Master"
 slug_name: "yuan-ti-pit-master"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -62,10 +60,6 @@ special_abilities:
     description: |
       The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Yuan-ti Form Only)"
     description: |
@@ -80,9 +74,6 @@ spell_casting:
       Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll), friends, guidance, mage hand, message, poison spray
       1st-3rd level (2 3rd-level slots): command, counterspell, hellish rebuke, invisibility, misty step, unseen servant, vampiric touch
 
-  
-
-
 actions:
   - name: "Multiattack (Yuan-ti Form Only)"
     description: |
@@ -95,8 +86,3 @@ actions:
   - name: "Merrshaulk's Slumber (1/Day)"
     description: |
       The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a DC 13 Constitution saving throw or fall into a magical sleep and be unconscious for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being charmed.
-
-  
-
-
-

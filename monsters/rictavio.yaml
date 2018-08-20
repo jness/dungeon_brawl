@@ -1,4 +1,3 @@
-
 name: "Rictavio"
 slug_name: "rictavio"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Special Equipment"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Undead Slayer"
     description: |
       When Rictavio hits an undead with a weapon attack, the undead takes an extra 10 (3d6) damage of the weapon's type.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -66,9 +60,6 @@ spell_casting:
       4th level (3 slots): death ward, freedom of movement
       5th level (1 slot): dispel evil and good
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -77,8 +68,3 @@ actions:
   - name: "Sword Cane"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage (wooden cane) or piercing damage (silvered sword).
-
-  
-
-
-

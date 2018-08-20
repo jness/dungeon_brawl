@@ -1,4 +1,3 @@
-
 name: "Vampire Warrior"
 slug_name: "vampire-warrior"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -80,11 +78,6 @@ special_abilities:
 
       Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack (Vampire Form Only)"
     description: |
@@ -111,8 +104,3 @@ actions:
   - name: "Greatsword"
     description: |
       Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) slashing damage.
-
-  
-
-
-

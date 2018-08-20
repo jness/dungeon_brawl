@@ -1,4 +1,3 @@
-
 name: "Gelatinous Cube"
 slug_name: "gelatinous-cube"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone"
 
-
 special_abilities:
   - name: "Ooze Cube"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
     description: |
       Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is surprised by the cube.
 
-  
-
-
-
-
 actions:
   - name: "Pseudopod"
     description: |
@@ -75,8 +68,3 @@ actions:
       On a failed save, the cube enters the creature's space, and the creature takes 10 (3d6) acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 21 (6d6) acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.
 
       An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Sharwyn Hucrele"
 slug_name: "sharwyn-hucrele"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Source"
     description: |
@@ -58,10 +56,6 @@ special_abilities:
     description: |
       If the Gulthias Tree dies, Sharwyn dies 24 hours later.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -70,15 +64,7 @@ spell_casting:
       Cantrips (at will): light, prestidigitation, ray of frost
       1st level (2 slots): color spray, magic missile, shield, sleep.
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
-  
-
-
-

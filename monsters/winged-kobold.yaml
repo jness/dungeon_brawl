@@ -1,4 +1,3 @@
-
 name: "Winged Kobold"
 slug_name: "winged-kobold"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 
-  
-
-
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Dropped Rock"
     description: |
       Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.
-
-  
-
-
-

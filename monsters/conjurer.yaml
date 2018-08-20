@@ -1,4 +1,3 @@
-
 name: "Conjurer"
 slug_name: "conjurer"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)"
     description: |
       As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -62,17 +56,8 @@ spell_casting:
       4th level (3 slots): Evard's black tentacles*, stoneskin
       5th level (2 slots): cloudkill*, conjure elemental*
       *Conjuration spell of 1st level or higher
-
-
   
-
-
 actions:
   - name: "Dagger"
     description: |
       Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
-  
-
-
-

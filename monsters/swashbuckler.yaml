@@ -1,4 +1,3 @@
-
 name: "Swashbuckler"
 slug_name: "swashbuckler"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Lightfooted"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Suave Defense"
     description: |
       While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Rapier"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.
-
-  
-
-
-

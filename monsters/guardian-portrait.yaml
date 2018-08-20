@@ -1,4 +1,3 @@
-
 name: "Guardian Portrait"
 slug_name: "guardian-portrait"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
 
-
 special_abilities:
   - name: "Constructed Nature"
     description: |
@@ -56,10 +54,6 @@ special_abilities:
     description: |
       While the figure in the portrait remains motionless, it is indistinguishable from a normal painting.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -67,11 +61,4 @@ spell_casting:
 
       3/day each: counterspell, crown of madness, hypnotic pattern, telekinesis
 
-  
-
-
 actions:
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Morkoth"
 slug_name: "morkoth"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
       The morkoth can breathe air and water.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -62,9 +56,6 @@ spell_casting:
       4th level (3 slots): dimension door, Evard's black tentacles
       5th level (3 slots): geas, scrying
       6th level (1 slot): chain lightning
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -88,8 +79,3 @@ actions:
   - name: "Spell Reflection"
     description: |
       If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.
-
-  
-
-
-

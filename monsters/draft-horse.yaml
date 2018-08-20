@@ -1,4 +1,3 @@
-
 name: "Draft Horse"
 slug_name: "draft-horse"
 
@@ -39,17 +38,7 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Hooves"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.
-
-  
-
-
-

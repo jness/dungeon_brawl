@@ -1,4 +1,3 @@
-
 name: "Sir Baric Nylef"
 slug_name: "sir-baric-nylef"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Brave"
     description: |
@@ -56,11 +54,6 @@ special_abilities:
 
       Flaw: "I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."
 
-  
-
-
-
-
 actions:
   - name: "Maul"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Baric carries twenty crossbow bolts.
-
-  
-
-
-

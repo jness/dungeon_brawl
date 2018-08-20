@@ -1,4 +1,3 @@
-
 name: "Druid"
 slug_name: "druid"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -52,15 +48,7 @@ spell_casting:
       1st level (4 slots): entangle, longstrider, speak with animals, thunderwave
       2nd level (3 slots): animal messenger, barkskin
 
-  
-
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.
-
-  
-
-
-

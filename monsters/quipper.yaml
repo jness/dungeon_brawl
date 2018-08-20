@@ -1,4 +1,3 @@
-
 name: "Quipper"
 slug_name: "quipper"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Blood Frenzy"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The quipper can breathe only underwater.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.
-
-  
-
-
-

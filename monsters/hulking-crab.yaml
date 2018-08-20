@@ -1,4 +1,3 @@
-
 name: "Hulking Crab"
 slug_name: "hulking-crab"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       While the crab remains motionless with it's eyestalks and pincers tucked close to it's body, it resembles a natural formation or a pile of detritus. A creature within 30 feet of it can discren its true nature with a successful DC 15 intelligence (Nature) check.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10+4) bludgeoning damage, and the target is grappled (escape DC 15). The crab has two claws, each of which can grapple only one target
-
-  
-
-
-

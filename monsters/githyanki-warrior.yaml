@@ -1,4 +1,3 @@
-
 name: "Githyanki Warrior"
 slug_name: "githyanki-warrior"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Psionics)"
     description: |
@@ -50,9 +46,6 @@ spell_casting:
 
       At will: mage hand (the hand is invisible)
       3/day each: jump, misty step, nondetection (self only)
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -62,8 +55,3 @@ actions:
   - name: "Greatsword"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage plus 7 (2d6) psychic damage.
-
-  
-
-
-

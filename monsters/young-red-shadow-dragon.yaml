@@ -1,4 +1,3 @@
-
 name: "Young Red Shadow Dragon"
 slug_name: "young-red-shadow-dragon"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Living Shadow"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
   - name: "Shadow Breath (Recharge 5-6)"
     description: |
       The dragon exhales shadowy fire in a 30-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 56 (16d6) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control.
-
-  
-
-
-

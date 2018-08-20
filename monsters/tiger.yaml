@@ -1,4 +1,3 @@
-
 name: "Tiger"
 slug_name: "tiger"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Smell"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.
-
-  
-
-
-

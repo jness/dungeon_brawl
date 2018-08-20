@@ -1,4 +1,3 @@
-
 name: "Beholder Zombie"
 slug_name: "beholder-zombie"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned, prone"
 
-
 special_abilities:
   - name: "Undead Fortitude"
     description: |
       If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -69,8 +62,3 @@ actions:
       4. Disintegration Ray. If the target is a creature, it must succeed on a DC 14 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.
 
       If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-foot cube of it.
-
-  
-
-
-

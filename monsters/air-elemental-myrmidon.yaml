@@ -1,4 +1,3 @@
-
 name: "Air Elemental Myrmidon"
 slug_name: "air-elemental-myrmidon"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "paralyzed, petrified, poisoned, prone"
 
-
 special_abilities:
   - name: "Magic Weapons"
     description: |
       The myrmidon's weapon attacks are magical.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Lightning Strike (Recharge 6)"
     description: |
       The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.
-
-  
-
-
-

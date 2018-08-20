@@ -1,4 +1,3 @@
-
 name: "Alhoon"
 slug_name: "alhoon"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison; bludgeoning, piercing, and slashing from nonmagical 
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Turn Resistance"
     description: |
       The alhoon has advantage on saving throws against any effect that turns undead.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting (Psionics)"
@@ -74,9 +68,6 @@ spell_casting:
       5th level (2 slots): modify memory, wall of force
       6th level (1 slot): disintegrate, globe of invulnerability
 
-  
-
-
 actions:
   - name: "Chilling Grasp"
     description: |
@@ -85,8 +76,3 @@ actions:
   - name: "Mind Blast (Recharge 5-6)"
     description: |
       The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

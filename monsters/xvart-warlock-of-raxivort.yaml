@@ -1,4 +1,3 @@
-
 name: "Xvart Warlock of Raxivort"
 slug_name: "xvart-warlock-of-raxivort"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Low Cunning"
     description: |
@@ -53,10 +51,6 @@ special_abilities:
   - name: "Raxivort's Tongue"
     description: |
       The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -72,15 +66,7 @@ spell_casting:
       Cantrips (at will): eldritch blast, mage hand, minor illusion, poison spray, prestidigitation
       1st-2nd level (2 2nd-level slots): burning hands, expeditious retreat, invisibility, scorching ray
 
-  
-
-
 actions:
   - name: "Scimitar"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.
-
-  
-
-
-

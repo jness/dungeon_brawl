@@ -1,4 +1,3 @@
-
 name: "Stone Golem"
 slug_name: "stone-golem"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison, psychic, bludgeoning, piercing, and slashing from no
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, paralyzed, petrified, poisoned"
 
-
 special_abilities:
   - name: "Immutable Form"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The golem's weapon attacks are magical.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Slow (Recharge 5-6)"
     description: |
       The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

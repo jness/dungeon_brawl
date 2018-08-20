@@ -1,4 +1,3 @@
-
 name: "Giant Badger"
 slug_name: "giant-badger"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Keen Smell"
     description: |
       The badger has advantage on Wisdom (Perception) checks that rely on smell.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Giant Sea Horse"
 slug_name: "giant-sea-horse"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Charge"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The sea horse can breathe only underwater.
 
-  
-
-
-
-
 actions:
   - name: "Ram"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Pixie"
 slug_name: "pixie"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
       The pixie has advantage on saving throws against spells and other magical effects.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -58,15 +52,7 @@ spell_casting:
       At will: druidcraft
       1/day each: confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep
 
-  
-
-
 actions:
   - name: "Superior Invisibility"
     description: |
       The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it.
-
-  
-
-
-

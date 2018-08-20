@@ -1,4 +1,3 @@
-
 name: "Bandit Captain"
 slug_name: "bandit-captain"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -62,8 +56,3 @@ actions:
   - name: "Parry"
     description: |
       The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

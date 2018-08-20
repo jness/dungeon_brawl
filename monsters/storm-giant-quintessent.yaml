@@ -1,4 +1,3 @@
-
 name: "Storm Giant Quintessent"
 slug_name: "storm-giant-quintessent"
 
@@ -40,16 +39,10 @@ damage_immunities: "lightning, thunder"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
       The giant can breathe air and water.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -64,14 +57,9 @@ actions:
     description: |
       The giant coalesces wind into a javeIin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6+9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.
 
-  
-
-
 legendary_action_description: "The giant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The giant regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Gust"
     description: |
       The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses.
@@ -83,5 +71,3 @@ legendary_actions:
   - name: "One with the Storm (3 Actions)"
     description: |
       The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can't be targeted by attacks, spells, or other effects. The giant can't use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.
-
-  

@@ -1,4 +1,3 @@
-
 name: "Evoker"
 slug_name: "evoker"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Sculpt Spells"
     description: |
       When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -64,17 +58,8 @@ spell_casting:
       6th level (1 slot): chain lightning*, wall of ice*
 
       *Evocation spell
-
-
   
-
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
-  
-
-
-

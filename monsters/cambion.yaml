@@ -1,4 +1,3 @@
-
 name: "Cambion"
 slug_name: "cambion"
 
@@ -40,15 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fiendish Blessing"
     description: |
       The AC of the cambion includes its Charisma bonus.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -57,9 +51,6 @@ spell_casting:
 
       3/day each: alter self, command, detect magic
       1/day: plane shift (self only)
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -77,8 +68,3 @@ actions:
   - name: "Fiendish Charm"
     description: |
       One humanoid the cambion can see within 30 ft. of it must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours.
-
-  
-
-
-

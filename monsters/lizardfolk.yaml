@@ -1,4 +1,3 @@
-
 name: "Lizardfolk"
 slug_name: "lizardfolk"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Hold Breath"
     description: |
       The lizardfolk can hold its breath for 15 minutes.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Spiked Shield"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Bheur Hag"
 slug_name: "bheur-hag"
 
@@ -40,7 +39,6 @@ damage_immunities: "cold"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Graystaff Magic"
     description: |
@@ -61,10 +59,6 @@ special_abilities:
       A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.
 
       A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -87,11 +81,9 @@ spell_casting:
       6th level (1 slot): eyebite
 
       For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
-
-
   - name: "Variant: Death Coven"
     description: |
-      For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:
+      For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:
 
       1st level (4 slots): false life, inflict wounds
       2nd level (3 slots): gentle repose, ray of enfeeblement
@@ -102,7 +94,7 @@ spell_casting:
 
   - name: "Variant: Nature Coven"
     description: |
-      For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:
+      For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:
 
       1st level (4 slots): entangle, speak with animals
       2nd level (3 slots): flaming sphere, moonbeam, spike growth
@@ -113,7 +105,7 @@ spell_casting:
 
   - name: "Variant: Prophecy Coven"
     description: |
-      For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the folllowing spells:
+      For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:
 
       1st level (4 slots): bane, bless
       2nd level (3 slots): augury, detect thoughts
@@ -121,9 +113,6 @@ spell_casting:
       4th level (3 slots): arcane eye, locate creature
       5th level (2 slots): geas, legend lore
       6th level (1 slot): true seeing
-
-  
-
 
 actions:
   - name: "Slam"
@@ -133,8 +122,3 @@ actions:
   - name: "Maddening Feast"
     description: |
       The hag feasts on the corpse of one enemy within 5 feet of her that died within the past minute. Each creature of the hag's choice that is within 60 feet of her and able to see her must succeed on a DC 15 Wisdom saving throw or be frightened of her for 1 minute. While frightened in this way, a creature is incapacitated, can't understand what others say, can't read, and speaks only in gibberish; the DM controls the creature's movement, which is erratic. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Maddening Feast for the next 24 hours.
-
-  
-
-
-

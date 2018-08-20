@@ -1,4 +1,3 @@
-
 name: "Madam Eva"
 slug_name: "madam-eva"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -58,9 +54,6 @@ spell_casting:
       7th level (1 slot): fire storm, regenerate
       8th level (1 slot): earthquake
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -73,8 +66,3 @@ actions:
   - name: "Evil Eye (Recharges after a Short or Long Rest)"
     description: |
       Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 17), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Madam Eva is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Frog"
 slug_name: "frog"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -50,13 +48,4 @@ special_abilities:
     description: |
       The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.
 
-  
-
-
-
-
 actions:
-  
-
-
-

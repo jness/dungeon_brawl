@@ -1,4 +1,3 @@
-
 name: "Gnoll Hunter"
 slug_name: "gnoll-hunter"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Rampage"
     description: |
       When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Longbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8+2) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn.
-
-  
-
-
-

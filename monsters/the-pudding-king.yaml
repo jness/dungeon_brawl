@@ -1,4 +1,3 @@
-
 name: "The Pudding King"
 slug_name: "the-pudding-king"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Stone Camouflage"
     description: |
@@ -53,10 +51,6 @@ special_abilities:
   - name: "Insanity"
     description: |
       The Pudding King has advantage on saving throws against being charmed or frightened.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -77,9 +71,6 @@ spell_casting:
       4th level (3 slots): blight, confusion
       5th level (1 slot): cloudkill
 
-  
-
-
 actions:
   - name: "War Pick"
     description: |
@@ -92,8 +83,3 @@ actions:
   - name: "Create Green Slime (Recharges after a Long Rest)"
     description: |
       The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.
-
-  
-
-
-

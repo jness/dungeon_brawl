@@ -1,4 +1,3 @@
-
 name: "Vanifer"
 slug_name: "vanifer"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Funeral Pyre"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Legendary Resistance (2/Day)"
     description: |
       If Vanifer fails a saving throw, she can choose to succeed instead.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -66,9 +60,6 @@ spell_casting:
       4th level (3 slots): wall of fire
       5th level (2 slots): dominate person
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -77,8 +68,3 @@ actions:
   - name: "Tinderstrike"
     description: |
       Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 7 (2d6) fire damage.
-
-  
-
-
-

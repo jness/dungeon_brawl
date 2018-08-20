@@ -1,4 +1,3 @@
-
 name: "Vampire Spellcaster"
 slug_name: "vampire-spellcaster"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -80,10 +78,6 @@ special_abilities:
 
       Sunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -95,9 +89,6 @@ spell_casting:
       3rd level (3 slots): animate dead, bestow curse, nondetection
       4th level (3 slots): blight, greater invisibility
       5th level (1 slot): dominate person
-
-  
-
 
 actions:
   - name: "Multiattack (Vampire Form Only)"
@@ -121,8 +112,3 @@ actions:
   - name: "Children of the Night (1/Day)"
     description: |
       The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.
-
-  
-
-
-

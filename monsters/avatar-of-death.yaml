@@ -1,4 +1,3 @@
-
 name: "Avatar of Death"
 slug_name: "avatar-of-death"
 
@@ -40,7 +39,6 @@ damage_immunities: "necrotic, poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, paralyzed, petrified, poisoned , unconscious"
 
-
 special_abilities:
   - name: "Incorporeal Movement"
     description: |
@@ -54,17 +52,7 @@ special_abilities:
     description: |
       The Avatar of Death appears with hit points equal to half its summoner's maximum hit points.
 
-  
-
-
-
-
 actions:
   - name: "Reaping Scythe"
     description: |
       The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
-
-  
-
-
-

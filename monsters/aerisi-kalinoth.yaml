@@ -1,4 +1,3 @@
-
 name: "Aerisi Kalinoth"
 slug_name: "aerisi-kalinoth"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fey Ancestry"
     description: |
@@ -53,10 +51,6 @@ special_abilities:
   - name: "Legendary Resistance (2/Day)"
     description: |
       If Aerisi fails a saving throw, she can choose to succeed instead.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -71,15 +65,7 @@ spell_casting:
       5th level (2 slots): cloudkill, seeming (cast each day)
       6th level (1 slot): chain lightning
 
-  
-
-
 actions:
   - name: "Windvane"
     description: |
       Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.
-
-  
-
-
-

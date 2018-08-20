@@ -1,4 +1,3 @@
-
 name: "Quaggoth"
 slug_name: "quaggoth"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Wounded Fury"
     description: |
       While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -59,8 +52,3 @@ actions:
   - name: "Claw"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  
-
-
-

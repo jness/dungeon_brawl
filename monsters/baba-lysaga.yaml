@@ -1,4 +1,3 @@
-
 name: "Baba Lysaga"
 slug_name: "baba-lysaga"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Blessing of Mother Night"
     description: |
       Baba Lysaga is shielded against divination magic, as though protected by a nondetection spell.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -69,9 +63,6 @@ spell_casting:
       7th level (1 slot): finger of death, mirage arcane
       8th level (1 slot): power word stun
 
-  
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -84,8 +75,3 @@ actions:
   - name: "Summon Swarms of Insects (Recharges after a Short or Long Rest)"
     description: |
       Baba Lysaga summons 1d4 swarms of insects. A summoned swarm appears in an unoccupied space within 60 feet of Baba Lysaga and acts as her ally. It remains until it dies or until Baba Lysaga dismisses it as an action.
-
-  
-
-
-

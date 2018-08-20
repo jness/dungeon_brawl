@@ -1,4 +1,3 @@
-
 name: "Swarm of Ravens"
 slug_name: "swarm-of-ravens"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
 
-
 special_abilities:
   - name: "Swarm"
     description: |
       The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain hit points or gain temporary hit points.
 
-  
-
-
-
-
 actions:
   - name: "Beaks"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Nilbog"
 slug_name: "nilbog"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Nilbogism"
     description: |
@@ -50,19 +48,12 @@ special_abilities:
     description: |
       The nilbog can take the Disengage or Hide action as a bonus action on each of its turns.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
       The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
 
       At will: mage hand, Tasha's hideous laughter, vicious mockery 1/day: confusion
-
-  
-
 
 actions:
   - name: "Fool's Scepter"
@@ -78,8 +69,3 @@ actions:
   - name: "Reversal of Fortune"
     description: |
       In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points.
-
-  
-
-
-

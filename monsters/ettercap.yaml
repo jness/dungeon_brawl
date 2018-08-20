@@ -1,4 +1,3 @@
-
 name: "Ettercap"
 slug_name: "ettercap"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Spider Climb"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Web Walker"
     description: |
       The ettercap ignores movement restrictions caused by webbing.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -79,8 +72,3 @@ actions:
   - name: "Variant: Web Garrote"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or Small creature against which the ettercap has advantage on the attack roll. Hit: 4 (1d4 + 2) bludgeoning damage, and the target is grappled (escape DC 12). Until this grapple ends, the target can't breathe, and the ettercap has advantage on attack rolls against it.
-
-  
-
-
-

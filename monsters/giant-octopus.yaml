@@ -1,4 +1,3 @@
-
 name: "Giant Octopus"
 slug_name: "giant-octopus"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Hold Breath"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The octopus can breathe only underwater.
 
-  
-
-
-
-
 actions:
   - name: "Tentacles"
     description: |
@@ -67,8 +60,3 @@ actions:
   - name: "Ink Cloud (Recharges after a Short or Long Rest)"
     description: |
       A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.
-
-  
-
-
-

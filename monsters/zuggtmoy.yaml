@@ -1,4 +1,3 @@
-
 name: "Zuggtmoy"
 slug_name: "zuggtmoy"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagic
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened, poisoned"
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       Zuggtmoy's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -66,9 +60,6 @@ spell_casting:
       At will: detect magic, locate animals or plants, ray of sickness
       3/day each: dispel magic, ensnaring strike, entangle, plant growth
       1/day: etherealness, teleport
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -87,14 +78,9 @@ actions:
     description: |
       Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected, the creature is charmed by her and can't be reinfected by these spores.
 
-  
-
-
 legendary_action_description: "Zuggtmoy can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Zuggtmoy regains spent legendary actions at the start of her turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Attack"
     description: |
       Zuggtmoy makes one pseudopod attack.
@@ -102,5 +88,3 @@ legendary_actions:
   - name: "Exert Will"
     description: |
       One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates.
-
-  

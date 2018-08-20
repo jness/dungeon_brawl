@@ -1,4 +1,3 @@
-
 name: "Redcap"
 slug_name: "redcap"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Iron Boots"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Outsize Strength"
     description: |
       While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -67,8 +60,3 @@ actions:
   - name: "Ironbound Pursuit"
     description: |
       The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10+4) bludgeoning damage and be knocked prone.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Awakened Shrub"
 slug_name: "awakened-shrub"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: "fire"
 condition_immunities: null
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
       While the shrub remains motionless, it is indistinguishable from a normal shrub.
 
-  
-
-
-
-
 actions:
   - name: "Rake"
     description: |
       Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage.
-
-  
-
-
-

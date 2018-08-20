@@ -1,4 +1,3 @@
-
 name: "Dao"
 slug_name: "dao"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "petrified"
 
-
 special_abilities:
   - name: "Earth Glide"
     description: |
@@ -68,10 +66,6 @@ special_abilities:
 
       To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -80,9 +74,6 @@ spell_casting:
       At will: detect evil and good, detect magic, stone shape
       3/day each: passwall, move earth, tongues
       1/day each: conjure elemental (earth elemental only), gaseous form, invisibility, phantasmal killer, plane shift, wall of stone
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -96,8 +87,3 @@ actions:
   - name: "Maul"
     description: |
       Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked prone.
-
-  
-
-
-

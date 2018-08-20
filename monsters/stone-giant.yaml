@@ -1,4 +1,3 @@
-
 name: "Stone Giant"
 slug_name: "stone-giant"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Stone Camouflage"
     description: |
       The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
-
-  
-
-
-
 
 actions:
   - name: "Fling"
@@ -77,8 +70,3 @@ actions:
   - name: "Rock Catching"
     description: |
       If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it.
-
-  
-
-
-

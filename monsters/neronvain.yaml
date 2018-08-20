@@ -1,4 +1,3 @@
-
 name: "Neronvain"
 slug_name: "neronvain"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, poisoned"
 
-
 special_abilities:
   - name: "Draconic Majesty"
     description: |
       Neronvain adds his Charisma bonus to his AC (included).
-
-  
-
-
-
 
 actions:
   - name: "Fey Ancestry"
@@ -71,8 +64,3 @@ actions:
   - name: "Poisonous Cloud (2/Day)"
     description: |
       Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. >>>
-
-  
-
-
-

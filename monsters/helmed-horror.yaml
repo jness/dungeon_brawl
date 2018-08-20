@@ -1,4 +1,3 @@
-
 name: "Helmed Horror"
 slug_name: "helmed-horror"
 
@@ -40,7 +39,6 @@ damage_immunities: "force, necrotic, poison"
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The helmed horror is immune to three spells chosen by its creator. Typical immunities include fireball, heat metal, and lightning bolt.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Longsword"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Marilith"
 slug_name: "marilith"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Reactive"
     description: |
       The marilith can take one reaction on every turn in combat.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -89,8 +82,3 @@ actions:
   - name: "Parry"
     description: |
       The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Adult Red Dragon"
 slug_name: "adult-red-dragon"
 
@@ -40,16 +39,10 @@ damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -86,14 +79,9 @@ actions:
 
       * Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its turn. While poisoned in this way, a creature is incapacitated.
 
-  
-
-
 legendary_action_description: "The adult red dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult red dragon regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The dragon makes a Wisdom (Perception) check.
@@ -105,5 +93,3 @@ legendary_actions:
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-
-  

@@ -1,4 +1,3 @@
-
 name: "Markham Southwell"
 slug_name: "markham-southwell"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -51,11 +49,6 @@ special_abilities:
       Bond: "Duvessa is a natural leader, but she needs help. That's my job."
 
       Flaw: "I bury my emotions and have no interest in small talk."
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -69,8 +62,3 @@ actions:
   - name: "Heavy Crossbow"
     description: |
       Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10+1) piercing damage. Markham carries twenty crossbow bolts.
-
-  
-
-
-

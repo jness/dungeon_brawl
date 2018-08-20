@@ -1,4 +1,3 @@
-
 name: "Nycaloth"
 slug_name: "nycaloth"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
@@ -50,19 +48,12 @@ special_abilities:
     description: |
       The nycaloth's weapon attacks are magical.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
       The nycaloth's innate spellcasting ability is Charisma. The nycaloth can innately cast the following spells, requiring no material components: 
 
       At will: darkness, detect magic, dispel magic, invisibility (self only), mirror image
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -88,8 +79,3 @@ actions:
       A nycaloth has a 50 percent chance of summoning 1d4 mezzoloths or one nycaloth.
 
       A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.
-
-  
-
-
-

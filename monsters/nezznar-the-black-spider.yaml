@@ -1,4 +1,3 @@
-
 name: "Nezznar the Black Spider"
 slug_name: "nezznar-the-black-spider"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Special Equipment"
     description: |
@@ -53,10 +51,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       Nezznar has disadvantage on attack rolls when he or his target is in sunlight.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -74,15 +68,7 @@ spell_casting:
       * 1st Level (4 slots): mage armor, magic missile, shield
       * 2nd Level (3 slots): invisibility, suggestion
 
-  
-
-
 actions:
   - name: "Spider Staff"
     description: |
       Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage plus 3 (1d6) poison damage.
-
-  
-
-
-

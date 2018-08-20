@@ -1,4 +1,3 @@
-
 name: "Tanarukk"
 slug_name: "tanarukk"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Aggressive"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Magic Resistance"
     description: |
       The tanarukk has advantage on saving throws against spells and other magical effects.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -73,8 +66,3 @@ actions:
   - name: "Unbridled Fury"
     description: |
       In response to being hit by a melee attack, the tanarukk can make one melee weapon attack with advantage against the attacker.
-
-  
-
-
-

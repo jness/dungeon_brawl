@@ -1,4 +1,3 @@
-
 name: "Yeth Hound"
 slug_name: "yeth-hound"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "charmed, exhaustion, frightened"
 
-
 special_abilities:
   - name: "Keen Hearing and Smell"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       While the yeth hound is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically with each other.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -67,8 +60,3 @@ actions:
   - name: "Baleful Baying"
     description: |
       The yeth hound bays magically. Every enemy within 300 feet of the hound that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened until the end of the hound's next turn or until the hound is incapacitated. A frightened target that starts its turn within 30 feet of the hound must use all its movement on that turn to get as far from the hound as possible, must finish the move before taking an action, and must take the most direct route, even if hazards lie that way. A target that successfully saves is immune to the baying of all yeth hounds for the next 24 hours.
-
-  
-
-
-

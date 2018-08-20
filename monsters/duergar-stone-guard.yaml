@@ -1,4 +1,3 @@
-
 name: "Duergar Stone Guard"
 slug_name: "duergar-stone-guard"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Duergar Resilience"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
-
 
 actions:
   - name: "Enlarge (Recharges after a Short or Long Rest)"
@@ -71,8 +64,3 @@ actions:
   - name: "Invisibility (Recharges after a Short or Long Rest)"
     description: |
       The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .
-
-  
-
-
-

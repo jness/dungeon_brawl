@@ -1,4 +1,3 @@
-
 name: "Adult Blue Dragon"
 slug_name: "adult-blue-dragon"
 
@@ -40,16 +39,10 @@ damage_immunities: "lightning"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -76,14 +69,9 @@ actions:
     description: |
       The dragon exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
 
-  
-
-
 legendary_action_description: "The adult blue dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult blue dragon regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Detect"
     description: |
       The dragon makes a Wisdom (Perception) check.
@@ -95,5 +83,3 @@ legendary_actions:
   - name: "Wing Attack (Costs 2 Actions)"
     description: |
       The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
-
-  

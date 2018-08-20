@@ -1,4 +1,3 @@
-
 name: "Hobgoblin"
 slug_name: "hobgoblin"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Martial Advantage"
     description: |
       Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.
-
-  
-
-
-
 
 actions:
   - name: "Longsword"
@@ -59,8 +52,3 @@ actions:
   - name: "Longbow"
     description: |
       Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Giant Lizard"
 slug_name: "giant-lizard"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Variant: Hold Breath"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Thri-kreen"
 slug_name: "thri-kreen"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Chameleon Carapace"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Standing Leap"
     description: |
       The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -79,8 +72,3 @@ actions:
   - name: "Variant: Chatkcha"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
-
-  
-
-
-

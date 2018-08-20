@@ -1,4 +1,3 @@
-
 name: "Sea Hag"
 slug_name: "sea-hag"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -64,10 +62,6 @@ special_abilities:
 
       A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
 
-  
-
-
-
 spell_casting:
   - name: "Shared Spellcasting (Coven Only)"
     description: |
@@ -81,11 +75,7 @@ spell_casting:
       6th level (1 slot): eye bite
 
       For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
-
-
   
-
-
 actions:
   - name: "Claws"
     description: |
@@ -100,8 +90,3 @@ actions:
       The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.
 
       The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.
-
-  
-
-
-

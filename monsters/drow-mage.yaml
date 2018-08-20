@@ -1,4 +1,3 @@
-
 name: "Drow Mage"
 slug_name: "drow-mage"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fey Ancestry"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Sunlight Sensitivity"
     description: |
       While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -73,9 +67,6 @@ spell_casting:
       4th level (3 slots): Evard's black tentacles, greater invisibility
       5th level (2 slots): cloudkill
 
-  
-
-
 actions:
   - name: "Staff"
     description: |
@@ -84,8 +75,3 @@ actions:
   - name: "Summon Demon (1/Day)"
     description: |
       The drow magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

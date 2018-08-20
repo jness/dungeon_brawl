@@ -1,4 +1,3 @@
-
 name: "Sirac of Suzail"
 slug_name: "sirac-of-suzail"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Roleplaying Information"
     description: |
@@ -51,11 +49,6 @@ special_abilities:
       Bond: "Icewind Dale is where i belong for the rest of my life."
 
       Flaw: "I am honest to a fault."
-
-  
-
-
-
 
 actions:
   - name: "Shortsword"
@@ -71,8 +64,3 @@ actions:
   - name: "Parry"
     description: |
       Sirac adds 2 to his AC against on melee attack that would hit him. To do so, Sirac must see the attacker and be wielding a melee weapon.
-
-  
-
-
-

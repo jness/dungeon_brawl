@@ -1,4 +1,3 @@
-
 name: "Gar Shatterkeel"
 slug_name: "gar-shatterkeel"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -58,10 +56,6 @@ special_abilities:
     description: |
       When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -73,9 +67,6 @@ spell_casting:
       3rd level (3 slots): call lightning, sleet storm, tidal wave
       4th level (3 slots): control water, ice storm
       5th level (1 slot): scrying
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -89,8 +80,3 @@ actions:
   - name: "Drown"
     description: |
       Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.
-
-  
-
-
-

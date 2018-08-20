@@ -1,4 +1,3 @@
-
 name: "One-Eyed Shiver"
 slug_name: "one-eyed-shiver"
 
@@ -40,15 +39,10 @@ damage_immunities: "cold"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Chilling Mist"
     description: |
       While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -60,9 +54,6 @@ spell_casting:
       2nd level (3 slots): mirror image, misty step
       3rd level (2 slots): fear
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
@@ -71,8 +62,3 @@ actions:
   - name: "Eye of Frost"
     description: |
       The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check.
-
-  
-
-
-

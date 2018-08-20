@@ -1,4 +1,3 @@
-
 name: "Tarrasque"
 slug_name: "tarrasque"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison, bludgeoning, piercing, and slashing from nonma
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, paralyzed, poisoned"
 
-
 special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
@@ -57,11 +55,6 @@ special_abilities:
   - name: "Siege Monster"
     description: |
       The tarrasque deals double damage to objects and structures.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -94,14 +87,9 @@ actions:
 
       If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the tarrasque. If the tarrasque dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone.
 
-  
-
-
 legendary_action_description: "The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The tarrasque regains spent legendary actions at the start of its turn."
 
-
-
-legendary_actions:
+legendary_actions":
   - name: "Attack"
     description: |
       The tarrasque makes one claw attack or tail attack.
@@ -113,5 +101,3 @@ legendary_actions:
   - name: "Chomp (Costs 2 Actions)"
     description: |
       The tarrasque makes one bite attack or uses its Swallow.
-
-  

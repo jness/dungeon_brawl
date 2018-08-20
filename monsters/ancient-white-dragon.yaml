@@ -1,4 +1,3 @@
-
 name: "Ancient White Dragon"
 slug_name: "ancient-white-dragon"
 
@@ -40,7 +39,6 @@ damage_immunities: "cold"
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Ice Walk"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Legendary Resistance (3/Day)"
     description: |
       If the dragon fails a saving throw, it can choose to succeed instead.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -79,8 +72,3 @@ actions:
   - name: "Cold Breath (Recharge 5-6)"
     description: |
       The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (l6d8) cold damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-

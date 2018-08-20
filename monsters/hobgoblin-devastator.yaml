@@ -1,4 +1,3 @@
-
 name: "Hobgoblin Devastator"
 slug_name: "hobgoblin-devastator"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Source"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw.
 
-  
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -69,15 +63,7 @@ spell_casting:
       3rd level (3 slots): fireball, fly, lightning bolt
       4th level (1 slot): ice storm
 
-  
-
-
 actions:
   - name: "Quarterstaff"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with two hands.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Ulitharid"
 slug_name: "ulitharid"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Creature Sense"
     description: |
@@ -54,10 +52,6 @@ special_abilities:
     description: |
       If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless of the distance between them, so long as they are both on the same plane of existence. lithe ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required).
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Psionics)"
     description: |
@@ -65,9 +59,6 @@ spell_casting:
 
       At will: detect thoughts, levitate
       1/day each: confusion, dominate monster, eyebite, feeblemind, mass suggestion, plane shift (self only), project image, scrying, telekinesis
-
-  
-
 
 actions:
   - name: "Tentacles"
@@ -81,8 +72,3 @@ actions:
   - name: "Mind Blast (Recharge 5-6)"
     description: |
       The ulitharid magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 17 Intelligence saving throw or take 31 (4d12+5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

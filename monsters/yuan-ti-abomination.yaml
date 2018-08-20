@@ -1,4 +1,3 @@
-
 name: "Yuan-ti Abomination"
 slug_name: "yuan-ti-abomination"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       The yuan-ti has advantage on saving throws against spells and other magical effects.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting (Abomination Form Only)"
     description: |
@@ -62,9 +56,6 @@ spell_casting:
       At will: animal friendship (snakes only)
       3/day: suggestion
       1/day: fear
-
-  
-
 
 actions:
   - name: "Multiattack (Abomination Form Only)"
@@ -86,8 +77,3 @@ actions:
   - name: "Longbow (Abomination Form Only)"
     description: |
       Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 10 (3d6) poison damage.
-
-  
-
-
-

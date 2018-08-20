@@ -1,4 +1,3 @@
-
 name: "Wereboar"
 slug_name: "wereboar"
 
@@ -40,7 +39,6 @@ damage_immunities: "bludgeoning, piercing, and slashing damage from nonmagical w
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack (Humanoid or Hybrid Form Only)"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Tusks (Boar or Hybrid Form Only)"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.
-
-  
-
-
-

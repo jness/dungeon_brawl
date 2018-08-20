@@ -1,4 +1,3 @@
-
 name: "Banderhobb"
 slug_name: "banderhobb"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened"
 
-
 special_abilities:
   - name: "Resonant Connection"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Shadow Stealth"
     description: |
       While in dim light or darkness, the banderhobb can take the Hide action as a bonus action.
-
-  
-
-
-
 
 actions:
   - name: "Bite"
@@ -73,8 +66,3 @@ actions:
   - name: "Shadow Step"
     description: |
       The banderhobb magically teleports up to 30 feet to an unoccupied space of dim light or darkness that it can see. Before or after teleporting, it can make a bite or tongue attack.
-
-  
-
-
-

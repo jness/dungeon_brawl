@@ -1,4 +1,3 @@
-
 name: "Kenku"
 slug_name: "kenku"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Ambusher"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
 
-  
-
-
-
-
 actions:
   - name: "Shortsword"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Shortbow"
     description: |
       Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
-
-  
-
-
-

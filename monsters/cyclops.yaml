@@ -1,4 +1,3 @@
-
 name: "Cyclops"
 slug_name: "cyclops"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Poor Depth Perception"
     description: |
       The cyclops has disadvantage on any attack roll against a target more than 30 ft. away.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Rock"
     description: |
       Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.
-
-  
-
-
-

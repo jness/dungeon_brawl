@@ -1,4 +1,3 @@
-
 name: "Vegepygmy Chief"
 slug_name: "vegepygmy-chief"
 
@@ -39,11 +38,6 @@ damage_resistances: "lightning, piercing"
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -60,8 +54,3 @@ actions:
   - name: "Spores (1/Day)"
     description: |
       A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

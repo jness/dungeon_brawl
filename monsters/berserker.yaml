@@ -1,4 +1,3 @@
-
 name: "Berserker"
 slug_name: "berserker"
 
@@ -40,23 +39,12 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Reckless"
     description: |
       At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
 
-  
-
-
-
-
 actions:
   - name: "Greataxe"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.
-
-  
-
-
-

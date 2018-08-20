@@ -1,4 +1,3 @@
-
 name: "Black Pudding"
 slug_name: "black-pudding"
 
@@ -40,7 +39,6 @@ damage_immunities: "acid, cold, lightning, slashing"
 damage_vulnerabilities: null
 condition_immunities: "blinded, charmed, deafened, exhaustion, frightened, prone"
 
-
 special_abilities:
   - name: "Amorphous"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-  
-
-
-
-
 actions:
   - name: "Pseudopod"
     description: |
@@ -69,8 +62,3 @@ actions:
   - name: "Split"
     description: |
       When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding.
-
-  
-
-
-

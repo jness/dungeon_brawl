@@ -1,4 +1,3 @@
-
 name: "Oreioth"
 slug_name: "oreioth"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Grim Harvest"
     description: |
@@ -49,10 +47,6 @@ special_abilities:
   - name: "Swift Animation (Recharges after a Long Rest)"
     description: |
       When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time.
-
-  
-
-
 
 spell_casting:
   - name: "Spellcasting"
@@ -64,15 +58,7 @@ spell_casting:
       2nd level (3 slots): crown of madness, misty step
       3rd level (3 slots): animate dead, vampiric touch
 
-  
-
-
 actions:
   - name: "Dagger"
     description: |
       Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
-
-  
-
-
-

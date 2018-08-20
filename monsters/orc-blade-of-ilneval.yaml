@@ -1,4 +1,3 @@
-
 name: "Orc Blade of Ilneval"
 slug_name: "orc-blade-of-ilneval"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Aggressive"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Foe Smiter of Ilneval"
     description: |
       The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -71,8 +64,3 @@ actions:
   - name: "Ilneval's Command (Recharges 4-6)"
     description: |
       Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.
-
-  
-
-
-

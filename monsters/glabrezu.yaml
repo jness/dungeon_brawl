@@ -1,4 +1,3 @@
-
 name: "Glabrezu"
 slug_name: "glabrezu"
 
@@ -40,15 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Magic Resistance"
     description: |
       The glabrezu has advantage on saving throws against spells and other magical effects.
-
-  
-
-
 
 spell_casting:
   - name: "Innate Spellcasting"
@@ -57,9 +51,6 @@ spell_casting:
 
       At will: darkness, detect magic, dispel magic
       1/day each: confusion, fly, power word stun
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -81,8 +72,3 @@ actions:
       A glabrezu has a 30 percent chance of summoning 1d3 vrocks, 1d2 hezrous, or one glabrezu.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-

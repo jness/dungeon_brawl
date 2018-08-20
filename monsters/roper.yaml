@@ -1,4 +1,3 @@
-
 name: "Roper"
 slug_name: "roper"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "False Appearance"
     description: |
@@ -53,11 +51,6 @@ special_abilities:
   - name: "Spider Climb"
     description: |
       The roper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -75,8 +68,3 @@ actions:
   - name: "Reel"
     description: |
       The roper pulls each creature grappled by it up to 25 ft. straight toward it.
-
-  
-
-
-

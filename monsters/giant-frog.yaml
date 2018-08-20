@@ -1,4 +1,3 @@
-
 name: "Giant Frog"
 slug_name: "giant-frog"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -50,11 +48,6 @@ special_abilities:
     description: |
       The frog's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
@@ -63,8 +56,3 @@ actions:
   - name: "Swallow"
     description: |
       The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.
-
-  
-
-
-

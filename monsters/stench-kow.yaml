@@ -1,4 +1,3 @@
-
 name: "Stench Kow"
 slug_name: "stench-kow"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Charge"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       Any creature other than a stench kow that starts its turn within 5 feet of the stench kow must succeed on a DC 26 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all stench kows for 1 hour.
 
-  
-
-
-
-
 actions:
   - name: "Gore"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.
-
-  
-
-
-

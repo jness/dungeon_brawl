@@ -1,4 +1,3 @@
-
 name: "Wereraven"
 slug_name: "wereraven"
 
@@ -40,7 +39,6 @@ damage_immunities: "bludgeoning, piercing, and slashing from nonmagical attacks 
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Shapechanger"
     description: |
@@ -49,11 +47,6 @@ special_abilities:
   - name: "Mimicry"
     description: |
       The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack (Human or Hybrid Form Only)"
@@ -71,8 +64,3 @@ actions:
   - name: "Hand Crossbow (Humanoid or Hybrid Form Only)"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-  
-
-
-

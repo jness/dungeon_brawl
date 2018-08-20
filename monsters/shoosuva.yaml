@@ -1,4 +1,3 @@
-
 name: "Shoosuva"
 slug_name: "shoosuva"
 
@@ -40,16 +39,10 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "charmed, frightened, poisoned"
 
-
 special_abilities:
   - name: "Rampage"
     description: |
       When it reduces a creature to 0 hit points with a melee attack on its turn, the shoosuva can take a bonus action to move up to half its speed and make a bite attack.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -63,8 +56,3 @@ actions:
   - name: "Tail Stinger"
     description: |
       Melee Weapon Attack: +7 to hit, reach 15 ft, one creature. Hit: 13 (2d8+4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  
-
-
-

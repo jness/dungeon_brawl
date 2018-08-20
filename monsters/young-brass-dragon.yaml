@@ -1,4 +1,3 @@
-
 name: "Young Brass Dragon"
 slug_name: "young-brass-dragon"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: "fire"
 damage_vulnerabilities: null
 condition_immunities: null
-
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -64,8 +58,3 @@ actions:
       Fire Breath. The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.
 
       Sleep Breath. The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
-
-  
-
-
-

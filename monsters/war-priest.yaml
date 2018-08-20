@@ -1,4 +1,3 @@
-
 name: "War Priest"
 slug_name: "war-priest"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -54,9 +50,6 @@ spell_casting:
       3rd level (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water wall
       4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin
       5th level (1 slot): flame strike, mass cure wounds, hold monster
-
-  
-
 
 actions:
   - name: "Multiattack"
@@ -72,8 +65,3 @@ actions:
   - name: "Guided Strike (Recharges after a Short or Long Rest)"
     description: |
       The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.
-
-  
-
-
-

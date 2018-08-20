@@ -1,4 +1,3 @@
-
 name: "Purple Worm"
 slug_name: "purple-worm"
 
@@ -40,16 +39,10 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Tunneler"
     description: |
       The worm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -65,8 +58,3 @@ actions:
   - name: "Tail Stinger"
     description: |
       Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 19 (3d6 + 9) piercing damage, and the target must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Drow"
 slug_name: "drow"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Fey Ancestry"
     description: |
@@ -50,10 +48,6 @@ special_abilities:
     description: |
       While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
-  
-
-
-
 spell_casting:
   - name: "Innate Spellcasting"
     description: |
@@ -61,9 +55,6 @@ spell_casting:
 
       At will: dancing lights
       1/day each: darkness, faerie fire
-
-  
-
 
 actions:
   - name: "Shortsword"
@@ -73,8 +64,3 @@ actions:
   - name: "Hand Crossbow"
     description: |
       Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
-
-  
-
-
-

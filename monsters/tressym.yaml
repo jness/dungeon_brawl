@@ -1,4 +1,3 @@
-
 name: "Tressym"
 slug_name: "tressym"
 
@@ -40,7 +39,6 @@ damage_immunities: "poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Detect Invisibility"
     description: |
@@ -54,17 +52,7 @@ special_abilities:
     description: |
       The tressym can detect whether a substance is poisonous by taste, touch, or smell.
 
-  
-
-
-
-
 actions:
   - name: "Claws"
     description: |
       Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Dragonclaw"
 slug_name: "dragonclaw"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Dragon Fanatic"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -67,8 +60,3 @@ actions:
   - name: "Scimitar"
     description: |
       Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  
-
-
-

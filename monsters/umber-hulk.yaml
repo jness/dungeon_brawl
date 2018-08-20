@@ -1,4 +1,3 @@
-
 name: "Umber Hulk"
 slug_name: "umber-hulk"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Confusing Gaze"
     description: |
@@ -54,11 +52,6 @@ special_abilities:
     description: |
       The umber hulk can burrow through solid rock at half its burrowing speed and leaves a 5 foot-wide, 8-foot-high tunnel in its wake.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -71,8 +64,3 @@ actions:
   - name: "Mandibles"
     description: |
       Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
-
-  
-
-
-

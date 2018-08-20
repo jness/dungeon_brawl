@@ -1,4 +1,3 @@
-
 name: "Needle Blight"
 slug_name: "needle-blight"
 
@@ -39,11 +38,6 @@ damage_resistances: null
 damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: "blinded, deafened"
-
-
-
-
-
 actions:
   - name: "Claws"
     description: |
@@ -52,8 +46,3 @@ actions:
   - name: "Needles"
     description: |
       Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.
-
-  
-
-
-

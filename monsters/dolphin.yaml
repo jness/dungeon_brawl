@@ -1,4 +1,3 @@
-
 name: "Dolphin"
 slug_name: "dolphin"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Charge"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The dolphin can hold its breath for 20 minutes.
 
-  
-
-
-
-
 actions:
   - name: "Slam"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
-
-  
-
-
-

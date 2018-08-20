@@ -1,4 +1,3 @@
-
 name: "Enchanter"
 slug_name: "enchanter"
 
@@ -40,9 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
-
-
 spell_casting:
   - name: "Spellcasting"
     description: |
@@ -55,11 +51,7 @@ spell_casting:
       4th level (3 slots): dominate beast*, stoneskin
       5th level (2 slots): hold monster*
       *Enchantment spell of 1st level or higher
-
-
   
-
-
 actions:
   - name: "Quarterstaff"
     description: |
@@ -72,8 +64,3 @@ actions:
       The enchanter tries to magically divert an attack made against it, provided that the attacker is within 30 feet of it and visible to it. The enchanter must decide to do so before the attack hits or misses.
 
       The attacker must make a DC 14 Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than the enchanter or itself. If multiple creatures are closest, the attacker chooses which one to target.
-
-  
-
-
-

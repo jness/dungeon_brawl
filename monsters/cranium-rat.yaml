@@ -1,4 +1,3 @@
-
 name: "Cranium Rat"
 slug_name: "cranium-rat"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Illumination"
     description: |
@@ -50,17 +48,7 @@ special_abilities:
     description: |
       The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
 
-  
-
-
-
-
 actions:
   - name: "Bite"
     description: |
       Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.
-
-  
-
-
-

@@ -1,4 +1,3 @@
-
 name: "Kuo-Toa Monitor"
 slug_name: "kuo-toa-monitor"
 
@@ -40,7 +39,6 @@ damage_immunities: null
 damage_vulnerabilities: null
 condition_immunities: null
 
-
 special_abilities:
   - name: "Amphibious"
     description: |
@@ -62,11 +60,6 @@ special_abilities:
     description: |
       The kuo-toa adds its Wisdom modifier to its armor class.
 
-  
-
-
-
-
 actions:
   - name: "Multiattack"
     description: |
@@ -79,8 +72,3 @@ actions:
   - name: "Unarmed Strike"
     description: |
       Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
-
-  
-
-
-

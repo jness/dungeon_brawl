@@ -1,4 +1,3 @@
-
 name: "Balor"
 slug_name: "balor"
 
@@ -40,7 +39,6 @@ damage_immunities: "fire, poison"
 damage_vulnerabilities: null
 condition_immunities: "poisoned"
 
-
 special_abilities:
   - name: "Death Throes"
     description: |
@@ -57,11 +55,6 @@ special_abilities:
   - name: "Magic Weapons"
     description: |
       The balor's weapon attacks are magical.
-
-  
-
-
-
 
 actions:
   - name: "Multiattack"
@@ -87,8 +80,3 @@ actions:
       A balor has a 50 percent chance of summoning 1d8 vrocks, 1d6 hezrous, 1d4 glabrezus, 1d3 nalfeshnees, 1d2 mariliths, or one goristro.
 
       A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
-  
-
-
-
