@@ -151,16 +151,17 @@
       {% for _spells in spell_casting.spells %}
       {% for spell_level, spells in _spells.items() %}
         <div class="padding">
-        &nbsp;&nbsp;&nbsp;• {{ spell_level }}:
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• {{ spell_level }}:
         {% for spell in spells %}
           <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
         </div>
       {% endfor %}
       {% endfor %}
+      <br>
 
       {% if spell_casting.bottom_description %}
-        </br><span class="whitespace">{{ spell_casting.bottom_description }}</span>
+        <span class="whitespace">{{ spell_casting.bottom_description }}</span>
       {% endif %}
     {% endfor %}
 
