@@ -49,7 +49,7 @@
   <!-- End monster ac, hp, and speed -->
 
   <!-- Begin monster attributes -->
-  <table width=65%>
+  <table class="tablepadding">
 
     <thead>
       <tr>
@@ -146,21 +146,21 @@
     {% for spell_casting in monster.spell_casting %}
       <h4><strong>{{ spell_casting.title }}</strong></h4><br>
 
-      <p class="whitespace">{{ spell_casting.top_description }}</p>
+      <span class="whitespace">{{ spell_casting.top_description }}</span><br>
 
       {% for _spells in spell_casting.spells %}
       {% for spell_level, spells in _spells.items() %}
-      <p>
-          &nbsp;&nbsp;&nbsp;• {{ spell_level }}:
+        <div class="padding">
+        &nbsp;&nbsp;&nbsp;• {{ spell_level }}:
         {% for spell in spells %}
-          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name|title }}</a>{% if not loop.last %},{% endif %}
+          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
-      </p>
+        </div>
       {% endfor %}
       {% endfor %}
 
       {% if spell_casting.bottom_description %}
-        <p class="whitespace">{{ spell_casting.bottom_description }}</p>
+        </br><span class="whitespace">{{ spell_casting.bottom_description }}</span>
       {% endif %}
     {% endfor %}
 

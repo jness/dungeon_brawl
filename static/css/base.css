@@ -29,6 +29,10 @@ body {
   line-height: 1.8;
 }
 
+.tablepadding td, th {
+  padding-right: 30px;
+}
+
 .bg-dark {
   background-color: #343a40 !important
 }
