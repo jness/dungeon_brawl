@@ -13,6 +13,11 @@ from flask import (
 # create our Flask application
 app = Flask(__name__)
 
+# https://stackoverflow.com/questions/3290424/set-a-cookie-to-never-expire
+# Make cookie as persistent as possible,
+# this keeps the brawl around even if browser is closed
+cookie_age = 2147483647
+
 # create our Mongo connection
 mongo = MongoClient('mongo', username='root', password='password')
 
@@ -234,7 +239,7 @@ def brawl_clear_monsters():
     response = redirect(url_for('brawl'))
 
     # set cookie to non monsters (characters only)
-    response.set_cookie('monsters', json.dumps(monsters))
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
 
 
@@ -292,7 +297,7 @@ def brawl_add_monster():
         response = redirect(url_for('brawl'))
 
         # set cookie for monsters
-        response.set_cookie('monsters', json.dumps(monsters))
+        response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
         return response
 
     # if we do not have a result render error
@@ -341,7 +346,7 @@ def brawl_add_character():
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters
-    response.set_cookie('monsters', json.dumps(monsters))
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
 
 
@@ -377,7 +382,7 @@ def brawl_roll_initiative():
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters
-    response.set_cookie('monsters', json.dumps(monsters))
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
 
 
@@ -459,7 +464,7 @@ def brawl_update_monster():
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters
-    response.set_cookie('monsters', json.dumps(monsters))
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
 
 
@@ -490,7 +495,7 @@ def brawl_remove_monster():
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters to new monster list
-    response.set_cookie('monsters', json.dumps(new_monsters))
+    response.set_cookie('monsters', json.dumps(new_monsters), max_age=cookie_age)
     return response
 
 
@@ -520,7 +525,7 @@ def brawl_set_turn():
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters to new monster list
-    response.set_cookie('monsters', json.dumps(monsters))
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
 
 
