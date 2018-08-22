@@ -41,6 +41,10 @@
         </li>
 
         <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#dice" href="/brawl">Dice</a>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link" href="/brawl">Brawl</a>
         </li>
 
@@ -57,12 +61,50 @@
   </div>
 </footer>
 
+
+<div class="modal fade" id="dice" tabindex="-1" role="dialog"
+  aria-labelledby="dice" aria-hidden="true">
+
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h2 class="modal-title"><strong>Dice</strong></h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <center>
+          <span class="dice"><img class="rounded" id="d20" width=90 onclick="roll_dice(20)" src="{{ url_for('static', filename='images/d20.png') }}"></span>
+          <span class="dice"><img class="rounded" id="d12" width=90 onclick="roll_dice(12)" src="{{ url_for('static', filename='images/d12.png') }}"></span>
+          <span class="dice"><img class="rounded" id="d10" width=90 onclick="roll_dice(10)" src="{{ url_for('static', filename='images/d10.png') }}"></span>
+          <span class="dice"><img class="rounded" id="d8" width=90 onclick="roll_dice(8)" src="{{ url_for('static', filename='images/d8.png') }}"></span>
+          <span class="dice"><img class="rounded" id="d6" width=90 onclick="roll_dice(6)" src="{{ url_for('static', filename='images/d6.png') }}"></span>
+          <span class="dice"><img class="rounded" id="d4" width=90 onclick="roll_dice(4)" src="{{ url_for('static', filename='images/d4.png') }}"></span>
+
+          <br><br>
+
+          <hr>
+          <h4><span id="dice_result"></span></h4>
+
+        </center>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
 </body>
 
 <!-- scripts -->
 <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 {% block javascript %}{% endblock %}
 <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/base.js') }}"></script>
 
 </body>
 </html>
