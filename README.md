@@ -1,44 +1,47 @@
 # **Dungeon Brawl**
 
-A simple [Flask](http://flask.pocoo.org/) + [MongoDB](https://www.mongodb.com/)
-application for reading [Dungons and Dragons](http://dnd.wizards.com/) monster
-stats.
+Dungeon brawl is a Python [Flask](http://flask.pocoo.org/) application
+with a [MongoDB](https://www.mongodb.com/) datastore, the stack runs
+inside [Docker](https://www.docker.com/) with the help of
+[docker-compose](https://docs.docker.com/compose/).
 
---> [YouTube Demo](https://www.youtube.com/watch?v=Dt1mFPOkvcE)
+Using this application a Dungeon Master can easily
+track all things combat for their [Dungeons and Dragons](http://dnd.wizards.com/)
+group.
 
-![alt text](https://i.imgur.com/GaFVBLn.png")
+Some of the application's major features include:
 
-![alt text](https://i.imgur.com/CN6LZEe.png")
+* Monster search
+* Spell search
+* Conditions search
+* RPG Dice
+* Combat turn tracking
 
-![alt text](https://i.imgur.com/l89RqzR.png")
+![alt text](https://i.imgur.com/xjuaW8v.png")
 
-![alt text](https://i.imgur.com/GYcN8F4.png")
-
-![alt text](https://i.imgur.com/M84sffF.png")
-
-![alt text](https://i.imgur.com/hazMySq.png")
-
+A demo of the application can be viewed here: [http://dnd.nessy.info](http://dnd.nessy.info)
 
 ## Requirements
 
- * Docker
- * docker-compose
+ * [Docker](https://www.docker.com/)
+ * [docker-compose](https://docs.docker.com/compose/)
 
-## Database
+## Datastore
 
-The MongoDB collections are **ONLY** populated during container startup,
-and **ONLY** if the collection does not already exist.
+Mongo's collections are **ONLY** populated during container startup,
+and **ONLY** if the collection does not already exist; this is thanks to the `populate.py` script.
 
-If you need to purge the database merely stop the containers:
+If you need to purge the datastore, first stop any running containers:
 
 > $ docker-compose down
 
-Then delete the the `mongo_data/` directory.
+then delete the `mongo_data/` directory, this directory
+will be recreated and populated the next time you start the stack.
 
-## Running server
+## Startup
 
-Use `docker-compose` to start the containers:
+Use `docker-compose` to start the stack:
 
 > $ docker-compose up
 
-Finally visit the running server: http://localhost:5000/
+Once running visit: http://localhost:5000/
