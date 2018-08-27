@@ -26,14 +26,14 @@ Spells
   <div class="form-row">
 
     <!-- Search input -->
-    <div class="col-7">
+    <div class="col-8 col-md-6">
       <label for="inputName" class="sr-only">Search Text</label>
       <input id="inputName" class="form-control" type="text" name="search_text"
-        value="{{ search_text }}" placeholder="Search Spell..." required autofocus>
+        value="{{ search_text }}" placeholder="Spell..." required autofocus>
     </div>
 
     <!-- Search types -->
-    <div class="col-3">
+    <div class="d-none d-md-block col-2">
       <select id="selectField" class="form-control form-select" name="search_field">
         <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %} selected="selected">Name</option>
         <option {% if search_field == 'school' %}selected="selected"{% endif %} value="school">School</option>
@@ -42,7 +42,7 @@ Spells
     </div>
 
     <!-- Search button -->
-    <div class="col-2">
+    <div class="col-4">
       <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
     </div>
 
@@ -63,14 +63,14 @@ Spells
       <tr>
         <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
         <th><a href='?sort=school&search_text={{ search_text }}&search_field={{ search_field }}'>School</a></th>
-        <th><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
       </tr>
 
       {% for spell in spells %}
       <tr>
         <td><a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a></td>
         <td>{{ spell.school }}</td>
-        <td>{{ spell.level }}</td>
+        <td class="d-none d-md-table-cell">{{ spell.level }}</td>
       </tr>
       {% endfor %}
 

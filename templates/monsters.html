@@ -26,14 +26,14 @@ Monsters
   <div class="form-row">
 
     <!-- Search input -->
-    <div class="col-7">
+    <div class="col-8 col-md-6">
       <label for="inputName" class="sr-only">Search Text</label>
       <input id="inputName" class="form-control" type="text" name="search_text"
-        value="{{ search_text }}" placeholder="Search Monster..." required autofocus>
+        value="{{ search_text }}" placeholder="Monster..." required autofocus>
     </div>
 
     <!-- Search types -->
-    <div class="col-3">
+    <div class="d-none d-md-block col-2">
       <select id="selectField" class="form-control form-select" name="search_field">
         <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %}>Name</option>
         <option value="alignment" {% if search_field == 'alignment' %}selected="selected"{% endif %}>Alignment</option>
@@ -44,7 +44,7 @@ Monsters
     </div>
 
     <!-- Search button -->
-    <div class="col-2">
+    <div class="col-4">
       <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
     </div>
 
@@ -65,10 +65,10 @@ Monsters
       <tr>
         <th>Add</th>
         <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
-        <th><a href='?sort=type&search_text={{ search_text }}&search_field={{ search_field }}'>Type</a></th>
-        <th><a href='?sort=size&search_text={{ search_text }}&search_field={{ search_field }}'>Size</a></th>
-        <th><a href='?sort=alignment&search_text={{ search_text }}&search_field={{ search_field }}'>Alignment</a></th>
-        <th><a href='?sort=challenge_rating_decimal&search_text={{ search_text }}&search_field={{ search_field }}'>Challenge</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=type&search_text={{ search_text }}&search_field={{ search_field }}'>Type</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=size&search_text={{ search_text }}&search_field={{ search_field }}'>Size</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=alignment&search_text={{ search_text }}&search_field={{ search_field }}'>Alignment</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=challenge_rating_decimal&search_text={{ search_text }}&search_field={{ search_field }}'>Challenge</a></th>
       </tr>
 
       {% for monster in monsters %}
@@ -78,10 +78,10 @@ Monsters
         </td>
 
         <td><a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a></td>
-        <td>{{ monster.type|title }}</td>
-        <td>{{ monster.size|title }}</td>
-        <td>{{ monster.alignment|title }}</td>
-        <td>{{ monster.challenge_rating }}</td>
+        <td class="d-none d-md-table-cell">{{ monster.type|title }}</td>
+        <td class="d-none d-md-table-cell">{{ monster.size|title }}</td>
+        <td class="d-none d-md-table-cell">{{ monster.alignment|title }}</td>
+        <td class="d-none d-md-table-cell">{{ monster.challenge_rating }}</td>
       </tr>
       {% endfor %}
 

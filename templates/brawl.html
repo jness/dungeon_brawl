@@ -19,59 +19,27 @@ Brawl
 
 {% block content %}
 
-<!-- Begin character add form -->
-<div class="container">
-  <form action='/brawl_add_character' method='POST'>
-
-    <div class="form-row">
-
-      <div class="col-3">
-        <input type="text" name="name" class="form-control" placeholder="Name" required>
-      </div>
-
-      <div class="col-3">
-        <input type="text" name="initiative_modifier" class="form-control" placeholder="Initiative Modifier (+5)" required>
-      </div>
-
-      <div class="col-2">
-        <input type="number" name="armor_class" class="form-control" placeholder="Armor Class" required>
-      </div>
-
-      <div class="col-2">
-        <input type="number" name="hit_points" class="form-control" placeholder="Hit Points" required>
-      </div>
-
-      <div class="col-2">
-        <button type="submit" class="btn btn-block btn-outline-info">Add</button>
-      </div>
-
-    </div>
-
-  </form>
-
-</div>
-
-<hr>
-<!-- End character add form -->
-
-
 <!-- Begin brawl buttons -->
 <div class="container">
 
   <div class="container">
 
+    <button class="btn btn-block btn-primary" data-toggle="modal" data-target="#add_character">Add Character</button>
+
+    <hr>
+
     <div class="form-row">
 
       <div class="col-4">
-        <button type="button" class="btn btn-block btn-warning" onclick="window.location='/brawl_clear_monsters';">Clear Monsters</button>
+        <button type="button" class="btn btn-block btn-warning" onclick="window.location='/brawl_reset';">Reset</button>
       </div>
 
       <div class="col-4">
-        <button type="button" class="btn btn-block btn-danger" onclick="window.location='/brawl_clear_all';">Clear All</button>
+        <button type="button" class="btn btn-block btn-danger" onclick="window.location='/brawl_clear';">Clear</button>
       </div>
 
       <div class="col-4">
-        <button type="button" class="btn btn-block btn-primary" onclick="window.location='/brawl_roll_initiative';">Roll Initiative</button>
+        <button type="button" class="btn btn-block btn-success" onclick="window.location='/brawl_roll_initiative';">Roll</button>
       </div>
 
     </div>
@@ -92,10 +60,10 @@ Brawl
       <th></th>
       <th>Initiative</th>
       <th>Name</th>
-      <th>Armor</th>
-      <th>Hit Points</th>
-      <th><center>Notes</center></th>
-      <th><center>Conditions</center></th>
+      <th class="d-none d-md-table-cell">Armor</th>
+      <th class="d-none d-md-table-cell">Hit Points</th>
+      <th class="d-none d-md-table-cell"><center>Notes</center></th>
+      <th class="d-none d-md-table-cell"><center>Conditions</center></th>
       <th><center>Edit</center></th>
     </tr>
 
@@ -118,11 +86,11 @@ Brawl
         {% endif %}
       </td>
 
-      <td>{{ monster.armor_class }}</td>
+      <td class="d-none d-md-table-cell">{{ monster.armor_class }}</td>
 
-      <td>{{ monster.hit_points }}</td>
+      <td class="d-none d-md-table-cell">{{ monster.hit_points }}</td>
 
-      <td>
+      <td class="d-none d-md-table-cell">
         <center>
           {% if monster.notes %}<img data-toggle="popover"
             data-content="{{ monster.notes }}"
@@ -131,7 +99,7 @@ Brawl
         </center>
       </td>
 
-      <td>
+      <td class="d-none d-md-table-cell">
         <center>
           {% if monster.conditions %}<img data-toggle="popover"
             data-content="{% for condition in monster.conditions %}<a href='/condition/{{ condition }}'>{{ condition|title }}</a>{% if not loop.last %}, {% endif %}{% endfor %}"
@@ -155,6 +123,59 @@ Brawl
   </table>
   <!-- End brawl -->
 
+
+  <div class="modal fade" id="add_character" tabindex="-1" role="dialog"
+    aria-labelledby="add_character" aria-hidden="true">
+
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h2 class="modal-title">Add Character</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form action='/brawl_add_character' method='POST'>
+
+        <div class="modal-body">
+
+            <div class="form-row">
+
+              <div class="col-12">
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
+              </div>
+
+              <br><br>
+
+              <div class="col-6">
+                <input id="name" class="form-control" type="number" name="initiative_modifier" placeholder="Init modifier" required>
+              </div>
+
+              <div class="col-3">
+                <input id="ac" class="form-control" type="text" name="armor_class" placeholder="AC" required>
+              </div>
+
+              <div class="col-3">
+                <input id="hp" class="form-control" type="text" name="hit_points" placeholder="HP" required>
+              </div>
+
+            </div>
+
+        </div>
+
+        <!-- Begin model footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+        <!-- End model footer -->
+
+        </form>
+      </div>
+    </div>
+  </div>
 
 <!-- Begin brawl modals -->
 {% for monster in monsters %}
@@ -181,19 +202,19 @@ Brawl
         <div class="row">
 
           <div class="col-4">
-            <strong>Initiative</strong>
+            <strong>Init</strong>
             <input id="name" class="form-control" type="number"
               value="{{ monster.initiative }}" name="initiative" required>
           </div>
 
           <div class="col-4">
-            <strong>Armor Class</strong>
+            <strong>AC</strong>
             <input id="ac" class="form-control" type="text" name="armor_class"
               value="{{ monster.armor_class }}"required>
           </div>
 
           <div class="col-4">
-            <strong>Hit Points</strong>
+            <strong>HP</strong>
             <input id="hp" class="form-control" type="text" name="hit_points"
               value="{{ monster.hit_points }}" required>
           </div>

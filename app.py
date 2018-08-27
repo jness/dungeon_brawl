@@ -223,8 +223,8 @@ def brawl():
     return render_template('brawl.html', monsters=monsters)
 
 
-@app.route('/brawl_clear_monsters', methods=['GET'])
-def brawl_clear_monsters():
+@app.route('/brawl_reset', methods=['GET'])
+def brawl_reset():
     """
     Clear monsters from brawl
     """
@@ -235,16 +235,24 @@ def brawl_clear_monsters():
     # fetch non monsters from cookie
     monsters = [m for m in monsters if m['is_character'] == True]
 
+    # reset initiative
+    new_monsters = []
+    for monster in monsters:
+        if 'initiative' in monster:
+            del(monster['initiative'])
+        new_monsters.append(monster)
+
     # create redirect to brawl page
     response = redirect(url_for('brawl'))
 
     # set cookie to non monsters (characters only)
-    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
+    response.set_cookie(
+        'monsters', json.dumps(new_monsters), max_age=cookie_age)
     return response
 
 
-@app.route('/brawl_clear_all', methods=['GET'])
-def brawl_clear_all():
+@app.route('/brawl_clear', methods=['GET'])
+def brawl_clear():
     """
     Clear all from brawl
     """

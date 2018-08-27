@@ -150,8 +150,8 @@
 
       {% for _spells in spell_casting.spells %}
       {% for spell_level, spells in _spells.items() %}
-        <div class="padding">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• {{ spell_level }}:
+        <div class="spellpadding">
+        • {{ spell_level }}:
         {% for spell in spells %}
           <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
