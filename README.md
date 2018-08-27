@@ -17,7 +17,7 @@ Some of the application's major features include:
 * RPG Dice
 * Combat turn tracking
 
-![alt text](https://i.imgur.com/xjuaW8v.png")
+![alt text](https://i.imgur.com/jRCfW5s.png")
 
 A demo of the application can be viewed here: [http://dnd.nessy.info](http://dnd.nessy.info)
 
