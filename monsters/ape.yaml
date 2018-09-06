@@ -1,52 +1,34 @@
-name: "Ape"
-slug_name: "ape"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "19"
-hit_dice: "3d8+6"
-speed: "30 ft., climb 30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Athletics +5, Perception +3"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Ape
+slug_name: ape
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 19
+hit_dice: 3d8+6
+speed: 30 ft., climb 30 ft.
+strength: 16
+dexterity: 14
+constitution: 14
+intelligence: 6
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Athletics +5, Perception +3
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      The ape makes two fist attacks.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.
-
-  - name: "Rock"
-    description: |
-      Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.
+   - name: Multiattack
+     description: The ape makes two fist attacks.
+   - name: Fist
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.'
+   - name: Rock
+     description: 'Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.'

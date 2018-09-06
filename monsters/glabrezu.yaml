@@ -1,96 +1,60 @@
-name: "Glabrezu"
-slug_name: "glabrezu"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "demon"
-alignment: "chaotic evil"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "157"
-hit_dice: "15d10+75"
-speed: "40 ft."
-
-strength: "20"
-strength_modifier: "+5"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "21"
-constitution_modifier: "+5"
-intelligence: "19"
-intelligence_modifier: "+4"
-wisdom: "17"
-wisdom_modifier: "+3"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Str +9, Con +9, Wis +7, Cha +7"
-skills: null
-senses: "truesight 120 ft."
-languages: "Abyssal, telepathy 120 ft."
-
-damage_resistances: "cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Glabrezu
+slug_name: glabrezu
+challenge_rating: 9.0
+experience: 5000
+size: Large
+type: fiend
+subtype: demon
+alignment: chaotic evil
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 157
+hit_dice: 15d10+75
+speed: 40 ft.
+strength: 20
+dexterity: 15
+constitution: 21
+intelligence: 19
+wisdom: 17
+charisma: 16
+saving_throws: Str +9, Con +9, Wis +7, Cha +7
+skills:
+senses: truesight 120 ft.
+languages: Abyssal, telepathy 120 ft.
+damage_resistances: cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The glabrezu has advantage on saving throws against spells and other magical effects.
-
+   - name: Magic Resistance
+     description: The glabrezu has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.
-
-  - name: "Pincer"
-    description: |
-      Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.
-
-  - name: "Variant: Summon Demon (1/Day)"
-    description: |
-      The demon chooses what to summon and attempts a magical summoning.
-
-      A glabrezu has a 30 percent chance of summoning 1d3 vrocks, 1d2 hezrous, or one glabrezu.
-
-      A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
+   - name: Multiattack
+     description: 'The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.'
+   - name: Pincer
+     description: 'Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.'
+   - name: Fist
+     description: 'Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.'
+   - name: 'Variant: Summon Demon (1/Day)'
+     description: "The demon chooses what to summon and attempts a magical summoning.\n\nA glabrezu has a 30 percent chance of summoning 1d3 vrocks, 1d2 hezrous, or one glabrezu.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "detect magic"
-          slug_name: "detect-magic"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-
-      - "1/day each":
-        - name: " confusion"
-          slug_name: "confusion"
-
-        - name: "fly"
-          slug_name: "fly"
-
-        - name: "power word stun"
-          slug_name: "power-word-stun"
+   - title: Innate Spellcasting
+     top_description: "The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: detect magic
+               slug_name: detect-magic
+             - name: dispel magic
+               slug_name: dispel-magic
+        - title: 1/day each
+          spells:
+             - name: confusion
+               slug_name: confusion
+             - name: fly
+               slug_name: fly
+             - name: power word stun
+               slug_name: power-word-stun

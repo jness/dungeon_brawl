@@ -1,95 +1,62 @@
-name: "Hobgoblin Iron Shadow"
-slug_name: "hobgoblin-iron-shadow"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "goblinoid"
-alignment: "lawful evil"
-
-armor_class: "15"
-armor_class_type: null
-hit_points: "32"
-hit_dice: "5d8+10"
-speed: "40 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Acrobatics +5, Athletics +4, Stealth +5"
-senses: "darkvision 60 ft."
-languages: "Common, Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Hobgoblin Iron Shadow
+slug_name: hobgoblin-iron-shadow
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: goblinoid
+alignment: lawful evil
+armor_class: 15
+armor_class_type:
+hit_points: 32
+hit_dice: 5d8+10
+speed: 40 ft.
+strength: 14
+dexterity: 16
+constitution: 15
+intelligence: 14
+wisdom: 15
+charisma: 11
+saving_throws:
+skills: Acrobatics +5, Athletics +4, Stealth +5
+senses: darkvision 60 ft.
+languages: Common, Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Unarmored Defense"
-    description: |
-      While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
-
+   - name: Unarmored Defense
+     description: While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
 actions:
-  - name: "Multiattack"
-    description: |
-      The hobgoblin makes four attacks, each of which can be an unarmed strike or a dart attack. It can also use Shadow Jaunt once, either before or after one of the attacks.
-
-  - name: "Unarmed Strike"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 5 (1d4+3) bludgeoning damage.
-
-  - name: "Dart"
-    description: |
-      Ranged Weapon Attack: +5 to hit, range 20/60 it, one target. Hit: 5 (1d4+3) piercing damage.
-
-  - name: "Shadow Jaunt"
-    description: |
-      The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness.
-
+   - name: Multiattack
+     description: The hobgoblin makes four attacks, each of which can be an unarmed strike or a dart attack. It can also use Shadow Jaunt once, either before or after one of the attacks.
+   - name: Unarmed Strike
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 5 (1d4+3) bludgeoning damage.'
+   - name: Dart
+     description: 'Ranged Weapon Attack: +5 to hit, range 20/60 it, one target. Hit: 5 (1d4+3) piercing damage.'
+   - name: Shadow Jaunt
+     description: The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "true strike"
-          slug_name: "true-strike"
-
-
-      - "1st level (3 slots)":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
-
-        - name: "expeditious retreat"
-          slug_name: "expeditious-retreat"
-
-        - name: "silent image"
-          slug_name: "silent-image"
+   - title: Spellcasting
+     top_description: 'The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: true strike
+               slug_name: true-strike
+        - title: 1st level (3 slots)
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: disguise self
+               slug_name: disguise-self
+             - name: expeditious retreat
+               slug_name: expeditious-retreat
+             - name: silent image
+               slug_name: silent-image

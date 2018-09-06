@@ -1,72 +1,43 @@
-name: "Erinyes"
-slug_name: "erinyes"
-
-challenge_rating: "12"
-challenge_rating_decimal: "12.0"
-experience: "8,400 XP"
-
-size: "Medium"
-type: "fiend"
-subtype: "devil"
-alignment: "lawful evil"
-
-armor_class: "18"
-armor_class_type: "plate"
-hit_points: "153"
-hit_dice: "18d8+72"
-speed: "30 ft., fly 60 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Dex +7, Con +8, Wis +6, Cha +8"
-skills: null
-senses: "truesight 120 ft."
-languages: "Infernal, telepathy 120 ft."
-
-damage_resistances: "cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-damage_immunities: "fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Erinyes
+slug_name: erinyes
+challenge_rating: 12.0
+experience: 8400
+size: Medium
+type: fiend
+subtype: devil
+alignment: lawful evil
+armor_class: 18
+armor_class_type: plate
+hit_points: 153
+hit_dice: 18d8+72
+speed: 30 ft., fly 60 ft.
+strength: 18
+dexterity: 16
+constitution: 18
+intelligence: 14
+wisdom: 14
+charisma: 18
+saving_throws: Dex +7, Con +8, Wis +6, Cha +8
+skills:
+senses: truesight 120 ft.
+languages: Infernal, telepathy 120 ft.
+damage_resistances: cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+damage_immunities: fire, poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Hellish Weapons"
-    description: |
-      The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).
-
-  - name: "Magic Resistance"
-    description: |
-      The erinyes has advantage on saving throws against spells and other magical effects.
-
+   - name: Hellish Weapons
+     description: The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).
+   - name: Magic Resistance
+     description: The erinyes has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The erinyes makes three attacks
-
-  - name: "Longsword"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) poison damage.
-
-  - name: "Longbow"
-    description: |
-      Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.
-
-  - name: "Variant: Rope of Entanglement"
-    description: |
-      Some erinyes carry a rope of entanglement (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multiattack, the erinyes can use the rope in place of two of the attacks.
-
-      **Reactions**
-
-  - name: "Parry"
-    description: |
-      The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.
+   - name: Multiattack
+     description: The erinyes makes three attacks
+   - name: Longsword
+     description: 'Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) poison damage.'
+   - name: Longbow
+     description: 'Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.'
+   - name: 'Variant: Rope of Entanglement'
+     description: "Some erinyes carry a rope of entanglement (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multiattack, the erinyes can use the rope in place of two of the attacks.\n\n**Reactions**"
+   - name: Parry
+     description: The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.

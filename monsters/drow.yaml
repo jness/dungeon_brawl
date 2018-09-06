@@ -1,79 +1,52 @@
-name: "Drow"
-slug_name: "drow"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "elf"
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "chain shirt"
-hit_points: "13"
-hit_dice: "3d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Perception +2, Stealth +4"
-senses: "darkvision 120 ft."
-languages: "Elvish, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Drow
+slug_name: drow
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: humanoid
+subtype: elf
+alignment: neutral evil
+armor_class: 15
+armor_class_type: chain shirt
+hit_points: 13
+hit_dice: 3d8
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 10
+intelligence: 11
+wisdom: 11
+charisma: 12
+saving_throws:
+skills: Perception +2, Stealth +4
+senses: darkvision 120 ft.
+languages: Elvish, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Fey Ancestry"
-    description: |
-      The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Fey Ancestry
+     description: The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  - name: "Hand Crossbow"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
-
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.'
+   - name: Hand Crossbow
+     description: 'Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " dancing lights"
-          slug_name: "dancing-lights"
-
-
-      - "1/day each":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "faerie fire"
-          slug_name: "faerie-fire"
+   - title: Innate Spellcasting
+     top_description: "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: dancing lights
+               slug_name: dancing-lights
+        - title: 1/day each
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: faerie fire
+               slug_name: faerie-fire

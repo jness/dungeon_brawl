@@ -1,48 +1,32 @@
-name: "Skeleton"
-slug_name: "skeleton"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "armor scraps"
-hit_points: "13"
-hit_dice: "2d8+4"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "8"
-wisdom_modifier: "-1"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "understands all languages it spoke in life but can't speak"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: "bludgeoning"
-condition_immunities: "poisoned"
+name: Skeleton
+slug_name: skeleton
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: undead
+subtype:
+alignment: lawful evil
+armor_class: 13
+armor_class_type: armor scraps
+hit_points: 13
+hit_dice: 2d8+4
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 15
+intelligence: 6
+wisdom: 8
+charisma: 5
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: understands all languages it spoke in life but can't speak
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities: bludgeoning
+condition_immunities: poisoned
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
-
-  - name: "Shortbow"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.'
+   - name: Shortbow
+     description: 'Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.'

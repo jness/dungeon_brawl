@@ -1,58 +1,37 @@
-name: "Darkling Elder"
-slug_name: "darkling-elder"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "fey"
-subtype: null
-alignment: "chaotic neutral"
-
-armor_class: "15"
-armor_class_type: "studded leather armor"
-hit_points: "27"
-hit_dice: "5d8+5"
-speed: "30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Acrobatics +5, Deception +3, Perception +6, Stealth +7"
-senses: "blindsight 30 ft., darkvision 120 ft."
-languages: "Elvish, Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Darkling Elder
+slug_name: darkling-elder
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: fey
+subtype:
+alignment: chaotic neutral
+armor_class: 15
+armor_class_type: studded leather armor
+hit_points: 27
+hit_dice: 5d8+5
+speed: 30 ft.
+strength: 13
+dexterity: 17
+constitution: 12
+intelligence: 10
+wisdom: 14
+charisma: 13
+saving_throws:
+skills: Acrobatics +5, Deception +3, Perception +6, Stealth +7
+senses: blindsight 30 ft., darkvision 120 ft.
+languages: Elvish, Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Death Burn"
-    description: |
-      When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a DC 11 Constitution saving throw. On a failure, the creature takes 7 (2d6) radiant damage and, if the creature can see the light, is blinded until the end of its next turn. If the saving throw is successful, the creature takes half the damage and isn't blinded.
-
+   - name: Death Burn
+     description: When the darkling elder dies, magical light flashes out from it in a 10-foot radius as its body and possessions, other than metal or magic objects, burn to ash. Any creature in that area must make a DC 11 Constitution saving throw. On a failure, the creature takes 7 (2d6) radiant damage and, if the creature can see the light, is blinded until the end of its next turn. If the saving throw is successful, the creature takes half the damage and isn't blinded.
 actions:
-  - name: "Multiattack"
-    description: |
-      The darkling elder makes two melee attacks.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 fit, one target. Hit: 6 (1d6+3) piercing damage. If the darkling elder had advantage on the attack roll, the attack deals as: extra 10 (3d6) piercing damage.
-
-  - name: "Darkness (Recharges after a Short or Long Rest)"
-    description: |
-      The darkling elder casts darkness without any components. Wisdom is its spellcasting ability.
+   - name: Multiattack
+     description: The darkling elder makes two melee attacks.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 fit, one target. Hit: 6 (1d6+3) piercing damage. If the darkling elder had advantage on the attack roll, the attack deals as: extra 10 (3d6) piercing damage.'
+   - name: Darkness (Recharges after a Short or Long Rest)
+     description: The darkling elder casts darkness without any components. Wisdom is its spellcasting ability.

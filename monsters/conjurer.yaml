@@ -1,120 +1,82 @@
-name: "Conjurer"
-slug_name: "conjurer"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "40"
-hit_dice: "9d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +6, Wis +4"
-skills: "Arcana +6, History +6"
-senses: null
-languages: "any four languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Conjurer
+slug_name: conjurer
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 40
+hit_dice: 9d8
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 11
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws: Int +6, Wis +4
+skills: Arcana +6, History +6
+senses:
+languages: any four languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)"
-    description: |
-      As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.
-
+   - name: Benign Transportation (Recharges after the Conjurer Casts a Conjuration Spell of 1st Level or Higher)
+     description: As a bonus action, the conjurer teleports up to 30 feet to an unoccupied space that it can see. If it instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:
-
-    bottom_description: |
-      *Conjuration spell of 1st level or higher
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "unseen servant*"
-          slug_name: "unseen-servant"
-
-
-      - "2nd level (3 slots)":
-        - name: " cloud of daggers*"
-          slug_name: "cloud-of-daggers"
-
-        - name: "misty step*"
-          slug_name: "misty-step"
-
-        - name: "web*"
-          slug_name: "web"
-
-
-      - "3rd level (3 slots)":
-        - name: " fireball"
-          slug_name: "fireball"
-
-        - name: "stinking cloud*"
-          slug_name: "stinking-cloud"
-
-
-      - "4th level (3 slots)":
-        - name: " Evard's black tentacles*"
-          slug_name: "evard"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (2 slots)":
-        - name: " cloudkill*"
-          slug_name: "cloudkill"
-
-        - name: "conjure elemental*"
-          slug_name: "conjure-elemental"
+   - title: Spellcasting
+     top_description: 'The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:'
+     bottom_description: '*Conjuration spell of 1st level or higher'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: mage hand
+               slug_name: mage-hand
+             - name: poison spray
+               slug_name: poison-spray
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: unseen servant*
+               slug_name: unseen-servant
+        - title: 2nd level (3 slots)
+          spells:
+             - name: cloud of daggers*
+               slug_name: cloud-of-daggers
+             - name: misty step*
+               slug_name: misty-step
+             - name: web*
+               slug_name: web
+        - title: 3rd level (3 slots)
+          spells:
+             - name: fireball
+               slug_name: fireball
+             - name: stinking cloud*
+               slug_name: stinking-cloud
+        - title: 4th level (3 slots)
+          spells:
+             - name: Evard's black tentacles*
+               slug_name: evard
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (2 slots)
+          spells:
+             - name: cloudkill*
+               slug_name: cloudkill
+             - name: conjure elemental*
+               slug_name: conjure-elemental

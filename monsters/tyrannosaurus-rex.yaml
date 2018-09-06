@@ -1,52 +1,34 @@
-name: "Tyrannosaurus Rex"
-slug_name: "tyrannosaurus-rex"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Huge"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "136"
-hit_dice: "13d12+52"
-speed: "50 ft."
-
-strength: "25"
-strength_modifier: "+7"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "19"
-constitution_modifier: "+4"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +4"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Tyrannosaurus Rex
+slug_name: tyrannosaurus-rex
+challenge_rating: 8.0
+experience: 3900
+size: Huge
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 136
+hit_dice: 13d12+52
+speed: 50 ft.
+strength: 25
+dexterity: 10
+constitution: 19
+intelligence: 2
+wisdom: 12
+charisma: 9
+saving_throws:
+skills: Perception +4
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.
+   - name: Multiattack
+     description: "The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+   - name: Bite
+     description: "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target."
+   - name: Tail
+     description: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.'

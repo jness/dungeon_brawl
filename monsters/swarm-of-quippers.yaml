@@ -1,58 +1,37 @@
-name: "Swarm of Quippers"
-slug_name: "swarm-of-quippers"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Medium"
-type: "swarm"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "28"
-hit_dice: "8d8-8"
-speed: "0 ft., swim 40 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "9"
-constitution_modifier: "-1"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "7"
-wisdom_modifier: "-2"
-charisma: "2"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: "bludgeoning, piercing, slashing"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
-
+name: Swarm of Quippers
+slug_name: swarm-of-quippers
+challenge_rating: 1.0
+experience: 200
+size: Medium
+type: swarm
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type:
+hit_points: 28
+hit_dice: 8d8-8
+speed: 0 ft., swim 40 ft.
+strength: 13
+dexterity: 16
+constitution: 9
+intelligence: 1
+wisdom: 7
+charisma: 2
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages:
+damage_resistances: bludgeoning, piercing, slashing
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
 special_abilities:
-  - name: "Blood Frenzy"
-    description: |
-      The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.
-
-  - name: "Swarm"
-    description: |
-      The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.
-
-  - name: "Water Breathing"
-    description: |
-      The swarm can breathe only underwater.
-
+   - name: Blood Frenzy
+     description: The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+   - name: Swarm
+     description: The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points.
+   - name: Water Breathing
+     description: The swarm can breathe only underwater.
 actions:
-  - name: "Bites"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.
+   - name: Bites
+     description: "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer."

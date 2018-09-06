@@ -1,94 +1,64 @@
-name: "One-Eyed Shiver"
-slug_name: "one-eyed-shiver"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "49"
-hit_dice: "9d8+9"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "17"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Arcana +3, Perception +3, Intimidation +5"
-senses: null
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: "cold"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: One-Eyed Shiver
+slug_name: one-eyed-shiver
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 49
+hit_dice: 9d8+9
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 12
+intelligence: 13
+wisdom: 13
+charisma: 17
+saving_throws:
+skills: Arcana +3, Perception +3, Intimidation +5
+senses:
+languages: Common
+damage_resistances:
+damage_immunities: cold
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Chilling Mist"
-    description: |
-      While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage.
-
+   - name: Chilling Mist
+     description: While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
-  - name: "Eye of Frost"
-    description: |
-      The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check.
-
+   - name: Dagger
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
+   - name: Eye of Frost
+     description: The one-eyed shiver casts ray of frost from its missing eye. If it hits, the target is also restrained. A target restrained in this way can end the condition by using an action, succeeding on a DC 13 Strength check.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-
-      - "1st level (4 slots)":
-        - name: " fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " mirror image"
-          slug_name: "mirror-image"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-
-      - "3rd level (2 slots)":
-        - name: " fear"
-          slug_name: "fear"
+   - title: Spellcasting
+     top_description: 'The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: mage hand
+               slug_name: mage-hand
+        - title: 1st level (4 slots)
+          spells:
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: mage armor
+               slug_name: mage-armor
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: mirror image
+               slug_name: mirror-image
+             - name: misty step
+               slug_name: misty-step
+        - title: 3rd level (2 slots)
+          spells:
+             - name: fear
+               slug_name: fear

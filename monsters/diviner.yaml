@@ -1,150 +1,104 @@
-name: "Diviner"
-slug_name: "diviner"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "67"
-hit_dice: "15d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "18"
-intelligence_modifier: "+4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +7, Wis +4"
-skills: "Arcana +7, History +7"
-senses: null
-languages: "any four languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Diviner
+slug_name: diviner
+challenge_rating: 8.0
+experience: 3900
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 67
+hit_dice: 15d8
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 11
+intelligence: 18
+wisdom: 12
+charisma: 11
+saving_throws: Int +7, Wis +4
+skills: Arcana +7, History +7
+senses:
+languages: any four languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Portent (Recharges after the Diviner Casts a Divination Spell of 1st Level or Higher)"
-    description: |
-      When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check.
-
+   - name: Portent (Recharges after the Diviner Casts a Divination Spell of 1st Level or Higher)
+     description: When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check.
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:
-
-    bottom_description: |
-      * Divination spell of 1st level or higher
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "true strike"
-          slug_name: "true-strike"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic*"
-          slug_name: "detect-magic"
-
-        - name: "feather fall"
-          slug_name: "feather-fall"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-
-      - "2nd level (3 slots)":
-        - name: " detect thoughts*"
-          slug_name: "detect-thoughts"
-
-        - name: "locate object*"
-          slug_name: "locate-object"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (3 slots)":
-        - name: " clairvoyance*"
-          slug_name: "clairvoyance"
-
-        - name: "fly"
-          slug_name: "fly"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-
-      - "4th level (3 slots)":
-        - name: " arcane eye*"
-          slug_name: "arcane-eye"
-
-        - name: "ice storm"
-          slug_name: "ice-storm"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (2 slots)":
-        - name: " Rary's telepathic bond*"
-          slug_name: "rary"
-
-        - name: "seeming*"
-          slug_name: "seeming"
-
-
-      - "6th level (1 slot)":
-        - name: " mass suggestion"
-          slug_name: "mass-suggestion"
-
-        - name: "true seeing*"
-          slug_name: "true-seeing"
-
-
-      - "7th level (1 slot)":
-        - name: " delayed blast fireball"
-          slug_name: "delayed-blast-fireball"
-
-        - name: "teleport"
-          slug_name: "teleport"
-
-
-      - "8th level (1 slot)":
-        - name: " maze"
-          slug_name: "maze"
+   - title: Spellcasting
+     top_description: 'The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:'
+     bottom_description: '* Divination spell of 1st level or higher'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: true strike
+               slug_name: true-strike
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic*
+               slug_name: detect-magic
+             - name: feather fall
+               slug_name: feather-fall
+             - name: mage armor
+               slug_name: mage-armor
+        - title: 2nd level (3 slots)
+          spells:
+             - name: detect thoughts*
+               slug_name: detect-thoughts
+             - name: locate object*
+               slug_name: locate-object
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (3 slots)
+          spells:
+             - name: clairvoyance*
+               slug_name: clairvoyance
+             - name: fly
+               slug_name: fly
+             - name: fireball
+               slug_name: fireball
+        - title: 4th level (3 slots)
+          spells:
+             - name: arcane eye*
+               slug_name: arcane-eye
+             - name: ice storm
+               slug_name: ice-storm
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (2 slots)
+          spells:
+             - name: Rary's telepathic bond*
+               slug_name: rary
+             - name: seeming*
+               slug_name: seeming
+        - title: 6th level (1 slot)
+          spells:
+             - name: mass suggestion
+               slug_name: mass-suggestion
+             - name: true seeing*
+               slug_name: true-seeing
+        - title: 7th level (1 slot)
+          spells:
+             - name: delayed blast fireball
+               slug_name: delayed-blast-fireball
+             - name: teleport
+               slug_name: teleport
+        - title: 8th level (1 slot)
+          spells:
+             - name: maze
+               slug_name: maze

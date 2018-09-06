@@ -1,50 +1,33 @@
-name: "Swarm of Rot Grubs"
-slug_name: "swarm-of-rot-grubs"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "swarm"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "8"
-armor_class_type: null
-hit_points: "22"
-hit_dice: "5d8"
-speed: "5 ft., climb 5 ft."
-
-strength: "2"
-strength_modifier: "-4"
-dexterity: "7"
-dexterity_modifier: "-2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "2"
-wisdom_modifier: "-4"
-charisma: "1"
-charisma_modifier: "-5"
-
-saving_throws: null
-skills: null
-senses: "blindsight 10 ft."
-languages: null
-
-damage_resistances: "piercing, slashing"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained"
-
+name: Swarm of Rot Grubs
+slug_name: swarm-of-rot-grubs
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: swarm
+subtype:
+alignment: unaligned
+armor_class: 8
+armor_class_type:
+hit_points: 22
+hit_dice: 5d8
+speed: 5 ft., climb 5 ft.
+strength: 2
+dexterity: 7
+constitution: 10
+intelligence: 1
+wisdom: 2
+charisma: 1
+saving_throws:
+skills:
+senses: blindsight 10 ft.
+languages:
+damage_resistances: piercing, slashing
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained
 special_abilities:
-  - name: "Swarm"
-    description: |
-      The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points.
-
+   - name: Swarm
+     description: The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny maggot. The swarm can't regain hit points or gain temporary hit points.
 actions:
-  - name: "Bites"
-    description: |
-      Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the swarm's space. Hit: The target is infested by 1d4 rot grubs. At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target.
+   - name: Bites
+     description: "Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the swarm's space. Hit: The target is infested by 1d4 rot grubs. At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target."

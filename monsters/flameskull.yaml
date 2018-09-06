@@ -1,96 +1,64 @@
-name: "Flameskull"
-slug_name: "flameskull"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Tiny"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "40"
-hit_dice: "9d4+18"
-speed: "0 ft., fly 40 ft. It can hover."
-
-strength: "1"
-strength_modifier: "-5"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Arcana +5, Perception +2"
-senses: "darkvision 60 ft."
-languages: "Common"
-
-damage_resistances: "lightning, necrotic, piercing"
-damage_immunities: "cold, fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, paralyzed, poisoned, prone"
-
+name: Flameskull
+slug_name: flameskull
+challenge_rating: 4.0
+experience: 1100
+size: Tiny
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 13
+armor_class_type:
+hit_points: 40
+hit_dice: 9d4+18
+speed: 0 ft., fly 40 ft. It can hover.
+strength: 1
+dexterity: 17
+constitution: 14
+intelligence: 16
+wisdom: 10
+charisma: 11
+saving_throws:
+skills: Arcana +5, Perception +2
+senses: darkvision 60 ft.
+languages: Common
+damage_resistances: lightning, necrotic, piercing
+damage_immunities: cold, fire, poison
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, paralyzed, poisoned, prone
 special_abilities:
-  - name: "Illumination"
-    description: |
-      The flameskull sheds either dim light in a 15- foot radius, or bright light in a 15-foot radius and dim light for an additional 15 ft.. It can switch between the options as an action.
-
-  - name: "Magic Resistance"
-    description: |
-      The flameskull has advantage on saving throws against spells and other magical effects.
-
-  - name: "Rejuvenation"
-    description: |
-      If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them.
-
+   - name: Illumination
+     description: The flameskull sheds either dim light in a 15- foot radius, or bright light in a 15-foot radius and dim light for an additional 15 ft.. It can switch between the options as an action.
+   - name: Magic Resistance
+     description: The flameskull has advantage on saving throws against spells and other magical effects.
+   - name: Rejuvenation
+     description: If the flameskull is destroyed, it regains all its hit points in 1 hour unless holy water is sprinkled on its remains or a dispel magic or remove curse spell is cast on them.
 actions:
-  - name: "Multiattack"
-    description: |
-      The flameskull uses Fire Ray twice.
-
-  - name: "Fire Ray"
-    description: |
-      Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6) fire damage.
-
+   - name: Multiattack
+     description: The flameskull uses Fire Ray twice.
+   - name: Fire Ray
+     description: 'Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit: 10 (3d6) fire damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-
-      - "1st level (3 slots)":
-        - name: " magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (2 slots)":
-        - name: " blur"
-          slug_name: "blur"
-
-        - name: "flaming sphere"
-          slug_name: "flaming-sphere"
-
-
-      - "3rd level (1 slot)":
-        - name: " fireball"
-          slug_name: "fireball"
+   - title: Spellcasting
+     top_description: 'The flameskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The flameskull has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+        - title: 1st level (3 slots)
+          spells:
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (2 slots)
+          spells:
+             - name: blur
+               slug_name: blur
+             - name: flaming sphere
+               slug_name: flaming-sphere
+        - title: 3rd level (1 slot)
+          spells:
+             - name: fireball
+               slug_name: fireball

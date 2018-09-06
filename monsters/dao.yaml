@@ -1,130 +1,78 @@
-name: "Dao"
-slug_name: "dao"
-
-challenge_rating: "11"
-challenge_rating_decimal: "11.0"
-experience: "7,200 XP"
-
-size: "Large"
-type: "elemental"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "18"
-armor_class_type: "natural armor"
-hit_points: "187"
-hit_dice: "15d10+105"
-speed: "30 ft., burrow 30 ft., fly 30 ft."
-
-strength: "23"
-strength_modifier: "+6"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "24"
-constitution_modifier: "+7"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: "Int +5, Wis +5, Cha +6"
-skills: null
-senses: "darkvision 120 ft."
-languages: "Terran"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "petrified"
-
+name: Dao
+slug_name: dao
+challenge_rating: 11.0
+experience: 7200
+size: Large
+type: elemental
+subtype:
+alignment: neutral evil
+armor_class: 18
+armor_class_type: natural armor
+hit_points: 187
+hit_dice: 15d10+105
+speed: 30 ft., burrow 30 ft., fly 30 ft.
+strength: 23
+dexterity: 12
+constitution: 24
+intelligence: 12
+wisdom: 13
+charisma: 14
+saving_throws: Int +5, Wis +5, Cha +6
+skills:
+senses: darkvision 120 ft.
+languages: Terran
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: petrified
 special_abilities:
-  - name: "Earth Glide"
-    description: |
-      The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through.
-
-  - name: "Elemental Demise"
-    description: |
-      If the dao dies, its body disintegrates into crystalline powder, leaving behind only equipment the dao was wearing or carrying.
-
-  - name: "Sure-Footed"
-    description: |
-      The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
-
-  - name: "Variant: Genie Powers"
-    description: |
-      Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.
-
-      Disguises.
-
-      Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.
-
-      Wishes.
-
-      The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year). and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.
-
-      To be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit.
-
+   - name: Earth Glide
+     description: The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through.
+   - name: Elemental Demise
+     description: If the dao dies, its body disintegrates into crystalline powder, leaving behind only equipment the dao was wearing or carrying.
+   - name: Sure-Footed
+     description: The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+   - name: 'Variant: Genie Powers'
+     description: "Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.\n\nDisguises.\n\nSome genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.\n\nWishes.\n\nThe genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year). and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.\n\nTo be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
 actions:
-  - name: "Multiattack"
-    description: |
-      The Dao makes two fist attacks or two maul attacks.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.
-
-  - name: "Maul"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked prone.
-
+   - name: Multiattack
+     description: The Dao makes two fist attacks or two maul attacks.
+   - name: Fist
+     description: 'Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.'
+   - name: Maul
+     description: 'Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked prone.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect evil and good"
-          slug_name: "detect-evil-and-good"
-
-        - name: "detect magic"
-          slug_name: "detect-magic"
-
-        - name: "stone shape"
-          slug_name: "stone-shape"
-
-
-      - "3/day each":
-        - name: " passwall"
-          slug_name: "passwall"
-
-        - name: "move earth"
-          slug_name: "move-earth"
-
-        - name: "tongues"
-          slug_name: "tongues"
-
-
-      - "1/day each":
-        - name: " conjure elemental (earth elemental only)"
-          slug_name: "conjure-elemental"
-
-        - name: "gaseous form"
-          slug_name: "gaseous-form"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-        - name: "phantasmal killer"
-          slug_name: "phantasmal-killer"
-
-        - name: "plane shift"
-          slug_name: "plane-shift"
-
-        - name: "wall of stone"
-          slug_name: "wall-of-stone"
+   - title: Innate Spellcasting
+     top_description: "The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect evil and good
+               slug_name: detect-evil-and-good
+             - name: detect magic
+               slug_name: detect-magic
+             - name: stone shape
+               slug_name: stone-shape
+        - title: 3/day each
+          spells:
+             - name: passwall
+               slug_name: passwall
+             - name: move earth
+               slug_name: move-earth
+             - name: tongues
+               slug_name: tongues
+        - title: 1/day each
+          spells:
+             - name: conjure elemental (earth elemental only)
+               slug_name: conjure-elemental
+             - name: gaseous form
+               slug_name: gaseous-form
+             - name: invisibility
+               slug_name: invisibility
+             - name: phantasmal killer
+               slug_name: phantasmal-killer
+             - name: plane shift
+               slug_name: plane-shift
+             - name: wall of stone
+               slug_name: wall-of-stone

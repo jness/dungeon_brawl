@@ -1,50 +1,33 @@
-name: "Giant Hyena"
-slug_name: "giant-hyena"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "45"
-hit_dice: "6d10+12"
-speed: "50 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Hyena
+slug_name: giant-hyena
+challenge_rating: 1.0
+experience: 200
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 45
+hit_dice: 6d10+12
+speed: 50 ft.
+strength: 16
+dexterity: 14
+constitution: 14
+intelligence: 2
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Rampage"
-    description: |
-      When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.
-
+   - name: Rampage
+     description: When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.'

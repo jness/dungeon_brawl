@@ -1,44 +1,30 @@
-name: "Commoner"
-slug_name: "commoner"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "4"
-hit_dice: "1d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: null
-senses: null
-languages: "any one language (usually Common)"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Commoner
+slug_name: commoner
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 10
+armor_class_type:
+hit_points: 4
+hit_dice: 1d8
+speed: 30 ft.
+strength: 10
+dexterity: 10
+constitution: 10
+intelligence: 10
+wisdom: 10
+charisma: 10
+saving_throws:
+skills:
+senses:
+languages: any one language (usually Common)
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Club"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
+   - name: Club
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.'

@@ -1,72 +1,43 @@
-name: "Hellenrae"
-slug_name: "hellenrae"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "16"
-armor_class_type: null
-hit_points: "78"
-hit_dice: "12d8+24"
-speed: "30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Acrobatics +7, Athletics +4, Insight +5, Perception +5"
-senses: "blindsight 60 ft. (blind beyond this radius)"
-languages: "Common, Terran"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "blinded, poisoned"
-
+name: Hellenrae
+slug_name: hellenrae
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 16
+armor_class_type:
+hit_points: 78
+hit_dice: 12d8+24
+speed: 30 ft.
+strength: 13
+dexterity: 18
+constitution: 14
+intelligence: 10
+wisdom: 15
+charisma: 13
+saving_throws:
+skills: Acrobatics +7, Athletics +4, Insight +5, Perception +5
+senses: blindsight 60 ft. (blind beyond this radius)
+languages: Common, Terran
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: blinded, poisoned
 special_abilities:
-  - name: "Evasion"
-    description: |
-      If Hellenrae is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails.
-
-  - name: "Stunning Strike (Recharge 5-6)"
-    description: |
-      When Hellenrae hits a target with a melee weapon attack, the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of Hellenrae's next turn.
-
-  - name: "Unarmored Defense"
-    description: |
-      While Hellenrae is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.
-
-  - name: "Unarmored Movement"
-    description: |
-      While Hellenrae is wearing no armor and wielding no shield, her speed increases by 20 feet (included in her speed).
-
+   - name: Evasion
+     description: If Hellenrae is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails.
+   - name: Stunning Strike (Recharge 5-6)
+     description: When Hellenrae hits a target with a melee weapon attack, the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of Hellenrae's next turn.
+   - name: Unarmored Defense
+     description: While Hellenrae is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.
+   - name: Unarmored Movement
+     description: While Hellenrae is wearing no armor and wielding no shield, her speed increases by 20 feet (included in her speed).
 actions:
-  - name: "Multiattack"
-    description: |
-      Hellenrae makes three melee attacks.
-
-  - name: "Unarmed Strike"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage.
-
-      **Reactions**
-
-  - name: "Parry and Counter"
-    description: |
-      Hellenrae adds 3 to her AC against one melee or ranged weapon attack that would hit her. To do so, she must be able to sense the attacker with her blindsight. If the attack misses, Hellenrae can make one melee attack against the attacker if it is within her reach.
+   - name: Multiattack
+     description: Hellenrae makes three melee attacks.
+   - name: Unarmed Strike
+     description: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage.\n\n**Reactions**"
+   - name: Parry and Counter
+     description: Hellenrae adds 3 to her AC against one melee or ranged weapon attack that would hit her. To do so, she must be able to sense the attacker with her blindsight. If the attack misses, Hellenrae can make one melee attack against the attacker if it is within her reach.

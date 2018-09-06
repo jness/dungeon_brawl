@@ -1,113 +1,77 @@
-name: "Grisha"
-slug_name: "grisha"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "damaran human"
-alignment: "chaotic evil"
-
-armor_class: "18"
-armor_class_type: "chain mail, shield"
-hit_points: "33"
-hit_dice: "6d8+6"
-speed: "30 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Wis +4, Cha +5"
-skills: "Persuasion +5, Religion +2"
-senses: null
-languages: "Common, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Grisha
+slug_name: grisha
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: damaran human
+alignment: chaotic evil
+armor_class: 18
+armor_class_type: chain mail, shield
+hit_points: 33
+hit_dice: 6d8+6
+speed: 30 ft.
+strength: 14
+dexterity: 12
+constitution: 12
+intelligence: 11
+wisdom: 14
+charisma: 16
+saving_throws: Wis +4, Cha +5
+skills: Persuasion +5, Religion +2
+senses:
+languages: Common, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      Grisha makes two attacks with his +1 flail.
-
-  - name: "+1 Flail"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage
-
+   - name: Multiattack
+     description: Grisha makes two attacks with his +1 flail.
+   - name: +1 Flail
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "divine favor"
-          slug_name: "divine-favor"
-
-        - name: "inflict wounds"
-          slug_name: "inflict-wounds"
-
-        - name: "protection from good"
-          slug_name: "protection-from-good"
-
-        - name: "shield of faith"
-          slug_name: "shield-of-faith"
-
-
-      - "2nd level (3 slots)":
-        - name: " continual flame"
-          slug_name: "continual-flame"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-        - name: "magic weapon"
-          slug_name: "magic-weapon"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (3 slots)":
-        - name: " bestow curse"
-          slug_name: "bestow-curse"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "spirit guardian"
-          slug_name: "spirit-guardian"
+   - title: Spellcasting
+     top_description: 'Grisha is a 6th-level-spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: light
+               slug_name: light
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: divine favor
+               slug_name: divine-favor
+             - name: inflict wounds
+               slug_name: inflict-wounds
+             - name: protection from good
+               slug_name: protection-from-good
+             - name: shield of faith
+               slug_name: shield-of-faith
+        - title: 2nd level (3 slots)
+          spells:
+             - name: continual flame
+               slug_name: continual-flame
+             - name: hold person
+               slug_name: hold-person
+             - name: magic weapon
+               slug_name: magic-weapon
+             - name: spiritual weapon
+               slug_name: spiritual-weapon
+        - title: 3rd level (3 slots)
+          spells:
+             - name: bestow curse
+               slug_name: bestow-curse
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: spirit guardian
+               slug_name: spirit-guardian

@@ -1,121 +1,84 @@
-name: "Guardian Naga"
-slug_name: "guardian-naga"
-
-challenge_rating: "10"
-challenge_rating_decimal: "10.0"
-experience: "5,900 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "lawful good"
-
-armor_class: "18"
-armor_class_type: "natural armor"
-hit_points: "127"
-hit_dice: "15d10+45"
-speed: "40 ft."
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "19"
-wisdom_modifier: "+4"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Dex +8, Con +7, Int +7, Wis +8, Cha +8"
-skills: null
-senses: "darkvision 60 ft."
-languages: "Celestial, Common"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, poisoned"
-
+name: Guardian Naga
+slug_name: guardian-naga
+challenge_rating: 10.0
+experience: 5900
+size: Large
+type: monstrosity
+subtype:
+alignment: lawful good
+armor_class: 18
+armor_class_type: natural armor
+hit_points: 127
+hit_dice: 15d10+45
+speed: 40 ft.
+strength: 19
+dexterity: 18
+constitution: 16
+intelligence: 16
+wisdom: 19
+charisma: 18
+saving_throws: Dex +8, Con +7, Int +7, Wis +8, Cha +8
+skills:
+senses: darkvision 60 ft.
+languages: Celestial, Common
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, poisoned
 special_abilities:
-  - name: "Rejuvenation"
-    description: |
-      If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
-
+   - name: Rejuvenation
+     description: If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.
-
-  - name: "Spit Poison"
-    description: |
-      Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.
-
+   - name: Bite
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.'
+   - name: Spit Poison
+     description: 'Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mending"
-          slug_name: "mending"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "shield of faith"
-          slug_name: "shield-of-faith"
-
-
-      - "2nd level (3 slots)":
-        - name: " calm emotions"
-          slug_name: "calm-emotions"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-
-      - "3rd level (3 slots)":
-        - name: " bestow curse"
-          slug_name: "bestow-curse"
-
-        - name: "clairvoyance"
-          slug_name: "clairvoyance"
-
-
-      - "4th level (3 slots)":
-        - name: " banishment"
-          slug_name: "banishment"
-
-        - name: "freedom of movement"
-          slug_name: "freedom-of-movement"
-
-
-      - "5th level (2 slots)":
-        - name: " flame strike"
-          slug_name: "flame-strike"
-
-        - name: "geas"
-          slug_name: "geas"
-
-
-      - "6th level (1 slot)":
-        - name: " true seeing"
-          slug_name: "true-seeing"
+   - title: Spellcasting
+     top_description: 'The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mending
+               slug_name: mending
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: command
+               slug_name: command
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: shield of faith
+               slug_name: shield-of-faith
+        - title: 2nd level (3 slots)
+          spells:
+             - name: calm emotions
+               slug_name: calm-emotions
+             - name: hold person
+               slug_name: hold-person
+        - title: 3rd level (3 slots)
+          spells:
+             - name: bestow curse
+               slug_name: bestow-curse
+             - name: clairvoyance
+               slug_name: clairvoyance
+        - title: 4th level (3 slots)
+          spells:
+             - name: banishment
+               slug_name: banishment
+             - name: freedom of movement
+               slug_name: freedom-of-movement
+        - title: 5th level (2 slots)
+          spells:
+             - name: flame strike
+               slug_name: flame-strike
+             - name: geas
+               slug_name: geas
+        - title: 6th level (1 slot)
+          spells:
+             - name: true seeing
+               slug_name: true-seeing

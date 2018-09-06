@@ -1,54 +1,35 @@
-name: "Giant Bat"
-slug_name: "giant-bat"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "22"
-hit_dice: "4d10"
-speed: "10 ft., fly 60 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "6"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: "blindsight 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Bat
+slug_name: giant-bat
+challenge_rating: 0.25
+experience: 50
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type:
+hit_points: 22
+hit_dice: 4d10
+speed: 10 ft., fly 60 ft.
+strength: 15
+dexterity: 16
+constitution: 11
+intelligence: 2
+wisdom: 12
+charisma: 6
+saving_throws:
+skills:
+senses: blindsight 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Echolocation"
-    description: |
-      The bat can't use its blindsight while deafened.
-
-  - name: "Keen Hearing"
-    description: |
-      The bat has advantage on Wisdom (Perception) checks that rely on hearing.
-
+   - name: Echolocation
+     description: The bat can't use its blindsight while deafened.
+   - name: Keen Hearing
+     description: The bat has advantage on Wisdom (Perception) checks that rely on hearing.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.'

@@ -1,113 +1,78 @@
-name: "Elizar Dryflagon"
-slug_name: "elizar-dryflagon"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "14"
-armor_class_type: "hide"
-hit_points: "71"
-hit_dice: "11d8+22"
-speed: "30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "18"
-wisdom_modifier: "+4"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Arcana +3, Deception +3"
-senses: null
-languages: "Common, Druidic"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Elizar Dryflagon
+slug_name: elizar-dryflagon
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 14
+armor_class_type: hide
+hit_points: 71
+hit_dice: 11d8+22
+speed: 30 ft.
+strength: 13
+dexterity: 15
+constitution: 14
+intelligence: 11
+wisdom: 18
+charisma: 10
+saving_throws:
+skills: Arcana +3, Deception +3
+senses:
+languages: Common, Druidic
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Summon Mephits (Recharges after a Long Rest)"
-    description: |
-      By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits.
-
+   - name: Summon Mephits (Recharges after a Long Rest)
+     description: By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits.
 actions:
-  - name: "Dagger +1"
-    description: |
-      Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
-
+   - name: Dagger +1
+     description: 'Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " druidcraft"
-          slug_name: "druidcraft"
-
-        - name: "guidance"
-          slug_name: "guidance"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-        - name: "produce flame"
-          slug_name: "produce-flame"
-
-
-      - "1st level (4 slots)":
-        - name: " animal friendship"
-          slug_name: "animal-friendship"
-
-        - name: "faerie fire"
-          slug_name: "faerie-fire"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "jump"
-          slug_name: "jump"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " flame blade"
-          slug_name: "flame-blade"
-
-        - name: "spike growth"
-          slug_name: "spike-growth"
-
-
-      - "3rd level (3 slots)":
-        - name: " dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "stinking cloud"
-          slug_name: "stinking-cloud"
-
-
-      - "4th level (2 slots)":
-        - name: " blight"
-          slug_name: "blight"
-
-        - name: "wall of fire"
-          slug_name: "wall-of-fire"
+   - title: Spellcasting
+     top_description: 'Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: druidcraft
+               slug_name: druidcraft
+             - name: guidance
+               slug_name: guidance
+             - name: poison spray
+               slug_name: poison-spray
+             - name: produce flame
+               slug_name: produce-flame
+        - title: 1st level (4 slots)
+          spells:
+             - name: animal friendship
+               slug_name: animal-friendship
+             - name: faerie fire
+               slug_name: faerie-fire
+             - name: healing word
+               slug_name: healing-word
+             - name: jump
+               slug_name: jump
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: flame blade
+               slug_name: flame-blade
+             - name: spike growth
+               slug_name: spike-growth
+        - title: 3rd level (3 slots)
+          spells:
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: stinking cloud
+               slug_name: stinking-cloud
+        - title: 4th level (2 slots)
+          spells:
+             - name: blight
+               slug_name: blight
+             - name: wall of fire
+               slug_name: wall-of-fire

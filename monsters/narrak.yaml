@@ -1,100 +1,62 @@
-name: "Narrak"
-slug_name: "narrak"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "derro"
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: "15 to mage armor"
-hit_points: "40"
-hit_dice: "9d6+9"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "5"
-wisdom_modifier: "-3"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Arcana +4, Stealth +4"
-senses: "darkvision 120 ft."
-languages: "Dwarvish, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Narrak
+slug_name: narrak
+challenge_rating: 2.0
+experience: 450
+size: Small
+type: humanoid
+subtype: derro
+alignment: chaotic evil
+armor_class: 12
+armor_class_type: 15 to mage armor
+hit_points: 40
+hit_dice: 9d6+9
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 13
+intelligence: 14
+wisdom: 5
+charisma: 16
+saving_throws:
+skills: Arcana +4, Stealth +4
+senses: darkvision 120 ft.
+languages: Dwarvish, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Insanity"
-    description: |
-      Droki has advantage on saving throws against being charmed or frightened.
-
-  - name: "Magic Resistance"
-    description: |
-      The derro has advantage on saving throws against spells and other magical effects.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Insanity
+     description: Droki has advantage on saving throws against being charmed or frightened.
+   - name: Magic Resistance
+     description: The derro has advantage on saving throws against spells and other magical effects.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Armor of Shadows (Recharges after a Short or Long Rest)"
-    description: |
-      Narrak casts mage armor on himself
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.
-
-      **Reactions**
-
-  - name: "One with Shadows"
-    description: |
-      While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.
-
+   - name: Armor of Shadows (Recharges after a Short or Long Rest)
+     description: Narrak casts mage armor on himself
+   - name: Shortsword
+     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.\n\n**Reactions**"
+   - name: One with Shadows
+     description: While he is in a dim light or darkness, Narrak can become invisible. He remains so until he moves or takes an action or reaction.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:>>>
-
-    bottom_description: |
-      2nd level: hold person, ray of enfeeblement, spider climb
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " eldritch blast"
-          slug_name: "eldritch-blast"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-
-      - "1st level":
-        - name: " armor of Agathys"
-          slug_name: "armor-of-agathys"
-
-        - name: "charm person"
-          slug_name: "charm-person"
-
-        - name: "hex"
-          slug_name: "hex"
+   - title: Spellcasting
+     top_description: Narrak is a 5th-level spellcaster. His spellcasting ability is Charisma (Save DC 13, +5 to hit with spell attacks) Narrak has two 2nd-level spell slots, which he regains after finishing a short or long rest, and knows the following Warlock spells:>>>
+     bottom_description: '2nd level: hold person, ray of enfeeblement, spider climb'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: eldritch blast
+               slug_name: eldritch-blast
+             - name: friends
+               slug_name: friends
+             - name: poison spray
+               slug_name: poison-spray
+        - title: 1st level
+          spells:
+             - name: armor of Agathys
+               slug_name: armor-of-agathys
+             - name: charm person
+               slug_name: charm-person
+             - name: hex
+               slug_name: hex

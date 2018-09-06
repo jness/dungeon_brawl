@@ -39,5 +39,14 @@
   <h4><strong>Description</strong></h4>
   <p class="whitespace textbox monospace">{{ spell.description }}</p>
 
+  <hr>
+
+  {% for monster in monsters %}
+
+    {% if loop.first %}<h5><strong>Monsters</strong></h5>{% endif %}
+
+    <small><a href='/monster/{{ monster.slug_name }}'><strong>{{ monster.name }}</strong></a> (<i>{{ monster.type }}</i>){% if not loop.last %}, {% endif %}</small>
+  {% endfor %}
+
 </div>
 {% endblock %}

@@ -1,54 +1,35 @@
-name: "Giant Lizard"
-slug_name: "giant-lizard"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "19"
-hit_dice: "3d10+3"
-speed: "30 ft., climb 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 30 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Lizard
+slug_name: giant-lizard
+challenge_rating: 0.25
+experience: 50
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 19
+hit_dice: 3d10+3
+speed: 30 ft., climb 30 ft.
+strength: 15
+dexterity: 12
+constitution: 13
+intelligence: 2
+wisdom: 10
+charisma: 5
+saving_throws:
+skills:
+senses: darkvision 30 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Variant: Hold Breath"
-    description: |
-      The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)
-
-  - name: "Variant: Spider Climb"
-    description: |
-      The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
+   - name: 'Variant: Hold Breath'
+     description: The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)
+   - name: 'Variant: Spider Climb'
+     description: The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.'

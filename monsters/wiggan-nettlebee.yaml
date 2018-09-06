@@ -1,107 +1,72 @@
-name: "Wiggan Nettlebee"
-slug_name: "wiggan-nettlebee"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "halfling"
-alignment: "neutral evil"
-
-armor_class: "11"
-armor_class_type: "16 with barkskin"
-hit_points: "36"
-hit_dice: "8d6+8"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Deception +3, Insight +4"
-senses: null
-languages: "Common, Halfling"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Wiggan Nettlebee
+slug_name: wiggan-nettlebee
+challenge_rating: 2.0
+experience: 450
+size: Small
+type: humanoid
+subtype: halfling
+alignment: neutral evil
+armor_class: 11
+armor_class_type: 16 with barkskin
+hit_points: 36
+hit_dice: 8d6+8
+speed: 30 ft.
+strength: 8
+dexterity: 12
+constitution: 12
+intelligence: 14
+wisdom: 15
+charisma: 13
+saving_throws:
+skills: Deception +3, Insight +4
+senses:
+languages: Common, Halfling
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Brave Devotion"
-    description: |
-      Wiggan has advantage on saving throws against being charmed or frightened.
-
+   - name: Brave Devotion
+     description: Wiggan has advantage on saving throws against being charmed or frightened.
 actions:
-  - name: "Multiattack"
-    description: |
-      Wiggan makes two attacks with his wooden cane.
-
-  - name: "Wooden Cane"
-    description: |
-      Melee Weapon Attack: +0 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 1 (1d4-1) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh.
-
+   - name: Multiattack
+     description: Wiggan makes two attacks with his wooden cane.
+   - name: Wooden Cane
+     description: 'Melee Weapon Attack: +0 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 1 (1d4-1) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Wiggan is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "shillelagh"
-          slug_name: "shillelagh"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "* 1st Level (4 slots)":
-        - name: " animal friendship"
-          slug_name: "animal-friendship"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "inflict wounds"
-          slug_name: "inflict-wounds"
-
-        - name: "speak with animals"
-          slug_name: "speak-with-animals"
-
-
-      - "* 2nd Level (3 slots)":
-        - name: " barkskin"
-          slug_name: "barkskin"
-
-        - name: "spike growth"
-          slug_name: "spike-growth"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
+   - title: Spellcasting
+     top_description: 'Wiggan is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: light
+               slug_name: light
+             - name: mending
+               slug_name: mending
+             - name: shillelagh
+               slug_name: shillelagh
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: '* 1st Level (4 slots)'
+          spells:
+             - name: animal friendship
+               slug_name: animal-friendship
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: healing word
+               slug_name: healing-word
+             - name: inflict wounds
+               slug_name: inflict-wounds
+             - name: speak with animals
+               slug_name: speak-with-animals
+        - title: '* 2nd Level (3 slots)'
+          spells:
+             - name: barkskin
+               slug_name: barkskin
+             - name: spike growth
+               slug_name: spike-growth
+             - name: spiritual weapon
+               slug_name: spiritual-weapon

@@ -1,118 +1,80 @@
-name: "Hobgoblin Devastator"
-slug_name: "hobgoblin-devastator"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "goblinoid"
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "studded leather armor"
-hit_points: "45"
-hit_dice: "7d8+14"
-speed: "30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Arcana +5"
-senses: "darkvision 60 ft."
-languages: "Common, Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Hobgoblin Devastator
+slug_name: hobgoblin-devastator
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: goblinoid
+alignment: lawful evil
+armor_class: 13
+armor_class_type: studded leather armor
+hit_points: 45
+hit_dice: 7d8+14
+speed: 30 ft.
+strength: 13
+dexterity: 12
+constitution: 14
+intelligence: 16
+wisdom: 13
+charisma: 11
+saving_throws:
+skills: Arcana +5
+senses: darkvision 60 ft.
+languages: Common, Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      Volo's Guide to Monsters, p. 161
-
-  - name: "Arcane Advantage"
-    description: |
-      Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally of the hobgoblin and that ally isn't incapacitated.
-
-  - name: "Army Arcane"
-    description: |
-      When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw.
-
+   - name: Source
+     description: Volo's Guide to Monsters, p. 161
+   - name: Arcane Advantage
+     description: Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally of the hobgoblin and that ally isn't incapacitated.
+   - name: Army Arcane
+     description: When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw.
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with two hands.
-
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with two hands.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " gust of wind"
-          slug_name: "gust-of-wind"
-
-        - name: "Melf's acid arrow"
-          slug_name: "melf"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (3 slots)":
-        - name: " fireball"
-          slug_name: "fireball"
-
-        - name: "fly"
-          slug_name: "fly"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
-
-
-      - "4th level (1 slot)":
-        - name: " ice storm"
-          slug_name: "ice-storm"
+   - title: Spellcasting
+     top_description: 'The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: magic missile
+               slug_name: magic-missile
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: gust of wind
+               slug_name: gust-of-wind
+             - name: Melf's acid arrow
+               slug_name: melf
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (3 slots)
+          spells:
+             - name: fireball
+               slug_name: fireball
+             - name: fly
+               slug_name: fly
+             - name: lightning bolt
+               slug_name: lightning-bolt
+        - title: 4th level (1 slot)
+          spells:
+             - name: ice storm
+               slug_name: ice-storm

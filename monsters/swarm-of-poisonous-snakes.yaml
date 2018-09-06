@@ -1,50 +1,33 @@
-name: "Swarm of Poisonous Snakes"
-slug_name: "swarm-of-poisonous-snakes"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "swarm"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "14"
-armor_class_type: null
-hit_points: "36"
-hit_dice: "8d8"
-speed: "30 ft., swim 30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: null
-senses: "blindsight 10 ft."
-languages: null
-
-damage_resistances: "bludgeoning, piercing, slashing"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
-
+name: Swarm of Poisonous Snakes
+slug_name: swarm-of-poisonous-snakes
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: swarm
+subtype:
+alignment: unaligned
+armor_class: 14
+armor_class_type:
+hit_points: 36
+hit_dice: 8d8
+speed: 30 ft., swim 30 ft.
+strength: 8
+dexterity: 18
+constitution: 11
+intelligence: 1
+wisdom: 10
+charisma: 3
+saving_throws:
+skills:
+senses: blindsight 10 ft.
+languages:
+damage_resistances: bludgeoning, piercing, slashing
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
 special_abilities:
-  - name: "Swarm"
-    description: |
-      The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain hit points or gain temporary hit points.
-
+   - name: Swarm
+     description: The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain hit points or gain temporary hit points.
 actions:
-  - name: "Bites"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.
+   - name: Bites
+     description: "Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one."

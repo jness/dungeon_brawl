@@ -1,162 +1,111 @@
-name: "Archdruid"
-slug_name: "archdruid"
-
-challenge_rating: "12"
-challenge_rating_decimal: "12.0"
-experience: "8,400 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "16"
-armor_class_type: "hide armor, shield"
-hit_points: "132"
-hit_dice: "24d8+24"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "20"
-wisdom_modifier: "+5"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +5, Wis +9"
-skills: "Medicine +9, Nature +5, Perception +9"
-senses: null
-languages: "Druidic plus any two languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Archdruid
+slug_name: archdruid
+challenge_rating: 12.0
+experience: 8400
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 16
+armor_class_type: hide armor, shield
+hit_points: 132
+hit_dice: 24d8+24
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 12
+intelligence: 12
+wisdom: 20
+charisma: 11
+saving_throws: Int +5, Wis +9
+skills: Medicine +9, Nature +5, Perception +9
+senses:
+languages: Druidic plus any two languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Scimitar"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.
-
-  - name: "Change Shape (2/Day)"
-    description: |
-      The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.
-
-      While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.
-
-      The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.
-
+   - name: Scimitar
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.'
+   - name: Change Shape (2/Day)
+     description: "The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.\n\nWhile in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.\n\nThe new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " druidcraft"
-          slug_name: "druidcraft"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-        - name: "produce flame"
-          slug_name: "produce-flame"
-
-
-      - "1st level (4 slots)":
-        - name: " cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "entangle"
-          slug_name: "entangle"
-
-        - name: "faerie fire"
-          slug_name: "faerie-fire"
-
-        - name: "speak with animals"
-          slug_name: "speak-with-animals"
-
-
-      - "2nd level (3 slots)":
-        - name: " animal messenger"
-          slug_name: "animal-messenger"
-
-        - name: "beast sense"
-          slug_name: "beast-sense"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-
-      - "3rd level (3 slots)":
-        - name: " conjure animals"
-          slug_name: "conjure-animals"
-
-        - name: "meld into stone"
-          slug_name: "meld-into-stone"
-
-        - name: "water breathing"
-          slug_name: "water-breathing"
-
-
-      - "4th level (3 slots)":
-        - name: " dominate beast"
-          slug_name: "dominate-beast"
-
-        - name: "locate creature"
-          slug_name: "locate-creature"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-        - name: "wall of fire"
-          slug_name: "wall-of-fire"
-
-
-      - "5th level (3 slots)":
-        - name: " commune with nature"
-          slug_name: "commune-with-nature"
-
-        - name: "mass cure wounds"
-          slug_name: "mass-cure-wounds"
-
-        - name: "tree stride"
-          slug_name: "tree-stride"
-
-
-      - "6th level (1 slot)":
-        - name: " heal"
-          slug_name: "heal"
-
-        - name: "heroes' feast"
-          slug_name: "heroes"
-
-        - name: "sunbeam"
-          slug_name: "sunbeam"
-
-
-      - "7th level (1 slot)":
-        - name: " fire storm"
-          slug_name: "fire-storm"
-
-
-      - "8th level (1 slot)":
-        - name: " animal shapes"
-          slug_name: "animal-shapes"
-
-
-      - "9th level (1 slot)":
-        - name: " foresight"
-          slug_name: "foresight"
+   - title: Spellcasting
+     top_description: 'The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: druidcraft
+               slug_name: druidcraft
+             - name: mending
+               slug_name: mending
+             - name: poison spray
+               slug_name: poison-spray
+             - name: produce flame
+               slug_name: produce-flame
+        - title: 1st level (4 slots)
+          spells:
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: entangle
+               slug_name: entangle
+             - name: faerie fire
+               slug_name: faerie-fire
+             - name: speak with animals
+               slug_name: speak-with-animals
+        - title: 2nd level (3 slots)
+          spells:
+             - name: animal messenger
+               slug_name: animal-messenger
+             - name: beast sense
+               slug_name: beast-sense
+             - name: hold person
+               slug_name: hold-person
+        - title: 3rd level (3 slots)
+          spells:
+             - name: conjure animals
+               slug_name: conjure-animals
+             - name: meld into stone
+               slug_name: meld-into-stone
+             - name: water breathing
+               slug_name: water-breathing
+        - title: 4th level (3 slots)
+          spells:
+             - name: dominate beast
+               slug_name: dominate-beast
+             - name: locate creature
+               slug_name: locate-creature
+             - name: stoneskin
+               slug_name: stoneskin
+             - name: wall of fire
+               slug_name: wall-of-fire
+        - title: 5th level (3 slots)
+          spells:
+             - name: commune with nature
+               slug_name: commune-with-nature
+             - name: mass cure wounds
+               slug_name: mass-cure-wounds
+             - name: tree stride
+               slug_name: tree-stride
+        - title: 6th level (1 slot)
+          spells:
+             - name: heal
+               slug_name: heal
+             - name: heroes' feast
+               slug_name: heroes
+             - name: sunbeam
+               slug_name: sunbeam
+        - title: 7th level (1 slot)
+          spells:
+             - name: fire storm
+               slug_name: fire-storm
+        - title: 8th level (1 slot)
+          spells:
+             - name: animal shapes
+               slug_name: animal-shapes
+        - title: 9th level (1 slot)
+          spells:
+             - name: foresight
+               slug_name: foresight

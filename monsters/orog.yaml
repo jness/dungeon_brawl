@@ -1,58 +1,37 @@
-name: "Orog"
-slug_name: "orog"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "orc"
-alignment: "chaotic evil"
-
-armor_class: "18"
-armor_class_type: "plate"
-hit_points: "42"
-hit_dice: "5d8+20"
-speed: "30 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Intimidation +5, Survival +2"
-senses: "darkvision 60 ft."
-languages: "Common, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Orog
+slug_name: orog
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: orc
+alignment: chaotic evil
+armor_class: 18
+armor_class_type: plate
+hit_points: 42
+hit_dice: 5d8+20
+speed: 30 ft.
+strength: 18
+dexterity: 12
+constitution: 18
+intelligence: 12
+wisdom: 11
+charisma: 12
+saving_throws:
+skills: Intimidation +5, Survival +2
+senses: darkvision 60 ft.
+languages: Common, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Aggressive"
-    description: |
-      As a bonus action, the orog can move up to its speed toward a hostile creature that it can see.
-
+   - name: Aggressive
+     description: As a bonus action, the orog can move up to its speed toward a hostile creature that it can see.
 actions:
-  - name: "Multiattack"
-    description: |
-      The orog makes two greataxe attacks.
-
-  - name: "Greataxe"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.
-
-  - name: "Javelin"
-    description: |
-      Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage.
+   - name: Multiattack
+     description: The orog makes two greataxe attacks.
+   - name: Greataxe
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.'
+   - name: Javelin
+     description: 'Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage.'

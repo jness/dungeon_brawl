@@ -1,75 +1,51 @@
-name: "Acolyte"
-slug_name: "acolyte"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "9"
-hit_dice: "2d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Medicine +4, Religion +2"
-senses: null
-languages: "any one language (usually Common)"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Acolyte
+slug_name: acolyte
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 10
+armor_class_type:
+hit_points: 9
+hit_dice: 2d8
+speed: 30 ft.
+strength: 10
+dexterity: 10
+constitution: 10
+intelligence: 10
+wisdom: 14
+charisma: 11
+saving_throws:
+skills: Medicine +4, Religion +2
+senses:
+languages: any one language (usually Common)
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Club"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
-
+   - name: Club
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (3 slots)":
-        - name: " bless"
-          slug_name: "bless"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "sanctuary"
-          slug_name: "sanctuary"
+   - title: Spellcasting
+     top_description: 'The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (3 slots)
+          spells:
+             - name: bless
+               slug_name: bless
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: sanctuary
+               slug_name: sanctuary

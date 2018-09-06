@@ -64,12 +64,12 @@
 
     <tbody>
       <tr>
-        <td><span>{{ monster.strength }} ({{ monster.strength_modifier }})</span></td>
-        <td><span>{{ monster.dexterity }} ({{ monster.dexterity_modifier }})</span></td>
-        <td><span>{{ monster.constitution }} ({{ monster.constitution_modifier }})</span></td>
-        <td><span>{{ monster.intelligence }} ({{ monster.intelligence_modifier }})</span></td>
-        <td><span>{{ monster.wisdom }} ({{ monster.wisdom_modifier }})</span></td>
-        <td><span>{{ monster.charisma }} ({{ monster.charisma_modifier }})</span></td>
+        <td><span>{{ monster.strength }} ({{ monster.strength|get_ability_modifier }})</span></td>
+        <td><span>{{ monster.dexterity }} ({{ monster.dexterity|get_ability_modifier  }})</span></td>
+        <td><span>{{ monster.constitution }} ({{ monster.constitution|get_ability_modifier  }})</span></td>
+        <td><span>{{ monster.intelligence }} ({{ monster.intelligence|get_ability_modifier  }})</span></td>
+        <td><span>{{ monster.wisdom }} ({{ monster.wisdom|get_ability_modifier  }})</span></td>
+        <td><span>{{ monster.charisma }} ({{ monster.charisma|get_ability_modifier  }})</span></td>
       </tr>
 
     </tbody>
@@ -124,7 +124,7 @@
     {% endif %}
 
     <strong>• Challenge</strong>:
-    <span>{{ monster.challenge_rating }} ({{ monster.experience }})</span>
+    <span>{{ monster.challenge_rating|get_challenge_fraction }} ({{ monster.experience }} XP)</span>
 
   </div>
   <hr>
@@ -134,6 +134,7 @@
   {% if monster.special_abilities %}
     {% for ability in monster.special_abilities %}
       <strong>• {{ ability.name }}</strong>: <span class="whitespace">{{ ability.description }}</span>
+      <br>
       {% if not loop.last %}<br>{% endif %}
     {% endfor %}
 
@@ -148,15 +149,14 @@
 
       <span class="whitespace">{{ spell_casting.top_description }}</span><br>
 
-      {% for _spells in spell_casting.spells %}
-      {% for spell_level, spells in _spells.items() %}
+      <br>
+      {% for spell_list in spell_casting.spell_list %}
         <div class="spellpadding">
-        • {{ spell_level }}:
-        {% for spell in spells %}
+          • {{ spell_list.title }}:
+        {% for spell in spell_list.spells %}
           <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
         </div>
-      {% endfor %}
       {% endfor %}
       <br>
 
@@ -174,7 +174,7 @@
 
   {% for action in monster.actions %}
     <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
-    <br>
+    <br><br>
   {% endfor %}
   <!-- End monster actions -->
 
@@ -187,7 +187,7 @@
 
     {% for legendary_action in monster.legendary_actions %}
       <strong>• {{ legendary_action.name }}</strong>: <span class="whitespace">{{ legendary_action.description }}</span>
-      <br>
+      <br><br>
     {% endfor %}
 
   {% endif %}

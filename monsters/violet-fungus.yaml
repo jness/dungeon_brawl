@@ -1,54 +1,35 @@
-name: "Violet Fungus"
-slug_name: "violet-fungus"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "plant"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "5"
-armor_class_type: null
-hit_points: "18"
-hit_dice: "4d8"
-speed: "5 ft."
-
-strength: "3"
-strength_modifier: "-4"
-dexterity: "1"
-dexterity_modifier: "-5"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "3"
-wisdom_modifier: "-4"
-charisma: "1"
-charisma_modifier: "-5"
-
-saving_throws: null
-skills: null
-senses: "blindsight 30 ft. (blind beyond this radius)"
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "blinded, deafened, frightened"
-
+name: Violet Fungus
+slug_name: violet-fungus
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: plant
+subtype:
+alignment: unaligned
+armor_class: 5
+armor_class_type:
+hit_points: 18
+hit_dice: 4d8
+speed: 5 ft.
+strength: 3
+dexterity: 1
+constitution: 10
+intelligence: 1
+wisdom: 3
+charisma: 1
+saving_throws:
+skills:
+senses: blindsight 30 ft. (blind beyond this radius)
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: blinded, deafened, frightened
 special_abilities:
-  - name: "False Appearance"
-    description: |
-      While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus.
-
+   - name: False Appearance
+     description: While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus.
 actions:
-  - name: "Multiattack"
-    description: |
-      The fungus makes 1d4 Rotting Touch attacks.
-
-  - name: "Rotting Touch"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.
+   - name: Multiattack
+     description: The fungus makes 1d4 Rotting Touch attacks.
+   - name: Rotting Touch
+     description: 'Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.'

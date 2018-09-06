@@ -1,58 +1,37 @@
-name: "Galeb Duhr"
-slug_name: "galeb-duhr"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "elemental"
-subtype: null
-alignment: "neutral"
-
-armor_class: "16"
-armor_class_type: "natural armor"
-hit_points: "85"
-hit_dice: "9d8+45"
-speed: "15 ft. (30 ft. when rolling, 60 ft. rolling downhill)"
-
-strength: "20"
-strength_modifier: "+5"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "20"
-constitution_modifier: "+5"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft., tremorsense 60 ft."
-languages: "Terran"
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "exhaustion, paralyzed, poisoned, petrified"
-
+name: Galeb Duhr
+slug_name: galeb-duhr
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: elemental
+subtype:
+alignment: neutral
+armor_class: 16
+armor_class_type: natural armor
+hit_points: 85
+hit_dice: 9d8+45
+speed: 15 ft. (30 ft. when rolling, 60 ft. rolling downhill)
+strength: 20
+dexterity: 14
+constitution: 20
+intelligence: 11
+wisdom: 12
+charisma: 11
+saving_throws:
+skills:
+senses: darkvision 60 ft., tremorsense 60 ft.
+languages: Terran
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: exhaustion, paralyzed, poisoned, petrified
 special_abilities:
-  - name: "False Appearance"
-    description: |
-      While the galeb duhr remains motionless, it is indistinguishable from a normal boulder.
-
-  - name: "Rolling Charge"
-    description: |
-      If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.
-
+   - name: False Appearance
+     description: While the galeb duhr remains motionless, it is indistinguishable from a normal boulder.
+   - name: Rolling Charge
+     description: If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.
 actions:
-  - name: "Slam"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft ., one target. Hit: 12 (2d6 + 5) bludgeoning damage.
-
-  - name: "Animate Boulders (1/Day)"
-    description: |
-      The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell) .
+   - name: Slam
+     description: 'Melee Weapon Attack: +8 to hit, reach 5 ft ., one target. Hit: 12 (2d6 + 5) bludgeoning damage.'
+   - name: Animate Boulders (1/Day)
+     description: The galeb duhr magically animates up to two boulders it can see within 60 ft. of it. A boulder has statistics like those of a galeb duhr, except it has Intelligence 1 and Charisma 1, it can't be charmed or frightened, and it lacks this action option. A boulder remains animated as long as the galeb duhr maintains concentration, up to 1 minute (as if concentrating on a spell) .

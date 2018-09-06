@@ -1,50 +1,33 @@
-name: "Cat"
-slug_name: "cat"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Tiny"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "2"
-hit_dice: "1d4"
-speed: "40 ft., climb 30 ft."
-
-strength: "3"
-strength_modifier: "-4"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3, Stealth +4"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Cat
+slug_name: cat
+challenge_rating: 0.0
+experience: 10
+size: Tiny
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 2
+hit_dice: 1d4
+speed: 40 ft., climb 30 ft.
+strength: 3
+dexterity: 15
+constitution: 10
+intelligence: 3
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3, Stealth +4
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Smell"
-    description: |
-      The cat has advantage on Wisdom (Perception) checks that rely on smell.
-
+   - name: Keen Smell
+     description: The cat has advantage on Wisdom (Perception) checks that rely on smell.
 actions:
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.
+   - name: Claws
+     description: 'Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.'

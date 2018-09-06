@@ -1,138 +1,92 @@
-name: "Gar Shatterkeel"
-slug_name: "gar-shatterkeel"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "16"
-armor_class_type: "natural armor"
-hit_points: "30"
-hit_dice: "15d8+45"
-speed: "30 ft., swim 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "18"
-wisdom_modifier: "+4"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Nature +8, Survival +8"
-senses: null
-languages: "Aquan, Common"
-
-damage_resistances: "cold"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Gar Shatterkeel
+slug_name: gar-shatterkeel
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 16
+armor_class_type: natural armor
+hit_points: 30
+hit_dice: 15d8+45
+speed: 30 ft., swim 30 ft.
+strength: 15
+dexterity: 15
+constitution: 16
+intelligence: 12
+wisdom: 18
+charisma: 13
+saving_throws:
+skills: Nature +8, Survival +8
+senses:
+languages: Aquan, Common
+damage_resistances: cold
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      Gar can breathe air and water.
-
-  - name: "Legendary Resistance (2/Day)"
-    description: |
-      If Gar fails a saving throw, he can choose to succeed instead.
-
-  - name: "Water Walk"
-    description: |
-      Gar can stand and move on liquid surfaces as if they were solid ground.
-
-  - name: "Watery Fall"
-    description: |
-      When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind.
-
+   - name: Amphibious
+     description: Gar can breathe air and water.
+   - name: Legendary Resistance (2/Day)
+     description: If Gar fails a saving throw, he can choose to succeed instead.
+   - name: Water Walk
+     description: Gar can stand and move on liquid surfaces as if they were solid ground.
+   - name: Watery Fall
+     description: When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind.
 actions:
-  - name: "Multiattack"
-    description: |
-      Gar makes two melee attacks, one with his claw and one with Drown.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and the target is grappled (escape DC 13). Until the grapple ends, Gar can't attack other creatures with his claw.
-
-  - name: "Drown"
-    description: |
-      Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.
-
+   - name: Multiattack
+     description: Gar makes two melee attacks, one with his claw and one with Drown.
+   - name: Claw
+     description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and the target is grappled (escape DC 13). Until the grapple ends, Gar can't attack other creatures with his claw."
+   - name: Drown
+     description: 'Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mending"
-          slug_name: "mending"
-
-        - name: "resistance"
-          slug_name: "resistance"
-
-        - name: "shape water"
-          slug_name: "shape-water"
-
-
-      - "1st level (4 slots)":
-        - name: " create or destroy water"
-          slug_name: "create-or-destroy-water"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " darkvision"
-          slug_name: "darkvision"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-        - name: "protection from poison"
-          slug_name: "protection-from-poison"
-
-
-      - "3rd level (3 slots)":
-        - name: " call lightning"
-          slug_name: "call-lightning"
-
-        - name: "sleet storm"
-          slug_name: "sleet-storm"
-
-        - name: "tidal wave"
-          slug_name: "tidal-wave"
-
-
-      - "4th level (3 slots)":
-        - name: " control water"
-          slug_name: "control-water"
-
-        - name: "ice storm"
-          slug_name: "ice-storm"
-
-
-      - "5th level (1 slot)":
-        - name: " scrying"
-          slug_name: "scrying"
+   - title: Spellcasting
+     top_description: 'Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mending
+               slug_name: mending
+             - name: resistance
+               slug_name: resistance
+             - name: shape water
+               slug_name: shape-water
+        - title: 1st level (4 slots)
+          spells:
+             - name: create or destroy water
+               slug_name: create-or-destroy-water
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: darkvision
+               slug_name: darkvision
+             - name: hold person
+               slug_name: hold-person
+             - name: protection from poison
+               slug_name: protection-from-poison
+        - title: 3rd level (3 slots)
+          spells:
+             - name: call lightning
+               slug_name: call-lightning
+             - name: sleet storm
+               slug_name: sleet-storm
+             - name: tidal wave
+               slug_name: tidal-wave
+        - title: 4th level (3 slots)
+          spells:
+             - name: control water
+               slug_name: control-water
+             - name: ice storm
+               slug_name: ice-storm
+        - title: 5th level (1 slot)
+          spells:
+             - name: scrying
+               slug_name: scrying

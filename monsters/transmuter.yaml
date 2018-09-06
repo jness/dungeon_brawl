@@ -1,130 +1,82 @@
-name: "Transmuter"
-slug_name: "transmuter"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "40"
-hit_dice: "9d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +6, Wis +4"
-skills: "Arcana +6, History +6"
-senses: null
-languages: "any four languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Transmuter
+slug_name: transmuter
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 40
+hit_dice: 9d8
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 11
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws: Int +6, Wis +4
+skills: Arcana +6, History +6
+senses:
+languages: any four languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Transmuter's Stone"
-    description: |
-      The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:
-
-      * Darkvision out to a range of 60 feet
-
-      * An extra 10 feet of speed while the bearer is unencumbered
-
-      * Proficiency with Constitution saving throws
-
-      * Resistance to acid, cold, fire, lightning, or thunder damage (transmuter's choice whenever the transmuter chooses this benefit)
-
-      If the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone.
-
+   - name: Transmuter's Stone
+     description: "The transmuter carries a magic stone it crafted that grants its bearer one of the following effects:\n\n* Darkvision out to a range of 60 feet\n\n* An extra 10 feet of speed while the bearer is unencumbered\n\n* Proficiency with Constitution saving throws\n\n* Resistance to acid, cold, fire, lightning, or thunder damage (transmuter's choice whenever the transmuter chooses this benefit)\n\nIf the transmuter has the stone and casts a transmutation spell of 1st level or higher, it can change the effect of the stone."
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:
-
-    bottom_description: |
-      *Transmutation spell of 1st level or higher
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " chromatic orb"
-          slug_name: "chromatic-orb"
-
-        - name: "expeditious retreat*"
-          slug_name: "expeditious-retreat"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-
-      - "2nd level (3 slots)":
-        - name: " alter self*"
-          slug_name: "alter-self"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-        - name: "knock*"
-          slug_name: "knock"
-
-
-      - "3rd level (3 slots)":
-        - name: " blink*"
-          slug_name: "blink"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-        - name: "slow*"
-          slug_name: "slow"
-
-
-      - "4th level (3 slots)":
-        - name: " polymorph*"
-          slug_name: "polymorph"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (1 slot)":
-        - name: " telekinesis*"
-          slug_name: "telekinesis"
+   - title: Spellcasting
+     top_description: 'The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:'
+     bottom_description: '*Transmutation spell of 1st level or higher'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: mending
+               slug_name: mending
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: chromatic orb
+               slug_name: chromatic-orb
+             - name: expeditious retreat*
+               slug_name: expeditious-retreat
+             - name: mage armor
+               slug_name: mage-armor
+        - title: 2nd level (3 slots)
+          spells:
+             - name: alter self*
+               slug_name: alter-self
+             - name: hold person
+               slug_name: hold-person
+             - name: knock*
+               slug_name: knock
+        - title: 3rd level (3 slots)
+          spells:
+             - name: blink*
+               slug_name: blink
+             - name: fireball
+               slug_name: fireball
+             - name: slow*
+               slug_name: slow
+        - title: 4th level (3 slots)
+          spells:
+             - name: polymorph*
+               slug_name: polymorph
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (1 slot)
+          spells:
+             - name: telekinesis*
+               slug_name: telekinesis

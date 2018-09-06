@@ -1,142 +1,90 @@
-name: "Graz'zt"
-slug_name: "graz-zt"
-
-challenge_rating: "24"
-challenge_rating_decimal: "24.0"
-experience: "62,000 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "demon, shapechanger"
-alignment: "chaotic evil"
-
-armor_class: "20"
-armor_class_type: "natural armor"
-hit_points: "378"
-hit_dice: "36d10+180"
-speed: "40 ft."
-
-strength: "22"
-strength_modifier: "+6"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "21"
-constitution_modifier: "+5"
-intelligence: "23"
-intelligence_modifier: "+6"
-wisdom: "21"
-wisdom_modifier: "+5"
-charisma: "26"
-charisma_modifier: "+8"
-
-saving_throws: "Dex +9, Con +12, Wis +12"
-skills: "Deception +15, Insight +12, Perception +12, Persuasion +15"
-senses: "truesight 120 ft."
-languages: "all, telepathy 120 ft."
-
-damage_resistances: "cold, fire, lightning"
-damage_immunities: "poison; bludgeoning, piercing, and slashing that is nonmagical"
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, frightened, poisoned"
-
+name: Graz'zt
+slug_name: graz-zt
+challenge_rating: 24.0
+experience: 62000
+size: Large
+type: fiend
+subtype: demon, shapechanger
+alignment: chaotic evil
+armor_class: 20
+armor_class_type: natural armor
+hit_points: 378
+hit_dice: 36d10+180
+speed: 40 ft.
+strength: 22
+dexterity: 15
+constitution: 21
+intelligence: 23
+wisdom: 21
+charisma: 26
+saving_throws: Dex +9, Con +12, Wis +12
+skills: Deception +15, Insight +12, Perception +12, Persuasion +15
+senses: truesight 120 ft.
+languages: all, telepathy 120 ft.
+damage_resistances: cold, fire, lightning
+damage_immunities: poison; bludgeoning, piercing, and slashing that is nonmagical
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, frightened, poisoned
 special_abilities:
-  - name: "Shapechanger"
-    description: |
-      Graz'zt can use his action to polymorph into a form that resembles a Medium humanoid, or back into his true form. Aside from his size, his statistics are the same in each form, Any equipment he is wearing or carrying isn't transformed.
-
-  - name: "Legendary Resistance (3/Day)"
-    description: |
-      If Graz'zt fails a saving throw, he can choose to succeed instead.
-
-  - name: "Magic Resistance"
-    description: |
-      Graz'zt has advantage on saving throws against spell and other magic effects.
-
-  - name: "Magic Weapon"
-    description: |
-      Graz'zt's weapon attacks are magical.
-
+   - name: Shapechanger
+     description: Graz'zt can use his action to polymorph into a form that resembles a Medium humanoid, or back into his true form. Aside from his size, his statistics are the same in each form, Any equipment he is wearing or carrying isn't transformed.
+   - name: Legendary Resistance (3/Day)
+     description: If Graz'zt fails a saving throw, he can choose to succeed instead.
+   - name: Magic Resistance
+     description: Graz'zt has advantage on saving throws against spell and other magic effects.
+   - name: Magic Weapon
+     description: Graz'zt's weapon attacks are magical.
 actions:
-  - name: "Multiattack"
-    description: |
-      Graz'zt attacks twice with the Wave of Sorrow.
-
-  - name: "Wave of Sorrow (Greatsword)"
-    description: |
-      Melee Weapon Attack: +13 to hit, reach 10 ft., one target, Hit; 20 (4d6 + 6) slashing damage plus 14 (4d6) acid damage.
-
-  - name: "Teleport"
-    description: |
-      Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.
-
-legendary_action_description: "Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn."
-
-legendary_actions":
-  - name: "Attack"
-    description: |
-      Graz'zt attacks once with the Wave of Sorrow.
-
-  - name: "Dance, My Puppet!"
-    description: |
-      One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.
-
-  - name: "Sow Discord"
-    description: |
-      Graz'zt casts crown of madness or dissonant whispers.
-
-  - name: "Teleport"
-    description: |
-      Graz'zt uses his Teleport action.
-
+   - name: Multiattack
+     description: Graz'zt attacks twice with the Wave of Sorrow.
+   - name: Wave of Sorrow (Greatsword)
+     description: 'Melee Weapon Attack: +13 to hit, reach 10 ft., one target, Hit; 20 (4d6 + 6) slashing damage plus 14 (4d6) acid damage.'
+   - name: Teleport
+     description: Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.
+legendary_action_description: Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn.
+legendary_actions:
+   - name: Attack
+     description: Graz'zt attacks once with the Wave of Sorrow.
+   - name: Dance, My Puppet!
+     description: One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.
+   - name: Sow Discord
+     description: Graz'zt casts crown of madness or dissonant whispers.
+   - name: Teleport
+     description: Graz'zt uses his Teleport action.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "crown of madness"
-          slug_name: "crown-of-madness"
-
-        - name: "detect magic"
-          slug_name: "detect-magic"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "dissonant whispers"
-          slug_name: "dissonant-whispers"
-
-
-      - "3/day each":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "darkness"
-          slug_name: "darkness"
-
-        - name: "dominate person"
-          slug_name: "dominate-person"
-
-        - name: "sanctuary"
-          slug_name: "sanctuary"
-
-        - name: "telekinesis"
-          slug_name: "telekinesis"
-
-        - name: "teleport"
-          slug_name: "teleport"
-
-
-      - "1/day each":
-        - name: " dominate monster"
-          slug_name: "dominate-monster"
-
-        - name: "greater invisibility"
-          slug_name: "greater-invisibility"
+   - title: Innate Spellcasting
+     top_description: "Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: crown of madness
+               slug_name: crown-of-madness
+             - name: detect magic
+               slug_name: detect-magic
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: dissonant whispers
+               slug_name: dissonant-whispers
+        - title: 3/day each
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: darkness
+               slug_name: darkness
+             - name: dominate person
+               slug_name: dominate-person
+             - name: sanctuary
+               slug_name: sanctuary
+             - name: telekinesis
+               slug_name: telekinesis
+             - name: teleport
+               slug_name: teleport
+        - title: 1/day each
+          spells:
+             - name: dominate monster
+               slug_name: dominate-monster
+             - name: greater invisibility
+               slug_name: greater-invisibility

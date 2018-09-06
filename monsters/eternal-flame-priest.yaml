@@ -1,94 +1,65 @@
-name: "Eternal Flame Priest"
-slug_name: "eternal-flame-priest"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "52"
-hit_dice: "8d8+16"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Intimidation +5, Religion +2"
-senses: null
-languages: "Common, Ignan"
-
-damage_resistances: "fire"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Eternal Flame Priest
+slug_name: eternal-flame-priest
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 52
+hit_dice: 8d8+16
+speed: 30 ft.
+strength: 12
+dexterity: 15
+constitution: 14
+intelligence: 10
+wisdom: 11
+charisma: 16
+saving_throws:
+skills: Deception +5, Intimidation +5, Religion +2
+senses:
+languages: Common, Ignan
+damage_resistances: fire
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " control flames"
-          slug_name: "control-flames"
-
-        - name: "create bonfire"
-          slug_name: "create-bonfire"
-
-        - name: "fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-
-      - "1st level (4 slots)":
-        - name: " burning hands"
-          slug_name: "burning-hands"
-
-        - name: "expeditious retreat"
-          slug_name: "expeditious-retreat"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-
-      - "2nd level (3 slots)":
-        - name: " blur"
-          slug_name: "blur"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (2 slots)":
-        - name: " fireball"
-          slug_name: "fireball"
+   - title: Spellcasting
+     top_description: 'The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: control flames
+               slug_name: control-flames
+             - name: create bonfire
+               slug_name: create-bonfire
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: light
+               slug_name: light
+             - name: minor illusion
+               slug_name: minor-illusion
+        - title: 1st level (4 slots)
+          spells:
+             - name: burning hands
+               slug_name: burning-hands
+             - name: expeditious retreat
+               slug_name: expeditious-retreat
+             - name: mage armor
+               slug_name: mage-armor
+        - title: 2nd level (3 slots)
+          spells:
+             - name: blur
+               slug_name: blur
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (2 slots)
+          spells:
+             - name: fireball
+               slug_name: fireball

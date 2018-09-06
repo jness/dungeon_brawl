@@ -1,85 +1,59 @@
-name: "Bone Naga (Guardian)"
-slug_name: "bone-naga-guardian"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Large"
-type: "undead"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "58"
-hit_dice: "9d10+9"
-speed: "30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "15"
-intelligence_modifier: "+2"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "Common plus one other language"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, paralyzed, poisoned"
-
+name: Bone Naga (Guardian)
+slug_name: bone-naga-guardian
+challenge_rating: 4.0
+experience: 1100
+size: Large
+type: undead
+subtype:
+alignment: lawful evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 58
+hit_dice: 9d10+9
+speed: 30 ft.
+strength: 15
+dexterity: 16
+constitution: 12
+intelligence: 15
+wisdom: 15
+charisma: 16
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: Common plus one other language
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, paralyzed, poisoned
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.
-
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mending"
-          slug_name: "mending"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "shield of faith"
-          slug_name: "shield-of-faith"
-
-
-      - "2nd level (3 slots)":
-        - name: " calm emotions"
-          slug_name: "calm-emotions"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-
-      - "3rd level (2 slots)":
-        - name: " bestow curse"
-          slug_name: "bestow-curse"
+   - title: Spellcasting
+     top_description: 'The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with spell attacks) that needs only verbal components to cast its spells. Its spellcasting ability is Wisdom, and it has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mending
+               slug_name: mending
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: command
+               slug_name: command
+             - name: shield of faith
+               slug_name: shield-of-faith
+        - title: 2nd level (3 slots)
+          spells:
+             - name: calm emotions
+               slug_name: calm-emotions
+             - name: hold person
+               slug_name: hold-person
+        - title: 3rd level (2 slots)
+          spells:
+             - name: bestow curse
+               slug_name: bestow-curse

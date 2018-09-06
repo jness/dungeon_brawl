@@ -1,58 +1,37 @@
-name: "Phase Spider"
-slug_name: "phase-spider"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "32"
-hit_dice: "5d10+5"
-speed: "30 ft., climb 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "6"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Stealth +6"
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Phase Spider
+slug_name: phase-spider
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 32
+hit_dice: 5d10+5
+speed: 30 ft., climb 30 ft.
+strength: 15
+dexterity: 15
+constitution: 12
+intelligence: 6
+wisdom: 10
+charisma: 6
+saving_throws:
+skills: Stealth +6
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Ethereal Jaunt"
-    description: |
-      As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.
-
-  - name: "Spider Climb"
-    description: |
-      The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-  - name: "Web Walker"
-    description: |
-      The spider ignores movement restrictions caused by webbing.
-
+   - name: Ethereal Jaunt
+     description: As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.
+   - name: Spider Climb
+     description: The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+   - name: Web Walker
+     description: The spider ignores movement restrictions caused by webbing.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.'

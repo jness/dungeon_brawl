@@ -1,76 +1,45 @@
-name: "Kuo-Toa"
-slug_name: "kuo-toa"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "kuo-toa"
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: "natural armor, shield"
-hit_points: "18"
-hit_dice: "4d8"
-speed: "30 ft., swim 30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +4"
-senses: "darkvision 120 ft."
-languages: "Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Kuo-Toa
+slug_name: kuo-toa
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: humanoid
+subtype: kuo-toa
+alignment: neutral evil
+armor_class: 13
+armor_class_type: natural armor, shield
+hit_points: 18
+hit_dice: 4d8
+speed: 30 ft., swim 30 ft.
+strength: 13
+dexterity: 10
+constitution: 11
+intelligence: 11
+wisdom: 10
+charisma: 8
+saving_throws:
+skills: Perception +4
+senses: darkvision 120 ft.
+languages: Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The kuo-toa can breathe air and water.
-
-  - name: "Otherwordly Perception"
-    description: |
-      The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.
-
-  - name: "Slippery"
-    description: |
-      The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Amphibious
+     description: The kuo-toa can breathe air and water.
+   - name: Otherwordly Perception
+     description: The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.
+   - name: Slippery
+     description: The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
-
-  - name: "Spear"
-    description: |
-      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.
-
-  - name: "Net"
-    description: |
-      Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.
-
-      **Reactions**
-
-  - name: "Sticky Shield"
-    description: |
-      When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.
+   - name: Bite
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.'
+   - name: Spear
+     description: 'Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.'
+   - name: Net
+     description: "Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.\n\n**Reactions**"
+   - name: Sticky Shield
+     description: When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding.

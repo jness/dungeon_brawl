@@ -1,54 +1,35 @@
-name: "Giant Rat"
-slug_name: "giant-rat"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Small"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "7"
-hit_dice: "2d6"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "4"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Rat
+slug_name: giant-rat
+challenge_rating: 0.125
+experience: 25
+size: Small
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 7
+hit_dice: 2d6
+speed: 30 ft.
+strength: 7
+dexterity: 15
+constitution: 11
+intelligence: 2
+wisdom: 10
+charisma: 4
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Smell"
-    description: |
-      The rat has advantage on Wisdom (Perception) checks that rely on smell.
-
-  - name: "Pack Tactics"
-    description: |
-      The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated.
-
+   - name: Keen Smell
+     description: The rat has advantage on Wisdom (Perception) checks that rely on smell.
+   - name: Pack Tactics
+     description: The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'

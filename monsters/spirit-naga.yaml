@@ -1,109 +1,76 @@
-name: "Spirit Naga"
-slug_name: "spirit-naga"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "75"
-hit_dice: "10d10+20"
-speed: "40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Dex +6, Con +5, Wis +5, Cha +6"
-skills: null
-senses: "darkvision 60 ft."
-languages: "Abyssal, Common"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, poisoned"
-
+name: Spirit Naga
+slug_name: spirit-naga
+challenge_rating: 8.0
+experience: 3900
+size: Large
+type: monstrosity
+subtype:
+alignment: chaotic evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 75
+hit_dice: 10d10+20
+speed: 40 ft.
+strength: 18
+dexterity: 17
+constitution: 14
+intelligence: 16
+wisdom: 15
+charisma: 16
+saving_throws: Dex +6, Con +5, Wis +5, Cha +6
+skills:
+senses: darkvision 60 ft.
+languages: Abyssal, Common
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, poisoned
 special_abilities:
-  - name: "Rejuvenation"
-    description: |
-      If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
-
+   - name: Rejuvenation
+     description: If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.
-
+   - name: Bite
+     description: 'Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "detect magic"
-          slug_name: "detect-magic"
-
-        - name: "sleep"
-          slug_name: "sleep"
-
-
-      - "2nd level (3 slots)":
-        - name: " detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-
-      - "3rd level (3 slots)":
-        - name: " lightning bolt"
-          slug_name: "lightning-bolt"
-
-        - name: "water breathing"
-          slug_name: "water-breathing"
-
-
-      - "4th level (3 slots)":
-        - name: " blight"
-          slug_name: "blight"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-
-      - "5th level (2 slots)":
-        - name: " dominate person"
-          slug_name: "dominate-person"
+   - title: Spellcasting
+     top_description: 'The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: detect magic
+               slug_name: detect-magic
+             - name: sleep
+               slug_name: sleep
+        - title: 2nd level (3 slots)
+          spells:
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: hold person
+               slug_name: hold-person
+        - title: 3rd level (3 slots)
+          spells:
+             - name: lightning bolt
+               slug_name: lightning-bolt
+             - name: water breathing
+               slug_name: water-breathing
+        - title: 4th level (3 slots)
+          spells:
+             - name: blight
+               slug_name: blight
+             - name: dimension door
+               slug_name: dimension-door
+        - title: 5th level (2 slots)
+          spells:
+             - name: dominate person
+               slug_name: dominate-person

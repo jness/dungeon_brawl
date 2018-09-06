@@ -1,98 +1,62 @@
-name: "Dryad"
-slug_name: "dryad"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Medium"
-type: "fey"
-subtype: null
-alignment: "neutral"
-
-armor_class: "11"
-armor_class_type: "16 with barkskin"
-hit_points: "22"
-hit_dice: "5d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: null
-skills: "Perception +4, Stealth +5"
-senses: "darkvision 60 ft."
-languages: "Elvish, Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Dryad
+slug_name: dryad
+challenge_rating: 1.0
+experience: 200
+size: Medium
+type: fey
+subtype:
+alignment: neutral
+armor_class: 11
+armor_class_type: 16 with barkskin
+hit_points: 22
+hit_dice: 5d8
+speed: 30 ft.
+strength: 10
+dexterity: 12
+constitution: 11
+intelligence: 14
+wisdom: 15
+charisma: 18
+saving_throws:
+skills: Perception +4, Stealth +5
+senses: darkvision 60 ft.
+languages: Elvish, Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The dryad has advantage on saving throws against spells and other magical effects.
-
-  - name: "Speak with Beasts and Plants"
-    description: |
-      The dryad can communicate with beasts and plants as if they shared a language.
-
-  - name: "Tree Stride"
-    description: |
-      Once on her turn, the dryad can use 10 ft. of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 ft. of the first tree, appearing in an unoccupied space within 5 ft. of the second tree. Both trees must be large or bigger.
-
+   - name: Magic Resistance
+     description: The dryad has advantage on saving throws against spells and other magical effects.
+   - name: Speak with Beasts and Plants
+     description: The dryad can communicate with beasts and plants as if they shared a language.
+   - name: Tree Stride
+     description: Once on her turn, the dryad can use 10 ft. of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 ft. of the first tree, appearing in an unoccupied space within 5 ft. of the second tree. Both trees must be large or bigger.
 actions:
-  - name: "Club"
-    description: |
-      Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.
-
-  - name: "Fey Charm"
-    description: |
-      The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.
-
-      Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.
-
-      The dryad can have no more than one humanoid and up to three beasts charmed at a time.
-
+   - name: Club
+     description: 'Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.'
+   - name: Fey Charm
+     description: "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.\n\nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.\n\nThe dryad can have no more than one humanoid and up to three beasts charmed at a time."
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " druidcraft"
-          slug_name: "druidcraft"
-
-
-      - "3/day each":
-        - name: " entangle"
-          slug_name: "entangle"
-
-        - name: "goodberry"
-          slug_name: "goodberry"
-
-
-      - "1/day each":
-        - name: " barkskin"
-          slug_name: "barkskin"
-
-        - name: "pass without trace"
-          slug_name: "pass-without-trace"
-
-        - name: "shillelagh"
-          slug_name: "shillelagh"
+   - title: Innate Spellcasting
+     top_description: "The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: druidcraft
+               slug_name: druidcraft
+        - title: 3/day each
+          spells:
+             - name: entangle
+               slug_name: entangle
+             - name: goodberry
+               slug_name: goodberry
+        - title: 1/day each
+          spells:
+             - name: barkskin
+               slug_name: barkskin
+             - name: pass without trace
+               slug_name: pass-without-trace
+             - name: shillelagh
+               slug_name: shillelagh

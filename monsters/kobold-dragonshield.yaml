@@ -1,66 +1,41 @@
-name: "Kobold Dragonshield"
-slug_name: "kobold-dragonshield"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "kobold"
-alignment: "lawful evil"
-
-armor_class: "15"
-armor_class_type: "leather armor, shield"
-hit_points: "44"
-hit_dice: "8d6+16"
-speed: "20 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "9"
-wisdom_modifier: "-1"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Perception +1"
-senses: "darkvision 60 ft."
-languages: "Common, Draconic"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Kobold Dragonshield
+slug_name: kobold-dragonshield
+challenge_rating: 1.0
+experience: 200
+size: Small
+type: humanoid
+subtype: kobold
+alignment: lawful evil
+armor_class: 15
+armor_class_type: leather armor, shield
+hit_points: 44
+hit_dice: 8d6+16
+speed: 20 ft.
+strength: 12
+dexterity: 15
+constitution: 14
+intelligence: 8
+wisdom: 9
+charisma: 10
+saving_throws:
+skills: Perception +1
+senses: darkvision 60 ft.
+languages: Common, Draconic
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Dragon's Resistance"
-    description: |
-      The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).
-
-  - name: "Heart of the Dragon"
-    description: |
-      If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.
-
-  - name: "Pack Tactics"
-    description: |
-      The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Dragon's Resistance
+     description: 'The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).'
+   - name: Heart of the Dragon
+     description: If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.
+   - name: Pack Tactics
+     description: The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Multiattack"
-    description: |
-      The kobold makes two melee attacks.
-
-  - name: "Spear"
-    description: |
-      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.
+   - name: Multiattack
+     description: The kobold makes two melee attacks.
+   - name: Spear
+     description: 'Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.'

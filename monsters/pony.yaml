@@ -1,44 +1,30 @@
-name: "Pony"
-slug_name: "pony"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "11"
-hit_dice: "2d8+2"
-speed: "40 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Pony
+slug_name: pony
+challenge_rating: 0.125
+experience: 25
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 10
+armor_class_type:
+hit_points: 11
+hit_dice: 2d8+2
+speed: 40 ft.
+strength: 15
+dexterity: 10
+constitution: 13
+intelligence: 2
+wisdom: 11
+charisma: 7
+saving_throws:
+skills:
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Hooves"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.
+   - name: Hooves
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.'

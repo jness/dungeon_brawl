@@ -1,58 +1,37 @@
-name: "Hulking Crab"
-slug_name: "hulking-crab"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Huge"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "76"
-hit_dice: "8d12+24"
-speed: "20 ft., swim 30 ft."
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "8"
-dexterity_modifier: "-1"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: "Stealth +2"
-senses: "blindsight 30 ft."
-languages: "--"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Hulking Crab
+slug_name: hulking-crab
+challenge_rating: 5.0
+experience: 1800
+size: Huge
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 76
+hit_dice: 8d12+24
+speed: 20 ft., swim 30 ft.
+strength: 19
+dexterity: 8
+constitution: 16
+intelligence: 3
+wisdom: 11
+charisma: 3
+saving_throws:
+skills: Stealth +2
+senses: blindsight 30 ft.
+languages: --
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The crab can breathe air and water.
-
-  - name: "Shell Camouflage"
-    description: |
-      While the crab remains motionless with it's eyestalks and pincers tucked close to it's body, it resembles a natural formation or a pile of detritus. A creature within 30 feet of it can discren its true nature with a successful DC 15 intelligence (Nature) check.
-
+   - name: Amphibious
+     description: The crab can breathe air and water.
+   - name: Shell Camouflage
+     description: While the crab remains motionless with it's eyestalks and pincers tucked close to it's body, it resembles a natural formation or a pile of detritus. A creature within 30 feet of it can discren its true nature with a successful DC 15 intelligence (Nature) check.
 actions:
-  - name: "Multiattack"
-    description: |
-      The aboleth makes three tentacle attacks.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10+4) bludgeoning damage, and the target is grappled (escape DC 15). The crab has two claws, each of which can grapple only one target
+   - name: Multiattack
+     description: The aboleth makes three tentacle attacks.
+   - name: Claw
+     description: 'Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10+4) bludgeoning damage, and the target is grappled (escape DC 15). The crab has two claws, each of which can grapple only one target'

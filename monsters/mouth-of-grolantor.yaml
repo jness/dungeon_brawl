@@ -1,64 +1,35 @@
-name: "Mouth of Grolantor"
-slug_name: "mouth-of-grolantor"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Huge"
-type: "giant"
-subtype: "hill giant"
-alignment: "chaotic evil"
-
-armor_class: "14"
-armor_class_type: "natural armor"
-hit_points: "105"
-hit_dice: "10d12+40"
-speed: "50 ft."
-
-strength: "21"
-strength_modifier: "+5"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "5"
-intelligence_modifier: "-3"
-wisdom: "7"
-wisdom_modifier: "-2"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: "Perception +1"
-senses: null
-languages: "Giant"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "frightened"
-
+name: Mouth of Grolantor
+slug_name: mouth-of-grolantor
+challenge_rating: 6.0
+experience: 2300
+size: Huge
+type: giant
+subtype: hill giant
+alignment: chaotic evil
+armor_class: 14
+armor_class_type: natural armor
+hit_points: 105
+hit_dice: 10d12+40
+speed: 50 ft.
+strength: 21
+dexterity: 10
+constitution: 18
+intelligence: 5
+wisdom: 7
+charisma: 5
+saving_throws:
+skills: Perception +1
+senses:
+languages: Giant
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: frightened
 special_abilities:
-  - name: "Mouth of Madness"
-    description: |
-      The giant is immune to confusion spells and similar magic.
-
-      On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant's turns to determine its action for that turn:
-
-      1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.
-
-      4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.
-
-      6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.
-
-      8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.
-
+   - name: Mouth of Madness
+     description: "The giant is immune to confusion spells and similar magic.\n\nOn each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant's turns to determine its action for that turn:\n\n1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.\n\n4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.\n\n6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.\n\n8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn."
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.'
+   - name: Fist
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.'

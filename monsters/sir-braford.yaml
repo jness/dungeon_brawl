@@ -1,68 +1,41 @@
-name: "Sir Braford"
-slug_name: "sir-braford"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "18"
-armor_class_type: "chain mail, shield"
-hit_points: "19"
-hit_dice: "3d8+6"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "9"
-dexterity_modifier: "-1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Athletics +S, Perception +3"
-senses: null
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Sir Braford
+slug_name: sir-braford
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 18
+armor_class_type: chain mail, shield
+hit_points: 19
+hit_dice: 3d8+6
+speed: 30 ft.
+strength: 16
+dexterity: 9
+constitution: 14
+intelligence: 10
+wisdom: 13
+charisma: 14
+saving_throws:
+skills: Athletics +S, Perception +3
+senses:
+languages: Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 243
-
-  - name: "Barkskin"
-    description: |
-      Sir Braford's AC can't be lower than 16.
-
-  - name: "Special Equipment"
-    description: |
-      Sir Braford wields Shatterspike, a magic longsword that grants a + 1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties.
-
-  - name: "Tree Thrall"
-    description: |
-      If the Gulthias Tree dies, Sir Braford dies 24 hours later.
-
+   - name: Source
+     description: tales from the yawning portal,  page 243
+   - name: Barkskin
+     description: Sir Braford's AC can't be lower than 16.
+   - name: Special Equipment
+     description: Sir Braford wields Shatterspike, a magic longsword that grants a + 1 bonus to attack and damage rolls made with it (included in his attack). See appendix B for the item's other properties.
+   - name: Tree Thrall
+     description: If the Gulthias Tree dies, Sir Braford dies 24 hours later.
 actions:
-  - name: "Longsword"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1dlO + 4) slashing damage if used with two hands.
-
-      **Reactions**
-
-  - name: "Protection"
-    description: |
-      When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll.
+   - name: Longsword
+     description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1dlO + 4) slashing damage if used with two hands.\n\n**Reactions**"
+   - name: Protection
+     description: When a creature Sir Braford can see attacks a target other than him that is within 5 feet of him, he can use a reaction to use his shield to impose disadvantage on the attack roll.

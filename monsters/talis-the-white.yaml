@@ -1,126 +1,86 @@
-name: "Talis the White"
-slug_name: "talis-the-white"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "half-elf"
-alignment: "lawful evil"
-
-armor_class: "18"
-armor_class_type: "scale mail +1, shield"
-hit_points: "58"
-hit_dice: "9d8+18"
-speed: "30 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Wis +6, Cha +6"
-skills: "Deception +6, Insight +6, Perception +6, Persuasion +6"
-senses: "darkvision 60 ft."
-languages: "Common, Draconic, Elvish, Infernal"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Talis the White
+slug_name: talis-the-white
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: half-elf
+alignment: lawful evil
+armor_class: 18
+armor_class_type: scale mail +1, shield
+hit_points: 58
+hit_dice: 9d8+18
+speed: 30 ft.
+strength: 14
+dexterity: 12
+constitution: 14
+intelligence: 10
+wisdom: 16
+charisma: 16
+saving_throws: Wis +6, Cha +6
+skills: Deception +6, Insight +6, Perception +6, Persuasion +6
+senses: darkvision 60 ft.
+languages: Common, Draconic, Elvish, Infernal
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Special Equipment"
-    description: |
-      Talis has +1 scale mail and a wand of winter.
-
-  - name: "Fey Ancestry"
-    description: |
-      Talis has advantage on saving throws against being charmed, and magic can't put her to sleep.
-
-  - name: "Winter Strike (3/Day)"
-    description: |
-      Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.
-
+   - name: Special Equipment
+     description: Talis has +1 scale mail and a wand of winter.
+   - name: Fey Ancestry
+     description: Talis has advantage on saving throws against being charmed, and magic can't put her to sleep.
+   - name: Winter Strike (3/Day)
+     description: Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.
 actions:
-  - name: "Spear"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.
-
+   - name: Spear
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "resistance"
-          slug_name: "resistance"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "inflict wounds"
-          slug_name: "inflict-wounds"
-
-
-      - "2nd level (3 slots)":
-        - name: " blindness/deafness"
-          slug_name: "blindness"
-
-        - name: "lesser restoration"
-          slug_name: "lesser-restoration"
-
-        - name: "spiritual weapon (spear)"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (3 slots)":
-        - name: " dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "mass healing word"
-          slug_name: "mass-healing-word"
-
-        - name: "sending"
-          slug_name: "sending"
-
-
-      - "4th level (3 slots)":
-        - name: " death ward"
-          slug_name: "death-ward"
-
-        - name: "freedom of movement"
-          slug_name: "freedom-of-movement"
-
-
-      - "5th level (1 slot)":
-        - name: " insect plague"
-          slug_name: "insect-plague"
+   - title: Spellcasting
+     top_description: 'Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: resistance
+               slug_name: resistance
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: command
+               slug_name: command
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: healing word
+               slug_name: healing-word
+             - name: inflict wounds
+               slug_name: inflict-wounds
+        - title: 2nd level (3 slots)
+          spells:
+             - name: blindness/deafness
+               slug_name: blindness
+             - name: lesser restoration
+               slug_name: lesser-restoration
+             - name: spiritual weapon (spear)
+               slug_name: spiritual-weapon
+        - title: 3rd level (3 slots)
+          spells:
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: mass healing word
+               slug_name: mass-healing-word
+             - name: sending
+               slug_name: sending
+        - title: 4th level (3 slots)
+          spells:
+             - name: death ward
+               slug_name: death-ward
+             - name: freedom of movement
+               slug_name: freedom-of-movement
+        - title: 5th level (1 slot)
+          spells:
+             - name: insect plague
+               slug_name: insect-plague

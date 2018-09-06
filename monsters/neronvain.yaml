@@ -1,66 +1,41 @@
-name: "Neronvain"
-slug_name: "neronvain"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "elf"
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: null
-hit_points: "117"
-hit_dice: "18d8+36"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Con +6, Wis +5"
-skills: "Arcana +7, Perception +5"
-senses: "darkvision 60 ft."
-languages: "Common, Draconic, Elvish, Infernal"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, poisoned"
-
+name: Neronvain
+slug_name: neronvain
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: elf
+alignment: neutral evil
+armor_class: 17
+armor_class_type:
+hit_points: 117
+hit_dice: 18d8+36
+speed: 30 ft.
+strength: 8
+dexterity: 17
+constitution: 15
+intelligence: 16
+wisdom: 13
+charisma: 18
+saving_throws: Con +6, Wis +5
+skills: Arcana +7, Perception +5
+senses: darkvision 60 ft.
+languages: Common, Draconic, Elvish, Infernal
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, poisoned
 special_abilities:
-  - name: "Draconic Majesty"
-    description: |
-      Neronvain adds his Charisma bonus to his AC (included).
-
+   - name: Draconic Majesty
+     description: Neronvain adds his Charisma bonus to his AC (included).
 actions:
-  - name: "Fey Ancestry"
-    description: |
-      Magic can't put Neronvain to sleep.
-
-  - name: "Multiattack"
-    description: |
-      Neronvain makes two attacks, either with his shortsword or Eldritch Arrow.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage.
-
-  - name: "Eldritch Arrow"
-    description: |
-      Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) force damage plus 9 (2d8) poison damage.
-
-  - name: "Poisonous Cloud (2/Day)"
-    description: |
-      Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. >>>
+   - name: Fey Ancestry
+     description: Magic can't put Neronvain to sleep.
+   - name: Multiattack
+     description: Neronvain makes two attacks, either with his shortsword or Eldritch Arrow.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage.'
+   - name: Eldritch Arrow
+     description: 'Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) force damage plus 9 (2d8) poison damage.'
+   - name: Poisonous Cloud (2/Day)
+     description: Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. >>>

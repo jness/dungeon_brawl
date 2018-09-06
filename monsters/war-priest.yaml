@@ -1,153 +1,103 @@
-name: "War Priest"
-slug_name: "war-priest"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "18"
-armor_class_type: "plate"
-hit_points: "117"
-hit_dice: "18d8+36"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "17"
-wisdom_modifier: "+3"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: "Con +6, Wis +7"
-skills: "Intimidation +5, Religion +4"
-senses: null
-languages: "any two languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: War Priest
+slug_name: war-priest
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 18
+armor_class_type: plate
+hit_points: 117
+hit_dice: 18d8+36
+speed: 30 ft.
+strength: 16
+dexterity: 10
+constitution: 14
+intelligence: 11
+wisdom: 17
+charisma: 13
+saving_throws: Con +6, Wis +7
+skills: Intimidation +5, Religion +4
+senses:
+languages: any two languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      The priest makes two melee attacks.
-
-  - name: "Maul"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.
-
-      **Reactions**
-
-  - name: "Guided Strike (Recharges after a Short or Long Rest)"
-    description: |
-      The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.
-
+   - name: Multiattack
+     description: The priest makes two melee attacks.
+   - name: Maul
+     description: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.\n\n**Reactions**"
+   - name: Guided Strike (Recharges after a Short or Long Rest)
+     description: The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "spare the dying"
-          slug_name: "spare-the-dying"
-
-
-      - "1st level (4 slots)":
-        - name: " divine favor"
-          slug_name: "divine-favor"
-
-        - name: "guiding bolt"
-          slug_name: "guiding-bolt"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "shield of faith"
-          slug_name: "shield-of-faith"
-
-
-      - "2nd level (3 slots)":
-        - name: " lesser restoration"
-          slug_name: "lesser-restoration"
-
-        - name: "magic weapon"
-          slug_name: "magic-weapon"
-
-        - name: "prayer of healing"
-          slug_name: "prayer-of-healing"
-
-        - name: "silence"
-          slug_name: "silence"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (3 slots)":
-        - name: " beacon of hope"
-          slug_name: "beacon-of-hope"
-
-        - name: "crusader's mantle"
-          slug_name: "crusader"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "revivify"
-          slug_name: "revivify"
-
-        - name: "spirit guardians"
-          slug_name: "spirit-guardians"
-
-        - name: "water wall"
-          slug_name: "water-wall"
-
-
-      - "4th level (3 slots)":
-        - name: " banishment"
-          slug_name: "banishment"
-
-        - name: "freedom of movement"
-          slug_name: "freedom-of-movement"
-
-        - name: "guardian of faith"
-          slug_name: "guardian-of-faith"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (1 slot)":
-        - name: " flame strike"
-          slug_name: "flame-strike"
-
-        - name: "mass cure wounds"
-          slug_name: "mass-cure-wounds"
-
-        - name: "hold monster"
-          slug_name: "hold-monster"
+   - title: Spellcasting
+     top_description: 'The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: mending
+               slug_name: mending
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: spare the dying
+               slug_name: spare-the-dying
+        - title: 1st level (4 slots)
+          spells:
+             - name: divine favor
+               slug_name: divine-favor
+             - name: guiding bolt
+               slug_name: guiding-bolt
+             - name: healing word
+               slug_name: healing-word
+             - name: shield of faith
+               slug_name: shield-of-faith
+        - title: 2nd level (3 slots)
+          spells:
+             - name: lesser restoration
+               slug_name: lesser-restoration
+             - name: magic weapon
+               slug_name: magic-weapon
+             - name: prayer of healing
+               slug_name: prayer-of-healing
+             - name: silence
+               slug_name: silence
+             - name: spiritual weapon
+               slug_name: spiritual-weapon
+        - title: 3rd level (3 slots)
+          spells:
+             - name: beacon of hope
+               slug_name: beacon-of-hope
+             - name: crusader's mantle
+               slug_name: crusader
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: revivify
+               slug_name: revivify
+             - name: spirit guardians
+               slug_name: spirit-guardians
+             - name: water wall
+               slug_name: water-wall
+        - title: 4th level (3 slots)
+          spells:
+             - name: banishment
+               slug_name: banishment
+             - name: freedom of movement
+               slug_name: freedom-of-movement
+             - name: guardian of faith
+               slug_name: guardian-of-faith
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (1 slot)
+          spells:
+             - name: flame strike
+               slug_name: flame-strike
+             - name: mass cure wounds
+               slug_name: mass-cure-wounds
+             - name: hold monster
+               slug_name: hold-monster

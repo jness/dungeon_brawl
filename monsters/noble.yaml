@@ -1,50 +1,32 @@
-name: "Noble"
-slug_name: "noble"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "15"
-armor_class_type: "breastplate"
-hit_points: "9"
-hit_dice: "2d8"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Insight +4, Persuasion +5"
-senses: null
-languages: "any two languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Noble
+slug_name: noble
+challenge_rating: 0.125
+experience: 25
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 15
+armor_class_type: breastplate
+hit_points: 9
+hit_dice: 2d8
+speed: 30 ft.
+strength: 11
+dexterity: 12
+constitution: 11
+intelligence: 12
+wisdom: 14
+charisma: 16
+saving_throws:
+skills: Deception +5, Insight +4, Persuasion +5
+senses:
+languages: any two languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Rapier"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.
-
-      **Reactions**
-
-  - name: "Parry"
-    description: |
-      The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.
+   - name: Rapier
+     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.\n\n**Reactions**"
+   - name: Parry
+     description: The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.

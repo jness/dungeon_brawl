@@ -1,64 +1,39 @@
-name: "Goblin Boss"
-slug_name: "goblin-boss"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "goblinoid"
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: "chain shirt, shield"
-hit_points: "21"
-hit_dice: "6d6"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "8"
-wisdom_modifier: "-1"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Stealth +6"
-senses: "darkvision 60 ft."
-languages: "Common, Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Goblin Boss
+slug_name: goblin-boss
+challenge_rating: 1.0
+experience: 200
+size: Small
+type: humanoid
+subtype: goblinoid
+alignment: neutral evil
+armor_class: 17
+armor_class_type: chain shirt, shield
+hit_points: 21
+hit_dice: 6d6
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 10
+intelligence: 10
+wisdom: 8
+charisma: 10
+saving_throws:
+skills: Stealth +6
+senses: darkvision 60 ft.
+languages: Common, Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Nimble Escape"
-    description: |
-      The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
+   - name: Nimble Escape
+     description: The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
 actions:
-  - name: "Multiattack"
-    description: |
-      The goblin makes two attacks with its scimitar. The second attack has disadvantage.
-
-  - name: "Scimitar"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
-
-  - name: "Javelin"
-    description: |
-      Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6) piercing damage.
-
-      **Reactions**
-
-  - name: "Redirect Attack"
-    description: |
-      When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
+   - name: Multiattack
+     description: The goblin makes two attacks with its scimitar. The second attack has disadvantage.
+   - name: Scimitar
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.'
+   - name: Javelin
+     description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6) piercing damage.\n\n**Reactions**"
+   - name: Redirect Attack
+     description: When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.

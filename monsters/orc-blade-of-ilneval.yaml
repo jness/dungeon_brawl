@@ -1,66 +1,41 @@
-name: "Orc Blade of Ilneval"
-slug_name: "orc-blade-of-ilneval"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "orc"
-alignment: "chaotic evil"
-
-armor_class: "18"
-armor_class_type: "chain mail, shield"
-hit_points: "60"
-hit_dice: "8d8+24"
-speed: "30 ft."
-
-strength: "17"
-strength_modifier: "+3"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: "Wis +3"
-skills: "Insight +3, Intimidation +4, Perception +3"
-senses: "darkvision 60 ft."
-languages: "Common, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Orc Blade of Ilneval
+slug_name: orc-blade-of-ilneval
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: orc
+alignment: chaotic evil
+armor_class: 18
+armor_class_type: chain mail, shield
+hit_points: 60
+hit_dice: 8d8+24
+speed: 30 ft.
+strength: 17
+dexterity: 11
+constitution: 17
+intelligence: 10
+wisdom: 12
+charisma: 14
+saving_throws: Wis +3
+skills: Insight +3, Intimidation +4, Perception +3
+senses: darkvision 60 ft.
+languages: Common, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Aggressive"
-    description: |
-      As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
-  - name: "Foe Smiter of Ilneval"
-    description: |
-      The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).
-
+   - name: Aggressive
+     description: As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
+   - name: Foe Smiter of Ilneval
+     description: The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).
 actions:
-  - name: "Multiattack"
-    description: |
-      The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval's Command is available to use, the orc can use it after these attacks.
-
-  - name: "Longsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.
-
-  - name: "Javelin"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.
-
-  - name: "Ilneval's Command (Recharges 4-6)"
-    description: |
-      Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.
+   - name: Multiattack
+     description: The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval's Command is available to use, the orc can use it after these attacks.
+   - name: Longsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.'
+   - name: Javelin
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.'
+   - name: Ilneval's Command (Recharges 4-6)
+     description: Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.

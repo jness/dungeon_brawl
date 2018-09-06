@@ -1,102 +1,68 @@
-name: "Bard"
-slug_name: "bard"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "15"
-armor_class_type: "chain shirt"
-hit_points: "44"
-hit_dice: "8d8+8"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: "Dex +4, Wis +3"
-skills: "Acrobatics +4, Perception +5, Performance +6"
-senses: null
-languages: "any two languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Bard
+slug_name: bard
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 15
+armor_class_type: chain shirt
+hit_points: 44
+hit_dice: 8d8+8
+speed: 30 ft.
+strength: 11
+dexterity: 14
+constitution: 12
+intelligence: 10
+wisdom: 13
+charisma: 14
+saving_throws: Dex +4, Wis +3
+skills: Acrobatics +4, Perception +5, Performance +6
+senses:
+languages: any two languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Song of Rest"
-    description: |
-      The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.
-
-  - name: "Taunt (2/day)"
-    description: |
-      The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
-
+   - name: Song of Rest
+     description: The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra ld6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well.
+   - name: Taunt (2/day)
+     description: The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn.
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-  - name: "Shortbow"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.
-
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.'
+   - name: Shortbow
+     description: 'Ranged Weapon Attack: +4 to hit, range 80/320 ft., one: target. Hit: 5 (1d6+2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " friends"
-          slug_name: "friends"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "vicious mockery"
-          slug_name: "vicious-mockery"
-
-
-      - "1st level (4 slots)":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "heroism"
-          slug_name: "heroism"
-
-        - name: "sleep"
-          slug_name: "sleep"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " invisibility"
-          slug_name: "invisibility"
-
-        - name: "shatter"
-          slug_name: "shatter"
+   - title: Spellcasting
+     top_description: 'The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: friends
+               slug_name: friends
+             - name: mage hand
+               slug_name: mage-hand
+             - name: vicious mockery
+               slug_name: vicious-mockery
+        - title: 1st level (4 slots)
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: healing word
+               slug_name: healing-word
+             - name: heroism
+               slug_name: heroism
+             - name: sleep
+               slug_name: sleep
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: invisibility
+               slug_name: invisibility
+             - name: shatter
+               slug_name: shatter

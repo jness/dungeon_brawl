@@ -1,54 +1,35 @@
-name: "Magmin"
-slug_name: "magmin"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Small"
-type: "elemental"
-subtype: null
-alignment: "chaotic neutral"
-
-armor_class: "14"
-armor_class_type: "natural armor"
-hit_points: "9"
-hit_dice: "2d6+2"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "Ignan"
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "fire"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Magmin
+slug_name: magmin
+challenge_rating: 0.5
+experience: 100
+size: Small
+type: elemental
+subtype:
+alignment: chaotic neutral
+armor_class: 14
+armor_class_type: natural armor
+hit_points: 9
+hit_dice: 2d6+2
+speed: 30 ft.
+strength: 7
+dexterity: 15
+constitution: 12
+intelligence: 8
+wisdom: 11
+charisma: 10
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: Ignan
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: fire
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Death Burst"
-    description: |
-      When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.
-
-  - name: "Ignited Illumination"
-    description: |
-      As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 ft.
-
+   - name: Death Burst
+     description: When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 ft. of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren't being worn or carried in that area are ignited.
+   - name: Ignited Illumination
+     description: As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 ft.
 actions:
-  - name: "Touch"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.
+   - name: Touch
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the end of each of its turns.'

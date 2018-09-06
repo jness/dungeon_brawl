@@ -1,66 +1,41 @@
-name: "Ice Mephit"
-slug_name: "ice-mephit"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Small"
-type: "elemental"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "11"
-armor_class_type: null
-hit_points: "21"
-hit_dice: "6d6"
-speed: "30 ft., fly 30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "9"
-intelligence_modifier: "-1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Perception +2, Stealth +3"
-senses: "darkvision 60 ft."
-languages: "Aquan, Auran"
-
-damage_resistances: null
-damage_immunities: "cold, poison"
-damage_vulnerabilities: "bludgeoning, fire"
-condition_immunities: "poisoned"
-
+name: Ice Mephit
+slug_name: ice-mephit
+challenge_rating: 0.5
+experience: 100
+size: Small
+type: elemental
+subtype:
+alignment: neutral evil
+armor_class: 11
+armor_class_type:
+hit_points: 21
+hit_dice: 6d6
+speed: 30 ft., fly 30 ft.
+strength: 7
+dexterity: 13
+constitution: 10
+intelligence: 9
+wisdom: 11
+charisma: 12
+saving_throws:
+skills: Perception +2, Stealth +3
+senses: darkvision 60 ft.
+languages: Aquan, Auran
+damage_resistances:
+damage_immunities: cold, poison
+damage_vulnerabilities: bludgeoning, fire
+condition_immunities: poisoned
 special_abilities:
-  - name: "Death Burst"
-    description: |
-      When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.
-
-  - name: "False Appearance"
-    description: |
-      While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
-
-  - name: "Innate Spellcasting (1/Day)"
-    description: |
-      The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.
-
+   - name: Death Burst
+     description: When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.
+   - name: False Appearance
+     description: While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
+   - name: Innate Spellcasting (1/Day)
+     description: The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.
 actions:
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
-
-  - name: "Frost Breath (Recharge 6)"
-    description: |
-      The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.
-
-  - name: "Variant: Summon Mephits (1/Day)"
-    description: |
-      The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
+   - name: Claws
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.'
+   - name: Frost Breath (Recharge 6)
+     description: The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.
+   - name: 'Variant: Summon Mephits (1/Day)'
+     description: The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.

@@ -1,107 +1,70 @@
-name: "Cloud Giant"
-slug_name: "cloud-giant"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Huge"
-type: "giant"
-subtype: null
-alignment: "neutral good (50%) or neutral evil (50%)"
-
-armor_class: "14"
-armor_class_type: "natural armor"
-hit_points: "200"
-hit_dice: "16d12+96"
-speed: "40 ft."
-
-strength: "27"
-strength_modifier: "+8"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "22"
-constitution_modifier: "+6"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Con +10, Wis +7, Cha +7"
-skills: "Insight +7, Perception +7"
-senses: null
-languages: "Common, Giant"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Cloud Giant
+slug_name: cloud-giant
+challenge_rating: 9.0
+experience: 5000
+size: Huge
+type: giant
+subtype:
+alignment: neutral good (50%) or neutral evil (50%)
+armor_class: 14
+armor_class_type: natural armor
+hit_points: 200
+hit_dice: 16d12+96
+speed: 40 ft.
+strength: 27
+dexterity: 10
+constitution: 22
+intelligence: 12
+wisdom: 16
+charisma: 16
+saving_throws: Con +10, Wis +7, Cha +7
+skills: Insight +7, Perception +7
+senses:
+languages: Common, Giant
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Smell"
-    description: |
-      The giant has advantage on Wisdom (Perception) checks that rely on smell.
-
+   - name: Keen Smell
+     description: The giant has advantage on Wisdom (Perception) checks that rely on smell.
 actions:
-  - name: "Fling"
-    description: |
-      The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 bludgeoning damage for every 10 feet it was thrown.
-
-  - name: "Wind Aura"
-    description: |
-      A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical.
-
-  - name: "Multiattack"
-    description: |
-      The giant makes two morningstar attacks.
-
-  - name: "Morningstar"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.
-
-  - name: "Rock"
-    description: |
-      Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.
-
+   - name: Fling
+     description: The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw or be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 bludgeoning damage for every 10 feet it was thrown.
+   - name: Wind Aura
+     description: A magical aura of wind surrounds the giant. The aura is a 10-foot-radius sphere that lasts as long as the giant maintains concentration on it (as if concentrating on a spell). While the aura is in effect, the giant gains a +2 bonus to its AC against ranged weapon attacks, and all open flames within the aura are extinguished unless they are magical.
+   - name: Multiattack
+     description: The giant makes two morningstar attacks.
+   - name: Morningstar
+     description: 'Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.'
+   - name: Rock
+     description: 'Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "light"
-          slug_name: "light"
-
-
-      - "3/day each":
-        - name: " feather fall"
-          slug_name: "feather-fall"
-
-        - name: "fly"
-          slug_name: "fly"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "telekinesis"
-          slug_name: "telekinesis"
-
-
-      - "1/day each":
-        - name: " control weather"
-          slug_name: "control-weather"
-
-        - name: "gaseous form"
-          slug_name: "gaseous-form"
+   - title: Innate Spellcasting
+     top_description: "The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: light
+               slug_name: light
+        - title: 3/day each
+          spells:
+             - name: feather fall
+               slug_name: feather-fall
+             - name: fly
+               slug_name: fly
+             - name: misty step
+               slug_name: misty-step
+             - name: telekinesis
+               slug_name: telekinesis
+        - title: 1/day each
+          spells:
+             - name: control weather
+               slug_name: control-weather
+             - name: gaseous form
+               slug_name: gaseous-form

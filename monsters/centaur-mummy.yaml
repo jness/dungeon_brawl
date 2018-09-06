@@ -1,70 +1,43 @@
-name: "Centaur Mummy"
-slug_name: "centaur-mummy"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Large"
-type: "undead"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "85"
-hit_dice: "10d10+30"
-speed: "30 ft."
-
-strength: "20"
-strength_modifier: "+5"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "5"
-intelligence_modifier: "-3"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: "Wis +5"
-skills: null
-senses: "darkvision 60 ft."
-languages: "Common, Sylvan"
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks"
-damage_immunities: "necrotic, poison"
-damage_vulnerabilities: "fire"
-condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
-
+name: Centaur Mummy
+slug_name: centaur-mummy
+challenge_rating: 6.0
+experience: 2300
+size: Large
+type: undead
+subtype:
+alignment: lawful evil
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 85
+hit_dice: 10d10+30
+speed: 30 ft.
+strength: 20
+dexterity: 12
+constitution: 16
+intelligence: 5
+wisdom: 14
+charisma: 12
+saving_throws: Wis +5
+skills:
+senses: darkvision 60 ft.
+languages: Common, Sylvan
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunities: necrotic, poison
+damage_vulnerabilities: fire
+condition_immunities: charmed, exhaustion, frightened, paralyzed, poisoned
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 231
-
-  - name: "Undead Nature"
-    description: |
-      A mummy doesn't require air, food, drink, or sleep.
-
-  - name: "Charge"
-    description: |
-      If the centaur mummy moves at least 20 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.
-
+   - name: Source
+     description: tales from the yawning portal,  page 231
+   - name: Undead Nature
+     description: A mummy doesn't require air, food, drink, or sleep.
+   - name: Charge
+     description: If the centaur mummy moves at least 20 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.
 actions:
-  - name: "Multiattack"
-    description: |
-      The centaur mummy makes two melee attacks, one with its pike and one with its hooves, or it attacks with its pike and uses Dreadful Glare.
-
-  - name: "Pike"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.
-
-  - name: "Hooves"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or similar magic.
-
-  - name: "Dreadful Glare"
-    description: |
-      The centaur mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target must succeed on a DC 12 wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for tne next 24 hours.
+   - name: Multiattack
+     description: The centaur mummy makes two melee attacks, one with its pike and one with its hooves, or it attacks with its pike and uses Dreadful Glare.
+   - name: Pike
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.'
+   - name: Hooves
+     description: "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or similar magic."
+   - name: Dreadful Glare
+     description: The centaur mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, the target must succeed on a DC 12 wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for tne next 24 hours.

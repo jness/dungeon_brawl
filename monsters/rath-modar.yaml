@@ -1,135 +1,92 @@
-name: "Rath Modar"
-slug_name: "rath-modar"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "16 with mage armor"
-hit_points: "71"
-hit_dice: "11d8+22"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "18"
-intelligence_modifier: "+4"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: "Int +7, Wis +5"
-skills: "Arcana +7, Deception +3, Insight +5, Stealth +6"
-senses: null
-languages: "Common, Draconic, Infernal, Primordial, Thayan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Rath Modar
+slug_name: rath-modar
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 13
+armor_class_type: 16 with mage armor
+hit_points: 71
+hit_dice: 11d8+22
+speed: 30 ft.
+strength: 11
+dexterity: 16
+constitution: 14
+intelligence: 18
+wisdom: 14
+charisma: 10
+saving_throws: Int +7, Wis +5
+skills: Arcana +7, Deception +3, Insight +5, Stealth +6
+senses:
+languages: Common, Draconic, Infernal, Primordial, Thayan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Special Equipment"
-    description: |
-      Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball.
-
+   - name: Special Equipment
+     description: Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball.
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage.
-
-      **Reactions**
-
-  - name: "Illusory Self (Recharges on a Short or Long Rest)"
-    description: |
-      When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.
-
+   - name: Quarterstaff
+     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage.\n\n**Reactions**"
+   - name: Illusory Self (Recharges on a Short or Long Rest)
+     description: When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " chromatic orb"
-          slug_name: "chromatic-orb"
-
-        - name: "color spray"
-          slug_name: "color-spray"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-
-      - "2nd level (3 slots)":
-        - name: " detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "mirror image"
-          slug_name: "mirror-image"
-
-        - name: "phantasmal force"
-          slug_name: "phantasmal-force"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-        - name: "major image"
-          slug_name: "major-image"
-
-
-      - "4th level (3 slots)":
-        - name: " confusion"
-          slug_name: "confusion"
-
-        - name: "greater invisibility"
-          slug_name: "greater-invisibility"
-
-
-      - "5th level (2 slots)":
-        - name: " mislead"
-          slug_name: "mislead"
-
-        - name: "seeming"
-          slug_name: "seeming"
-
-
-      - "6th level (1 slot)":
-        - name: " globe of invulnerability"
-          slug_name: "globe-of-invulnerability"
+   - title: Spellcasting
+     top_description: 'Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: chromatic orb
+               slug_name: chromatic-orb
+             - name: color spray
+               slug_name: color-spray
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+        - title: 2nd level (3 slots)
+          spells:
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: mirror image
+               slug_name: mirror-image
+             - name: phantasmal force
+               slug_name: phantasmal-force
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: fireball
+               slug_name: fireball
+             - name: major image
+               slug_name: major-image
+        - title: 4th level (3 slots)
+          spells:
+             - name: confusion
+               slug_name: confusion
+             - name: greater invisibility
+               slug_name: greater-invisibility
+        - title: 5th level (2 slots)
+          spells:
+             - name: mislead
+               slug_name: mislead
+             - name: seeming
+               slug_name: seeming
+        - title: 6th level (1 slot)
+          spells:
+             - name: globe of invulnerability
+               slug_name: globe-of-invulnerability

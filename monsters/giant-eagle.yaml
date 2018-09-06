@@ -1,58 +1,37 @@
-name: "Giant Eagle"
-slug_name: "giant-eagle"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "neutral good"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "26"
-hit_dice: "4d10+4"
-speed: "10 ft., fly 80 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Perception +4"
-senses: null
-languages: "Giant Eagle, understands Common and Auran but can't speak"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Eagle
+slug_name: giant-eagle
+challenge_rating: 1.0
+experience: 200
+size: Large
+type: beast
+subtype:
+alignment: neutral good
+armor_class: 13
+armor_class_type:
+hit_points: 26
+hit_dice: 4d10+4
+speed: 10 ft., fly 80 ft.
+strength: 16
+dexterity: 17
+constitution: 13
+intelligence: 8
+wisdom: 14
+charisma: 10
+saving_throws:
+skills: Perception +4
+senses:
+languages: Giant Eagle, understands Common and Auran but can't speak
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Sight"
-    description: |
-      The eagle has advantage on Wisdom (Perception) checks that rely on sight.
-
+   - name: Keen Sight
+     description: The eagle has advantage on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Multiattack"
-    description: |
-      The eagle makes two attacks: one with its beak and one with its talons.
-
-  - name: "Beak"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
-
-  - name: "Talons"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.
+   - name: Multiattack
+     description: 'The eagle makes two attacks: one with its beak and one with its talons.'
+   - name: Beak
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.'
+   - name: Talons
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.'

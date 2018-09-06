@@ -1,58 +1,37 @@
-name: "Quickling"
-slug_name: "quickling"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Tiny"
-type: "fey"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "16"
-armor_class_type: null
-hit_points: "10"
-hit_dice: "3d4+3"
-speed: "120 ft."
-
-strength: "4"
-strength_modifier: "-3"
-dexterity: "23"
-dexterity_modifier: "+6"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8"
-senses: "darkvision 60 ft."
-languages: "Common, Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Quickling
+slug_name: quickling
+challenge_rating: 1.0
+experience: 200
+size: Tiny
+type: fey
+subtype:
+alignment: chaotic evil
+armor_class: 16
+armor_class_type:
+hit_points: 10
+hit_dice: 3d4+3
+speed: 120 ft.
+strength: 4
+dexterity: 23
+constitution: 13
+intelligence: 10
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Acrobatics +8, Perception +5, Sleight of Hand +8, Stealth +8
+senses: darkvision 60 ft.
+languages: Common, Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Blurred Movement"
-    description: |
-      Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.
-
-  - name: "Evasion"
-    description: |
-      If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
-
+   - name: Blurred Movement
+     description: Attack rolls against the quickling have disadvantage unless the quickling is incapacitated or restrained.
+   - name: Evasion
+     description: If the quickling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
 actions:
-  - name: "Multiattack"
-    description: |
-      The quickling makes three dagger attacks.
-
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.
+   - name: Multiattack
+     description: The quickling makes three dagger attacks.
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.'

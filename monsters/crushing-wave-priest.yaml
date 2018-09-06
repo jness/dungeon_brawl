@@ -1,97 +1,67 @@
-name: "Crushing Wave Priest"
-slug_name: "crushing-wave-priest"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: "chain shirt"
-hit_points: "52"
-hit_dice: "8d8+16"
-speed: "30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Religion +2, Stealth +2"
-senses: null
-languages: "Aquan, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Crushing Wave Priest
+slug_name: crushing-wave-priest
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 13
+armor_class_type: chain shirt
+hit_points: 52
+hit_dice: 8d8+16
+speed: 30 ft.
+strength: 15
+dexterity: 11
+constitution: 14
+intelligence: 10
+wisdom: 11
+charisma: 16
+saving_throws:
+skills: Deception +5, Religion +2, Stealth +2
+senses:
+languages: Aquan, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.
-
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " expeditious retreat"
-          slug_name: "expeditious-retreat"
-
-        - name: "ice knife"
-          slug_name: "ice-knife"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " blur"
-          slug_name: "blur"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-
-      - "3rd level (2 slots)":
-        - name: " sleet storm"
-          slug_name: "sleet-storm"
+   - title: Spellcasting
+     top_description: 'The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: expeditious retreat
+               slug_name: expeditious-retreat
+             - name: ice knife
+               slug_name: ice-knife
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: blur
+               slug_name: blur
+             - name: hold person
+               slug_name: hold-person
+        - title: 3rd level (2 slots)
+          spells:
+             - name: sleet storm
+               slug_name: sleet-storm

@@ -1,106 +1,72 @@
-name: "Oreioth"
-slug_name: "oreioth"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "11"
-armor_class_type: "14 with mage armor"
-hit_points: "39"
-hit_dice: "6d8+12"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "9"
-wisdom_modifier: "-1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Wis +1"
-skills: "Arcana +5, Investigation +5, Medicine +1"
-senses: null
-languages: "Abyssal, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Oreioth
+slug_name: oreioth
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 11
+armor_class_type: 14 with mage armor
+hit_points: 39
+hit_dice: 6d8+12
+speed: 30 ft.
+strength: 8
+dexterity: 13
+constitution: 14
+intelligence: 16
+wisdom: 9
+charisma: 11
+saving_throws: Wis +1
+skills: Arcana +5, Investigation +5, Medicine +1
+senses:
+languages: Abyssal, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Grim Harvest"
-    description: |
-      Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell's level.
-
-  - name: "Swift Animation (Recharges after a Long Rest)"
-    description: |
-      When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time.
-
+   - name: Grim Harvest
+     description: Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell's level.
+   - name: Swift Animation (Recharges after a Long Rest)
+     description: When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
-
+   - name: Dagger
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " false life"
-          slug_name: "false-life"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "ray of sickness"
-          slug_name: "ray-of-sickness"
-
-
-      - "2nd level (3 slots)":
-        - name: " crown of madness"
-          slug_name: "crown-of-madness"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-
-      - "3rd level (3 slots)":
-        - name: " animate dead"
-          slug_name: "animate-dead"
-
-        - name: "vampiric touch"
-          slug_name: "vampiric-touch"
+   - title: Spellcasting
+     top_description: 'Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: false life
+               slug_name: false-life
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: ray of sickness
+               slug_name: ray-of-sickness
+        - title: 2nd level (3 slots)
+          spells:
+             - name: crown of madness
+               slug_name: crown-of-madness
+             - name: misty step
+               slug_name: misty-step
+        - title: 3rd level (3 slots)
+          spells:
+             - name: animate dead
+               slug_name: animate-dead
+             - name: vampiric touch
+               slug_name: vampiric-touch

@@ -1,117 +1,65 @@
-name: "Tiamat"
-slug_name: "tiamat"
-
-challenge_rating: "30"
-challenge_rating_decimal: "30.0"
-experience: "155,000 XP"
-
-size: "Gargantuan"
-type: "fiend"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "25"
-armor_class_type: "natural armor"
-hit_points: "615"
-hit_dice: "30d20+300"
-speed: "60 ft., fly 120 ft."
-
-strength: "30"
-strength_modifier: "+10"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "30"
-constitution_modifier: "+10"
-intelligence: "26"
-intelligence_modifier: "+8"
-wisdom: "26"
-wisdom_modifier: "+8"
-charisma: "28"
-charisma_modifier: "+9"
-
-saving_throws: "Str +19, Dex +9, Wis +17"
-skills: "Arcana +17, Perception +26, Religion +17"
-senses: "darkvision 240 ft., truesight 120 ft."
-languages: "Common, Draconic, Infernal"
-
-damage_resistances: null
-damage_immunities: " acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons"
-damage_vulnerabilities: null
-condition_immunities: "blinded, charmed, deafened, frightened, poisoned, stunned"
-
+name: Tiamat
+slug_name: tiamat
+challenge_rating: 30.0
+experience: 155000
+size: Gargantuan
+type: fiend
+subtype:
+alignment: chaotic evil
+armor_class: 25
+armor_class_type: natural armor
+hit_points: 615
+hit_dice: 30d20+300
+speed: 60 ft., fly 120 ft.
+strength: 30
+dexterity: 10
+constitution: 30
+intelligence: 26
+wisdom: 26
+charisma: 28
+saving_throws: Str +19, Dex +9, Wis +17
+skills: Arcana +17, Perception +26, Religion +17
+senses: darkvision 240 ft., truesight 120 ft.
+languages: Common, Draconic, Infernal
+damage_resistances:
+damage_immunities: ' acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons'
+damage_vulnerabilities:
+condition_immunities: blinded, charmed, deafened, frightened, poisoned, stunned
 special_abilities:
-  - name: "Discorporation"
-    description: |
-      When Tiamat drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time.
-
-  - name: "Innate Spellcasting (3/Day)"
-    description: |
-      Tiamat can innately cast divine word (spell save DC 26). Her spellcasting ability is Charisma.
-
-  - name: "Legendary Resistance (5/Day)"
-    description: |
-      If Tiamat fails a saving throw, she can choose to succeed instead.
-
-  - name: "Limited Magic Immunity"
-    description: |
-      Unless she wishes to be affected, Tiamat is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects.
-
-  - name: "Magic Weapons"
-    description: |
-      Tiamat's weapon attacks are magical.
-
-  - name: "Multiple Heads"
-    description: |
-      Tiamat can take one reaction per turn, rather than only one per round. She also has advantage on saving throws against being knocked unconscious. If she fails a saving throw against an effect that would stun a creature, one of her unspent legendary actions is spent.
-
-  - name: "Regeneration"
-    description: |
-      Tiamat regains 30 hit points at the start of her turn.
-
+   - name: Discorporation
+     description: When Tiamat drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time.
+   - name: Innate Spellcasting (3/Day)
+     description: Tiamat can innately cast divine word (spell save DC 26). Her spellcasting ability is Charisma.
+   - name: Legendary Resistance (5/Day)
+     description: If Tiamat fails a saving throw, she can choose to succeed instead.
+   - name: Limited Magic Immunity
+     description: Unless she wishes to be affected, Tiamat is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects.
+   - name: Magic Weapons
+     description: Tiamat's weapon attacks are magical.
+   - name: Multiple Heads
+     description: Tiamat can take one reaction per turn, rather than only one per round. She also has advantage on saving throws against being knocked unconscious. If she fails a saving throw against an effect that would stun a creature, one of her unspent legendary actions is spent.
+   - name: Regeneration
+     description: Tiamat regains 30 hit points at the start of her turn.
 actions:
-  - name: "Multiattack"
-    description: |
-      Tiamat can use her Frightful Presence. She then makes three attacks: two with her claws and one with her tail.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +19 to hit, reach 25 ft., one target. Hit: 28 (4d8 + 10) piercing damage.
-
-  - name: "Frightful Presence"
-    description: |
-      Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours.
-
-legendary_action_description: "The tiamat can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The tiamat regains spent legendary actions at the start of its turn."
-
-legendary_actions":
-  - name: "Bite"
-    description: |
-      Tiamat can take 5 legendary actions, choosing from the options listed. Only one legendary action option can be used at a time and only at the end of another creature's turn. Tiamat regains spent legendary actions at the start of her turn.
-
-      Tiamat's legendary action options are associated with her five dragon heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action option for one of her heads, she can't choose another one associated with that head until the start of her next turn.
-
-      Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 32 (4d10 + 10) slashing damage plus 14 (4d6) acid damage (black dragon head), lightning damage (blue dragon head), poison damage (green dragon head), fire damage (red dragon head), or cold damage (white dragon head).
-
-  - name: "Black Dragon Head: Acid Breath (Costs 2 Actions)"
-    description: |
-      Tiamat breathes acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.
-
-  - name: "Blue Dragon Head: Lightning Breath (Costs 2 Actions)"
-    description: |
-      Tiamat breathes lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.
-
-  - name: "Green Dragon Head: Poison Breath (Costs 2 Actions)"
-    description: |
-      Tiamat breathes poisonous gas in a 90-foot cone. Each creature in that area must make a DC 27 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.
-
-  - name: "Red Dragon Head: Fire Breath (Costs 2 Actions)"
-    description: |
-      Tiamat breathes fire in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.
-
-  - name: "White Dragon Head: Cold Breath (Costs 2 Actions)"
-    description: |
-      Tiamat breathes an icy blast in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.
+   - name: Multiattack
+     description: 'Tiamat can use her Frightful Presence. She then makes three attacks: two with her claws and one with her tail.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage.'
+   - name: Tail
+     description: 'Melee Weapon Attack: +19 to hit, reach 25 ft., one target. Hit: 28 (4d8 + 10) piercing damage.'
+   - name: Frightful Presence
+     description: Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours.
+legendary_action_description: The tiamat can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The tiamat regains spent legendary actions at the start of its turn.
+legendary_actions:
+   - name: Bite
+     description: "Tiamat can take 5 legendary actions, choosing from the options listed. Only one legendary action option can be used at a time and only at the end of another creature's turn. Tiamat regains spent legendary actions at the start of her turn.\n\nTiamat's legendary action options are associated with her five dragon heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action option for one of her heads, she can't choose another one associated with that head until the start of her next turn.\n\nMelee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 32 (4d10 + 10) slashing damage plus 14 (4d6) acid damage (black dragon head), lightning damage (blue dragon head), poison damage (green dragon head), fire damage (red dragon head), or cold damage (white dragon head)."
+   - name: 'Black Dragon Head: Acid Breath (Costs 2 Actions)'
+     description: Tiamat breathes acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.
+   - name: 'Blue Dragon Head: Lightning Breath (Costs 2 Actions)'
+     description: Tiamat breathes lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.
+   - name: 'Green Dragon Head: Poison Breath (Costs 2 Actions)'
+     description: Tiamat breathes poisonous gas in a 90-foot cone. Each creature in that area must make a DC 27 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.
+   - name: 'Red Dragon Head: Fire Breath (Costs 2 Actions)'
+     description: Tiamat breathes fire in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.
+   - name: 'White Dragon Head: Cold Breath (Costs 2 Actions)'
+     description: Tiamat breathes an icy blast in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.

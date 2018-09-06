@@ -1,58 +1,37 @@
-name: "Avatar of Death"
-slug_name: "avatar-of-death"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: null
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "20"
-armor_class_type: null
-hit_points: null
-hit_dice: ""
-speed: "60 ft., fly 60 ft. (hover)"
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft., truesight 60 ft."
-languages: "all languages known to its summoner"
-
-damage_resistances: null
-damage_immunities: "necrotic, poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, paralyzed, petrified, poisoned , unconscious"
-
+name: Avatar of Death
+slug_name: avatar-of-death
+challenge_rating: 0.0
+experience: 0
+size: Medium
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 20
+armor_class_type:
+hit_points: 0
+hit_dice: ''
+speed: 60 ft., fly 60 ft. (hover)
+strength: 16
+dexterity: 16
+constitution: 16
+intelligence: 16
+wisdom: 16
+charisma: 16
+saving_throws:
+skills:
+senses: darkvision 60 ft., truesight 60 ft.
+languages: all languages known to its summoner
+damage_resistances:
+damage_immunities: necrotic, poison
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, paralyzed, petrified, poisoned , unconscious
 special_abilities:
-  - name: "Incorporeal Movement"
-    description: |
-      The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-
-  - name: "Turning Immunity"
-    description: |
-      The avatar is immune to features that turn undead.
-
-  - name: "Hit Points"
-    description: |
-      The Avatar of Death appears with hit points equal to half its summoner's maximum hit points.
-
+   - name: Incorporeal Movement
+     description: The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+   - name: Turning Immunity
+     description: The avatar is immune to features that turn undead.
+   - name: Hit Points
+     description: The Avatar of Death appears with hit points equal to half its summoner's maximum hit points.
 actions:
-  - name: "Reaping Scythe"
-    description: |
-      The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
+   - name: Reaping Scythe
+     description: The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.

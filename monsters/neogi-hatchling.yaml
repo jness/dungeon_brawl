@@ -1,54 +1,35 @@
-name: "Neogi Hatchling"
-slug_name: "neogi-hatchling"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Tiny"
-type: "aberration"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "11"
-armor_class_type: null
-hit_points: "7"
-hit_dice: "3d4"
-speed: "20 ft., climb 20 ft."
-
-strength: "3"
-strength_modifier: "-4"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Neogi Hatchling
+slug_name: neogi-hatchling
+challenge_rating: 0.125
+experience: 25
+size: Tiny
+type: aberration
+subtype:
+alignment: lawful evil
+armor_class: 11
+armor_class_type:
+hit_points: 7
+hit_dice: 3d4
+speed: 20 ft., climb 20 ft.
+strength: 3
+dexterity: 13
+constitution: 10
+intelligence: 6
+wisdom: 10
+charisma: 9
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Mental Fortitude"
-    description: |
-      The hatchling has advantage on saving throws against being charmed or frightened, and magic can't put the hatchling to sleep.
-
-  - name: "Spider Climb"
-    description: |
-      The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
+   - name: Mental Fortitude
+     description: The hatchling has advantage on saving throws against being charmed or frightened, and magic can't put the hatchling to sleep.
+   - name: Spider Climb
+     description: The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+   - name: Bite
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'

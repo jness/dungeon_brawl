@@ -1,107 +1,72 @@
-name: "Howling Hatred Priest"
-slug_name: "howling-hatred-priest"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "studded leather"
-hit_points: "45"
-hit_dice: "10d8"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Acrobatics +5, Intimidation +4, Religion +4"
-senses: null
-languages: "Auran, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Howling Hatred Priest
+slug_name: howling-hatred-priest
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 15
+armor_class_type: studded leather
+hit_points: 45
+hit_dice: 10d8
+speed: 30 ft.
+strength: 12
+dexterity: 16
+constitution: 10
+intelligence: 14
+wisdom: 10
+charisma: 14
+saving_throws:
+skills: Acrobatics +5, Intimidation +4, Religion +4
+senses:
+languages: Auran, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Hold Breath"
-    description: |
-      The priest can hold its breath for 30 minutes.
-
+   - name: Hold Breath
+     description: The priest can hold its breath for 30 minutes.
 actions:
-  - name: "Multiattack"
-    description: |
-      The priest makes two melee attacks or two ranged attacks.
-
-  - name: "Scimitar"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
-
+   - name: Multiattack
+     description: The priest makes two melee attacks or two ranged attacks.
+   - name: Scimitar
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.'
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " blade ward"
-          slug_name: "blade-ward"
-
-        - name: "gust"
-          slug_name: "gust"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " featherfall"
-          slug_name: "featherfall"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "witch bolt"
-          slug_name: "witch-bolt"
-
-
-      - "2nd level (3 slots)":
-        - name: " dust devil"
-          slug_name: "dust-devil"
-
-        - name: "gust of wind"
-          slug_name: "gust-of-wind"
-
-
-      - "3rd level (2 slots)":
-        - name: " gaseous form"
-          slug_name: "gaseous-form"
+   - title: Spellcasting
+     top_description: 'The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: blade ward
+               slug_name: blade-ward
+             - name: gust
+               slug_name: gust
+             - name: light
+               slug_name: light
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: featherfall
+               slug_name: featherfall
+             - name: shield
+               slug_name: shield
+             - name: witch bolt
+               slug_name: witch-bolt
+        - title: 2nd level (3 slots)
+          spells:
+             - name: dust devil
+               slug_name: dust-devil
+             - name: gust of wind
+               slug_name: gust-of-wind
+        - title: 3rd level (2 slots)
+          spells:
+             - name: gaseous form
+               slug_name: gaseous-form

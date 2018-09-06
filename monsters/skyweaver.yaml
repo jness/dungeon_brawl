@@ -1,97 +1,67 @@
-name: "Skyweaver"
-slug_name: "skyweaver"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "44"
-hit_dice: "8d8+8"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Persuasion +5"
-senses: null
-languages: "Auran, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Skyweaver
+slug_name: skyweaver
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 44
+hit_dice: 8d8+8
+speed: 30 ft.
+strength: 8
+dexterity: 14
+constitution: 12
+intelligence: 11
+wisdom: 10
+charisma: 16
+saving_throws:
+skills: Deception +5, Persuasion +5
+senses:
+languages: Auran, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The Skyweaver is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " blade ward"
-          slug_name: "blade-ward"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " feather fall"
-          slug_name: "feather-fall"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "witch bolt"
-          slug_name: "witch-bolt"
-
-
-      - "2nd level (3 slots)":
-        - name: " gust of wind"
-          slug_name: "gust-of-wind"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-
-      - "3rd level (3 slots)":
-        - name: " fly"
-          slug_name: "fly"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
+   - title: Spellcasting
+     top_description: 'The Skyweaver is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: blade ward
+               slug_name: blade-ward
+             - name: light
+               slug_name: light
+             - name: message
+               slug_name: message
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: feather fall
+               slug_name: feather-fall
+             - name: mage armor
+               slug_name: mage-armor
+             - name: witch bolt
+               slug_name: witch-bolt
+        - title: 2nd level (3 slots)
+          spells:
+             - name: gust of wind
+               slug_name: gust-of-wind
+             - name: invisibility
+               slug_name: invisibility
+        - title: 3rd level (3 slots)
+          spells:
+             - name: fly
+               slug_name: fly
+             - name: lightning bolt
+               slug_name: lightning-bolt

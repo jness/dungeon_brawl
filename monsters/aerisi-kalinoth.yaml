@@ -1,143 +1,98 @@
-name: "Aerisi Kalinoth"
-slug_name: "aerisi-kalinoth"
-
-challenge_rating: "7"
-challenge_rating_decimal: "7.0"
-experience: "2,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "elf"
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: "16 with mage armor"
-hit_points: "66"
-hit_dice: "12d8+12"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Arcana +6, History +6, Perception +3"
-senses: "darkvision 60 ft."
-languages: "Auran, Common, Elvish"
-
-damage_resistances: "lightning"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Aerisi Kalinoth
+slug_name: aerisi-kalinoth
+challenge_rating: 7.0
+experience: 2900
+size: Medium
+type: humanoid
+subtype: elf
+alignment: neutral evil
+armor_class: 13
+armor_class_type: 16 with mage armor
+hit_points: 66
+hit_dice: 12d8+12
+speed: 30 ft.
+strength: 8
+dexterity: 16
+constitution: 12
+intelligence: 17
+wisdom: 10
+charisma: 16
+saving_throws:
+skills: Arcana +6, History +6, Perception +3
+senses: darkvision 60 ft.
+languages: Auran, Common, Elvish
+damage_resistances: lightning
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Fey Ancestry"
-    description: |
-      Aerisi has advantage on saving throws against being charmed, and magic can't put her to sleep.
-
-  - name: "Howling Defeat"
-    description: |
-      When Aerisi drops to 0 hit points, her body disappears in a howling whirlwind that disperses quickly and harmlessly. Anything she is wearing or carrying is left behind.
-
-  - name: "Legendary Resistance (2/Day)"
-    description: |
-      If Aerisi fails a saving throw, she can choose to succeed instead.
-
+   - name: Fey Ancestry
+     description: Aerisi has advantage on saving throws against being charmed, and magic can't put her to sleep.
+   - name: Howling Defeat
+     description: When Aerisi drops to 0 hit points, her body disappears in a howling whirlwind that disperses quickly and harmlessly. Anything she is wearing or carrying is left behind.
+   - name: Legendary Resistance (2/Day)
+     description: If Aerisi fails a saving throw, she can choose to succeed instead.
 actions:
-  - name: "Windvane"
-    description: |
-      Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.
-
+   - name: Windvane
+     description: 'Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " gust"
-          slug_name: "gust"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "feather fall"
-          slug_name: "feather-fall"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " dust devil"
-          slug_name: "dust-devil"
-
-        - name: "gust of wind"
-          slug_name: "gust-of-wind"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-
-      - "3rd level (3 slots)":
-        - name: " fly"
-          slug_name: "fly"
-
-        - name: "gaseous form"
-          slug_name: "gaseous-form"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
-
-
-      - "4th level (3 slots)":
-        - name: " ice storm"
-          slug_name: "ice-storm"
-
-        - name: "storm sphere"
-          slug_name: "storm-sphere"
-
-
-      - "5th level (2 slots)":
-        - name: " cloudkill"
-          slug_name: "cloudkill"
-
-        - name: "seeming (cast each day)"
-          slug_name: "seeming"
-
-
-      - "6th level (1 slot)":
-        - name: " chain lightning"
-          slug_name: "chain-lightning"
+   - title: Spellcasting
+     top_description: 'Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: gust
+               slug_name: gust
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: feather fall
+               slug_name: feather-fall
+             - name: mage armor
+               slug_name: mage-armor
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: dust devil
+               slug_name: dust-devil
+             - name: gust of wind
+               slug_name: gust-of-wind
+             - name: invisibility
+               slug_name: invisibility
+        - title: 3rd level (3 slots)
+          spells:
+             - name: fly
+               slug_name: fly
+             - name: gaseous form
+               slug_name: gaseous-form
+             - name: lightning bolt
+               slug_name: lightning-bolt
+        - title: 4th level (3 slots)
+          spells:
+             - name: ice storm
+               slug_name: ice-storm
+             - name: storm sphere
+               slug_name: storm-sphere
+        - title: 5th level (2 slots)
+          spells:
+             - name: cloudkill
+               slug_name: cloudkill
+             - name: seeming (cast each day)
+               slug_name: seeming
+        - title: 6th level (1 slot)
+          spells:
+             - name: chain lightning
+               slug_name: chain-lightning

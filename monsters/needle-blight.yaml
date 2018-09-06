@@ -1,48 +1,32 @@
-name: "Needle Blight"
-slug_name: "needle-blight"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "plant"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "11"
-hit_dice: "2d8+2"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "4"
-intelligence_modifier: "-3"
-wisdom: "8"
-wisdom_modifier: "-1"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: null
-senses: "blindsight 60 ft. (blind beyond this radius)"
-languages: "understands Common but can't speak"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "blinded, deafened"
+name: Needle Blight
+slug_name: needle-blight
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: plant
+subtype:
+alignment: neutral evil
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 11
+hit_dice: 2d8+2
+speed: 30 ft.
+strength: 12
+dexterity: 12
+constitution: 13
+intelligence: 4
+wisdom: 8
+charisma: 3
+saving_throws:
+skills:
+senses: blindsight 60 ft. (blind beyond this radius)
+languages: understands Common but can't speak
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: blinded, deafened
 actions:
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage.
-
-  - name: "Needles"
-    description: |
-      Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.
+   - name: Claws
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage.'
+   - name: Needles
+     description: 'Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.'

@@ -1,60 +1,37 @@
-name: "Thorn Slinger"
-slug_name: "thorn-slinger"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Large"
-type: "plant"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "11"
-armor_class_type: null
-hit_points: "32"
-hit_dice: "5d10+5"
-speed: "10 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "1"
-charisma_modifier: "-5"
-
-saving_throws: null
-skills: null
-senses: "blindsight 60 ft. (blind beyond this radius)"
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "blinded, deafened, frightened"
-
+name: Thorn Slinger
+slug_name: thorn-slinger
+challenge_rating: 0.5
+experience: 100
+size: Large
+type: plant
+subtype:
+alignment: unaligned
+armor_class: 11
+armor_class_type:
+hit_points: 32
+hit_dice: 5d10+5
+speed: 10 ft.
+strength: 13
+dexterity: 12
+constitution: 12
+intelligence: 1
+wisdom: 10
+charisma: 1
+saving_throws:
+skills:
+senses: blindsight 60 ft. (blind beyond this radius)
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: blinded, deafened, frightened
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 246
-
-  - name: "Adhesive Blossoms"
-    description: |
-      The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.
-
-      At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage.
-
-  - name: "False Appearance"
-    description: |
-      While the thorn slinger remains motionless, it is indistinguishable from an inanimate bush.
-
+   - name: Source
+     description: tales from the yawning portal,  page 246
+   - name: Adhesive Blossoms
+     description: "The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.\n\nAt the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage."
+   - name: False Appearance
+     description: While the thorn slinger remains motionless, it is indistinguishable from an inanimate bush.
 actions:
-  - name: "Thorns"
-    description: |
-      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft., one target. Hit: 8 (2d6 + 1) piercing damage.
+   - name: Thorns
+     description: 'Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft., one target. Hit: 8 (2d6 + 1) piercing damage.'

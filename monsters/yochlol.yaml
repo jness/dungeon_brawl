@@ -1,103 +1,60 @@
-name: "Yochlol"
-slug_name: "yochlol"
-
-challenge_rating: "10"
-challenge_rating_decimal: "10.0"
-experience: "5,900 XP"
-
-size: "Medium"
-type: "fiend"
-subtype: "demon"
-alignment: "chaotic evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "136"
-hit_dice: "16d8+64"
-speed: "30 ft., climb 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: "Dex +6, Int +5, Wis +6, Cha +6"
-skills: "Deception +10, Insight +6"
-senses: "darkvision 120 ft."
-languages: "Abyssal, Elvish, Undercommon"
-
-damage_resistances: "cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Yochlol
+slug_name: yochlol
+challenge_rating: 10.0
+experience: 5900
+size: Medium
+type: fiend
+subtype: demon
+alignment: chaotic evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 136
+hit_dice: 16d8+64
+speed: 30 ft., climb 30 ft.
+strength: 15
+dexterity: 14
+constitution: 18
+intelligence: 13
+wisdom: 15
+charisma: 15
+saving_throws: Dex +6, Int +5, Wis +6, Cha +6
+skills: Deception +10, Insight +6
+senses: darkvision 120 ft.
+languages: Abyssal, Elvish, Undercommon
+damage_resistances: cold, fire, lightning, bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Shapechanger"
-    description: |
-      The yochlol can use its action to polymorph into a form that resembles a female drow or giant spider, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-
-  - name: "Magic Resistance"
-    description: |
-      The yochlol has advantage on saving throws against spells and other magical effects.
-
-  - name: "Spider Climb"
-    description: |
-      The yochlol can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-  - name: "Web Walker"
-    description: |
-      The yochlol ignores movement restrictions caused by webbing.
-
+   - name: Shapechanger
+     description: The yochlol can use its action to polymorph into a form that resembles a female drow or giant spider, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+   - name: Magic Resistance
+     description: The yochlol has advantage on saving throws against spells and other magical effects.
+   - name: Spider Climb
+     description: The yochlol can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+   - name: Web Walker
+     description: The yochlol ignores movement restrictions caused by webbing.
 actions:
-  - name: "Multiattack"
-    description: |
-      The yochlol makes two melee attacks.
-
-  - name: "Slam (Bite in Spider Form)"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft. (10 ft. in demon form), one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage plus 21 (6d6) poison damage.
-
-  - name: "Mist Form"
-    description: |
-      The yochlol transforms into toxic mist or reverts to its true form. Any equipment it is wearing or carrying is also transformed. It reverts to its true form if it dies.
-
-      While in mist form, the yochlol is incapacitated and can't speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn't airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage.
-
-      While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target is incapacitated.
-
-  - name: "Variant: Summon Demon (1/Day)"
-    description: |
-      The demon chooses what to summon and attempts a magical summoning.
-
-      A yochlol has a 50 percent chance of summoning one yochlol.
-
-      A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
+   - name: Multiattack
+     description: The yochlol makes two melee attacks.
+   - name: Slam (Bite in Spider Form)
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft. (10 ft. in demon form), one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage plus 21 (6d6) poison damage.'
+   - name: Mist Form
+     description: "The yochlol transforms into toxic mist or reverts to its true form. Any equipment it is wearing or carrying is also transformed. It reverts to its true form if it dies.\n\nWhile in mist form, the yochlol is incapacitated and can't speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn't airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage.\n\nWhile in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target is incapacitated."
+   - name: 'Variant: Summon Demon (1/Day)'
+     description: "The demon chooses what to summon and attempts a magical summoning.\n\nA yochlol has a 50 percent chance of summoning one yochlol.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "web"
-          slug_name: "web"
-
-
-      - "1/day":
-        - name: " dominate person"
-          slug_name: "dominate-person"
+   - title: Innate Spellcasting
+     top_description: "The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: web
+               slug_name: web
+        - title: 1/day
+          spells:
+             - name: dominate person
+               slug_name: dominate-person

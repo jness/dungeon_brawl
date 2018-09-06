@@ -1,87 +1,59 @@
-name: "Barovian Witch"
-slug_name: "barovian-witch"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "16"
-hit_dice: "3d8+3"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Arcana +4, Perception +2"
-senses: "darkvision 60 ft."
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Barovian Witch
+slug_name: barovian-witch
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 10
+armor_class_type:
+hit_points: 16
+hit_dice: 3d8+3
+speed: 30 ft.
+strength: 7
+dexterity: 11
+constitution: 13
+intelligence: 14
+wisdom: 11
+charisma: 12
+saving_throws:
+skills: Arcana +4, Perception +2
+senses: darkvision 60 ft.
+languages: Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Claws (Requires Alter Self)"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage. This attack is magical.
-
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.
-
+   - name: Claws (Requires Alter Self)
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage. This attack is magical.'
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The witch has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " ray of sickness"
-          slug_name: "ray-of-sickness"
-
-        - name: "sleep"
-          slug_name: "sleep"
-
-        - name: "Tasha's hideous laughter"
-          slug_name: "tasha"
-
-
-      - "2nd level (2 slots)":
-        - name: " alter self"
-          slug_name: "alter-self"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
+   - title: Spellcasting
+     top_description: 'The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The witch has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: ray of sickness
+               slug_name: ray-of-sickness
+             - name: sleep
+               slug_name: sleep
+             - name: Tasha's hideous laughter
+               slug_name: tasha
+        - title: 2nd level (2 slots)
+          spells:
+             - name: alter self
+               slug_name: alter-self
+             - name: invisibility
+               slug_name: invisibility

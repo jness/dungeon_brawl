@@ -1,50 +1,33 @@
-name: "Flying Snake"
-slug_name: "flying-snake"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Tiny"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "14"
-armor_class_type: null
-hit_points: "5"
-hit_dice: "2d4"
-speed: "30 ft., fly 60 ft., swim 30 ft."
-
-strength: "4"
-strength_modifier: "-3"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "blindsight 10 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Flying Snake
+slug_name: flying-snake
+challenge_rating: 0.125
+experience: 25
+size: Tiny
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 14
+armor_class_type:
+hit_points: 5
+hit_dice: 2d4
+speed: 30 ft., fly 60 ft., swim 30 ft.
+strength: 4
+dexterity: 18
+constitution: 11
+intelligence: 2
+wisdom: 12
+charisma: 5
+saving_throws:
+skills:
+senses: blindsight 10 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Flyby"
-    description: |
-      The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.
-
+   - name: Flyby
+     description: The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.'

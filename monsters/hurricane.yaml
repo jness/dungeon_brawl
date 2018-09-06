@@ -1,102 +1,66 @@
-name: "Hurricane"
-slug_name: "hurricane"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "14"
-armor_class_type: null
-hit_points: "33"
-hit_dice: "6d8+6"
-speed: "45 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Acrobatics +5"
-senses: null
-languages: "Auran, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Hurricane
+slug_name: hurricane
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 14
+armor_class_type:
+hit_points: 33
+hit_dice: 6d8+6
+speed: 45 ft.
+strength: 12
+dexterity: 16
+constitution: 13
+intelligence: 10
+wisdom: 12
+charisma: 10
+saving_throws:
+skills: Acrobatics +5
+senses:
+languages: Auran, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Unarmored Defense"
-    description: |
-      While the hurricane is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
-
-  - name: "Unarmored Movement"
-    description: |
-      While the hurricane is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed).
-
+   - name: Unarmored Defense
+     description: While the hurricane is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.
+   - name: Unarmored Movement
+     description: While the hurricane is wearing no armor and wielding no shield, its walking speed increases by 15 feet (included in its speed).
 actions:
-  - name: "Multiattack"
-    description: |
-      The hurricane makes two melee attacks.
-
-  - name: "Unarmed Strike"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.
-
-      **Reactions**
-
-  - name: "Deflect Missiles"
-    description: |
-      When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.
-
+   - name: Multiattack
+     description: The hurricane makes two melee attacks.
+   - name: Unarmed Strike
+     description: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.\n\n**Reactions**"
+   - name: Deflect Missiles
+     description: When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " blade ward"
-          slug_name: "blade-ward"
-
-        - name: "gust"
-          slug_name: "gust"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " feather fall"
-          slug_name: "feather-fall"
-
-        - name: "jump"
-          slug_name: "jump"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (2 slots)":
-        - name: " gust of wind"
-          slug_name: "gust-of-wind"
+   - title: Spellcasting
+     top_description: 'The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: blade ward
+               slug_name: blade-ward
+             - name: gust
+               slug_name: gust
+             - name: light
+               slug_name: light
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: feather fall
+               slug_name: feather-fall
+             - name: jump
+               slug_name: jump
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (2 slots)
+          spells:
+             - name: gust of wind
+               slug_name: gust-of-wind

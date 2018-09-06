@@ -1,54 +1,35 @@
-name: "Dolphin"
-slug_name: "dolphin"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "11"
-hit_dice: "2d8+2"
-speed: "0 ft., swim 60 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3"
-senses: "blindsight 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Dolphin
+slug_name: dolphin
+challenge_rating: 0.125
+experience: 25
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 11
+hit_dice: 2d8+2
+speed: 0 ft., swim 60 ft.
+strength: 14
+dexterity: 13
+constitution: 13
+intelligence: 6
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3
+senses: blindsight 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Charge"
-    description: |
-      If the dolphin moves at least 30 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage.
-
-  - name: "Hold Breath"
-    description: |
-      The dolphin can hold its breath for 20 minutes.
-
+   - name: Charge
+     description: If the dolphin moves at least 30 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage.
+   - name: Hold Breath
+     description: The dolphin can hold its breath for 20 minutes.
 actions:
-  - name: "Slam"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
+   - name: Slam
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.'

@@ -1,58 +1,37 @@
-name: "Giant Crayfish"
-slug_name: "giant-crayfish"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "45"
-hit_dice: "7d10+7"
-speed: "30 ft., swim 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "9"
-wisdom_modifier: "-1"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: "Stealth +3"
-senses: "blindsight 30 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Crayfish
+slug_name: giant-crayfish
+challenge_rating: 2.0
+experience: 450
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 45
+hit_dice: 7d10+7
+speed: 30 ft., swim 30 ft.
+strength: 15
+dexterity: 13
+constitution: 13
+intelligence: 1
+wisdom: 9
+charisma: 3
+saving_throws:
+skills: Stealth +3
+senses: blindsight 30 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 235
-
-  - name: "Amphibious"
-    description: |
-      The giant crayfish can breathe air and water.
-
+   - name: Source
+     description: tales from the yawning portal,  page 235
+   - name: Amphibious
+     description: The giant crayfish can breathe air and water.
 actions:
-  - name: "Multiattack"
-    description: |
-      The giant crayfish makes two claw attacks.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.
+   - name: Multiattack
+     description: The giant crayfish makes two claw attacks.
+   - name: Claw
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.'

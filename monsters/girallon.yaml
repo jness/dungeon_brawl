@@ -1,62 +1,39 @@
-name: "Girallon"
-slug_name: "girallon"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "59"
-hit_dice: "7d10+21"
-speed: "40 ft., climb 40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "5"
-intelligence_modifier: "-3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3, Stealth +5"
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Girallon
+slug_name: girallon
+challenge_rating: 4.0
+experience: 1100
+size: Large
+type: monstrosity
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type:
+hit_points: 59
+hit_dice: 7d10+21
+speed: 40 ft., climb 40 ft.
+strength: 18
+dexterity: 16
+constitution: 16
+intelligence: 5
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3, Stealth +5
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      Volo's Guide to Monsters, p. 152
-
-  - name: "Aggressive"
-    description: |
-      As a bonus action, the girallon can move up to its speed toward a hostile creature that it can see.
-
+   - name: Source
+     description: Volo's Guide to Monsters, p. 152
+   - name: Aggressive
+     description: As a bonus action, the girallon can move up to its speed toward a hostile creature that it can see.
 actions:
-  - name: "Multiattack"
-    description: |
-      The girallon makes five attacks: one with its bite and four with its claws.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft, one creature. Hit: 7 (1d6+4) piercing damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +6 to hit. reach 10 ft., one target. Hit: 7 (1d6+4) slashing damage.
+   - name: Multiattack
+     description: 'The girallon makes five attacks: one with its bite and four with its claws.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft, one creature. Hit: 7 (1d6+4) piercing damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +6 to hit. reach 10 ft., one target. Hit: 7 (1d6+4) slashing damage.'

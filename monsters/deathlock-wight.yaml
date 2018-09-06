@@ -1,98 +1,62 @@
-name: "Deathlock Wight"
-slug_name: "deathlock-wight"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "37"
-hit_dice: "5d8+15"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Wis +4"
-skills: "Arcana +3, Perception +4"
-senses: "darkvision 60 ft."
-languages: "the languages it knew in life"
-
-damage_resistances: "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "exhaustion, poisoned"
-
+name: Deathlock Wight
+slug_name: deathlock-wight
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 37
+hit_dice: 5d8+15
+speed: 30 ft.
+strength: 11
+dexterity: 14
+constitution: 16
+intelligence: 12
+wisdom: 14
+charisma: 16
+saving_throws: Wis +4
+skills: Arcana +3, Perception +4
+senses: darkvision 60 ft.
+languages: the languages it knew in life
+damage_resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: exhaustion, poisoned
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 233
-
-  - name: "Undead Nature"
-    description: |
-      A wight doesn't require air, food, drink, or sleep.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Source
+     description: tales from the yawning portal,  page 233
+   - name: Undead Nature
+     description: A wight doesn't require air, food, drink, or sleep.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Multiattack"
-    description: |
-      The wight attacks twice with Grave Bolt.
-
-  - name: "Grave Bolt"
-    description: |
-      Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 7 (1d8 + 3) necrotic damage.
-
-  - name: "Life Drain"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
-
-      A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.
-
+   - name: Multiattack
+     description: The wight attacks twice with Grave Bolt.
+   - name: Grave Bolt
+     description: 'Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 7 (1d8 + 3) necrotic damage.'
+   - name: Life Drain
+     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n\nA humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time."
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The wight's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no verbal or material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-
-      - "1/day each":
-        - name: "fear"
-          slug_name: "fear"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-        - name: "misty step"
-          slug_name: "misty-step"
+   - title: Innate Spellcasting
+     top_description: "The wight's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no verbal or material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: disguise self
+               slug_name: disguise-self
+             - name: mage armor
+               slug_name: mage-armor
+        - title: 1/day each
+          spells:
+             - name: fear
+               slug_name: fear
+             - name: hold person
+               slug_name: hold-person
+             - name: misty step
+               slug_name: misty-step

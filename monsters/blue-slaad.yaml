@@ -1,72 +1,41 @@
-name: "Blue Slaad"
-slug_name: "blue-slaad"
-
-challenge_rating: "7"
-challenge_rating_decimal: "7.0"
-experience: "2,900 XP"
-
-size: "Large"
-type: "aberration"
-subtype: null
-alignment: "chaotic neutral"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "123"
-hit_dice: "13d10+52"
-speed: "30 ft."
-
-strength: "20"
-strength_modifier: "+5"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "7"
-wisdom_modifier: "-2"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +1"
-senses: "darkvision 60 ft."
-languages: "Slaad, telepathy 60 ft."
-
-damage_resistances: "acid, cold, fire, lightning, thunder"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Blue Slaad
+slug_name: blue-slaad
+challenge_rating: 7.0
+experience: 2900
+size: Large
+type: aberration
+subtype:
+alignment: chaotic neutral
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 123
+hit_dice: 13d10+52
+speed: 30 ft.
+strength: 20
+dexterity: 15
+constitution: 18
+intelligence: 7
+wisdom: 7
+charisma: 9
+saving_throws:
+skills: Perception +1
+senses: darkvision 60 ft.
+languages: Slaad, telepathy 60 ft.
+damage_resistances: acid, cold, fire, lightning, thunder
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The slaad has advantage on saving throws against spells and other magical effects
-
-  - name: "Regeneration"
-    description: |
-      The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
-
-  - name: "Variant: Control Gem"
-    description: |
-      Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being charmed while so controlled.
-
-      Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A wish spell, if cast in the slaad's presence, can be worded to acquire the gem.
-
-      A greater restoration spell cast on the slaad destroys the gem without harming the slaad.
-
-      Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad.
-
+   - name: Magic Resistance
+     description: The slaad has advantage on saving throws against spells and other magical effects
+   - name: Regeneration
+     description: The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point.
+   - name: 'Variant: Control Gem'
+     description: "Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being charmed while so controlled.\n\nCertain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A wish spell, if cast in the slaad's presence, can be worded to acquire the gem.\n\nA greater restoration spell cast on the slaad destroys the gem without harming the slaad.\n\nSomeone who is proficient in Wisdom (Medicine) can remove the gem from an incapacitated slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom (Medicine) check. Each failed attempt deals 22 (4d10) psychic damage to the slaad."
 actions:
-  - name: "Multiattack"
-    description: |
-      The slaad makes three attacks: one with its bite and two with its claws.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 (3d6) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation.
+   - name: Multiattack
+     description: 'The slaad makes three attacks: one with its bite and two with its claws.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage.'
+   - name: Claw
+     description: "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 (3d6) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation."

@@ -1,105 +1,68 @@
-name: "Naxene Drathkala"
-slug_name: "naxene-drathkala"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "turami human"
-alignment: "neutral good"
-
-armor_class: "10"
-armor_class_type: "13 with mage armor"
-hit_points: "27"
-hit_dice: "6d8"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Arcana +5, History +5"
-senses: null
-languages: "Common, Draconic, Dwarvish, Elvish"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Naxene Drathkala
+slug_name: naxene-drathkala
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: humanoid
+subtype: turami human
+alignment: neutral good
+armor_class: 10
+armor_class_type: 13 with mage armor
+hit_points: 27
+hit_dice: 6d8
+speed: 30 ft.
+strength: 8
+dexterity: 11
+constitution: 11
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws:
+skills: Arcana +5, History +5
+senses:
+languages: Common, Draconic, Dwarvish, Elvish
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Roleplaying Information"
-    description: |
-      Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adeuately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.
-
-      Ideal: "There's no problem that can't be solved with magic."
-
-      Bond: "I have great respect for Lady Laeral Silverhand of Waterdeep. She and the Lords' Alliance are going to bring some much-needed order to this lawless land."
-
-      Flaw: "I'm too smart to be wrong about anything."
-
+   - name: Roleplaying Information
+     description: "Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adeuately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.\n\nIdeal: \"There's no problem that can't be solved with magic.\"\n\nBond: \"I have great respect for Lady Laeral Silverhand of Waterdeep. She and the Lords' Alliance are going to bring some much-needed order to this lawless land.\"\n\nFlaw: \"I'm too smart to be wrong about anything.\""
 actions:
-  - name: "Staff"
-    description: |
-      Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
+   - name: Staff
+     description: 'Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Naxene is a 6th level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13; +5 to hit with spell attacks). She has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " misty step"
-          slug_name: "misty-step"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
-
-
-      - "3rd level (3 slots)":
-        - name: " fly"
-          slug_name: "fly"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
+   - title: Spellcasting
+     top_description: 'Naxene is a 6th level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13; +5 to hit with spell attacks). She has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: misty step
+               slug_name: misty-step
+             - name: suggestion
+               slug_name: suggestion
+        - title: 3rd level (3 slots)
+          spells:
+             - name: fly
+               slug_name: fly
+             - name: lightning bolt
+               slug_name: lightning-bolt

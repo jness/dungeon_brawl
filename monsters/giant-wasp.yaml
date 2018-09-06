@@ -1,44 +1,30 @@
-name: "Giant Wasp"
-slug_name: "giant-wasp"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "13"
-hit_dice: "3d8"
-speed: "10 ft., fly 50 ft., swim 50 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: null
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Giant Wasp
+slug_name: giant-wasp
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 13
+hit_dice: 3d8
+speed: 10 ft., fly 50 ft., swim 50 ft.
+strength: 10
+dexterity: 14
+constitution: 10
+intelligence: 1
+wisdom: 10
+charisma: 3
+saving_throws:
+skills:
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Sting"
-    description: |
-      Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+   - name: Sting
+     description: 'Sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.'

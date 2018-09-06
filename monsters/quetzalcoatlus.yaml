@@ -1,54 +1,35 @@
-name: "Quetzalcoatlus"
-slug_name: "quetzalcoatlus"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Huge"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "30"
-hit_dice: "4d12+4"
-speed: "10 ft., fly 80 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: "Perception +2"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Quetzalcoatlus
+slug_name: quetzalcoatlus
+challenge_rating: 2.0
+experience: 450
+size: Huge
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 30
+hit_dice: 4d12+4
+speed: 10 ft., fly 80 ft.
+strength: 15
+dexterity: 13
+constitution: 13
+intelligence: 2
+wisdom: 10
+charisma: 5
+saving_throws:
+skills: Perception +2
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Dive Attack"
-    description: |
-      If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.
-
-  - name: "Flyby"
-    description: |
-      The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach.
-
+   - name: Dive Attack
+     description: If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.
+   - name: Flyby
+     description: The quetzalcoatlus doesn't provoke an opportunity attack when it flies out of an enemy's reach.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.'

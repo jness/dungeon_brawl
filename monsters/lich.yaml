@@ -1,183 +1,124 @@
-name: "Lich"
-slug_name: "lich"
-
-challenge_rating: "21"
-challenge_rating_decimal: "21.0"
-experience: "33,000 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "any evil alignment"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "135"
-hit_dice: "18d8+54"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "20"
-intelligence_modifier: "+5"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Con +10, Int +12, Wis +9"
-skills: "Arcana +18, History +12, Insight +9, Perception +9"
-senses: "truesight 120 ft."
-languages: "Common plus up to five other languages"
-
-damage_resistances: "cold, lightning, necrotic"
-damage_immunities: "poison, bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
-
+name: Lich
+slug_name: lich
+challenge_rating: 21.0
+experience: 33000
+size: Medium
+type: undead
+subtype:
+alignment: any evil alignment
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 135
+hit_dice: 18d8+54
+speed: 30 ft.
+strength: 11
+dexterity: 16
+constitution: 16
+intelligence: 20
+wisdom: 14
+charisma: 16
+saving_throws: Con +10, Int +12, Wis +9
+skills: Arcana +18, History +12, Insight +9, Perception +9
+senses: truesight 120 ft.
+languages: Common plus up to five other languages
+damage_resistances: cold, lightning, necrotic
+damage_immunities: poison, bludgeoning, piercing, and slashing from nonmagical weapons
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, frightened, paralyzed, poisoned
 special_abilities:
-  - name: "Legendary Resistance (3/Day)"
-    description: |
-      If the lich fails a saving throw, it can choose to succeed instead.
-
-  - name: "Rejuvenation"
-    description: |
-      If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
-
-  - name: "Turn Resistance"
-    description: |
-      The lich has advantage on saving throws against any effect that turns undead.
-
+   - name: Legendary Resistance (3/Day)
+     description: If the lich fails a saving throw, it can choose to succeed instead.
+   - name: Rejuvenation
+     description: If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+   - name: Turn Resistance
+     description: The lich has advantage on saving throws against any effect that turns undead.
 actions:
-  - name: "Paralyzing Touch"
-    description: |
-      Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-legendary_action_description: "The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn."
-
-legendary_actions":
-  - name: "Cantrip"
-    description: |
-      The lich casts a cantrip.
-
-  - name: "Paralyzing Touch (Costs 2 Actions)"
-    description: |
-      The lich uses its Paralyzing Touch.
-
-  - name: "Frightening Gaze (Costs 2 Actions)"
-    description: |
-      The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
-
-  - name: "Disrupt Life (Costs 3 Actions)"
-    description: |
-      Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.
-
+   - name: Paralyzing Touch
+     description: 'Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'
+legendary_action_description: The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
+legendary_actions:
+   - name: Cantrip
+     description: The lich casts a cantrip.
+   - name: Paralyzing Touch (Costs 2 Actions)
+     description: The lich uses its Paralyzing Touch.
+   - name: Frightening Gaze (Costs 2 Actions)
+     description: The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
+   - name: Disrupt Life (Costs 3 Actions)
+     description: Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-        - name: "Melf's acid arrow"
-          slug_name: "melf"
-
-        - name: "mirror image"
-          slug_name: "mirror-image"
-
-
-      - "3rd level (3 slots)":
-        - name: " animate dead"
-          slug_name: "animate-dead"
-
-        - name: "counterspell"
-          slug_name: "counterspell"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-
-      - "4th level (3 slots)":
-        - name: " blight"
-          slug_name: "blight"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-
-      - "5th level (3 slots)":
-        - name: " cloudkill"
-          slug_name: "cloudkill"
-
-        - name: "scrying"
-          slug_name: "scrying"
-
-
-      - "6th level (1 slot)":
-        - name: " disintegrate"
-          slug_name: "disintegrate"
-
-        - name: "globe of invulnerability"
-          slug_name: "globe-of-invulnerability"
-
-
-      - "7th level (1 slot)":
-        - name: " finger of death"
-          slug_name: "finger-of-death"
-
-        - name: "plane shift"
-          slug_name: "plane-shift"
-
-
-      - "8th level (1 slot)":
-        - name: " dominate monster"
-          slug_name: "dominate-monster"
-
-        - name: "power word stun"
-          slug_name: "power-word-stun"
-
-
-      - "9th level (1 slot)":
-        - name: " power word kill"
-          slug_name: "power-word-kill"
+   - title: Spellcasting
+     top_description: 'The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: invisibility
+               slug_name: invisibility
+             - name: Melf's acid arrow
+               slug_name: melf
+             - name: mirror image
+               slug_name: mirror-image
+        - title: 3rd level (3 slots)
+          spells:
+             - name: animate dead
+               slug_name: animate-dead
+             - name: counterspell
+               slug_name: counterspell
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: fireball
+               slug_name: fireball
+        - title: 4th level (3 slots)
+          spells:
+             - name: blight
+               slug_name: blight
+             - name: dimension door
+               slug_name: dimension-door
+        - title: 5th level (3 slots)
+          spells:
+             - name: cloudkill
+               slug_name: cloudkill
+             - name: scrying
+               slug_name: scrying
+        - title: 6th level (1 slot)
+          spells:
+             - name: disintegrate
+               slug_name: disintegrate
+             - name: globe of invulnerability
+               slug_name: globe-of-invulnerability
+        - title: 7th level (1 slot)
+          spells:
+             - name: finger of death
+               slug_name: finger-of-death
+             - name: plane shift
+               slug_name: plane-shift
+        - title: 8th level (1 slot)
+          spells:
+             - name: dominate monster
+               slug_name: dominate-monster
+             - name: power word stun
+               slug_name: power-word-stun
+        - title: 9th level (1 slot)
+          spells:
+             - name: power word kill
+               slug_name: power-word-kill

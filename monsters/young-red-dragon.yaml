@@ -1,56 +1,36 @@
-name: "Young Red Dragon"
-slug_name: "young-red-dragon"
-
-challenge_rating: "10"
-challenge_rating_decimal: "10.0"
-experience: "5,900 XP"
-
-size: "Large"
-type: "dragon"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "18"
-armor_class_type: "natural armor"
-hit_points: "178"
-hit_dice: "17d10+85"
-speed: "40 ft., climb 40 ft., fly 80 ft."
-
-strength: "23"
-strength_modifier: "+6"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "21"
-constitution_modifier: "+5"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "19"
-charisma_modifier: "+4"
-
-saving_throws: "Dex +4, Con +9, Wis +4, Cha +8"
-skills: "Perception +8, Stealth +4"
-senses: "blindsight 30 ft., darkvision 120 ft."
-languages: "Common, Draconic"
-
-damage_resistances: null
-damage_immunities: "fire"
-damage_vulnerabilities: null
-condition_immunities: null
+name: Young Red Dragon
+slug_name: young-red-dragon
+challenge_rating: 10.0
+experience: 5900
+size: Large
+type: dragon
+subtype:
+alignment: chaotic evil
+armor_class: 18
+armor_class_type: natural armor
+hit_points: 178
+hit_dice: 17d10+85
+speed: 40 ft., climb 40 ft., fly 80 ft.
+strength: 23
+dexterity: 10
+constitution: 21
+intelligence: 14
+wisdom: 11
+charisma: 19
+saving_throws: Dex +4, Con +9, Wis +4, Cha +8
+skills: Perception +8, Stealth +4
+senses: blindsight 30 ft., darkvision 120 ft.
+languages: Common, Draconic
+damage_resistances:
+damage_immunities: fire
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      The dragon makes three attacks: one with its bite and two with its claws.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.
-
-  - name: "Fire Breath (Recharge 5-6)"
-    description: |
-      The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.
+   - name: Multiattack
+     description: 'The dragon makes three attacks: one with its bite and two with its claws.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.'
+   - name: Fire Breath (Recharge 5-6)
+     description: The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.

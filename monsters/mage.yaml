@@ -1,113 +1,79 @@
-name: "Mage"
-slug_name: "mage"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "40"
-hit_dice: "9d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +6, Wis +4"
-skills: "Arcana +6, History +6"
-senses: null
-languages: "any four languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Mage
+slug_name: mage
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 40
+hit_dice: 9d8
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 11
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws: Int +6, Wis +4
+skills: Arcana +6, History +6
+senses:
+languages: any four languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " misty step"
-          slug_name: "misty-step"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-        - name: "fly"
-          slug_name: "fly"
-
-
-      - "4th level (3 slots)":
-        - name: " greater invisibility"
-          slug_name: "greater-invisibility"
-
-        - name: "ice storm"
-          slug_name: "ice-storm"
-
-
-      - "5th level (1 slot)":
-        - name: " cone of cold"
-          slug_name: "cone-of-cold"
+   - title: Spellcasting
+     top_description: 'The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: misty step
+               slug_name: misty-step
+             - name: suggestion
+               slug_name: suggestion
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: fireball
+               slug_name: fireball
+             - name: fly
+               slug_name: fly
+        - title: 4th level (3 slots)
+          spells:
+             - name: greater invisibility
+               slug_name: greater-invisibility
+             - name: ice storm
+               slug_name: ice-storm
+        - title: 5th level (1 slot)
+          spells:
+             - name: cone of cold
+               slug_name: cone-of-cold

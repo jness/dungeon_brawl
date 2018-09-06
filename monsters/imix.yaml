@@ -1,124 +1,76 @@
-name: "Imix"
-slug_name: "imix"
-
-challenge_rating: "19"
-challenge_rating_decimal: "19.0"
-experience: "22,000 XP"
-
-size: "Huge"
-type: "elemental"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: null
-hit_points: "325"
-hit_dice: "26d12+156"
-speed: "50 ft., fly 50 ft."
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "24"
-dexterity_modifier: "+7"
-constitution: "22"
-constitution_modifier: "+6"
-intelligence: "15"
-intelligence_modifier: "+2"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "23"
-charisma_modifier: "+6"
-
-saving_throws: "Dex +14, Con +13, Cha +13"
-skills: null
-senses: "blindsight 120 ft."
-languages: "Common, Ignan"
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained"
-
+name: Imix
+slug_name: imix
+challenge_rating: 19.0
+experience: 22000
+size: Huge
+type: elemental
+subtype:
+alignment: neutral evil
+armor_class: 17
+armor_class_type:
+hit_points: 325
+hit_dice: 26d12+156
+speed: 50 ft., fly 50 ft.
+strength: 19
+dexterity: 24
+constitution: 22
+intelligence: 15
+wisdom: 16
+charisma: 23
+saving_throws: Dex +14, Con +13, Cha +13
+skills:
+senses: blindsight 120 ft.
+languages: Common, Ignan
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: fire, poison
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, paralyzed, petrified, poisoned, prone, restrained
 special_abilities:
-  - name: "Empowered Attacks"
-    description: |
-      Imix's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical weapons.
-
-  - name: "Fire Aura"
-    description: |
-      At the start of each of Imix's turns, each creature within 10 feet of him takes 17 (5d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 17 (5d6) fire damage if it touches Imix or hits him with a melee attack while within 10 feet of him, and a creature takes that damage the first time on a turn that Imix moves into its space. Nonmagical weapons that hit Imix are destroyed by fire immediately after dealing damage to him
-
-  - name: "Fire Form"
-    description: |
-      Imix can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch without squeezing if fire could pass through that space.
-
-  - name: "Illumination"
-    description: |
-      Imix sheds bright light in a 60-foot radius and dim light for an additional 60 feet.
-
-  - name: "Legendary Resistance (3/Day)"
-    description: |
-      If Imix fails a saving throw, he can choose to succeed instead.
-
-  - name: "Magic Resistance"
-    description: |
-      Imix has advantage on saving throws against spells and other magical effects.
-
+   - name: Empowered Attacks
+     description: Imix's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical weapons.
+   - name: Fire Aura
+     description: At the start of each of Imix's turns, each creature within 10 feet of him takes 17 (5d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 17 (5d6) fire damage if it touches Imix or hits him with a melee attack while within 10 feet of him, and a creature takes that damage the first time on a turn that Imix moves into its space. Nonmagical weapons that hit Imix are destroyed by fire immediately after dealing damage to him
+   - name: Fire Form
+     description: Imix can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch without squeezing if fire could pass through that space.
+   - name: Illumination
+     description: Imix sheds bright light in a 60-foot radius and dim light for an additional 60 feet.
+   - name: Legendary Resistance (3/Day)
+     description: If Imix fails a saving throw, he can choose to succeed instead.
+   - name: Magic Resistance
+     description: Imix has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      Imix makes two slam attacks or two flame blast attacks.
-
-  - name: "Slam"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 18 (5d6) fire damage.
-
-  - name: "Flame Blast"
-    description: |
-      Ranged Spell Attack: +12 to hit, range 250 ft., one target. Hit: 35 (10d6) fire damage.
-
-  - name: "Summon Elementals (1/Day)"
-    description: |
-      Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points.
-
-legendary_action_description: "The imix can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The imix regains spent legendary actions at the start of its turn."
-
-legendary_actions":
-  - name: "Heat Wave"
-    description: |
-      Imix creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 (2d8) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a DC 21 Constitution saving throw or gain one level of exhaustion.
-
-  - name: "Teleport (Costs 2 Actions)"
-    description: |
-      Imix magically teleports up to 120 feet to an unoccupied space he can see. Anything Imix is wearing or carrying isn't teleported with him.
-
-  - name: "Combustion (Costs 3 Actions)"
-    description: |
-      Imix causes one creature he can see within 30 feet of him to burst into flames. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 70 (20d6) fire damage and catches fire. A target on fire takes 10 (3d6) fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire.
-
+   - name: Multiattack
+     description: Imix makes two slam attacks or two flame blast attacks.
+   - name: Slam
+     description: 'Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 18 (5d6) fire damage.'
+   - name: Flame Blast
+     description: 'Ranged Spell Attack: +12 to hit, range 250 ft., one target. Hit: 35 (10d6) fire damage.'
+   - name: Summon Elementals (1/Day)
+     description: Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points.
+legendary_action_description: The imix can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The imix regains spent legendary actions at the start of its turn.
+legendary_actions:
+   - name: Heat Wave
+     description: Imix creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 (2d8) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a DC 21 Constitution saving throw or gain one level of exhaustion.
+   - name: Teleport (Costs 2 Actions)
+     description: Imix magically teleports up to 120 feet to an unoccupied space he can see. Anything Imix is wearing or carrying isn't teleported with him.
+   - name: Combustion (Costs 3 Actions)
+     description: Imix causes one creature he can see within 30 feet of him to burst into flames. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 70 (20d6) fire damage and catches fire. A target on fire takes 10 (3d6) fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "* At will":
-        - name: " fireball"
-          slug_name: "fireball"
-
-        - name: "wall of fire"
-          slug_name: "wall-of-fire"
-
-
-      - "* 3/day each":
-        - name: " fire storm"
-          slug_name: "fire-storm"
-
-        - name: "haste"
-          slug_name: "haste"
-
-        - name: "teleport"
-          slug_name: "teleport"
+   - title: Innate Spellcasting
+     top_description: "Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: '* At will'
+          spells:
+             - name: fireball
+               slug_name: fireball
+             - name: wall of fire
+               slug_name: wall-of-fire
+        - title: '* 3/day each'
+          spells:
+             - name: fire storm
+               slug_name: fire-storm
+             - name: haste
+               slug_name: haste
+             - name: teleport
+               slug_name: teleport

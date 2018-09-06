@@ -1,41 +1,28 @@
-name: "Xvart Speaker"
-slug_name: "xvart-speaker"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "xvart"
-alignment: "chaotic evil"
-
-armor_class: "13"
-armor_class_type: "leather armor"
-hit_points: "7"
-hit_dice: "2d6"
-speed: "30 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "7"
-wisdom_modifier: "-2"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Stealth +4"
-senses: "darkvision 30 ft."
-languages: "Abyssal plus one other language, usually Common or Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Xvart Speaker
+slug_name: xvart-speaker
+challenge_rating: 0.125
+experience: 25
+size: Small
+type: humanoid
+subtype: xvart
+alignment: chaotic evil
+armor_class: 13
+armor_class_type: leather armor
+hit_points: 7
+hit_dice: 2d6
+speed: 30 ft.
+strength: 8
+dexterity: 14
+constitution: 10
+intelligence: 11
+wisdom: 7
+charisma: 7
+saving_throws:
+skills: Stealth +4
+senses: darkvision 30 ft.
+languages: Abyssal plus one other language, usually Common or Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:

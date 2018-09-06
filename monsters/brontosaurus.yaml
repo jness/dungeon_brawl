@@ -1,48 +1,32 @@
-name: "Brontosaurus"
-slug_name: "brontosaurus"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Gargantuan"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "121"
-hit_dice: "9d20+27"
-speed: "30 ft."
-
-strength: "21"
-strength_modifier: "+5"
-dexterity: "9"
-dexterity_modifier: "-1"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: "Con +6"
-skills: null
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Brontosaurus
+slug_name: brontosaurus
+challenge_rating: 5.0
+experience: 1800
+size: Gargantuan
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 121
+hit_dice: 9d20+27
+speed: 30 ft.
+strength: 21
+dexterity: 9
+constitution: 17
+intelligence: 2
+wisdom: 10
+charisma: 7
+saving_throws: Con +6
+skills:
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Stomp"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage.
+   - name: Stomp
+     description: 'Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.'
+   - name: Tail
+     description: 'Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage.'

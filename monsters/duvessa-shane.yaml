@@ -1,62 +1,35 @@
-name: "Duvessa Shane"
-slug_name: "duvessa-shane"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "illuskan human"
-alignment: "lawful good"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "9"
-hit_dice: "2d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Insight +3, Persuasion +3"
-senses: null
-languages: "Common, Dwarvish, Giant, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Duvessa Shane
+slug_name: duvessa-shane
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: humanoid
+subtype: illuskan human
+alignment: lawful good
+armor_class: 10
+armor_class_type:
+hit_points: 9
+hit_dice: 2d8
+speed: 30 ft.
+strength: 10
+dexterity: 11
+constitution: 10
+intelligence: 16
+wisdom: 14
+charisma: 16
+saving_throws:
+skills: Deception +5, Insight +3, Persuasion +3
+senses:
+languages: Common, Dwarvish, Giant, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Roleplaying Information"
-    description: |
-      The daughter of a Waterdhavian trader and a tavern server, Duvessa has her mother's talent for negotiation and her father's charm. As the first woman to serve as Town Speaker of BRyn Shander, and a young one at that, she has much to prove.
-
-      Ideal: "The people of Icewind Dale are survivors. They can weather any storm."
-
-      Bond: "My mother taught me what it means to be a good leader. I won't disappoint her."
-
-      Flaw: "I don't give an inch in any argument of conflict."
-
+   - name: Roleplaying Information
+     description: "The daughter of a Waterdhavian trader and a tavern server, Duvessa has her mother's talent for negotiation and her father's charm. As the first woman to serve as Town Speaker of BRyn Shander, and a young one at that, she has much to prove.\n\nIdeal: \"The people of Icewind Dale are survivors. They can weather any storm.\"\n\nBond: \"My mother taught me what it means to be a good leader. I won't disappoint her.\"\n\nFlaw: \"I don't give an inch in any argument of conflict.\""
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.
-
-      **Reactions**
-
-  - name: "Parry"
-    description: |
-      Duvessa adds 2 to her AC against on melee attack that would hit him. To do so, Duvessa must see the attacker and be wielding a melee weapon.
+   - name: Dagger
+     description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.\n\n**Reactions**"
+   - name: Parry
+     description: Duvessa adds 2 to her AC against on melee attack that would hit him. To do so, Duvessa must see the attacker and be wielding a melee weapon.

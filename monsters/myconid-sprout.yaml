@@ -1,58 +1,37 @@
-name: "Myconid Sprout"
-slug_name: "myconid-sprout"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Small"
-type: "plant"
-subtype: null
-alignment: "lawful neutral"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "7"
-hit_dice: "2d6"
-speed: "10 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "darkvision 120 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Myconid Sprout
+slug_name: myconid-sprout
+challenge_rating: 0.0
+experience: 10
+size: Small
+type: plant
+subtype:
+alignment: lawful neutral
+armor_class: 10
+armor_class_type:
+hit_points: 7
+hit_dice: 2d6
+speed: 10 ft.
+strength: 8
+dexterity: 10
+constitution: 10
+intelligence: 8
+wisdom: 11
+charisma: 5
+saving_throws:
+skills:
+senses: darkvision 120 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Distress Spores"
-    description: |
-      When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.
-
-  - name: "Sun Sickness"
-    description: |
-      While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.
-
+   - name: Distress Spores
+     description: When the myconid takes damage, all other myconids within 240 feet of it can sense its pain.
+   - name: Sun Sickness
+     description: While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws. The myconid dies if it spends more than 1 hour in direct sunlight.
 actions:
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4- 1) bludgeoning damage plus 2 (1d4) poison damage.
-
-  - name: "Rapport Spores (3/Day)"
-    description: |
-      A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.
+   - name: Fist
+     description: 'Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4- 1) bludgeoning damage plus 2 (1d4) poison damage.'
+   - name: Rapport Spores (3/Day)
+     description: A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.

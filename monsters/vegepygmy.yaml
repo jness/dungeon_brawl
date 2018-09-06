@@ -1,58 +1,37 @@
-name: "Vegepygmy"
-slug_name: "vegepygmy"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Small"
-type: "plant"
-subtype: null
-alignment: "neutral"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "9"
-hit_dice: "2d6+2"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +2, Stealth +4"
-senses: "darkvision 60 ft."
-languages: "Vegepygmy"
-
-damage_resistances: "lightning, piercing"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Vegepygmy
+slug_name: vegepygmy
+challenge_rating: 0.25
+experience: 50
+size: Small
+type: plant
+subtype:
+alignment: neutral
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 9
+hit_dice: 2d6+2
+speed: 30 ft.
+strength: 7
+dexterity: 14
+constitution: 13
+intelligence: 6
+wisdom: 11
+charisma: 7
+saving_throws:
+skills: Perception +2, Stealth +4
+senses: darkvision 60 ft.
+languages: Vegepygmy
+damage_resistances: lightning, piercing
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Plant Camouflage "
-    description: |
-      The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.
-
-  - name: "Regeneration"
-    description: |
-      The vegepygmy regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.
-
+   - name: 'Plant Camouflage '
+     description: The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.
+   - name: Regeneration
+     description: The vegepygmy regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the vegepygmy's next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn't regenerate.
 actions:
-  - name: "Claws "
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.
-
-  - name: "Sling"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.
+   - name: 'Claws '
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.'
+   - name: Sling
+     description: 'Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.'

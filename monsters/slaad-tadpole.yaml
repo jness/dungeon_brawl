@@ -1,50 +1,33 @@
-name: "Slaad Tadpole"
-slug_name: "slaad-tadpole"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Tiny"
-type: "aberration"
-subtype: null
-alignment: "chaotic neutral"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "10"
-hit_dice: "4d4"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "5"
-wisdom_modifier: "-3"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: "Stealth +4"
-senses: "darkvision 60 ft."
-languages: "understands Slaad but can't speak"
-
-damage_resistances: "acid, cold, fire, lightning, thunder"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Slaad Tadpole
+slug_name: slaad-tadpole
+challenge_rating: 0.125
+experience: 25
+size: Tiny
+type: aberration
+subtype:
+alignment: chaotic neutral
+armor_class: 12
+armor_class_type:
+hit_points: 10
+hit_dice: 4d4
+speed: 30 ft.
+strength: 7
+dexterity: 15
+constitution: 10
+intelligence: 3
+wisdom: 5
+charisma: 3
+saving_throws:
+skills: Stealth +4
+senses: darkvision 60 ft.
+languages: understands Slaad but can't speak
+damage_resistances: acid, cold, fire, lightning, thunder
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The slaad has advantage on saving throws against spells and other magical effects
-
+   - name: Magic Resistance
+     description: The slaad has advantage on saving throws against spells and other magical effects
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'

@@ -1,85 +1,51 @@
-name: "Adult Blue Dragon"
-slug_name: "adult-blue-dragon"
-
-challenge_rating: "16"
-challenge_rating_decimal: "16.0"
-experience: "15,000 XP"
-
-size: "Huge"
-type: "dragon"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "19"
-armor_class_type: null
-hit_points: "225"
-hit_dice: "18d12+108"
-speed: "40 ft., burrow 30 ft., fly 80 ft."
-
-strength: "25"
-strength_modifier: "+7"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "23"
-constitution_modifier: "+6"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "19"
-charisma_modifier: "+4"
-
-saving_throws: "Dex +5, Con +11, Wis +7, Cha +9"
-skills: "Perception +12, Stealth +5"
-senses: "blindsight 60 ft., darkvision 120 ft."
-languages: "Common, Draconic"
-
-damage_resistances: null
-damage_immunities: "lightning"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Adult Blue Dragon
+slug_name: adult-blue-dragon
+challenge_rating: 16.0
+experience: 15000
+size: Huge
+type: dragon
+subtype:
+alignment: lawful evil
+armor_class: 19
+armor_class_type:
+hit_points: 225
+hit_dice: 18d12+108
+speed: 40 ft., burrow 30 ft., fly 80 ft.
+strength: 25
+dexterity: 10
+constitution: 23
+intelligence: 16
+wisdom: 15
+charisma: 19
+saving_throws: Dex +5, Con +11, Wis +7, Cha +9
+skills: Perception +12, Stealth +5
+senses: blindsight 60 ft., darkvision 120 ft.
+languages: Common, Draconic
+damage_resistances:
+damage_immunities: lightning
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Legendary Resistance (3/Day)"
-    description: |
-      If the dragon fails a saving throw, it can choose to succeed instead.
-
+   - name: Legendary Resistance (3/Day)
+     description: If the dragon fails a saving throw, it can choose to succeed instead.
 actions:
-  - name: "Multiattack"
-    description: |
-      The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.
-
-  - name: "Frightful Presence"
-    description: |
-      Each creature of the dragon's choice that is within 120 ft. of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
-
-  - name: "Lightning Breath (Recharge 5-6)"
-    description: |
-      The dragon exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
-
-legendary_action_description: "The adult blue dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult blue dragon regains spent legendary actions at the start of its turn."
-
-legendary_actions":
-  - name: "Detect"
-    description: |
-      The dragon makes a Wisdom (Perception) check.
-
-  - name: "Tail Attack"
-    description: |
-      The dragon makes a tail attack.
-
-  - name: "Wing Attack (Costs 2 Actions)"
-    description: |
-      The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+   - name: Multiattack
+     description: 'The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.'
+   - name: Tail
+     description: 'Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.'
+   - name: Frightful Presence
+     description: Each creature of the dragon's choice that is within 120 ft. of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
+   - name: Lightning Breath (Recharge 5-6)
+     description: The dragon exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
+legendary_action_description: The adult blue dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature's turn. The adult blue dragon regains spent legendary actions at the start of its turn.
+legendary_actions:
+   - name: Detect
+     description: The dragon makes a Wisdom (Perception) check.
+   - name: Tail Attack
+     description: The dragon makes a tail attack.
+   - name: Wing Attack (Costs 2 Actions)
+     description: The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.

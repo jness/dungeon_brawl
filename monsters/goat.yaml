@@ -1,54 +1,35 @@
-name: "Goat"
-slug_name: "goat"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "10"
-armor_class_type: null
-hit_points: "4"
-hit_dice: "1d8"
-speed: "40 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Goat
+slug_name: goat
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 10
+armor_class_type:
+hit_points: 4
+hit_dice: 1d8
+speed: 40 ft.
+strength: 12
+dexterity: 10
+constitution: 11
+intelligence: 2
+wisdom: 10
+charisma: 5
+saving_throws:
+skills:
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Charge"
-    description: |
-      If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.
-
-  - name: "Sure-Footed"
-    description: |
-      The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
-
+   - name: Charge
+     description: If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.
+   - name: Sure-Footed
+     description: The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
 actions:
-  - name: "Ram"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.
+   - name: Ram
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.'

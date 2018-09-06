@@ -1,139 +1,90 @@
-name: "Yuan-ti Pit Master"
-slug_name: "yuan-ti-pit-master"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "monstrosity"
-subtype: "shapechanger, yuan-ti"
-alignment: "neutral evil"
-
-armor_class: "14"
-armor_class_type: "natural armor"
-hit_points: "88"
-hit_dice: "16d8+16"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Wis +3, Cha +5"
-skills: "Deception +5, Stealth +4"
-senses: "darkvision 120 ft. (penetrates magical darkness)"
-languages: "Abyssal, Common, Draconic"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Yuan-ti Pit Master
+slug_name: yuan-ti-pit-master
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: monstrosity
+subtype: shapechanger, yuan-ti
+alignment: neutral evil
+armor_class: 14
+armor_class_type: natural armor
+hit_points: 88
+hit_dice: 16d8+16
+speed: 30 ft.
+strength: 16
+dexterity: 14
+constitution: 13
+intelligence: 14
+wisdom: 12
+charisma: 16
+saving_throws: Wis +3, Cha +5
+skills: Deception +5, Stealth +4
+senses: darkvision 120 ft. (penetrates magical darkness)
+languages: Abyssal, Common, Draconic
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Shapechanger"
-    description: |
-      The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies.
-
-  - name: "Magic Resistance"
-    description: |
-      The yuan-ti has advantage on saving throws against spells and other magical effects.
-
-  - name: "Poison's Disciple (2/Day)"
-    description: |
-      The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.
-
-  - name: "Variant: Chameleon Skin"
-    description: |
-      The yuan-ti has advantage on Dexterity (Stealth) checks made to hide.
-
-  - name: "Variant: Shed Skin (1/Day)"
-    description: |
-      The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
-
+   - name: Shapechanger
+     description: The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies.
+   - name: Magic Resistance
+     description: The yuan-ti has advantage on saving throws against spells and other magical effects.
+   - name: Poison's Disciple (2/Day)
+     description: The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.
+   - name: 'Variant: Chameleon Skin'
+     description: The yuan-ti has advantage on Dexterity (Stealth) checks made to hide.
+   - name: 'Variant: Shed Skin (1/Day)'
+     description: The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.
 actions:
-  - name: "Multiattack (Yuan-ti Form Only)"
-    description: |
-      The yuan-ti makes two bite attacks using its snake arms.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) poison damage.
-
-  - name: "Merrshaulk's Slumber (1/Day)"
-    description: |
-      The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a DC 13 Constitution saving throw or fall into a magical sleep and be unconscious for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being charmed.
-
+   - name: Multiattack (Yuan-ti Form Only)
+     description: The yuan-ti makes two bite attacks using its snake arms.
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) poison damage.'
+   - name: Merrshaulk's Slumber (1/Day)
+     description: The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a DC 13 Constitution saving throw or fall into a magical sleep and be unconscious for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being charmed.
 spell_casting:
-
-  - title: "Innate Spellcasting (Yuan-ti Form Only)"
-
-    top_description: |
-      The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " animal friendship (snakes only) 3/day"
-          slug_name: "animal-friendship"
-
-  - title: "Spellcasting (Yuan-ti Farm Only)"
-
-    top_description: |
-      The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " eldritch blast (range 300 ft."
-          slug_name: "eldritch-blast"
-
-        - name: "+3 bonus to each damage roll)"
-          slug_name: "bonus-to-each-damage-roll"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "guidance"
-          slug_name: "guidance"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-
-      - "1st-3rd level (2 3rd-level slots)":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "counterspell"
-          slug_name: "counterspell"
-
-        - name: "hellish rebuke"
-          slug_name: "hellish-rebuke"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "unseen servant"
-          slug_name: "unseen-servant"
-
-        - name: "vampiric touch"
-          slug_name: "vampiric-touch"
+   - title: Innate Spellcasting (Yuan-ti Form Only)
+     top_description: "The yuan-ti's innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: animal friendship (snakes only) 3/day
+               slug_name: animal-friendship
+   - title: Spellcasting (Yuan-ti Farm Only)
+     top_description: 'The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: eldritch blast (range 300 ft.
+               slug_name: eldritch-blast
+             - name: +3 bonus to each damage roll)
+               slug_name: bonus-to-each-damage-roll
+             - name: friends
+               slug_name: friends
+             - name: guidance
+               slug_name: guidance
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: poison spray
+               slug_name: poison-spray
+        - title: 1st-3rd level (2 3rd-level slots)
+          spells:
+             - name: command
+               slug_name: command
+             - name: counterspell
+               slug_name: counterspell
+             - name: hellish rebuke
+               slug_name: hellish-rebuke
+             - name: invisibility
+               slug_name: invisibility
+             - name: misty step
+               slug_name: misty-step
+             - name: unseen servant
+               slug_name: unseen-servant
+             - name: vampiric touch
+               slug_name: vampiric-touch

@@ -1,158 +1,108 @@
-name: "Drow Priestess of Lolth"
-slug_name: "drow-priestess-of-lolth"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "elf"
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "scale mail"
-hit_points: "71"
-hit_dice: "13d8+13"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "17"
-wisdom_modifier: "+3"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Con +4, Wis +6, Cha +7"
-skills: "Insight +6, Perception +6, Religion +4, Stealth +5"
-senses: "darkvision 120 ft."
-languages: "Elvish, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Drow Priestess of Lolth
+slug_name: drow-priestess-of-lolth
+challenge_rating: 8.0
+experience: 3900
+size: Medium
+type: humanoid
+subtype: elf
+alignment: neutral evil
+armor_class: 15
+armor_class_type: scale mail
+hit_points: 71
+hit_dice: 13d8+13
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 12
+intelligence: 13
+wisdom: 17
+charisma: 18
+saving_throws: Con +4, Wis +6, Cha +7
+skills: Insight +6, Perception +6, Religion +4, Stealth +5
+senses: darkvision 120 ft.
+languages: Elvish, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Fey Ancestry"
-    description: |
-      The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Fey Ancestry
+     description: The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Multiattack"
-    description: |
-      The drow makes two scourge attacks.
-
-  - name: "Scourge"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 17 (5d6) poison damage.
-
-  - name: "Summon Demon (1/Day)"
-    description: |
-      The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
-
+   - name: Multiattack
+     description: The drow makes two scourge attacks.
+   - name: Scourge
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 17 (5d6) poison damage.'
+   - name: Summon Demon (1/Day)
+     description: The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The drow's spellcasting ability is Charisma (spell save DC 15. She can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " dancing lights"
-          slug_name: "dancing-lights"
-
-
-      - "1/day each":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "faerie fire"
-          slug_name: "faerie-fire"
-
-        - name: "levitate (self only)"
-          slug_name: "levitate"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-        - name: "resistance"
-          slug_name: "resistance"
-
-        - name: "spare the dying"
-          slug_name: "spare-the-dying"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " animal friendship"
-          slug_name: "animal-friendship"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "detect poison and disease"
-          slug_name: "detect-poison-and-disease"
-
-        - name: "ray of sickness"
-          slug_name: "ray-of-sickness"
-
-
-      - "2nd level (3 slots)":
-        - name: " lesser restoration"
-          slug_name: "lesser-restoration"
-
-        - name: "protection from poison"
-          slug_name: "protection-from-poison"
-
-        - name: "web"
-          slug_name: "web"
-
-
-      - "3rd level (3 slots)":
-        - name: " conjure animals (2 giant spiders)"
-          slug_name: "conjure-animals"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-
-      - "4th level (3 slots)":
-        - name: " divination"
-          slug_name: "divination"
-
-        - name: "freedom of movement"
-          slug_name: "freedom-of-movement"
-
-
-      - "5th level (2 slots)":
-        - name: " insect plague"
-          slug_name: "insect-plague"
-
-        - name: "mass cure wounds"
-          slug_name: "mass-cure-wounds"
+   - title: Innate Spellcasting
+     top_description: "The drow's spellcasting ability is Charisma (spell save DC 15. She can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: dancing lights
+               slug_name: dancing-lights
+        - title: 1/day each
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: faerie fire
+               slug_name: faerie-fire
+             - name: levitate (self only)
+               slug_name: levitate
+   - title: Spellcasting
+     top_description: 'The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: poison spray
+               slug_name: poison-spray
+             - name: resistance
+               slug_name: resistance
+             - name: spare the dying
+               slug_name: spare-the-dying
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: animal friendship
+               slug_name: animal-friendship
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: detect poison and disease
+               slug_name: detect-poison-and-disease
+             - name: ray of sickness
+               slug_name: ray-of-sickness
+        - title: 2nd level (3 slots)
+          spells:
+             - name: lesser restoration
+               slug_name: lesser-restoration
+             - name: protection from poison
+               slug_name: protection-from-poison
+             - name: web
+               slug_name: web
+        - title: 3rd level (3 slots)
+          spells:
+             - name: conjure animals (2 giant spiders)
+               slug_name: conjure-animals
+             - name: dispel magic
+               slug_name: dispel-magic
+        - title: 4th level (3 slots)
+          spells:
+             - name: divination
+               slug_name: divination
+             - name: freedom of movement
+               slug_name: freedom-of-movement
+        - title: 5th level (2 slots)
+          spells:
+             - name: insect plague
+               slug_name: insect-plague
+             - name: mass cure wounds
+               slug_name: mass-cure-wounds

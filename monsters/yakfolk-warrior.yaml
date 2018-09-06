@@ -1,60 +1,37 @@
-name: "Yakfolk Warrior"
-slug_name: "yakfolk-warrior"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "11"
-armor_class_type: "leather"
-hit_points: "60"
-hit_dice: "8d10+16"
-speed: "30 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Deception +4, Survival +4"
-senses: null
-languages: "Common, Yikaria"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Yakfolk Warrior
+slug_name: yakfolk-warrior
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: neutral evil
+armor_class: 11
+armor_class_type: leather
+hit_points: 60
+hit_dice: 8d10+16
+speed: 30 ft.
+strength: 18
+dexterity: 11
+constitution: 15
+intelligence: 14
+wisdom: 15
+charisma: 14
+saving_throws:
+skills: Deception +4, Survival +4
+senses:
+languages: Common, Yikaria
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Possession (Recharges after a rest"
-    description: |
-      The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest or the attempt fails. At the end of the rest, the target must succeed a DC 12 Con saving throw or be possessed by the yakfolk, which disappears with everything its carrying and wearing. Until the possession ends, the target is incapacitated, loses control of its body, and it unaware of its surroundings. The yakfolk now controls the body and cannot be targeted by any attack, spell, or other effect, and it retains its alignment, its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. 
-
-      The possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear.
-
+   - name: Possession (Recharges after a rest
+     description: "The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest or the attempt fails. At the end of the rest, the target must succeed a DC 12 Con saving throw or be possessed by the yakfolk, which disappears with everything its carrying and wearing. Until the possession ends, the target is incapacitated, loses control of its body, and it unaware of its surroundings. The yakfolk now controls the body and cannot be targeted by any attack, spell, or other effect, and it retains its alignment, its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. \n\nThe possession lats until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as dispel evil and good spell. When the possession ends, the yakfolk appears in an unoccupied space within 5 feet of the body and is stunned until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well and its body does not reappear."
 actions:
-  - name: "Multiattack"
-    description: |
-      The yakfolk makes two attacks, either with it's greatsword or its longbow
-
-  - name: "Greatsword"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.
-
-  - name: "Longbow"
-    description: |
-      Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 9 (2d8) piercing damage.
+   - name: Multiattack
+     description: The yakfolk makes two attacks, either with it's greatsword or its longbow
+   - name: Greatsword
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.'
+   - name: Longbow
+     description: 'Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit: 9 (2d8) piercing damage.'

@@ -1,137 +1,96 @@
-name: "Miraj Vizann"
-slug_name: "miraj-vizann"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "earth genasi"
-alignment: "neutral evil"
-
-armor_class: "10"
-armor_class_type: "13 with mage armor"
-hit_points: "82"
-hit_dice: "11d8+33"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: null
-skills: "Arcana +4, Deception +7"
-senses: null
-languages: "Common, Primordial"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Miraj Vizann
+slug_name: miraj-vizann
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: earth genasi
+alignment: neutral evil
+armor_class: 10
+armor_class_type: 13 with mage armor
+hit_points: 82
+hit_dice: 11d8+33
+speed: 30 ft.
+strength: 12
+dexterity: 10
+constitution: 17
+intelligence: 13
+wisdom: 11
+charisma: 18
+saving_throws:
+skills: Arcana +4, Deception +7
+senses:
+languages: Common, Primordial
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Earth Walk"
-    description: |
-      Moving through difficult terrain made of earth or stone costs Miraj no extra movement.
-
+   - name: Earth Walk
+     description: Moving through difficult terrain made of earth or stone costs Miraj no extra movement.
 actions:
-  - name: "Staff"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.
-
+   - name: Staff
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components:
-
-    spells:
-
-      - "* 1/day":
-        - name: " pass without trace"
-          slug_name: "pass-without-trace"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "blade ward"
-          slug_name: "blade-ward"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "mold earth"
-          slug_name: "mold-earth"
-
-
-      - "1st level (4 slots)":
-        - name: " chromatic orb"
-          slug_name: "chromatic-orb"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-
-      - "2nd level (3 slots)":
-        - name: " Maximilian's earthen grasp"
-          slug_name: "maximilian"
-
-        - name: "shatter"
-          slug_name: "shatter"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "erupting earth"
-          slug_name: "erupting-earth"
-
-
-      - "4th level (3 slots)":
-        - name: " polymorph"
-          slug_name: "polymorph"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (2 slots)":
-        - name: " wall of stone"
-          slug_name: "wall-of-stone"
-
-
-      - "6th level (1 slot)":
-        - name: " move earth"
-          slug_name: "move-earth"
+   - title: Innate Spellcasting
+     top_description: "Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: '* 1/day'
+          spells:
+             - name: pass without trace
+               slug_name: pass-without-trace
+   - title: Spellcasting
+     top_description: 'Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: blade ward
+               slug_name: blade-ward
+             - name: friends
+               slug_name: friends
+             - name: light
+               slug_name: light
+             - name: message
+               slug_name: message
+             - name: mold earth
+               slug_name: mold-earth
+        - title: 1st level (4 slots)
+          spells:
+             - name: chromatic orb
+               slug_name: chromatic-orb
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+        - title: 2nd level (3 slots)
+          spells:
+             - name: Maximilian's earthen grasp
+               slug_name: maximilian
+             - name: shatter
+               slug_name: shatter
+             - name: suggestion
+               slug_name: suggestion
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: erupting earth
+               slug_name: erupting-earth
+        - title: 4th level (3 slots)
+          spells:
+             - name: polymorph
+               slug_name: polymorph
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (2 slots)
+          spells:
+             - name: wall of stone
+               slug_name: wall-of-stone
+        - title: 6th level (1 slot)
+          spells:
+             - name: move earth
+               slug_name: move-earth

@@ -1,66 +1,41 @@
-name: "Bone Devil Polearm"
-slug_name: "bone-devil-polearm"
-
-challenge_rating: "12"
-challenge_rating_decimal: "12.0"
-experience: "8,400 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "devil"
-alignment: "lawful evil"
-
-armor_class: "19"
-armor_class_type: "natural armor"
-hit_points: "142"
-hit_dice: "15d10+60"
-speed: "40 ft., fly 40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Int +5, Wis +6, Cha +7"
-skills: "Deception +7, Insight +6"
-senses: "darkvision 120 ft."
-languages: "Infernal, telepathy 120 ft."
-
-damage_resistances: "cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-damage_immunities: "fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Bone Devil Polearm
+slug_name: bone-devil-polearm
+challenge_rating: 12.0
+experience: 8400
+size: Large
+type: fiend
+subtype: devil
+alignment: lawful evil
+armor_class: 19
+armor_class_type: natural armor
+hit_points: 142
+hit_dice: 15d10+60
+speed: 40 ft., fly 40 ft.
+strength: 18
+dexterity: 16
+constitution: 18
+intelligence: 13
+wisdom: 14
+charisma: 16
+saving_throws: Int +5, Wis +6, Cha +7
+skills: Deception +7, Insight +6
+senses: darkvision 120 ft.
+languages: Infernal, telepathy 120 ft.
+damage_resistances: cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+damage_immunities: fire, poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Devil's Sight"
-    description: |
-      Magical darkness doesn't impede the devil's darkvision.
-
-  - name: "Magic Resistance"
-    description: |
-      The devil has advantage on saving throws against spells and other magical effects.
-
+   - name: Devil's Sight
+     description: Magical darkness doesn't impede the devil's darkvision.
+   - name: Magic Resistance
+     description: The devil has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The devil makes three attacks: two with its hooked polearm and one with its sting.
-
-  - name: "Hooked Polearm"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 17 (2d12 + 4) piercing damage. If the target is a huge or smaller creature, it is grappled (escape DC 14). Until the grapple ends, the devil can't use its polearm on another target.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.
-
-  - name: "Sting"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .
+   - name: Multiattack
+     description: 'The devil makes three attacks: two with its hooked polearm and one with its sting.'
+   - name: Hooked Polearm
+     description: "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 17 (2d12 + 4) piercing damage. If the target is a huge or smaller creature, it is grappled (escape DC 14). Until the grapple ends, the devil can't use its polearm on another target."
+   - name: Claw
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.'
+   - name: Sting
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success .'

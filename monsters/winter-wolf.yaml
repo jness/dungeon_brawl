@@ -1,62 +1,39 @@
-name: "Winter Wolf"
-slug_name: "winter-wolf"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "75"
-hit_dice: "10d10+20"
-speed: "50 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +5, Stealth +3"
-senses: null
-languages: "Common, Giant, Winter Wolf"
-
-damage_resistances: null
-damage_immunities: "cold"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Winter Wolf
+slug_name: winter-wolf
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: neutral evil
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 75
+hit_dice: 10d10+20
+speed: 50 ft.
+strength: 18
+dexterity: 13
+constitution: 14
+intelligence: 7
+wisdom: 12
+charisma: 8
+saving_throws:
+skills: Perception +5, Stealth +3
+senses:
+languages: Common, Giant, Winter Wolf
+damage_resistances:
+damage_immunities: cold
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Hearing and Smell"
-    description: |
-      The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-  - name: "Pack Tactics"
-    description: |
-      The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
-
-  - name: "Snow Camouflage"
-    description: |
-      The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
-
+   - name: Keen Hearing and Smell
+     description: The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+   - name: Pack Tactics
+     description: The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+   - name: Snow Camouflage
+     description: The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
-
-  - name: "Cold Breath (Recharge 5-6)"
-    description: |
-      The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.'
+   - name: Cold Breath (Recharge 5-6)
+     description: The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.

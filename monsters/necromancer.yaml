@@ -1,131 +1,90 @@
-name: "Necromancer"
-slug_name: "necromancer"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "66"
-hit_dice: "12d8+12"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +7, Wis +5"
-skills: "Arcana +7, History +7"
-senses: null
-languages: "any four languages"
-
-damage_resistances: "necrotic"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Necromancer
+slug_name: necromancer
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 66
+hit_dice: 12d8+12
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 12
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws: Int +7, Wis +5
+skills: Arcana +7, History +7
+senses:
+languages: any four languages
+damage_resistances: necrotic
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Grim Harvest (1/Turn)"
-    description: |
-      When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.
-
+   - name: Grim Harvest (1/Turn)
+     description: When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.
 actions:
-  - name: "Withering Touch"
-    description: |
-      Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.
-
+   - name: Withering Touch
+     description: 'Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:
-
-    bottom_description: |
-      *Necromancy spell of 1st level or higher
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "dancing lights"
-          slug_name: "dancing-lights"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "mending"
-          slug_name: "mending"
-
-
-      - "1st level (4 slots)":
-        - name: " false life*"
-          slug_name: "false-life"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "ray of sickness*"
-          slug_name: "ray-of-sickness"
-
-
-      - "2nd level (3 slots)":
-        - name: " blindness/deafness*"
-          slug_name: "blindness"
-
-        - name: "ray of enfeeblement*"
-          slug_name: "ray-of-enfeeblement"
-
-        - name: "web"
-          slug_name: "web"
-
-
-      - "3rd level (3 slots)":
-        - name: " animate dead*"
-          slug_name: "animate-dead"
-
-        - name: "bestow curse*"
-          slug_name: "bestow-curse"
-
-        - name: "vampiric touch*"
-          slug_name: "vampiric-touch"
-
-
-      - "4th level (3 slots)":
-        - name: " blight*"
-          slug_name: "blight"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (2 slots)":
-        - name: " Bigby's hand"
-          slug_name: "bigby"
-
-        - name: "cloudkill"
-          slug_name: "cloudkill"
-
-
-      - "6th level (1 slot)":
-        - name: " circle of death*"
-          slug_name: "circle-of-death"
+   - title: Spellcasting
+     top_description: 'The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:'
+     bottom_description: '*Necromancy spell of 1st level or higher'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: dancing lights
+               slug_name: dancing-lights
+             - name: mage hand
+               slug_name: mage-hand
+             - name: mending
+               slug_name: mending
+        - title: 1st level (4 slots)
+          spells:
+             - name: false life*
+               slug_name: false-life
+             - name: mage armor
+               slug_name: mage-armor
+             - name: ray of sickness*
+               slug_name: ray-of-sickness
+        - title: 2nd level (3 slots)
+          spells:
+             - name: blindness/deafness*
+               slug_name: blindness
+             - name: ray of enfeeblement*
+               slug_name: ray-of-enfeeblement
+             - name: web
+               slug_name: web
+        - title: 3rd level (3 slots)
+          spells:
+             - name: animate dead*
+               slug_name: animate-dead
+             - name: bestow curse*
+               slug_name: bestow-curse
+             - name: vampiric touch*
+               slug_name: vampiric-touch
+        - title: 4th level (3 slots)
+          spells:
+             - name: blight*
+               slug_name: blight
+             - name: dimension door
+               slug_name: dimension-door
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (2 slots)
+          spells:
+             - name: Bigby's hand
+               slug_name: bigby
+             - name: cloudkill
+               slug_name: cloudkill
+        - title: 6th level (1 slot)
+          spells:
+             - name: circle of death*
+               slug_name: circle-of-death

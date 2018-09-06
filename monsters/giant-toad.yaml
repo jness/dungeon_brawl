@@ -1,60 +1,37 @@
-name: "Giant Toad"
-slug_name: "giant-toad"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "11"
-armor_class_type: null
-hit_points: "39"
-hit_dice: "6d10+6"
-speed: "20 ft., swim 40 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "3"
-charisma_modifier: "-4"
-
-saving_throws: null
-skills: null
-senses: "darkvision 30 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Giant Toad
+slug_name: giant-toad
+challenge_rating: 1.0
+experience: 200
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 11
+armor_class_type:
+hit_points: 39
+hit_dice: 6d10+6
+speed: 20 ft., swim 40 ft.
+strength: 15
+dexterity: 13
+constitution: 13
+intelligence: 2
+wisdom: 10
+charisma: 3
+saving_throws:
+skills:
+senses: darkvision 30 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The toad can breathe air and water
-
-  - name: "Standing Leap"
-    description: |
-      The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.
-
+   - name: Amphibious
+     description: The toad can breathe air and water
+   - name: Standing Leap
+     description: The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.
-
-  - name: "Swallow"
-    description: |
-      The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.
-
-      If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+   - name: Bite
+     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
+   - name: Swallow
+     description: "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.\n\nIf the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."

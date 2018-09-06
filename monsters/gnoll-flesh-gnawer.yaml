@@ -1,62 +1,39 @@
-name: "Gnoll Flesh Gnawer"
-slug_name: "gnoll-flesh-gnawer"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "gnoll"
-alignment: "chaotic evil"
-
-armor_class: "14"
-armor_class_type: "studded leather armor"
-hit_points: "22"
-hit_dice: "4d8+4"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: "Dex +4"
-skills: null
-senses: "darkvision 60 ft."
-languages: "Gnoll"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Gnoll Flesh Gnawer
+slug_name: gnoll-flesh-gnawer
+challenge_rating: 1.0
+experience: 200
+size: Medium
+type: humanoid
+subtype: gnoll
+alignment: chaotic evil
+armor_class: 14
+armor_class_type: studded leather armor
+hit_points: 22
+hit_dice: 4d8+4
+speed: 30 ft.
+strength: 12
+dexterity: 14
+constitution: 12
+intelligence: 8
+wisdom: 10
+charisma: 8
+saving_throws: Dex +4
+skills:
+senses: darkvision 60 ft.
+languages: Gnoll
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Rampage"
-    description: |
-      When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
-
+   - name: Rampage
+     description: When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
 actions:
-  - name: "Multiattack"
-    description: |
-      The gnoll makes three attacks: one with its bite and two with its shortsword.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6+2) piercing damage.
-
-  - name: "Sudden Rush"
-    description: |
-      Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn't provoke opportunity attacks.
+   - name: Multiattack
+     description: 'The gnoll makes three attacks: one with its bite and two with its shortsword.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.'
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6+2) piercing damage.'
+   - name: Sudden Rush
+     description: Until the end of the turn, the gnoll's speed increases by 60 feet and it doesn't provoke opportunity attacks.

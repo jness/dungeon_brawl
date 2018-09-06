@@ -1,108 +1,71 @@
-name: "Thurl Merosska"
-slug_name: "thurl-merosska"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "16"
-armor_class_type: "breastplate"
-hit_points: "71"
-hit_dice: "11d8+21"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Animal Handling +2, Athletics +5, Deception +4, Persuasion +4"
-senses: null
-languages: "Auran, Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Thurl Merosska
+slug_name: thurl-merosska
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 16
+armor_class_type: breastplate
+hit_points: 71
+hit_dice: 11d8+21
+speed: 30 ft.
+strength: 16
+dexterity: 14
+constitution: 14
+intelligence: 11
+wisdom: 10
+charisma: 15
+saving_throws:
+skills: Animal Handling +2, Athletics +5, Deception +4, Persuasion +4
+senses:
+languages: Auran, Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      Thurl makes two melee attacks.
-
-  - name: "Greatsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.
-
-  - name: "Lance"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.
-
-      **Reactions**
-
-  - name: "Parry"
-    description: |
-      Thurl adds 2 to his AC against one melee attack that would hit him. To do so, Thurl must see the attacker and be wielding a melee weapon.
-
+   - name: Multiattack
+     description: Thurl makes two melee attacks.
+   - name: Greatsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.'
+   - name: Lance
+     description: "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.\n\n**Reactions**"
+   - name: Parry
+     description: Thurl adds 2 to his AC against one melee attack that would hit him. To do so, Thurl must see the attacker and be wielding a melee weapon.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " friends"
-          slug_name: "friends"
-
-        - name: "gust"
-          slug_name: "gust"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " expeditious retreat"
-          slug_name: "expeditious-retreat"
-
-        - name: "feather fall"
-          slug_name: "feather-fall"
-
-        - name: "jump"
-          slug_name: "jump"
-
-
-      - "2nd level (3 slots)":
-        - name: " levitate"
-          slug_name: "levitate"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-
-      - "3rd level (2 slots)":
-        - name: " haste"
-          slug_name: "haste"
+   - title: Spellcasting
+     top_description: 'Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: friends
+               slug_name: friends
+             - name: gust
+               slug_name: gust
+             - name: light
+               slug_name: light
+             - name: message
+               slug_name: message
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: expeditious retreat
+               slug_name: expeditious-retreat
+             - name: feather fall
+               slug_name: feather-fall
+             - name: jump
+               slug_name: jump
+        - title: 2nd level (3 slots)
+          spells:
+             - name: levitate
+               slug_name: levitate
+             - name: misty step
+               slug_name: misty-step
+        - title: 3rd level (2 slots)
+          spells:
+             - name: haste
+               slug_name: haste

@@ -1,66 +1,41 @@
-name: "Jackalwere"
-slug_name: "jackalwere"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "shapechanger"
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "18"
-hit_dice: "4d8"
-speed: "40 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Deception +4, Perception +2, Stealth +4"
-senses: null
-languages: "Common (can't speak in jackal form)"
-
-damage_resistances: null
-damage_immunities: "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Jackalwere
+slug_name: jackalwere
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: humanoid
+subtype: shapechanger
+alignment: chaotic evil
+armor_class: 12
+armor_class_type:
+hit_points: 18
+hit_dice: 4d8
+speed: 40 ft.
+strength: 11
+dexterity: 15
+constitution: 11
+intelligence: 13
+wisdom: 11
+charisma: 10
+saving_throws:
+skills: Deception +4, Perception +2, Stealth +4
+senses:
+languages: Common (can't speak in jackal form)
+damage_resistances:
+damage_immunities: bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Shapechanger"
-    description: |
-      The jackalwere can use its action to polymorph into a specific Medium human or a jackal-humanoid hybrid, or back into its true form (that of a Small jackal). Other than its size, its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.
-
-  - name: "Keen Hearing and Smell"
-    description: |
-      The jackalwere has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-
-  - name: "Pack Tactics"
-    description: |
-      The jackalwere has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
-
+   - name: Shapechanger
+     description: The jackalwere can use its action to polymorph into a specific Medium human or a jackal-humanoid hybrid, or back into its true form (that of a Small jackal). Other than its size, its statistics are the same in each form. Any equipment it is wearing or carrying isn 't transformed. It reverts to its true form if it dies.
+   - name: Keen Hearing and Smell
+     description: The jackalwere has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+   - name: Pack Tactics
+     description: The jackalwere has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.
 actions:
-  - name: "Bite (Jackal or Hybrid Form Only)"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
-  - name: "Scimitar (Human or Hybrid Form Only)"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.
-
-  - name: "Sleep Gaze"
-    description: |
-      The jackalwere gazes at one creature it can see within 30 feet of it. The target must make a DC 10 Wisdom saving throw. On a failed save, the target succumbs to a magical slumber, falling unconscious for 10 minutes or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being charmed aren't affected by it.
+   - name: Bite (Jackal or Hybrid Form Only)
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
+   - name: Scimitar (Human or Hybrid Form Only)
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.'
+   - name: Sleep Gaze
+     description: The jackalwere gazes at one creature it can see within 30 feet of it. The target must make a DC 10 Wisdom saving throw. On a failed save, the target succumbs to a magical slumber, falling unconscious for 10 minutes or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being charmed aren't affected by it.

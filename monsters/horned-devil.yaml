@@ -1,66 +1,41 @@
-name: "Horned Devil"
-slug_name: "horned-devil"
-
-challenge_rating: "11"
-challenge_rating_decimal: "11.0"
-experience: "7,200 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "devil"
-alignment: "lawful evil"
-
-armor_class: "18"
-armor_class_type: "natural armor"
-hit_points: "178"
-hit_dice: "17d10+85"
-speed: "20 ft., fly 60 ft."
-
-strength: "22"
-strength_modifier: "+6"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "21"
-constitution_modifier: "+5"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "17"
-charisma_modifier: "+3"
-
-saving_throws: "Str +10, Dex +7, Wis +7, Cha +7"
-skills: null
-senses: "darkvision 120 ft."
-languages: "Infernal, telepathy 120 ft."
-
-damage_resistances: "cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-damage_immunities: "fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Horned Devil
+slug_name: horned-devil
+challenge_rating: 11.0
+experience: 7200
+size: Large
+type: fiend
+subtype: devil
+alignment: lawful evil
+armor_class: 18
+armor_class_type: natural armor
+hit_points: 178
+hit_dice: 17d10+85
+speed: 20 ft., fly 60 ft.
+strength: 22
+dexterity: 17
+constitution: 21
+intelligence: 12
+wisdom: 16
+charisma: 17
+saving_throws: Str +10, Dex +7, Wis +7, Cha +7
+skills:
+senses: darkvision 120 ft.
+languages: Infernal, telepathy 120 ft.
+damage_resistances: cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+damage_immunities: fire, poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Devil's Sight"
-    description: |
-      Magical darkness doesn't impede the devil's darkvision.
-
-  - name: "Magic Resistance"
-    description: |
-      The devil has advantage on saving throws against spells and other magical effects.
-
+   - name: Devil's Sight
+     description: Magical darkness doesn't impede the devil's darkvision.
+   - name: Magic Resistance
+     description: The devil has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.
-
-  - name: "Fork"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
-
-  - name: "Hurl Flame"
-    description: |
-      Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+   - name: Multiattack
+     description: 'The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.'
+   - name: Fork
+     description: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.'
+   - name: Tail
+     description: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.'
+   - name: Hurl Flame
+     description: "Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."

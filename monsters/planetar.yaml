@@ -1,107 +1,70 @@
-name: "Planetar"
-slug_name: "planetar"
-
-challenge_rating: "16"
-challenge_rating_decimal: "16.0"
-experience: "15,000 XP"
-
-size: "Large"
-type: "celestial"
-subtype: null
-alignment: "lawful good"
-
-armor_class: "19"
-armor_class_type: "natural armor"
-hit_points: "200"
-hit_dice: "16d10+112"
-speed: "40 ft., fly 120 ft."
-
-strength: "24"
-strength_modifier: "+7"
-dexterity: "20"
-dexterity_modifier: "+5"
-constitution: "24"
-constitution_modifier: "+7"
-intelligence: "19"
-intelligence_modifier: "+4"
-wisdom: "22"
-wisdom_modifier: "+6"
-charisma: "25"
-charisma_modifier: "+7"
-
-saving_throws: "Con +12, Wis +11, Cha +12"
-skills: "Perception +11"
-senses: "truesight 120 ft."
-languages: "all, telepathy 120 ft."
-
-damage_resistances: "radiant, bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, frightened"
-
+name: Planetar
+slug_name: planetar
+challenge_rating: 16.0
+experience: 15000
+size: Large
+type: celestial
+subtype:
+alignment: lawful good
+armor_class: 19
+armor_class_type: natural armor
+hit_points: 200
+hit_dice: 16d10+112
+speed: 40 ft., fly 120 ft.
+strength: 24
+dexterity: 20
+constitution: 24
+intelligence: 19
+wisdom: 22
+charisma: 25
+saving_throws: Con +12, Wis +11, Cha +12
+skills: Perception +11
+senses: truesight 120 ft.
+languages: all, telepathy 120 ft.
+damage_resistances: radiant, bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, frightened
 special_abilities:
-  - name: "Angelic Weapons"
-    description: |
-      The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).
-
-  - name: "Divine Awareness"
-    description: |
-      The planetar knows if it hears a lie.
-
-  - name: "Magic Resistance"
-    description: |
-      The planetar has advantage on saving throws against spells and other magical effects.
-
+   - name: Angelic Weapons
+     description: The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).
+   - name: Divine Awareness
+     description: The planetar knows if it hears a lie.
+   - name: Magic Resistance
+     description: The planetar has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The planetar makes two melee attacks.
-
-  - name: "Greatsword"
-    description: |
-      Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.
-
-  - name: "Healing Touch (4/Day)"
-    description: |
-      The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.
-
+   - name: Multiattack
+     description: The planetar makes two melee attacks.
+   - name: Greatsword
+     description: 'Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.'
+   - name: Healing Touch (4/Day)
+     description: The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect evil and good"
-          slug_name: "detect-evil-and-good"
-
-        - name: "invisibility (self only)"
-          slug_name: "invisibility"
-
-
-      - "3/day each":
-        - name: " blade barrier"
-          slug_name: "blade-barrier"
-
-        - name: "dispel evil and good"
-          slug_name: "dispel-evil-and-good"
-
-        - name: "flame strike"
-          slug_name: "flame-strike"
-
-        - name: "raise dead"
-          slug_name: "raise-dead"
-
-
-      - "1/day each":
-        - name: " commune"
-          slug_name: "commune"
-
-        - name: "control weather"
-          slug_name: "control-weather"
-
-        - name: "insect plague"
-          slug_name: "insect-plague"
+   - title: Innate Spellcasting
+     top_description: "The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect evil and good
+               slug_name: detect-evil-and-good
+             - name: invisibility (self only)
+               slug_name: invisibility
+        - title: 3/day each
+          spells:
+             - name: blade barrier
+               slug_name: blade-barrier
+             - name: dispel evil and good
+               slug_name: dispel-evil-and-good
+             - name: flame strike
+               slug_name: flame-strike
+             - name: raise dead
+               slug_name: raise-dead
+        - title: 1/day each
+          spells:
+             - name: commune
+               slug_name: commune
+             - name: control weather
+               slug_name: control-weather
+             - name: insect plague
+               slug_name: insect-plague

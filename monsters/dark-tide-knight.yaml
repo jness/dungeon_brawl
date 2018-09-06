@@ -1,68 +1,41 @@
-name: "Dark Tide Knight"
-slug_name: "dark-tide-knight"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "58"
-hit_dice: "9d8+18"
-speed: "30 ft."
-
-strength: "17"
-strength_modifier: "+3"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Athletics +7, Stealth +7"
-senses: null
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Dark Tide Knight
+slug_name: dark-tide-knight
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 13
+armor_class_type:
+hit_points: 58
+hit_dice: 9d8+18
+speed: 30 ft.
+strength: 17
+dexterity: 16
+constitution: 14
+intelligence: 10
+wisdom: 11
+charisma: 11
+saving_throws:
+skills: Athletics +7, Stealth +7
+senses:
+languages: Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Bonded Mount"
-    description: |
-      The knight is magically bound to a beast with an innate swimming speed trained to serve as its mount. While mounted on this beast, the knight gains the beast's senses and ability to breathe underwater. The bonded mount obeys the knight's commands. If its mount dies, the knight can train a new beast to serve as its bonded mount, a process requiring a month.
-
-  - name: "Sneak Attack"
-    description: |
-      The knight deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the knight that isn't incapacitated and the knight doesn't have disadvantage on the attack roll.
-
+   - name: Bonded Mount
+     description: The knight is magically bound to a beast with an innate swimming speed trained to serve as its mount. While mounted on this beast, the knight gains the beast's senses and ability to breathe underwater. The bonded mount obeys the knight's commands. If its mount dies, the knight can train a new beast to serve as its bonded mount, a process requiring a month.
+   - name: Sneak Attack
+     description: The knight deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the knight that isn't incapacitated and the knight doesn't have disadvantage on the attack roll.
 actions:
-  - name: "Multiattack"
-    description: |
-      The knight makes two shortsword attacks.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
-
-  - name: "Lance"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.
-
-      **Reactions**
-
-  - name: "Uncanny Dodge"
-    description: |
-      When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.
+   - name: Multiattack
+     description: The knight makes two shortsword attacks.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.'
+   - name: Lance
+     description: "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.\n\n**Reactions**"
+   - name: Uncanny Dodge
+     description: When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.

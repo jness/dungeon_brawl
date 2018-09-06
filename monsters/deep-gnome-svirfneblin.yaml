@@ -1,82 +1,54 @@
-name: "Deep Gnome (Svirfneblin)"
-slug_name: "deep-gnome-svirfneblin"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "gnome"
-alignment: "neutral good"
-
-armor_class: "15"
-armor_class_type: "chain shirt"
-hit_points: "16"
-hit_dice: "3d6+6"
-speed: "20 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Investigation +3, Perception +2, Stealth +4"
-senses: "darkvision 120 ft."
-languages: "Gnomish, Terran, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Deep Gnome (Svirfneblin)
+slug_name: deep-gnome-svirfneblin
+challenge_rating: 0.5
+experience: 100
+size: Small
+type: humanoid
+subtype: gnome
+alignment: neutral good
+armor_class: 15
+armor_class_type: chain shirt
+hit_points: 16
+hit_dice: 3d6+6
+speed: 20 ft.
+strength: 15
+dexterity: 14
+constitution: 14
+intelligence: 12
+wisdom: 10
+charisma: 9
+saving_throws:
+skills: Investigation +3, Perception +2, Stealth +4
+senses: darkvision 120 ft.
+languages: Gnomish, Terran, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Stone Camouflage"
-    description: |
-      The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
-
-  - name: "Gnome Cunning"
-    description: |
-      The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
-
+   - name: Stone Camouflage
+     description: The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+   - name: Gnome Cunning
+     description: The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
 actions:
-  - name: "War Pick"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
-
-  - name: "Poisoned Dart"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success
-
+   - name: War Pick
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.'
+   - name: Poisoned Dart
+     description: 'Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " nondetection (self only)"
-          slug_name: "nondetection"
-
-
-      - "1/day each":
-        - name: " blindness/deafness"
-          slug_name: "blindness"
-
-        - name: "blur"
-          slug_name: "blur"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
+   - title: Innate Spellcasting
+     top_description: "The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: nondetection (self only)
+               slug_name: nondetection
+        - title: 1/day each
+          spells:
+             - name: blindness/deafness
+               slug_name: blindness
+             - name: blur
+               slug_name: blur
+             - name: disguise self
+               slug_name: disguise-self

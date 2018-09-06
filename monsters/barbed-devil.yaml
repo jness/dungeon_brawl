@@ -1,70 +1,43 @@
-name: "Barbed Devil"
-slug_name: "barbed-devil"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "fiend"
-subtype: "devil"
-alignment: "lawful evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "110"
-hit_dice: "13d8+52"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: "Str +6, Con +7, Wis +5, Cha +5"
-skills: "Deception +5, Insight +5, Perception +8"
-senses: "darkvision 120 ft."
-languages: "Infernal, telepathy 120 ft."
-
-damage_resistances: "cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-damage_immunities: "fire, poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Barbed Devil
+slug_name: barbed-devil
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: fiend
+subtype: devil
+alignment: lawful evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 110
+hit_dice: 13d8+52
+speed: 30 ft.
+strength: 16
+dexterity: 17
+constitution: 18
+intelligence: 12
+wisdom: 14
+charisma: 14
+saving_throws: Str +6, Con +7, Wis +5, Cha +5
+skills: Deception +5, Insight +5, Perception +8
+senses: darkvision 120 ft.
+languages: Infernal, telepathy 120 ft.
+damage_resistances: cold, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+damage_immunities: fire, poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Barbed Hide"
-    description: |
-      At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
-
-  - name: "Devil's Sight"
-    description: |
-      Magical darkness doesn't impede the devil's darkvision.
-
-  - name: "Magic Resistance"
-    description: |
-      The devil has advantage on saving throws against spells and other magical effects.
-
+   - name: Barbed Hide
+     description: At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+   - name: Devil's Sight
+     description: Magical darkness doesn't impede the devil's darkvision.
+   - name: Magic Resistance
+     description: The devil has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Multiattack"
-    description: |
-      The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft ., one target. Hit: 6 (1d6 + 3) piercing damage.
-
-  - name: "Tail"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.
-
-  - name: "Hurl Flame"
-    description: |
-      Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+   - name: Multiattack
+     description: 'The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft ., one target. Hit: 6 (1d6 + 3) piercing damage.'
+   - name: Tail
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.'
+   - name: Hurl Flame
+     description: "Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."

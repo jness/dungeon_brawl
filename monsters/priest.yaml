@@ -1,96 +1,66 @@
-name: "Priest"
-slug_name: "priest"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "13"
-armor_class_type: "chain shirt"
-hit_points: "27"
-hit_dice: "5d8+5"
-speed: "25 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Medicine +7, Persuasion +3, Religion +4"
-senses: null
-languages: "any two languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Priest
+slug_name: priest
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 13
+armor_class_type: chain shirt
+hit_points: 27
+hit_dice: 5d8+5
+speed: 25 ft.
+strength: 10
+dexterity: 10
+constitution: 12
+intelligence: 13
+wisdom: 16
+charisma: 13
+saving_throws:
+skills: Medicine +7, Persuasion +3, Religion +4
+senses:
+languages: any two languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Divine Eminence"
-    description: |
-      As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.
-
+   - name: Divine Eminence
+     description: As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.
 actions:
-  - name: "Mace"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.
-
+   - name: Mace
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "guiding bolt"
-          slug_name: "guiding-bolt"
-
-        - name: "sanctuary"
-          slug_name: "sanctuary"
-
-
-      - "2nd level (3 slots)":
-        - name: " lesser restoration"
-          slug_name: "lesser-restoration"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (2 slots)":
-        - name: " dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "spirit guardians"
-          slug_name: "spirit-guardians"
+   - title: Spellcasting
+     top_description: 'The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: guiding bolt
+               slug_name: guiding-bolt
+             - name: sanctuary
+               slug_name: sanctuary
+        - title: 2nd level (3 slots)
+          spells:
+             - name: lesser restoration
+               slug_name: lesser-restoration
+             - name: spiritual weapon
+               slug_name: spiritual-weapon
+        - title: 3rd level (2 slots)
+          spells:
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: spirit guardians
+               slug_name: spirit-guardians

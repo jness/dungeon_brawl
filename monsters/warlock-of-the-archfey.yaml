@@ -1,142 +1,95 @@
-name: "Warlock of the Archfey"
-slug_name: "warlock-of-the-archfey"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "11"
-armor_class_type: "14 with mage armor"
-hit_points: "49"
-hit_dice: "11d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Wis +3, Cha +6"
-skills: "Arcana +2, Deception +6, Nature +2, Persuasion +6"
-senses: null
-languages: "any two languages (usually Sylvan)"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed"
-
+name: Warlock of the Archfey
+slug_name: warlock-of-the-archfey
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 11
+armor_class_type: 14 with mage armor
+hit_points: 49
+hit_dice: 11d8
+speed: 30 ft.
+strength: 9
+dexterity: 13
+constitution: 11
+intelligence: 11
+wisdom: 12
+charisma: 18
+saving_throws: Wis +3, Cha +6
+skills: Arcana +2, Deception +6, Nature +2, Persuasion +6
+senses:
+languages: any two languages (usually Sylvan)
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
-      **Reactions**
-
-  - name: "Misty Escape (Recharges after a Short or Long Rest)"
-    description: |
-      In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.
-
+   - name: Dagger
+     description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.\n\n**Reactions**"
+   - name: Misty Escape (Recharges after a Short or Long Rest)
+     description: In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " disguise self"
-          slug_name: "disguise-self"
-
-        - name: "mage armor (self only)"
-          slug_name: "mage-armor"
-
-        - name: "silent image"
-          slug_name: "silent-image"
-
-        - name: "speak with animals"
-          slug_name: "speak-with-animals"
-
-
-      - "1/day":
-        - name: " conjure fey"
-          slug_name: "conjure-fey"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " dancing lights"
-          slug_name: "dancing-lights"
-
-        - name: "eldritch blast"
-          slug_name: "eldritch-blast"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "vicious mockery"
-          slug_name: "vicious-mockery"
-
-
-      - "1st-5th level (3 5th-level slots)":
-        - name: " blink"
-          slug_name: "blink"
-
-        - name: "charm person"
-          slug_name: "charm-person"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-        - name: "dominate beast"
-          slug_name: "dominate-beast"
-
-        - name: "faerie fire"
-          slug_name: "faerie-fire"
-
-        - name: "fear"
-          slug_name: "fear"
-
-        - name: "hold monster"
-          slug_name: "hold-monster"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "phantasmal force"
-          slug_name: "phantasmal-force"
-
-        - name: "seeming"
-          slug_name: "seeming"
-
-        - name: "sleep"
-          slug_name: "sleep"
+   - title: Innate Spellcasting
+     top_description: "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: disguise self
+               slug_name: disguise-self
+             - name: mage armor (self only)
+               slug_name: mage-armor
+             - name: silent image
+               slug_name: silent-image
+             - name: speak with animals
+               slug_name: speak-with-animals
+        - title: 1/day
+          spells:
+             - name: conjure fey
+               slug_name: conjure-fey
+   - title: Spellcasting
+     top_description: 'The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: dancing lights
+               slug_name: dancing-lights
+             - name: eldritch blast
+               slug_name: eldritch-blast
+             - name: friends
+               slug_name: friends
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: vicious mockery
+               slug_name: vicious-mockery
+        - title: 1st-5th level (3 5th-level slots)
+          spells:
+             - name: blink
+               slug_name: blink
+             - name: charm person
+               slug_name: charm-person
+             - name: dimension door
+               slug_name: dimension-door
+             - name: dominate beast
+               slug_name: dominate-beast
+             - name: faerie fire
+               slug_name: faerie-fire
+             - name: fear
+               slug_name: fear
+             - name: hold monster
+               slug_name: hold-monster
+             - name: misty step
+               slug_name: misty-step
+             - name: phantasmal force
+               slug_name: phantasmal-force
+             - name: seeming
+               slug_name: seeming
+             - name: sleep
+               slug_name: sleep

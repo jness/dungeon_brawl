@@ -1,94 +1,58 @@
-name: "Barlgura"
-slug_name: "barlgura"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "demon"
-alignment: "chaotic evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "68"
-hit_dice: "8d10+24"
-speed: "40 ft., climb 40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: "Dex +5, Con +6"
-skills: "Perception +5, Stealth +5"
-senses: "blindsight 30 ft., darkvision 120 ft."
-languages: "Abyssal, telepathy 120 ft."
-
-damage_resistances: "cold, fire, lightning"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Barlgura
+slug_name: barlgura
+challenge_rating: 5.0
+experience: 1800
+size: Large
+type: fiend
+subtype: demon
+alignment: chaotic evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 68
+hit_dice: 8d10+24
+speed: 40 ft., climb 40 ft.
+strength: 18
+dexterity: 15
+constitution: 16
+intelligence: 7
+wisdom: 14
+charisma: 9
+saving_throws: Dex +5, Con +6
+skills: Perception +5, Stealth +5
+senses: blindsight 30 ft., darkvision 120 ft.
+languages: Abyssal, telepathy 120 ft.
+damage_resistances: cold, fire, lightning
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Reckless"
-    description: |
-      At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
-
-  - name: "Running Leap"
-    description: |
-      The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.
-
+   - name: Reckless
+     description: At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.
+   - name: Running Leap
+     description: The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.
 actions:
-  - name: "Multiattack"
-    description: |
-      The barlgura makes three attacks: one with its bite and two with its fists.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage.
-
-  - name: "Variant: Summon Demon (1/Day)"
-    description: |
-      The demon chooses what to summon and attempts a magical summoning.
-
-      A barlgura has a 30 percent chance of summoning one barlgura.
-
-      A summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
-
+   - name: Multiattack
+     description: 'The barlgura makes three attacks: one with its bite and two with its fists.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.'
+   - name: Fist
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) bludgeoning damage.'
+   - name: 'Variant: Summon Demon (1/Day)'
+     description: "The demon chooses what to summon and attempts a magical summoning.\n\nA barlgura has a 30 percent chance of summoning one barlgura.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "1/day each":
-        - name: " entangle"
-          slug_name: "entangle"
-
-        - name: "phantasmal force"
-          slug_name: "phantasmal-force"
-
-
-      - "2/day each":
-        - name: " disguise self"
-          slug_name: "disguise-self"
-
-        - name: "invisibility (self only)"
-          slug_name: "invisibility"
+   - title: Innate Spellcasting
+     top_description: "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: 1/day each
+          spells:
+             - name: entangle
+               slug_name: entangle
+             - name: phantasmal force
+               slug_name: phantasmal-force
+        - title: 2/day each
+          spells:
+             - name: disguise self
+               slug_name: disguise-self
+             - name: invisibility (self only)
+               slug_name: invisibility

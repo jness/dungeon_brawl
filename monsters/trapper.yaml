@@ -1,54 +1,35 @@
-name: "Trapper"
-slug_name: "trapper"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "85"
-hit_dice: "10d10+30"
-speed: "10 ft., climb 10 ft."
-
-strength: "17"
-strength_modifier: "+3"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "4"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: "Stealth +2"
-senses: "blindsight 30 ft., darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Trapper
+slug_name: trapper
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 85
+hit_dice: 10d10+30
+speed: 10 ft., climb 10 ft.
+strength: 17
+dexterity: 10
+constitution: 17
+intelligence: 2
+wisdom: 13
+charisma: 4
+saving_throws:
+skills: Stealth +2
+senses: blindsight 30 ft., darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Fake Appearance"
-    description: |
-      While the trapper is attached to a ceiling, floor, or wall and remains motionless, it is almost indistinguishable from an ordinary section of ceiling, floor, or wall. A creature that can see it and succeeds on a DC 20 Intelligence (investigation) or Intelligence (Nature) check can discern its presence.
-
-  - name: "Spider Climb"
-    description: |
-      The trapper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
+   - name: Fake Appearance
+     description: While the trapper is attached to a ceiling, floor, or wall and remains motionless, it is almost indistinguishable from an ordinary section of ceiling, floor, or wall. A creature that can see it and succeeds on a DC 20 Intelligence (investigation) or Intelligence (Nature) check can discern its presence.
+   - name: Spider Climb
+     description: The trapper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 actions:
-  - name: "Smother"
-    description: |
-      One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.
+   - name: Smother
+     description: One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.

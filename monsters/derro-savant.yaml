@@ -1,114 +1,76 @@
-name: "Derro Savant"
-slug_name: "derro-savant"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "derro"
-alignment: "chaotic evil"
-
-armor_class: "13"
-armor_class_type: "leather armor"
-hit_points: "49"
-hit_dice: "11d6+11"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "5"
-wisdom_modifier: "-3"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Stealth +4"
-senses: "darkvision 120 ft."
-languages: "Dwarvish, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Derro Savant
+slug_name: derro-savant
+challenge_rating: 3.0
+experience: 700
+size: Small
+type: humanoid
+subtype: derro
+alignment: chaotic evil
+armor_class: 13
+armor_class_type: leather armor
+hit_points: 49
+hit_dice: 11d6+11
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 12
+intelligence: 11
+wisdom: 5
+charisma: 14
+saving_throws:
+skills: Stealth +4
+senses: darkvision 120 ft.
+languages: Dwarvish, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Insanity"
-    description: |
-      The derro has advantage on saving throws against being charmed or frightened.
-
-  - name: "Magic Resistance"
-    description: |
-      The derro has advantage on saving throws against spells and other magical effects.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Insanity
+     description: The derro has advantage on saving throws against being charmed or frightened.
+   - name: Magic Resistance
+     description: The derro has advantage on saving throws against spells and other magical effects.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the derro has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Hooked Shortspear"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.
-
-  - name: "Light Repeating Crossbow"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.
-
+   - name: Hooked Shortspear
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone.'
+   - name: Light Repeating Crossbow
+     description: 'Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 6 (1d8+2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " burning hands"
-          slug_name: "burning-hands"
-
-        - name: "chromatic orb"
-          slug_name: "chromatic-orb"
-
-        - name: "sleep"
-          slug_name: "sleep"
-
-
-      - "2nd level (3 slots)":
-        - name: " invisibility"
-          slug_name: "invisibility"
-
-        - name: "spider climb"
-          slug_name: "spider-climb"
-
-
-      - "3rd level (2 slots)":
-        - name: " blink"
-          slug_name: "blink"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
+   - title: Spellcasting
+     top_description: "The derro is a 5th-level spellcaster. It's spellcasting ability is Charisma (save DC 12, +4 to hit with spell attacks). The derro knows the following sorcerer spells:"
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: burning hands
+               slug_name: burning-hands
+             - name: chromatic orb
+               slug_name: chromatic-orb
+             - name: sleep
+               slug_name: sleep
+        - title: 2nd level (3 slots)
+          spells:
+             - name: invisibility
+               slug_name: invisibility
+             - name: spider climb
+               slug_name: spider-climb
+        - title: 3rd level (2 slots)
+          spells:
+             - name: blink
+               slug_name: blink
+             - name: lightning bolt
+               slug_name: lightning-bolt

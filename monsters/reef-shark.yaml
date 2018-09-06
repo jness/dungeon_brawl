@@ -1,54 +1,35 @@
-name: "Reef Shark"
-slug_name: "reef-shark"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "22"
-hit_dice: "4d8+4"
-speed: "swim 40 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "1"
-intelligence_modifier: "-5"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "4"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: "Perception +2"
-senses: "blindsight 30 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Reef Shark
+slug_name: reef-shark
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 22
+hit_dice: 4d8+4
+speed: swim 40 ft.
+strength: 14
+dexterity: 13
+constitution: 13
+intelligence: 1
+wisdom: 10
+charisma: 4
+saving_throws:
+skills: Perception +2
+senses: blindsight 30 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Pack Tactics"
-    description: |
-      The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated.
-
-  - name: "Water Breathing"
-    description: |
-      The shark can breathe only underwater.
-
+   - name: Pack Tactics
+     description: The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+   - name: Water Breathing
+     description: The shark can breathe only underwater.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.'

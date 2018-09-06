@@ -1,54 +1,35 @@
-name: "Green Dragon Wyrmling"
-slug_name: "green-dragon-wyrmling"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "dragon"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "38"
-hit_dice: "7d8+7"
-speed: "30 ft., fly 60 ft., swim 30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: "Dex +3, Con +3, Wis +2, Cha +3"
-skills: "Perception +4, Stealth +3"
-senses: "blindsight 10 ft., darkvision 60 ft."
-languages: "Draconic"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Green Dragon Wyrmling
+slug_name: green-dragon-wyrmling
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: dragon
+subtype:
+alignment: lawful evil
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 38
+hit_dice: 7d8+7
+speed: 30 ft., fly 60 ft., swim 30 ft.
+strength: 15
+dexterity: 12
+constitution: 13
+intelligence: 14
+wisdom: 11
+charisma: 13
+saving_throws: Dex +3, Con +3, Wis +2, Cha +3
+skills: Perception +4, Stealth +3
+senses: blindsight 10 ft., darkvision 60 ft.
+languages: Draconic
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The dragon can breathe air and water.
-
+   - name: Amphibious
+     description: The dragon can breathe air and water.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 3 (1d6) poison damage.
-
-  - name: "Poison Breath (Recharge 5-6)"
-    description: |
-      The dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 3 (1d6) poison damage.'
+   - name: Poison Breath (Recharge 5-6)
+     description: The dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.

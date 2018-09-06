@@ -1,66 +1,41 @@
-name: "Greater Zombie"
-slug_name: "greater-zombie"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "97"
-hit_dice: "13d8+39"
-speed: "30 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "4"
-intelligence_modifier: "-3"
-wisdom: "6"
-wisdom_modifier: "-2"
-charisma: "6"
-charisma_modifier: "-2"
-
-saving_throws: "Wis + 1"
-skills: null
-senses: "darkvision 60 ft."
-languages: "understands the languages it knew in life but can't speak"
-
-damage_resistances: "cold, necrotic"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, frightened, paralyzed, poisoned"
-
+name: Greater Zombie
+slug_name: greater-zombie
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 97
+hit_dice: 13d8+39
+speed: 30 ft.
+strength: 18
+dexterity: 10
+constitution: 17
+intelligence: 4
+wisdom: 6
+charisma: 6
+saving_throws: Wis + 1
+skills:
+senses: darkvision 60 ft.
+languages: understands the languages it knew in life but can't speak
+damage_resistances: cold, necrotic
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, frightened, paralyzed, poisoned
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 237
-
-  - name: "Undead Nature"
-    description: |
-      A zombie doesn't require air, food, drink, or sleep.
-
-  - name: "Turn Resistance"
-    description: |
-      The zombie has advantage on saving throws against any effect that turns undead.
-
-  - name: "Undead Fortitude"
-    description: |
-      If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
-
+   - name: Source
+     description: tales from the yawning portal,  page 237
+   - name: Undead Nature
+     description: A zombie doesn't require air, food, drink, or sleep.
+   - name: Turn Resistance
+     description: The zombie has advantage on saving throws against any effect that turns undead.
+   - name: Undead Fortitude
+     description: If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 actions:
-  - name: "Multiattack"
-    description: |
-      The zombie makes two melee attacks.
-
-  - name: "Empowered Slam"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.
+   - name: Multiattack
+     description: The zombie makes two melee attacks.
+   - name: Empowered Slam
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage and 7 (2d6) necrotic damage.'

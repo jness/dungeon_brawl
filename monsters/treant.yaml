@@ -1,66 +1,41 @@
-name: "Treant"
-slug_name: "treant"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Huge"
-type: "plant"
-subtype: null
-alignment: "chaotic good"
-
-armor_class: "16"
-armor_class_type: "natural armor"
-hit_points: "138"
-hit_dice: "12d12+60"
-speed: "30 ft."
-
-strength: "23"
-strength_modifier: "+6"
-dexterity: "8"
-dexterity_modifier: "-1"
-constitution: "21"
-constitution_modifier: "+5"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: null
-senses: null
-languages: "Common, Druidic, Elvish, Sylvan"
-
-damage_resistances: "bludgeoning, piercing"
-damage_immunities: null
-damage_vulnerabilities: "fire"
-condition_immunities: null
-
+name: Treant
+slug_name: treant
+challenge_rating: 9.0
+experience: 5000
+size: Huge
+type: plant
+subtype:
+alignment: chaotic good
+armor_class: 16
+armor_class_type: natural armor
+hit_points: 138
+hit_dice: 12d12+60
+speed: 30 ft.
+strength: 23
+dexterity: 8
+constitution: 21
+intelligence: 12
+wisdom: 16
+charisma: 12
+saving_throws:
+skills:
+senses:
+languages: Common, Druidic, Elvish, Sylvan
+damage_resistances: bludgeoning, piercing
+damage_immunities:
+damage_vulnerabilities: fire
+condition_immunities:
 special_abilities:
-  - name: "False Appearance"
-    description: |
-      While the treant remains motionless, it is indistinguishable from a normal tree.
-
-  - name: "Siege Monster"
-    description: |
-      The treant deals double damage to objects and structures.
-
+   - name: False Appearance
+     description: While the treant remains motionless, it is indistinguishable from a normal tree.
+   - name: Siege Monster
+     description: The treant deals double damage to objects and structures.
 actions:
-  - name: "Multiattack"
-    description: |
-      The treant makes two slam attacks.
-
-  - name: "Slam"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.
-
-  - name: "Rock"
-    description: |
-      Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.
-
-  - name: "Animate Trees (1/Day)"
-    description: |
-      The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.
+   - name: Multiattack
+     description: The treant makes two slam attacks.
+   - name: Slam
+     description: 'Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.'
+   - name: Rock
+     description: 'Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.'
+   - name: Animate Trees (1/Day)
+     description: The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.

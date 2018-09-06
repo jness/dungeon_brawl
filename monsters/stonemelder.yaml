@@ -1,107 +1,74 @@
-name: "Stonemelder"
-slug_name: "stonemelder"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: "splint"
-hit_points: "75"
-hit_dice: "10d8+30"
-speed: "30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "17"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Intimidation +5, Perception +2"
-senses: "tremorsense 30 ft."
-languages: "Common, Terran"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Stonemelder
+slug_name: stonemelder
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 17
+armor_class_type: splint
+hit_points: 75
+hit_dice: 10d8+30
+speed: 30 ft.
+strength: 15
+dexterity: 10
+constitution: 16
+intelligence: 12
+wisdom: 11
+charisma: 17
+saving_throws:
+skills: Intimidation +5, Perception +2
+senses: tremorsense 30 ft.
+languages: Common, Terran
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Death Burst"
-    description: |
-      When the Stonemelder dies, it turns to stone and explodes in a burst of rock shards, becoming a smoking pile of rubble. Each creature within 10 feet of the exploding Stonemelder must make a DC 14 Dexterity saving throw, taking 11 (2d10) bludgeoning damage on a failed save, or half as much damage on a successful one.
-
+   - name: Death Burst
+     description: When the Stonemelder dies, it turns to stone and explodes in a burst of rock shards, becoming a smoking pile of rubble. Each creature within 10 feet of the exploding Stonemelder must make a DC 14 Dexterity saving throw, taking 11 (2d10) bludgeoning damage on a failed save, or half as much damage on a successful one.
 actions:
-  - name: "Black Earth Rod"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. The Stonemelder can also expend a spell slot to deal extra damage, dealing 2d8 bludgeoning damage for a 1st level slot, plus an additional 1d8 for each level of the slot above 1st.
-
+   - name: Black Earth Rod
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. The Stonemelder can also expend a spell slot to deal extra damage, dealing 2d8 bludgeoning damage for a 1st level slot, plus an additional 1d8 for each level of the slot above 1st.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The Stonemelder is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "blade ward"
-          slug_name: "blade-ward"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "mold earth"
-          slug_name: "mold-earth"
-
-
-      - "1st level (4 slots)":
-        - name: " expeditious retreat"
-          slug_name: "expeditious-retreat"
-
-        - name: "false life"
-          slug_name: "false-life"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " Maximilian's earthen grasp"
-          slug_name: "maximilian"
-
-        - name: "shatter"
-          slug_name: "shatter"
-
-
-      - "3rd level (3 slots)":
-        - name: " erupting earth"
-          slug_name: "erupting-earth"
-
-        - name: "meld into stone"
-          slug_name: "meld-into-stone"
-
-
-      - "4th level (1 slot)":
-        - name: " stoneskin"
-          slug_name: "stoneskin"
+   - title: Spellcasting
+     top_description: 'The Stonemelder is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: blade ward
+               slug_name: blade-ward
+             - name: light
+               slug_name: light
+             - name: mending
+               slug_name: mending
+             - name: mold earth
+               slug_name: mold-earth
+        - title: 1st level (4 slots)
+          spells:
+             - name: expeditious retreat
+               slug_name: expeditious-retreat
+             - name: false life
+               slug_name: false-life
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: Maximilian's earthen grasp
+               slug_name: maximilian
+             - name: shatter
+               slug_name: shatter
+        - title: 3rd level (3 slots)
+          spells:
+             - name: erupting earth
+               slug_name: erupting-earth
+             - name: meld into stone
+               slug_name: meld-into-stone
+        - title: 4th level (1 slot)
+          spells:
+             - name: stoneskin
+               slug_name: stoneskin

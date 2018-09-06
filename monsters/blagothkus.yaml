@@ -1,120 +1,82 @@
-name: "Blagothkus"
-slug_name: "blagothkus"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Huge"
-type: "giant"
-subtype: "cloud giant"
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: "splint"
-hit_points: "138"
-hit_dice: "12d12+60"
-speed: "40 ft."
-
-strength: "26"
-strength_modifier: "+8"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "20"
-constitution_modifier: "+5"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: "Con +9, Wis +6, Cha +6"
-skills: "Arcana +7, Insight +6, Intimidation +6, Perception +6"
-senses: null
-languages: "Common, Draconic, Giant"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Blagothkus
+slug_name: blagothkus
+challenge_rating: 9.0
+experience: 5000
+size: Huge
+type: giant
+subtype: cloud giant
+alignment: neutral evil
+armor_class: 17
+armor_class_type: splint
+hit_points: 138
+hit_dice: 12d12+60
+speed: 40 ft.
+strength: 26
+dexterity: 13
+constitution: 20
+intelligence: 16
+wisdom: 15
+charisma: 15
+saving_throws: Con +9, Wis +6, Cha +6
+skills: Arcana +7, Insight +6, Intimidation +6, Perception +6
+senses:
+languages: Common, Draconic, Giant
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Smell"
-    description: |
-      Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.
-
+   - name: Keen Smell
+     description: Blagothkus has advantage on Wisdom (Perception) checks that rely on smell.
 actions:
-  - name: "Multiattack"
-    description: |
-      Blagothkus attacks twice with his morningstar.
-
-  - name: "Morningstar"
-    description: |
-      Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.
-
+   - name: Multiattack
+     description: Blagothkus attacks twice with his morningstar.
+   - name: Morningstar
+     description: 'Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components:
-
-    spells:
-
-      - "* 3/day each":
-        - name: " fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "levitate"
-          slug_name: "levitate"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "identify"
-          slug_name: "identify"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " gust of wind"
-          slug_name: "gust-of-wind"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "shatter"
-          slug_name: "shatter"
-
-
-      - "3rd level (2 slots)":
-        - name: " fly"
-          slug_name: "fly"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
+   - title: Innate Spellcasting
+     top_description: 'Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components:'
+     bottom_description: ''
+     spell_list:
+        - title: '* 3/day each'
+          spells:
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: levitate
+               slug_name: levitate
+   - title: Spellcasting
+     top_description: 'Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: identify
+               slug_name: identify
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: gust of wind
+               slug_name: gust-of-wind
+             - name: misty step
+               slug_name: misty-step
+             - name: shatter
+               slug_name: shatter
+        - title: 3rd level (2 slots)
+          spells:
+             - name: fly
+               slug_name: fly
+             - name: lightning bolt
+               slug_name: lightning-bolt

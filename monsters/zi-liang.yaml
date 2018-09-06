@@ -1,68 +1,39 @@
-name: "Zi Liang"
-slug_name: "zi-liang"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "shou human"
-alignment: "chaotic good"
-
-armor_class: "15"
-armor_class_type: null
-hit_points: "22"
-hit_dice: "5d8"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Acrobatics +4, Athletics +3, Perception +5, Stealth +4"
-senses: null
-languages: "Common, Elvish, Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Zi Liang
+slug_name: zi-liang
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: humanoid
+subtype: shou human
+alignment: chaotic good
+armor_class: 15
+armor_class_type:
+hit_points: 22
+hit_dice: 5d8
+speed: 30 ft.
+strength: 12
+dexterity: 15
+constitution: 11
+intelligence: 14
+wisdom: 16
+charisma: 11
+saving_throws:
+skills: Acrobatics +4, Athletics +3, Perception +5, Stealth +4
+senses:
+languages: Common, Elvish, Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Unarmored Defense"
-    description: |
-      While Zi is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.
-
-  - name: "Roleplaying Information"
-    description: |
-      Zi Liang is a devout worshiper of Chauntea, the Earth Mother. She has considerably less faith in Goldenfields' defenders, so she patrols the temple-farm during her off-duty hours.
-
-      Ideal: "If we faithfully tend to our gardens and our fields, Chauntea will smile upon us."
-
-      Bond: "Goldenfields is the breadbasket of the North. People depend on its safety and prosperity, and I'll do what must be done to protect it."
-
-      Flaw: "I don't trust authority. I do what my heart says is right."
-
+   - name: Unarmored Defense
+     description: While Zi is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.
+   - name: Roleplaying Information
+     description: "Zi Liang is a devout worshiper of Chauntea, the Earth Mother. She has considerably less faith in Goldenfields' defenders, so she patrols the temple-farm during her off-duty hours.\n\nIdeal: \"If we faithfully tend to our gardens and our fields, Chauntea will smile upon us.\"\n\nBond: \"Goldenfields is the breadbasket of the North. People depend on its safety and prosperity, and I'll do what must be done to protect it.\"\n\nFlaw: \"I don't trust authority. I do what my heart says is right.\""
 actions:
-  - name: "Multiattack"
-    description: |
-      Zi makes two melee attacks.
-
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with both hands.
-
-  - name: "Sling"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage. Zi carries twenty sling stones.
+   - name: Multiattack
+     description: Zi makes two melee attacks.
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage, or 5 (1d8+1) bludgeoning damage if used with both hands.'
+   - name: Sling
+     description: 'Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage. Zi carries twenty sling stones.'

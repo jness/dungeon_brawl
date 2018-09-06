@@ -1,44 +1,30 @@
-name: "Drow Spore Servant"
-slug_name: "drow-spore-servant"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Medium"
-type: "plant"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "15"
-armor_class_type: "chain shirt"
-hit_points: "13"
-hit_dice: "3d8"
-speed: "20 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "6"
-wisdom_modifier: "-2"
-charisma: "1"
-charisma_modifier: "-5"
-
-saving_throws: null
-skills: null
-senses: "blindsight 30 ft. (blind beyond this radius)"
-languages: "-"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "blinded, charmed, frightened, paralyzed"
+name: Drow Spore Servant
+slug_name: drow-spore-servant
+challenge_rating: 0.125
+experience: 25
+size: Medium
+type: plant
+subtype:
+alignment: unaligned
+armor_class: 15
+armor_class_type: chain shirt
+hit_points: 13
+hit_dice: 3d8
+speed: 20 ft.
+strength: 10
+dexterity: 14
+constitution: 10
+intelligence: 2
+wisdom: 6
+charisma: 1
+saving_throws:
+skills:
+senses: blindsight 30 ft. (blind beyond this radius)
+languages: '-'
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: blinded, charmed, frightened, paralyzed
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.'

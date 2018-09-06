@@ -1,131 +1,90 @@
-name: "Evoker"
-slug_name: "evoker"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "66"
-hit_dice: "12d8+12"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "17"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +7, Wis +5"
-skills: "Arcana +7, History +7"
-senses: null
-languages: "any four languages"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Evoker
+slug_name: evoker
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 66
+hit_dice: 12d8+12
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 12
+intelligence: 17
+wisdom: 12
+charisma: 11
+saving_throws: Int +7, Wis +5
+skills: Arcana +7, History +7
+senses:
+languages: any four languages
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Sculpt Spells"
-    description: |
-      When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.
-
+   - name: Sculpt Spells
+     description: When the evoker casts an evocation spell that forces other creatures it can see to make a saving throw, it can choose a number of them equal to 1+the spell's level. These creatures automatically succeed on their saving throws against the spell. If a successful save means a chosen creature would take half damage from the spell, it instead takes no damage from it.
 actions:
-  - name: "Quarterstaff"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.
-
+   - name: Quarterstaff
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:
-
-    bottom_description: |
-      *Evocation spell
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt*"
-          slug_name: "fire-bolt"
-
-        - name: "light*"
-          slug_name: "light"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost*"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (4 slots)":
-        - name: " burning hands*"
-          slug_name: "burning-hands"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile*"
-          slug_name: "magic-missile"
-
-
-      - "2nd level (3 slots)":
-        - name: " mirror image"
-          slug_name: "mirror-image"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "shatter*"
-          slug_name: "shatter"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "fireball*"
-          slug_name: "fireball"
-
-        - name: "lightning bolt*"
-          slug_name: "lightning-bolt"
-
-
-      - "4th level (3 slots)":
-        - name: " ice storm*"
-          slug_name: "ice-storm"
-
-        - name: "stoneskin"
-          slug_name: "stoneskin"
-
-
-      - "5th level (2 slots)":
-        - name: " Bigby's hand*"
-          slug_name: "bigby"
-
-        - name: "cone of cold*"
-          slug_name: "cone-of-cold"
-
-
-      - "6th level (1 slot)":
-        - name: " chain lightning*"
-          slug_name: "chain-lightning"
-
-        - name: "wall of ice*"
-          slug_name: "wall-of-ice"
+   - title: Spellcasting
+     top_description: 'The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:'
+     bottom_description: '*Evocation spell'
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt*
+               slug_name: fire-bolt
+             - name: light*
+               slug_name: light
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost*
+               slug_name: ray-of-frost
+        - title: 1st level (4 slots)
+          spells:
+             - name: burning hands*
+               slug_name: burning-hands
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile*
+               slug_name: magic-missile
+        - title: 2nd level (3 slots)
+          spells:
+             - name: mirror image
+               slug_name: mirror-image
+             - name: misty step
+               slug_name: misty-step
+             - name: shatter*
+               slug_name: shatter
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: fireball*
+               slug_name: fireball
+             - name: lightning bolt*
+               slug_name: lightning-bolt
+        - title: 4th level (3 slots)
+          spells:
+             - name: ice storm*
+               slug_name: ice-storm
+             - name: stoneskin
+               slug_name: stoneskin
+        - title: 5th level (2 slots)
+          spells:
+             - name: Bigby's hand*
+               slug_name: bigby
+             - name: cone of cold*
+               slug_name: cone-of-cold
+        - title: 6th level (1 slot)
+          spells:
+             - name: chain lightning*
+               slug_name: chain-lightning
+             - name: wall of ice*
+               slug_name: wall-of-ice

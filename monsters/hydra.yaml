@@ -1,70 +1,41 @@
-name: "Hydra"
-slug_name: "hydra"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Huge"
-type: "monstrosity"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "172"
-hit_dice: "15d12+75"
-speed: "30 ft., swim 30 ft."
-
-strength: "20"
-strength_modifier: "+5"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "20"
-constitution_modifier: "+5"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +6"
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Hydra
+slug_name: hydra
+challenge_rating: 8.0
+experience: 3900
+size: Huge
+type: monstrosity
+subtype:
+alignment: unaligned
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 172
+hit_dice: 15d12+75
+speed: 30 ft., swim 30 ft.
+strength: 20
+dexterity: 12
+constitution: 20
+intelligence: 2
+wisdom: 10
+charisma: 7
+saving_throws:
+skills: Perception +6
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Hold Breath"
-    description: |
-      The hydra can hold its breath for 1 hour.
-
-  - name: "Multiple Heads"
-    description: |
-      The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
-
-      Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.
-
-      At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way.
-
-  - name: "Reactive Heads"
-    description: |
-      For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
-
-  - name: "Wakeful"
-    description: |
-      While the hydra sleeps, at least one of its heads is awake.
-
+   - name: Hold Breath
+     description: The hydra can hold its breath for 1 hour.
+   - name: Multiple Heads
+     description: "The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\n\nWhenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.\n\nAt the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+   - name: Reactive Heads
+     description: For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+   - name: Wakeful
+     description: While the hydra sleeps, at least one of its heads is awake.
 actions:
-  - name: "Multiattack"
-    description: |
-      The hydra makes as many bite attacks as it has heads.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.
+   - name: Multiattack
+     description: The hydra makes as many bite attacks as it has heads.
+   - name: Bite
+     description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.'

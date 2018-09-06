@@ -1,147 +1,100 @@
-name: "Warlock of the Great Old One"
-slug_name: "warlock-of-the-great-old-one"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "91"
-hit_dice: "14d8+28"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Wis +4, Cha +7"
-skills: "Arcana +4, History +4"
-senses: "darkvision 60 ft."
-languages: "any two languages, telepathy 30 ft."
-
-damage_resistances: "psychic"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Warlock of the Great Old One
+slug_name: warlock-of-the-great-old-one
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 91
+hit_dice: 14d8+28
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 15
+intelligence: 12
+wisdom: 12
+charisma: 18
+saving_throws: Wis +4, Cha +7
+skills: Arcana +4, History +4
+senses: darkvision 60 ft.
+languages: any two languages, telepathy 30 ft.
+damage_resistances: psychic
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Whispering Aura"
-    description: |
-      At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn't incapacitated.
-
+   - name: Whispering Aura
+     description: At the start of each of the warlock's turns, each creature of its choice within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage, provided that the warlock isn't incapacitated.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "jump"
-          slug_name: "jump"
-
-        - name: "levitate"
-          slug_name: "levitate"
-
-        - name: "mage armor (self only)"
-          slug_name: "mage-armor"
-
-        - name: "speak with dead"
-          slug_name: "speak-with-dead"
-
-
-      - "1/day each":
-        - name: " arcane gate"
-          slug_name: "arcane-gate"
-
-        - name: "true seeing"
-          slug_name: "true-seeing"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "eldritch blast"
-          slug_name: "eldritch-blast"
-
-        - name: "guidance"
-          slug_name: "guidance"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st-5th level (3 5th-level slots)":
-        - name: " armor of Agathys"
-          slug_name: "armor-of-agathys"
-
-        - name: "arms of Hadar"
-          slug_name: "arms-of-hadar"
-
-        - name: "crown of madness"
-          slug_name: "crown-of-madness"
-
-        - name: "clairvoyance"
-          slug_name: "clairvoyance"
-
-        - name: "contact other plane"
-          slug_name: "contact-other-plane"
-
-        - name: "detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-        - name: "dissonant whispers"
-          slug_name: "dissonant-whispers"
-
-        - name: "dominate beast"
-          slug_name: "dominate-beast"
-
-        - name: "telekinesis"
-          slug_name: "telekinesis"
-
-        - name: "vampiric touch"
-          slug_name: "vampiric-touch"
+   - title: Innate Spellcasting
+     top_description: "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: jump
+               slug_name: jump
+             - name: levitate
+               slug_name: levitate
+             - name: mage armor (self only)
+               slug_name: mage-armor
+             - name: speak with dead
+               slug_name: speak-with-dead
+        - title: 1/day each
+          spells:
+             - name: arcane gate
+               slug_name: arcane-gate
+             - name: true seeing
+               slug_name: true-seeing
+   - title: Spellcasting
+     top_description: 'The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: eldritch blast
+               slug_name: eldritch-blast
+             - name: guidance
+               slug_name: guidance
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st-5th level (3 5th-level slots)
+          spells:
+             - name: armor of Agathys
+               slug_name: armor-of-agathys
+             - name: arms of Hadar
+               slug_name: arms-of-hadar
+             - name: crown of madness
+               slug_name: crown-of-madness
+             - name: clairvoyance
+               slug_name: clairvoyance
+             - name: contact other plane
+               slug_name: contact-other-plane
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: dimension door
+               slug_name: dimension-door
+             - name: dissonant whispers
+               slug_name: dissonant-whispers
+             - name: dominate beast
+               slug_name: dominate-beast
+             - name: telekinesis
+               slug_name: telekinesis
+             - name: vampiric touch
+               slug_name: vampiric-touch

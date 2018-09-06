@@ -1,48 +1,32 @@
-name: "Ghoul"
-slug_name: "ghoul"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "22"
-hit_dice: "5d8"
-speed: "30 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "6"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
+name: Ghoul
+slug_name: ghoul
+challenge_rating: 1.0
+experience: 200
+size: Medium
+type: undead
+subtype:
+alignment: chaotic evil
+armor_class: 12
+armor_class_type:
+hit_points: 22
+hit_dice: 5d8
+speed: 30 ft.
+strength: 13
+dexterity: 15
+constitution: 10
+intelligence: 7
+wisdom: 10
+charisma: 6
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: poisoned
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.
-
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+   - name: Bite
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.'
+   - name: Claws
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'

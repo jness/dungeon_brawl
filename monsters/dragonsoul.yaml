@@ -1,70 +1,43 @@
-name: "Dragonsoul"
-slug_name: "dragonsoul"
-
-challenge_rating: "7"
-challenge_rating_decimal: "7.0"
-experience: "2,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "16"
-armor_class_type: "studded leather"
-hit_points: "110"
-hit_dice: "17d8+34"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: "Wis +4"
-skills: "Deception +6, Stealth +7"
-senses: null
-languages: "Common, Draconic, Infernal"
-
-damage_resistances: "one of the following: acid, cold, fire, lightning or poison"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Dragonsoul
+slug_name: dragonsoul
+challenge_rating: 7.0
+experience: 2900
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 16
+armor_class_type: studded leather
+hit_points: 110
+hit_dice: 17d8+34
+speed: 30 ft.
+strength: 11
+dexterity: 18
+constitution: 14
+intelligence: 13
+wisdom: 12
+charisma: 16
+saving_throws: Wis +4
+skills: Deception +6, Stealth +7
+senses:
+languages: Common, Draconic, Infernal
+damage_resistances: 'one of the following: acid, cold, fire, lightning or poison'
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Dragon Fanatic"
-    description: |
-      The dragonsoul has advantage on saving throws against being charmed or frightened. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being charmed or frightened.
-
-  - name: "Fanatic Advantage"
-    description: |
-      Once per turn, if the dragonsoul makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage.
-
-  - name: "Limited Flight"
-    description: |
-      The dragonsoul can use a bonus action to gain a flying speed of 30 feet until the end of its turn.
-
-  - name: "Pack Tactics"
-    description: |
-      The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated.
-
+   - name: Dragon Fanatic
+     description: The dragonsoul has advantage on saving throws against being charmed or frightened. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being charmed or frightened.
+   - name: Fanatic Advantage
+     description: Once per turn, if the dragonsoul makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage.
+   - name: Limited Flight
+     description: The dragonsoul can use a bonus action to gain a flying speed of 30 feet until the end of its turn.
+   - name: Pack Tactics
+     description: The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated.
 actions:
-  - name: "Multiattack"
-    description: |
-      The Dragonsoul attacks twice with its shortsword.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance.
-
-  - name: "Orb of Dragon's Breath (3/Day)"
-    description: |
-      Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.
+   - name: Multiattack
+     description: The Dragonsoul attacks twice with its shortsword.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance.'
+   - name: Orb of Dragon's Breath (3/Day)
+     description: 'Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.'

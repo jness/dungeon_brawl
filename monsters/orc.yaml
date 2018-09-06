@@ -1,54 +1,35 @@
-name: "Orc"
-slug_name: "orc"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "orc"
-alignment: "chaotic evil"
-
-armor_class: "13"
-armor_class_type: "hide armor"
-hit_points: "15"
-hit_dice: "2d8+6"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "10"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Intimidation +2"
-senses: "darkvision 60 ft."
-languages: "Common, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Orc
+slug_name: orc
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: humanoid
+subtype: orc
+alignment: chaotic evil
+armor_class: 13
+armor_class_type: hide armor
+hit_points: 15
+hit_dice: 2d8+6
+speed: 30 ft.
+strength: 16
+dexterity: 12
+constitution: 16
+intelligence: 7
+wisdom: 11
+charisma: 10
+saving_throws:
+skills: Intimidation +2
+senses: darkvision 60 ft.
+languages: Common, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Aggressive"
-    description: |
-      As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
+   - name: Aggressive
+     description: As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
 actions:
-  - name: "Greataxe"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.
-
-  - name: "Javelin"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
+   - name: Greataxe
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.'
+   - name: Javelin
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.'

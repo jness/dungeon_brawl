@@ -1,85 +1,56 @@
-name: "Swarm of Cranium Rats"
-slug_name: "swarm-of-cranium-rats"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "swarm"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "36"
-hit_dice: "8d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "15"
-intelligence_modifier: "+2"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: null
-senses: "darkvision 30 ft."
-languages: "telepathy 30 ft."
-
-damage_resistances: "bludgeoning, piercing, slashing"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
-
+name: Swarm of Cranium Rats
+slug_name: swarm-of-cranium-rats
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: swarm
+subtype:
+alignment: lawful evil
+armor_class: 12
+armor_class_type:
+hit_points: 36
+hit_dice: 8d8
+speed: 30 ft.
+strength: 9
+dexterity: 14
+constitution: 10
+intelligence: 15
+wisdom: 11
+charisma: 14
+saving_throws:
+skills:
+senses: darkvision 30 ft.
+languages: telepathy 30 ft.
+damage_resistances: bludgeoning, piercing, slashing
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
 special_abilities:
-  - name: "Illumination"
-    description: |
-      As a bonus action, the swarm can shed dim light from its brains in a 5-foot radius, increase the illumination to bright light in a 5- to 20-foot radius (and dim light for an additional number of feet equal to the chosen radius), or extinguish the light.
-
-  - name: "Swarm"
-    description: |
-      The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.
-
-  - name: "Telepathic Shroud"
-    description: |
-      The swarm is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
-
+   - name: Illumination
+     description: As a bonus action, the swarm can shed dim light from its brains in a 5-foot radius, increase the illumination to bright light in a 5- to 20-foot radius (and dim light for an additional number of feet equal to the chosen radius), or extinguish the light.
+   - name: Swarm
+     description: The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.
+   - name: Telepathic Shroud
+     description: The swarm is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
 actions:
-  - name: "Bites"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.
-
+   - name: Bites
+     description: "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer."
 spell_casting:
-
-  - title: "Innate Spellcasting (Psionics)"
-
-    top_description: |
-      The swarm's innate spellcasting ability is Intelligence (spell save DC 13). As long as it has more than half of its hit points, it can innately cast the following spells, requiring no components::
-
-    spells:
-
-      - "* At will":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "comprehend languages"
-          slug_name: "comprehend-languages"
-
-        - name: "detect thoughts"
-          slug_name: "detect-thoughts"
-
-
-      - "* 1/day each":
-        - name: " confusion"
-          slug_name: "confusion"
-
-        - name: "dominate monster"
-          slug_name: "dominate-monster"
+   - title: Innate Spellcasting (Psionics)
+     top_description: "The swarm's innate spellcasting ability is Intelligence (spell save DC 13). As long as it has more than half of its hit points, it can innately cast the following spells, requiring no components::"
+     bottom_description: ''
+     spell_list:
+        - title: '* At will'
+          spells:
+             - name: command
+               slug_name: command
+             - name: comprehend languages
+               slug_name: comprehend-languages
+             - name: detect thoughts
+               slug_name: detect-thoughts
+        - title: '* 1/day each'
+          spells:
+             - name: confusion
+               slug_name: confusion
+             - name: dominate monster
+               slug_name: dominate-monster

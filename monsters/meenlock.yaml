@@ -1,58 +1,37 @@
-name: "Meenlock"
-slug_name: "meenlock"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Small"
-type: "fey"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "31"
-hit_dice: "7d6+7"
-speed: "30 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +4, Stealth +6, Survival +2"
-senses: "darkvision 120 ft."
-languages: "telepathy 120 ft."
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "frightened"
-
+name: Meenlock
+slug_name: meenlock
+challenge_rating: 2.0
+experience: 450
+size: Small
+type: fey
+subtype:
+alignment: neutral evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 31
+hit_dice: 7d6+7
+speed: 30 ft.
+strength: 7
+dexterity: 15
+constitution: 12
+intelligence: 11
+wisdom: 10
+charisma: 8
+saving_throws:
+skills: Perception +4, Stealth +6, Survival +2
+senses: darkvision 120 ft.
+languages: telepathy 120 ft.
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: frightened
 special_abilities:
-  - name: "Fear Aura"
-    description: |
-      Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature's next turn.
-
-  - name: "Light Sensitivity"
-    description: |
-      While in bright light, the meenlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
-  - name: "Shadow Teleport (Recharge 5-6)"
-    description: |
-      As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight.
-
+   - name: Fear Aura
+     description: Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature's next turn.
+   - name: Light Sensitivity
+     description: While in bright light, the meenlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+   - name: Shadow Teleport (Recharge 5-6)
+     description: As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight.
 actions:
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+   - name: Claws
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'

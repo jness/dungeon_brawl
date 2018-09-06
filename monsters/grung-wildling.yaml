@@ -1,99 +1,62 @@
-name: "Grung Wildling"
-slug_name: "grung-wildling"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "grung"
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "16 with barkskin"
-hit_points: "27"
-hit_dice: "5d6+10"
-speed: "25 ft., climb 25 ft."
-
-strength: "7"
-strength_modifier: "-2"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Dex +5"
-skills: "Athletics +2, Perception +4, Stealth +5, Survival +4"
-senses: null
-languages: "Grung"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Grung Wildling
+slug_name: grung-wildling
+challenge_rating: 1.0
+experience: 200
+size: Small
+type: humanoid
+subtype: grung
+alignment: lawful evil
+armor_class: 13
+armor_class_type: 16 with barkskin
+hit_points: 27
+hit_dice: 5d6+10
+speed: 25 ft., climb 25 ft.
+strength: 7
+dexterity: 16
+constitution: 15
+intelligence: 10
+wisdom: 15
+charisma: 11
+saving_throws: Dex +5
+skills: Athletics +2, Perception +4, Stealth +5, Survival +4
+senses:
+languages: Grung
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The grung can breathe air and water.
-
-  - name: "Poisonous Skin"
-    description: |
-      Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-  - name: "Standing Leap"
-    description: |
-      The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.
-
-  - name: "Variant: Grung Poison"
-    description: |
-      Grung poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.
-
-      A creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.
-
-      Red. The poisoned creature must use its action to eat if food is within reach.
-
+   - name: Amphibious
+     description: The grung can breathe air and water.
+   - name: Poisonous Skin
+     description: Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+   - name: Standing Leap
+     description: The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.
+   - name: 'Variant: Grung Poison'
+     description: "Grung poison loses its potency 1 minute after being removed from a grung. A similar breakdown occurs if the grung dies.\n\nA creature poisoned by a grung can suffer an additional effect that varies depending on the grung's skin color. This effect lasts until the creature is no longer poisoned by the grung.\n\nRed. The poisoned creature must use its action to eat if food is within reach."
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.
-
-  - name: "Shortbow"
-    description: |
-      Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.'
+   - name: Shortbow
+     description: 'Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:
-
-    spells:
-
-      - "1st level (4 slots)":
-        - name: " cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "jump"
-          slug_name: "jump"
-
-
-      - "2nd level (3 slots)":
-        - name: " barkskin"
-          slug_name: "barkskin"
-
-        - name: "spike growth"
-          slug_name: "spike-growth"
-
-
-      - "3rd level (2 slots)":
-        - name: " plant growth"
-          slug_name: "plant-growth"
+   - title: Spellcasting
+     top_description: 'The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:'
+     bottom_description: ''
+     spell_list:
+        - title: 1st level (4 slots)
+          spells:
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: jump
+               slug_name: jump
+        - title: 2nd level (3 slots)
+          spells:
+             - name: barkskin
+               slug_name: barkskin
+             - name: spike growth
+               slug_name: spike-growth
+        - title: 3rd level (2 slots)
+          spells:
+             - name: plant growth
+               slug_name: plant-growth

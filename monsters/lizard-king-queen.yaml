@@ -1,66 +1,41 @@
-name: "Lizard King/Queen"
-slug_name: "lizard-king-queen"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "lizardfolk"
-alignment: "chaotic evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "78"
-hit_dice: "12d8+24"
-speed: "30 ft., swim 30 ft."
-
-strength: "17"
-strength_modifier: "+3"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: "Con +4, Wis +2"
-skills: "Perception +4, Stealth +5, Survival +4"
-senses: "darkvision 60 ft."
-languages: "Abyssal, Draconic"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "frightened"
-
+name: Lizard King/Queen
+slug_name: lizard-king-queen
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: lizardfolk
+alignment: chaotic evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 78
+hit_dice: 12d8+24
+speed: 30 ft., swim 30 ft.
+strength: 17
+dexterity: 12
+constitution: 15
+intelligence: 11
+wisdom: 11
+charisma: 15
+saving_throws: Con +4, Wis +2
+skills: Perception +4, Stealth +5, Survival +4
+senses: darkvision 60 ft.
+languages: Abyssal, Draconic
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: frightened
 special_abilities:
-  - name: "Hold Breath"
-    description: |
-      The lizardfolk can hold its breath for 15 minutes.
-
-  - name: "Skewer"
-    description: |
-      Once per turn, when the lizardfolk makes a melee attack with its trident and hits, the target takes an extra 10 (3d6) damage, and the lizardfolk gains temporary hit points equal to the extra damage dealt.
-
+   - name: Hold Breath
+     description: The lizardfolk can hold its breath for 15 minutes.
+   - name: Skewer
+     description: Once per turn, when the lizardfolk makes a melee attack with its trident and hits, the target takes an extra 10 (3d6) damage, and the lizardfolk gains temporary hit points equal to the extra damage dealt.
 actions:
-  - name: "Multiattack"
-    description: |
-      The lizardfolk makes two attacks: one with its bite and one with its claws or trident or two melee attacks with its trident.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
-
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.
-
-  - name: "Trident"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.
+   - name: Multiattack
+     description: 'The lizardfolk makes two attacks: one with its bite and one with its claws or trident or two melee attacks with its trident.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.'
+   - name: Claws
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.'
+   - name: Trident
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.'

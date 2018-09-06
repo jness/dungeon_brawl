@@ -1,58 +1,37 @@
-name: "Eternal Flame Guardian"
-slug_name: "eternal-flame-guardian"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "17"
-armor_class_type: "breastplate, shield; 15 while using a crossbow"
-hit_points: "45"
-hit_dice: "7d8+14"
-speed: "30 ft."
-
-strength: "15"
-strength_modifier: "+2"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Intimidation +3, Perception +2"
-senses: null
-languages: "Common"
-
-damage_resistances: "fire"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Eternal Flame Guardian
+slug_name: eternal-flame-guardian
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 17
+armor_class_type: breastplate, shield; 15 while using a crossbow
+hit_points: 45
+hit_dice: 7d8+14
+speed: 30 ft.
+strength: 15
+dexterity: 13
+constitution: 14
+intelligence: 8
+wisdom: 11
+charisma: 13
+saving_throws:
+skills: Intimidation +3, Perception +2
+senses:
+languages: Common
+damage_resistances: fire
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Flaming Weapon (Recharges after a Short or Long Rest)"
-    description: |
-      As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard's next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit.
-
+   - name: Flaming Weapon (Recharges after a Short or Long Rest)
+     description: As a bonus action, the guard can wreath one melee weapon it is wielding in flame. The guard is unharmed by this fire, which lasts until the end of the guard's next turn. While wreathed in flame, the weapon deals an extra 3 (1d6) fire damage on a hit.
 actions:
-  - name: "Multiattack"
-    description: |
-      The guard makes two melee attacks.
-
-  - name: "Longsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.
-
-  - name: "Heavy Crossbow"
-    description: |
-      Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.
+   - name: Multiattack
+     description: The guard makes two melee attacks.
+   - name: Longsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.'
+   - name: Heavy Crossbow
+     description: 'Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.'

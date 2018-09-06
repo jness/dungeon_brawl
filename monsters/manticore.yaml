@@ -1,62 +1,39 @@
-name: "Manticore"
-slug_name: "manticore"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "14"
-armor_class_type: "natural armor"
-hit_points: "68"
-hit_dice: "8d10+24"
-speed: "30 ft., fly 50 ft."
-
-strength: "17"
-strength_modifier: "+3"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "7"
-intelligence_modifier: "-2"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Manticore
+slug_name: manticore
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: lawful evil
+armor_class: 14
+armor_class_type: natural armor
+hit_points: 68
+hit_dice: 8d10+24
+speed: 30 ft., fly 50 ft.
+strength: 17
+dexterity: 16
+constitution: 17
+intelligence: 7
+wisdom: 12
+charisma: 8
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Tail Spike Regrowth"
-    description: |
-      The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest.
-
+   - name: Tail Spike Regrowth
+     description: The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest.
 actions:
-  - name: "Multiattack"
-    description: |
-      The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
-
-  - name: "Tail Spike"
-    description: |
-      Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
+   - name: Multiattack
+     description: 'The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.'
+   - name: Tail Spike
+     description: 'Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage.'

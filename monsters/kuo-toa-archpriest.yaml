@@ -1,132 +1,88 @@
-name: "Kuo-Toa Archpriest"
-slug_name: "kuo-toa-archpriest"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "kuo-toa"
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "97"
-hit_dice: "13d8+39"
-speed: "31 ft., swim 30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "16"
-wisdom_modifier: "+3"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Perception +9, Religion +6"
-senses: "darkvision 120 ft."
-languages: "Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Kuo-Toa Archpriest
+slug_name: kuo-toa-archpriest
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: humanoid
+subtype: kuo-toa
+alignment: neutral evil
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 97
+hit_dice: 13d8+39
+speed: 31 ft., swim 30 ft.
+strength: 16
+dexterity: 14
+constitution: 16
+intelligence: 13
+wisdom: 16
+charisma: 14
+saving_throws:
+skills: Perception +9, Religion +6
+senses: darkvision 120 ft.
+languages: Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The kuo-toa can breathe air and water.
-
-  - name: "Otherwordly Perception"
-    description: |
-      The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.
-
-  - name: "Slippery"
-    description: |
-      The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Amphibious
+     description: The kuo-toa can breathe air and water.
+   - name: Otherwordly Perception
+     description: The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.
+   - name: Slippery
+     description: The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Multiattack"
-    description: |
-      The kuo-toa makes two melee attacks.
-
-  - name: "Scepter"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage.
-
-  - name: "Unarmed Strike"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.
-
+   - name: Multiattack
+     description: The kuo-toa makes two melee attacks.
+   - name: Scepter
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage.'
+   - name: Unarmed Strike
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "sanctuary"
-          slug_name: "sanctuary"
-
-        - name: "shield of faith"
-          slug_name: "shield-of-faith"
-
-
-      - "2nd level (3 slots)":
-        - name: " hold person"
-          slug_name: "hold-person"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (3 slots)":
-        - name: " spirit guardians"
-          slug_name: "spirit-guardians"
-
-        - name: "tongues"
-          slug_name: "tongues"
-
-
-      - "4th level (3 slots)":
-        - name: " control water"
-          slug_name: "control-water"
-
-        - name: "divination"
-          slug_name: "divination"
-
-
-      - "5th level (2 slots)":
-        - name: " mass cure wounds"
-          slug_name: "mass-cure-wounds"
-
-        - name: "scrying"
-          slug_name: "scrying"
+   - title: Spellcasting
+     top_description: 'The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: sanctuary
+               slug_name: sanctuary
+             - name: shield of faith
+               slug_name: shield-of-faith
+        - title: 2nd level (3 slots)
+          spells:
+             - name: hold person
+               slug_name: hold-person
+             - name: spiritual weapon
+               slug_name: spiritual-weapon
+        - title: 3rd level (3 slots)
+          spells:
+             - name: spirit guardians
+               slug_name: spirit-guardians
+             - name: tongues
+               slug_name: tongues
+        - title: 4th level (3 slots)
+          spells:
+             - name: control water
+               slug_name: control-water
+             - name: divination
+               slug_name: divination
+        - title: 5th level (2 slots)
+          spells:
+             - name: mass cure wounds
+               slug_name: mass-cure-wounds
+             - name: scrying
+               slug_name: scrying

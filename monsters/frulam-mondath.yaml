@@ -1,101 +1,69 @@
-name: "Frulam Mondath"
-slug_name: "frulam-mondath"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "16"
-armor_class_type: "chain mail"
-hit_points: "44"
-hit_dice: "8d8+8"
-speed: "30 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "18"
-wisdom_modifier: "+4"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: "Wis +6, Cha +4"
-skills: "Deception +4, History +2, Religion +2"
-senses: null
-languages: "Common, Draconic, Infernal"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Frulam Mondath
+slug_name: frulam-mondath
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 16
+armor_class_type: chain mail
+hit_points: 44
+hit_dice: 8d8+8
+speed: 30 ft.
+strength: 14
+dexterity: 10
+constitution: 13
+intelligence: 11
+wisdom: 18
+charisma: 15
+saving_throws: Wis +6, Cha +4
+skills: Deception +4, History +2, Religion +2
+senses:
+languages: Common, Draconic, Infernal
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      Frulam attacks twice with her halberd.
-
-  - name: "Halberd"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.
-
+   - name: Multiattack
+     description: Frulam attacks twice with her halberd.
+   - name: Halberd
+     description: 'Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "sacred flame"
-          slug_name: "sacred-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " command"
-          slug_name: "command"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "healing word"
-          slug_name: "healing-word"
-
-        - name: "sanctuary"
-          slug_name: "sanctuary"
-
-
-      - "2nd level (3 slots)":
-        - name: " calm emotions"
-          slug_name: "calm-emotions"
-
-        - name: "hold person"
-          slug_name: "hold-person"
-
-        - name: "spiritual weapon"
-          slug_name: "spiritual-weapon"
-
-
-      - "3rd level (2 slots)":
-        - name: " mass healing word"
-          slug_name: "mass-healing-word"
-
-        - name: "spirit guardians"
-          slug_name: "spirit-guardians"
+   - title: Spellcasting
+     top_description: 'Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: sacred flame
+               slug_name: sacred-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: command
+               slug_name: command
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: healing word
+               slug_name: healing-word
+             - name: sanctuary
+               slug_name: sanctuary
+        - title: 2nd level (3 slots)
+          spells:
+             - name: calm emotions
+               slug_name: calm-emotions
+             - name: hold person
+               slug_name: hold-person
+             - name: spiritual weapon
+               slug_name: spiritual-weapon
+        - title: 3rd level (2 slots)
+          spells:
+             - name: mass healing word
+               slug_name: mass-healing-word
+             - name: spirit guardians
+               slug_name: spirit-guardians

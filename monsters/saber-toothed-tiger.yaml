@@ -1,58 +1,37 @@
-name: "Saber-Toothed Tiger"
-slug_name: "saber-toothed-tiger"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "52"
-hit_dice: "7d10+14"
-speed: "40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +3, Stealth +6"
-senses: null
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Saber-Toothed Tiger
+slug_name: saber-toothed-tiger
+challenge_rating: 2.0
+experience: 450
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type:
+hit_points: 52
+hit_dice: 7d10+14
+speed: 40 ft.
+strength: 18
+dexterity: 14
+constitution: 15
+intelligence: 3
+wisdom: 12
+charisma: 8
+saving_throws:
+skills: Perception +3, Stealth +6
+senses:
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Keen Smell"
-    description: |
-      The tiger has advantage on Wisdom (Perception) checks that rely on smell.
-
-  - name: "Pounce"
-    description: |
-      If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
-
+   - name: Keen Smell
+     description: The tiger has advantage on Wisdom (Perception) checks that rely on smell.
+   - name: Pounce
+     description: If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.'

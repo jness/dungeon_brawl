@@ -1,126 +1,89 @@
-name: "Bastian Thermandar"
-slug_name: "bastian-thermandar"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "fire genasi"
-alignment: "neutral evil"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "78"
-hit_dice: "12d8+24"
-speed: "30 ft."
-
-strength: "12"
-strength_modifier: "+1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "11"
-intelligence_modifier: "+0"
-wisdom: "9"
-wisdom_modifier: "-1"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: null
-skills: "Arcana +3, Deception +7"
-senses: "darkvision 60 ft."
-languages: "Common, Ignan"
-
-damage_resistances: "fire"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Bastian Thermandar
+slug_name: bastian-thermandar
+challenge_rating: 8.0
+experience: 3900
+size: Medium
+type: humanoid
+subtype: fire genasi
+alignment: neutral evil
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 78
+hit_dice: 12d8+24
+speed: 30 ft.
+strength: 12
+dexterity: 14
+constitution: 15
+intelligence: 11
+wisdom: 9
+charisma: 18
+saving_throws:
+skills: Arcana +3, Deception +7
+senses: darkvision 60 ft.
+languages: Common, Ignan
+damage_resistances: fire
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Bastian's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells:
-
-    spells:
-
-      - "* At will":
-        - name: " produce flame"
-          slug_name: "produce-flame"
-
-
-      - "* 1/day":
-        - name: " burning hands"
-          slug_name: "burning-hands"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " misty step"
-          slug_name: "misty-step"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-
-      - "4th level (3 slots)":
-        - name: " dimension door"
-          slug_name: "dimension-door"
-
-        - name: "wall of fire"
-          slug_name: "wall-of-fire"
-
-
-      - "5th level (1 slot)":
-        - name: " hold monster"
-          slug_name: "hold-monster"
+   - title: Innate Spellcasting
+     top_description: "Bastian's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells:"
+     bottom_description: ''
+     spell_list:
+        - title: '* At will'
+          spells:
+             - name: produce flame
+               slug_name: produce-flame
+        - title: '* 1/day'
+          spells:
+             - name: burning hands
+               slug_name: burning-hands
+   - title: Spellcasting
+     top_description: 'Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: misty step
+               slug_name: misty-step
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: fireball
+               slug_name: fireball
+        - title: 4th level (3 slots)
+          spells:
+             - name: dimension door
+               slug_name: dimension-door
+             - name: wall of fire
+               slug_name: wall-of-fire
+        - title: 5th level (1 slot)
+          spells:
+             - name: hold monster
+               slug_name: hold-monster

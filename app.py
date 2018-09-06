@@ -3,6 +3,7 @@
 import re
 import json
 import random
+from fractions import Fraction
 
 from slugify import slugify
 from pymongo import MongoClient
@@ -28,6 +29,37 @@ spell_collection = database.spells
 condition_collection = database.conditions
 
 
+# add a few Jinja filters
+@app.template_filter('get_ability_modifier')
+def get_ability_modifier(stat):
+    """
+    Get ability modifier for a stat
+    """
+
+    # array of dnd ability modifiers
+    modifiers = {
+      "1": "-5", "2": "-4", "3": "-4", "4": "-3", "5": "-3", "6": "-2",
+      "7": "-2", "8": "-1", "9": "-1", "10": "+0", "11": "+0", "12": "+1",
+      "13": "+1", "14": "+2", "15": "+2", "16": "+3", "17": "+3", "18": "+4",
+      "19": "+4", "20": "+5", "21": "+5", "22": "+6", "23": "+6", "24": "+7",
+      "25": "+7", "26": "+8", "27": "+8", "28": "+9", "29": "+9", "30": "+10"
+    }
+
+    if str(stat) in modifiers:
+        return modifiers[str(stat)]
+    return '?'
+
+
+@app.template_filter('get_challenge_fraction')
+def get_challenge_fraction(cr):
+    """
+    Get challenge as fraction
+    """
+
+    return Fraction(cr)
+
+
+# add web endpoints
 @app.route('/', methods=['GET'])
 def monsters():
     """
@@ -152,7 +184,16 @@ def spell(slug_name):
 
     # if we have a result render spell
     if results:
-        return render_template('spell.html', spell=results)
+
+        # get list of monsters with spell
+        monsters = monster_collection.find(
+            {'spell_casting.spell_list.spells': {
+                '$elemMatch': { 'slug_name': results['slug_name'] }
+                }
+            }
+        )
+
+        return render_template('spell.html', spell=results, monsters=monsters)
 
     # if we do not have a result render error
     return render_template('error.html',

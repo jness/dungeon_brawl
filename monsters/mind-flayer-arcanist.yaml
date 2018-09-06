@@ -1,154 +1,106 @@
-name: "Mind Flayer Arcanist"
-slug_name: "mind-flayer-arcanist"
-
-challenge_rating: "8"
-challenge_rating_decimal: "8.0"
-experience: "3,900 XP"
-
-size: "Medium"
-type: "aberration"
-subtype: null
-alignment: "lawful evil"
-
-armor_class: "15"
-armor_class_type: "breastplate"
-hit_points: "71"
-hit_dice: "13d8+13"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "19"
-intelligence_modifier: "+4"
-wisdom: "17"
-wisdom_modifier: "+3"
-charisma: "17"
-charisma_modifier: "+3"
-
-saving_throws: "Int +7, Wis +6, Cha +6"
-skills: "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4"
-senses: "darkvision 120 ft."
-languages: "Deep Speech, Undercommon, telepathy 120 ft."
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Mind Flayer Arcanist
+slug_name: mind-flayer-arcanist
+challenge_rating: 8.0
+experience: 3900
+size: Medium
+type: aberration
+subtype:
+alignment: lawful evil
+armor_class: 15
+armor_class_type: breastplate
+hit_points: 71
+hit_dice: 13d8+13
+speed: 30 ft.
+strength: 11
+dexterity: 12
+constitution: 12
+intelligence: 19
+wisdom: 17
+charisma: 17
+saving_throws: Int +7, Wis +6, Cha +6
+skills: Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4
+senses: darkvision 120 ft.
+languages: Deep Speech, Undercommon, telepathy 120 ft.
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The mind flayer has advantage on saving throws against spells and other magical effects.
-
+   - name: Magic Resistance
+     description: The mind flayer has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Tentacles"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.
-
-  - name: "Extract Brain"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.
-
-  - name: "Mind Blast (Recharge 5-6)"
-    description: |
-      The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
+   - name: Tentacles
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.'
+   - name: Extract Brain
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.'
+   - name: Mind Blast (Recharge 5-6)
+     description: The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 spell_casting:
-
-  - title: "Innate Spellcasting (Psionics)"
-
-    top_description: |
-      The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:
-
-    spells:
-
-      - "At will":
-        - name: " detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "levitate"
-          slug_name: "levitate"
-
-
-      - "1/day each":
-        - name: " dominate monster"
-          slug_name: "dominate-monster"
-
-        - name: "plane shift (self only)"
-          slug_name: "plane-shift"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " blade ward"
-          slug_name: "blade-ward"
-
-        - name: "dancing lights"
-          slug_name: "dancing-lights"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "sleep"
-          slug_name: "sleep"
-
-
-      - "2nd level (3 slots)":
-        - name: " blur"
-          slug_name: "blur"
-
-        - name: "invisibility"
-          slug_name: "invisibility"
-
-        - name: "ray of enfeeblement"
-          slug_name: "ray-of-enfeeblement"
-
-
-      - "3rd level (3 slots)":
-        - name: " clairvoyance"
-          slug_name: "clairvoyance"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
-
-        - name: "sending"
-          slug_name: "sending"
-
-
-      - "4th level (3 slots)":
-        - name: " confusion"
-          slug_name: "confusion"
-
-        - name: "hallucinatory terrain"
-          slug_name: "hallucinatory-terrain"
-
-
-      - "5th level (2 slots)":
-        - name: " telekinesis"
-          slug_name: "telekinesis"
-
-        - name: "wall of force"
-          slug_name: "wall-of-force"
+   - title: Innate Spellcasting (Psionics)
+     top_description: "The mind flayer's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: levitate
+               slug_name: levitate
+        - title: 1/day each
+          spells:
+             - name: dominate monster
+               slug_name: dominate-monster
+             - name: plane shift (self only)
+               slug_name: plane-shift
+   - title: Spellcasting
+     top_description: 'The mind flayer is a 10th-level spellcaster. Its spellcasting ability is Intelligence (save DC 15, +7 to hit with spell attacks). The mind flayer has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: blade ward
+               slug_name: blade-ward
+             - name: dancing lights
+               slug_name: dancing-lights
+             - name: mage hand
+               slug_name: mage-hand
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: disguise self
+               slug_name: disguise-self
+             - name: shield
+               slug_name: shield
+             - name: sleep
+               slug_name: sleep
+        - title: 2nd level (3 slots)
+          spells:
+             - name: blur
+               slug_name: blur
+             - name: invisibility
+               slug_name: invisibility
+             - name: ray of enfeeblement
+               slug_name: ray-of-enfeeblement
+        - title: 3rd level (3 slots)
+          spells:
+             - name: clairvoyance
+               slug_name: clairvoyance
+             - name: lightning bolt
+               slug_name: lightning-bolt
+             - name: sending
+               slug_name: sending
+        - title: 4th level (3 slots)
+          spells:
+             - name: confusion
+               slug_name: confusion
+             - name: hallucinatory terrain
+               slug_name: hallucinatory-terrain
+        - title: 5th level (2 slots)
+          spells:
+             - name: telekinesis
+               slug_name: telekinesis
+             - name: wall of force
+               slug_name: wall-of-force

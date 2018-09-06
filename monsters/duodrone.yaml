@@ -1,62 +1,39 @@
-name: "Duodrone"
-slug_name: "duodrone"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Medium"
-type: "construct"
-subtype: null
-alignment: "construct"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "11"
-hit_dice: "2d8+2"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: "truesight 120 ft."
-languages: "Modron"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Duodrone
+slug_name: duodrone
+challenge_rating: 0.25
+experience: 50
+size: Medium
+type: construct
+subtype:
+alignment: construct
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 11
+hit_dice: 2d8+2
+speed: 30 ft.
+strength: 11
+dexterity: 13
+constitution: 12
+intelligence: 6
+wisdom: 10
+charisma: 7
+saving_throws:
+skills:
+senses: truesight 120 ft.
+languages: Modron
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Axiomatic Mind"
-    description: |
-      The duodrone can't be compelled to act in a manner contrary to its nature or its instructions.
-
-  - name: "Disintegration"
-    description: |
-      If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
-
+   - name: Axiomatic Mind
+     description: The duodrone can't be compelled to act in a manner contrary to its nature or its instructions.
+   - name: Disintegration
+     description: If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.
 actions:
-  - name: "Multiattack"
-    description: |
-      The duodrone makes two fist attacks or two javelin attacks.
-
-  - name: "Fist"
-    description: |
-      Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
-
-  - name: "Javelin"
-    description: |
-      Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.
+   - name: Multiattack
+     description: The duodrone makes two fist attacks or two javelin attacks.
+   - name: Fist
+     description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.'
+   - name: Javelin
+     description: 'Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.'

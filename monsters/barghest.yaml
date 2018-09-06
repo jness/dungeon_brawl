@@ -1,98 +1,62 @@
-name: "Barghest"
-slug_name: "barghest"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Large"
-type: "fiend"
-subtype: "shapechanger"
-alignment: "neutral evil"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "90"
-hit_dice: "12d10+24"
-speed: "60 ft. (30 ft.in goblin form)"
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "14"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Deception +4, Intimidation +4, Perception +5, Stealth +4"
-senses: "blindsight 60 ft., darkvision 60 ft."
-languages: "Abyssal, Common, Goblin, Infernal, telepathy 60 ft."
-
-damage_resistances: "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "acid, poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Barghest
+slug_name: barghest
+challenge_rating: 4.0
+experience: 1100
+size: Large
+type: fiend
+subtype: shapechanger
+alignment: neutral evil
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 90
+hit_dice: 12d10+24
+speed: 60 ft. (30 ft.in goblin form)
+strength: 19
+dexterity: 15
+constitution: 14
+intelligence: 13
+wisdom: 12
+charisma: 14
+saving_throws:
+skills: Deception +4, Intimidation +4, Perception +5, Stealth +4
+senses: blindsight 60 ft., darkvision 60 ft.
+languages: Abyssal, Common, Goblin, Infernal, telepathy 60 ft.
+damage_resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: acid, poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Shapechanger"
-    description: |
-      The barghest can use its action to polymorph into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies.
-
-  - name: "Fire Banishment"
-    description: |
-      When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a fireball spell) don't have this effect on the barghest.
-
-  - name: "Keen Smell"
-    description: |
-      The barghest has advantage on Wisdom (Perception) checks that rely on smell.
-
-  - name: "Soul Feeding"
-    description: |
-      A barghest can feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested. If the barghest dies before the soul is digested, the soul is released.
-
-      While a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life.
-
+   - name: Shapechanger
+     description: The barghest can use its action to polymorph into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies.
+   - name: Fire Banishment
+     description: When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a fireball spell) don't have this effect on the barghest.
+   - name: Keen Smell
+     description: The barghest has advantage on Wisdom (Perception) checks that rely on smell.
+   - name: Soul Feeding
+     description: "A barghest can feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested. If the barghest dies before the soul is digested, the soul is released.\n\nWhile a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life."
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage.
-
-  - name: "Claws"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage.
-
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage.'
+   - name: Claws
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components::
-
-    spells:
-
-      - "* At will":
-        - name: " levitate"
-          slug_name: "levitate"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "pass without trace"
-          slug_name: "pass-without-trace"
-
-
-      - "* 1/day each":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "dimension door"
-          slug_name: "dimension-door"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
+   - title: Innate Spellcasting
+     top_description: "The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components::"
+     bottom_description: ''
+     spell_list:
+        - title: '* At will'
+          spells:
+             - name: levitate
+               slug_name: levitate
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: pass without trace
+               slug_name: pass-without-trace
+        - title: '* 1/day each'
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: dimension door
+               slug_name: dimension-door
+             - name: suggestion
+               slug_name: suggestion

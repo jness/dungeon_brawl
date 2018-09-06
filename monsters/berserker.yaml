@@ -1,50 +1,33 @@
-name: "Berserker"
-slug_name: "berserker"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any chaotic alignment"
-
-armor_class: "13"
-armor_class_type: "hide armor"
-hit_points: "67"
-hit_dice: "9d8+27"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "12"
-dexterity_modifier: "+1"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "9"
-intelligence_modifier: "-1"
-wisdom: "11"
-wisdom_modifier: "+0"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: null
-senses: null
-languages: "any one language (usually Common)"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Berserker
+slug_name: berserker
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any chaotic alignment
+armor_class: 13
+armor_class_type: hide armor
+hit_points: 67
+hit_dice: 9d8+27
+speed: 30 ft.
+strength: 16
+dexterity: 12
+constitution: 17
+intelligence: 9
+wisdom: 11
+charisma: 9
+saving_throws:
+skills:
+senses:
+languages: any one language (usually Common)
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Reckless"
-    description: |
-      At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
-
+   - name: Reckless
+     description: At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
 actions:
-  - name: "Greataxe"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.
+   - name: Greataxe
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.'

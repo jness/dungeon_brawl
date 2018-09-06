@@ -1,116 +1,78 @@
-name: "Azbara Jos"
-slug_name: "azbara-jos"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "lawful evil"
-
-armor_class: "13"
-armor_class_type: "16 with mage armor"
-hit_points: "39"
-hit_dice: "6d8+12"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: "Int +5, Wis +3"
-skills: "Arcana +5, Deception +2, Insight +3, Stealth +5"
-senses: null
-languages: "Common, Draconic, Infernal, Primordial, Thayan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Azbara Jos
+slug_name: azbara-jos
+challenge_rating: 4.0
+experience: 1100
+size: Medium
+type: humanoid
+subtype: human
+alignment: lawful evil
+armor_class: 13
+armor_class_type: 16 with mage armor
+hit_points: 39
+hit_dice: 6d8+12
+speed: 30 ft.
+strength: 9
+dexterity: 16
+constitution: 14
+intelligence: 16
+wisdom: 13
+charisma: 11
+saving_throws: Int +5, Wis +3
+skills: Arcana +5, Deception +2, Insight +3, Stealth +5
+senses:
+languages: Common, Draconic, Infernal, Primordial, Thayan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Special Equipment"
-    description: |
-      Azbara has two scrolls of mage armor.
-
-  - name: "Potent Cantrips"
-    description: |
-      When Azbara casts an evocation Cantrips and misses, or the target succeeds on its saving throw, the target still takes half the cantrip's damage but suffers no other effect.
-
-  - name: "Sculpt Spells"
-    description: |
-      When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1+the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.
-
+   - name: Special Equipment
+     description: Azbara has two scrolls of mage armor.
+   - name: Potent Cantrips
+     description: When Azbara casts an evocation Cantrips and misses, or the target succeeds on its saving throw, the target still takes half the cantrip's damage but suffers no other effect.
+   - name: Sculpt Spells
+     description: When Azbara casts an evocation spell that affects other creatures that he can see, he can choose a number of them equal to 1+the spell's level to succeed on their saving throws against the spell. Those creatures take no damage if they would normally take half damage from the spell.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.
-
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "thunderwave"
-          slug_name: "thunderwave"
-
-
-      - "2nd level (3 slots)":
-        - name: " invisibility"
-          slug_name: "invisibility"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "fireball"
-          slug_name: "fireball"
+   - title: Spellcasting
+     top_description: 'Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+             - name: thunderwave
+               slug_name: thunderwave
+        - title: 2nd level (3 slots)
+          spells:
+             - name: invisibility
+               slug_name: invisibility
+             - name: misty step
+               slug_name: misty-step
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: fireball
+               slug_name: fireball

@@ -1,58 +1,37 @@
-name: "Izek Strazni"
-slug_name: "izek-strazni"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "14"
-armor_class_type: "studded leather armor"
-hit_points: "112"
-hit_dice: "15d8+45"
-speed: "30 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "9"
-wisdom_modifier: "-1"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Intimidation +8, Perception +2"
-senses: null
-languages: "Common"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Izek Strazni
+slug_name: izek-strazni
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 14
+armor_class_type: studded leather armor
+hit_points: 112
+hit_dice: 15d8+45
+speed: 30 ft.
+strength: 18
+dexterity: 15
+constitution: 16
+intelligence: 10
+wisdom: 9
+charisma: 15
+saving_throws:
+skills: Intimidation +8, Perception +2
+senses:
+languages: Common
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Brute"
-    description: |
-      A melee weapon deals one extra die of its damage when Izek hits with it (included in the attack).
-
+   - name: Brute
+     description: A melee weapon deals one extra die of its damage when Izek hits with it (included in the attack).
 actions:
-  - name: "Multiattack"
-    description: |
-      Izek makes two attacks with his battleaxe.
-
-  - name: "Battleaxe"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage, or 15 (2d10+4) when used with two hands.
-
-  - name: "Hurl Flame"
-    description: |
-      Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it catches fire.
+   - name: Multiattack
+     description: Izek makes two attacks with his battleaxe.
+   - name: Battleaxe
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage, or 15 (2d10+4) when used with two hands.'
+   - name: Hurl Flame
+     description: "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it catches fire."

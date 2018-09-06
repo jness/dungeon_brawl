@@ -1,50 +1,33 @@
-name: "Homunculus"
-slug_name: "homunculus"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Tiny"
-type: "construct"
-subtype: null
-alignment: "neutral"
-
-armor_class: "13"
-armor_class_type: "natural armor"
-hit_points: "5"
-hit_dice: "2d4"
-speed: "20 ft., fly 40 ft."
-
-strength: "4"
-strength_modifier: "-3"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "understands the languages of its creator but can't speak"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, poisoned"
-
+name: Homunculus
+slug_name: homunculus
+challenge_rating: 0.0
+experience: 10
+size: Tiny
+type: construct
+subtype:
+alignment: neutral
+armor_class: 13
+armor_class_type: natural armor
+hit_points: 5
+hit_dice: 2d4
+speed: 20 ft., fly 40 ft.
+strength: 4
+dexterity: 15
+constitution: 11
+intelligence: 10
+wisdom: 10
+charisma: 7
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: understands the languages of its creator but can't speak
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: charmed, poisoned
 special_abilities:
-  - name: "Telepathic Bond"
-    description: |
-      While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.
-
+   - name: Telepathic Bond
+     description: While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way.
+   - name: Bite
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way.'

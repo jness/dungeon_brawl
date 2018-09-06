@@ -1,56 +1,36 @@
-name: "Tlincalli"
-slug_name: "tlincalli"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "natural armor"
-hit_points: "85"
-hit_dice: "10d10+30"
-speed: "40 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +4, Stealth +4, Survival +4"
-senses: "darkvision 60 ft."
-languages: "Tlincalli"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Tlincalli
+slug_name: tlincalli
+challenge_rating: 5.0
+experience: 1800
+size: Large
+type: monstrosity
+subtype:
+alignment: neutral evil
+armor_class: 15
+armor_class_type: natural armor
+hit_points: 85
+hit_dice: 10d10+30
+speed: 40 ft.
+strength: 16
+dexterity: 13
+constitution: 16
+intelligence: 8
+wisdom: 12
+charisma: 8
+saving_throws:
+skills: Perception +4, Stealth +4, Survival +4
+senses: darkvision 60 ft.
+languages: Tlincalli
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Multiattack"
-    description: |
-      The tlincalli makes two attacks: one with its longsword or spiked chain, and one with its sting.
-
-  - name: "Longsword"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage, or 8 (1d10+3) slashing damage if used with two hands.
-
-  - name: "Spiked Chain"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can't use the spiked chain against another target.
-
-  - name: "Sting"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+   - name: Multiattack
+     description: 'The tlincalli makes two attacks: one with its longsword or spiked chain, and one with its sting.'
+   - name: Longsword
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage, or 8 (1d10+3) slashing damage if used with two hands.'
+   - name: Spiked Chain
+     description: "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can't use the spiked chain against another target."
+   - name: Sting
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'

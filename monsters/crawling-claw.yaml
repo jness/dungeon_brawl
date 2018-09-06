@@ -1,50 +1,33 @@
-name: "Crawling Claw"
-slug_name: "crawling-claw"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Tiny"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "2"
-hit_dice: "1d4"
-speed: "20 ft., climb 20 ft."
-
-strength: "13"
-strength_modifier: "+1"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "11"
-constitution_modifier: "+0"
-intelligence: "5"
-intelligence_modifier: "-3"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "4"
-charisma_modifier: "-3"
-
-saving_throws: null
-skills: null
-senses: "blindsight 30 ft. (blind beyond this radius)"
-languages: "understands Common but can't speak"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Crawling Claw
+slug_name: crawling-claw
+challenge_rating: 0.0
+experience: 10
+size: Tiny
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 12
+armor_class_type:
+hit_points: 2
+hit_dice: 1d4
+speed: 20 ft., climb 20 ft.
+strength: 13
+dexterity: 14
+constitution: 11
+intelligence: 5
+wisdom: 10
+charisma: 4
+saving_throws:
+skills:
+senses: blindsight 30 ft. (blind beyond this radius)
+languages: understands Common but can't speak
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Turn Immunity"
-    description: |
-      The claw is immune to effects that turn undead.
-
+   - name: Turn Immunity
+     description: The claw is immune to effects that turn undead.
 actions:
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw's choice) .
+   - name: Claw
+     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw's choice) ."

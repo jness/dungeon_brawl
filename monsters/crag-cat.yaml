@@ -1,62 +1,39 @@
-name: "Crag Cat"
-slug_name: "crag-cat"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Large"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "34"
-hit_dice: "4d10+12"
-speed: "40 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "4"
-intelligence_modifier: "-3"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Stealth +7"
-senses: "darkvision 60 ft."
-languages: "--"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Crag Cat
+slug_name: crag-cat
+challenge_rating: 1.0
+experience: 200
+size: Large
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 13
+armor_class_type:
+hit_points: 34
+hit_dice: 4d10+12
+speed: 40 ft.
+strength: 16
+dexterity: 17
+constitution: 16
+intelligence: 4
+wisdom: 14
+charisma: 8
+saving_throws:
+skills: Stealth +7
+senses: darkvision 60 ft.
+languages: --
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Nondetection"
-    description: |
-      The cat cannot be targeted or detected by any divination magic or perceived through magical scrying sensors.
-
-  - name: "Pounce"
-    description: |
-      If the cat moves at least 20 feet straight toward a creature then hits it with a claw attack on the same turn, that target must succeed on a DC13 Strength saving throw or be knocked prone.  If the target is prone, the cat can make one bite attack against it as a bonus action.
-
-  - name: "Spell Turning"
-    description: |
-      The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead tagets the caster.
-
+   - name: Nondetection
+     description: The cat cannot be targeted or detected by any divination magic or perceived through magical scrying sensors.
+   - name: Pounce
+     description: If the cat moves at least 20 feet straight toward a creature then hits it with a claw attack on the same turn, that target must succeed on a DC13 Strength saving throw or be knocked prone.  If the target is prone, the cat can make one bite attack against it as a bonus action.
+   - name: Spell Turning
+     description: The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead tagets the caster.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.'
+   - name: Claw
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.'

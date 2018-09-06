@@ -1,138 +1,94 @@
-name: "Vanifer"
-slug_name: "vanifer"
-
-challenge_rating: "9"
-challenge_rating_decimal: "9.0"
-experience: "5,000 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "tiefling"
-alignment: "neutral evil"
-
-armor_class: "15"
-armor_class_type: "studded leather"
-hit_points: "112"
-hit_dice: "15d8+45"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "19"
-charisma_modifier: "+4"
-
-saving_throws: null
-skills: "Arcana +5, Deception +8, Performance +8"
-senses: "darkvision 60 ft."
-languages: "Common, Ignan, Infernal"
-
-damage_resistances: null
-damage_immunities: "fire"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Vanifer
+slug_name: vanifer
+challenge_rating: 9.0
+experience: 5000
+size: Medium
+type: humanoid
+subtype: tiefling
+alignment: neutral evil
+armor_class: 15
+armor_class_type: studded leather
+hit_points: 112
+hit_dice: 15d8+45
+speed: 30 ft.
+strength: 11
+dexterity: 16
+constitution: 17
+intelligence: 12
+wisdom: 13
+charisma: 19
+saving_throws:
+skills: Arcana +5, Deception +8, Performance +8
+senses: darkvision 60 ft.
+languages: Common, Ignan, Infernal
+damage_resistances:
+damage_immunities: fire
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Funeral Pyre"
-    description: |
-      When Vanifer drops to 0 hit points, her body is consumed in a flash of fire and smoke. Anything she was wearing or carrying is left behind among ashes.
-
-  - name: "Legendary Resistance (2/Day)"
-    description: |
-      If Vanifer fails a saving throw, she can choose to succeed instead.
-
+   - name: Funeral Pyre
+     description: When Vanifer drops to 0 hit points, her body is consumed in a flash of fire and smoke. Anything she was wearing or carrying is left behind among ashes.
+   - name: Legendary Resistance (2/Day)
+     description: If Vanifer fails a saving throw, she can choose to succeed instead.
 actions:
-  - name: "Multiattack"
-    description: |
-      Vanifer makes two attacks.
-
-  - name: "Tinderstrike"
-    description: |
-      Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 7 (2d6) fire damage.
-
+   - name: Multiattack
+     description: Vanifer makes two attacks.
+   - name: Tinderstrike
+     description: 'Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 7 (2d6) fire damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " chill touch"
-          slug_name: "chill-touch"
-
-        - name: "fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "message"
-          slug_name: "message"
-
-        - name: "produce flame"
-          slug_name: "produce-flame"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " burning hands"
-          slug_name: "burning-hands"
-
-        - name: "chromatic orb"
-          slug_name: "chromatic-orb"
-
-        - name: "hellish rebuke"
-          slug_name: "hellish-rebuke"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-
-      - "3rd level (3 slots)":
-        - name: " counterspell"
-          slug_name: "counterspell"
-
-        - name: "fireball"
-          slug_name: "fireball"
-
-        - name: "hypnotic pattern"
-          slug_name: "hypnotic-pattern"
-
-
-      - "4th level (3 slots)":
-        - name: " wall of fire"
-          slug_name: "wall-of-fire"
-
-
-      - "5th level (2 slots)":
-        - name: " dominate person"
-          slug_name: "dominate-person"
+   - title: Spellcasting
+     top_description: 'Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: chill touch
+               slug_name: chill-touch
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: friends
+               slug_name: friends
+             - name: mage hand
+               slug_name: mage-hand
+             - name: message
+               slug_name: message
+             - name: produce flame
+               slug_name: produce-flame
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: burning hands
+               slug_name: burning-hands
+             - name: chromatic orb
+               slug_name: chromatic-orb
+             - name: hellish rebuke
+               slug_name: hellish-rebuke
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: misty step
+               slug_name: misty-step
+             - name: scorching ray
+               slug_name: scorching-ray
+        - title: 3rd level (3 slots)
+          spells:
+             - name: counterspell
+               slug_name: counterspell
+             - name: fireball
+               slug_name: fireball
+             - name: hypnotic pattern
+               slug_name: hypnotic-pattern
+        - title: 4th level (3 slots)
+          spells:
+             - name: wall of fire
+               slug_name: wall-of-fire
+        - title: 5th level (2 slots)
+          spells:
+             - name: dominate person
+               slug_name: dominate-person

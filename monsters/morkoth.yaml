@@ -1,150 +1,100 @@
-name: "Morkoth"
-slug_name: "morkoth"
-
-challenge_rating: "11"
-challenge_rating_decimal: "11.0"
-experience: "7,200 XP"
-
-size: "Medium"
-type: "aberration"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "17"
-armor_class_type: "natural armor"
-hit_points: "130"
-hit_dice: "20d8+40"
-speed: "25 ft., swim 50 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "20"
-intelligence_modifier: "+5"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: "Dex +6, Int +9, Wis +6"
-skills: "Arcana +9, History +9, Perception +10, Stealth +6"
-senses: "blindsight 30 ft., darkvision 120 ft."
-languages: "telepathy 120 ft."
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical attacks"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Morkoth
+slug_name: morkoth
+challenge_rating: 11.0
+experience: 7200
+size: Medium
+type: aberration
+subtype:
+alignment: chaotic evil
+armor_class: 17
+armor_class_type: natural armor
+hit_points: 130
+hit_dice: 20d8+40
+speed: 25 ft., swim 50 ft.
+strength: 14
+dexterity: 14
+constitution: 14
+intelligence: 20
+wisdom: 15
+charisma: 13
+saving_throws: Dex +6, Int +9, Wis +6
+skills: Arcana +9, History +9, Perception +10, Stealth +6
+senses: blindsight 30 ft., darkvision 120 ft.
+languages: telepathy 120 ft.
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical attacks
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Amphibious"
-    description: |
-      The morkoth can breathe air and water.
-
+   - name: Amphibious
+     description: The morkoth can breathe air and water.
 actions:
-  - name: "Multiattack"
-    description: |
-      The morkoth makes three attacks: two with its bite and one with its tentacles or three with its bite.
-
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 9 (2d6+2) slashing damage.
-
-  - name: "Tentacles"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8+2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target.
-
-  - name: "Hypnosis"
-    description: |
-      The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a DC 17 Wisdom saving throw. On a failed save, the creature is charmed by the morkoth for 1 minute. While charmed in this way, the target tries to get as close to the morkoth as possible, using its actions to Dash until it is within 5 feet of the morkoth. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours.
-
-      **Reactions**
-
-  - name: "Spell Reflection"
-    description: |
-      If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.
-
+   - name: Multiattack
+     description: 'The morkoth makes three attacks: two with its bite and one with its tentacles or three with its bite.'
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft. one target. Hit: 9 (2d6+2) slashing damage.'
+   - name: Tentacles
+     description: "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 15 (3d8+2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8+2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target."
+   - name: Hypnosis
+     description: "The morkoth projects a 30-foot cone of magical energy. Each creature in that area must make a DC 17 Wisdom saving throw. On a failed save, the creature is charmed by the morkoth for 1 minute. While charmed in this way, the target tries to get as close to the morkoth as possible, using its actions to Dash until it is within 5 feet of the morkoth. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the morkoth's Hypnosis for 24 hours.\n\n**Reactions**"
+   - name: Spell Reflection
+     description: If the morkoth makes a successful saving throw against a spell, or a spell attack misses it, the morkoth can choose another creature (including the spellcaster) it can see within 120 feet of it. The spell targets the chosen creature instead of the morkoth. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st level (4 slots)":
-        - name: " detect magic"
-          slug_name: "detect-magic"
-
-        - name: "identify"
-          slug_name: "identify"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "witch bolt"
-          slug_name: "witch-bolt"
-
-
-      - "2nd level (3 slots)":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "shatter"
-          slug_name: "shatter"
-
-
-      - "3rd level (3 slots)":
-        - name: " dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "lightning bolt"
-          slug_name: "lightning-bolt"
-
-        - name: "sending"
-          slug_name: "sending"
-
-
-      - "4th level (3 slots)":
-        - name: " dimension door"
-          slug_name: "dimension-door"
-
-        - name: "Evard's black tentacles"
-          slug_name: "evard"
-
-
-      - "5th level (3 slots)":
-        - name: " geas"
-          slug_name: "geas"
-
-        - name: "scrying"
-          slug_name: "scrying"
-
-
-      - "6th level (1 slot)":
-        - name: " chain lightning"
-          slug_name: "chain-lightning"
+   - title: Spellcasting
+     top_description: 'The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: mage hand
+               slug_name: mage-hand
+             - name: mending
+               slug_name: mending
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st level (4 slots)
+          spells:
+             - name: detect magic
+               slug_name: detect-magic
+             - name: identify
+               slug_name: identify
+             - name: shield
+               slug_name: shield
+             - name: witch bolt
+               slug_name: witch-bolt
+        - title: 2nd level (3 slots)
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: shatter
+               slug_name: shatter
+        - title: 3rd level (3 slots)
+          spells:
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: lightning bolt
+               slug_name: lightning-bolt
+             - name: sending
+               slug_name: sending
+        - title: 4th level (3 slots)
+          spells:
+             - name: dimension door
+               slug_name: dimension-door
+             - name: Evard's black tentacles
+               slug_name: evard
+        - title: 5th level (3 slots)
+          spells:
+             - name: geas
+               slug_name: geas
+             - name: scrying
+               slug_name: scrying
+        - title: 6th level (1 slot)
+          spells:
+             - name: chain lightning
+               slug_name: chain-lightning

@@ -1,95 +1,62 @@
-name: "Sharwyn Hucrele"
-slug_name: "sharwyn-hucrele"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "neutral evil"
-
-armor_class: "16"
-armor_class_type: "Barkskin trait"
-hit_points: "13"
-hit_dice: "2d8+4"
-speed: "30 ft."
-
-strength: "11"
-strength_modifier: "+0"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "9"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Arcana +5, Insight +4, Persuasion + 1"
-senses: null
-languages: "Common, Draconic, Goblin"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Sharwyn Hucrele
+slug_name: sharwyn-hucrele
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: humanoid
+subtype: human
+alignment: neutral evil
+armor_class: 16
+armor_class_type: Barkskin trait
+hit_points: 13
+hit_dice: 2d8+4
+speed: 30 ft.
+strength: 11
+dexterity: 13
+constitution: 14
+intelligence: 16
+wisdom: 14
+charisma: 9
+saving_throws:
+skills: Arcana +5, Insight +4, Persuasion + 1
+senses:
+languages: Common, Draconic, Goblin
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 242
-
-  - name: "Barkskin"
-    description: |
-      Sharwyn's AC can't be lower than 16.
-
-  - name: "Special Equipment"
-    description: |
-      Sharwyn has a spell book that contains the spells listed in her Spellcasting trait, plus detect magic and silent image.
-
-  - name: "Tree Thrall"
-    description: |
-      If the Gulthias Tree dies, Sharwyn dies 24 hours later.
-
+   - name: Source
+     description: tales from the yawning portal,  page 242
+   - name: Barkskin
+     description: Sharwyn's AC can't be lower than 16.
+   - name: Special Equipment
+     description: Sharwyn has a spell book that contains the spells listed in her Spellcasting trait, plus detect magic and silent image.
+   - name: Tree Thrall
+     description: If the Gulthias Tree dies, Sharwyn dies 24 hours later.
 actions:
-  - name: "Dagger"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
-
+   - name: Dagger
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " light"
-          slug_name: "light"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (2 slots)":
-        - name: " color spray"
-          slug_name: "color-spray"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-        - name: "sleep."
-          slug_name: "sleep"
+   - title: Spellcasting
+     top_description: 'Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: light
+               slug_name: light
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (2 slots)
+          spells:
+             - name: color spray
+               slug_name: color-spray
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+             - name: sleep.
+               slug_name: sleep

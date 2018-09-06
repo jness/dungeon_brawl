@@ -1,62 +1,39 @@
-name: "Flumph"
-slug_name: "flumph"
-
-challenge_rating: "1/8"
-challenge_rating_decimal: "0.125"
-experience: "25 XP"
-
-size: "Small"
-type: "aberration"
-subtype: null
-alignment: "lawful good"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "7"
-hit_dice: "2d6"
-speed: "5 ft., fly 30 ft."
-
-strength: "6"
-strength_modifier: "-2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "14"
-intelligence_modifier: "+2"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Arcana +4, History +4, Religion +4"
-senses: "darkvision 60 ft."
-languages: "understands Undercommon but can't speak, telepathy 60 ft."
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: "psychic"
-condition_immunities: null
-
+name: Flumph
+slug_name: flumph
+challenge_rating: 0.125
+experience: 25
+size: Small
+type: aberration
+subtype:
+alignment: lawful good
+armor_class: 12
+armor_class_type:
+hit_points: 7
+hit_dice: 2d6
+speed: 5 ft., fly 30 ft.
+strength: 6
+dexterity: 15
+constitution: 10
+intelligence: 14
+wisdom: 14
+charisma: 11
+saving_throws:
+skills: Arcana +4, History +4, Religion +4
+senses: darkvision 60 ft.
+languages: understands Undercommon but can't speak, telepathy 60 ft.
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities: psychic
+condition_immunities:
 special_abilities:
-  - name: "Advanced Telepathy"
-    description: |
-      The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.
-
-  - name: "Prone Deficiency"
-    description: |
-      If the flumph is knocked prone, roll a die. On an odd result, the flumph lands upside-down and is incapacitated. At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds.
-
-  - name: "Telepathic Shroud"
-    description: |
-      The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells.
-
+   - name: Advanced Telepathy
+     description: The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.
+   - name: Prone Deficiency
+     description: If the flumph is knocked prone, roll a die. On an odd result, the flumph lands upside-down and is incapacitated. At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds.
+   - name: Telepathic Shroud
+     description: The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells.
 actions:
-  - name: "Tendrils"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.
-
-  - name: "Stench Spray (1/Day)"
-    description: |
-      Each creature in a 15-foot cone originating from the flumph must succeed on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.
+   - name: Tendrils
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 2 (1d4) acid damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.'
+   - name: Stench Spray (1/Day)
+     description: Each creature in a 15-foot cone originating from the flumph must succeed on a DC 10 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.

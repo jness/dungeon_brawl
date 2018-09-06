@@ -1,62 +1,39 @@
-name: "Ettin"
-slug_name: "ettin"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Large"
-type: "giant"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "85"
-hit_dice: "10d10+30"
-speed: "40 ft."
-
-strength: "21"
-strength_modifier: "+5"
-dexterity: "8"
-dexterity_modifier: "-1"
-constitution: "17"
-constitution_modifier: "+3"
-intelligence: "6"
-intelligence_modifier: "-2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "8"
-charisma_modifier: "-1"
-
-saving_throws: null
-skills: "Perception +4"
-senses: "darkvision 60 ft."
-languages: "Giant, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Ettin
+slug_name: ettin
+challenge_rating: 4.0
+experience: 1100
+size: Large
+type: giant
+subtype:
+alignment: chaotic evil
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 85
+hit_dice: 10d10+30
+speed: 40 ft.
+strength: 21
+dexterity: 8
+constitution: 17
+intelligence: 6
+wisdom: 10
+charisma: 8
+saving_throws:
+skills: Perception +4
+senses: darkvision 60 ft.
+languages: Giant, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Two Heads"
-    description: |
-      The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
-
-  - name: "Wakeful"
-    description: |
-      When one of the ettin's heads is asleep, its other head is awake.
-
+   - name: Two Heads
+     description: The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
+   - name: Wakeful
+     description: When one of the ettin's heads is asleep, its other head is awake.
 actions:
-  - name: "Multiattack"
-    description: |
-      The ettin makes two attacks: one with its battleaxe and one with its morningstar.
-
-  - name: "Battleaxe"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.
-
-  - name: "Morningstar"
-    description: |
-      Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.
+   - name: Multiattack
+     description: 'The ettin makes two attacks: one with its battleaxe and one with its morningstar.'
+   - name: Battleaxe
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.'
+   - name: Morningstar
+     description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.'

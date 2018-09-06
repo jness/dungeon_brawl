@@ -1,50 +1,33 @@
-name: "Ogre Zombie"
-slug_name: "ogre-zombie"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Large"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "8"
-armor_class_type: null
-hit_points: "85"
-hit_dice: "9d10+36"
-speed: "30 ft."
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "6"
-dexterity_modifier: "-2"
-constitution: "18"
-constitution_modifier: "+4"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "6"
-wisdom_modifier: "-2"
-charisma: "5"
-charisma_modifier: "-3"
-
-saving_throws: "Wis +0"
-skills: null
-senses: "darkvision 60 ft."
-languages: "understands Common and Giant but can't speak"
-
-damage_resistances: null
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: Ogre Zombie
+slug_name: ogre-zombie
+challenge_rating: 2.0
+experience: 450
+size: Large
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 8
+armor_class_type:
+hit_points: 85
+hit_dice: 9d10+36
+speed: 30 ft.
+strength: 19
+dexterity: 6
+constitution: 18
+intelligence: 3
+wisdom: 6
+charisma: 5
+saving_throws: Wis +0
+skills:
+senses: darkvision 60 ft.
+languages: understands Common and Giant but can't speak
+damage_resistances:
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Undead Fortitude"
-    description: |
-      If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
-
+   - name: Undead Fortitude
+     description: If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 actions:
-  - name: "Morningstar"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.
+   - name: Morningstar
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.'

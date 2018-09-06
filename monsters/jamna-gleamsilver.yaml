@@ -1,94 +1,62 @@
-name: "Jamna Gleamsilver"
-slug_name: "jamna-gleamsilver"
-
-challenge_rating: "1"
-challenge_rating_decimal: "1.0"
-experience: "200 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "gnome"
-alignment: "neutral"
-
-armor_class: "15"
-armor_class_type: "leather armor"
-hit_points: "22"
-hit_dice: "4d6+8"
-speed: "25 ft."
-
-strength: "8"
-strength_modifier: "-1"
-dexterity: "17"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "15"
-intelligence_modifier: "+2"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "12"
-charisma_modifier: "+1"
-
-saving_throws: "Dex +5, Int +4"
-skills: "Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7"
-senses: "darkvision 60 ft."
-languages: "Common, Gnomish, Goblin, Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Jamna Gleamsilver
+slug_name: jamna-gleamsilver
+challenge_rating: 1.0
+experience: 200
+size: Small
+type: humanoid
+subtype: gnome
+alignment: neutral
+armor_class: 15
+armor_class_type: leather armor
+hit_points: 22
+hit_dice: 4d6+8
+speed: 25 ft.
+strength: 8
+dexterity: 17
+constitution: 14
+intelligence: 15
+wisdom: 10
+charisma: 12
+saving_throws: Dex +5, Int +4
+skills: Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7
+senses: darkvision 60 ft.
+languages: Common, Gnomish, Goblin, Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Cunning Action"
-    description: |
-      Jamna can take a bonus action to take the Dash, Disengage, or Hide action.
-
-  - name: "Gnome Cunning"
-    description: |
-      Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.
-
+   - name: Cunning Action
+     description: Jamna can take a bonus action to take the Dash, Disengage, or Hide action.
+   - name: Gnome Cunning
+     description: Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.
 actions:
-  - name: "Multiattack"
-    description: |
-      Jamna attacks twice with her shortswords.
-
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.
-
+   - name: Multiattack
+     description: Jamna attacks twice with her shortswords.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-
-      - "1st level (3 slots)":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "color spray"
-          slug_name: "color-spray"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
-
-        - name: "longstrider"
-          slug_name: "longstrider"
+   - title: Spellcasting
+     top_description: Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: ray of frost
+               slug_name: ray-of-frost
+        - title: 1st level (3 slots)
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: color spray
+               slug_name: color-spray
+             - name: disguise self
+               slug_name: disguise-self
+             - name: longstrider
+               slug_name: longstrider

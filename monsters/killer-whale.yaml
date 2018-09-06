@@ -1,58 +1,37 @@
-name: "Killer Whale"
-slug_name: "killer-whale"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Huge"
-type: "beast"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "90"
-hit_dice: "12d12+12"
-speed: "swim 60 ft."
-
-strength: "19"
-strength_modifier: "+4"
-dexterity: "10"
-dexterity_modifier: "+0"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "3"
-intelligence_modifier: "-4"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3"
-senses: "blindsight 120 ft."
-languages: null
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Killer Whale
+slug_name: killer-whale
+challenge_rating: 3.0
+experience: 700
+size: Huge
+type: beast
+subtype:
+alignment: unaligned
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 90
+hit_dice: 12d12+12
+speed: swim 60 ft.
+strength: 19
+dexterity: 10
+constitution: 13
+intelligence: 3
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3
+senses: blindsight 120 ft.
+languages:
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Echolocation"
-    description: |
-      The whale can't use its blindsight while deafened.
-
-  - name: "Hold Breath"
-    description: |
-      The whale can hold its breath for 30 minutes
-
-  - name: "Keen Hearing"
-    description: |
-      The whale has advantage on Wisdom (Perception) checks that rely on hearing.
-
+   - name: Echolocation
+     description: The whale can't use its blindsight while deafened.
+   - name: Hold Breath
+     description: The whale can hold its breath for 30 minutes
+   - name: Keen Hearing
+     description: The whale has advantage on Wisdom (Perception) checks that rely on hearing.
 actions:
-  - name: "Bite"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.
+   - name: Bite
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.'

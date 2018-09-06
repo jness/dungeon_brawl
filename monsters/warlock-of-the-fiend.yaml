@@ -1,147 +1,100 @@
-name: "Warlock of the Fiend"
-slug_name: "warlock-of-the-fiend"
-
-challenge_rating: "7"
-challenge_rating_decimal: "7.0"
-experience: "2,900 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "any race"
-alignment: "any alignment"
-
-armor_class: "12"
-armor_class_type: "15 with mage armor"
-hit_points: "78"
-hit_dice: "12d8+24"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "15"
-constitution_modifier: "+2"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "18"
-charisma_modifier: "+4"
-
-saving_throws: "Wis +4, Cha +7"
-skills: "Arcana +4, Deception +7, Persuasion +7, Religion +4"
-senses: "darkvision 60 ft."
-languages: "any two languages (usually Abyssal or Infernal)"
-
-damage_resistances: "slashing damage from nonmagical attacks not made with silvered weapons"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Warlock of the Fiend
+slug_name: warlock-of-the-fiend
+challenge_rating: 7.0
+experience: 2900
+size: Medium
+type: humanoid
+subtype: any race
+alignment: any alignment
+armor_class: 12
+armor_class_type: 15 with mage armor
+hit_points: 78
+hit_dice: 12d8+24
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 15
+intelligence: 12
+wisdom: 12
+charisma: 18
+saving_throws: Wis +4, Cha +7
+skills: Arcana +4, Deception +7, Persuasion +7, Religion +4
+senses: darkvision 60 ft.
+languages: any two languages (usually Abyssal or Infernal)
+damage_resistances: slashing damage from nonmagical attacks not made with silvered weapons
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Dark One's Own Luck (Recharges after a Short or Long Rest)"
-    description: |
-      When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.
-
+   - name: Dark One's Own Luck (Recharges after a Short or Long Rest)
+     description: When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll's effects occur.
 actions:
-  - name: "Mace"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.
-
+   - name: Mace
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " alter self"
-          slug_name: "alter-self"
-
-        - name: "false life"
-          slug_name: "false-life"
-
-        - name: "levitate (self only)"
-          slug_name: "levitate"
-
-        - name: "mage armor (self only)"
-          slug_name: "mage-armor"
-
-        - name: "silent image"
-          slug_name: "silent-image"
-
-
-      - "1/day each":
-        - name: " feeblemind"
-          slug_name: "feeblemind"
-
-        - name: "finger of death"
-          slug_name: "finger-of-death"
-
-        - name: "plane shift"
-          slug_name: "plane-shift"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " eldritch blast"
-          slug_name: "eldritch-blast"
-
-        - name: "fire bolt"
-          slug_name: "fire-bolt"
-
-        - name: "friends"
-          slug_name: "friends"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "minor illusion"
-          slug_name: "minor-illusion"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "1st-5th level (4 5th-level slots)":
-        - name: " banishment"
-          slug_name: "banishment"
-
-        - name: "burning hands"
-          slug_name: "burning-hands"
-
-        - name: "flame strike"
-          slug_name: "flame-strike"
-
-        - name: "hellish rebuke"
-          slug_name: "hellish-rebuke"
-
-        - name: "magic circle"
-          slug_name: "magic-circle"
-
-        - name: "scorching ray"
-          slug_name: "scorching-ray"
-
-        - name: "scrying"
-          slug_name: "scrying"
-
-        - name: "stinking cloud"
-          slug_name: "stinking-cloud"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
-
-        - name: "wall of fire"
-          slug_name: "wall-of-fire"
+   - title: Innate Spellcasting
+     top_description: "The warlock's innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: alter self
+               slug_name: alter-self
+             - name: false life
+               slug_name: false-life
+             - name: levitate (self only)
+               slug_name: levitate
+             - name: mage armor (self only)
+               slug_name: mage-armor
+             - name: silent image
+               slug_name: silent-image
+        - title: 1/day each
+          spells:
+             - name: feeblemind
+               slug_name: feeblemind
+             - name: finger of death
+               slug_name: finger-of-death
+             - name: plane shift
+               slug_name: plane-shift
+   - title: Spellcasting
+     top_description: 'The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: eldritch blast
+               slug_name: eldritch-blast
+             - name: fire bolt
+               slug_name: fire-bolt
+             - name: friends
+               slug_name: friends
+             - name: mage hand
+               slug_name: mage-hand
+             - name: minor illusion
+               slug_name: minor-illusion
+             - name: prestidigitation
+               slug_name: prestidigitation
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: 1st-5th level (4 5th-level slots)
+          spells:
+             - name: banishment
+               slug_name: banishment
+             - name: burning hands
+               slug_name: burning-hands
+             - name: flame strike
+               slug_name: flame-strike
+             - name: hellish rebuke
+               slug_name: hellish-rebuke
+             - name: magic circle
+               slug_name: magic-circle
+             - name: scorching ray
+               slug_name: scorching-ray
+             - name: scrying
+               slug_name: scrying
+             - name: stinking cloud
+               slug_name: stinking-cloud
+             - name: suggestion
+               slug_name: suggestion
+             - name: wall of fire
+               slug_name: wall-of-fire

@@ -1,156 +1,106 @@
-name: "The Pudding King"
-slug_name: "the-pudding-king"
-
-challenge_rating: "4"
-challenge_rating_decimal: "4.0"
-experience: "1,100 XP"
-
-size: "Small"
-type: "humanoid"
-subtype: "gnome, shapechanger"
-alignment: "chaotic evil"
-
-armor_class: "13"
-armor_class_type: "16 with mage armor"
-hit_points: "49"
-hit_dice: "9d6+18"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "8"
-wisdom_modifier: "-1"
-charisma: "17"
-charisma_modifier: "+3"
-
-saving_throws: "Con +5, Cha +6"
-skills: "Arcana +4, Perception +2, Stealth +6, Survival +2"
-senses: "darkvision 60 ft."
-languages: "Abyssal, Gnomish, Terran, Undercommon"
-
-damage_resistances: "acid, poison"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "poisoned"
-
+name: The Pudding King
+slug_name: the-pudding-king
+challenge_rating: 4.0
+experience: 1100
+size: Small
+type: humanoid
+subtype: gnome, shapechanger
+alignment: chaotic evil
+armor_class: 13
+armor_class_type: 16 with mage armor
+hit_points: 49
+hit_dice: 9d6+18
+speed: 30 ft.
+strength: 10
+dexterity: 16
+constitution: 14
+intelligence: 12
+wisdom: 8
+charisma: 17
+saving_throws: Con +5, Cha +6
+skills: Arcana +4, Perception +2, Stealth +6, Survival +2
+senses: darkvision 60 ft.
+languages: Abyssal, Gnomish, Terran, Undercommon
+damage_resistances: acid, poison
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: poisoned
 special_abilities:
-  - name: "Stone Camouflage"
-    description: |
-      The Pudding King has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
-
-  - name: "Gnome Cunning"
-    description: |
-      The Pudding King has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
-
-  - name: "Insanity"
-    description: |
-      The Pudding King has advantage on saving throws against being charmed or frightened.
-
+   - name: Stone Camouflage
+     description: The Pudding King has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
+   - name: Gnome Cunning
+     description: The Pudding King has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.
+   - name: Insanity
+     description: The Pudding King has advantage on saving throws against being charmed or frightened.
 actions:
-  - name: "War Pick"
-    description: |
-      Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit 4 (1d8) piercing damage.
-
-  - name: "Change Shape"
-    description: |
-      The Pudding King magically transforms into an ooze, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed by the new form. In ooze form, the Pudding King retains his alignment, hit points, Hit Dice, and Intelligence, Wisdom, and Charisma scores, as well as this action. His statistics and capabilities are otherwise replaced by those of the new form.
-
-  - name: "Create Green Slime (Recharges after a Long Rest)"
-    description: |
-      The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.
-
+   - name: War Pick
+     description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit 4 (1d8) piercing damage.'
+   - name: Change Shape
+     description: The Pudding King magically transforms into an ooze, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed by the new form. In ooze form, the Pudding King retains his alignment, hit points, Hit Dice, and Intelligence, Wisdom, and Charisma scores, as well as this action. His statistics and capabilities are otherwise replaced by those of the new form.
+   - name: Create Green Slime (Recharges after a Long Rest)
+     description: The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "At will":
-        - name: " nondetection (self only)"
-          slug_name: "nondetection"
-
-
-      - "1/day each":
-        - name: " blindness/deafness"
-          slug_name: "blindness"
-
-        - name: "blur"
-          slug_name: "blur"
-
-        - name: "disguise self"
-          slug_name: "disguise-self"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " acid splash"
-          slug_name: "acid-splash"
-
-        - name: "light"
-          slug_name: "light"
-
-        - name: "mage hand"
-          slug_name: "mage-hand"
-
-        - name: "poison spray"
-          slug_name: "poison-spray"
-
-        - name: "prestidigitation"
-          slug_name: "prestidigitation"
-
-
-      - "1st level (4 slots)":
-        - name: " false life"
-          slug_name: "false-life"
-
-        - name: "mage armor"
-          slug_name: "mage-armor"
-
-        - name: "ray of sickness"
-          slug_name: "ray-of-sickness"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "2nd level (3 slots)":
-        - name: " crown of madness"
-          slug_name: "crown-of-madness"
-
-        - name: "misty step"
-          slug_name: "misty-step"
-
-
-      - "3rd level (3 slots)":
-        - name: " gaseous form"
-          slug_name: "gaseous-form"
-
-        - name: "stinking cloud"
-          slug_name: "stinking-cloud"
-
-
-      - "4th level (3 slots)":
-        - name: " blight"
-          slug_name: "blight"
-
-        - name: "confusion"
-          slug_name: "confusion"
-
-
-      - "5th level (1 slot)":
-        - name: " cloudkill"
-          slug_name: "cloudkill"
+   - title: Innate Spellcasting
+     top_description: "The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: nondetection (self only)
+               slug_name: nondetection
+        - title: 1/day each
+          spells:
+             - name: blindness/deafness
+               slug_name: blindness
+             - name: blur
+               slug_name: blur
+             - name: disguise self
+               slug_name: disguise-self
+   - title: Spellcasting
+     top_description: 'The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: acid splash
+               slug_name: acid-splash
+             - name: light
+               slug_name: light
+             - name: mage hand
+               slug_name: mage-hand
+             - name: poison spray
+               slug_name: poison-spray
+             - name: prestidigitation
+               slug_name: prestidigitation
+        - title: 1st level (4 slots)
+          spells:
+             - name: false life
+               slug_name: false-life
+             - name: mage armor
+               slug_name: mage-armor
+             - name: ray of sickness
+               slug_name: ray-of-sickness
+             - name: shield
+               slug_name: shield
+        - title: 2nd level (3 slots)
+          spells:
+             - name: crown of madness
+               slug_name: crown-of-madness
+             - name: misty step
+               slug_name: misty-step
+        - title: 3rd level (3 slots)
+          spells:
+             - name: gaseous form
+               slug_name: gaseous-form
+             - name: stinking cloud
+               slug_name: stinking-cloud
+        - title: 4th level (3 slots)
+          spells:
+             - name: blight
+               slug_name: blight
+             - name: confusion
+               slug_name: confusion
+        - title: 5th level (1 slot)
+          spells:
+             - name: cloudkill
+               slug_name: cloudkill

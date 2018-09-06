@@ -1,95 +1,64 @@
-name: "Pixie"
-slug_name: "pixie"
-
-challenge_rating: "1/4"
-challenge_rating_decimal: "0.25"
-experience: "50 XP"
-
-size: "Tiny"
-type: "fey"
-subtype: null
-alignment: "neutral good"
-
-armor_class: "15"
-armor_class_type: null
-hit_points: "1"
-hit_dice: "1d4-1"
-speed: "10 ft., fly 30 ft."
-
-strength: "2"
-strength_modifier: "-4"
-dexterity: "20"
-dexterity_modifier: "+5"
-constitution: "8"
-constitution_modifier: "-1"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: "Perception +4, Stealth +7"
-senses: null
-languages: "Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Pixie
+slug_name: pixie
+challenge_rating: 0.25
+experience: 50
+size: Tiny
+type: fey
+subtype:
+alignment: neutral good
+armor_class: 15
+armor_class_type:
+hit_points: 1
+hit_dice: 1d4-1
+speed: 10 ft., fly 30 ft.
+strength: 2
+dexterity: 20
+constitution: 8
+intelligence: 10
+wisdom: 14
+charisma: 15
+saving_throws:
+skills: Perception +4, Stealth +7
+senses:
+languages: Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Magic Resistance"
-    description: |
-      The pixie has advantage on saving throws against spells and other magical effects.
-
+   - name: Magic Resistance
+     description: The pixie has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Superior Invisibility"
-    description: |
-      The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it.
-
+   - name: Superior Invisibility
+     description: The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component:
-
-    spells:
-
-      - "At will":
-        - name: " druidcraft"
-          slug_name: "druidcraft"
-
-
-      - "1/day each":
-        - name: " confusion"
-          slug_name: "confusion"
-
-        - name: "dancing lights"
-          slug_name: "dancing-lights"
-
-        - name: "detect evil and good"
-          slug_name: "detect-evil-and-good"
-
-        - name: "detect thoughts"
-          slug_name: "detect-thoughts"
-
-        - name: "dispel magic"
-          slug_name: "dispel-magic"
-
-        - name: "entangle"
-          slug_name: "entangle"
-
-        - name: "fly"
-          slug_name: "fly"
-
-        - name: "phantasmal force"
-          slug_name: "phantasmal-force"
-
-        - name: "polymorph"
-          slug_name: "polymorph"
-
-        - name: "sleep"
-          slug_name: "sleep"
+   - title: Innate Spellcasting
+     top_description: "The pixie's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring only its pixie dust as a component:"
+     bottom_description: ''
+     spell_list:
+        - title: At will
+          spells:
+             - name: druidcraft
+               slug_name: druidcraft
+        - title: 1/day each
+          spells:
+             - name: confusion
+               slug_name: confusion
+             - name: dancing lights
+               slug_name: dancing-lights
+             - name: detect evil and good
+               slug_name: detect-evil-and-good
+             - name: detect thoughts
+               slug_name: detect-thoughts
+             - name: dispel magic
+               slug_name: dispel-magic
+             - name: entangle
+               slug_name: entangle
+             - name: fly
+               slug_name: fly
+             - name: phantasmal force
+               slug_name: phantasmal-force
+             - name: polymorph
+               slug_name: polymorph
+             - name: sleep
+               slug_name: sleep

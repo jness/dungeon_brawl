@@ -1,84 +1,54 @@
-name: "Siren"
-slug_name: "siren"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Medium"
-type: "fey"
-subtype: null
-alignment: "chaotic good"
-
-armor_class: "14"
-armor_class_type: null
-hit_points: "38"
-hit_dice: "7d8+7"
-speed: "30 ft., swim 30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "12"
-constitution_modifier: "+1"
-intelligence: "13"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Medicine +4, Nature +3, Stealth +6, Survival +4"
-senses: "darkvision 60 ft."
-languages: "Common, Elvish, Sylvan"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Siren
+slug_name: siren
+challenge_rating: 3.0
+experience: 700
+size: Medium
+type: fey
+subtype:
+alignment: chaotic good
+armor_class: 14
+armor_class_type:
+hit_points: 38
+hit_dice: 7d8+7
+speed: 30 ft., swim 30 ft.
+strength: 10
+dexterity: 18
+constitution: 12
+intelligence: 13
+wisdom: 14
+charisma: 16
+saving_throws:
+skills: Medicine +4, Nature +3, Stealth +6, Survival +4
+senses: darkvision 60 ft.
+languages: Common, Elvish, Sylvan
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      tales from the yawning portal,  page 243
-
-  - name: "Amphibious"
-    description: |
-      Siren can breathe air and water.
-
-  - name: "Magic Resistance"
-    description: |
-      Siren has advantage on saving throws against spells and other magical effects.
-
+   - name: Source
+     description: tales from the yawning portal,  page 243
+   - name: Amphibious
+     description: Siren can breathe air and water.
+   - name: Magic Resistance
+     description: Siren has advantage on saving throws against spells and other magical effects.
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.
-
-  - name: "Stupefying Touch"
-    description: |
-      Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6 + 3) psychic damage and be stunned until the start of Siren's next turn.
-
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.'
+   - name: Stupefying Touch
+     description: Siren touches one creature she can see within 5 feet of her. The creature must succeed on a DC 13 Intelligence saving throw or take 13 (3d6 + 3) psychic damage and be stunned until the start of Siren's next turn.
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Siren's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "1/day each":
-        - name: " charm person"
-          slug_name: "charm-person"
-
-        - name: "fog cloud"
-          slug_name: "fog-cloud"
-
-        - name: "greater invisibility"
-          slug_name: "greater-invisibility"
-
-        - name: "polymorph (self only)."
-          slug_name: "polymorph"
+   - title: Innate Spellcasting
+     top_description: "Siren's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells, requiring no material components:"
+     bottom_description: ''
+     spell_list:
+        - title: 1/day each
+          spells:
+             - name: charm person
+               slug_name: charm-person
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: greater invisibility
+               slug_name: greater-invisibility
+             - name: polymorph (self only).
+               slug_name: polymorph

@@ -1,58 +1,37 @@
-name: "Razerblast"
-slug_name: "razerblast"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "human"
-alignment: "chaotic evil"
-
-armor_class: "17"
-armor_class_type: "splint"
-hit_points: "112"
-hit_dice: "15d8+75"
-speed: "30 ft."
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "9"
-intelligence_modifier: "-1"
-wisdom: "10"
-wisdom_modifier: "+0"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: null
-skills: "Intimidation +4, Perception +3"
-senses: null
-languages: "Common, Ignan"
-
-damage_resistances: null
-damage_immunities: "fire"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Razerblast
+slug_name: razerblast
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: humanoid
+subtype: human
+alignment: chaotic evil
+armor_class: 17
+armor_class_type: splint
+hit_points: 112
+hit_dice: 15d8+75
+speed: 30 ft.
+strength: 16
+dexterity: 11
+constitution: 16
+intelligence: 9
+wisdom: 10
+charisma: 13
+saving_throws:
+skills: Intimidation +4, Perception +3
+senses:
+languages: Common, Ignan
+damage_resistances:
+damage_immunities: fire
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Searing Armor"
-    description: |
-      The razerblast's armor is hot. Any creature grappling the razerblast or grappled by it takes 5 (1d10) fire damage at the end of that creature's turn.
-
-  - name: "Shrapnel Explosion"
-    description: |
-      When the razerblast drops to 0 hit points, a flaming orb in its chest explodes, destroying the razerblast's body and scattering its armor as shrapnel. Creatures within 10 feet of the razerblast when it explodes must succeed on a DC 12 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.
-
+   - name: Searing Armor
+     description: The razerblast's armor is hot. Any creature grappling the razerblast or grappled by it takes 5 (1d10) fire damage at the end of that creature's turn.
+   - name: Shrapnel Explosion
+     description: When the razerblast drops to 0 hit points, a flaming orb in its chest explodes, destroying the razerblast's body and scattering its armor as shrapnel. Creatures within 10 feet of the razerblast when it explodes must succeed on a DC 12 Dexterity saving throw, taking 21 (6d6) piercing damage on a failed save, or half as much damage on a successful one.
 actions:
-  - name: "Multiattack"
-    description: |
-      The razerblast makes three melee attacks.
-
-  - name: "Spear"
-    description: |
-      Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.
+   - name: Multiattack
+     description: The razerblast makes three melee attacks.
+   - name: Spear
+     description: 'Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.'

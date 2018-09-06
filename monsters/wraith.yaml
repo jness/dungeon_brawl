@@ -1,58 +1,37 @@
-name: "Wraith"
-slug_name: "wraith"
-
-challenge_rating: "5"
-challenge_rating_decimal: "5.0"
-experience: "1,800 XP"
-
-size: "Medium"
-type: "undead"
-subtype: null
-alignment: "neutral evil"
-
-armor_class: "13"
-armor_class_type: null
-hit_points: "67"
-hit_dice: "9d8+27"
-speed: "0 ft., fly 60 ft. (hover)"
-
-strength: "6"
-strength_modifier: "-2"
-dexterity: "16"
-dexterity_modifier: "+3"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "15"
-charisma_modifier: "+2"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "the languages it knew in life"
-
-damage_resistances: "acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-damage_immunities: "necrotic, poison"
-damage_vulnerabilities: null
-condition_immunities: "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained"
-
+name: Wraith
+slug_name: wraith
+challenge_rating: 5.0
+experience: 1800
+size: Medium
+type: undead
+subtype:
+alignment: neutral evil
+armor_class: 13
+armor_class_type:
+hit_points: 67
+hit_dice: 9d8+27
+speed: 0 ft., fly 60 ft. (hover)
+strength: 6
+dexterity: 16
+constitution: 16
+intelligence: 12
+wisdom: 14
+charisma: 15
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: the languages it knew in life
+damage_resistances: acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+damage_immunities: necrotic, poison
+damage_vulnerabilities:
+condition_immunities: charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
 special_abilities:
-  - name: "Incorporeal Movement"
-    description: |
-      The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
-
+   - name: Incorporeal Movement
+     description: The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+   - name: Sunlight Sensitivity
+     description: While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 actions:
-  - name: "Life Drain"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
-
-  - name: "Create Specter"
-    description: |
-      The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.
+   - name: Life Drain
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.'
+   - name: Create Specter
+     description: The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.

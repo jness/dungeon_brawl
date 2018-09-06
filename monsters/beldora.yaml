@@ -1,66 +1,37 @@
-name: "Beldora"
-slug_name: "beldora"
-
-challenge_rating: "0"
-challenge_rating_decimal: "0.0"
-experience: "10 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "illuskan human"
-alignment: "chaotic good"
-
-armor_class: "12"
-armor_class_type: null
-hit_points: "18"
-hit_dice: "4d8"
-speed: "30 ft."
-
-strength: "10"
-strength_modifier: "+0"
-dexterity: "14"
-dexterity_modifier: "+2"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "16"
-charisma_modifier: "+3"
-
-saving_throws: null
-skills: "Deception +5, Insight +3, Investigation +5, Perception +5, Persuasion +5"
-senses: null
-languages: "Common, Draconic, Dwarvish, Halfling"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Beldora
+slug_name: beldora
+challenge_rating: 0.0
+experience: 10
+size: Medium
+type: humanoid
+subtype: illuskan human
+alignment: chaotic good
+armor_class: 12
+armor_class_type:
+hit_points: 18
+hit_dice: 4d8
+speed: 30 ft.
+strength: 10
+dexterity: 14
+constitution: 10
+intelligence: 16
+wisdom: 12
+charisma: 16
+saving_throws:
+skills: Deception +5, Insight +3, Investigation +5, Perception +5, Persuasion +5
+senses:
+languages: Common, Draconic, Dwarvish, Halfling
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Roleplaying Information"
-    description: |
-      Beldora is a member of the harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.
-
-      Ideal: "We should all strive to help one another"
-
-      Bond: "I'll risk my life to protect the powerless."
-
-      Flaw: "I like lying to people. Makes life more interesting, no?"
-
+   - name: Roleplaying Information
+     description: "Beldora is a member of the harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.\n\nIdeal: \"We should all strive to help one another\"\n\nBond: \"I'll risk my life to protect the powerless.\"\n\nFlaw: \"I like lying to people. Makes life more interesting, no?\""
 actions:
-  - name: "Shortsword"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage, .
-
-  - name: "Hand Crossbow"
-    description: |
-      Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Beldora carries ten crossbow bolts.
-
-      **Reactions**
-
-  - name: "Duck and Cover"
-    description: |
-      Beldora adds 2 to her AC against on melee attack that would hit her. To do so, Duvessa must see the attacker and can't be grappled or restrained.
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage, .'
+   - name: Hand Crossbow
+     description: "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Beldora carries ten crossbow bolts.\n\n**Reactions**"
+   - name: Duck and Cover
+     description: Beldora adds 2 to her AC against on melee attack that would hit her. To do so, Duvessa must see the attacker and can't be grappled or restrained.

@@ -1,66 +1,41 @@
-name: "Yeti"
-slug_name: "yeti"
-
-challenge_rating: "3"
-challenge_rating_decimal: "3.0"
-experience: "700 XP"
-
-size: "Large"
-type: "monstrosity"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "12"
-armor_class_type: "natural armor"
-hit_points: "51"
-hit_dice: "6d10+18"
-speed: "40 ft., climb 40 ft."
-
-strength: "18"
-strength_modifier: "+4"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "8"
-intelligence_modifier: "-1"
-wisdom: "12"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: "Perception +3, Stealth +3"
-senses: "darkvision 60 ft."
-languages: "Yeti"
-
-damage_resistances: null
-damage_immunities: "cold"
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Yeti
+slug_name: yeti
+challenge_rating: 3.0
+experience: 700
+size: Large
+type: monstrosity
+subtype:
+alignment: chaotic evil
+armor_class: 12
+armor_class_type: natural armor
+hit_points: 51
+hit_dice: 6d10+18
+speed: 40 ft., climb 40 ft.
+strength: 18
+dexterity: 13
+constitution: 16
+intelligence: 8
+wisdom: 12
+charisma: 7
+saving_throws:
+skills: Perception +3, Stealth +3
+senses: darkvision 60 ft.
+languages: Yeti
+damage_resistances:
+damage_immunities: cold
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Fear of Fire"
-    description: |
-      If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
-
-  - name: "Keen Smell"
-    description: |
-      The yeti has advantage on Wisdom (Perception) checks that rely on smell.
-
-  - name: "Snow Camouflage"
-    description: |
-      The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
-
+   - name: Fear of Fire
+     description: If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
+   - name: Keen Smell
+     description: The yeti has advantage on Wisdom (Perception) checks that rely on smell.
+   - name: Snow Camouflage
+     description: The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.
 actions:
-  - name: "Multiattack"
-    description: |
-      The yeti can use its Chilling Gaze and makes two claw attacks.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.
-
-  - name: "Chilling Gaze"
-    description: |
-      The yeti targets one creature it can see within 30 ft. of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.
+   - name: Multiattack
+     description: The yeti can use its Chilling Gaze and makes two claw attacks.
+   - name: Claw
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.'
+   - name: Chilling Gaze
+     description: The yeti targets one creature it can see within 30 ft. of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.

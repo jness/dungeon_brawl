@@ -1,44 +1,30 @@
-name: "Duergar Spore Servant"
-slug_name: "duergar-spore-servant"
-
-challenge_rating: "1/2"
-challenge_rating_decimal: "0.5"
-experience: "100 XP"
-
-size: "Medium"
-type: "plant"
-subtype: null
-alignment: "unaligned"
-
-armor_class: "16"
-armor_class_type: "scale armor, shield"
-hit_points: "26"
-hit_dice: "4d8+8"
-speed: "15 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "11"
-dexterity_modifier: "+0"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "2"
-intelligence_modifier: "-4"
-wisdom: "6"
-wisdom_modifier: "-2"
-charisma: "1"
-charisma_modifier: "-5"
-
-saving_throws: null
-skills: null
-senses: "blindsight 30 ft. (blind beyond this radius)"
-languages: "-"
-
-damage_resistances: "poison"
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: "blinded, charmed, frightened, paralyzed"
+name: Duergar Spore Servant
+slug_name: duergar-spore-servant
+challenge_rating: 0.5
+experience: 100
+size: Medium
+type: plant
+subtype:
+alignment: unaligned
+armor_class: 16
+armor_class_type: scale armor, shield
+hit_points: 26
+hit_dice: 4d8+8
+speed: 15 ft.
+strength: 14
+dexterity: 11
+constitution: 14
+intelligence: 2
+wisdom: 6
+charisma: 1
+saving_throws:
+skills:
+senses: blindsight 30 ft. (blind beyond this radius)
+languages: '-'
+damage_resistances: poison
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities: blinded, charmed, frightened, paralyzed
 actions:
-  - name: "War Pick"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
+   - name: War Pick
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.'

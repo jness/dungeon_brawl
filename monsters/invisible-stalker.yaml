@@ -1,58 +1,37 @@
-name: "Invisible Stalker"
-slug_name: "invisible-stalker"
-
-challenge_rating: "6"
-challenge_rating_decimal: "6.0"
-experience: "2,300 XP"
-
-size: "Medium"
-type: "elemental"
-subtype: null
-alignment: "neutral"
-
-armor_class: "14"
-armor_class_type: null
-hit_points: "104"
-hit_dice: "16d8+32"
-speed: "50 ft., fly 50 ft. (hover)"
-
-strength: "16"
-strength_modifier: "+3"
-dexterity: "19"
-dexterity_modifier: "+4"
-constitution: "14"
-constitution_modifier: "+2"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Perception +8, Stealth +10"
-senses: "darkvision 60 ft."
-languages: "Auran, understands Common but doesn't speak it"
-
-damage_resistances: "bludgeoning, piercing, and slashing from nonmagical weapons"
-damage_immunities: "poison"
-damage_vulnerabilities: null
-condition_immunities: "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
-
+name: Invisible Stalker
+slug_name: invisible-stalker
+challenge_rating: 6.0
+experience: 2300
+size: Medium
+type: elemental
+subtype:
+alignment: neutral
+armor_class: 14
+armor_class_type:
+hit_points: 104
+hit_dice: 16d8+32
+speed: 50 ft., fly 50 ft. (hover)
+strength: 16
+dexterity: 19
+constitution: 14
+intelligence: 10
+wisdom: 15
+charisma: 11
+saving_throws:
+skills: Perception +8, Stealth +10
+senses: darkvision 60 ft.
+languages: Auran, understands Common but doesn't speak it
+damage_resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+damage_immunities: poison
+damage_vulnerabilities:
+condition_immunities: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 special_abilities:
-  - name: "Invisibility"
-    description: |
-      The stalker is invisible.
-
-  - name: "Faultless Tracker"
-    description: |
-      The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
-
+   - name: Invisibility
+     description: The stalker is invisible.
+   - name: Faultless Tracker
+     description: The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
 actions:
-  - name: "Multiattack"
-    description: |
-      The stalker makes two slam attacks.
-
-  - name: "Slam"
-    description: |
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.
+   - name: Multiattack
+     description: The stalker makes two slam attacks.
+   - name: Slam
+     description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.'

@@ -1,107 +1,72 @@
-name: "Orc Claw of Luthic"
-slug_name: "orc-claw-of-luthic"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "orc"
-alignment: "chaotic evil"
-
-armor_class: "14"
-armor_class_type: "hide armor"
-hit_points: "45"
-hit_dice: "6d8+18"
-speed: "30 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "15"
-dexterity_modifier: "+2"
-constitution: "16"
-constitution_modifier: "+3"
-intelligence: "10"
-intelligence_modifier: "+0"
-wisdom: "15"
-wisdom_modifier: "+2"
-charisma: "11"
-charisma_modifier: "+0"
-
-saving_throws: null
-skills: "Intimidation +2, Medicine +4, Survival +4"
-senses: "darkvision 60 ft."
-languages: "Common, Orc"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Orc Claw of Luthic
+slug_name: orc-claw-of-luthic
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: orc
+alignment: chaotic evil
+armor_class: 14
+armor_class_type: hide armor
+hit_points: 45
+hit_dice: 6d8+18
+speed: 30 ft.
+strength: 14
+dexterity: 15
+constitution: 16
+intelligence: 10
+wisdom: 15
+charisma: 11
+saving_throws:
+skills: Intimidation +2, Medicine +4, Survival +4
+senses: darkvision 60 ft.
+languages: Common, Orc
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Source"
-    description: |
-      Volo's Guide to Monsters, p. 183
-
-  - name: "Aggressive"
-    description: |
-      As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
-
+   - name: Source
+     description: Volo's Guide to Monsters, p. 183
+   - name: Aggressive
+     description: As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.
 actions:
-  - name: "Multiattack"
-    description: |
-      The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.
-
-  - name: "Claw"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.
-
+   - name: Multiattack
+     description: The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.
+   - name: Claw
+     description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.'
 spell_casting:
-
-  - title: "Spellcasting"
-
-    top_description: |
-      The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " guidance"
-          slug_name: "guidance"
-
-        - name: "mending"
-          slug_name: "mending"
-
-        - name: "resistance"
-          slug_name: "resistance"
-
-        - name: "thaumaturgy"
-          slug_name: "thaumaturgy"
-
-
-      - "1st level (4 slots)":
-        - name: " bane"
-          slug_name: "bane"
-
-        - name: "cure wounds"
-          slug_name: "cure-wounds"
-
-        - name: "guiding bolt"
-          slug_name: "guiding-bolt"
-
-
-      - "2nd level (3 slots)":
-        - name: " augury"
-          slug_name: "augury"
-
-        - name: "warding bond"
-          slug_name: "warding-bond"
-
-
-      - "3rd level (2 slots)":
-        - name: " bestow curse"
-          slug_name: "bestow-curse"
-
-        - name: "create food and water"
-          slug_name: "create-food-and-water"
+   - title: Spellcasting
+     top_description: 'The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: guidance
+               slug_name: guidance
+             - name: mending
+               slug_name: mending
+             - name: resistance
+               slug_name: resistance
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (4 slots)
+          spells:
+             - name: bane
+               slug_name: bane
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: guiding bolt
+               slug_name: guiding-bolt
+        - title: 2nd level (3 slots)
+          spells:
+             - name: augury
+               slug_name: augury
+             - name: warding bond
+               slug_name: warding-bond
+        - title: 3rd level (2 slots)
+          spells:
+             - name: bestow curse
+               slug_name: bestow-curse
+             - name: create food and water
+               slug_name: create-food-and-water

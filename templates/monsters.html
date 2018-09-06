@@ -68,7 +68,7 @@ Monsters
         <th class="d-none d-md-table-cell"><a href='?sort=type&search_text={{ search_text }}&search_field={{ search_field }}'>Type</a></th>
         <th class="d-none d-md-table-cell"><a href='?sort=size&search_text={{ search_text }}&search_field={{ search_field }}'>Size</a></th>
         <th class="d-none d-md-table-cell"><a href='?sort=alignment&search_text={{ search_text }}&search_field={{ search_field }}'>Alignment</a></th>
-        <th class="d-none d-md-table-cell"><a href='?sort=challenge_rating_decimal&search_text={{ search_text }}&search_field={{ search_field }}'>Challenge</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=challenge_rating&search_text={{ search_text }}&search_field={{ search_field }}'>Challenge</a></th>
       </tr>
 
       {% for monster in monsters %}
@@ -81,7 +81,7 @@ Monsters
         <td class="d-none d-md-table-cell">{{ monster.type|title }}</td>
         <td class="d-none d-md-table-cell">{{ monster.size|title }}</td>
         <td class="d-none d-md-table-cell">{{ monster.alignment|title }}</td>
-        <td class="d-none d-md-table-cell">{{ monster.challenge_rating }}</td>
+        <td class="d-none d-md-table-cell">{{ monster.challenge_rating|get_challenge_fraction }}</td>
       </tr>
       {% endfor %}
 

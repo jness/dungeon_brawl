@@ -1,115 +1,78 @@
-name: "Nezznar the Black Spider"
-slug_name: "nezznar-the-black-spider"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "humanoid"
-subtype: "elf"
-alignment: "neutral evil"
-
-armor_class: "11"
-armor_class_type: "14 with mage armor"
-hit_points: "27"
-hit_dice: "6d8"
-speed: "30 ft."
-
-strength: "9"
-strength_modifier: "-1"
-dexterity: "13"
-dexterity_modifier: "+1"
-constitution: "10"
-constitution_modifier: "+0"
-intelligence: "16"
-intelligence_modifier: "+3"
-wisdom: "14"
-wisdom_modifier: "+2"
-charisma: "13"
-charisma_modifier: "+1"
-
-saving_throws: "Int +5, Wis +4"
-skills: "Arcana +5, Perception +4, Stealth +3"
-senses: "darkvision 120 ft."
-languages: "Elvish, Undercommon"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
-
+name: Nezznar the Black Spider
+slug_name: nezznar-the-black-spider
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: humanoid
+subtype: elf
+alignment: neutral evil
+armor_class: 11
+armor_class_type: 14 with mage armor
+hit_points: 27
+hit_dice: 6d8
+speed: 30 ft.
+strength: 9
+dexterity: 13
+constitution: 10
+intelligence: 16
+wisdom: 14
+charisma: 13
+saving_throws: Int +5, Wis +4
+skills: Arcana +5, Perception +4, Stealth +3
+senses: darkvision 120 ft.
+languages: Elvish, Undercommon
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 special_abilities:
-  - name: "Special Equipment"
-    description: |
-      Nezznar has a spider staff.
-
-  - name: "Fey Ancestry"
-    description: |
-      Nezznar has advantage on saving throws against being charmed, and magic can't put him to sleep.
-
-  - name: "Sunlight Sensitivity"
-    description: |
-      Nezznar has disadvantage on attack rolls when he or his target is in sunlight.
-
+   - name: Special Equipment
+     description: Nezznar has a spider staff.
+   - name: Fey Ancestry
+     description: Nezznar has advantage on saving throws against being charmed, and magic can't put him to sleep.
+   - name: Sunlight Sensitivity
+     description: Nezznar has disadvantage on attack rolls when he or his target is in sunlight.
 actions:
-  - name: "Spider Staff"
-    description: |
-      Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage plus 3 (1d6) poison damage.
-
+   - name: Spider Staff
+     description: 'Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage plus 3 (1d6) poison damage.'
 spell_casting:
-
-  - title: "Innate Spellcasting"
-
-    top_description: |
-      Nezznar can innately cast the following spells, requiring no material components:
-
-    spells:
-
-      - "* At will":
-        - name: " dancing lights"
-          slug_name: "dancing-lights"
-
-
-      - "* 1/day each":
-        - name: " darkness"
-          slug_name: "darkness"
-
-        - name: "faerie fire (save DC 12)"
-          slug_name: "faerie-fire"
-
-  - title: "Spellcasting"
-
-    top_description: |
-      Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the following spells prepared from the wizard's spell list:
-
-    spells:
-
-      - "Cantrips (at will)":
-        - name: " mage hand"
-          slug_name: "mage-hand"
-
-        - name: "ray of frost"
-          slug_name: "ray-of-frost"
-
-        - name: "shocking grasp"
-          slug_name: "shocking-grasp"
-
-
-      - "* 1st Level (4 slots)":
-        - name: " mage armor"
-          slug_name: "mage-armor"
-
-        - name: "magic missile"
-          slug_name: "magic-missile"
-
-        - name: "shield"
-          slug_name: "shield"
-
-
-      - "* 2nd Level (3 slots)":
-        - name: " invisibility"
-          slug_name: "invisibility"
-
-        - name: "suggestion"
-          slug_name: "suggestion"
+   - title: Innate Spellcasting
+     top_description: 'Nezznar can innately cast the following spells, requiring no material components:'
+     bottom_description: ''
+     spell_list:
+        - title: '* At will'
+          spells:
+             - name: dancing lights
+               slug_name: dancing-lights
+        - title: '* 1/day each'
+          spells:
+             - name: darkness
+               slug_name: darkness
+             - name: faerie fire (save DC 12)
+               slug_name: faerie-fire
+   - title: Spellcasting
+     top_description: "Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the following spells prepared from the wizard's spell list:"
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: mage hand
+               slug_name: mage-hand
+             - name: ray of frost
+               slug_name: ray-of-frost
+             - name: shocking grasp
+               slug_name: shocking-grasp
+        - title: '* 1st Level (4 slots)'
+          spells:
+             - name: mage armor
+               slug_name: mage-armor
+             - name: magic missile
+               slug_name: magic-missile
+             - name: shield
+               slug_name: shield
+        - title: '* 2nd Level (3 slots)'
+          spells:
+             - name: invisibility
+               slug_name: invisibility
+             - name: suggestion
+               slug_name: suggestion

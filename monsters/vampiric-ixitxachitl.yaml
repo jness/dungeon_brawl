@@ -1,52 +1,32 @@
-name: "Vampiric Ixitxachitl"
-slug_name: "vampiric-ixitxachitl"
-
-challenge_rating: "2"
-challenge_rating_decimal: "2.0"
-experience: "450 XP"
-
-size: "Medium"
-type: "aberration"
-subtype: null
-alignment: "chaotic evil"
-
-armor_class: "16"
-armor_class_type: "natural armor"
-hit_points: "44"
-hit_dice: "8d8+8"
-speed: "0 ft., swim 30 ft."
-
-strength: "14"
-strength_modifier: "+2"
-dexterity: "18"
-dexterity_modifier: "+4"
-constitution: "13"
-constitution_modifier: "+1"
-intelligence: "12"
-intelligence_modifier: "+1"
-wisdom: "13"
-wisdom_modifier: "+1"
-charisma: "7"
-charisma_modifier: "-2"
-
-saving_throws: null
-skills: null
-senses: "darkvision 60 ft."
-languages: "Abyssal, Ixitxachitl"
-
-damage_resistances: null
-damage_immunities: null
-damage_vulnerabilities: null
-condition_immunities: null
+name: Vampiric Ixitxachitl
+slug_name: vampiric-ixitxachitl
+challenge_rating: 2.0
+experience: 450
+size: Medium
+type: aberration
+subtype:
+alignment: chaotic evil
+armor_class: 16
+armor_class_type: natural armor
+hit_points: 44
+hit_dice: 8d8+8
+speed: 0 ft., swim 30 ft.
+strength: 14
+dexterity: 18
+constitution: 13
+intelligence: 12
+wisdom: 13
+charisma: 7
+saving_throws:
+skills:
+senses: darkvision 60 ft.
+languages: Abyssal, Ixitxachitl
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
 actions:
-  - name: "Vampiric Bite"
-    description: |
-      Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.
-
-      **Reactions**
-
-  - name: "Barbed Tail"
-    description: |
-      When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.
-
-      Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.
+   - name: Vampiric Bite
+     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.\n\n**Reactions**"
+   - name: Barbed Tail
+     description: "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.\n\nMelee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage."
