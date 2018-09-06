@@ -94,7 +94,7 @@ spell_casting:
              - name: heal
                slug_name: heal
              - name: heroes' feast
-               slug_name: heroes
+               slug_name: heroes-feast
              - name: sunbeam
                slug_name: sunbeam
         - title: 7th level (1 slot)

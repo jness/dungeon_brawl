@@ -71,7 +71,7 @@ spell_casting:
              - name: detect thoughts
                slug_name: detect-thoughts
              - name: Melf's acid arrow
-               slug_name: melf
+               slug_name: melf-s-acid-arrow
              - name: suggestion
                slug_name: suggestion
         - title: 3rd level (3 slots)
@@ -87,7 +87,7 @@ spell_casting:
              - name: confusion
                slug_name: confusion
              - name: Evard's black tentacles
-               slug_name: evard
+               slug_name: evard-s-black-tentacles
         - title: 5th level (1 slot)
           spells:
              - name: cloudkill.

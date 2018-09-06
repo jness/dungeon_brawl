@@ -93,4 +93,4 @@ spell_casting:
         - title: 6th level (1 slot)
           spells:
              - name: heroes' feast
-               slug_name: heroes
+               slug_name: heroes-feast

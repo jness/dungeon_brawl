@@ -77,7 +77,7 @@ spell_casting:
              - name: shield
                slug_name: shield
              - name: Tenser's floating disk
-               slug_name: tenser
+               slug_name: tenser-s-floating-disk
         - title: 2nd level (3 slots)
           spells:
              - name: detect thoughts

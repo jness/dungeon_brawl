@@ -83,7 +83,7 @@ spell_casting:
         - title: 5th level (2 slots)
           spells:
              - name: Rary's telepathic bond*
-               slug_name: rary
+               slug_name: rary-s-telepathic-bond
              - name: seeming*
                slug_name: seeming
         - title: 6th level (1 slot)

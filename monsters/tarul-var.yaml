@@ -97,7 +97,7 @@ spell_casting:
         - title: 4th level (3 slots)
           spells:
              - name: dimension door,* Evard's black tentacles*
-               slug_name: dimension-door
+               slug_name: dimension-door-evard-s-black-tentacles
         - title: 5th level (3 slots)
           spells:
              - name: cloudkill,* scrying

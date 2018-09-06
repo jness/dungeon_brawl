@@ -50,7 +50,7 @@ spell_casting:
              - name: sleep
                slug_name: sleep
              - name: Tasha's hideous laughter
-               slug_name: tasha
+               slug_name: tasha-s-hideous-laughter
         - title: 2nd level (2 slots)
           spells:
              - name: alter self

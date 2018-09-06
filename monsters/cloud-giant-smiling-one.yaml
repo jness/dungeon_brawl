@@ -87,7 +87,7 @@ spell_casting:
              - name: silent image
                slug_name: silent-image
              - name: Tasha's hideous laughter
-               slug_name: tasha
+               slug_name: tasha-s-hideous-laughter
         - title: 2nd level (3 slots)
           spells:
              - name: invisibility

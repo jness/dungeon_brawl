@@ -81,7 +81,7 @@ spell_casting:
         - title: 5th level (2 slots)
           spells:
              - name: Bigby's hand
-               slug_name: bigby
+               slug_name: bigby-s-hand
              - name: cloudkill
                slug_name: cloudkill
         - title: 6th level (1 slot)

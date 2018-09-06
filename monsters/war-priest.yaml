@@ -74,7 +74,7 @@ spell_casting:
              - name: beacon of hope
                slug_name: beacon-of-hope
              - name: crusader's mantle
-               slug_name: crusader
+               slug_name: crusader-s-mantle
              - name: dispel magic
                slug_name: dispel-magic
              - name: revivify

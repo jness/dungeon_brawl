@@ -63,7 +63,7 @@ spell_casting:
              - name: gust of wind
                slug_name: gust-of-wind
              - name: Melf's acid arrow
-               slug_name: melf
+               slug_name: melf-s-acid-arrow
              - name: scorching ray
                slug_name: scorching-ray
         - title: 3rd level (3 slots)

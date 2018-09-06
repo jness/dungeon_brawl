@@ -99,7 +99,7 @@ spell_casting:
              - name: confusion
                slug_name: confusion
              - name: Evard's black tentacles
-               slug_name: evard
+               slug_name: evard-s-black-tentacles
              - name: phantasmal killer
                slug_name: phantasmal-killer
         - title: 5th level (2 slots)

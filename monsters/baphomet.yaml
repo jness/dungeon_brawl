@@ -71,7 +71,7 @@ spell_casting:
              - name: dominate beast
                slug_name: dominate-beast
              - name: hunter's mark
-               slug_name: hunter
+               slug_name: hunter-s-mark
              - name: maze
                slug_name: maze
              - name: wall of stone

@@ -47,6 +47,6 @@ spell_casting:
              - name: mage hand
                slug_name: mage-hand
              - name: Tasha's hideous laughter
-               slug_name: tasha
+               slug_name: tasha-s-hideous-laughter
              - name: vicious mockery 1/day
                slug_name: vicious-mockery

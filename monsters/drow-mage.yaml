@@ -93,7 +93,7 @@ spell_casting:
         - title: 4th level (3 slots)
           spells:
              - name: Evard's black tentacles
-               slug_name: evard
+               slug_name: evard-s-black-tentacles
              - name: greater invisibility
                slug_name: greater-invisibility
         - title: 5th level (2 slots)

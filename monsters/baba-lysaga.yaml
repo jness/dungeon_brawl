@@ -85,7 +85,7 @@ spell_casting:
              - name: blight
                slug_name: blight
              - name: Everard's black tentacles
-               slug_name: everard
+               slug_name: everard-s-black-tentacles
              - name: polymorph
                slug_name: polymorph
         - title: 5th level (2 slots)

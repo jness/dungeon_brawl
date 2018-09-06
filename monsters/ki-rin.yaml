@@ -127,7 +127,7 @@ spell_casting:
         - title: 6th level (1 slot)
           spells:
              - name: heroes' feast
-               slug_name: heroes
+               slug_name: heroes-feast
              - name: true seeing
                slug_name: true-seeing
         - title: 7th level (1 slot)

@@ -87,7 +87,7 @@ spell_casting:
              - name: dimension door
                slug_name: dimension-door
              - name: Evard's black tentacles
-               slug_name: evard
+               slug_name: evard-s-black-tentacles
         - title: 5th level (3 slots)
           spells:
              - name: geas

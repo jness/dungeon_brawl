@@ -55,4 +55,4 @@ spell_casting:
              - name: jump
                slug_name: jump
              - name: hunter's mark
-               slug_name: hunter
+               slug_name: hunter-s-mark

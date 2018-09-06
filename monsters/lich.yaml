@@ -75,7 +75,7 @@ spell_casting:
              - name: invisibility
                slug_name: invisibility
              - name: Melf's acid arrow
-               slug_name: melf
+               slug_name: melf-s-acid-arrow
              - name: mirror image
                slug_name: mirror-image
         - title: 3rd level (3 slots)
