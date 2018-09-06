@@ -154,7 +154,7 @@
         <div class="spellpadding">
           • {{ spell_list.title }}:
         {% for spell in spell_list.spells %}
-          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a>{% if not loop.last %},{% endif %}
+          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name|lower }}</a>{% if not loop.last %},{% endif %}
         {% endfor %}
         </div>
       {% endfor %}
