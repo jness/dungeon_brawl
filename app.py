@@ -331,7 +331,7 @@ def brawl_add_monster():
             'slug_name': monster['slug_name'],
             'armor_class': monster['armor_class'],
             'hit_points': monster['hit_points'],
-            'dexterity_modifier': monster['dexterity_modifier'],
+            'dexterity_modifier': get_ability_modifier(monster['dexterity']),
             'is_character': False,
             'notes': '',
             'conditions': []
