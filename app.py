@@ -407,38 +407,41 @@ def brawl_add_random_monster():
 
     # grab required form elements from POST
     cr = request.form['cr']
+    quantity = int(request.form['quantity'])
 
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
-    # perform a random search of size 1
-    _monster = monster_collection.aggregate(
-        [
-            { '$match': { 'challenge_rating': float(cr) } },
-            { '$sample': { 'size': 1 } }
-        ]
-    )
+    for _ in range(quantity):
 
-    # fetch monster from iterator
-    monster = _monster.next()
+        # perform a random search of size 1
+        _monster = monster_collection.aggregate(
+            [
+                { '$match': { 'challenge_rating': float(cr) } },
+                { '$sample': { 'size': 1 } }
+            ]
+        )
 
-    # create a slim monster object to store in cookie
-    slim_monster = {
-        'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
-        'name': monster['name'],
-        'slug_name': monster['slug_name'],
-        'armor_class': monster['armor_class'],
-        'hit_points': monster['hit_points'],
-        'dexterity_modifier': get_ability_modifier(monster['dexterity']),
-        'is_character': False,
-        'notes': '',
-        'conditions': []
-    }
+        # get our single monster
+        monster = _monster.next()
 
-    # add slim_character to monsters list
-    monsters.append(
-        slim_monster
-    )
+        # create a slim monster object to store in cookie
+        slim_monster = {
+            'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+            'name': monster['name'],
+            'slug_name': monster['slug_name'],
+            'armor_class': monster['armor_class'],
+            'hit_points': monster['hit_points'],
+            'dexterity_modifier': get_ability_modifier(monster['dexterity']),
+            'is_character': False,
+            'notes': '',
+            'conditions': []
+        }
+
+        # add slim_character to monsters list
+        monsters.append(
+            slim_monster
+        )
 
     # create redirect to brawl page
     response = redirect(url_for('brawl'))
