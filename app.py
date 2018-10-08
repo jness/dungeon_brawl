@@ -412,15 +412,21 @@ def brawl_add_character():
     return response
 
 
-@app.route('/brawl_add_random_monster', methods=['POST'])
+@app.route('/brawl_add_random_monster', methods=['GET', 'POST'])
 def brawl_add_random_monster():
     """
     Add random monster to brawl
     """
 
-    # grab required form elements from POST
-    cr = request.form['cr']
-    quantity = int(request.form['quantity'])
+    if request.method == 'POST':
+        # grab required form elements from POST
+        cr = request.form['cr']
+        quantity = int(request.form['quantity'])
+
+    elif request.method == 'GET':
+        # grab required url params
+        cr = request.args['cr']
+        quantity = int(request.args.get('quantity', 1))
 
     # max and min our quantity
     if quantity < 1:
