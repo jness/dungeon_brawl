@@ -23,7 +23,7 @@
   <h1>
 
     <!-- Begin add monster to brawl -->
-    <a href='/brawl_add_monster?slug_name={{ monster.slug_name}}'><img width=50 src='{{ url_for('static', filename='images/brawl.png') }}'></a>
+    <a data-toggle="modal" data-target="#how_many"><img width=50 src='{{ url_for('static', filename='images/brawl.png') }}'></a>
     <!-- End add monster to brawl -->
 
     <strong>{{ monster.name }}</strong>
@@ -193,6 +193,33 @@
   {% endif %}
   <!-- End monster legendary actions -->
 
+</div>
+
+<div class="modal fade" id="how_many" tabindex="-1" role="dialog"
+  aria-labelledby="how_many" aria-hidden="true">
+
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h2 class="modal-title">How many <strong>{{ monster.name }}</strong>?</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+        <!-- Begin model footer -->
+        <div class="modal-footer">
+          <a class="btn btn-outline-primary" href="/brawl_add_monster?slug_name={{ monster.slug_name}}&quantity=1">1</a>
+          <a class="btn btn-outline-danger" href="/brawl_add_monster?slug_name={{ monster.slug_name}}&quantity=2">2</a>
+          <a class="btn btn-outline-success" href="/brawl_add_monster?slug_name={{ monster.slug_name}}&quantity=3">3</a>
+          <a class="btn btn-outline-warning" href="/brawl_add_monster?slug_name={{ monster.slug_name}}&quantity=4">4</a>
+          <a class="btn btn-outline-info" href="/brawl_add_monster?slug_name={{ monster.slug_name}}&quantity=5">5</a>
+        </div>
+        <!-- End model footer -->
+
+    </div>
+  </div>
 </div>
 
 {% endblock %}

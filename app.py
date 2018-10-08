@@ -317,6 +317,13 @@ def brawl_add_monster():
 
     # required url params for search
     slug_name = request.args['slug_name']
+    quantity = int(request.args.get('quantity', 1))
+
+    # max and min our quantity
+    if quantity < 1:
+        quantity = 1
+    elif quantity >5:
+        quantity = 5
 
     # perform a search
     monster = monster_collection.find_one({'slug_name': slug_name})
@@ -324,23 +331,29 @@ def brawl_add_monster():
     # if we have a result render monster
     if monster:
 
-        # create a slim monster object to store in cookie
-        slim_monster = {
-            'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
-            'name': monster['name'],
-            'slug_name': monster['slug_name'],
-            'armor_class': monster['armor_class'],
-            'hit_points': monster['hit_points'],
-            'dexterity_modifier': get_ability_modifier(monster['dexterity']),
-            'is_character': False,
-            'notes': '',
-            'conditions': []
-        }
+        # handle multiple monsters
+        for _ in range(quantity):
 
-        # add slim_monster to monsters list
-        monsters.append(
-            slim_monster
-        )
+            # add counter to monster name for easy tracking
+            name = '%s (%s)' % (monster['name'], len(monsters) + 1)
+
+            # create a slim monster object to store in cookie
+            slim_monster = {
+                'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+                'name': name,
+                'slug_name': monster['slug_name'],
+                'armor_class': monster['armor_class'],
+                'hit_points': monster['hit_points'],
+                'dexterity_modifier': get_ability_modifier(monster['dexterity']),
+                'is_character': False,
+                'notes': '',
+                'conditions': []
+            }
+
+            # add slim_monster to monsters list
+            monsters.append(
+                slim_monster
+            )
 
         # create redirect to brawl page
         response = redirect(url_for('brawl'))
@@ -409,6 +422,12 @@ def brawl_add_random_monster():
     cr = request.form['cr']
     quantity = int(request.form['quantity'])
 
+    # max and min our quantity
+    if quantity < 1:
+        quantity = 1
+    elif quantity >5:
+        quantity = 5
+
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
@@ -425,10 +444,13 @@ def brawl_add_random_monster():
         # get our single monster
         monster = _monster.next()
 
+        # add counter to monster name for easy tracking
+        name = '%s (%s)' % (monster['name'], len(monsters) + 1)
+
         # create a slim monster object to store in cookie
         slim_monster = {
             'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
-            'name': monster['name'],
+            'name': name,
             'slug_name': monster['slug_name'],
             'armor_class': monster['armor_class'],
             'hit_points': monster['hit_points'],
