@@ -73,5 +73,5 @@ spell_casting:
                slug_name: bestow-curse
              - name: dispel magic
                slug_name: dispel-magic
-             - name: spirit guardian
-               slug_name: spirit-guardian
+             - name: spirit guardians
+               slug_name: spirit-guardians
