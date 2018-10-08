@@ -29,11 +29,11 @@ Brawl
       </div>
 
       <div class="col-3">
-        <button type="button" class="btn btn-block btn-warning" onclick="window.location='/brawl_reset';">Reset</button>
+        <button class="btn btn-block btn-warning" data-toggle="modal" data-target="#confirm_reset">Reset</button>
       </div>
 
       <div class="col-3">
-        <button type="button" class="btn btn-block btn-danger" onclick="window.location='/brawl_clear';">Clear</button>
+        <button class="btn btn-block btn-danger" data-toggle="modal" data-target="#confirm_clear">Clear</button>
       </div>
 
       <div class="col-3">
@@ -120,6 +120,55 @@ Brawl
   <!-- End brawl -->
 
 
+  <div class="modal fade" id="confirm_reset" tabindex="-1" role="dialog"
+    aria-labelledby="confirm_reset" aria-hidden="true">
+
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h2 class="modal-title">Are you sure</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+          <!-- Begin model footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-warning" href="/brawl_reset">Reset</a>
+          </div>
+          <!-- End model footer -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="confirm_clear" tabindex="-1" role="dialog"
+    aria-labelledby="confirm_clear" aria-hidden="true">
+
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h2 class="modal-title">Are you sure</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+          <!-- Begin model footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-danger" href="/brawl_clear">Clear</a>
+          </div>
+          <!-- End model footer -->
+
+      </div>
+    </div>
+  </div>
+
+
   <div class="modal fade" id="add_character" tabindex="-1" role="dialog"
     aria-labelledby="add_character" aria-hidden="true">
 
@@ -127,48 +176,138 @@ Brawl
       <div class="modal-content">
 
         <div class="modal-header">
-          <h2 class="modal-title">Add Character</h2>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
 
-        <form action='/brawl_add_character' method='POST'>
+        <div class="accordion" id="accordionExample">
 
-        <div class="modal-body">
-
-            <div class="form-row">
-
-              <div class="col-12">
-                <input type="text" name="name" class="form-control" placeholder="Name" required>
-              </div>
-
-              <br><br>
-
-              <div class="col-6">
-                <input id="name" class="form-control" type="text" name="initiative_modifier" placeholder="Init modifier" required>
-              </div>
-
-              <div class="col-3">
-                <input id="ac" class="form-control" type="text" name="armor_class" placeholder="AC" required>
-              </div>
-
-              <div class="col-3">
-                <input id="hp" class="form-control" type="text" name="hit_points" placeholder="HP" required>
-              </div>
-
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h5>Add Character</h5>
+                </a>
+              </h5>
             </div>
 
-        </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
 
-        <!-- Begin model footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Add</button>
-        </div>
-        <!-- End model footer -->
+                <form action='/brawl_add_character' method='POST'>
 
-        </form>
+                <div class="modal-body">
+
+                    <div class="form-row">
+
+                      <div class="col-12">
+                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+                      </div>
+
+                      <br><br>
+
+                      <div class="col-6">
+                        <input id="name" class="form-control" type="text" name="initiative_modifier" placeholder="Init modifier" required>
+                      </div>
+
+                      <div class="col-3">
+                        <input id="ac" class="form-control" type="text" name="armor_class" placeholder="AC" required>
+                      </div>
+
+                      <div class="col-3">
+                        <input id="hp" class="form-control" type="text" name="hit_points" placeholder="HP" required>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Begin model footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+                <!-- End model footer -->
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>Add Random Monster</h5>
+                </a>
+              </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+
+                <form action='/brawl_add_random_monster' method='POST'>
+
+                <div class="modal-body">
+
+                    <div class="form-row">
+
+                      <div class="col-12">
+                        <label for="by_cr">Challenge Rating</label>
+                        <select name="cr" class="form-control" id="by_cr">
+                            <option value="0.0">0</option>
+                            <option value="0.125">1/8</option>
+                            <option value="0.25">1/4</option>
+                            <option value="0.50">1/2</option>
+                            <option value="1.0">1</option>
+                            <option value="2.0">2</option>
+                            <option value="3.0">3</option>
+                            <option value="4.0">4</option>
+                            <option value="5.0">5</option>
+                            <option value="6.0">6</option>
+                            <option value="7.0">7</option>
+                            <option value="8.0">8</option>
+                            <option value="9.0">9</option>
+                            <option value="10.0">10</option>
+                            <option value="11.0">11</option>
+                            <option value="12.0">12</option>
+                            <option value="13.0">13</option>
+                            <option value="14.0">14</option>
+                            <option value="15.0">15</option>
+                            <option value="16.0">16</option>
+                            <option value="17.0">17</option>
+                            <option value="18.0">18</option>
+                            <option value="19.0">19</option>
+                            <option value="20.0">20</option>
+                            <option value="21.0">21</option>
+                            <option value="22.0">22</option>
+                            <option value="23.0">23</option>
+                            <option value="24.0">24</option>
+                            <option value="26.0">26</option>
+                            <option value="30.0">30</option>
+                        </select>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Begin model footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+                <!-- End model footer -->
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>

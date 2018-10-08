@@ -399,6 +399,55 @@ def brawl_add_character():
     return response
 
 
+@app.route('/brawl_add_random_monster', methods=['POST'])
+def brawl_add_random_monster():
+    """
+    Add random monster to brawl
+    """
+
+    # grab required form elements from POST
+    cr = request.form['cr']
+
+    # load monsters from cookie
+    monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # perform a random search of size 1
+    _monster = monster_collection.aggregate(
+        [
+            { '$match': { 'challenge_rating': float(cr) } },
+            { '$sample': { 'size': 1 } }
+        ]
+    )
+
+    # fetch monster from iterator
+    monster = _monster.next()
+
+    # create a slim monster object to store in cookie
+    slim_monster = {
+        'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+        'name': monster['name'],
+        'slug_name': monster['slug_name'],
+        'armor_class': monster['armor_class'],
+        'hit_points': monster['hit_points'],
+        'dexterity_modifier': get_ability_modifier(monster['dexterity']),
+        'is_character': False,
+        'notes': '',
+        'conditions': []
+    }
+
+    # add slim_character to monsters list
+    monsters.append(
+        slim_monster
+    )
+
+    # create redirect to brawl page
+    response = redirect(url_for('brawl'))
+
+    # set cookie for monsters
+    response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
+    return response
+
+
 @app.route('/brawl_roll_initiative', methods=['GET'])
 def brawl_roll_initiative():
     """
