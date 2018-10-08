@@ -68,11 +68,11 @@
 <div class="modal fade" id="dice" tabindex="-1" role="dialog"
   aria-labelledby="dice" aria-hidden="true">
 
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h2 class="modal-title"><strong>Dice</strong></h2>
+        <h2 class="modal-title"><strong>Dice Bag</strong></h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -87,18 +87,17 @@
           <span class="dice"><img class="rounded" id="d8" width=90 onclick="roll_dice(8)" src="{{ url_for('static', filename='images/d8.png') }}"></span>
           <span class="dice"><img class="rounded" id="d6" width=90 onclick="roll_dice(6)" src="{{ url_for('static', filename='images/d6.png') }}"></span>
           <span class="dice"><img class="rounded" id="d4" width=90 onclick="roll_dice(4)" src="{{ url_for('static', filename='images/d4.png') }}"></span>
-
           <br><br>
 
           <div class="col-3">
             <button class="btn btn-block btn-outline-dark btn-sm" onclick="clear_dice()">Clear</button>
           </div>
-
-          <hr>
-          <h4><span id="dice_result"></span></h4>
-          <h4><span id="dice_total"></span></h4>
-
         </center>
+        <hr>
+
+        <h4><span id="dice_result"></span></h4>
+        <h4><span id="dice_total"></span></h4>
+
       </div>
 
 
