@@ -5,5 +5,5 @@ description: <a href='/brawl_add_monster?slug_name=goblin&quantity=3'>3x Goblins
 
 spoilers:
 
-  - title: Roll a Perception Check
-    text: Succeed on a <strong>DC 14</strong>, else character suprised.
+  - title: Roll a <u>Perception Check</u>
+    text: Succeed on a <strong>DC 14</strong>, else character is suprised.
