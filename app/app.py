@@ -466,7 +466,7 @@ def brawl_add_random_monster():
         # get our single monster
         try:
             monster = _monster.next()
-        except:
+        except StopIteration:
             return render_template('error.html',
                 message='No monster with challage rating found'), 404
 
@@ -693,7 +693,7 @@ def encounters():
 
     try:
         encounter = _encounter.next()
-    except:
+    except StopIteration:
         return render_template('error.html',
             message='No encounters found'), 404
 
