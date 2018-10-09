@@ -16,8 +16,9 @@ services:
 
   web:
     build: .
+    command: python app/app.py
     volumes:
-      - .:/app
+      - .:/dungeon_brawl
     ports:
       - "127.0.0.1:5000:5000"
     depends_on:

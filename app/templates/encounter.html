@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{ encounter.name }}
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/encounter.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/encounter.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+
+  <!-- Encounter heading -->
+  <h1><strong>{{ encounter.name }}</strong></h1>
+  <hr>
+
+  <!-- Textual encounter description -->
+  <h4><strong>Description</strong></h4>
+  <p class="whitespace textbox monospace">{{ encounter.description }}</p>
+
+  <hr>
+
+  <h4><strong>Spoilers</strong></h4>
+
+  <div class="accordion" id="spoilers">
+  {% for spoiler in encounter.spoilers %}
+
+    <div class="card">
+      <div class="card-header" id="heading{{ loop.index }}">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
+            {{ spoiler.title }}
+          </button>
+        </h5>
+      </div>
+
+      <div id="collapse{{ loop.index }}" class="collapse" aria-labelledby="heading{{ loop.index }}" data-parent="#spoilers">
+        <div class="card-body">
+          {{ spoiler.text }}
+        </div>
+      </div>
+    </div>
+
+    <br>
+  {% endfor %}
+  </div>
+
+</div>
+{% endblock %}

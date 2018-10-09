@@ -2,6 +2,7 @@
 
 import re
 import json
+import yaml
 import random
 from fractions import Fraction
 
@@ -27,6 +28,7 @@ database = mongo.dungeon_brawl
 monster_collection = database.monsters
 spell_collection = database.spells
 condition_collection = database.conditions
+encounter_collection = database.encounters
 
 
 # add a few Jinja filters
@@ -57,6 +59,21 @@ def get_challenge_fraction(cr):
     """
 
     return Fraction(cr)
+
+
+@app.template_filter('enable_encounters')
+def enable_encounters(_):
+    """
+    Check if encounters are enabled
+    """
+
+    # get a list of existing collections
+    collections = database.collection_names()
+
+    # iterate over all monster files
+    if 'encounters' in collections:
+        return True
+    return False
 
 
 # add web endpoints
@@ -143,7 +160,6 @@ def spells():
         results = results.sort(request.args['sort'])
 
     return render_template('spells.html', spells=results)
-
 
 
 @app.route('/spell_search', methods=['GET'])
@@ -656,6 +672,29 @@ def brawl_set_turn():
     # set cookie for monsters to new monster list
     response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
     return response
+
+
+@app.route('/encounter', methods=['GET'])
+def encounter():
+    """
+    Get random encounter
+    """
+
+    # perform a random search of size 1
+    _encounter = encounter_collection.aggregate(
+        [
+            { '$sample': { 'size': 1 } }
+        ]
+    )
+
+    # fetch single encounter
+    encounter = _encounter.next()
+
+    # render our template with results
+    return render_template(
+        'encounter.html',
+        encounter=encounter
+    )
 
 
 if __name__ == "__main__":

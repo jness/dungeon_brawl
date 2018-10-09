@@ -1,5 +1,2 @@
 __pycache__
 mongo_data/
-parse_*.py
-get_spells.py
-monsters.old

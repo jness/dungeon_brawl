@@ -26,22 +26,40 @@ A demo of the application can be viewed here: [http://dnd.nessy.info](http://dnd
  * [Docker](https://www.docker.com/)
  * [docker-compose](https://docs.docker.com/compose/)
 
-## Datastore
+## Starting Containers
 
-Mongo's collections are **ONLY** populated during container startup,
-and **ONLY** if the collection does not already exist; this is thanks to the `populate.py` script.
+Use `docker-compose` to start the stacks:
 
-If you need to purge the datastore, first stop any running containers:
+```
+$ docker-compose up
+```
 
-> $ docker-compose down
+Once complete you will be able to visit the local web interface:
 
-then delete the `mongo_data/` directory, this directory
-will be recreated and populated the next time you start the stack.
+ > http://localhost:5000/
 
-## Startup
+## Populate Data
 
-Use `docker-compose` to start the stack:
+MongoDB's collections are populated as a **module** *(see modules/ directory)*.
 
-> $ docker-compose up
+Once you've started the containers, use `docker-compose exec` to run module population.
 
-Once running visit: http://localhost:5000/
+```
+$ docker-compose exec web scripts/populate.py dungeon
+```
+
+## Purge Data
+
+If you wish to populate a new **module**, first purge the existing data:
+
+```
+$ docker-compose exec web scripts/purge.py
+```
+
+## Stopping Containers
+
+When you are done with the application use `docker-compose` to stop the containers:
+
+```
+$ docker-compose down
+```

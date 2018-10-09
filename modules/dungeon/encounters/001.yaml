@@ -1,0 +1,12 @@
+name: Goblins Attack
+slug_name: goblins-attack
+
+description: This is my place holder
+
+spoilers:
+
+  - title: Roll a Dexterity Saving Throw
+    text: Some text goes here
+
+  - title: Roll a Perception Check
+    text: Some text goes here
