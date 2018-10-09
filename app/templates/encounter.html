@@ -25,7 +25,7 @@
 
   <!-- Textual encounter description -->
   <h4><strong>Description</strong></h4>
-  <p class="whitespace textbox monospace">{{ encounter.description }}</p>
+  <p class="whitespace textbox monospace">{{ encounter.description|safe }}</p>
 
   <hr>
 
@@ -45,7 +45,7 @@
 
       <div id="collapse{{ loop.index }}" class="collapse" aria-labelledby="heading{{ loop.index }}" data-parent="#spoilers">
         <div class="card-body">
-          {{ spoiler.text }}
+          {{ spoiler.text|safe }}
         </div>
       </div>
     </div>

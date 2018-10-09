@@ -1,0 +1,9 @@
+name: Goblins Attack
+slug_name: goblins-attack
+
+description: <a href='/brawl_add_monster?slug_name=goblin&quantity=3'>3x Goblins attack</a>
+
+spoilers:
+
+  - title: Roll a Perception Check
+    text: Succeed on a <strong>DC 14</strong>, else character suprised.
