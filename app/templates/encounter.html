@@ -27,9 +27,10 @@
   <h4><strong>Description</strong></h4>
   <p class="whitespace textbox monospace">{{ encounter.description|safe }}</p>
 
-  <hr>
+  <br>
 
   <h4><strong>Spoilers</strong></h4>
+  <hr>
 
   <div class="accordion" id="spoilers">
   {% for spoiler in encounter.spoilers %}
@@ -37,7 +38,7 @@
     <div class="card">
       <div class="card-header" id="heading{{ loop.index }}">
         <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
+          <button class="my-card-header btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="false" aria-controls="collapse{{ loop.index }}">
             {{ spoiler.title|safe }}
           </button>
         </h5>

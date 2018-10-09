@@ -1,9 +1,10 @@
 name: Goblins Attack
 slug_name: goblins-attack
 
-description: <a href='/brawl_add_monster?slug_name=goblin&quantity=3'>3x Goblins</a> attack from the shadows!
+description: |
+  <a href='/brawl_add_monster?slug_name=goblin&quantity=3'>3x Goblins</a> are hiding in the shadows!
 
 spoilers:
 
-  - title: Roll a <u>Perception Check</u>
-    text: Succeed on a <strong>DC 14</strong>, else character is suprised.
+  - title: Perception Check
+    text: Succeed on a <strong>DC 16</strong>, else be suprised.

@@ -674,8 +674,8 @@ def brawl_set_turn():
     return response
 
 
-@app.route('/encounter', methods=['GET'])
-def encounter():
+@app.route('/encounters', methods=['GET'])
+def encounters():
     """
     Get random encounter
     """
@@ -690,11 +690,27 @@ def encounter():
     # fetch single encounter
     encounter = _encounter.next()
 
-    # render our template with results
-    return render_template(
-        'encounter.html',
-        encounter=encounter
-    )
+    # build a redirect to random encounter
+    response = redirect(url_for('encounter', slug_name=encounter['slug_name']))
+    return response
+
+
+@app.route('/encounter/<slug_name>', methods=['GET'])
+def encounter(slug_name):
+    """
+    Get specific enounter
+    """
+
+    # find monsters by slug_name
+    results = encounter_collection.find_one({'slug_name': slug_name})
+
+    # if we have a result render monster
+    if results:
+        return render_template('encounter.html', encounter=results)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Encounter %s not found' % slug_name), 404
 
 
 if __name__ == "__main__":
