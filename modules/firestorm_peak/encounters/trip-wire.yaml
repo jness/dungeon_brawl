@@ -1,0 +1,15 @@
+name: Trip Wire
+slug_name: trip-wire
+
+type: Event - Attack
+
+description: |
+  A carless step breaks a thin wire, firing a poisoned dart while sounding a distant alarm.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=cultist&quantity=3'>3x Cultist</a>

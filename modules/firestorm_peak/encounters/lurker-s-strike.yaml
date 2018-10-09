@@ -1,0 +1,15 @@
+name: Lurker's Strike
+slug_name: lurker-s-strike
+
+type: Event - Attack
+
+description: |
+  A poisonous dart heralds the advance of a hidden foe.
+
+spoilers:
+
+  - title: Attack
+    text: 1d20+3 vs Armor Class
+
+  - title: Monster
+    text: <a href='/brawl_add_random_monster?quantity=1'>1x Random Monster</a>

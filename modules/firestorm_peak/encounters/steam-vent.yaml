@@ -1,0 +1,12 @@
+name: Steam Vent
+slug_name: steam-vent
+
+type: Event - Attack
+
+description: |
+  The floor disintegrates as superheated steam gushes into the passage.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

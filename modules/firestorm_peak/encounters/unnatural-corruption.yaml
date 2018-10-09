@@ -1,0 +1,12 @@
+name: Unnatural Corruption
+slug_name: unnatural-corruption
+
+type: Event
+
+description: |
+  The Far Realm has an unnatural effect on this dungeon.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=gibbering-mouther&quantity=1'>1x Gibbering Mouther</a>

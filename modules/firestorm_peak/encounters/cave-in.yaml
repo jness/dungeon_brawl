@@ -1,0 +1,12 @@
+name: Cave In
+slug_name: cave-in
+
+type: Hazard
+
+description: |
+  The ceiling above you collapses, choking the passage with rubble.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

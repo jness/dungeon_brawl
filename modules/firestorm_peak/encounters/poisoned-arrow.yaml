@@ -1,0 +1,12 @@
+name: Poisoned Arrow
+slug_name: poisoned-arrow
+
+type: Event - Attack
+
+description: |
+  A disguised pressure plate triggers a trap, firing a poisoned arrow.
+
+spoilers:
+
+  - title: Attack
+    text: 1d20+3 vs Armor Class

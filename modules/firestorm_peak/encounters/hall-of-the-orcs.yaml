@@ -1,0 +1,12 @@
+name: Hall of the Orcs
+slug_name: hall-of-the-orcs
+
+type: Event
+
+description: |
+  The crude holy symbols of Gruumsh painted on the walls hint at the nature of this section's inhabitants.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=orc&quantity=3'>3x Orcs</a>

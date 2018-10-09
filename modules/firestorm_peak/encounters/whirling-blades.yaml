@@ -1,0 +1,12 @@
+name: Whirling Blades
+slug_name: whirling-blades
+
+type: Trap
+
+description: |
+  A blade-covered top rises out of a hidden compartment and spins wildly across the dungeon floor.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

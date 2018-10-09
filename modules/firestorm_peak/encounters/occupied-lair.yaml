@@ -1,0 +1,12 @@
+name: Occupied Lair
+slug_name: occupied-lair
+
+type: Event
+
+description: |
+  Many creatures call the caves below the mountain home.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=cave-bear&quantity=1'>1x Cave Bear</a>

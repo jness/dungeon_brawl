@@ -1,0 +1,12 @@
+name: Earthquake!
+slug_name: earthquake
+
+type: Event - Attack
+
+description: |
+  The entire mountian shakes and rumbles.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

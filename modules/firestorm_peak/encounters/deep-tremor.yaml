@@ -1,0 +1,12 @@
+name: Deep Tremor
+slug_name: deep-tremor
+
+type: Event - Attack
+
+description: |
+  A deep tremor shakes the dungeon as rocks fall from the ceiling.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

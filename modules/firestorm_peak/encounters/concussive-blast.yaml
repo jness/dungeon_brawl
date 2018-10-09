@@ -1,0 +1,12 @@
+name: Concussive Blast
+slug_name: concussive-blast
+
+type: Event - Attack
+
+description: |
+  An ingenious trap relases a blast of massive pressure from the volcano below.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

@@ -1,0 +1,12 @@
+name: Sulphurous Cloud
+slug_name: sulphurous-cloud
+
+type: Event - Attack
+
+description: |
+  A slight rumbles precedes a blast of noxious gas from a crack in the wall.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

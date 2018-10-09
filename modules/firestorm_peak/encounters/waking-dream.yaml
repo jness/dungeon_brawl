@@ -1,0 +1,12 @@
+name: Waking Dream
+slug_name: waking-dream
+
+type: Event - Attack
+
+description: |
+  A corrupting influence from the Far Realm unleashes a waking nightmare.
+
+spoilers:
+
+  - title: Constitution Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

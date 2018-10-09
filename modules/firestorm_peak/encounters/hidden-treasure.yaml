@@ -1,0 +1,12 @@
+name: Hidden Treasure
+slug_name: hidden-treasure
+
+type: Event
+
+description: |
+  You spot a hidden cache of treasure a short distance away.
+
+spoilers:
+
+  - title: Treasure
+    text: ??

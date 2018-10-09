@@ -1,0 +1,12 @@
+name: Wandering Monster
+slug_name: wandering-monster
+
+type: Event
+
+description: |
+  A terrible monster wander into view, attracted to your presence.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_random_monster?quantity=1'>1x Random Monster</a>

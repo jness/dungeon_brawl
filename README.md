@@ -45,7 +45,7 @@ MongoDB's collections are populated as a **module** *(see modules/ directory)*.
 Once you've started the containers, use `docker-compose exec` to run module population.
 
 ```
-$ docker-compose exec web scripts/populate.py dungeon
+$ docker-compose exec web scripts/populate.py firestorm_peak
 ```
 
 ## Purge Data

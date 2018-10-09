@@ -1,0 +1,12 @@
+name: Volcanic Burst
+slug_name: volcanic-burst
+
+type: Event - Attack
+
+description: |
+  A nearby wall explodes, spraying droplets of lava throughout the area.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

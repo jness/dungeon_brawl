@@ -1,0 +1,12 @@
+name: Rolling Boulder
+slug_name: rolling-boulder
+
+type: Trap
+
+description: |
+  A giant boulder rolls down the corridor, crushing everything in its way!
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

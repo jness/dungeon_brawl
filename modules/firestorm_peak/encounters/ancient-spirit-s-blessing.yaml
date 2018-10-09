@@ -1,0 +1,12 @@
+name: Ancient Spirit's Blessing
+slug_name: ancient-spirit-s-blessing
+
+type: Event
+
+description: |
+  An ancient dwarf spirit assists you on your quest to rid the mount of evil.
+
+spoilers:
+
+  - title: Heal
+    text: Each character can heal 1 hit dice + constitution for free.

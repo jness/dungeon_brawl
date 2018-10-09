@@ -1,0 +1,15 @@
+name: Blinding Bomb
+slug_name: blinding-bomb
+
+type: Event - Attack
+
+description: |
+  The ceramic sphere explodes as it shatters against the nearby wall.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=orc&quantity=2'>2x Orcs</a>

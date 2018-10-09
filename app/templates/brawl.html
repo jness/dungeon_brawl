@@ -181,12 +181,68 @@ Brawl
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
                 <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h5>Add Character</h5>
+                  <h5>Add Random Monster</h5>
                 </a>
               </h5>
             </div>
 
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+
+                <form action='/brawl_add_random_monster' method='POST'>
+
+                <div class="modal-body">
+
+                    <div class="form-row">
+
+                      <div class="col-12">
+                        <label for="quantity">How Many</label>
+                        <select name="quantity" class="form-control" id="quantity">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="by_cr">Challenge Rating</label>
+                        <select name="cr" class="form-control" id="by_cr">
+                            <option value="">-</option>
+                            {% for cr in challenge_rating %}
+                              <option value="{{ cr }}">{{ cr|get_challenge_fraction }}</option>
+                            {% endfor %}
+                        </select>
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Begin model footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+                <!-- End model footer -->
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h5>Add Character</h5>
+                </a>
+              </h5>
+            </div>
+
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="card-body">
 
                 <form action='/brawl_add_character' method='POST'>
@@ -230,60 +286,6 @@ Brawl
             </div>
           </div>
 
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h5>Add Random Monster</h5>
-                </a>
-              </h5>
-            </div>
-
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-
-                <form action='/brawl_add_random_monster' method='POST'>
-
-                <div class="modal-body">
-
-                    <div class="form-row">
-
-                      <div class="col-12">
-                        <label for="quantity">How Many</label>
-                        <select name="quantity" class="form-control" id="quantity">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                      </div>
-
-                      <div class="col-12">
-                        <label for="by_cr">Challenge Rating</label>
-                        <select name="cr" class="form-control" id="by_cr">
-                            {% for cr in challenge_rating %}
-                              <option value="{{ cr }}">{{ cr|get_challenge_fraction }}</option>
-                            {% endfor %}
-                        </select>
-                      </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Begin model footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                  <button type="submit" class="btn btn-primary">Add</button>
-                </div>
-                <!-- End model footer -->
-
-                </form>
-
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>

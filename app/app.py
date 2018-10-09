@@ -277,7 +277,7 @@ def brawl():
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
     # get list of monster challenge_ratings
-    cr = monster_collection.distinct("challenge_rating")
+    cr = sorted(monster_collection.distinct("challenge_rating"))
 
     # render brawl
     return render_template('brawl.html', monsters=monsters, challenge_rating=cr)
@@ -439,12 +439,12 @@ def brawl_add_random_monster():
 
     if request.method == 'POST':
         # grab required form elements from POST
-        cr = request.form['cr']
-        quantity = int(request.form['quantity'])
+        cr = request.form.get('cr')
+        quantity = int(request.form.get('quantity', 1))
 
     elif request.method == 'GET':
         # grab required url params
-        cr = request.args['cr']
+        cr = request.args.get('cr')
         quantity = int(request.args.get('quantity', 1))
 
     # max and min our quantity
@@ -458,13 +458,17 @@ def brawl_add_random_monster():
 
     for _ in range(quantity):
 
-        # perform a random search of size 1
-        _monster = monster_collection.aggregate(
-            [
-                { '$match': { 'challenge_rating': float(cr) } },
-                { '$sample': { 'size': 1 } }
-            ]
-        )
+        # build our mongo filter
+        filters = [
+            { '$sample': { 'size': 1 } }
+        ]
+
+        # if we have a challenge_rating insert into filters
+        if cr:
+            filters.insert(0, { '$match': { 'challenge_rating': float(cr) } })
+
+        # perform a mongo search
+        _monster = monster_collection.aggregate(filters)
 
         # get our single monster
         try:

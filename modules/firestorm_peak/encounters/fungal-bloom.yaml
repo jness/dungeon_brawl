@@ -1,0 +1,12 @@
+name: Fungal Bloom
+slug_name: fungal-bloom
+
+type: Event - Attack
+
+description: |
+  An enormous puffball explodes, filling the air with poisonus spores.
+
+spoilers:
+
+  - title: Constitution Save
+    text: Succeed on a <strong>DC X Constitution Save</strong>

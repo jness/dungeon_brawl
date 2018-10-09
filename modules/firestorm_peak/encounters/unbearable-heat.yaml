@@ -1,0 +1,12 @@
+name: Unbearable Heat
+slug_name: unbearable-heat
+
+type: Event
+
+description: |
+  The volcanic vapors that fill the tunnels slowly wear down your endurance.
+
+spoilers:
+
+  - title: Constitution Save
+    text: Succeed on a <strong>DC X Constitution Save</strong>

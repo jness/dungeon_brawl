@@ -1,0 +1,12 @@
+name: Pit
+slug_name: pit
+
+type: Hazard
+
+description: |
+  A pit opens beneath you, dropping you into the darkness.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

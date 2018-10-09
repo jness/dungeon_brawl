@@ -1,0 +1,12 @@
+name: Frenzied Leap
+slug_name: frenzied-leap
+
+type: Event
+
+description: |
+  A monster leaps at you with supernatural speed!
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_random_monster?quantity=1'>1x Random Monster</a>

@@ -1,0 +1,12 @@
+name: Duergar Outpost
+slug_name: duergar-outpost
+
+type: Event
+
+description: |
+  The duergar maintain a small outpost in the mountian.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=duergar&quantity=2'>2x Duergar</a>

@@ -1,0 +1,12 @@
+name: Kobold Warren
+slug_name: kobold-warren
+
+type: Event
+
+description: |
+  The kobolds under the mountain tend to their mothers every whim.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=kobold-dragonshield&quantity=2'>2x Kobold Dragonshield</a>

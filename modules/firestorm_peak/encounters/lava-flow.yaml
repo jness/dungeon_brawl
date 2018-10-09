@@ -1,0 +1,12 @@
+name: Lava Flow
+slug_name: plava-flow
+
+type: Trap
+
+description: |
+  Red hot lava flows from a pipe in the wall.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

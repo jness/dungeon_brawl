@@ -1,0 +1,12 @@
+name: Bull's Eye!
+slug_name: bull-s-eye
+
+type: Event - Attack
+
+description: |
+  An arrow flies from the shadows!
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

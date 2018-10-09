@@ -1,0 +1,12 @@
+name: Deadly Poison
+slug_name: deadly-poison
+
+type: Event
+
+description: |
+  The toxin infecting you is unnaturally potent.
+
+spoilers:
+
+  - title: Constitution Save
+    text: Succeed on a <strong>DC X Constitution Save</strong>

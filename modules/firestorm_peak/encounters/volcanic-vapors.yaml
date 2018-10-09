@@ -1,0 +1,12 @@
+name: Volcanic Vapors
+slug_name: volcanic-vapors
+
+type: Hazard
+
+description: |
+  Cracks in the floor expel poisonus vapors from the magma pools below.
+
+spoilers:
+
+  - title: Constitution Save
+    text: Succeed on a <strong>DC X Constitution Save</strong>

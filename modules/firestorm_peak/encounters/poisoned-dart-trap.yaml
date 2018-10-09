@@ -1,0 +1,12 @@
+name: Poisoned Dart Trap
+slug_name: poisoned-dart-trap
+
+type: Trap
+
+description: |
+  The trap launches darts coated in snake venom from holes in the wall.
+
+spoilers:
+
+  - title: Dexterity Save
+    text: Succeed on a <strong>DC X Dexterity Save</strong>

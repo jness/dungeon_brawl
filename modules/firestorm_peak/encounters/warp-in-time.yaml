@@ -1,0 +1,12 @@
+name: Warp in Time
+slug_name: warp-in-time
+
+type: Event
+
+description: |
+  Your thoughts are clouded as a pocket of corrupted time washes through the dungeon.
+
+spoilers:
+
+  - title: Wisdom Save
+    text: Succeed on a <strong>DC X Wisdom Save</strong>

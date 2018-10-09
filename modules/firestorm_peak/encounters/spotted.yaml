@@ -1,0 +1,12 @@
+name: Spotted!
+slug_name: spotted
+
+type: Event
+
+description: |
+  Uneven ground causes you to stumble, alerting a nearby guard to your presense.
+
+spoilers:
+
+  - title: Monster
+    text: <a href='/brawl_add_monster?slug_name=cultist&quantity=4'>4x Cultist</a>
