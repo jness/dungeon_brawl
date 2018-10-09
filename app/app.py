@@ -276,8 +276,11 @@ def brawl():
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
+    # get list of monster challenge_ratings
+    cr = monster_collection.distinct("challenge_rating")
+
     # render brawl
-    return render_template('brawl.html', monsters=monsters)
+    return render_template('brawl.html', monsters=monsters, challenge_rating=cr)
 
 
 @app.route('/brawl_reset', methods=['GET'])
