@@ -464,7 +464,11 @@ def brawl_add_random_monster():
         )
 
         # get our single monster
-        monster = _monster.next()
+        try:
+            monster = _monster.next()
+        except:
+            return render_template('error.html',
+                message='No monster with challage rating found'), 404
 
         # add counter to monster name for easy tracking
         name = '%s (%s)' % (monster['name'], len(monsters) + 1)
@@ -687,8 +691,11 @@ def encounters():
         ]
     )
 
-    # fetch single encounter
-    encounter = _encounter.next()
+    try:
+        encounter = _encounter.next()
+    except:
+        return render_template('error.html',
+            message='No encounters found'), 404
 
     # build a redirect to random encounter
     response = redirect(url_for('encounter', slug_name=encounter['slug_name']))
