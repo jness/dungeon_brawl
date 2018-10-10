@@ -439,12 +439,14 @@ def brawl_add_random_monster():
 
     if request.method == 'POST':
         # grab required form elements from POST
-        cr = request.form.get('cr')
+        min_cr = request.form.get('min_cr')
+        max_cr = request.form.get('max_cr')
         quantity = int(request.form.get('quantity', 1))
 
     elif request.method == 'GET':
         # grab required url params
-        cr = request.args.get('cr')
+        min_cr = request.args.get('min_cr')
+        max_cr = request.args.get('max_cr')
         quantity = int(request.args.get('quantity', 1))
 
     # max and min our quantity
@@ -464,8 +466,11 @@ def brawl_add_random_monster():
         ]
 
         # if we have a challenge_rating insert into filters
-        if cr:
-            filters.insert(0, { '$match': { 'challenge_rating': float(cr) } })
+        if min_cr:
+            filters.insert(0, { '$match': { 'challenge_rating': { "$gte": float(min_cr) } } } )
+
+        if max_cr:
+            filters.insert(0, { '$match': { 'challenge_rating': { "$lte": float(max_cr) } } } )
 
         # perform a mongo search
         _monster = monster_collection.aggregate(filters)

@@ -206,9 +206,19 @@ Brawl
                         </select>
                       </div>
 
-                      <div class="col-12">
-                        <label for="by_cr">Challenge Rating</label>
-                        <select name="cr" class="form-control" id="by_cr">
+                      <div class="col-6">
+                        <label for="by_cr">Min Challenge Rating</label>
+                        <select name="min_cr" class="form-control" id="by_cr">
+                            <option value="">-</option>
+                            {% for cr in challenge_rating %}
+                              <option value="{{ cr }}">{{ cr|get_challenge_fraction }}</option>
+                            {% endfor %}
+                        </select>
+                      </div>
+
+                      <div class="col-6">
+                        <label for="by_cr">Max Challenge Rating</label>
+                        <select name="max_cr" class="form-control" id="by_cr">
                             <option value="">-</option>
                             {% for cr in challenge_rating %}
                               <option value="{{ cr }}">{{ cr|get_challenge_fraction }}</option>
