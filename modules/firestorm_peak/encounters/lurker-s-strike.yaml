@@ -12,4 +12,4 @@ spoilers:
     text: 1d20+3 vs Armor Class
 
   - title: Monster
-    text: <a href='/brawl_add_random_monster?quantity=1'>1x Random Monster</a>
+    text: <a href='/brawl_add_random_monster?quantity=2&max_cr=1'>2x Random Monster</a>

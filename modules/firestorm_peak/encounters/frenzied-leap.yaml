@@ -9,4 +9,4 @@ description: |
 spoilers:
 
   - title: Monster
-    text: <a href='/brawl_add_random_monster?quantity=1'>1x Random Monster</a>
+    text: <a href='/brawl_add_random_monster?quantity=1&max_cr=1'>1x Random Monster</a>
