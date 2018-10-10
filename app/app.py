@@ -334,6 +334,10 @@ def brawl_add_monster():
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
+    if len(monsters) >= 10:
+        return render_template('error.html',
+            message='Browser cookie do not support more than 10 monsters'), 409
+
     # required url params for search
     slug_name = request.args['slug_name']
     quantity = int(request.args.get('quantity', 1))
@@ -401,6 +405,10 @@ def brawl_add_character():
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
+    if len(monsters) >= 10:
+        return render_template('error.html',
+            message='Browser cookie do not support more than 10 monsters'), 409
+
     # if - or + operator not added to initiative, set it positive modifier
     if not re.search('^[\-|\+]', initiative_modifier):
         initiative_modifier = '+%s' % int(initiative_modifier)
@@ -457,6 +465,10 @@ def brawl_add_random_monster():
 
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    if len(monsters) >= 10:
+        return render_template('error.html',
+            message='Browser cookie do not support more than 10 monsters'), 409
 
     for _ in range(quantity):
 
