@@ -61,21 +61,6 @@ def get_challenge_fraction(cr):
     return Fraction(cr)
 
 
-@app.template_filter('enable_encounters')
-def enable_encounters(_):
-    """
-    Check if encounters are enabled
-    """
-
-    # get a list of existing collections
-    collections = database.collection_names()
-
-    # iterate over all monster files
-    if 'encounters' in collections:
-        return True
-    return False
-
-
 # add web endpoints
 @app.route('/', methods=['GET'])
 def monsters():
@@ -108,7 +93,7 @@ def monster_search():
 
     # perform a non regex search
     if search_field in non_regex:
-        results = monster_collection.find({search_field: search_text})
+        results = monster_collection.find({search_field: float(search_text)})
 
     # perform a regex search
     else:
