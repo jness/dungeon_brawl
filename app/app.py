@@ -93,7 +93,14 @@ def monster_search():
 
     # perform a non regex search
     if search_field in non_regex:
-        results = monster_collection.find({search_field: float(search_text)})
+
+        try:
+            value = float(Fraction(search_text))
+            results = monster_collection.find({search_field: float(search_text)})
+        except:
+            return render_template('error.html',
+                message='Invalid input for challege_rating'), 500
+
 
     # perform a regex search
     else:
