@@ -300,6 +300,11 @@ def brawl_reset():
     # set cookie to non monsters (characters only)
     response.set_cookie(
         'monsters', json.dumps(new_monsters), max_age=cookie_age)
+
+    # set cookie for monster_count to 1
+    response.set_cookie(
+        'monster_count', json.dumps(1), max_age=cookie_age)
+
     return response
 
 
@@ -314,6 +319,7 @@ def brawl_clear():
 
     # expire the monsters cookie (deletes the cookie)
     response.set_cookie('monsters', expires=0)
+    response.set_cookie('monster_count', expires=0)
     return response
 
 
@@ -325,6 +331,9 @@ def brawl_add_monster():
 
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
+
+    # load monster count from cookie
+    monster_count = int(json.loads(request.cookies.get('monster_count') or '1'))
 
     if len(monsters) >= 10:
         return render_template('error.html',
@@ -350,11 +359,11 @@ def brawl_add_monster():
         for _ in range(quantity):
 
             # add counter to monster name for easy tracking
-            name = '%s (%s)' % (monster['name'], len(monsters) + 1)
+            name = '%s (%s)' % (monster['name'], monster_count)
 
             # create a slim monster object to store in cookie
             slim_monster = {
-                'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+                'unique_id': '%s_%s' % (monster['slug_name'], monster_count),
                 'name': name,
                 'slug_name': monster['slug_name'],
                 'armor_class': monster['armor_class'],
@@ -370,11 +379,19 @@ def brawl_add_monster():
                 slim_monster
             )
 
+            # increase monster count
+            monster_count += 1
+
         # create redirect to brawl page
         response = redirect(url_for('brawl'))
 
         # set cookie for monsters
         response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
+
+        # set cookie for monster_count
+        response.set_cookie(
+            'monster_count', json.dumps(monster_count), max_age=cookie_age)
+
         return response
 
     # if we do not have a result render error
@@ -458,6 +475,9 @@ def brawl_add_random_monster():
     # load monsters from cookie
     monsters = json.loads(request.cookies.get('monsters') or '[]')
 
+    # load monster count from cookie
+    monster_count = int(json.loads(request.cookies.get('monster_count') or '1'))
+
     if len(monsters) >= 10:
         return render_template('error.html',
             message='Browser cookie do not support more than 10 monsters'), 409
@@ -487,11 +507,11 @@ def brawl_add_random_monster():
                 message='No monster with challage rating found'), 404
 
         # add counter to monster name for easy tracking
-        name = '%s (%s)' % (monster['name'], len(monsters) + 1)
+        name = '%s (%s)' % (monster['name'], monster_count)
 
         # create a slim monster object to store in cookie
         slim_monster = {
-            'unique_id': '%s_%s' % (monster['slug_name'], len(monsters) + 1),
+            'unique_id': '%s_%s' % (monster['slug_name'], monster_count),
             'name': name,
             'slug_name': monster['slug_name'],
             'armor_class': monster['armor_class'],
@@ -507,11 +527,19 @@ def brawl_add_random_monster():
             slim_monster
         )
 
+        # increase monster count
+        monster_count += 1
+
     # create redirect to brawl page
     response = redirect(url_for('brawl'))
 
     # set cookie for monsters
     response.set_cookie('monsters', json.dumps(monsters), max_age=cookie_age)
+
+    # set cookie for monster_count
+    response.set_cookie(
+        'monster_count', json.dumps(monster_count), max_age=cookie_age)
+
     return response
 
 
