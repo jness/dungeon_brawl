@@ -61,6 +61,19 @@ def get_challenge_fraction(cr):
     return Fraction(cr)
 
 
+@app.context_processor
+def is_encounters_enabled():
+    """
+    Check if encounter need to be enabled
+    """
+
+    count = encounter_collection.count_documents({})
+
+    if count:
+        return dict(is_encounters_enabled=True)
+    return dict(is_encounters_enabled=False)
+
+
 # add web endpoints
 @app.route('/', methods=['GET'])
 def monsters():

@@ -57,7 +57,7 @@ def populate(collection_name):
                 # to compare against our module specific monsters,
                 # and skip monsters not referenced
                 if collection_name == 'monsters':
-                    if document['name'] not in module_monsters:
+                    if document['slug_name'] not in module_monsters:
                         continue
 
                 # check if document already exists

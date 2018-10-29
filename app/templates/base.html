@@ -47,9 +47,11 @@
           <a class="nav-link" data-toggle="modal" data-target="#dice" href="/brawl">Dice</a>
         </li>
 
+        {% if is_encounters_enabled %}
         <li class="nav-item">
           <a class="nav-link" href="/encounters">Encounter</a>
         </li>
+        {% endif %}
 
         <li class="nav-item">
           <a class="nav-link" href="/brawl">Brawl</a>
