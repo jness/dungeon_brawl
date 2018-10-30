@@ -106,7 +106,7 @@ Brawl
 
       <td>
         <center>
-          <a data-toggle="modal" data-target="#{{ monster.identifier }}_edit">
+          <a data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">
             <img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'>
           </a>
         </center>
@@ -305,7 +305,7 @@ Brawl
 <!-- Begin brawl modals -->
 {% for monster in brawl %}
 
-<div class="modal fade" id="{{ monster.identifier }}_edit" tabindex="-1" role="dialog"
+<div class="modal fade" id="{{ monster.slug_name}}_{{ monster.identifier }}_edit" tabindex="-1" role="dialog"
   aria-labelledby="{{ monster.identifier }}_edit" aria-hidden="true">
 
   <div class="modal-dialog" role="document">

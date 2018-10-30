@@ -245,7 +245,7 @@ def update_monster(
 
         # if our monster matches unique_id this is the monster
         # we plan to update
-        if monster['identifier'] == identifier:
+        if str(monster['identifier']) == str(identifier):
 
             # if posted hit_points starts with a + operator
             # we should increase current hits
