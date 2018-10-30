@@ -63,11 +63,11 @@ Brawl
       <th><center>Edit</center></th>
     </tr>
 
-    {% for monster in monsters %}
+    {% for monster in brawl %}
     <tr>
       <td>
         <form action="/brawl_set_turn" method="POST">
-          <input name="unique_id" value="{{ monster.unique_id }}"
+          <input name="identifier" value="{{ monster.identifier }}"
             type="radio" {% if monster.my_turn == true %}checked="checked"{% endif %}>
         </form>
       </td>
@@ -106,7 +106,7 @@ Brawl
 
       <td>
         <center>
-          <a data-toggle="modal" data-target="#{{ monster.unique_id }}_edit">
+          <a data-toggle="modal" data-target="#{{ monster.identifier }}_edit">
             <img width=25 src='{{ url_for('static', filename='images/pencil.png') }}'>
           </a>
         </center>
@@ -303,16 +303,16 @@ Brawl
   </div>
 
 <!-- Begin brawl modals -->
-{% for monster in monsters %}
+{% for monster in brawl %}
 
-<div class="modal fade" id="{{ monster.unique_id }}_edit" tabindex="-1" role="dialog"
-  aria-labelledby="{{ monster.unique_id }}_edit" aria-hidden="true">
+<div class="modal fade" id="{{ monster.identifier }}_edit" tabindex="-1" role="dialog"
+  aria-labelledby="{{ monster.identifier }}_edit" aria-hidden="true">
 
   <div class="modal-dialog" role="document">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h2 class="modal-title" id="{{ monster.unique_id }}_label">{{ monster.name }}</h2>
+        <h2 class="modal-title" id="{{ monster.identifier }}_label">{{ monster.name }}</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -322,7 +322,7 @@ Brawl
 
       <div class="modal-body">
 
-        <input type="hidden" name="unique_id" value="{{ monster.unique_id }}">
+        <input type="hidden" name="identifier" value="{{ monster.identifier }}">
 
         <div class="row">
 
@@ -459,7 +459,7 @@ Brawl
       <!-- Begin model footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-        <a class="btn btn-danger" href="/brawl_remove_monster?unique_id={{ monster.unique_id }}">Remove</a>
+        <a class="btn btn-danger" href="/brawl_remove_monster?identifier={{ monster.identifier }}">Remove</a>
         <button type="submit" class="btn btn-primary">Save</button>
       </div>
       <!-- End model footer -->

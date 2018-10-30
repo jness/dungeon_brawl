@@ -26,25 +26,14 @@ Monsters
   <div class="form-row">
 
     <!-- Search input -->
-    <div class="col-8 col-md-6">
+    <div class="col-9">
       <label for="inputName" class="sr-only">Search Text</label>
       <input id="inputName" class="form-control" type="text" name="search_text"
-        value="{{ search_text }}" placeholder="Monster..." required autofocus>
-    </div>
-
-    <!-- Search types -->
-    <div class="d-none d-md-block col-2">
-      <select id="selectField" class="form-control form-select" name="search_field">
-        <option value="name" {% if search_field == 'name' %}selected="selected"{% endif %}>Name</option>
-        <option value="alignment" {% if search_field == 'alignment' %}selected="selected"{% endif %}>Alignment</option>
-        <option value="challenge_rating" {% if search_field == 'challenge_rating' %}selected="selected"{% endif %}>Challenge</option>
-        <option value="size" {% if search_field == 'size' %}selected="selected"{% endif %}>Size</option>
-        <option value="type" {% if search_field == 'type' %}selected="selected"{% endif %}>Type</option>
-      </select>
+        value="{{ search_text }}" placeholder="..." required autofocus>
     </div>
 
     <!-- Search button -->
-    <div class="col-4">
+    <div class="col-3">
       <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
     </div>
 

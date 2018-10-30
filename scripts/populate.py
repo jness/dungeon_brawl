@@ -5,7 +5,7 @@ import glob
 import json
 import yaml
 
-from pymongo import MongoClient
+from pymongo import MongoClient, TEXT
 
 
 # first input should be module name

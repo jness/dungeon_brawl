@@ -29,8 +29,6 @@ except IndexError:
     # drop each collection in the dungeon_brawl database
     for collection in collections:
 
-
-
         print('Dropping collection %s' % collection)
         c = getattr(database, collection)
         c.drop()
