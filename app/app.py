@@ -26,6 +26,8 @@ from brawl import (
     roll_initiative, set_turn, remove_monster, get_conditions, update_monster
 )
 
+from map import draw
+
 
 #
 # create our Flask application
@@ -529,6 +531,22 @@ def encounter(slug_name):
     # if we do not have a result render error
     return render_template('error.html',
         message='Encounter %s not found' % slug_name), 404
+
+
+@app.route('/brawl_draw_map', methods=['GET'])
+def brawl_draw_map():
+    """
+    Draw a random map for monsters
+    """
+
+    # load brawl from cookie
+    brawl = get_brawl_cookie(request)
+
+    # get monster identifiers
+    identifiers = [m['identifier'] for m in brawl if not m['is_character']]
+
+    # draw the map
+    return draw(identifiers, app.static_folder)
 
 
 if __name__ == "__main__":

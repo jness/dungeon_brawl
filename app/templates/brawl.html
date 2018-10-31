@@ -481,6 +481,34 @@ Brawl
 {% endfor %}
 <!-- End brawl modals -->
 
+{% if brawl %}
+<hr>
+
+<div class="accordion" id="accordionMap" data-toggle="collapse" data-target="#collapseMap" aria-expanded="true" aria-controls="collapseMap">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <span class='float-right'><small><i>Random Battle Map</i></small></span>
+    </div>
+
+    <div id="collapseMap" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMap">
+      <div class="card-body">
+
+        <!-- bust cache on image load -->
+        <center>
+        <img class='img-thumbnail' src='/brawl_draw_map?{{range(1, 1000)|random}}'>
+        </center>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+{% endif %}
+
 </div>
 
 {% endblock %}
