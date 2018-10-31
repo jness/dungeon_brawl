@@ -176,13 +176,15 @@
   <!-- End monster spells -->
 
   <!-- Start monster actions -->
-  <h4><strong>Actions</strong></h4><br>
+  {% if monster.actions %}
+    <h4><strong>Actions</strong></h4><br>
 
-  {% for action in monster.actions %}
-    <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
-    <br><br>
-  {% endfor %}
-  <!-- End monster actions -->
+    {% for action in monster.actions %}
+      <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
+      <br><br>
+    {% endfor %}
+    <!-- End monster actions -->
+  {% endif %}
 
   <!-- Start monster legendary actions -->
   {% if monster.legendary_actions %}
