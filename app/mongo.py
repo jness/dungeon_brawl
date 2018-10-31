@@ -70,7 +70,7 @@ def find_monsters(**kwargs):
     return find('monsters', **kwargs)
 
 
-def find_random_monster(min_cr=None, max_cr=None):
+def find_random_monster(min_cr=None, max_cr=None, environment=None):
     """
     Find a random monster
     """
@@ -86,6 +86,11 @@ def find_random_monster(min_cr=None, max_cr=None):
     if max_cr:
         query = {'$match': {'challenge_rating': {"$lte": float(max_cr)}}}
         filters.insert(0, query)
+
+    if environment:
+        query = {'$match': {'environments': environment}}
+        filters.insert(0, query)
+
 
     collection = getattr(database, 'monsters')
     monster = collection.aggregate(filters)
@@ -141,7 +146,16 @@ def find_challenge_ratings():
     """
 
     collection = getattr(database, 'monsters')
-    return sorted(collection.distinct("challenge_rating"))
+    return sorted(collection.distinct('challenge_rating'))
+
+
+def find_environments():
+    """
+    Get a distinct environments
+    """
+
+    collection = getattr(database, 'monsters')
+    return sorted(collection.distinct('environments'))
 
 
 def find_random_encounter():

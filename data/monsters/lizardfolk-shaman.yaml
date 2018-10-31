@@ -68,3 +68,9 @@ spell_casting:
                slug_name: conjure-animals
              - name: plant growth
                slug_name: plant-growth
+environments:
+   - coast
+   - dungeon
+   - forest
+   - grassland
+   - swamp

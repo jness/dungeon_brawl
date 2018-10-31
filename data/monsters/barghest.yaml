@@ -60,3 +60,8 @@ spell_casting:
                slug_name: dimension-door
              - name: suggestion
                slug_name: suggestion
+environments:
+   - forest
+   - grassland
+   - mountain
+   - underground

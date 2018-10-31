@@ -51,3 +51,6 @@ legendary_actions:
      description: The dragon makes a tail attack.
    - name: Wing Attack (Costs 2 Actions)
      description: The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
+environments:
+   - arctic
+   - mountain

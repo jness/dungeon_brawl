@@ -39,3 +39,6 @@ actions:
      description: 'Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12+7) slashing damage, or 30 (3d12+11) slashing damage while raging.'
    - name: Rock
      description: 'Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10+7) bludgeoning damage.'
+environments:
+   - arctic
+   - coast

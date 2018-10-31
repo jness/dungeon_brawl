@@ -28,3 +28,13 @@ condition_immunities:
 actions:
    - name: Bite
      description: 'Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.'
+environments:
+   - cave
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp
+   - underground

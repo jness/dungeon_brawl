@@ -70,3 +70,6 @@ spell_casting:
                slug_name: plane-shift
              - name: true seeing
                slug_name: true-seeing
+environments:
+   - planar
+   - urban

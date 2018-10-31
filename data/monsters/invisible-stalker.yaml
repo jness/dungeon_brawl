@@ -35,3 +35,17 @@ actions:
      description: The stalker makes two slam attacks.
    - name: Slam
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.'
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - planar
+   - ruins
+   - swamp
+   - underground
+   - urban

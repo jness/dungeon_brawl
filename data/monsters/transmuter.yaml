@@ -80,3 +80,5 @@ spell_casting:
           spells:
              - name: telekinesis*
                slug_name: telekinesis
+environments:
+   - urban

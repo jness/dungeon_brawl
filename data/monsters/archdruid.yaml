@@ -109,3 +109,8 @@ spell_casting:
           spells:
              - name: foresight
                slug_name: foresight
+environments:
+   - forest
+   - mountain
+   - swamp
+   - aquatic

@@ -122,3 +122,7 @@ spell_casting:
           spells:
              - name: power word kill
                slug_name: power-word-kill
+environments:
+   - dungeon
+   - ruins
+   - urban

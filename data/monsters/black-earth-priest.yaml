@@ -67,3 +67,14 @@ spell_casting:
           spells:
              - name: slow
                slug_name: slow
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - underground

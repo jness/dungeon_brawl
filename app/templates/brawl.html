@@ -206,6 +206,16 @@ Brawl
                         </select>
                       </div>
 
+                      <div class="col-12">
+                        <label for="environment">Environments</label>
+                        <select name="environment" class="form-control" id="environment">
+                            <option value="">-</option>
+                            {% for environment in environments %}
+                              <option value="{{ environment }}">{{ environment|title }}</option>
+                            {% endfor %}
+                        </select>
+                      </div>
+
                       <div class="col-6">
                         <label for="by_cr">Min Challenge Rating</label>
                         <select name="min_cr" class="form-control" id="by_cr">

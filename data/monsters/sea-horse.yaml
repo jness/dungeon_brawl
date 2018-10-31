@@ -29,3 +29,5 @@ special_abilities:
    - name: Water Breathing
      description: The sea horse can breathe only underwater.
 actions:
+environments:
+   - aquatic

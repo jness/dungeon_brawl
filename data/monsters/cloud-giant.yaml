@@ -68,3 +68,6 @@ spell_casting:
                slug_name: control-weather
              - name: gaseous form
                slug_name: gaseous-form
+environments:
+   - mountain
+   - planar

@@ -35,3 +35,6 @@ special_abilities:
 actions:
    - name: Claws
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.'
+environments:
+   - dungeon
+   - planar

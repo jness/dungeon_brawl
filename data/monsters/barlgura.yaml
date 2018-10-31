@@ -56,3 +56,6 @@ spell_casting:
                slug_name: disguise-self
              - name: invisibility (self only)
                slug_name: invisibility
+environments:
+   - dungeon
+   - planar

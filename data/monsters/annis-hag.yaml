@@ -210,3 +210,6 @@ spell_casting:
           spells:
              - name: true seeing
                slug_name: true-seeing
+environments:
+   - grassland
+   - mountain

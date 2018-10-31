@@ -106,3 +106,7 @@ spell_casting:
                slug_name: insect-plague
              - name: mass cure wounds
                slug_name: mass-cure-wounds
+environments:
+   - dungeon
+   - underground
+   - urban

@@ -74,3 +74,5 @@ spell_casting:
           spells:
              - name: phantasmal killer*
                slug_name: phantasmal-killer
+environments:
+   - urban

@@ -68,3 +68,5 @@ spell_casting:
                slug_name: control-weather
              - name: insect plague
                slug_name: insect-plague
+environments:
+   - planar

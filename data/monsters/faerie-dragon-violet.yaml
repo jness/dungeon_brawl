@@ -64,3 +64,9 @@ spell_casting:
                slug_name: polymorph
              - name: suggestion
                slug_name: suggestion
+environments:
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp

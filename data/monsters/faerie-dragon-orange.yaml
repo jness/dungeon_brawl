@@ -54,3 +54,9 @@ spell_casting:
                slug_name: mage-hand
              - name: minor illusion
                slug_name: minor-illusion
+environments:
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp

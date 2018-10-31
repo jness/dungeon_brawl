@@ -28,3 +28,6 @@ condition_immunities:
 actions:
    - name: Tail
      description: 'Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 26 (6d6+5) piercing damage.'
+environments:
+   - forest
+   - grassland

@@ -72,3 +72,9 @@ spell_casting:
                slug_name: major-image
              - name: plane shift
                slug_name: plane-shift
+environments:
+   - arctic
+   - coast
+   - dungeon
+   - grassland
+   - planar

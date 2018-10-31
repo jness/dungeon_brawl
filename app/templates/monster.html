@@ -126,6 +126,12 @@
     <strong>• Challenge</strong>:
     <span>{{ monster.challenge_rating|get_challenge_fraction }} ({{ monster.experience }} XP)</span>
 
+    {% if monster.environments %}
+    <br>
+    <strong>• Environments</strong>:
+    <span>{% for environment in monster.environments %}{{ environment|title }}{% if not loop.last %},{% endif %} {% endfor %}</span>
+    {% endif %}
+
   </div>
   <hr>
   <!-- End monster details -->

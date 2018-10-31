@@ -41,3 +41,5 @@ actions:
      description: "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8+4) piercing damage.\n\n**Reactions**"
    - name: Uncanny Dodge
      description: The thief halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker.
+environments:
+   - urban

@@ -50,3 +50,6 @@ spell_casting:
                slug_name: tasha-s-hideous-laughter
              - name: vicious mockery 1/day
                slug_name: vicious-mockery
+environments:
+   - grassland
+   - underground

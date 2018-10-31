@@ -106,3 +106,6 @@ spell_casting:
           spells:
              - name: time stop
                slug_name: time-stop
+environments:
+   - ruins
+   - urban

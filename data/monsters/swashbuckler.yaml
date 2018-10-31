@@ -37,3 +37,6 @@ actions:
      description: 'Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.'
    - name: Rapier
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.'
+environments:
+   - coast
+   - urban

@@ -78,3 +78,6 @@ spell_casting:
                slug_name: invisibility
              - name: unseen servant
                slug_name: unseen-servant
+environments:
+   - grassland
+   - underground

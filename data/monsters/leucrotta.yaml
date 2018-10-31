@@ -41,3 +41,6 @@ actions:
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice.'
    - name: Hooves
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.'
+environments:
+   - desert
+   - grassland

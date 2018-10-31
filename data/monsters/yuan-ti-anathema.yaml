@@ -76,3 +76,7 @@ spell_casting:
           spells:
              - name: divine word
                slug_name: divine-word
+environments:
+   - desert
+   - forest
+   - underground

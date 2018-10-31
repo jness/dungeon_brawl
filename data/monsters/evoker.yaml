@@ -88,3 +88,5 @@ spell_casting:
                slug_name: chain-lightning
              - name: wall of ice*
                slug_name: wall-of-ice
+environments:
+   - urban

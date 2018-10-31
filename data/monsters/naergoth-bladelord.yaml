@@ -37,3 +37,5 @@ actions:
      description: 'Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage.'
    - name: Longbow
      description: 'Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage.'
+environments:
+   - dungeon

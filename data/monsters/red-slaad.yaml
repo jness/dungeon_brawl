@@ -39,3 +39,5 @@ actions:
      description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target.\n\nHit: 8 (2d4 + 3) piercing damage."
    - name: Claw
      description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be infected with a disease - a minuscule slaad egg.\n\nA humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.\n\nIf the disease is cured before the tadpole's emergence, the unborn slaad is disintegrated."
+environments:
+   - planar

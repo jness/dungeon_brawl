@@ -90,3 +90,7 @@ spell_casting:
                slug_name: hunger-of-hadar
              - name: witch bolt
                slug_name: witch-bolt
+environments:
+   - desert
+   - forest
+   - underground

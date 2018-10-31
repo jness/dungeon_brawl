@@ -65,3 +65,12 @@ spell_casting:
                slug_name: fly
              - name: lightning bolt
                slug_name: lightning-bolt
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - grassland
+   - mountain
+   - ruins

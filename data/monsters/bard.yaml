@@ -66,3 +66,5 @@ spell_casting:
                slug_name: invisibility
              - name: shatter
                slug_name: shatter
+environments:
+   - urban

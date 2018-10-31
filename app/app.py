@@ -14,7 +14,7 @@ from exceptions import CookieLimit, NoMonster
 from mongo import (
     find_monsters, find_spells, find_conditions, find_one,
     find_monsters_with_spell, find_challenge_ratings, find_random_monster,
-    full_text, count, find_random_encounter
+    full_text, count, find_random_encounter, find_environments
 )
 
 from cookie import (
@@ -273,8 +273,12 @@ def brawl():
     # get list of monster challenge_ratings
     cr = find_challenge_ratings()
 
+    # get list of environments
+    environments = find_environments()
+
     # render brawl
-    return render_template('brawl.html', brawl=brawl, challenge_rating=cr)
+    return render_template('brawl.html', brawl=brawl, challenge_rating=cr,
+        environments=environments)
 
 
 @app.route('/brawl_clear', methods=['GET'])
@@ -348,11 +352,13 @@ def brawl_add_random_monster():
         min_cr = request.form.get('min_cr')
         max_cr = request.form.get('max_cr')
         quantity = int(request.form.get('quantity', 1))
+        environment = request.form.get('environment')
 
     elif request.method == 'GET':
         min_cr = request.args.get('min_cr')
         max_cr = request.args.get('max_cr')
         quantity = int(request.args.get('quantity', 1))
+        environment = request.args.get('environment')
 
     # load brawl from cookie
     brawl = get_brawl_cookie(request)
@@ -362,7 +368,7 @@ def brawl_add_random_monster():
 
         # get a random monster
         try:
-            monster = find_random_monster(min_cr, max_cr)
+            monster = find_random_monster(min_cr, max_cr, environment)
         except NoMonster:
             return render_template('error.html',
                 message='No monster with challage rating found'), 404

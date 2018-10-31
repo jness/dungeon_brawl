@@ -66,3 +66,8 @@ spell_casting:
                slug_name: plane-shift
              - name: wall of fire
                slug_name: wall-of-fire
+environments:
+   - desert
+   - dungeon
+   - mountain
+   - planar

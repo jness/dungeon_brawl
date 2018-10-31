@@ -37,3 +37,6 @@ actions:
      description: 'Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining.'
    - name: Light Crossbow
      description: 'Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 6 (1d8+2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining.'
+environments:
+   - desert
+   - urban

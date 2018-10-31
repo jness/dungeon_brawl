@@ -104,3 +104,7 @@ spell_casting:
                slug_name: telekinesis
              - name: wall of force
                slug_name: wall-of-force
+environments:
+   - dungeon
+   - underground
+   - urban

@@ -62,3 +62,8 @@ spell_casting:
                slug_name: polymorph
              - name: sleep
                slug_name: sleep
+environments:
+   - coast
+   - forest
+   - grassland
+   - swamp

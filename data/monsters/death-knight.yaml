@@ -76,3 +76,16 @@ spell_casting:
           spells:
              - name: destructive wave (necrotic)
                slug_name: destructive-wave
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp
+   - underground
+   - urban

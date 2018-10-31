@@ -43,3 +43,6 @@ actions:
      description: The golem makes two slam attacks.
    - name: Slam
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.'
+environments:
+   - dungeon
+   - ruins

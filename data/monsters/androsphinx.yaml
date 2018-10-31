@@ -94,3 +94,6 @@ spell_casting:
           spells:
              - name: heroes' feast
                slug_name: heroes-feast
+environments:
+   - dungeon
+   - ruins

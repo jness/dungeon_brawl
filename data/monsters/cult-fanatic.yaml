@@ -60,3 +60,6 @@ spell_casting:
                slug_name: hold-person
              - name: spiritual weapon
                slug_name: spiritual-weapon
+environments:
+   - dungeon
+   - urban

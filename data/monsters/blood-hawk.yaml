@@ -33,3 +33,7 @@ special_abilities:
 actions:
    - name: Beak
      description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.'
+environments:
+   - coast
+   - grassland
+   - mountain

@@ -72,3 +72,6 @@ spell_casting:
                slug_name: invisibility
              - name: scorching ray
                slug_name: scorching-ray
+environments:
+   - grassland
+   - underground

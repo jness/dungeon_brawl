@@ -58,3 +58,6 @@ spell_casting:
           spells:
              - name: dominate person
                slug_name: dominate-person
+environments:
+   - dungeon
+   - planar

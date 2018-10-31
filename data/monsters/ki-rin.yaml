@@ -144,3 +144,8 @@ spell_casting:
           spells:
              - name: true resurrection
                slug_name: true-resurrection
+environments:
+   - coast
+   - desert
+   - grassland
+   - mountain

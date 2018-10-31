@@ -33,3 +33,6 @@ special_abilities:
 actions:
    - name: Bite
      description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'
+environments:
+   - grassland
+   - underground

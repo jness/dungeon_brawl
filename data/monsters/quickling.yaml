@@ -35,3 +35,5 @@ actions:
      description: The quickling makes three dagger attacks.
    - name: Dagger
      description: 'Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage.'
+environments:
+   - forest

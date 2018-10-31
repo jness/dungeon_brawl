@@ -60,3 +60,6 @@ spell_casting:
                slug_name: call-lightning
              - name: Evard's black tentacles
                slug_name: evard-s-black-tentacles
+environments:
+   - coast
+   - aquatic

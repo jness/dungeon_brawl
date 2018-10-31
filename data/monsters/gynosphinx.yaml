@@ -90,3 +90,6 @@ spell_casting:
           spells:
              - name: legend lore
                slug_name: legend-lore
+environments:
+   - dungeon
+   - ruins

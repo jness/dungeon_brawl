@@ -54,3 +54,6 @@ spell_casting:
                slug_name: confusion
              - name: dominate monster
                slug_name: dominate-monster
+environments:
+   - underground
+   - urban

@@ -62,3 +62,6 @@ spell_casting:
           spells:
              - name: fireball
                slug_name: fireball
+environments:
+   - dungeon
+   - ruins

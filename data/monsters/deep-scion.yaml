@@ -41,3 +41,6 @@ actions:
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6+4) slashing damage.'
    - name: Psychic Screech (Hybrid Form Only; Recharges after a Short or Long Rest)
      description: The deep scion emits a terrible scream audible within 300 feet. Creatures within 30 feet of the deep scion must succeed on a DC 13 Wisdom saving throw or be stunned until the end of the deep scion's next turn. In water, the psychic screech also telepathically transmits the deep scion's memories of the last 24 hours to its master, regardless of distance, so long as it and its master are in the same body of water.
+environments:
+   - coast
+   - aquatic

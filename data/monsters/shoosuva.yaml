@@ -35,3 +35,7 @@ actions:
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 26 (4d10+4) piercing damage.'
    - name: Tail Stinger
      description: 'Melee Weapon Attack: +7 to hit, reach 15 ft, one creature. Hit: 13 (2d8+4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.'
+environments:
+   - arctic
+   - forest
+   - grassland

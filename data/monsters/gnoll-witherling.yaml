@@ -37,3 +37,7 @@ actions:
      description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.\n\n**Reactions**"
    - name: Vengeful Strike
      description: In response to a gnoll being reduced to 0 hit points within 30 feet of the witherling, the witherling makes a melee attack.
+environments:
+   - arctic
+   - forest
+   - grassland

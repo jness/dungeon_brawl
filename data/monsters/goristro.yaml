@@ -43,3 +43,6 @@ actions:
      description: 'Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.'
    - name: Gore
      description: 'Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 45 (7d10 + 7) piercing damage.'
+environments:
+   - dungeon
+   - planar

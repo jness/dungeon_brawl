@@ -35,3 +35,16 @@ actions:
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.'
    - name: Thunderous Strike (Recharge 6)
      description: The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - planar
+   - ruins
+   - swamp
+   - underground

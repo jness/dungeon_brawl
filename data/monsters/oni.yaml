@@ -60,3 +60,8 @@ spell_casting:
                slug_name: gaseous-form
              - name: sleep
                slug_name: sleep
+environments:
+   - dungeon
+   - grassland
+   - ruins
+   - urban

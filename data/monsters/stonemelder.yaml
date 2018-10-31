@@ -72,3 +72,14 @@ spell_casting:
           spells:
              - name: stoneskin
                slug_name: stoneskin
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - underground

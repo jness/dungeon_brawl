@@ -98,3 +98,8 @@ spell_casting:
                slug_name: suggestion
              - name: wall of fire
                slug_name: wall-of-fire
+environments:
+   - arctic
+   - desert
+   - underground
+   - urban

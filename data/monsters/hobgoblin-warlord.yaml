@@ -41,3 +41,9 @@ actions:
      description: "For 1 minute, the hobgoblin can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is incapacitated.\n\n**Reactions**"
    - name: Parry
      description: The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon.
+environments:
+   - arctic
+   - coast
+   - grassland
+   - mountain
+   - urban

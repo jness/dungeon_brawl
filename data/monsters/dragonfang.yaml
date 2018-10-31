@@ -39,3 +39,6 @@ actions:
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance.'
    - name: Orb of Dragon's Breath (2/Day)
      description: 'Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.'
+environments:
+   - dungeon
+   - urban

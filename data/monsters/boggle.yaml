@@ -37,3 +37,8 @@ actions:
      description: 'Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage.'
    - name: Oil Puddle
      description: "The boggle creates a puddle of oil that is either slippery or sticky (boggle's choice). The puddle is 1 inch deep and covers the ground in the boggle's space. The puddle is difficult terrain For all creatures except boggles and lasts for 1 hour.\n\nIf the oil is slippery, any creature that enters the puddle's area or starts its turn there must succeed on a DC 11 Dexterity saving throw or fall prone.\n\nIf the oil is sticky, any creature that enters the puddle's area or starts its turn there must succeed on a DC 11 Strength saving throw or be restrained. On its turn. a creature can use an action to try to extricate itself from the sticky puddle, ending the effect and moving into the nearest safe unoccupied space with a successful DC 11 Strength check."
+environments:
+   - forest
+   - grassland
+   - underground
+   - urban

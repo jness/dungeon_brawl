@@ -35,3 +35,16 @@ actions:
      description: The elemental makes two slam attacks.
    - name: Slam
      description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.'
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - planar
+   - ruins
+   - swamp
+   - underground

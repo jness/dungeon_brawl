@@ -54,3 +54,5 @@ spell_casting:
                slug_name: commune
              - name: raise dead
                slug_name: raise-dead
+environments:
+   - planar

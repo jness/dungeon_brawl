@@ -58,3 +58,6 @@ spell_casting:
                slug_name: invisibility
              - name: mirror image
                slug_name: mirror-image
+environments:
+   - dungeon
+   - planar

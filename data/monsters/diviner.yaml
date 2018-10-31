@@ -102,3 +102,5 @@ spell_casting:
           spells:
              - name: maze
                slug_name: maze
+environments:
+   - urban

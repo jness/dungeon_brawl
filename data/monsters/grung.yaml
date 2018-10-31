@@ -37,3 +37,5 @@ special_abilities:
 actions:
    - name: Dagger
      description: 'Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft, one target. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.'
+environments:
+   - forest

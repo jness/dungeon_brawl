@@ -33,3 +33,7 @@ actions:
      description: The fungus makes 1d4 Rotting Touch attacks.
    - name: Rotting Touch
      description: 'Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.'
+environments:
+   - cave
+   - dungeon
+   - underground

@@ -49,3 +49,5 @@ spell_casting:
                slug_name: disguise-self
              - name: shield
                slug_name: shield
+environments:
+   - urban

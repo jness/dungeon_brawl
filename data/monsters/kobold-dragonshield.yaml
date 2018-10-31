@@ -39,3 +39,9 @@ actions:
      description: The kobold makes two melee attacks.
    - name: Spear
      description: 'Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.'
+environments:
+   - forest
+   - grassland
+   - mountain
+   - underground
+   - urban

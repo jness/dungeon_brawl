@@ -70,3 +70,12 @@ spell_casting:
           spells:
              - name: gaseous form
                slug_name: gaseous-form
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - grassland
+   - mountain
+   - ruins

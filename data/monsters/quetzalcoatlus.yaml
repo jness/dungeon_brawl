@@ -33,3 +33,7 @@ special_abilities:
 actions:
    - name: Bite
      description: 'Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.'
+environments:
+   - coast
+   - grassland
+   - mountain

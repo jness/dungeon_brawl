@@ -39,3 +39,6 @@ actions:
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.'
    - name: 'Variant: Summon Demon (1/Day)'
      description: "The demon chooses what to summon and attempts a magical summoning.\n\nA hezrou has a 30 percent chance of summoning 2d6 dretches or one hezrou.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+environments:
+   - dungeon
+   - planar

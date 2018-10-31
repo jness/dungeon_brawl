@@ -72,3 +72,12 @@ spell_casting:
           spells:
              - name: fire shield (see Wreathed in Flame)
                slug_name: fire-shield
+environments:
+   - cave
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - underground

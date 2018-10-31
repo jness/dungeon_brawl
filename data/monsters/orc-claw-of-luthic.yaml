@@ -70,3 +70,6 @@ spell_casting:
                slug_name: bestow-curse
              - name: create food and water
                slug_name: create-food-and-water
+environments:
+   - mountain
+   - underground

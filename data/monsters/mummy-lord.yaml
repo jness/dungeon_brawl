@@ -98,3 +98,6 @@ spell_casting:
           spells:
              - name: harm
                slug_name: harm
+environments:
+   - desert
+   - dungeon

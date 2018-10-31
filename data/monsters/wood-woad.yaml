@@ -39,3 +39,5 @@ actions:
      description: The wood woad makes two attacks with its club.
    - name: Club
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (4d4+4) bludgeoning damage.'
+environments:
+   - forest

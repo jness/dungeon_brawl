@@ -41,3 +41,6 @@ actions:
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance.'
    - name: Orb of Dragon's Breath (3/Day)
      description: 'Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.'
+environments:
+   - dungeon
+   - urban

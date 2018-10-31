@@ -37,3 +37,11 @@ actions:
      description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6) piercing damage.\n\n**Reactions**"
    - name: Redirect Attack
      description: When a creature the goblin can see targets it with an attack, the goblin chooses another goblin within 5 feet of it. The two goblins swap places, and the chosen goblin becomes the target instead.
+environments:
+   - cave
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - urban

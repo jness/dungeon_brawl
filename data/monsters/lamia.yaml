@@ -59,3 +59,6 @@ spell_casting:
           spells:
              - name: geas
                slug_name: geas
+environments:
+   - desert
+   - ruins

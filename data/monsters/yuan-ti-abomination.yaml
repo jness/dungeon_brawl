@@ -58,3 +58,9 @@ spell_casting:
           spells:
              - name: fear
                slug_name: fear
+environments:
+   - desert
+   - forest
+   - mountain
+   - ruins
+   - swamp

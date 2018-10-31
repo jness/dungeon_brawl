@@ -72,3 +72,5 @@ spell_casting:
                slug_name: fire-storm
              - name: plane shift (self only)
                slug_name: plane-shift
+environments:
+   - planar

@@ -62,3 +62,7 @@ spell_casting:
                slug_name: hellish-rebuke
              - name: scorching ray
                slug_name: scorching-ray
+environments:
+   - grassland
+   - mountain
+   - underground

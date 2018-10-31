@@ -88,3 +88,6 @@ spell_casting:
           spells:
              - name: circle of death*
                slug_name: circle-of-death
+environments:
+   - desert
+   - urban

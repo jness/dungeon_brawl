@@ -86,3 +86,6 @@ spell_casting:
                slug_name: mass-cure-wounds
              - name: scrying
                slug_name: scrying
+environments:
+   - aquatic
+   - coast

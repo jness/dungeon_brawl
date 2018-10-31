@@ -64,3 +64,5 @@ spell_casting:
                slug_name: or-xorn-only
              - name: Otto's irresistible dance
                slug_name: otto-s-irresistible-dance
+environments:
+   - forest

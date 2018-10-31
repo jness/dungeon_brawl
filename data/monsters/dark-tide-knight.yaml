@@ -39,3 +39,10 @@ actions:
      description: "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage.\n\n**Reactions**"
    - name: Uncanny Dodge
      description: When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.
+environments:
+   - aquatic
+   - cave
+   - coast
+   - grassland
+   - swamp
+   - underground

@@ -35,3 +35,7 @@ actions:
      description: The helmed horror makes two longsword attacks.
    - name: Longsword
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.'
+environments:
+   - dungeon
+   - ruins
+   - urban

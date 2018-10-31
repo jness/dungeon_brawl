@@ -33,3 +33,5 @@ special_abilities:
 actions:
    - name: Gore
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.'
+environments:
+   - grassland

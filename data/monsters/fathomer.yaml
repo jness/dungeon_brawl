@@ -64,3 +64,10 @@ spell_casting:
           spells:
              - name: Vampiric touch
                slug_name: vampiric-touch
+environments:
+   - aquatic
+   - cave
+   - coast
+   - grassland
+   - swamp
+   - underground

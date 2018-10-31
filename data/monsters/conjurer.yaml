@@ -80,3 +80,5 @@ spell_casting:
                slug_name: cloudkill
              - name: conjure elemental*
                slug_name: conjure-elemental
+environments:
+   - urban

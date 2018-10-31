@@ -52,3 +52,5 @@ spell_casting:
                slug_name: feeblemind
              - name: telekinesis
                slug_name: telekinesis
+environments:
+   - underground

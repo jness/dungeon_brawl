@@ -35,3 +35,6 @@ actions:
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.'
    - name: Dropped Rock
      description: 'Ranged Weapon Attack: +5 to hit, one target directly below the kobold. Hit: 6 (1d6 + 3) bludgeoning damage.'
+environments:
+   - mountain
+   - underground

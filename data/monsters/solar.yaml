@@ -76,3 +76,5 @@ spell_casting:
                slug_name: commune
              - name: control weather
                slug_name: control-weather
+environments:
+   - planar

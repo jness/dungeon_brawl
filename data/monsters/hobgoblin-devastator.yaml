@@ -78,3 +78,6 @@ spell_casting:
           spells:
              - name: ice storm
                slug_name: ice-storm
+environments:
+   - forest
+   - grassland

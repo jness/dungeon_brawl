@@ -56,3 +56,9 @@ spell_casting:
                slug_name: minor-illusion
              - name: mirror image
                slug_name: mirror-image
+environments:
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp

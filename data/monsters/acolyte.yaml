@@ -49,3 +49,13 @@ spell_casting:
                slug_name: cure-wounds
              - name: sanctuary
                slug_name: sanctuary
+environments:
+   - arctic
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - swamp
+   - underground
+   - urban

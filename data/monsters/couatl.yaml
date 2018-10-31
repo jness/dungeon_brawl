@@ -74,3 +74,5 @@ spell_casting:
                slug_name: greater-restoration
              - name: scrying
                slug_name: scrying
+environments:
+   - planar

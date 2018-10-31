@@ -70,3 +70,6 @@ spell_casting:
                slug_name: mass-healing-word
              - name: tongues
                slug_name: tongues
+environments:
+   - aquatic
+   - coast

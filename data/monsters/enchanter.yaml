@@ -79,3 +79,5 @@ spell_casting:
           spells:
              - name: hold monster*
                slug_name: hold-monster
+environments:
+   - urban

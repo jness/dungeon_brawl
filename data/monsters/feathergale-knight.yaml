@@ -53,3 +53,12 @@ spell_casting:
                slug_name: expeditious-retreat
              - name: feather fall
                slug_name: feather-fall
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - grassland
+   - mountain
+   - ruins

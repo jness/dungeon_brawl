@@ -65,3 +65,10 @@ spell_casting:
           spells:
              - name: sleet storm
                slug_name: sleet-storm
+environments:
+   - aquatic
+   - cave
+   - coast
+   - grassland
+   - swamp
+   - underground

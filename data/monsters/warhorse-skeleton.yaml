@@ -28,3 +28,6 @@ condition_immunities: exhaustion, poisoned
 actions:
    - name: Hooves
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.'
+environments:
+   - grassland
+   - ruins

@@ -33,3 +33,5 @@ special_abilities:
 actions:
    - name: Bite
      description: 'Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.'
+environments:
+   - aquatic

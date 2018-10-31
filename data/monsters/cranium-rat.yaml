@@ -33,3 +33,6 @@ special_abilities:
 actions:
    - name: Bite
      description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.'
+environments:
+   - underground
+   - urban

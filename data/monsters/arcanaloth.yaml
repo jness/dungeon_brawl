@@ -120,3 +120,6 @@ spell_casting:
           spells:
              - name: mind blank
                slug_name: mind-blank
+environments:
+   - dungeon
+   - planar

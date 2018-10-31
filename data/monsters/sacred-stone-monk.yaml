@@ -37,3 +37,14 @@ actions:
      description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.\n\n**Reactions**"
    - name: Parry
      description: The monk adds 2 to its AC against one melee or ranged weapon attack that would hit it. To do so, the monk must see the attacker.
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - underground

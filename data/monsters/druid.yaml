@@ -57,3 +57,13 @@ spell_casting:
                slug_name: animal-messenger
              - name: barkskin
                slug_name: barkskin
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - forest
+   - grassland
+   - mountain
+   - swamp
+   - underground

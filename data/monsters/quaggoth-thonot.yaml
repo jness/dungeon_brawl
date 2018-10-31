@@ -54,3 +54,6 @@ spell_casting:
                slug_name: heat-metal
              - name: mirror image
                slug_name: mirror-image
+environments:
+   - dungeon
+   - urban

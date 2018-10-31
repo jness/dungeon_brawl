@@ -76,3 +76,9 @@ spell_casting:
                slug_name: invisibility
              - name: plane shift
                slug_name: plane-shift
+environments:
+   - aquatic
+   - coast
+   - dungeon
+   - planar
+   - swamp

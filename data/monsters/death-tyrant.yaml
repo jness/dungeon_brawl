@@ -37,3 +37,7 @@ legendary_action_description: The death tyrant can take 3 legendary actions, cho
 legendary_actions:
    - name: Eye Ray
      description: The death tyrant uses one random eye ray.
+environments:
+   - cave
+   - dungeon
+   - underground

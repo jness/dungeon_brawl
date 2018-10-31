@@ -33,3 +33,5 @@ actions:
      description: 'Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.'
    - name: Fist
      description: 'Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.'
+environments:
+   - grassland

@@ -50,3 +50,7 @@ spell_casting:
                slug_name: darkness
              - name: faerie fire
                slug_name: faerie-fire
+environments:
+   - dungeon
+   - underground
+   - urban

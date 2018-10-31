@@ -28,3 +28,6 @@ condition_immunities: charmed, frightened, poisoned
 actions:
    - name: Claws
      description: 'Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.'
+environments:
+   - dungeon
+   - planar

@@ -72,3 +72,6 @@ spell_casting:
                slug_name: dispel-evil-and-good
              - name: entangle
                slug_name: entangle
+environments:
+   - forest
+   - ruins

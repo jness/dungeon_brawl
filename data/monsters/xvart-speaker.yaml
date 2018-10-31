@@ -26,3 +26,6 @@ damage_immunities:
 damage_vulnerabilities:
 condition_immunities:
 actions:
+environments:
+   - grassland
+   - underground

@@ -39,3 +39,15 @@ actions:
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.'
    - name: Fiery Strikes (Recharge 6)
      description: The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.
+environments:
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - grassland
+   - mountain
+   - planar
+   - ruins
+   - swamp
+   - underground
+   - urban

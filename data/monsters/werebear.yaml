@@ -39,3 +39,8 @@ actions:
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.'
    - name: Greataxe (Humanoid or Hybrid Form Only)
      description: 'Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.'
+environments:
+   - cave
+   - forest
+   - mountain
+   - urban

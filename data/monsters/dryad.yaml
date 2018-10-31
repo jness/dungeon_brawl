@@ -60,3 +60,5 @@ spell_casting:
                slug_name: pass-without-trace
              - name: shillelagh
                slug_name: shillelagh
+environments:
+   - forest

@@ -57,3 +57,7 @@ legendary_actions:
      description: The vampire makes one unarmed strike.
    - name: Bite (Costs 2 Actions)
      description: The vampire makes one bite attack.
+environments:
+   - dungeon
+   - ruins
+   - urban

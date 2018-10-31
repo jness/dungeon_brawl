@@ -50,3 +50,9 @@ spell_casting:
                slug_name: poison-spray
              - name: suggestion
                slug_name: suggestion
+environments:
+   - desert
+   - forest
+   - mountain
+   - ruins
+   - swamp

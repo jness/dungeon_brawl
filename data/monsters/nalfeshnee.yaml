@@ -41,3 +41,6 @@ actions:
      description: The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
    - name: 'Variant: Summon Demon (1/Day)'
      description: "The demon chooses what to summon and attempts a magical summoning.\n\nA nalfeshnee has a 50 percent chance of summoning 1d4 vrocks, 1d3 hezrous, 1d2 glabrezus, or one nalfeshnee.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+environments:
+   - dungeon
+   - planar

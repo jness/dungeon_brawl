@@ -41,3 +41,6 @@ actions:
      description: The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock's next turn .
    - name: 'Variant: Summon Demon (1/Day)'
      description: "The demon chooses what to summon and attempts a magical summoning.\n\nA vrock has a 30 percent chance of summoning 2d4 dretches or one vrock.\n\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+environments:
+   - dungeon
+   - planar

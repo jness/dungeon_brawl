@@ -52,3 +52,8 @@ spell_casting:
                slug_name: blur
              - name: disguise self
                slug_name: disguise-self
+environments:
+   - cave
+   - dungeon
+   - planar
+   - underground

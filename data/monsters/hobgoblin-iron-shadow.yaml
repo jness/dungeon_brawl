@@ -60,3 +60,6 @@ spell_casting:
                slug_name: expeditious-retreat
              - name: silent image
                slug_name: silent-image
+environments:
+   - forest
+   - grassland

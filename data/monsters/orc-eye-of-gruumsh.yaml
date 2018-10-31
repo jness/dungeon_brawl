@@ -58,3 +58,14 @@ spell_casting:
                slug_name: augury
              - name: spiritual weapon (spear)
                slug_name: spiritual-weapon
+environments:
+   - arctic
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp
+   - urban

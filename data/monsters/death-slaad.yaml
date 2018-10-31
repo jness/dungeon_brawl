@@ -78,3 +78,5 @@ spell_casting:
                slug_name: cloudkill
              - name: plane shift
                slug_name: plane-shift
+environments:
+   - planar

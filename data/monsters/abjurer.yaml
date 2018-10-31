@@ -96,3 +96,5 @@ spell_casting:
                slug_name: symbol
              - name: teleport
                slug_name: teleport
+environments:
+   - urban

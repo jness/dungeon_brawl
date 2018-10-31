@@ -39,3 +39,7 @@ actions:
      description: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.\n\n**Reactions**"
    - name: Unbridled Fury
      description: In response to being hit by a melee attack, the tanarukk can make one melee weapon attack with advantage against the attacker.
+environments:
+   - grassland
+   - mountain
+   - underground

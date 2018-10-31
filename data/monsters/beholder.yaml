@@ -37,3 +37,7 @@ legendary_action_description: The beholder can take 3 legendary actions, choosin
 legendary_actions:
    - name: Eye Ray
      description: The beholder uses one random eye ray.
+environments:
+   - cave
+   - dungeon
+   - underground

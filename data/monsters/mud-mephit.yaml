@@ -37,3 +37,10 @@ actions:
      description: The mephit belches viscid mud onto one creature within 5 ft. of it. If the target is Medium or smaller, it must succeed on a DC 11 Dexterity saving throw or be restrained for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
    - name: 'Variant: Summon Mephits (1/Day)'
      description: The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
+environments:
+   - coast
+   - dungeon
+   - forest
+   - planar
+   - swamp
+   - urban

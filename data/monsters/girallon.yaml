@@ -37,3 +37,5 @@ actions:
      description: 'Melee Weapon Attack: +6 to hit, reach 5 ft, one creature. Hit: 7 (1d6+4) piercing damage.'
    - name: Claw
      description: 'Melee Weapon Attack: +6 to hit. reach 10 ft., one target. Hit: 7 (1d6+4) slashing damage.'
+environments:
+   - forest

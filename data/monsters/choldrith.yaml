@@ -72,3 +72,5 @@ spell_casting:
                slug_name: hold-person
              - name: spiritual weapon (dagger)
                slug_name: spiritual-weapon
+environments:
+   - underground

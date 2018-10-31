@@ -33,3 +33,7 @@ special_abilities:
 actions:
    - name: Touch
      description: 'Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 poison damage, and the creature must succeed on a DC 10 Constitution saving throw or become infected with the disease described in the Death Burst trait.'
+environments:
+   - cave
+   - dungeon
+   - underground

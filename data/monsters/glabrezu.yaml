@@ -58,3 +58,6 @@ spell_casting:
                slug_name: fly
              - name: power word stun
                slug_name: power-word-stun
+environments:
+   - dungeon
+   - planar

@@ -64,3 +64,8 @@ spell_casting:
                slug_name: blindness-deafness
              - name: silence
                slug_name: silence
+environments:
+   - forest
+   - grassland
+   - mountain
+   - underground

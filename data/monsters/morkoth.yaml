@@ -98,3 +98,6 @@ spell_casting:
           spells:
              - name: chain lightning
                slug_name: chain-lightning
+environments:
+   - coast
+   - aquatic

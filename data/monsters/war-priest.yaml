@@ -101,3 +101,6 @@ spell_casting:
                slug_name: mass-cure-wounds
              - name: hold monster
                slug_name: hold-monster
+environments:
+   - desert
+   - urban

@@ -47,3 +47,5 @@ spell_casting:
                slug_name: misty-step
              - name: nondetection (self only)
                slug_name: nondetection
+environments:
+   - planar

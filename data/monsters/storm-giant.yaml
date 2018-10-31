@@ -58,3 +58,9 @@ spell_casting:
                slug_name: control-weather
              - name: water breathing
                slug_name: water-breathing
+environments:
+   - arctic
+   - coast
+   - desert
+   - mountain
+   - planar

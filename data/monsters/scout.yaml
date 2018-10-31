@@ -35,3 +35,11 @@ actions:
      description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.'
    - name: Longbow
      description: 'Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.'
+environments:
+   - arctic
+   - coast
+   - desert
+   - forest
+   - grassland
+   - mountain
+   - swamp

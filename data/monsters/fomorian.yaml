@@ -34,3 +34,6 @@ actions:
      description: The fomorian magically forces a creature it can see within 60 feet of it to make a DC 14 Charisma saving throw. The creature takes 27 (6d8) psychic damage on a failed save, or half as much damage on a successful one.
    - name: Curse of the Evil Eye (Recharges after a Short or Long Rest)
      description: "With a stare, the fomorian uses Evil Eye, but on a failed save, the creature is also cursed with magical deformities. While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity.\n\nThe transformed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on a success."
+environments:
+   - cave
+   - underground

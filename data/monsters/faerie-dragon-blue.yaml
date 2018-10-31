@@ -60,3 +60,9 @@ spell_casting:
                slug_name: mirror-image
              - name: suggestion
                slug_name: suggestion
+environments:
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - swamp

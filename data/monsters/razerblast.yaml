@@ -35,3 +35,12 @@ actions:
      description: The razerblast makes three melee attacks.
    - name: Spear
      description: 'Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.'
+environments:
+   - cave
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - ruins
+   - underground

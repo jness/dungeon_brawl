@@ -35,3 +35,10 @@ actions:
      description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage.'
    - name: Heavy Crossbow
      description: 'Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.'
+environments:
+   - arctic
+   - cave
+   - coast
+   - forest
+   - grassland
+   - urban

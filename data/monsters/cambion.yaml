@@ -54,3 +54,7 @@ spell_casting:
           spells:
              - name: plane shift (self only)
                slug_name: plane-shift
+environments:
+   - dungeon
+   - planar
+   - urban

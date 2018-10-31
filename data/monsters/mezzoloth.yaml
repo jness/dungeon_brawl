@@ -56,3 +56,6 @@ spell_casting:
           spells:
              - name: cloudkill
                slug_name: cloudkill
+environments:
+   - dungeon
+   - planar

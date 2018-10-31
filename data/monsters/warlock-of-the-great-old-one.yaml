@@ -98,3 +98,9 @@ spell_casting:
                slug_name: telekinesis
              - name: vampiric touch
                slug_name: vampiric-touch
+environments:
+   - arctic
+   - grassland
+   - mountain
+   - underground
+   - urban

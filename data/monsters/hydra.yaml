@@ -39,3 +39,13 @@ actions:
      description: The hydra makes as many bite attacks as it has heads.
    - name: Bite
      description: 'Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.'
+environments:
+   - aquatic
+   - cave
+   - coast
+   - dungeon
+   - forest
+   - mountain
+   - ruins
+   - swamp
+   - underground

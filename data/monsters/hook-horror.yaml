@@ -35,3 +35,6 @@ actions:
      description: The hook horror makes two hook attacks.
    - name: Hook
      description: 'Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.'
+environments:
+   - dungeon
+   - underground

@@ -39,3 +39,7 @@ actions:
      description: "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.\n\n**Reactions**"
    - name: Shield
      description: When a creature makes an attack against the wearer of the guardian's amulet, the guardian grants a +2 bonus to the wearer's AC if the guardian is within 5 feet of the wearer.
+environments:
+   - dungeon
+   - ruins
+   - urban

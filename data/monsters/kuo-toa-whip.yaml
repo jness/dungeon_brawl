@@ -58,3 +58,6 @@ spell_casting:
                slug_name: bane
              - name: shield of faith
                slug_name: shield-of-faith
+environments:
+   - aquatic
+   - coast

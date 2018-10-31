@@ -77,3 +77,5 @@ spell_casting:
           spells:
              - name: cone of cold
                slug_name: cone-of-cold
+environments:
+   - urban

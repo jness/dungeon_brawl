@@ -39,3 +39,8 @@ actions:
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.'
    - name: Tusks (Boar or Hybrid Form Only)
      description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.'
+environments:
+   - forest
+   - grassland
+   - swamp
+   - urban

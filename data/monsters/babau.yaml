@@ -51,3 +51,6 @@ spell_casting:
                slug_name: heat-metal
              - name: levitate
                slug_name: levitate
+environments:
+   - underground
+   - urban

@@ -100,3 +100,5 @@ spell_casting:
                slug_name: major-image
              - name: tongues
                slug_name: tongues
+environments:
+   - mountain

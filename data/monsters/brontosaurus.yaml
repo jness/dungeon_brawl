@@ -30,3 +30,6 @@ actions:
      description: 'Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27 (5d8+5) bludgeoning damage, and the target must succed on a DC 14 Strength saving throw or be knocked prone.'
    - name: Tail
      description: 'Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32 (6d8+5) bludgeoning damage.'
+environments:
+   - forest
+   - grassland

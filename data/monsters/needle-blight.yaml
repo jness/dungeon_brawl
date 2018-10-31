@@ -30,3 +30,7 @@ actions:
      description: 'Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) piercing damage.'
    - name: Needles
      description: 'Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.'
+environments:
+   - forest
+   - grassland
+   - swamp

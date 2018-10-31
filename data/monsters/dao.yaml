@@ -76,3 +76,9 @@ spell_casting:
                slug_name: plane-shift
              - name: wall of stone
                slug_name: wall-of-stone
+environments:
+   - cave
+   - dungeon
+   - mountain
+   - planar
+   - underground

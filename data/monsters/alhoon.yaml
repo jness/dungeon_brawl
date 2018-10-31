@@ -114,3 +114,5 @@ spell_casting:
                slug_name: disintegrate
              - name: globe of invulnerability
                slug_name: globe-of-invulnerability
+environments:
+   - underground

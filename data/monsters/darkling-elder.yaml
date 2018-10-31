@@ -35,3 +35,8 @@ actions:
      description: 'Melee Weapon Attack: +5 to hit, reach 5 fit, one target. Hit: 6 (1d6+3) piercing damage. If the darkling elder had advantage on the attack roll, the attack deals as: extra 10 (3d6) piercing damage.'
    - name: Darkness (Recharges after a Short or Long Rest)
      description: The darkling elder casts darkness without any components. Wisdom is its spellcasting ability.
+environments:
+   - forest
+   - swamp
+   - underground
+   - urban

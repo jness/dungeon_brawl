@@ -64,3 +64,12 @@ spell_casting:
           spells:
              - name: gust of wind
                slug_name: gust-of-wind
+environments:
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - grassland
+   - mountain
+   - ruins

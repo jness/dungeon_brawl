@@ -93,3 +93,9 @@ spell_casting:
                slug_name: seeming
              - name: sleep
                slug_name: sleep
+environments:
+   - arctic
+   - forest
+   - mountain
+   - swamp
+   - urban

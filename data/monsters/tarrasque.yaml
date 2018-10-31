@@ -57,3 +57,18 @@ legendary_actions:
      description: The tarrasque moves up to half its speed.
    - name: Chomp (Costs 2 Actions)
      description: The tarrasque makes one bite attack or uses its Swallow.
+environments:
+   - aquatic
+   - arctic
+   - cave
+   - coast
+   - desert
+   - dungeon
+   - forest
+   - grassland
+   - mountain
+   - planar
+   - ruins
+   - swamp
+   - underground
+   - urban

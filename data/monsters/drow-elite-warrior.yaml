@@ -56,3 +56,7 @@ spell_casting:
                slug_name: faerie-fire
              - name: levitate (self only)
                slug_name: levitate
+environments:
+   - dungeon
+   - underground
+   - urban

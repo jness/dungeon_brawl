@@ -43,3 +43,9 @@ actions:
      description: 'Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.'
    - name: Veil of Shargaas (Recharges after a Short or Long Rest)
      description: The orc casts darkness without any components. Wisdom is its spellcasting ability.
+environments:
+   - forest
+   - grassland
+   - mountain
+   - underground
+   - urban

@@ -102,3 +102,6 @@ spell_casting:
           spells:
              - name: eye bite
                slug_name: eye-bite
+environments:
+   - planar
+   - underground

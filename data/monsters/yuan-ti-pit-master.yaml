@@ -88,3 +88,7 @@ spell_casting:
                slug_name: unseen-servant
              - name: vampiric touch
                slug_name: vampiric-touch
+environments:
+   - desert
+   - forest
+   - underground
