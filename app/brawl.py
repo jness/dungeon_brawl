@@ -187,7 +187,7 @@ def set_turn(brawl, identifier):
 
         # if monster's identifier matches set to his turn,
         # else not it's turn
-        if monster['identifier'] == identifier:
+        if str(monster['identifier']) == str(identifier):
             monster['my_turn'] = True
         else:
             monster['my_turn'] = False
