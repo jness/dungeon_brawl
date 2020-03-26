@@ -45,7 +45,7 @@ def get_next_monster_identifier(brawl):
     Get next identifier from brawl
     """
 
-    # get a list of upper case letters for identifiers
+    # get a list of identifiers
     identifiers = list(ascii_uppercase)
 
     # iterate over all monsters removing their identifier from list
@@ -64,8 +64,8 @@ def get_next_character_identifier(brawl):
     Get next identifier from brawl
     """
 
-    # get a list of upper case letters for identifiers
-    identifiers = list(range(1, 10))
+    # get a list of identifiers
+    identifiers = list(ascii_uppercase)
 
     # iterate over all monsters removing their identifier from list
     for monster in brawl:
@@ -84,7 +84,7 @@ def add_monsters(brawl, monster, quantity):
     """
 
     # limit brawl size
-    if len(brawl) + quantity > 10:
+    if len(brawl) + quantity > 6:
         raise CookieLimit('Browser cookie do not support more monsters')
 
     # need to import within function....
@@ -100,7 +100,7 @@ def add_monsters(brawl, monster, quantity):
         # slim representation of our monster object
         slim_monster = {
             'identifier': identifier,
-            'name': '%s (%s)' % (monster['name'], identifier),
+            'name': monster['name'],
             'slug_name': monster['slug_name'],
             'armor_class': monster['armor_class'],
             'hit_points': monster['hit_points'],
@@ -109,6 +109,16 @@ def add_monsters(brawl, monster, quantity):
             'notes': '',
             'conditions': []
         }
+
+        # get a list of colors
+        colors = ['343a40', 'd9534f', '4582EC', '02B875', 'f0ad4e', 'ffffff']
+
+        for _ in brawl:
+            if not _['is_character']:
+                if _['name'] == slim_monster['name']:
+                    colors.pop(0)
+
+        slim_monster['color'] = colors[0]
 
         # append monster to brawl
         brawl.append(slim_monster)
@@ -234,7 +244,7 @@ def get_conditions():
 
 
 def update_monster(
-        brawl, identifier, initiative, armor_class, hit_points, notes,
+        name, brawl, identifier, initiative, armor_class, hit_points, notes,
         conditions):
     """
     Update a monster
@@ -262,6 +272,7 @@ def update_monster(
                 hit_points = int(hit_points)
 
             # set our initative, hit_points, and notes
+            monster['name'] = name
             monster['initiative'] = int(initiative)
             monster['armor_class'] = int(armor_class)
             monster['hit_points'] = int(hit_points)

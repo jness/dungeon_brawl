@@ -78,13 +78,18 @@ Brawl
         {% if monster.is_character %}
           {{ monster.name }}
         {% else %}
-          <a href='/monster/{{ monster.slug_name }}'>{{ monster.name }}</a>
+          <a href='/monster/{{ monster.slug_name }}'>
+            <svg height="35" width="20">
+              <circle cx="10" cy="17" r="5" fill="#{{ monster.color }}" />
+            </svg>
+            {{ monster.name }}
+          </a>
         {% endif %}
       </td>
 
       <td class="d-none d-md-table-cell">{{ monster.armor_class }}</td>
 
-      <td class="d-none d-md-table-cell">{{ monster.hit_points }}</td>
+      <td class="d-none d-md-table-cell"><span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">{{ monster.hit_points }}</span></td>
 
       <td class="d-none d-md-table-cell">
         <center>
@@ -321,14 +326,17 @@ Brawl
   <div class="modal-dialog" role="document">
     <div class="modal-content">
 
+      <form action='/brawl_update_monster' method='POST'>
+
       <div class="modal-header">
-        <h2 class="modal-title" id="{{ monster.identifier }}_label">{{ monster.name }}</h2>
+        <h2 class="modal-title" id="{{ monster.identifier }}_label">
+          <input id="ac" class="form-control" type="text" name="name"
+            value="{{ monster.name }}" required>
+        </h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-
-      <form action='/brawl_update_monster' method='POST'>
 
       <div class="modal-body">
 
@@ -481,33 +489,7 @@ Brawl
 {% endfor %}
 <!-- End brawl modals -->
 
-{% if brawl %}
 <hr>
-
-<div class="accordion" id="accordionMap" data-toggle="collapse" data-target="#collapseMap" aria-expanded="true" aria-controls="collapseMap">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <span class='float-right'><small><i>Random Battle Map</i></small></span>
-    </div>
-
-    <div id="collapseMap" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMap">
-      <div class="card-body">
-
-        <!-- bust cache on image load -->
-        <center>
-        <img class='img-thumbnail' src='/brawl_draw_map?{{range(1, 1000)|random}}'>
-        </center>
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-
-
-{% endif %}
 
 </div>
 
