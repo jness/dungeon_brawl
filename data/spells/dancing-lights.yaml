@@ -11,7 +11,7 @@ sources:
   - PHB.230
   - SRD.133
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, S, M (a bit of phosphorus or wychwood, or a glowworm)

@@ -11,7 +11,7 @@ sources:
   - PHB.221
   - SRD.124
   
-level: Cantrip
+level: 0th-level
 school: Necromancy
 
 components: V, S

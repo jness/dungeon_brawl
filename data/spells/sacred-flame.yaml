@@ -9,7 +9,7 @@ sources:
   - PHB.272
   - SRD.176
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, S

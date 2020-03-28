@@ -157,6 +157,8 @@ def spells():
 
     # perform column sort
     if 'sort' in request.args:
+        if request.args['sort'] == 'level':
+            pass
         spells = spells.sort(request.args['sort'])
 
     # render our template with results
@@ -175,7 +177,7 @@ def spell_search():
     # perform search against all fields
     spells = full_text('spells', search_text)
 
-    # sort if url param passed
+    # perform column sort
     if 'sort' in request.args:
         spells = spells.sort(request.args['sort'])
 
@@ -439,6 +441,7 @@ def brawl_update_monster():
 
     # grab required form elements from POST
     name = request.form['name']
+    color = request.form['color']
     identifier = request.form['identifier']
     initiative = int(request.form['initiative'])
     armor_class = int(request.form['armor_class'])
@@ -452,7 +455,7 @@ def brawl_update_monster():
     # update monster
     brawl = update_monster(
         name, brawl, identifier, initiative, armor_class, hit_points,
-        notes, conditions)
+        notes, conditions, color)
 
     # render brawl
     return set_brawl_cookie(brawl)

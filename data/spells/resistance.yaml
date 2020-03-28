@@ -10,7 +10,7 @@ sources:
   - PHB.272
   - SRD.175
   
-level: Cantrip
+level: 0th-level
 school: Abjuration
 
 components: V, S, M (a miniature cloak)

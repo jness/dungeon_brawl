@@ -13,7 +13,7 @@ sources:
   - PHB.259
   - SRD.164
   
-level: Cantrip
+level: 0th-level
 school: Transmutation
 
 components: V, S, M (two lodestones)

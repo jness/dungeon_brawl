@@ -9,7 +9,7 @@ sources:
   - PHB.277
   - SRD.181
   
-level: Cantrip
+level: 0th-level
 school: Necromancy
 
 components: V, S

@@ -22,7 +22,7 @@
   <!-- Spell heading -->
   <h1><strong>{{ spell.name }}</strong></h1>
 
-  {{ spell.level }}, {{ spell.school }} -
+  {% if spell.level == "0th-level" %}Cantrip{% else %}{{ spell.level }}{% endif %}, {{ spell.school }} -
   ({% for class in spell.classes %}{{ class|title }}{% if not loop.last %}, {% endif %}{% endfor %})
   <hr>
 

@@ -10,7 +10,7 @@ sources:
   - PHB.241
   - SRD.144
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, S

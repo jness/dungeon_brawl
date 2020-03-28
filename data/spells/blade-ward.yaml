@@ -11,7 +11,7 @@ classes:
 sources:
   - PHB.218
   
-level: Cantrip
+level: 0th-level
 school: Abjuration
 
 components: V, S

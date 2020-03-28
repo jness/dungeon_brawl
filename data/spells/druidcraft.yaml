@@ -9,7 +9,7 @@ sources:
   - PHB.236
   - SRD.138
   
-level: Cantrip
+level: 0th-level
 school: Transmutation
 
 components: V, S

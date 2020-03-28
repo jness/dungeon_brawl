@@ -10,7 +10,7 @@ classes:
 sources:
   - SCAG.142
 
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, M (a weapon)

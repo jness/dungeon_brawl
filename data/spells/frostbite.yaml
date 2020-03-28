@@ -12,7 +12,7 @@ sources:
   - EE.18
   - Xanathar.156
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, S

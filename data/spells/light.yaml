@@ -12,7 +12,7 @@ sources:
   - PHB.255
   - SRD.159
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, M (a firefly or phosphorescent moss)

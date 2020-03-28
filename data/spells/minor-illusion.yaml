@@ -13,7 +13,7 @@ sources:
   - PHB.260
   - SRD.164
   
-level: Cantrip
+level: 0th-level
 school: Illusion
 
 components: S, M (a bit of fleece)

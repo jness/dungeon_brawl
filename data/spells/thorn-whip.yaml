@@ -8,7 +8,7 @@ classes:
 sources:
   - PHB.282
   
-level: Cantrip
+level: 0th-level
 school: Transmutation
 
 components: V, S, M (the stem of a plant with thorns)

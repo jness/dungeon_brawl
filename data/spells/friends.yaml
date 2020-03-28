@@ -11,7 +11,7 @@ classes:
 sources:
   - PHB.244
   
-level: Cantrip
+level: 0th-level
 school: Enchantment
 
 components: S, M (a small amount of makeup applied to the face as this spell is cast)

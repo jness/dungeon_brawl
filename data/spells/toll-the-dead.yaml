@@ -10,7 +10,7 @@ classes:
 sources:
   - Xanathar.169
   
-level: Cantrip
+level: 0th-level
 school: Necromancy
 
 components: V, S

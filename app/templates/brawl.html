@@ -72,7 +72,7 @@ Brawl
         </form>
       </td>
 
-      <td>{{ monster.initiative }}</td>
+      <td><span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">{{ monster.initiative }}</span></td>
 
       <td>
         {% if monster.is_character %}
@@ -329,10 +329,21 @@ Brawl
       <form action='/brawl_update_monster' method='POST'>
 
       <div class="modal-header">
-        <h2 class="modal-title" id="{{ monster.identifier }}_label">
-          <input id="ac" class="form-control" type="text" name="name"
+
+          <input id="name" class="form-control" type="text" name="name"
             value="{{ monster.name }}" required>
-        </h2>
+
+          &nbsp;
+          <select class="form-control" id="color" name="color">
+            <option {% if monster.color == "343a40" %}selected{% endif %} value=343a40>Black</option>
+            <option {% if monster.color == "d9534f" %}selected{% endif %} value=d9534f>Red</option>
+            <option {% if monster.color == "4582EC" %}selected{% endif %} value=4582EC>Blue</option>
+            <option {% if monster.color == "02B875" %}selected{% endif %} value=02B875>Green</option>
+            <option {% if monster.color == "f0ad4e" %}selected{% endif %} value=f0ad4e>Yellow</option>
+            <option {% if monster.color == "ffffff" %}selected{% endif %} value=ffffff>White</option>
+          </select>
+
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

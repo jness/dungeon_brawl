@@ -11,7 +11,7 @@ sources:
   - EE.19
   - Xanathar.157
   
-level: Cantrip
+level: 0th-level
 school: Transmutation
 
 components: V, S

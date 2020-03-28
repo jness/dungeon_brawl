@@ -53,15 +53,17 @@ Spells
 
       <tr>
         <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
-        <th><a href='?sort=school&search_text={{ search_text }}&search_field={{ search_field }}'>School</a></th>
-        <th class="d-none d-md-table-cell"><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=school&search_text={{ search_text }}&search_field={{ search_field }}'>School</a></th>
+        <th><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
+        <th class="d-none d-md-table-cell text-center">Classes</th>
       </tr>
 
       {% for spell in spells %}
       <tr>
         <td><a href='/spell/{{ spell.slug_name }}'>{{ spell.name }}</a></td>
-        <td>{{ spell.school }}</td>
-        <td class="d-none d-md-table-cell">{{ spell.level }}</td>
+        <td class="d-none d-md-table-cell">{{ spell.school }}</td>
+        <td>{% if spell.level == "0th-level" %}Cantrip{% else %}{{ spell.level }}{% endif %}</td>
+        <td class="d-none d-md-table-cell text-center">{% for class in spell.classes %}<a href='spell_search?search_text={{ class }}'>{{ class|title }}</a>{{ ", " if not loop.last }}{% endfor %}</td>
       </tr>
       {% endfor %}
 

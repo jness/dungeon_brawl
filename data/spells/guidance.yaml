@@ -10,7 +10,7 @@ sources:
   - PHB.248
   - SRD.151
   
-level: Cantrip
+level: 0th-level
 school: Divination
 
 components: V, S

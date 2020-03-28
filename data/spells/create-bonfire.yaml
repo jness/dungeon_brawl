@@ -12,7 +12,7 @@ sources:
   - EE.16
   - Xanathar.152
   
-level: Cantrip
+level: 0th-level
 school: Conjuration
 
 components: V, S

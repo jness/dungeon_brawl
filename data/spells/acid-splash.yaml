@@ -10,7 +10,7 @@ sources:
   - PHB.211
   - SRD.114
   
-level: Cantrip
+level: 0th-level
 school: Conjuration
 
 components: V, S

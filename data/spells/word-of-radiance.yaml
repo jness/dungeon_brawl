@@ -8,7 +8,7 @@ classes:
 sources:
   - Xanathar.171
   
-level: Cantrip
+level: 0th-level
 school: Evocation
 
 components: V, M (a holy symbol)

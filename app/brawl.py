@@ -245,7 +245,7 @@ def get_conditions():
 
 def update_monster(
         name, brawl, identifier, initiative, armor_class, hit_points, notes,
-        conditions):
+        conditions, color):
     """
     Update a monster
     """
@@ -277,6 +277,7 @@ def update_monster(
             monster['armor_class'] = int(armor_class)
             monster['hit_points'] = int(hit_points)
             monster['notes'] = notes
+            monster['color'] = color
 
             # add conditions
             monster['conditions'] = []

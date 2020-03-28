@@ -34,7 +34,7 @@ def full_text(collection_name, text):
     """
 
     # fields to perform regex search against
-    fields = ['name', 'alignment', 'type', 'size', 'school']
+    fields = ['name', 'alignment', 'type', 'size', 'school', 'classes']
 
     # empty mongo or query
     kwargs = {'$or': []}
