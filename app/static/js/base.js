@@ -19,3 +19,7 @@ function roll_dice(number) {
   dice_total = document.getElementById("dice_total");
   dice_total.innerHTML = "<br><strong>Total</strong>: " + total;
 }
+
+$('#dice').on('hidden.bs.modal', function () {
+    clear_dice();
+});
