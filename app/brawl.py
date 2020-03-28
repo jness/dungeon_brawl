@@ -273,7 +273,13 @@ def update_monster(
 
             # set our initative, hit_points, and notes
             monster['name'] = name
-            monster['initiative'] = int(initiative)
+
+            if initiative:
+                monster['initiative'] = int(initiative)
+            else:
+                if 'initiative' in monster:
+                    del(monster['initiative'])
+
             monster['armor_class'] = int(armor_class)
             monster['hit_points'] = int(hit_points)
             monster['notes'] = notes

@@ -333,6 +333,7 @@ Brawl
           <input id="name" class="form-control" type="text" name="name"
             value="{{ monster.name }}" required>
 
+          {% if not monster.is_character %}
           &nbsp;
           <select class="form-control" id="color" name="color">
             <option {% if monster.color == "343a40" %}selected{% endif %} value=343a40>Black</option>
@@ -342,7 +343,9 @@ Brawl
             <option {% if monster.color == "f0ad4e" %}selected{% endif %} value=f0ad4e>Yellow</option>
             <option {% if monster.color == "ffffff" %}selected{% endif %} value=ffffff>White</option>
           </select>
-
+          {% else %}
+            <input type="hidden" name="color" value="ffffff">
+          {% endif %}
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
@@ -358,7 +361,7 @@ Brawl
           <div class="col-4">
             <strong>Init</strong>
             <input id="name" class="form-control" type="number"
-              value="{{ monster.initiative }}" name="initiative" required>
+              value="{{ monster.initiative }}" name="initiative">
           </div>
 
           <div class="col-4">

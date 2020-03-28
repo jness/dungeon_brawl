@@ -443,11 +443,15 @@ def brawl_update_monster():
     name = request.form['name']
     color = request.form['color']
     identifier = request.form['identifier']
-    initiative = int(request.form['initiative'])
     armor_class = int(request.form['armor_class'])
     hit_points = request.form['hit_points']
     notes = request.form.get('notes') or ''
     conditions = [c for c in get_conditions() if c in request.form]
+
+    # handle blank initiaive
+    initiative = request.form['initiative']
+    if initiative:
+        initiative = int(initiative)
 
     # load brawl from cookie
     brawl = get_brawl_cookie(request)
