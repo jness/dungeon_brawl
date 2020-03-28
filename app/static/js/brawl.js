@@ -14,6 +14,10 @@ $(document).on('click', function (e) {
     });
 });
 
+function get_percentage() {
+  return "25%";
+}
+
 $('input[type=radio]').on('change', function() {
     $(this).closest("form").submit();
 });

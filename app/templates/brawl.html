@@ -89,7 +89,13 @@ Brawl
 
       <td class="d-none d-md-table-cell">{{ monster.armor_class }}</td>
 
-      <td class="d-none d-md-table-cell"><span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">{{ monster.hit_points }}</span></td>
+      <td class="d-none d-md-table-cell">
+        <span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ (monster.hit_points/monster.max_hit_points*100)}}%" aria-valuenow="{{ monster.hit_points }}" aria-valuemin="0" aria-valuemax="{{ monster.max_hit_points }}">&nbsp;{{ monster.hit_points }} / {{ monster.max_hit_points }}</div>
+          </div>
+        </span>
+      </td>
 
       <td class="d-none d-md-table-cell">
         <center>
