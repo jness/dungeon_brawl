@@ -152,6 +152,13 @@
     {% endif %}
 
   </div>
+
+  {% if character.spell_domain %}
+  <strong>• Spell Domain</strong>:
+  <span>{{ character.spell_domain }}</span>
+  <br>
+  {% endif %}
+
   <hr>
   <!-- End character details -->
 
@@ -169,6 +176,7 @@
   <!-- End character special abilities -->
 
   <!-- Start character spells -->
+
   {% if character.spell_casting %}
     {% for spell_casting in character.spell_casting %}
       <h4><strong>{{ spell_casting.title }}</strong></h4><br>

@@ -7,7 +7,7 @@ race: Human
 alignment: any alignment
 armor_class: 18
 armor_class_type: '(chain mail, shield)'
-hit_points: 18
+hit_points: 12
 hit_dice: 1d10
 speed: 30 ft.
 strength: 16

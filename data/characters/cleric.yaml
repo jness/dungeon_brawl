@@ -1,0 +1,65 @@
+name: Cleric
+slug_name: cleric
+size: Medium
+class: Cleric
+level: 1
+race: Human
+alignment: any alignment
+armor_class: 18
+armor_class_type: '(chain mail, shield)'
+hit_points: 9
+hit_dice: 1d8
+speed: 30 ft.
+strength: 15
+dexterity: 8
+constitution: 13
+intelligence: 10
+wisdom: 16
+charisma: 12
+saving_throws: Wis +5, Cha +3
+proficiences: +2 proficiency bonus
+skills: Athletics +4, Insight +5, Medicine +5, Perception +5.
+senses: 'passive (Perception) 15'
+languages: Common
+tools: Navigator’s tools
+armor: All, shields
+weapons: Simple, martial
+damage_resistances: You take 3 less damage from nonmagical weapons dealing bludgeoning, piercing, or slashing damage.
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
+spell_domain: Tempest Domain
+features:
+   - name: Heavy Armor Master
+     description: |
+      While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.
+actions:
+   - name: Maul
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2d6 + 3 bludgeoning damage.'
+   - name: Longsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.'
+reactions:
+  - name: Wrath of the Storm
+    description: |
+       Inflict 2d8 lightning or thunder damage on an adjacent creature who hits you (Dexterity save for half damage).
+spell_casting:
+   - title: Spellcasting
+     top_description: 'You are a divine spellcaster (cleric feature) who uses Wisdom as your spellcasting ability (spell save DC 13; +5 to hit with spell attacks). You have the following spells prepared:'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: resistance
+               slug_name: resistance
+             - name: thaumaturgy
+               slug_name: thaumaturgy
+        - title: 1st level (2 slots)
+          spells:
+             - name: shield of faith
+               slug_name: shield-of-faith
+             - name: cure wounds
+               slug_name: cure-wounds
+             - name: fog cloud
+               slug_name: fog-cloud
+             - name: thunderwave
+               slug_name: thunderwave

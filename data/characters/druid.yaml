@@ -29,7 +29,7 @@ damage_immunities:
 damage_vulnerabilities:
 condition_immunities:
 actions:
-   - name: Daggerr
+   - name: Dagger
      description: 'Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 1d4 + 3 piercing damage.'
    - name: Scimitar
      description: 'Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6 + 3 slashing damage.'
@@ -50,7 +50,7 @@ spell_casting:
                slug_name: druidcraft
              - name: thorn whip
                slug_name: thorn-whip
-        - title: 1st level (3 slots)
+        - title: 1st level (2 slots)
           spells:
              - name: detect magic
                slug_name: detect-magic
