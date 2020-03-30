@@ -81,11 +81,11 @@ def main():
     Main function that calls populate on all the things
     """
 
-    # populate('monsters')
-    # populate('spells')
-    # populate('conditions')
-    # populate('encounters')
-    # populate('characters')
+    populate('monsters')
+    populate('spells')
+    populate('conditions')
+    populate('encounters')
+    populate('characters')
     populate('actions')
 
 
