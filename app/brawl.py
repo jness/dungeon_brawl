@@ -128,7 +128,7 @@ def add_monsters(brawl, monster, quantity):
     return brawl
 
 
-def add_character(brawl, name, initiative_modifier, armor_class, hit_points):
+def add_character(brawl, name, initiative_modifier, armor_class, hit_points, url=None):
     """
     Add character to brawl
     """
@@ -154,6 +154,9 @@ def add_character(brawl, name, initiative_modifier, armor_class, hit_points):
         'notes': '',
         'conditions': []
     }
+
+    if url:
+        slim_monster['url'] = url
 
     # append monster to brawl
     brawl.append(slim_monster)

@@ -1,0 +1,47 @@
+name: Rogue
+slug_name: rogue
+size: Medium
+class: Rogue
+level: 1
+race: Human
+alignment: any alignment
+armor_class: 14
+armor_class_type: '(leather armor)'
+hit_points: 9
+hit_dice: 1d8
+speed: 30 ft.
+strength: 10
+dexterity: 16
+constitution: 15
+intelligence: 14
+wisdom: 13
+charisma: 9
+saving_throws: Dex +5, Int +4
+proficiences: +2 proficiency bonus
+skills:  Acrobatics +5, Deception +1, Investigation +4, Perception +5, Sleight of Hand +5, Stealth +5
+senses: 'passive (Perception) 15'
+languages: Common, Thieves’ Cant
+tools: Thieves' Tools +4
+armor: Light armor.
+weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords.
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
+features:
+   - name: Sneak Attack
+     description: |
+       You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+
+       You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
+actions:
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 bludgeoning damage.'
+   - name: Dagger
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60, one target. Hit: 1d6 + 3 piercing damage.'
+   - name: Shortbow
+     description: 'Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 1d6 + 3 piercing damage.'
+bonus_actions:
+   - name: Two Weapon Fighting
+     description: |
+      When you take the Attack action with a melee weapon, you can use your bonus action to attack with your off hand melee weapon. You don't add your ability modifier to the damage of the bonus attack.

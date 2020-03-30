@@ -76,7 +76,11 @@ Brawl
 
       <td>
         {% if monster.is_character %}
+          {% if monster.url %}
+          <a href="{{ monster.url }}">{{ monster.name }}</a>
+          {% else %}
           {{ monster.name }}
+          {% endif %}
         {% else %}
           <a href='/monster/{{ monster.slug_name }}'>
             <svg height="35" width="20">

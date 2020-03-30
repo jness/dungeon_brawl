@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Characters
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/characters.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/characters.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+
+
+<!-- Begin character list -->
+<div class="container">
+
+  <table id="table" class="table table-striped" style="width:100%">
+
+      <tr>
+        <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=race&search_text={{ search_text }}&search_field={{ search_field }}'>Race</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=class&search_text={{ search_text }}&search_field={{ search_field }}'>Class</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
+      </tr>
+
+      {% for character in characters %}
+      <tr>
+        <td><a href='/character/{{ character.slug_name }}'>{{ character.name }}</a></td>
+        <td class="d-none d-md-table-cell">{{ character.race|title }}</td>
+        <td class="d-none d-md-table-cell">{{ character.class|title }}</td>
+        <td class="d-none d-md-table-cell">{{ character.level }}</td>
+      </tr>
+      {% endfor %}
+
+  </table>
+
+</div>
+<!-- End character list -->
+
+{% endblock %}

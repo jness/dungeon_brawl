@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{ action.name }}
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/action.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/action.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+<div class="container">
+
+  <!-- action heading -->
+  <h1><strong>{{ action.name }}</strong></h1>
+  <hr>
+
+  <!-- Textual action description -->
+  <p class="whitespace textbox monospace">{{ action.description }}</p>
+
+</div>
+{% endblock %}

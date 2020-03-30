@@ -12,9 +12,9 @@ from flask import (
 from exceptions import CookieLimit, NoMonster
 
 from mongo import (
-    find_monsters, find_spells, find_conditions, find_one,
+    find_monsters, find_spells, find_conditions, find_actions, find_one,
     find_monsters_with_spell, find_challenge_ratings, find_random_monster,
-    full_text, count, find_random_encounter, find_environments
+    full_text, count, find_random_encounter, find_environments, find_characters
 )
 
 from cookie import (
@@ -104,6 +104,23 @@ def monsters():
     return render_template('monsters.html', monsters=monsters)
 
 
+@app.route('/characters', methods=['GET'])
+def characters():
+    """
+    List all characters
+    """
+
+    # get all monsters
+    characters = find_characters()
+
+    # perform column sort
+    if 'sort' in request.args:
+        characters = characters.sort(request.args['sort'])
+
+    # render our template with results
+    return render_template('characters.html', characters=characters)
+
+
 @app.route('/monster_search', methods=['GET'])
 def monster_search():
     """
@@ -144,6 +161,24 @@ def monster(slug_name):
     # if we do not have a result render error
     return render_template('error.html',
         message='Monster %s not found' % slug_name), 404
+
+
+@app.route('/character/<slug_name>', methods=['GET'])
+def character(slug_name):
+    """
+    Return a character by name
+    """
+
+    # find monsters by slug_name
+    character = find_one('characters', slug_name=slug_name)
+
+    # if we have a result render monster
+    if character:
+        return render_template('character.html', character=character)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Character %s not found' % slug_name), 404
 
 
 @app.route('/spells', methods=['GET'])
@@ -261,6 +296,57 @@ def condition(slug_name):
     # if we do not have a result render error
     return render_template('error.html',
         message='Condition %s not found' % slug_name), 404
+
+
+@app.route('/actions', methods=['GET'])
+def actions():
+    """
+    List all actions
+    """
+
+    # get all actions
+    actions = find_actions()
+
+    # render our template with results
+    return render_template('actions.html', actions=actions)
+
+
+@app.route('/action_search', methods=['GET'])
+def action_search():
+    """
+    List filtered actions
+    """
+
+    # required url params for search
+    search_text = request.args.get('search_text')
+
+    # perform search against all fields
+    actions = full_text('actions', search_text)
+
+    # render our template with results
+    return render_template(
+        'actions.html',
+        search_text=search_text,
+        actions=actions
+    )
+
+
+@app.route('/action/<slug_name>', methods=['GET'])
+def action(slug_name):
+    """
+    Return a action by name
+    """
+
+    # find action by slug_name
+    action = find_one('actions', slug_name=slug_name)
+
+    # if we have a result render monster
+    if action:
+        return render_template('action.html', action=action)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Action %s not found' % slug_name), 404
 
 
 @app.route('/brawl', methods=['GET'])
@@ -405,10 +491,15 @@ def brawl_add_character():
     if not re.search('^[\-|\+]', initiative_modifier):
         initiative_modifier = '+%s' % int(initiative_modifier)
 
+    if 'url' in request.form:
+        url = request.form['url']
+    else:
+        url = None
+
     # handle multiple monsters
     try:
         brawl = add_character(
-            brawl, name, initiative_modifier, armor_class, hit_points)
+            brawl, name, initiative_modifier, armor_class, hit_points, url)
     except CookieLimit:
         return render_template('error.html',
             message='Browser cookie do not support more monsters'), 409

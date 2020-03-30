@@ -1,0 +1,43 @@
+name: Fighter
+slug_name: fighter
+size: Medium
+class: Fighter
+level: 1
+race: Human
+alignment: any alignment
+armor_class: 18
+armor_class_type: '(chain mail, shield)'
+hit_points: 18
+hit_dice: 1d10
+speed: 30 ft.
+strength: 16
+dexterity: 9
+constitution: 15
+intelligence: 13
+wisdom: 11
+charisma: 14
+saving_throws: Str +5, Con +4
+proficiences: +2 proficiency bonus
+skills:  Athletics +5, History +3, Intimidation +4, Perception +2
+senses: 'passive (Perception) 12'
+languages: Common, Orc
+tools: Gaming dice
+armor: All, shields.
+weapons: Simple, martial.
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
+actions:
+   - name: Longsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.'
+   - name: Pike
+     description: 'Two Handed Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 1d10 + 3 piercing damage.'
+   - name: Javelin
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft, or range 30/120 ft., one target. Hit: 1d6 + 3 piercing damage.'
+bonus_actions:
+   - name: Second Wind
+     description: 'Regain 1d10 + 1 hit points.'
+reactions:
+   - name: Protection
+     description: 'Impose disadvantage on an attack against a target within 5 feet of you.'

@@ -1,0 +1,233 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+{{ character.name }}
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/character.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/character.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+  <h1>
+
+    <form action="/brawl_add_character" method="POST">
+    <strong>{{ character.name }}</strong>
+
+    <!-- Begin add character to brawl -->
+      <input type="hidden" name="initiative_modifier" value="{{ character.dexterity|get_ability_modifier  }}">
+      <input type="hidden" name="name" value="{{ character.name }}">
+      <input type="hidden" name="armor_class" value="{{ character.armor_class }}">
+      <input type="hidden" name="hit_points" value="{{ character.hit_points }}">
+      <input type="hidden" name="url" value="/character/{{ character.slug_name }}">
+      <input type="image" width=35 src="{{ url_for('static', filename='images/add.png') }}" border="0" alt="Submit" />
+    </form>
+    <!-- End add character to brawl -->
+
+  </h1>
+
+  <!-- Begin character type -->
+  {{ character.size|title }} {{ character.race|title }} {{ character.class|title }} {{ character.level }}
+  , {{ character.alignment|title }}
+  <hr>
+  <!-- End character type -->
+
+  <!-- Begin character ac, hp, and speed -->
+  <div class="padding">
+    <strong>• Armor Class</strong>: <span>{{ character.armor_class }} {{ character.armor_class_type }}</span><br>
+    <strong>• Hit Points</strong>: <span>{{ character.hit_points }} ({{ character.hit_dice }})</span><br>
+    <strong>• Speed</strong>: <span>{{ character.speed }}</span><br>
+  </div>
+  <hr>
+  <!-- End character ac, hp, and speed -->
+
+  <!-- Begin character attributes -->
+  <table class="tablepadding">
+
+    <thead>
+      <tr>
+        <th><strong>STR</strong></th>
+        <th><strong>DEX</strong></th>
+        <th><strong>CON</strong></th>
+        <th><strong>INT</strong></th>
+        <th><strong>WIS</strong></th>
+        <th><strong>CHA</strong></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><span>{{ character.strength }} ({{ character.strength|get_ability_modifier }})</span></td>
+        <td><span>{{ character.dexterity }} ({{ character.dexterity|get_ability_modifier  }})</span></td>
+        <td><span>{{ character.constitution }} ({{ character.constitution|get_ability_modifier  }})</span></td>
+        <td><span>{{ character.intelligence }} ({{ character.intelligence|get_ability_modifier  }})</span></td>
+        <td><span>{{ character.wisdom }} ({{ character.wisdom|get_ability_modifier  }})</span></td>
+        <td><span>{{ character.charisma }} ({{ character.charisma|get_ability_modifier  }})</span></td>
+      </tr>
+
+    </tbody>
+
+  </table>
+  <hr>
+  <!-- End character attributes -->
+
+  <!-- Start character details -->
+  <div class="padding">
+
+    {% if character.saving_throws %}
+      <strong>• Saving Throws</strong>:
+      <span>{{ character.saving_throws }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.skills %}
+      <strong>• Skills</strong>:
+      <span>{{ character.skills }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.condition_immunities %}
+      <strong>• Condition Immunities</strong>:
+      <span>{{ character.condition_immunities }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.damage_resistances %}
+      <strong>• Resistances</strong>:
+      <span>{{ character.damage_resistances }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.damage_vulnerabilities %}
+      <strong>• Vulnerabilities</strong>:
+      <span>{{ character.damage_vulnerabilities }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.senses %}
+      <strong>• Senses</strong>:
+      <span>{{ character.senses }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.proficiences %}
+      <strong>• Proficiences</strong>:
+      <span>{{ character.proficiences }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.armor %}
+      <strong>• Armor</strong>:
+      <span>{{ character.armor }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.weapons %}
+      <strong>• Weapons</strong>:
+      <span>{{ character.weapons }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.tools %}
+      <strong>• Tools</strong>:
+      <span>{{ character.tools }}</span>
+      <br>
+    {% endif %}
+
+    {% if character.languages %}
+      <strong>• Languages</strong>:
+      <span>{{ character.languages }}</span>
+      <br>
+    {% endif %}
+
+  </div>
+  <hr>
+  <!-- End character details -->
+
+  <!-- Start character special abilities -->
+  {% if character.features %}
+    <h4><strong>Features</strong></h4>
+    {% for feature in character.features %}
+      <strong>• {{ feature.name }}</strong>: <span class="whitespace">{{ feature.description }}</span>
+      <br>
+      {% if not loop.last %}<br>{% endif %}
+    {% endfor %}
+
+  <hr>
+  {% endif %}
+  <!-- End character special abilities -->
+
+  <!-- Start character spells -->
+  {% if character.spell_casting %}
+    {% for spell_casting in character.spell_casting %}
+      <h4><strong>{{ spell_casting.title }}</strong></h4><br>
+
+      <span class="whitespace">{{ spell_casting.top_description }}</span><br>
+
+      <br>
+      {% for spell_list in spell_casting.spell_list %}
+        <div class="spellpadding">
+          • {{ spell_list.title }}:
+        {% for spell in spell_list.spells %}
+          <a href='/spell/{{ spell.slug_name }}'>{{ spell.name|lower }}</a>{% if not loop.last %},{% endif %}
+        {% endfor %}
+        </div>
+      {% endfor %}
+      <br>
+
+      {% if spell_casting.bottom_description %}
+        <span class="whitespace">{{ spell_casting.bottom_description }}</span>
+      {% endif %}
+    {% endfor %}
+
+  <hr>
+  {% endif %}
+  <!-- End character spells -->
+
+  <!-- Start character actions -->
+  {% if character.actions %}
+    <h4><strong>Actions</strong></h4><br>
+
+    {% for action in character.actions %}
+      <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
+      <br><br>
+    {% endfor %}
+    <!-- End character actions -->
+  {% endif %}
+
+  <!-- Start character actions -->
+  {% if character.bonus_actions %}
+    <h4><strong>Bonus Actions</strong></h4><br>
+
+    {% for action in character.bonus_actions %}
+      <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
+      <br><br>
+    {% endfor %}
+    <!-- End character actions -->
+  {% endif %}
+
+  <!-- Start character actions -->
+  {% if character.reactions %}
+    <h4><strong>Reactions</strong></h4><br>
+
+    {% for reaction in character.reactions %}
+      <strong>• {{ reaction.name }}</strong>: <span class="whitespace">{{ reaction.description }}</span>
+      <br><br>
+    {% endfor %}
+    <!-- End character actions -->
+  {% endif %}
+
+</div>
+
+{% endblock %}

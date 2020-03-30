@@ -70,6 +70,21 @@ def find_monsters(**kwargs):
     return find('monsters', **kwargs)
 
 
+def find_actions(**kwargs):
+    """
+    Get all actions with optional keyword arguments
+    """
+
+    return find('actions', **kwargs)
+
+def find_characters(**kwargs):
+    """
+    Get all find_characters with optional keyword arguments
+    """
+
+    return find('characters', **kwargs)
+
+
 def find_random_monster(min_cr=None, max_cr=None, environment=None):
     """
     Find a random monster

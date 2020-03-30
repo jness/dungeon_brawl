@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+actions
+{% endblock %}
+
+
+{% block style %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/actions.css') }}">
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{{ url_for('static', filename='js/actions.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+
+<!-- Begin action search form -->
+<div class="container">
+
+  <form action="/action_search" method="GET">
+
+  <div class="form-row">
+
+    <!-- Search input -->
+    <div class="col-9">
+      <label for="inputName" class="sr-only">Search Text</label>
+      <input id="inputName" class="form-control" type="text" name="search_text"
+        value="{{ search_text }}" placeholder="..." required autofocus>
+    </div>
+
+    <!-- Search button -->
+    <div class="col-3">
+      <button class="btn btn-block btn-outline-primary" type="submit">Search</button>
+    </div>
+
+  </form>
+
+  </div>
+
+</div>
+<hr>
+<!-- End action search form -->
+
+
+<!-- Begin action list -->
+<div class="container">
+
+  <table id="table" class="table table-striped" style="width:100%">
+
+      <tr>
+        <th>Name</th>
+      </tr>
+
+      {% for action in actions %}
+      <tr>
+        <td><a href='/action/{{ action.slug_name }}'>{{ action.name }}</a></td>
+      </tr>
+      {% endfor %}
+
+  </table>
+
+</div>
+<!-- End action list -->
+
+{% endblock %}
