@@ -1,0 +1,58 @@
+name: Fruk
+slug_name: fruk
+portrait: images/fruk.jpg
+size: Medium
+class: Barbarian
+level: 1
+race: Human
+alignment: Chaotic Neutral
+background: Outlander
+armor_class: 14
+armor_class_type: '(unarmored defense)'
+hit_points: 14
+hit_dice: 1d12
+speed: 30 ft. (6 squares)
+strength: 16
+dexterity: 14
+constitution: 15
+intelligence: 9
+wisdom: 13
+charisma: 11
+saving_throws: Str +5, Con +4
+proficiences: +2 proficiency bonus
+skills: Acrobatics +5, Intimidation +2, Perception +3, Survival +3
+senses: 'passive (Perception) 13'
+languages: Common, Orcish
+tools: Muscial instrument (horn)
+armor:  Light armor, medium armor, shields
+weapons: Simple weapons, martial weapons
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
+features:
+   - name: Rage (2)
+     description: |
+      In battle, you fight with primal ferocity. On Your Turn, you can enter a rage as a Bonus Action.
+
+      While raging, you gain the following benefits if you aren't wearing heavy armor:
+
+      • You have advantage on Strength Checks and Strength Saving Throws.
+      • When you make a melee weapon Attack using Strength, you gain a +2 bonus to the damage roll.
+      • You have Resistance to bludgeoning, piercing, and slashing damage.
+
+      Your rage lasts for 1 minute. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't attacked a Hostile creature since your last turn or taken damage since then. You can also end your rage on Your Turn as a Bonus Action.
+   - name: Unarmored Defense
+     description: |
+      While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a Shield and still gain this benefit.
+actions:
+   - name: Greataxe
+     description: 'Two Hand Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d12 + 3 slashing damage.'
+   - name: Handaxe (2)
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one target. Hit: 1d6 + 3 slashing damage.'
+reactions:
+   - name: Opportunity Attack
+     description: You can make an opportunity Attack when a Hostile creature that you can see moves out of your reach.
+equipment_packs:
+  name: Explorer's Pack
+  contents: Backpack, bedroll, mess kit, 10 torches, tinderbox, 10 days of rations, waterskin, and 50 feet of hempen rope.

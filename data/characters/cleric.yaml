@@ -1,65 +1,80 @@
-name: Cleric
-slug_name: cleric
+name: Hernack Orefury
+slug_name: hernack
+portrait: images/hernack.jpg
 size: Medium
 class: Cleric
 level: 1
-race: Human
-alignment: any alignment
-armor_class: 18
-armor_class_type: '(chain mail, shield)'
-hit_points: 9
+race: Mountian Dwarf
+alignment: Lawful Neutral
+background: Guild Artisan
+armor_class: 16
+armor_class_type: '(chain mail)'
+hit_points: 10
 hit_dice: 1d8
-speed: 30 ft.
-strength: 15
+speed: 25 ft. (5 squares)
+strength: 16
 dexterity: 8
-constitution: 13
-intelligence: 10
-wisdom: 16
-charisma: 12
-saving_throws: Wis +5, Cha +3
+constitution: 15
+intelligence: 12
+wisdom: 15
+charisma: 10
+saving_throws: Wis +4, Cha +2
 proficiences: +2 proficiency bonus
-skills: Athletics +4, Insight +5, Medicine +5, Perception +5.
-senses: 'passive (Perception) 15'
-languages: Common
-tools: Navigator’s tools
-armor: All, shields
-weapons: Simple, martial
-damage_resistances: You take 3 less damage from nonmagical weapons dealing bludgeoning, piercing, or slashing damage.
+skills: History +3, Insight +4, Persuasion +2, Religion +3
+senses: 'passive (Perception) 12'
+languages: Common, Dwarvish, Goblin
+tools: Brewer’s supplies, smith's tools
+armor: All armor, shields
+weapons: Simple weapons, martial weapons
+damage_resistances:
 damage_immunities:
 damage_vulnerabilities:
 condition_immunities:
-spell_domain: Tempest Domain
+divine_domain: War Domain
 features:
-   - name: Heavy Armor Master
+   - name: Darkvision
      description: |
-      While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.
+      Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+   - name: Stonecunning
+     description: Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+   - name: War Priest (2)
+     description: |
+      Your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.
 actions:
-   - name: Maul
-     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2d6 + 3 bludgeoning damage.'
-   - name: Longsword
-     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.'
+   - name: Warhammer
+     description: 'Two Handed Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d10 + 3 bludgeoning damage.'
+   - name: Sacred Flame
+     description: 'Ranged Spell Attack: DC 12 Dexterity saving throw, range 60 ft., one target. Hit: 1d8 radiant damage.'
 reactions:
-  - name: Wrath of the Storm
-    description: |
-       Inflict 2d8 lightning or thunder damage on an adjacent creature who hits you (Dexterity save for half damage).
+   - name: Opportunity Attack
+     description: You can make an opportunity Attack when a Hostile creature that you can see moves out of your reach.
 spell_casting:
    - title: Spellcasting
-     top_description: 'You are a divine spellcaster (cleric feature) who uses Wisdom as your spellcasting ability (spell save DC 13; +5 to hit with spell attacks). You have the following spells prepared:'
+     top_description: 'You are a divine spellcaster (cleric feature) who uses Wisdom as your spellcasting ability (spell save DC 12; +4 to hit with spell attacks). You have the following spells prepared:'
      bottom_description: ''
      spell_list:
         - title: Cantrips (at will)
           spells:
+             - name: mending
+               slug_name: mending
              - name: resistance
                slug_name: resistance
-             - name: thaumaturgy
-               slug_name: thaumaturgy
+             - name: sacred flame
+               slug_name: sacred-flame
         - title: 1st level (2 slots)
           spells:
-             - name: shield of faith
-               slug_name: shield-of-faith
              - name: cure wounds
                slug_name: cure-wounds
-             - name: fog cloud
-               slug_name: fog-cloud
-             - name: thunderwave
-               slug_name: thunderwave
+             - name: divine favor
+               slug_name: divine-favor
+             - name: false life
+               slug_name: false-life
+             - name: guiding bolt
+               slug_name: guiding-bolt
+             - name: searing smite
+               slug_name: searing-smite
+             - name: shield of faith
+               slug_name: shield-of-faith
+equipment_packs:
+  name: Explorer's Pack
+  contents: Backpack, bedroll, mess kit, 10 torches, tinderbox, 10 days of rations, waterskin, and 50 feet of hempen rope.

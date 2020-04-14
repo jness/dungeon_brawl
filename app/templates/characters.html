@@ -18,7 +18,6 @@ Characters
 
 {% block content %}
 
-
 <!-- Begin character list -->
 <div class="container">
 
@@ -26,16 +25,16 @@ Characters
 
       <tr>
         <th><a href='?sort=name&search_text={{ search_text }}&search_field={{ search_field }}'>Name</a></th>
-        <th class="d-none d-md-table-cell"><a href='?sort=race&search_text={{ search_text }}&search_field={{ search_field }}'>Race</a></th>
         <th class="d-none d-md-table-cell"><a href='?sort=class&search_text={{ search_text }}&search_field={{ search_field }}'>Class</a></th>
+        <th class="d-none d-md-table-cell"><a href='?sort=race&search_text={{ search_text }}&search_field={{ search_field }}'>Race</a></th>
         <th class="d-none d-md-table-cell"><a href='?sort=level&search_text={{ search_text }}&search_field={{ search_field }}'>Level</a></th>
       </tr>
 
       {% for character in characters %}
       <tr>
         <td><a href='/character/{{ character.slug_name }}'>{{ character.name }}</a></td>
-        <td class="d-none d-md-table-cell">{{ character.race|title }}</td>
         <td class="d-none d-md-table-cell">{{ character.class|title }}</td>
+        <td class="d-none d-md-table-cell">{{ character.race|title }}</td>
         <td class="d-none d-md-table-cell">{{ character.level }}</td>
       </tr>
       {% endfor %}

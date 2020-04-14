@@ -1,0 +1,62 @@
+name: Sir Garrath
+slug_name: garrath
+portrait: images/garrath.jpg
+size: Medium
+class: Paladin
+level: 1
+race: Human
+alignment: Lawful Good
+background: Soldier
+armor_class: 16
+armor_class_type: '(chain mail, shield +2)'
+hit_points: 12
+hit_dice: 1d10
+speed: 30 ft. (6 squares)
+strength: 16
+dexterity: 9
+constitution: 14
+intelligence: 11
+wisdom: 13
+charisma: 15
+saving_throws: Wis +3, Cha +3
+proficiences: +2 proficiency bonus
+skills: Athletics +5, Intimidation +4, Persuasion +4, Relgion +2
+senses: 'passive (Perception) 11'
+languages: Common, Elvish
+tools: Gaming set (dice), Vehicles (land)
+armor: All armor, shields
+weapons: Simple weapons, martial weapons
+damage_resistances:
+damage_immunities:
+damage_vulnerabilities:
+condition_immunities:
+features:
+   - name: Divine Sense (3)
+     description: |
+      The presence of strong evil registers on your Senses like a noxious odor, and powerful good rings like heavenly music in your ears.
+
+      As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any Celestial, fiend, or Undead within 60 feet of you that is not behind total cover.
+
+      Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.
+   - name: Lay of Hands (5 hp)
+     description: |
+      Your blessed touch can heal wounds. You have a pool of Healing power that replenishes when you take a Long Rest. With that pool, you can restore a total number of Hit Points equal to your Paladin level x 5.
+
+      As an action, you can touch a creature and draw power from the pool to restore a number of Hit Points to that creature, up to the maximum amount remaining in your pool.
+
+      Alternatively, you can expend 5 Hit Points from your pool of Healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple Diseases and neutralize multiple Poisons with a single use of Lay on Hands, expending Hit Points separately for each one.
+
+      This feature has no effect on Undead and Constructs.
+actions:
+   - name: Longsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.'
+   - name: Pike
+     description: 'Two Hand Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 1d10 + 3 piercing damage.'
+   - name: Greatsword
+     description: 'Two Hand Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2d6 + 3 slashing damage.'
+reactions:
+   - name: Opportunity Attack
+     description: You can make an opportunity Attack when a Hostile creature that you can see moves out of your reach.
+equipment_packs:
+  name: Explorer's Pack
+  contents: Backpack, bedroll, mess kit, 10 torches, tinderbox, 10 days of rations, waterskin, and 50 feet of hempen rope.

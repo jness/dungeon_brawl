@@ -1,5 +1,6 @@
 __pycache__
 mongo_data/
+.DS_Store
 
 venv/
 env/

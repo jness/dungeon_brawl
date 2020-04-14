@@ -1,43 +1,71 @@
-name: Fighter
-slug_name: fighter
+name: Sariel Silverfrond
+slug_name: sariel
+portrait: images/sariel.jpg
 size: Medium
 class: Fighter
 level: 1
-race: Human
-alignment: any alignment
-armor_class: 18
-armor_class_type: '(chain mail, shield)'
+race: High Elf
+alignment: Chaotic Good
+background: Noble
+armor_class: 15
+armor_class_type: '(chain shirt)'
 hit_points: 12
 hit_dice: 1d10
-speed: 30 ft.
-strength: 16
-dexterity: 9
-constitution: 15
-intelligence: 13
-wisdom: 11
-charisma: 14
-saving_throws: Str +5, Con +4
+speed: 30 ft. (6 squares)
+strength: 8
+dexterity: 16
+constitution: 14
+intelligence: 14
+wisdom: 12
+charisma: 10
+saving_throws: Str +1, Con +4
 proficiences: +2 proficiency bonus
-skills:  Athletics +5, History +3, Intimidation +4, Perception +2
-senses: 'passive (Perception) 12'
-languages: Common, Orc
-tools: Gaming dice
-armor: All, shields.
-weapons: Simple, martial.
+skills: Acrobatics +5, History +4, Insight +3, Perception +3, Persuasion +2
+senses: 'passive (Perception) 13'
+languages: Common, Elvish, Dwarvish, Gnomish
+tools: Gaming set (playing cards)
+armor: All armor, shields
+weapons: Simple weapons, martial weapons
 damage_resistances:
 damage_immunities:
 damage_vulnerabilities:
 condition_immunities:
+features:
+   - name: Darkvision
+     description: |
+      Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+   - name: Keen Senses
+     description: You have proficiency in the Perception skill.
+   - name: Fey Ancestry
+     description: You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+   - name: Trance
+     description: |
+      Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+spell_casting:
+   - title: Spellcasting
+     top_description: 'Your elven heritage grants limit spellcasting which uses Intelligence as your spellcasting ability (spell save DC 12; +4 to hit with spell attacks).'
+     bottom_description: ''
+     spell_list:
+        - title: Cantrips (at will)
+          spells:
+             - name: true strike
+               slug_name: true-strike
 actions:
-   - name: Longsword
-     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 slashing damage.'
-   - name: Pike
-     description: 'Two Handed Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 1d10 + 3 piercing damage.'
-   - name: Javelin
-     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft, or range 30/120 ft., one target. Hit: 1d6 + 3 piercing damage.'
+   - name: Rapier
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d8 + 3 piercing damage.'
+   - name: Shortsword
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 piercing damage.'
+   - name: Dagger (2)
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., or range 20/60 ft., one target. Hit: 1d4 + 3 piercing damage.'
 bonus_actions:
-   - name: Second Wind
+   - name: Second Wind (1)
      description: 'Regain 1d10 + 1 hit points.'
+   - name: Two Weapon Fighting
+     description: |
+      When you take the Attack action with a melee weapon, you can use your bonus action to attack with your off hand melee weapon.
 reactions:
-   - name: Protection
-     description: 'Impose disadvantage on an attack against a target within 5 feet of you.'
+   - name: Opportunity Attack
+     description: You can make an opportunity Attack when a Hostile creature that you can see moves out of your reach.
+equipment_packs:
+  name: Explorer's Pack
+  contents: Backpack, bedroll, mess kit, 10 torches, tinderbox, 10 days of rations, waterskin, and 50 feet of hempen rope.

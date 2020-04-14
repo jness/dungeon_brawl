@@ -1,34 +1,48 @@
-name: Rogue
-slug_name: rogue
-size: Medium
+name: Ander Greenbottle
+slug_name: ander
+portrait: images/ander.jpg
+size: Small
 class: Rogue
 level: 1
-race: Human
-alignment: any alignment
+race: Lightfoot Halfling
+alignment: Neutral
+background: Charlatan
 armor_class: 14
 armor_class_type: '(leather armor)'
 hit_points: 9
 hit_dice: 1d8
-speed: 30 ft.
-strength: 10
+speed: 25 ft. (5 squares)
+strength: 8
 dexterity: 16
-constitution: 15
-intelligence: 14
-wisdom: 13
-charisma: 9
-saving_throws: Dex +5, Int +4
+constitution: 12
+intelligence: 10
+wisdom: 15
+charisma: 14
+saving_throws: Dex +5, Int +2
 proficiences: +2 proficiency bonus
-skills:  Acrobatics +5, Deception +1, Investigation +4, Perception +5, Sleight of Hand +5, Stealth +5
-senses: 'passive (Perception) 15'
-languages: Common, Thieves’ Cant
-tools: Thieves' Tools +4
+skills:  Acrobatics +5, Deception +4, Perception +6, Performance +4, Sleight of Hand +5, Stealth +5, Thieves' Tools +4
+senses: 'passive (Perception) 16'
+languages: Common, Halfling, Thieves’ Cant
+tools: Disguise kit, forgery kit
 armor: Light armor.
-weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords.
+weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords
 damage_resistances:
 damage_immunities:
 damage_vulnerabilities:
 condition_immunities:
 features:
+   - name: Lucky
+     description: |
+       When you roll a 1 on The D20 for an Attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+   - name: Brave
+     description: |
+       You have advantage on Saving Throws against being Frightened.
+   - name: Halfling Nimbleness
+     description: |
+       You can move through the space of any creature that is of a size larger than yours.
+   - name: Naturally Stealthy
+     description: |
+       You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
    - name: Sneak Attack
      description: |
        You know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
@@ -36,12 +50,18 @@ features:
        You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
 actions:
    - name: Shortsword
-     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 bludgeoning damage.'
-   - name: Dagger
-     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60, one target. Hit: 1d6 + 3 piercing damage.'
-   - name: Shortbow
-     description: 'Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 1d6 + 3 piercing damage.'
+     description: 'Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 piercing damage.'
+   - name: Dagger (2)
+     description: 'Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60, one target. Hit: 1d4 + 3 piercing damage.'
+   - name: Shortbow (20)
+     description: 'Two Handed Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 1d6 + 3 piercing damage.'
+reactions:
+   - name: Opportunity Attack
+     description: You can make an opportunity Attack when a Hostile creature that you can see moves out of your reach.
 bonus_actions:
    - name: Two Weapon Fighting
      description: |
       When you take the Attack action with a melee weapon, you can use your bonus action to attack with your off hand melee weapon. You don't add your ability modifier to the damage of the bonus attack.
+equipment_packs:
+  name: Burglar's Pack
+  contents: Backpack, bag of 1,000 ball bearings, crowbar, hammer, 10 pitons, hooded lantern, 2 flasks of oil, tinderbox, 5 days of rations, waterskin, 50 feet of hempen rope

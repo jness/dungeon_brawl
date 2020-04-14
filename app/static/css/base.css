@@ -29,6 +29,14 @@ body {
   line-height: 1.8;
 }
 
+.paddingbottom {
+  padding-bottom: 8px;
+}
+
+.spacein {
+  margin-left: 25px;
+}
+
 .tablepadding td, th {
   padding-right: 30px;
 }

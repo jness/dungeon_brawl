@@ -23,7 +23,14 @@
   <h1>
 
     <form action="/brawl_add_character" method="POST">
-    <strong>{{ character.name }}</strong>
+
+    {% if character.portrait %}
+    <img class="img-thumbnail" width=200px src="{{ url_for('static', filename=character.portrait) }}">
+    <span class="d-block d-sm-none"></span>
+    {% endif %}
+
+    <span class="align-bottom"><strong>{{ character.name }}</strong></span>
+    <input class="align-bottom" type="image" width=45 src="{{ url_for('static', filename='images/add.png') }}" border="0" alt="Submit" />
 
     <!-- Begin add character to brawl -->
       <input type="hidden" name="initiative_modifier" value="{{ character.dexterity|get_ability_modifier  }}">
@@ -31,15 +38,16 @@
       <input type="hidden" name="armor_class" value="{{ character.armor_class }}">
       <input type="hidden" name="hit_points" value="{{ character.hit_points }}">
       <input type="hidden" name="url" value="/character/{{ character.slug_name }}">
-      <input type="image" width=35 src="{{ url_for('static', filename='images/add.png') }}" border="0" alt="Submit" />
+
     </form>
+
     <!-- End add character to brawl -->
 
   </h1>
 
   <!-- Begin character type -->
-  {{ character.size|title }} {{ character.race|title }} {{ character.class|title }} {{ character.level }}
-  , {{ character.alignment|title }}
+  {{ character.size|title }} {{ character.race|title }} <strong>{{ character.class|title }} {{ character.level }}</strong> 
+  , {{ character.alignment|title }} ({{ character.background|title}})
   <hr>
   <!-- End character type -->
 
@@ -120,9 +128,12 @@
       <span>{{ character.senses }}</span>
       <br>
     {% endif %}
+    <hr>
+
+    <h4><strong>Proficiencies</strong></h4>
 
     {% if character.proficiences %}
-      <strong>• Proficiences</strong>:
+      <strong>• Proficiency Bonus</strong>:
       <span>{{ character.proficiences }}</span>
       <br>
     {% endif %}
@@ -140,7 +151,7 @@
     {% endif %}
 
     {% if character.tools %}
-      <strong>• Tools</strong>:
+      <strong>• Tool</strong>:
       <span>{{ character.tools }}</span>
       <br>
     {% endif %}
@@ -153,22 +164,23 @@
 
   </div>
 
-  {% if character.spell_domain %}
-  <strong>• Spell Domain</strong>:
-  <span>{{ character.spell_domain }}</span>
-  <br>
-  {% endif %}
-
   <hr>
   <!-- End character details -->
+
+  <!-- Start character equipment_packs -->
+  {% if character.equipment_packs %}
+    <h4><strong>{{ character.equipment_packs.name }}</strong></h4>
+    <div class="whitespace spacein paddingbottom">• {{ character.equipment_packs.contents }}</div>
+    <!-- End character equipment_packs -->
+    <hr>
+  {% endif %}
 
   <!-- Start character special abilities -->
   {% if character.features %}
     <h4><strong>Features</strong></h4>
     {% for feature in character.features %}
-      <strong>• {{ feature.name }}</strong>: <span class="whitespace">{{ feature.description }}</span>
-      <br>
-      {% if not loop.last %}<br>{% endif %}
+      <div class="padding toppadding"><strong>• {{ feature.name }}</strong></div>
+      <div class="whitespace spacein paddingbottom">{{ feature.description }}</div>
     {% endfor %}
 
   <hr>
@@ -184,6 +196,7 @@
       <span class="whitespace">{{ spell_casting.top_description }}</span><br>
 
       <br>
+
       {% for spell_list in spell_casting.spell_list %}
         <div class="spellpadding">
           • {{ spell_list.title }}:
@@ -199,39 +212,58 @@
       {% endif %}
     {% endfor %}
 
+    {% if character.arcane_tradition %}
+    <strong>Arcane Tradition</strong>:
+    <span>{{ character.arcane_tradition }}</span>
+    <br><br>
+    {% endif %}
+
+    {% if character.divine_domain %}
+    <strong>Divine Domain</strong>:
+    <span>{{ character.divine_domain }}</span>
+    <br><br>
+    {% endif %}
+
+    {% if character.bard_college %}
+    <strong>Bard College</strong>:
+    <span>{{ character.bard_college }}</span>
+    <br><br>
+    {% endif %}
+
   <hr>
   {% endif %}
   <!-- End character spells -->
 
   <!-- Start character actions -->
   {% if character.actions %}
-    <h4><strong>Actions</strong></h4><br>
+    <h4><strong>Actions</strong></h4>
 
     {% for action in character.actions %}
-      <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
-      <br><br>
+      <div class="padding"><strong>• {{ action.name }}</strong></div>
+      <div class="whitespace spacein paddingbottom">{{ action.description }}</div>
     {% endfor %}
+    <br>
     <!-- End character actions -->
   {% endif %}
 
   <!-- Start character actions -->
   {% if character.bonus_actions %}
-    <h4><strong>Bonus Actions</strong></h4><br>
+    <h4><strong>Bonus Actions</strong></h4>
 
     {% for action in character.bonus_actions %}
-      <strong>• {{ action.name }}</strong>: <span class="whitespace">{{ action.description }}</span>
-      <br><br>
+      <div class="padding"><strong>• {{ action.name }}</strong></div>
+      <div class="whitespace spacein paddingbottom">{{ action.description }}</div>
     {% endfor %}
     <!-- End character actions -->
+    <br>
   {% endif %}
 
   <!-- Start character actions -->
   {% if character.reactions %}
-    <h4><strong>Reactions</strong></h4><br>
-
+    <h4><strong>Reactions</strong></h4>
     {% for reaction in character.reactions %}
-      <strong>• {{ reaction.name }}</strong>: <span class="whitespace">{{ reaction.description }}</span>
-      <br><br>
+      <div class="padding"><strong>• {{ reaction.name }}</strong></div>
+      <div class="whitespace spacein paddingbottom">{{ reaction.description }}</div>
     {% endfor %}
     <!-- End character actions -->
   {% endif %}
