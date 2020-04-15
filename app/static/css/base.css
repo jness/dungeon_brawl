@@ -10,6 +10,15 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
+.collapse-title {
+  color: #212529;
+}
+
+.collapse-title:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
 .whitespace {
     white-space: pre-wrap;
 }
