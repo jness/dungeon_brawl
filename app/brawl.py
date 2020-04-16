@@ -4,8 +4,6 @@ from string import ascii_uppercase
 
 from slugify import slugify
 
-from exceptions import CookieLimit
-
 
 def remove_monsters(brawl):
     """
@@ -101,10 +99,6 @@ def add_monsters(brawl, monster, quantity):
     Add monsters to brawl
     """
 
-    # limit brawl size
-    if len(brawl) + quantity > 6:
-        raise CookieLimit('Browser cookie do not support more monsters')
-
     # need to import within function....
     from app import get_ability_modifier
 
@@ -150,10 +144,6 @@ def add_character(brawl, name, initiative_modifier, armor_class, hit_points, url
     """
     Add character to brawl
     """
-
-    # limit brawl size
-    if len(brawl) + 1 > 10:
-        raise CookieLimit('Browser cookie do not support more monsters')
 
     # get a unique identifier for monster
     identifier = get_next_character_identifier(brawl)
@@ -284,11 +274,15 @@ def update_monster(
             # we should increase current hits
             if re.search('^\+', hit_points):
                 hit_points = int(monster['hit_points']) + int(hit_points)
+                if hit_points > monster['max_hit_points']:
+                    hit_points = monster['max_hit_points']
 
             # if posted hit_points starts with a - operator
             # we should decrease current hits
             elif re.search('^\-', hit_points):
                 hit_points = int(monster['hit_points']) + int(hit_points)
+                if hit_points < 0:
+                    hit_points = 0
 
             # else if hit points is a number we should set hits points
             else:

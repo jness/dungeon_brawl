@@ -23,8 +23,3 @@ function roll_dice(number) {
 $('#dice').on('hidden.bs.modal', function () {
     clear_dice();
 });
-
-$(".modal").on("hidden.bs.modal", function(){
-    frame = document.getElementById("sheet");
-    frame.contentWindow.history.back()
-});

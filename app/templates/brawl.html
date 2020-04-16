@@ -59,7 +59,9 @@ Brawl
       <th>Name</th>
       <th class="d-none d-md-table-cell">Armor</th>
       <th class="d-none d-md-table-cell">Hit Points</th>
+      {% if admin %}
       <th class="d-none d-md-table-cell"><center>Notes</center></th>
+      {% endif %}
       <th class="d-none d-md-table-cell"><center>Conditions</center></th>
 
       {% if admin %}
@@ -76,7 +78,7 @@ Brawl
         <div class="modal-content">
 
           <div class="modal-body modal-xl modal-charasheet">
-            <iframe id="sheet" width=100% height=100% frameborder="0" src="{{ monster.url|replace("/character", "/raw_character") }}"></iframe>
+            <iframe id="iframe" width=100% height=100% frameborder="0" src="{{ monster.url|replace("/character", "/raw_character") }}"></iframe>
           </div>
 
         </div>
@@ -110,29 +112,26 @@ Brawl
           {{ monster.name }}
           {% endif %}
         {% else %}
-          {% if admin %}
-          <a href='/monster/{{ monster.slug_name }}'>
+          <a {% if admin %}href='/monster/{{ monster.slug_name }}'{% endif %}>
             <svg height="35" width="20">
               <circle cx="10" cy="17" r="5" fill="#{{ monster.color }}" />
             </svg>
             {{ monster.name }}
           </a>
-          {% else %}
-          {{ monster.name }}
-          {% endif %}
         {% endif %}
       </td>
 
-      <td class="d-none d-md-table-cell">{{ monster.armor_class }}</td>
+      <td class="d-none d-md-table-cell">{% if not admin and not monster.is_character %}{% else %}{{ monster.armor_class }}{% endif %}</td>
 
       <td class="d-none d-md-table-cell">
         <span data-toggle="modal" {% if admin %}data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit"{% endif %}>
           <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ (monster.hit_points/monster.max_hit_points*100)}}%" aria-valuenow="{{ monster.hit_points }}" aria-valuemin="0" aria-valuemax="{{ monster.max_hit_points }}">&nbsp;{{ monster.hit_points }} / {{ monster.max_hit_points }}</div>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ (monster.hit_points/monster.max_hit_points*100)}}%" aria-valuenow="{{ monster.hit_points }}" aria-valuemin="0" aria-valuemax="{{ monster.max_hit_points }}">{% if not admin and not monster.is_character %}{% else %}&nbsp;{{ monster.hit_points }} / {{ monster.max_hit_points }}{% endif %}</div>
           </div>
         </span>
       </td>
 
+      {% if admin %}
       <td class="d-none d-md-table-cell">
         <center>
           {% if monster.notes %}<img data-toggle="popover"
@@ -141,6 +140,7 @@ Brawl
           {% endif %}
         </center>
       </td>
+      {% endif %}
 
       <td class="d-none d-md-table-cell">
         <center>
