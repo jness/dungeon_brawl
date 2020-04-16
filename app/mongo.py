@@ -2,6 +2,8 @@ from pymongo import MongoClient
 
 from exceptions import NoMonster, NoEncounter
 
+from flask import url_for, redirect
+
 
 # create our Mongo connection
 mongo = MongoClient('mongo', username='root', password='password')
@@ -77,6 +79,7 @@ def find_actions(**kwargs):
 
     return find('actions', **kwargs)
 
+
 def find_characters(**kwargs):
     """
     Get all find_characters with optional keyword arguments
@@ -105,7 +108,6 @@ def find_random_monster(min_cr=None, max_cr=None, environment=None):
     if environment:
         query = {'$match': {'environments': environment}}
         filters.insert(0, query)
-
 
     collection = getattr(database, 'monsters')
     monster = collection.aggregate(filters)
@@ -190,3 +192,46 @@ def find_random_encounter():
         return encounter.next()
     except StopIteration:
         raise NoEncounter('No encounter with challage rating found')
+
+
+def save_brawl(brawl):
+    """
+    Save the state of brawl
+    """
+
+    brawl_id = 'test'
+    collection = getattr(database, 'brawl')
+    collection.update_one(
+        {'_id': brawl_id}, {'$set': {'cookie': brawl}}, upsert=True
+    )
+
+    #brawl_reload()
+    return redirect(url_for('brawl'))
+
+
+def get_brawl():
+    """
+    Save the state of brawl
+    """
+
+    brawl_id = 'test'
+    collection = getattr(database, 'brawl')
+    res = collection.find_one({'_id': brawl_id})
+    if not res:
+        brawl = []
+    else:
+        brawl = res['cookie']
+    return brawl
+
+
+def clear_brawl():
+    """
+    Clear the brawl
+    """
+
+    brawl_id = 'test'
+    collection = getattr(database, 'brawl')
+    brawl = collection.delete_one({'_id': brawl_id})
+
+    #brawl_reload()
+    return redirect(url_for('brawl'))

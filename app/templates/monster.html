@@ -25,7 +25,9 @@
     <strong>{{ monster.name }}</strong>
 
     <!-- Begin add monster to brawl -->
+    {% if admin %}
     <a data-toggle="modal" data-target="#how_many"><img width=35 src='{{ url_for('static', filename='images/add.png') }}'></a>
+    {% endif %}
     <!-- End add monster to brawl -->
 
   </h1>

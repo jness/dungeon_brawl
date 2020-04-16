@@ -1,6 +1,13 @@
 
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover({html:true});
+
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+    socket.on('my_response', function(msg) {
+        location.reload(true);
+    });
+
 });
 
 $(document).on('click', function (e) {

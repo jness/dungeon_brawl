@@ -40,6 +40,24 @@ def remove_initative(brawl):
     return brawl
 
 
+def remove_turn(brawl):
+    """
+    Removes turn from brawl
+    """
+
+    # remove the initative key from monsters
+    monsters = [
+        {k: v for k, v in m.items()
+            if k not in {'my_turn'}} for m in brawl
+    ]
+
+    # update brawl's monster list
+    brawl = monsters
+
+    # return modified brawl
+    return brawl
+
+
 def get_next_monster_identifier(brawl):
     """
     Get next identifier from brawl

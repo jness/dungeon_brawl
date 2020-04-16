@@ -48,6 +48,12 @@ Once you've started the containers, use `docker-compose exec` to run module popu
 $ docker-compose exec web scripts/populate.py firestorm_peak
 ```
 
+## Connecting to Running Database
+
+```
+ $ docker-compose exec mongo mongo -u root -p password --authenticationDatabase admin
+```
+
 ## Purge Data
 
 If you wish to populate a new **module**, first purge the existing data:

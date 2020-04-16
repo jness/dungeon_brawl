@@ -8,22 +8,22 @@ from flask import (
     Flask, render_template, request, redirect, url_for
 )
 
+from flask_socketio import SocketIO, emit
+
 # local modules
 from exceptions import CookieLimit, NoMonster
 
 from mongo import (
     find_monsters, find_spells, find_conditions, find_actions, find_one,
     find_monsters_with_spell, find_challenge_ratings, find_random_monster,
-    full_text, count, find_random_encounter, find_environments, find_characters
-)
-
-from cookie import (
-    get_brawl_cookie, clear_brawl_cookie, set_brawl_cookie
+    full_text, count, find_random_encounter, find_environments,
+    find_characters, save_brawl, get_brawl, clear_brawl
 )
 
 from brawl import (
     remove_monsters, remove_initative, add_monsters, add_character,
-    roll_initiative, set_turn, remove_monster, get_conditions, update_monster
+    roll_initiative, set_turn, remove_monster, get_conditions, update_monster,
+    remove_turn
 )
 
 
@@ -32,7 +32,24 @@ from brawl import (
 #
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'BRAWL!'
+socketio = SocketIO(app)
 
+
+# @socketio.on('my event')
+# def socket_message(message):
+#     print('Message sent')
+#     emit('my response', {'data': message['data']})
+#
+#
+# @socketio.on('connect')
+# def socket_connect():
+#     print('Client connected')
+#
+#
+# @socketio.on('disconnect')
+# def socket_disconnect():
+#     print('Client disconnected')
 
 #
 # add a few custom jinja filters
@@ -82,6 +99,17 @@ def is_encounters_enabled():
 
     return dict(is_encounters_enabled=False)
 
+
+@app.context_processor
+def is_admin():
+    """
+    Check if user is admin
+    """
+
+    if '127.0.0.1' == request.host.split(':')[0]:
+        return dict(admin=True)
+
+    return dict(admin=False)
 
 #
 # all web routes
@@ -181,6 +209,24 @@ def character(slug_name):
         message='Character %s not found' % slug_name), 404
 
 
+@app.route('/raw_character/<slug_name>', methods=['GET'])
+def raw_character(slug_name):
+    """
+    Return a raw character by name
+    """
+
+    # find monsters by slug_name
+    character = find_one('characters', slug_name=slug_name)
+
+    # if we have a result render monster
+    if character:
+        return render_template('raw_character.html', character=character)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Character %s not found' % slug_name), 404
+
+
 @app.route('/spells', methods=['GET'])
 def spells():
     """
@@ -241,6 +287,29 @@ def spell(slug_name):
 
         # render our template with results
         return render_template('spell.html', spell=spell, monsters=monsters)
+
+    # if we do not have a result render error
+    return render_template('error.html',
+        message='Spell %s not found' % slug_name), 404
+
+
+@app.route('/raw_spell/<slug_name>', methods=['GET'])
+def raw_spell(slug_name):
+    """
+    Return a raw_spell by name
+    """
+
+    # find spell by slug_name
+    spell = find_one('spells', slug_name=slug_name)
+
+    # if we have a result render spell
+    if spell:
+
+        # get list of monsters with spell
+        monsters = find_monsters_with_spell(slug_name)
+
+        # render our template with results
+        return render_template('raw_spell.html', spell=spell, monsters=monsters)
 
     # if we do not have a result render error
     return render_template('error.html',
@@ -356,7 +425,7 @@ def brawl():
     """
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # get list of monster challenge_ratings
     cr = find_challenge_ratings()
@@ -366,7 +435,7 @@ def brawl():
 
     # render brawl
     return render_template('brawl.html', brawl=brawl, challenge_rating=cr,
-        environments=environments)
+        environments=environments, async_mode=socketio.async_mode)
 
 
 @app.route('/brawl_clear', methods=['GET'])
@@ -376,7 +445,8 @@ def brawl_clear():
     """
 
     # clear our brawl cookie
-    return clear_brawl_cookie()
+    socketio.emit('my_response', {'data': 'State changed'})
+    return clear_brawl()
 
 
 @app.route('/brawl_reset', methods=['GET'])
@@ -386,14 +456,16 @@ def brawl_reset():
     """
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # remove monsters and initative from brawl
     brawl = remove_monsters(brawl)
     brawl = remove_initative(brawl)
+    brawl = remove_turn(brawl)
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_add_monster', methods=['GET'])
@@ -407,7 +479,7 @@ def brawl_add_monster():
     quantity = int(request.args.get('quantity', 1))
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # perform a search
     monster = find_one('monsters', slug_name=slug_name)
@@ -423,7 +495,8 @@ def brawl_add_monster():
                 message='Browser cookie do not support more monsters'), 409
 
         # render brawl
-        return set_brawl_cookie(brawl)
+        socketio.emit('my_response', {'data': 'State changed'})
+        return save_brawl(brawl)
 
     # if we do not have a result render error
     return render_template('error.html',
@@ -449,7 +522,7 @@ def brawl_add_random_monster():
         environment = request.args.get('environment')
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # handle multiple monsters
     for _ in range(quantity):
@@ -469,7 +542,8 @@ def brawl_add_random_monster():
                 message='Browser cookie do not support more monsters'), 409
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_add_character', methods=['POST'])
@@ -485,7 +559,7 @@ def brawl_add_character():
     hit_points = int(request.form['hit_points'])
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # if - or + operator not added to initiative, set it positive modifier
     if not re.search('^[\-|\+]', initiative_modifier):
@@ -505,7 +579,8 @@ def brawl_add_character():
             message='Browser cookie do not support more monsters'), 409
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_roll_initiative', methods=['GET'])
@@ -515,13 +590,14 @@ def brawl_roll_initiative():
     """
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # roll initiaive
     brawl = roll_initiative(brawl)
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_update_monster', methods=['POST'])
@@ -545,7 +621,7 @@ def brawl_update_monster():
         initiative = int(initiative)
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # update monster
     brawl = update_monster(
@@ -553,7 +629,8 @@ def brawl_update_monster():
         notes, conditions, color)
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_remove_monster', methods=['GET'])
@@ -566,13 +643,14 @@ def brawl_remove_monster():
     identifier = request.args['identifier']
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # roll initiaive
     brawl = remove_monster(brawl, identifier)
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/brawl_set_turn', methods=['POST'])
@@ -585,13 +663,14 @@ def brawl_set_turn():
     identifier = request.form['identifier']
 
     # load brawl from cookie
-    brawl = get_brawl_cookie(request)
+    brawl = get_brawl()
 
     # roll initiaive
     brawl = set_turn(brawl, identifier)
 
     # render brawl
-    return set_brawl_cookie(brawl)
+    socketio.emit('my_response', {'data': 'State changed'})
+    return save_brawl(brawl)
 
 
 @app.route('/encounters', methods=['GET'])
@@ -631,4 +710,5 @@ def encounter(slug_name):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    #app.run(host="0.0.0.0", debug=True)
+    socketio.run(app, host="0.0.0.0", debug=True)

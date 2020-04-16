@@ -1,0 +1,65 @@
+<!doctype html>
+
+<head>
+<title>{% block title %}{% endblock %}</title>
+
+<!-- enable mobile friendly views -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootswatch.theme.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+
+<!-- better monospace font -->
+<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/spell.css') }}">
+<script src="{{ url_for('static', filename='js/spell.js') }}"></script>
+
+<style>
+body {
+  padding-top: 25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Spell heading -->
+  <h1><strong>{{ spell.name }}</strong></h1>
+
+  {% if spell.level == "0th-level" %}Cantrip{% else %}{{ spell.level }}{% endif %}, {{ spell.school }} -
+  ({% for class in spell.classes %}{{ class|title }}{% if not loop.last %}, {% endif %}{% endfor %})
+  <hr>
+
+  <!-- Expected spell attributes -->
+
+  <strong>Range</strong>: <span>{{ spell.range }}</span><br>
+  <strong>Duration</strong>: <span>{{ spell.duration }}</span><br>
+  <strong>Casting Time</strong>: <span>{{ spell.casting_time }}</span><br>
+  <strong>Components</strong>: <span>{{ spell.components }}</span><br>
+
+  <hr>
+
+  <!-- Textual spell description -->
+  <h4><strong>Description</strong></h4>
+  <p class="whitespace textbox monospace">{{ spell.description }}</p>
+
+</div>
+
+</body>
+
+<!-- scripts -->
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+{% block javascript %}{% endblock %}
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/base.js') }}"></script>
+
+</body>
+</html>

@@ -19,6 +19,7 @@ Brawl
 
 {% block content %}
 
+{% if admin %}
 <!-- Begin brawl buttons -->
 <div class="container">
 
@@ -45,7 +46,7 @@ Brawl
 </div>
 <br>
 <!-- End brawl buttons -->
-
+{% endif %}
 
 <div class="container">
 
@@ -60,41 +61,72 @@ Brawl
       <th class="d-none d-md-table-cell">Hit Points</th>
       <th class="d-none d-md-table-cell"><center>Notes</center></th>
       <th class="d-none d-md-table-cell"><center>Conditions</center></th>
+
+      {% if admin %}
       <th><center>Edit</center></th>
+      {% endif %}
     </tr>
 
     {% for monster in brawl %}
+
+    <div class="modal fade" id="iframe_{{ monster.slug_name}}" tabindex="-1" role="dialog"
+      aria-labelledby="iframe_{{ monster.slug_name}}" aria-hidden="true">
+
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body modal-xl modal-charasheet">
+            <iframe id="sheet" width=100% height=100% frameborder="0" src="{{ monster.url|replace("/character", "/raw_character") }}"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <tr>
       <td>
+
+        {% if admin %}
         <form action="/brawl_set_turn" method="POST">
           <input name="identifier" value="{{ monster.identifier }}"
-            type="radio" {% if monster.my_turn == true %}checked="checked"{% endif %}>
+            type="radio" {% if monster.my_turn == true %}checked="checked disabled"{% endif %}>
         </form>
+        {% else %}
+          {% if monster.my_turn == true %}
+            <svg height="15" width="15">
+              <circle cx="10" cy="8" r="5" fill="black" />
+            </svg>
+          {% endif %}
+        {% endif %}
       </td>
 
-      <td><span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">{{ monster.initiative }}</span></td>
+      <td><span data-toggle="modal" {% if admin %}data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit"{% endif %}>{{ monster.initiative }}</span></td>
 
       <td>
         {% if monster.is_character %}
           {% if monster.url %}
-          <a href="{{ monster.url }}">{{ monster.name }}</a>
+          <a href="#" data-toggle="modal" data-target="#iframe_{{ monster.slug_name}}">{{ monster.name }}</a>
           {% else %}
           {{ monster.name }}
           {% endif %}
         {% else %}
+          {% if admin %}
           <a href='/monster/{{ monster.slug_name }}'>
             <svg height="35" width="20">
               <circle cx="10" cy="17" r="5" fill="#{{ monster.color }}" />
             </svg>
             {{ monster.name }}
           </a>
+          {% else %}
+          {{ monster.name }}
+          {% endif %}
         {% endif %}
       </td>
 
       <td class="d-none d-md-table-cell">{{ monster.armor_class }}</td>
 
       <td class="d-none d-md-table-cell">
-        <span data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">
+        <span data-toggle="modal" {% if admin %}data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit"{% endif %}>
           <div class="progress">
             <div class="progress-bar bg-danger" role="progressbar" style="width: {{ (monster.hit_points/monster.max_hit_points*100)}}%" aria-valuenow="{{ monster.hit_points }}" aria-valuemin="0" aria-valuemax="{{ monster.max_hit_points }}">&nbsp;{{ monster.hit_points }} / {{ monster.max_hit_points }}</div>
           </div>
@@ -119,6 +151,7 @@ Brawl
         </center>
       </td>
 
+      {% if admin %}
       <td>
         <center>
           <a data-toggle="modal" data-target="#{{ monster.slug_name}}_{{ monster.identifier }}_edit">
@@ -126,6 +159,7 @@ Brawl
           </a>
         </center>
       </td>
+      {% endif %}
 
     </tr>
 
@@ -133,7 +167,6 @@ Brawl
 
   </table>
   <!-- End brawl -->
-
 
   <div class="modal fade" id="confirm_reset" tabindex="-1" role="dialog"
     aria-labelledby="confirm_reset" aria-hidden="true">
