@@ -19,7 +19,6 @@ Some of the application's major features include:
 
 ![alt text](https://i.imgur.com/2du0tY7.png")
 
-A demo of the application can be viewed here, this is as long as my [RaspberryPi](https://nessy.info/post/2023-01-21-running-dungeon-brawl-on-localhost/) keeps up: [https://dungeonbrawl.ngrok.io/](https://dungeonbrawl.ngrok.io/)
 
 ## Requirements
 
