@@ -26,7 +26,7 @@ collections = database.list_collection_names()
 
 # get a list of module specific monsters
 with open('modules/%s/monsters.yaml' % module) as f:
-    module_monsters = yaml.load(f.read())
+    module_monsters = yaml.safe_load(f.read())
 
 
 def populate(collection_name):
@@ -51,7 +51,7 @@ def populate(collection_name):
             with open(file_path) as f:
 
                 # load json file into python dictionary
-                document = yaml.load(f.read())
+                document = yaml.safe_load(f.read())
 
                 # if we are acting on monsters collection we need
                 # to compare against our module specific monsters,
